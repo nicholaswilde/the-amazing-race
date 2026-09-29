@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 15,
+  "fandom_title": "The_Amazing_Race_15",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_15",
+  "infobox": {
+    "continents_visited": 3,
+    "countries_visited": 9,
+    "cities_visited": 20,
+    "distance_str": "25,000 mi (40,233 km)",
+    "starting_line": "Los Angeles,",
+    "finish_line": "Las Vegas,",
+    "filming_dates": "July 18, 2009 - August 7, 2009",
+    "runners_up": "Sam & Dan<br/>Brian & Ericka"
+  },
+  "wikitext_length": 18420
+}

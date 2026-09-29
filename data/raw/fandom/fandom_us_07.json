@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 7,
+  "fandom_title": "The_Amazing_Race_7",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_7",
+  "infobox": {
+    "continents_visited": 5,
+    "countries_visited": 10,
+    "cities_visited": 25,
+    "distance_str": "40,000 mi (64,000 km)",
+    "starting_line": "Long Beach,",
+    "finish_line": "Fort Lauderdale,",
+    "filming_dates": "November 20, 2004 - December 19, 2004",
+    "runners_up": "Rob & Amber<br />Ron & Kelly"
+  },
+  "wikitext_length": 13461
+}

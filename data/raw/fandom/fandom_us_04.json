@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 4,
+  "fandom_title": "The_Amazing_Race_4",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_4",
+  "infobox": {
+    "continents_visited": 4,
+    "countries_visited": 9,
+    "cities_visited": 24,
+    "distance_str": "44,000 mi (71,000 km)",
+    "starting_line": "Los Angeles,",
+    "finish_line": "Phoenix, Arizona|Phoenix,",
+    "filming_dates": "January 18, 2003 - February 14, 2003",
+    "runners_up": "Kelly & Jon<br/>David & Jeff"
+  },
+  "wikitext_length": 14850
+}

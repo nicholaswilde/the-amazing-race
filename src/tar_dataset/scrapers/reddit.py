@@ -73,7 +73,9 @@ class RedditScraper:
             logger.error("Pullpush search failed for query '%s': %s", query, exc)
             return []
 
-    def fetch_comments_pullpush(self, link_id: str, limit: int = 20) -> list[dict[str, Any]]:
+    def fetch_comments_pullpush(
+        self, link_id: str, limit: int = 20
+    ) -> list[dict[str, Any]]:
         """Fetch comments for a submission via Pullpush."""
         params = {
             "link_id": link_id,
@@ -87,13 +89,15 @@ class RedditScraper:
             data = resp.json()
             comments = []
             for item in data.get("data", []):
-                comments.append({
-                    "id": item.get("id"),
-                    "author": item.get("author", "[deleted]"),
-                    "body": item.get("body", ""),
-                    "score": item.get("score", 0),
-                    "created_utc": item.get("created_utc"),
-                })
+                comments.append(
+                    {
+                        "id": item.get("id"),
+                        "author": item.get("author", "[deleted]"),
+                        "body": item.get("body", ""),
+                        "score": item.get("score", 0),
+                        "created_utc": item.get("created_utc"),
+                    }
+                )
             return comments
         except Exception as exc:
             logger.warning("Could not fetch comments for post %s: %s", link_id, exc)
@@ -107,7 +111,9 @@ class RedditScraper:
         save: bool = True,
     ) -> list[RedditDiscussion]:
         """Scrape episode discussion threads and save to raw data."""
-        logger.info("Searching Reddit r/TheAmazingRace for '%s' (limit=%d)...", query, limit)
+        logger.info(
+            "Searching Reddit r/TheAmazingRace for '%s' (limit=%d)...", query, limit
+        )
         posts = self.search_discussions_pullpush(query=query, limit=limit)
         results: list[RedditDiscussion] = []
 
@@ -130,7 +136,10 @@ class RedditScraper:
                 score=p.get("score", 0),
                 num_comments=p.get("num_comments", 0),
                 created_utc=str(p.get("created_utc", "")),
-                url=p.get("full_link", f"https://reddit.com/r/TheAmazingRace/comments/{post_id}"),
+                url=p.get(
+                    "full_link",
+                    f"https://reddit.com/r/TheAmazingRace/comments/{post_id}",
+                ),
                 selftext=p.get("selftext"),
                 comments=comments,
             )

@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 16,
+  "fandom_title": "The_Amazing_Race_16",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_16",
+  "infobox": {
+    "continents_visited": 5,
+    "countries_visited": 9,
+    "cities_visited": 24,
+    "distance_str": "40,000 mi (64,000 km)",
+    "starting_line": "Vista Hermosa Natural Park, California",
+    "finish_line": "San Francisco, California",
+    "filming_dates": "November 28, 2009 - December 20, 2009",
+    "runners_up": "Jet & Cord<br/>Brent & Caite"
+  },
+  "wikitext_length": 15408
+}

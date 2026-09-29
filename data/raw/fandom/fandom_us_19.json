@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 19,
+  "fandom_title": "The_Amazing_Race_19",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_19",
+  "infobox": {
+    "continents_visited": 5,
+    "countries_visited": 10,
+    "cities_visited": 20,
+    "distance_str": "35,000 mi (56,000 km)",
+    "starting_line": "Hacienda Heights, California|Hacienda Heights,",
+    "finish_line": "Swan House, Georgia",
+    "filming_dates": "June 18, 2011 - July 10, 2011",
+    "runners_up": "Jeremy & Sandy<br/>Amani & Marcus"
+  },
+  "wikitext_length": 16608
+}

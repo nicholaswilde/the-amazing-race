@@ -86,7 +86,9 @@ class WikipediaScraper:
         self.raw_dir = Path(raw_dir)
         self.raw_dir.mkdir(parents=True, exist_ok=True)
         self.client = httpx.Client(
-            headers={"User-Agent": "TheAmazingRaceDataset/1.0 (https://github.com/nicholaswilde/the-amazing-race)"},
+            headers={
+                "User-Agent": "TheAmazingRaceDataset/1.0 (https://github.com/nicholaswilde/the-amazing-race)"
+            },
             timeout=30.0,
         )
 
@@ -135,21 +137,35 @@ class WikipediaScraper:
                 key = clean_text(th.get_text()).lower()
                 val = clean_text(td.get_text())
                 if "teams" in key:
-                    data["n_teams"] = int(re.search(r"\d+", val).group(0)) if re.search(r"\d+", val) else None
+                    data["n_teams"] = (
+                        int(re.search(r"\d+", val).group(0))
+                        if re.search(r"\d+", val)
+                        else None
+                    )
                 elif "winner" in key:
                     data["winners"] = val
                 elif "legs" in key:
-                    data["n_legs"] = int(re.search(r"\d+", val).group(0)) if re.search(r"\d+", val) else None
+                    data["n_legs"] = (
+                        int(re.search(r"\d+", val).group(0))
+                        if re.search(r"\d+", val)
+                        else None
+                    )
                 elif "distance" in key:
                     data["distance_raw"] = val
                     m_mi = re.search(r"([\d,]+)\s*(?:mi|miles)", val, re.IGNORECASE)
-                    m_km = re.search(r"([\d,]+)\s*(?:km|kilometers)", val, re.IGNORECASE)
+                    m_km = re.search(
+                        r"([\d,]+)\s*(?:km|kilometers)", val, re.IGNORECASE
+                    )
                     if m_mi:
                         data["distance_miles"] = float(m_mi.group(1).replace(",", ""))
                     if m_km:
                         data["distance_km"] = float(m_km.group(1).replace(",", ""))
                 elif "episodes" in key:
-                    data["n_episodes"] = int(re.search(r"\d+", val).group(0)) if re.search(r"\d+", val) else None
+                    data["n_episodes"] = (
+                        int(re.search(r"\d+", val).group(0))
+                        if re.search(r"\d+", val)
+                        else None
+                    )
                 elif "filming" in key:
                     data["filming_dates"] = val
                 elif "release" in key or "broadcast" in key:
@@ -165,11 +181,23 @@ class WikipediaScraper:
 
         header = [h.lower() for h in expanded[0]]
         # Find column indices
-        name_idx = next((i for i, h in enumerate(header) if "contestant" in h or "name" in h or "racer" in h), 0)
+        name_idx = next(
+            (
+                i
+                for i, h in enumerate(header)
+                if "contestant" in h or "name" in h or "racer" in h
+            ),
+            0,
+        )
         age_idx = next((i for i, h in enumerate(header) if "age" in h), None)
         rel_idx = next((i for i, h in enumerate(header) if "relationship" in h), None)
-        home_idx = next((i for i, h in enumerate(header) if "hometown" in h or "residence" in h), None)
-        status_idx = next((i for i, h in enumerate(header) if "status" in h or "finish" in h), None)
+        home_idx = next(
+            (i for i, h in enumerate(header) if "hometown" in h or "residence" in h),
+            None,
+        )
+        status_idx = next(
+            (i for i, h in enumerate(header) if "status" in h or "finish" in h), None
+        )
 
         contestants: list[dict[str, Any]] = []
         for row in expanded[1:]:
@@ -181,10 +209,18 @@ class WikipediaScraper:
 
             entry: dict[str, Any] = {
                 "name": name,
-                "age": int(row[age_idx]) if age_idx is not None and row[age_idx].isdigit() else None,
-                "relationship": row[rel_idx] if rel_idx is not None and rel_idx < len(row) else None,
-                "hometown": row[home_idx] if home_idx is not None and home_idx < len(row) else None,
-                "status": row[status_idx] if status_idx is not None and status_idx < len(row) else None,
+                "age": int(row[age_idx])
+                if age_idx is not None and row[age_idx].isdigit()
+                else None,
+                "relationship": row[rel_idx]
+                if rel_idx is not None and rel_idx < len(row)
+                else None,
+                "hometown": row[home_idx]
+                if home_idx is not None and home_idx < len(row)
+                else None,
+                "status": row[status_idx]
+                if status_idx is not None and status_idx < len(row)
+                else None,
             }
             contestants.append(entry)
 
@@ -201,7 +237,9 @@ class WikipediaScraper:
         team_idx = next((i for i, h in enumerate(header) if "team" in h.lower()), 0)
         leg_cols: list[tuple[int, str]] = []
         for i, h in enumerate(header):
-            if i != team_idx and (h.isdigit() or "leg" in h.lower() or re.match(r"^\d+", h)):
+            if i != team_idx and (
+                h.isdigit() or "leg" in h.lower() or re.match(r"^\d+", h)
+            ):
                 leg_cols.append((i, h))
 
         results: list[dict[str, Any]] = []
@@ -209,7 +247,11 @@ class WikipediaScraper:
             if len(row) <= team_idx:
                 continue
             team_name = row[team_idx]
-            if not team_name or "notes" in team_name.lower() or "repeat" in team_name.lower():
+            if (
+                not team_name
+                or "notes" in team_name.lower()
+                or "repeat" in team_name.lower()
+            ):
                 continue
 
             leg_placements: list[dict[str, Any]] = []
@@ -225,23 +267,29 @@ class WikipediaScraper:
                     has_fast_forward = "ƒ" in cell or "ff" in cell.lower()
                     has_uturn = "»" in cell or "«" in cell or "u-turn" in cell.lower()
                     has_yield = "»" in cell or "yield" in cell.lower()
-                    has_speed_bump = "speed bump" in cell.lower() or "sb" in cell.lower()
+                    has_speed_bump = (
+                        "speed bump" in cell.lower() or "sb" in cell.lower()
+                    )
 
-                    leg_placements.append({
-                        "leg_label": leg_label,
-                        "raw_cell": cell,
-                        "placement": placement,
-                        "is_non_elimination": is_nel,
-                        "fast_forward": has_fast_forward,
-                        "uturn": has_uturn,
-                        "yield": has_yield,
-                        "speed_bump": has_speed_bump,
-                    })
+                    leg_placements.append(
+                        {
+                            "leg_label": leg_label,
+                            "raw_cell": cell,
+                            "placement": placement,
+                            "is_non_elimination": is_nel,
+                            "fast_forward": has_fast_forward,
+                            "uturn": has_uturn,
+                            "yield": has_yield,
+                            "speed_bump": has_speed_bump,
+                        }
+                    )
 
-            results.append({
-                "team_name": team_name,
-                "placements": leg_placements,
-            })
+            results.append(
+                {
+                    "team_name": team_name,
+                    "placements": leg_placements,
+                }
+            )
 
         return results
 
@@ -252,9 +300,14 @@ class WikipediaScraper:
             return []
 
         header = [h.lower() for h in expanded[0]]
-        num_idx = next((i for i, h in enumerate(header) if "in season" in h or "no." in h), 0)
+        num_idx = next(
+            (i for i, h in enumerate(header) if "in season" in h or "no." in h), 0
+        )
         title_idx = next((i for i, h in enumerate(header) if "title" in h), 1)
-        air_idx = next((i for i, h in enumerate(header) if "air date" in h or "release date" in h), None)
+        air_idx = next(
+            (i for i, h in enumerate(header) if "air date" in h or "release date" in h),
+            None,
+        )
         viewer_idx = next((i for i, h in enumerate(header) if "viewer" in h), None)
 
         episodes: list[dict[str, Any]] = []
@@ -268,8 +321,19 @@ class WikipediaScraper:
             num_str = row[num_idx] if num_idx < len(row) else ""
             m_num = re.search(r"\d+", num_str)
             ep_num = int(m_num.group(0)) if m_num else None
+            if ep_num is None or title.lower() in {
+                "title",
+                "episode",
+                "airdate",
+                "air date",
+                "rating",
+                "#",
+            }:
+                continue
 
-            air_date = row[air_idx] if air_idx is not None and air_idx < len(row) else None
+            air_date = (
+                row[air_idx] if air_idx is not None and air_idx < len(row) else None
+            )
             # Extract standard date if possible
             if air_date:
                 m_date = re.search(r"(\d{4}-\d{2}-\d{2})", air_date)
@@ -285,13 +349,15 @@ class WikipediaScraper:
                     except ValueError:
                         pass
 
-            episodes.append({
-                "episode": ep_num,
-                "title": title,
-                "air_date": air_date,
-                "viewers_millions": viewers,
-                "raw_row": row,
-            })
+            episodes.append(
+                {
+                    "episode": ep_num,
+                    "title": title,
+                    "air_date": air_date,
+                    "viewers_millions": viewers,
+                    "raw_row": row,
+                }
+            )
 
         return episodes
 
@@ -319,7 +385,9 @@ class WikipediaScraper:
             tasks: list[dict[str, Any]] = []
 
             curr = h_div.find_next_sibling()
-            while curr and not (curr.name == "div" and "mw-heading" in curr.get("class", [])):
+            while curr and not (
+                curr.name == "div" and "mw-heading" in curr.get("class", [])
+            ):
                 if curr.name == "p":
                     p_text = clean_text(curr.get_text())
                     if p_text:
@@ -329,7 +397,15 @@ class WikipediaScraper:
                         li_text = clean_text(li.get_text())
                         if not li_text:
                             continue
-                        if any(k in li_text.lower() for k in ["roadblock", "detour", "fast forward", "speed bump"]):
+                        if any(
+                            k in li_text.lower()
+                            for k in [
+                                "roadblock",
+                                "detour",
+                                "fast forward",
+                                "speed bump",
+                            ]
+                        ):
                             # Extract task
                             task_type = "Task"
                             if "roadblock" in li_text.lower():
@@ -340,10 +416,12 @@ class WikipediaScraper:
                                 task_type = "Fast Forward"
                             elif "speed bump" in li_text.lower():
                                 task_type = "Speed Bump"
-                            tasks.append({
-                                "task_type": task_type,
-                                "description": li_text,
-                            })
+                            tasks.append(
+                                {
+                                    "task_type": task_type,
+                                    "description": li_text,
+                                }
+                            )
                         else:
                             itinerary.append(li_text)
                 curr = curr.find_next_sibling()
@@ -352,23 +430,33 @@ class WikipediaScraper:
             if not tasks:
                 for p in paragraphs:
                     lower = p.lower()
-                    if "detour" in lower or "roadblock" in lower or "fast forward" in lower:
-                        tasks.append({
-                            "task_type": "Challenge",
-                            "description": p,
-                        })
+                    if (
+                        "detour" in lower
+                        or "roadblock" in lower
+                        or "fast forward" in lower
+                    ):
+                        tasks.append(
+                            {
+                                "task_type": "Challenge",
+                                "description": p,
+                            }
+                        )
 
-            legs.append({
-                "leg_number": leg_num,
-                "route_header": route_str,
-                "itinerary": itinerary,
-                "narrative": " ".join(paragraphs),
-                "tasks": tasks,
-            })
+            legs.append(
+                {
+                    "leg_number": leg_num,
+                    "route_header": route_str,
+                    "itinerary": itinerary,
+                    "narrative": " ".join(paragraphs),
+                    "tasks": tasks,
+                }
+            )
 
         return legs
 
-    def scrape_season(self, season: int, version: str = "US", save: bool = True) -> dict[str, Any]:
+    def scrape_season(
+        self, season: int, version: str = "US", save: bool = True
+    ) -> dict[str, Any]:
         """Scrape full season data from Wikipedia and return structured dictionary."""
         title = self.get_page_title(season, version)
         logger.info("Scraping Wikipedia: %s (Season %d, %s)", title, season, version)
@@ -391,9 +479,13 @@ class WikipediaScraper:
             h_text = " ".join(headers)
             if ("contestant" in h_text or "racer" in h_text) and not contestants:
                 contestants = self.parse_contestants_table(table)
-            elif ("team" in h_text and any(str(i) in h_text for i in range(1, 10))) and not results:
+            elif (
+                "team" in h_text and any(str(i) in h_text for i in range(1, 10))
+            ) and not results:
                 results = self.parse_results_table(table)
-            elif ("episode" in h_text or "viewer" in h_text or "title" in h_text) and not episodes:
+            elif (
+                "episode" in h_text or "viewer" in h_text or "title" in h_text
+            ) and not episodes:
                 episodes = self.parse_episodes_table(table)
 
         legs = self.parse_legs_summary(soup)
@@ -417,7 +509,9 @@ class WikipediaScraper:
 
         return season_data
 
-    def scrape_seasons(self, start: int = 1, end: int = 36, version: str = "US") -> list[dict[str, Any]]:
+    def scrape_seasons(
+        self, start: int = 1, end: int = 36, version: str = "US"
+    ) -> list[dict[str, Any]]:
         """Scrape range of seasons sequentially."""
         data_list = []
         for s in range(start, end + 1):

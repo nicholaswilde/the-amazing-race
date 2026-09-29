@@ -1,12 +1,19 @@
 """Unit tests for the-amazing-race package."""
 
+from pathlib import Path
+
 from bs4 import BeautifulSoup
 
-from tar_dataset.importers.sheets import google_sheet_to_csv_url
+from tar_dataset.importers.sheets import SheetsImporter, google_sheet_to_csv_url
 from tar_dataset.processors.builder import DatasetBuilder
 from tar_dataset.processors.validator import DatasetValidator
 from tar_dataset.schemas import Episode, Season, Team
-from tar_dataset.scrapers.wikipedia import clean_text, parse_html_table
+from tar_dataset.scrapers.reddit import RedditScraper
+from tar_dataset.scrapers.wikipedia import (
+    WikipediaScraper,
+    clean_text,
+    parse_html_table,
+)
 
 
 def test_schemas():
@@ -78,6 +85,99 @@ def test_google_sheet_to_csv_url():
     assert "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms" in csv_url
 
 
+def test_wikipedia_results_matrix_parsing():
+    """Verify parsing of placements, footnotes, Fast Forwards, U-Turns, and NELs."""
+    html_results = """
+    <table>
+      <tr><th>Team</th><th>1</th><th>2</th><th>3</th></tr>
+      <tr><td>Rob & Brennan</td><td>1st ƒ</td><td>3rd</td><td>1st</td></tr>
+      <tr><td>Frank & Margarita</td><td>3rd</td><td>1[a]</td><td>2nd »</td></tr>
+      <tr><td>Matt & Ana</td><td>9th</td><td>NEL</td><td>—</td></tr>
+    </table>
+    """
+    soup = BeautifulSoup(html_results, "html.parser")
+    scraper = WikipediaScraper()
+    results = scraper.parse_results_table(soup.find("table"))
+
+    assert len(results) == 3
+    # Check Rob & Brennan
+    rob = results[0]
+    assert rob["team_name"] == "Rob & Brennan"
+    assert rob["placements"][0]["placement"] == 1
+    assert rob["placements"][0]["fast_forward"] is True
+
+    # Check Frank & Margarita footnote handling & U-Turn
+    frank = results[1]
+    assert frank["placements"][1]["placement"] == 1
+    assert frank["placements"][2]["placement"] == 2
+    assert frank["placements"][2]["uturn"] is True
+
+    # Check Matt & Ana NEL
+    matt = results[2]
+    assert matt["placements"][1]["is_non_elimination"] is True
+    assert matt["placements"][2]["placement"] is None
+
+
+def test_wikipedia_infobox_and_contestants_parsing():
+    """Verify parsing of season infoboxes and contestant tables with alternate column headers."""
+    html_infobox = """
+    <table class="infobox vevent">
+      <tr><th scope="row">Teams</th><td>11</td></tr>
+      <tr><th scope="row">Winners</th><td>Rob & Brennan</td></tr>
+      <tr><th scope="row">No. of legs</th><td>13</td></tr>
+      <tr><th scope="row">Distance</th><td>35,000 miles (56,000 km)</td></tr>
+    </table>
+    """
+    soup_infobox = BeautifulSoup(html_infobox, "html.parser")
+    scraper = WikipediaScraper()
+    info = scraper.parse_infobox(soup_infobox)
+    assert info["n_teams"] == 11
+    assert info["winners"] == "Rob & Brennan"
+    assert info["n_legs"] == 13
+    assert info["distance_miles"] == 35000.0
+    assert info["distance_km"] == 56000.0
+
+    html_contestants = """
+    <table>
+      <tr><th>Contestants</th><th>Age</th><th>Relationship</th><th>Current Residence</th></tr>
+      <tr><td>Rob Frisbee</td><td>27</td><td>Best Friends</td><td>Minneapolis, Minnesota</td></tr>
+      <tr><td>Brennan Swain</td><td>29</td><td>Best Friends</td><td>Rochester, New York</td></tr>
+    </table>
+    """
+    soup_cast = BeautifulSoup(html_contestants, "html.parser")
+    contestants = scraper.parse_contestants_table(soup_cast.find("table"))
+    assert len(contestants) == 2
+    assert contestants[0]["name"] == "Rob Frisbee"
+    assert contestants[0]["age"] == 27
+    assert contestants[0]["hometown"] == "Minneapolis, Minnesota"
+
+
+def test_reddit_extract_season_episode():
+    """Verify season and episode number extraction from various Reddit thread titles."""
+    reddit = RedditScraper()
+    assert reddit.extract_season_episode(
+        "The Amazing Race Season 35 Episode 4 Discussion Thread"
+    ) == (35, 4)
+    assert reddit.extract_season_episode("TAR S36E01 Live Discussion") == (36, 1)
+    assert reddit.extract_season_episode("Post-Episode Discussion: S34E09") == (34, 9)
+    assert reddit.extract_season_episode("General Discussion Thread") == (None, None)
+
+
+def test_sheets_importer_local_csv(tmp_path):
+    """Verify local CSV importing and column header standardization to snake_case."""
+    csv_file = tmp_path / "sample_tracker.csv"
+    csv_file.write_text(
+        "Team Name,Leg Time (mins),Roadblock Performed\nRob & Brennan,120,Rob\n"
+    )
+
+    importer = SheetsImporter(raw_dir=tmp_path / "sheets")
+    df = importer.import_local_csv(csv_file, name="custom_tracker")
+
+    assert list(df.columns) == ["team_name", "leg_time_mins", "roadblock_performed"]
+    assert len(df) == 1
+    assert (tmp_path / "sheets" / "custom_tracker.csv").exists()
+
+
 def test_builder_and_validator(tmp_path):
     """Verify dataset builder and validator with mock data."""
     raw_dir = tmp_path / "raw"
@@ -91,8 +191,18 @@ def test_builder_and_validator(tmp_path):
         "wiki_url": "https://en.wikipedia.org/wiki/Test",
         "infobox": {"n_teams": 2, "n_legs": 2, "winners": "Alpha & Beta"},
         "contestants": [
-            {"name": "Alice", "age": 30, "relationship": "Friends", "hometown": "Chicago"},
-            {"name": "Bob", "age": 32, "relationship": "Friends", "hometown": "Chicago"},
+            {
+                "name": "Alice",
+                "age": 30,
+                "relationship": "Friends",
+                "hometown": "Chicago",
+            },
+            {
+                "name": "Bob",
+                "age": 32,
+                "relationship": "Friends",
+                "hometown": "Chicago",
+            },
         ],
         "results": [
             {
@@ -105,6 +215,7 @@ def test_builder_and_validator(tmp_path):
     }
 
     import json
+
     (wiki_dir / "season_us_99.json").write_text(json.dumps(sample_season))
 
     builder = DatasetBuilder(raw_dir=raw_dir, processed_dir=processed_dir)
@@ -118,3 +229,18 @@ def test_builder_and_validator(tmp_path):
     validator = DatasetValidator(processed_dir=processed_dir)
     report = validator.validate()
     assert report["status"] in ["PASS", "WARNING"]
+
+
+def test_builder_with_cached_raw_seasons(tmp_path):
+    """Verify builder processes actual cached raw season files with 100% relational integrity."""
+    raw_dir = Path("data/raw")
+    if (raw_dir / "wikipedia" / "season_us_01.json").exists():
+        builder = DatasetBuilder(raw_dir=raw_dir, processed_dir=tmp_path / "processed")
+        dfs = builder.build_all()
+        assert len(dfs["seasons"]) >= 1
+        assert len(dfs["teams"]) >= 11
+        assert len(dfs["contestants"]) >= 22
+
+        validator = DatasetValidator(processed_dir=tmp_path / "processed")
+        report = validator.validate()
+        assert report["status"] in ["PASS", "WARNING"]

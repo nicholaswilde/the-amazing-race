@@ -32,31 +32,58 @@ The dataset is partitioned into clean relational tables adhering to tidy data pr
 
 ---
 
-## :runner: Quick Start with `uv`
+## :runner: Quick Start with `uv` & `task`
 
-This repository uses [`uv`](https://docs.astral.sh/uv/) for high-performance dependency tracking and execution.
+This repository uses [`uv`](https://docs.astral.sh/uv/) for Python packaging and [`go-task`](https://taskfile.dev/) (`task`) as the task runner.
 
 ### Prerequisites
 
-Ensure `uv` is installed:
+Ensure `uv` and `task` are installed:
 ```bash
+# Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install task (macOS / Linux via Homebrew, or see https://taskfile.dev/installation/)
+brew install go-task
 ```
 
 ### Installation
 
-Clone and initialize the virtual environment:
+Clone and initialize the virtual environment with all extras:
 ```bash
 git clone https://github.com/nicholaswilde/the-amazing-race.git
 cd the-amazing-race
-uv sync
+task sync
+```
+
+---
+
+## :hammer_and_wrench: Task Runner (`task`)
+
+All repository workflows can be driven directly via `task`:
+
+```bash
+task                  # List all available tasks
+task check            # Run linting, test suite, and dataset validation
+task test             # Run pytest test suite
+task lint             # Lint code with ruff
+task format           # Format code with ruff
+task build            # Compile raw data into tidy CSV + Parquet tables
+task validate         # Verify dataset schema and relational integrity
+task stats            # Show table row counts and summary stats
+task export:ai        # Export fine-tuning and RAG JSONL corpora
+task scrape:wiki      # Scrape Wikipedia seasons (pass args via --, e.g. -- --season 1)
+task scrape:fandom    # Scrape Fandom Wiki infoboxes
+task scrape:reddit    # Scrape Reddit discussion threads
+task import:sheet     # Import community Google Sheets or external CSVs
+task codegraph:status # Inspect CodeGraph index status
 ```
 
 ---
 
 ## :computer: CLI Usage
 
-All tasks are accessible through the `tar-dataset` CLI:
+All tasks are also accessible through the direct `tar-dataset` CLI:
 
 ### 1. Scrape Wikipedia
 Scrapes contestant demographics, results matrices, episode ratings, and leg task narratives:
@@ -128,11 +155,16 @@ For AI agents operating in this workspace, modular skills are available in `.age
 
 ---
 
-## :dash: Running Tests
+## :dash: Running Tests & Quality Checks
 
-Run the test suite with `pytest`:
+Run the test suite and quality checks via `task` or `pytest`:
 ```bash
-uv run --extra dev pytest
+# Run pytest test suite
+task test
+# or: uv run --extra dev pytest
+
+# Run all quality checks (lint, format-check, tests, and dataset validation)
+task check
 ```
 
 ## :balance_scale: License

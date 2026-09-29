@@ -26,7 +26,15 @@ class DatasetValidator:
             "status": "PASS",
         }
 
-        tables = ["seasons", "episodes", "contestants", "teams", "legs", "leg_results", "tasks"]
+        tables = [
+            "seasons",
+            "episodes",
+            "contestants",
+            "teams",
+            "legs",
+            "leg_results",
+            "tasks",
+        ]
         dfs: dict[str, pd.DataFrame] = {}
 
         for t in tables:
@@ -62,7 +70,9 @@ class DatasetValidator:
             res_df = dfs["leg_results"]
             null_placements = res_df["placement"].isna().sum()
             if null_placements > 0:
-                report["issues"].append(f"Found {null_placements} records with unresolved placement in leg_results.csv")
+                report["issues"].append(
+                    f"Found {null_placements} records with unresolved placement in leg_results.csv"
+                )
 
         # 3. Contestant to Team consistency
         if "contestants" in dfs and "teams" in dfs:
@@ -71,9 +81,15 @@ class DatasetValidator:
                 n_t = len(dfs["teams"][dfs["teams"]["season"] == s])
                 n_c = len(dfs["contestants"][dfs["contestants"]["season"] == s])
                 if n_c < n_t:
-                    report["issues"].append(f"Season {s}: fewer contestants ({n_c}) than teams ({n_t})")
+                    report["issues"].append(
+                        f"Season {s}: fewer contestants ({n_c}) than teams ({n_t})"
+                    )
 
         if report["issues"]:
-            report["status"] = "WARNING" if all("Missing" not in i for i in report["issues"]) else "FAIL"
+            report["status"] = (
+                "WARNING"
+                if all("Missing" not in i for i in report["issues"])
+                else "FAIL"
+            )
 
         return report

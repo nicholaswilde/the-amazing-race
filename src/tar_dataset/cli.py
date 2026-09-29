@@ -28,15 +28,21 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 @app.command("scrape-wiki")
 def scrape_wiki(
-    season: int | None = typer.Option(None, "--season", "-s", help="Specific season number to scrape"),
+    season: int | None = typer.Option(
+        None, "--season", "-s", help="Specific season number to scrape"
+    ),
     start: int = typer.Option(1, "--start", help="Start season range"),
     end: int = typer.Option(36, "--end", help="End season range"),
-    version: str = typer.Option("US", "--version", "-v", help="Franchise country code (US, CAN, AUS)"),
+    version: str = typer.Option(
+        "US", "--version", "-v", help="Franchise country code (US, CAN, AUS)"
+    ),
 ) -> None:
     """Scrape Wikipedia for season tables, cast, results matrix, and leg summaries."""
     scraper = WikipediaScraper()
     if season is not None:
-        console.print(f"[bold blue]Scraping Wikipedia for Season {season} ({version})...[/bold blue]")
+        console.print(
+            f"[bold blue]Scraping Wikipedia for Season {season} ({version})...[/bold blue]"
+        )
         data = scraper.scrape_season(season, version=version, save=True)
         if data:
             console.print(f"[green]✓ Successfully scraped Season {season}[/green]")
@@ -47,29 +53,39 @@ def scrape_wiki(
         else:
             console.print(f"[red]✗ Failed to scrape Season {season}[/red]")
     else:
-        console.print(f"[bold blue]Scraping Wikipedia for Seasons {start} to {end} ({version})...[/bold blue]")
+        console.print(
+            f"[bold blue]Scraping Wikipedia for Seasons {start} to {end} ({version})...[/bold blue]"
+        )
         seasons = scraper.scrape_seasons(start=start, end=end, version=version)
         console.print(f"[green]✓ Finished scraping {len(seasons)} seasons.[/green]")
 
 
 @app.command("scrape-fandom")
 def scrape_fandom(
-    season: int | None = typer.Option(None, "--season", "-s", help="Specific season number to scrape"),
+    season: int | None = typer.Option(
+        None, "--season", "-s", help="Specific season number to scrape"
+    ),
     start: int = typer.Option(1, "--start", help="Start season range"),
     end: int = typer.Option(36, "--end", help="End season range"),
-    version: str = typer.Option("US", "--version", "-v", help="Franchise country code (US, CAN)"),
+    version: str = typer.Option(
+        "US", "--version", "-v", help="Franchise country code (US, CAN)"
+    ),
 ) -> None:
     """Scrape Fandom Wiki (amazingrace.fandom.com) for infoboxes and metadata."""
     scraper = FandomScraper()
     if season is not None:
-        console.print(f"[bold blue]Scraping Fandom for Season {season} ({version})...[/bold blue]")
+        console.print(
+            f"[bold blue]Scraping Fandom for Season {season} ({version})...[/bold blue]"
+        )
         data = scraper.scrape_season(season, version=version, save=True)
         if data:
             console.print(f"[green]✓ Scraped Fandom Season {season}[/green]")
         else:
             console.print(f"[red]✗ Could not fetch Fandom Season {season}[/red]")
     else:
-        console.print(f"[bold blue]Scraping Fandom for Seasons {start} to {end}...[/bold blue]")
+        console.print(
+            f"[bold blue]Scraping Fandom for Seasons {start} to {end}...[/bold blue]"
+        )
         for s in range(start, end + 1):
             scraper.scrape_season(s, version=version, save=True)
         console.print("[green]✓ Fandom scrape completed.[/green]")
@@ -77,39 +93,59 @@ def scrape_fandom(
 
 @app.command("scrape-reddit")
 def scrape_reddit(
-    query: str = typer.Option("Discussion Thread", "--query", "-q", help="Search query for r/TheAmazingRace"),
+    query: str = typer.Option(
+        "Discussion Thread", "--query", "-q", help="Search query for r/TheAmazingRace"
+    ),
     limit: int = typer.Option(25, "--limit", "-n", help="Max submissions to fetch"),
-    comments: bool = typer.Option(True, "--comments/--no-comments", help="Fetch top comments for each thread"),
+    comments: bool = typer.Option(
+        True, "--comments/--no-comments", help="Fetch top comments for each thread"
+    ),
 ) -> None:
     """Fetch episode discussion threads and fan reactions from r/TheAmazingRace."""
-    console.print(f"[bold blue]Scraping Reddit r/TheAmazingRace for '{query}' (limit={limit})...[/bold blue]")
+    console.print(
+        f"[bold blue]Scraping Reddit r/TheAmazingRace for '{query}' (limit={limit})...[/bold blue]"
+    )
     scraper = RedditScraper()
-    discussions = scraper.scrape_episode_discussions(query=query, limit=limit, fetch_comments=comments, save=True)
-    console.print(f"[green]✓ Successfully collected {len(discussions)} Reddit discussions.[/green]")
+    discussions = scraper.scrape_episode_discussions(
+        query=query, limit=limit, fetch_comments=comments, save=True
+    )
+    console.print(
+        f"[green]✓ Successfully collected {len(discussions)} Reddit discussions.[/green]"
+    )
 
 
 @app.command("import-sheet")
 def import_sheet(
-    url: str = typer.Option(..., "--url", "-u", help="Google Sheet URL or public CSV URL"),
-    name: str = typer.Option(..., "--name", "-n", help="Dataset name slug (e.g. tar_leg_times)"),
+    url: str = typer.Option(
+        ..., "--url", "-u", help="Google Sheet URL or public CSV URL"
+    ),
+    name: str = typer.Option(
+        ..., "--name", "-n", help="Dataset name slug (e.g. tar_leg_times)"
+    ),
     gid: str = typer.Option("0", "--gid", "-g", help="Google Sheet tab GID"),
 ) -> None:
     """Import a community Google Sheet or external CSV table."""
     console.print(f"[bold blue]Importing Google Sheet: {name}...[/bold blue]")
     importer = SheetsImporter()
     df = importer.import_public_sheet(sheet_url=url, name=name, gid=gid, save=True)
-    console.print(f"[green]✓ Imported {len(df)} rows with columns: {list(df.columns)}[/green]")
+    console.print(
+        f"[green]✓ Imported {len(df)} rows with columns: {list(df.columns)}[/green]"
+    )
 
 
 @app.command("build")
 def build() -> None:
     """Build tidy datasets (CSV + Parquet) from all cached raw sources."""
-    console.print("[bold blue]Building tidy datasets from raw scraped data...[/bold blue]")
+    console.print(
+        "[bold blue]Building tidy datasets from raw scraped data...[/bold blue]"
+    )
     builder = DatasetBuilder()
     dfs = builder.build_all()
 
     if not dfs:
-        console.print("[yellow]No data built. Please run `tar-dataset scrape-wiki` first.[/yellow]")
+        console.print(
+            "[yellow]No data built. Please run `tar-dataset scrape-wiki` first.[/yellow]"
+        )
         return
 
     table = Table(title="Generated Tidy Datasets (data/processed/)")
@@ -118,7 +154,11 @@ def build() -> None:
     table.add_column("Columns", style="green")
 
     for name, df in dfs.items():
-        table.add_row(name, str(len(df)), ", ".join(df.columns[:5]) + ("..." if len(df.columns) > 5 else ""))
+        table.add_row(
+            name,
+            str(len(df)),
+            ", ".join(df.columns[:5]) + ("..." if len(df.columns) > 5 else ""),
+        )
 
     console.print(table)
 
@@ -126,7 +166,9 @@ def build() -> None:
 @app.command("export-ai")
 def export_ai() -> None:
     """Export processed datasets into AI training formats (JSONL for fine-tuning & RAG)."""
-    console.print("[bold blue]Generating AI training datasets (data/ai/)...[/bold blue]")
+    console.print(
+        "[bold blue]Generating AI training datasets (data/ai/)...[/bold blue]"
+    )
     ai_builder = AIExportBuilder()
     counts = ai_builder.export_all()
 
@@ -141,7 +183,11 @@ def validate() -> None:
     validator = DatasetValidator()
     report = validator.validate()
 
-    color = "green" if report["status"] == "PASS" else ("yellow" if report["status"] == "WARNING" else "red")
+    color = (
+        "green"
+        if report["status"] == "PASS"
+        else ("yellow" if report["status"] == "WARNING" else "red")
+    )
     console.print(f"Validation Status: [{color}]{report['status']}[/{color}]")
 
     table = Table(title="Processed Tables Summary")

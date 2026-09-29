@@ -1,2 +1,114 @@
----
-{}
+# https://taskfile.dev
+version: '3'
+
+vars:
+  PYTHON_FILES: src tests
+
+tasks:
+  default:
+    desc: List all available tasks
+    cmds:
+      - task --list
+    silent: true
+
+  # Dependency & Environment Management
+  sync:
+    desc: Sync dependencies including all extras via uv
+    cmds:
+      - uv sync --all-extras
+
+  lock:
+    desc: Lock project dependencies via uv
+    cmds:
+      - uv lock
+
+  # Code Quality & Testing
+  test:
+    desc: Run pytest test suite
+    cmds:
+      - uv run --extra dev pytest {{.CLI_ARGS}}
+
+  lint:
+    desc: Lint Python source code with ruff
+    cmds:
+      - uv run ruff check {{.PYTHON_FILES}} {{.CLI_ARGS}}
+
+  lint:fix:
+    desc: Lint and fix issues with ruff
+    cmds:
+      - uv run ruff check --fix {{.PYTHON_FILES}} {{.CLI_ARGS}}
+
+  format:
+    desc: Format Python code with ruff
+    cmds:
+      - uv run ruff format {{.PYTHON_FILES}} {{.CLI_ARGS}}
+
+  format:check:
+    desc: Check formatting with ruff without modifying files
+    cmds:
+      - uv run ruff format --check {{.PYTHON_FILES}}
+
+  check:
+    desc: Run lint, format-check, test suite, and dataset validation
+    cmds:
+      - task: lint
+      - task: test
+      - task: validate
+
+  # Data Processing & AI Corpora
+  build:
+    desc: Compile raw scraped and imported data into tidy CSV & Parquet tables
+    cmds:
+      - uv run tar-dataset build
+
+  validate:
+    desc: Validate processed datasets for schema and relational integrity
+    cmds:
+      - uv run tar-dataset validate
+
+  stats:
+    desc: Display row count statistics for all processed tables
+    cmds:
+      - uv run tar-dataset stats
+
+  export:ai:
+    desc: Export datasets into AI training formats (JSONL fine-tuning & RAG corpus)
+    cmds:
+      - uv run tar-dataset export-ai
+
+  # Data Ingestion & Scrapers
+  scrape:wiki:
+    desc: Scrape Wikipedia season tables, cast, results matrices, and leg summaries
+    cmds:
+      - uv run tar-dataset scrape-wiki {{.CLI_ARGS}}
+
+  scrape:fandom:
+    desc: Scrape Fandom Wiki for infoboxes and metadata
+    cmds:
+      - uv run tar-dataset scrape-fandom {{.CLI_ARGS}}
+
+  scrape:reddit:
+    desc: Fetch episode discussion threads from r/TheAmazingRace
+    cmds:
+      - uv run tar-dataset scrape-reddit {{.CLI_ARGS}}
+
+  import:sheet:
+    desc: Import community Google Sheet or external CSV table
+    cmds:
+      - uv run tar-dataset import-sheet {{.CLI_ARGS}}
+
+  # CodeGraph Intelligence
+  codegraph:sync:
+    desc: Sync changes to the codegraph code intelligence index
+    cmds:
+      - codegraph sync
+
+  codegraph:index:
+    desc: Rebuild full codegraph index
+    cmds:
+      - codegraph index
+
+  codegraph:status:
+    desc: Show codegraph index status
+    cmds:
+      - codegraph status

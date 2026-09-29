@@ -47,18 +47,25 @@ class AIExportBuilder:
 
         qa_records: list[dict[str, Any]] = []
 
-        def add_qa(user_prompt: str, assistant_response: str, category: str, season: int | None = None) -> None:
-            qa_records.append({
-                "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_prompt},
-                    {"role": "assistant", "content": assistant_response},
-                ],
-                "metadata": {
-                    "category": category,
-                    "season": season,
-                },
-            })
+        def add_qa(
+            user_prompt: str,
+            assistant_response: str,
+            category: str,
+            season: int | None = None,
+        ) -> None:
+            qa_records.append(
+                {
+                    "messages": [
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": user_prompt},
+                        {"role": "assistant", "content": assistant_response},
+                    ],
+                    "metadata": {
+                        "category": category,
+                        "season": season,
+                    },
+                }
+            )
 
         # 1. Season Winners & Stats
         if not seasons.empty:
@@ -112,7 +119,11 @@ class AIExportBuilder:
                     add_qa(
                         f"What was the route for Leg {leg_num} of The Amazing Race Season {season_num}?",
                         f"Leg {leg_num} of The Amazing Race Season {season_num} traveled along the route: {route}."
-                        + (f" Summary: {narrative[:300]}..." if pd.notna(narrative) and len(str(narrative)) > 50 else ""),
+                        + (
+                            f" Summary: {narrative[:300]}..."
+                            if pd.notna(narrative) and len(str(narrative)) > 50
+                            else ""
+                        ),
                         "leg_route",
                         season_num,
                     )
@@ -136,6 +147,8 @@ class AIExportBuilder:
         # 5. Episodes
         if not episodes.empty:
             for _, ep in episodes.iterrows():
+                if pd.isna(ep.get("episode")):
+                    continue
                 season_num = int(ep["season"])
                 ep_num = int(ep["episode"])
                 title = ep.get("title")
@@ -180,12 +193,14 @@ class AIExportBuilder:
                     f"- Filming Dates: {s.get('filming_dates', 'Unknown')}\n"
                     f"- Wikipedia URL: {s.get('wiki_url', '')}"
                 )
-                corpus.append({
-                    "id": doc_id,
-                    "title": f"The Amazing Race Season {season_num} Overview",
-                    "text": text,
-                    "metadata": {"type": "season_overview", "season": season_num},
-                })
+                corpus.append(
+                    {
+                        "id": doc_id,
+                        "title": f"The Amazing Race Season {season_num} Overview",
+                        "text": text,
+                        "metadata": {"type": "season_overview", "season": season_num},
+                    }
+                )
 
         # Leg level narrative documents
         if not legs.empty:
@@ -194,15 +209,24 @@ class AIExportBuilder:
                 leg_num = int(l["leg_number"])
                 doc_id = f"tar-s{season_num:02d}-leg{leg_num:02d}"
 
-                leg_tasks = tasks[
-                    (tasks["season"] == season_num) & (tasks["leg_number"] == leg_num)
-                ] if not tasks.empty else pd.DataFrame()
+                leg_tasks = (
+                    tasks[
+                        (tasks["season"] == season_num)
+                        & (tasks["leg_number"] == leg_num)
+                    ]
+                    if not tasks.empty
+                    else pd.DataFrame()
+                )
 
                 task_texts = []
                 for _, t in leg_tasks.iterrows():
                     task_texts.append(f"[{t['task_type']}]: {t['description']}")
 
-                tasks_block = "\n".join(task_texts) if task_texts else "No specific task descriptions recorded."
+                tasks_block = (
+                    "\n".join(task_texts)
+                    if task_texts
+                    else "No specific task descriptions recorded."
+                )
 
                 text = (
                     f"The Amazing Race Season {season_num}, Leg {leg_num}\n"
@@ -210,17 +234,19 @@ class AIExportBuilder:
                     f"Challenges & Tasks:\n{tasks_block}\n\n"
                     f"Leg Narrative:\n{l.get('narrative', 'N/A')}"
                 )
-                corpus.append({
-                    "id": doc_id,
-                    "title": f"Season {season_num} Leg {leg_num} ({l.get('route_header', '')})",
-                    "text": text,
-                    "metadata": {
-                        "type": "leg_narrative",
-                        "season": season_num,
-                        "leg": leg_num,
-                        "route": l.get("route_header"),
-                    },
-                })
+                corpus.append(
+                    {
+                        "id": doc_id,
+                        "title": f"Season {season_num} Leg {leg_num} ({l.get('route_header', '')})",
+                        "text": text,
+                        "metadata": {
+                            "type": "leg_narrative",
+                            "season": season_num,
+                            "leg": leg_num,
+                            "route": l.get("route_header"),
+                        },
+                    }
+                )
 
         return corpus
 
@@ -232,16 +258,24 @@ class AIExportBuilder:
         if qa_data:
             qa_path = self.ai_dir / "tar_qa_finetuning.jsonl"
             with open(qa_path, "w", encoding="utf-8") as f:
-                f.writelines(json.dumps(row, ensure_ascii=False) + "\n" for row in qa_data)
+                f.writelines(
+                    json.dumps(row, ensure_ascii=False) + "\n" for row in qa_data
+                )
             counts["qa_pairs"] = len(qa_data)
-            logger.info("Saved %d Q&A fine-tuning examples to %s", len(qa_data), qa_path)
+            logger.info(
+                "Saved %d Q&A fine-tuning examples to %s", len(qa_data), qa_path
+            )
 
         corpus_data = self.generate_knowledge_corpus()
         if corpus_data:
             corpus_path = self.ai_dir / "tar_knowledge_corpus.jsonl"
             with open(corpus_path, "w", encoding="utf-8") as f:
-                f.writelines(json.dumps(row, ensure_ascii=False) + "\n" for row in corpus_data)
+                f.writelines(
+                    json.dumps(row, ensure_ascii=False) + "\n" for row in corpus_data
+                )
             counts["corpus_chunks"] = len(corpus_data)
-            logger.info("Saved %d knowledge corpus chunks to %s", len(corpus_data), corpus_path)
+            logger.info(
+                "Saved %d knowledge corpus chunks to %s", len(corpus_data), corpus_path
+            )
 
         return counts

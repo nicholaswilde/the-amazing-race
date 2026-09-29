@@ -49,3 +49,11 @@ ls -la data/raw/wikipedia/
 ```
 
 After scraping, build the tidy tables using the `tar-dataset-builder` skill.
+
+## Progress Tracking
+
+Whenever seasons are scraped or imported, ensure to update GitHub Issue #4 to record progress:
+```bash
+rtk gh issue comment 4 --body "Imported Season <N> (<version>): <details>" | cat
+```
+

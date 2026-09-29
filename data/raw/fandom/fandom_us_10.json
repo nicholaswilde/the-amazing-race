@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 10,
+  "fandom_title": "The_Amazing_Race_10",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_10",
+  "infobox": {
+    "continents_visited": 4,
+    "countries_visited": 13,
+    "cities_visited": 28,
+    "distance_str": "40,000 mi (64,000 km)",
+    "starting_line": "Seattle, Washington",
+    "finish_line": "Saint Basil Academy, Garrison, New York",
+    "filming_dates": "May 27, 2006 - June 24, 2006",
+    "runners_up": "Rob & Kimberly<br/>Lyn & Karlyn"
+  },
+  "wikitext_length": 18286
+}

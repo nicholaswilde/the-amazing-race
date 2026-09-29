@@ -1,45 +1,833 @@
 version,season,contestant_id,name,age,relationship,hometown,status
-US,1,US-S01-01,Matt Robar,28,Married,"Simsbury, Connecticut","Eliminated 1st (in Songwe Village, Zambia )"
-US,1,US-S01-02,Ana Robar,28,Married,"Simsbury, Connecticut","Eliminated 1st (in Songwe Village, Zambia )"
-US,1,US-S01-03,Kim Smith,28,Teachers & Roommates,"Baytown, Texas","Eliminated 2nd (in Paris, France)"
-US,1,US-S01-04,Leslie Kellner,27,Teachers & Roommates,"Baytown, Texas","Eliminated 2nd (in Paris, France)"
-US,1,US-S01-05,Pat Pierce,43,Working Moms,"Landenberg, Pennsylvania","Eliminated 3rd (in Les Baux-de-Provence, France )"
-US,1,US-S01-06,Brenda Mehta,42,Working Moms,"Elkton, Maryland","Eliminated 3rd (in Les Baux-de-Provence, France )"
-US,1,US-S01-07,Dave Groark,65,Grandparents,"Rockwall, Texas","Eliminated 4th (in El Djem, Tunisia )"
-US,1,US-S01-08,Margaretta Groark,60,Grandparents,"Rockwall, Texas","Eliminated 4th (in El Djem, Tunisia )"
-US,1,US-S01-09,Paul Alessi,32,Engaged,"Los Angeles, California","Eliminated 5th (in Jebil National Park, Tunisia )"
-US,1,US-S01-10,Amie Barsky,27,Engaged,"Los Angeles, California","Eliminated 5th (in Jebil National Park, Tunisia )"
-US,1,US-S01-11,Lenny Hudson,33,Dating,"New York City, New York","Eliminated 6th (in Agra , India)"
-US,1,US-S01-12,Karyn Jefferson,30,Dating,"New York City, New York","Eliminated 6th (in Agra , India)"
-US,1,US-S01-13,Nancy Hoyt,46,Mother & Daughter,"Waco, Texas","Eliminated 7th (in Krabi , Thailand)"
-US,1,US-S01-14,Emily Hoyt,21,Mother & Daughter,"Waco, Texas","Eliminated 7th (in Krabi , Thailand)"
-US,1,US-S01-15,Kevin O'Connor,34,Fraternity Brothers,"Bayonne, New Jersey","Eliminated 8th (in Beijing, China)"
-US,1,US-S01-16,Drew Feinberg,35,Fraternity Brothers,"Staten Island, New York","Eliminated 8th (in Beijing, China)"
-US,1,US-S01-17,Joe Baldassare,50,Life Partners,"Laguna Niguel, California",Third place
-US,1,US-S01-18,Bill Bartek,47,Life Partners,"Laguna Niguel, California",Third place
-US,1,US-S01-19,Frank Mesa,30,Separated Parents,"Queens, New York",Runners-up
-US,1,US-S01-20,Margarita Mesa,28,Separated Parents,"Queens, New York",Runners-up
-US,1,US-S01-21,Rob Frisbee,27,Lawyers & Best Friends,"Minneapolis, Minnesota",Winners
-US,1,US-S01-22,Brennan Swain,29,Lawyers & Best Friends,"Rochester, New York",Winners
-US,2,US-S02-01,Deidre Washington,51,Mother & Daughter,"Miami, Florida","Eliminated 1st (in Rio de Janeiro, Brazil )"
-US,2,US-S02-02,Hillary Washington,23,Mother & Daughter,"Brooklyn, New York","Eliminated 1st (in Rio de Janeiro, Brazil )"
-US,2,US-S02-03,Hope Davis,38,Married Parents,"Clinton, Tennessee","Eliminated 2nd (in Iguaçu National Park, Brazil )"
-US,2,US-S02-04,Norm Davis,39,Married Parents,"Clinton, Tennessee","Eliminated 2nd (in Iguaçu National Park, Brazil )"
-US,2,US-S02-05,Peggy Kuhn,63,Grandmothers,"Truckee, California","Eliminated 3rd (in Stellenbosch, South Africa )"
-US,2,US-S02-06,Claire Jinks,65,Grandmothers,"Los Gatos, California","Eliminated 3rd (in Stellenbosch, South Africa )"
-US,2,US-S02-07,Shola Richards,27,Twins,"Albany, New York","Eliminated 4th (in Khomas Region, Namibia )"
-US,2,US-S02-08,Doyin Richards,27,Twins,"Albany, New York","Eliminated 4th (in Khomas Region, Namibia )"
-US,2,US-S02-09,Cyndi Kalenberg,45,Pastors & Married Parents,"Brainerd, Minnesota","Eliminated 5th (in Amphawa, Thailand )"
-US,2,US-S02-10,Russell Kalenberg,46,Pastors & Married Parents,"Brainerd, Minnesota","Eliminated 5th (in Amphawa, Thailand )"
-US,2,US-S02-11,Mary Lenig,38,Sisters,"Sunbury, Pennsylvania",Eliminated 6th (in Hong Kong )
-US,2,US-S02-12,Peach Krebs,33,Sisters,"Paxinos, Pennsylvania",Eliminated 6th (in Hong Kong )
-US,2,US-S02-13,Gary Rosen,33,Former Roommates,"New York City, New York","Eliminated 7th (in Breakaways National Park, Australia )"
-US,2,US-S02-14,Dave Lepeska,28,Former Roommates,"Brooklyn, New York","Eliminated 7th (in Breakaways National Park, Australia )"
-US,2,US-S02-15,Oswald Mendez,31,Best Friends,"Miami, Florida","Eliminated 8th (in Auckland, New Zealand )"
-US,2,US-S02-16,Danny Jimenez,36,Best Friends,"Miami, Florida","Eliminated 8th (in Auckland, New Zealand )"
-US,2,US-S02-17,Blake Mycoskie,25,Brother & Sister,"Nashville, Tennessee",Third place
-US,2,US-S02-18,Paige Mycoskie,21,Brother & Sister,"Arlington, Texas",Third place
-US,2,US-S02-19,Tara Lynch,31,Separated Couple,"Los Angeles, California",Runners-up
-US,2,US-S02-20,Wil Steger,37,Separated Couple,"Los Angeles, California",Runners-up
-US,2,US-S02-21,Chris Luca,25,Lifelong Friends,"Boston, Massachusetts",Winners
-US,2,US-S02-22,Alex Boylan,24,Lifelong Friends,"Boston, Massachusetts",Winners
+US,1,US-S01-01,Matt Robar,28.0,Married,"Simsbury, Connecticut","Eliminated 1st (in Songwe Village, Zambia )"
+US,1,US-S01-02,Ana Robar,28.0,Married,"Simsbury, Connecticut","Eliminated 1st (in Songwe Village, Zambia )"
+US,1,US-S01-03,Kim Smith,28.0,Teachers & Roommates,"Baytown, Texas","Eliminated 2nd (in Paris, France)"
+US,1,US-S01-04,Leslie Kellner,27.0,Teachers & Roommates,"Baytown, Texas","Eliminated 2nd (in Paris, France)"
+US,1,US-S01-05,Pat Pierce,43.0,Working Moms,"Landenberg, Pennsylvania","Eliminated 3rd (in Les Baux-de-Provence, France )"
+US,1,US-S01-06,Brenda Mehta,42.0,Working Moms,"Elkton, Maryland","Eliminated 3rd (in Les Baux-de-Provence, France )"
+US,1,US-S01-07,Dave Groark,65.0,Grandparents,"Rockwall, Texas","Eliminated 4th (in El Djem, Tunisia )"
+US,1,US-S01-08,Margaretta Groark,60.0,Grandparents,"Rockwall, Texas","Eliminated 4th (in El Djem, Tunisia )"
+US,1,US-S01-09,Paul Alessi,32.0,Engaged,"Los Angeles, California","Eliminated 5th (in Jebil National Park, Tunisia )"
+US,1,US-S01-10,Amie Barsky,27.0,Engaged,"Los Angeles, California","Eliminated 5th (in Jebil National Park, Tunisia )"
+US,1,US-S01-11,Lenny Hudson,33.0,Dating,"New York City, New York","Eliminated 6th (in Agra , India)"
+US,1,US-S01-12,Karyn Jefferson,30.0,Dating,"New York City, New York","Eliminated 6th (in Agra , India)"
+US,1,US-S01-13,Nancy Hoyt,46.0,Mother & Daughter,"Waco, Texas","Eliminated 7th (in Krabi , Thailand)"
+US,1,US-S01-14,Emily Hoyt,21.0,Mother & Daughter,"Waco, Texas","Eliminated 7th (in Krabi , Thailand)"
+US,1,US-S01-15,Kevin O'Connor,34.0,Fraternity Brothers,"Bayonne, New Jersey","Eliminated 8th (in Beijing, China)"
+US,1,US-S01-16,Drew Feinberg,35.0,Fraternity Brothers,"Staten Island, New York","Eliminated 8th (in Beijing, China)"
+US,1,US-S01-17,Joe Baldassare,50.0,Life Partners,"Laguna Niguel, California",Third place
+US,1,US-S01-18,Bill Bartek,47.0,Life Partners,"Laguna Niguel, California",Third place
+US,1,US-S01-19,Frank Mesa,30.0,Separated Parents,"Queens, New York",Runners-up
+US,1,US-S01-20,Margarita Mesa,28.0,Separated Parents,"Queens, New York",Runners-up
+US,1,US-S01-21,Rob Frisbee,27.0,Lawyers & Best Friends,"Minneapolis, Minnesota",Winners
+US,1,US-S01-22,Brennan Swain,29.0,Lawyers & Best Friends,"Rochester, New York",Winners
+US,2,US-S02-01,Deidre Washington,51.0,Mother & Daughter,"Miami, Florida","Eliminated 1st (in Rio de Janeiro, Brazil )"
+US,2,US-S02-02,Hillary Washington,23.0,Mother & Daughter,"Brooklyn, New York","Eliminated 1st (in Rio de Janeiro, Brazil )"
+US,2,US-S02-03,Hope Davis,38.0,Married Parents,"Clinton, Tennessee","Eliminated 2nd (in Iguaçu National Park, Brazil )"
+US,2,US-S02-04,Norm Davis,39.0,Married Parents,"Clinton, Tennessee","Eliminated 2nd (in Iguaçu National Park, Brazil )"
+US,2,US-S02-05,Peggy Kuhn,63.0,Grandmothers,"Truckee, California","Eliminated 3rd (in Stellenbosch, South Africa )"
+US,2,US-S02-06,Claire Jinks,65.0,Grandmothers,"Los Gatos, California","Eliminated 3rd (in Stellenbosch, South Africa )"
+US,2,US-S02-07,Shola Richards,27.0,Twins,"Albany, New York","Eliminated 4th (in Khomas Region, Namibia )"
+US,2,US-S02-08,Doyin Richards,27.0,Twins,"Albany, New York","Eliminated 4th (in Khomas Region, Namibia )"
+US,2,US-S02-09,Cyndi Kalenberg,45.0,Pastors & Married Parents,"Brainerd, Minnesota","Eliminated 5th (in Amphawa, Thailand )"
+US,2,US-S02-10,Russell Kalenberg,46.0,Pastors & Married Parents,"Brainerd, Minnesota","Eliminated 5th (in Amphawa, Thailand )"
+US,2,US-S02-11,Mary Lenig,38.0,Sisters,"Sunbury, Pennsylvania",Eliminated 6th (in Hong Kong )
+US,2,US-S02-12,Peach Krebs,33.0,Sisters,"Paxinos, Pennsylvania",Eliminated 6th (in Hong Kong )
+US,2,US-S02-13,Gary Rosen,33.0,Former Roommates,"New York City, New York","Eliminated 7th (in Breakaways National Park, Australia )"
+US,2,US-S02-14,Dave Lepeska,28.0,Former Roommates,"Brooklyn, New York","Eliminated 7th (in Breakaways National Park, Australia )"
+US,2,US-S02-15,Oswald Mendez,31.0,Best Friends,"Miami, Florida","Eliminated 8th (in Auckland, New Zealand )"
+US,2,US-S02-16,Danny Jimenez,36.0,Best Friends,"Miami, Florida","Eliminated 8th (in Auckland, New Zealand )"
+US,2,US-S02-17,Blake Mycoskie,25.0,Brother & Sister,"Nashville, Tennessee",Third place
+US,2,US-S02-18,Paige Mycoskie,21.0,Brother & Sister,"Arlington, Texas",Third place
+US,2,US-S02-19,Tara Lynch,31.0,Separated Couple,"Los Angeles, California",Runners-up
+US,2,US-S02-20,Wil Steger,37.0,Separated Couple,"Los Angeles, California",Runners-up
+US,2,US-S02-21,Chris Luca,25.0,Lifelong Friends,"Boston, Massachusetts",Winners
+US,2,US-S02-22,Alex Boylan,24.0,Lifelong Friends,"Boston, Massachusetts",Winners
+US,3,US-S03-01,Gina Diggins,35.0,Soccer Moms,"Hilton Head Island, South Carolina","Eliminated 1st (in Puente de Ixtla, Mexico )"
+US,3,US-S03-02,Sylvia Pitts,34.0,Soccer Moms,"Hilton Head Island, South Carolina","Eliminated 1st (in Puente de Ixtla, Mexico )"
+US,3,US-S03-03,Tramel Raggs,22.0,Brother & Sister,"Gary, Indiana","Eliminated 2nd (in Tulum, Mexico )"
+US,3,US-S03-04,Talicia Raggs,29.0,Brother & Sister,"Los Angeles, California","Eliminated 2nd (in Tulum, Mexico )"
+US,3,US-S03-05,Dennis Hyde,48.0,Father & Son,"Lexington, Kentucky","Eliminated 3rd (in Stonehaven, Scotland )"
+US,3,US-S03-06,Andrew Hyde,21.0,Father & Son,"Lexington, Kentucky","Eliminated 3rd (in Stonehaven, Scotland )"
+US,3,US-S03-07,Heather Mahar,25.0,Law School Roommates,"Boston, Massachusetts","Eliminated 4th (in Lisbon, Portugal )"
+US,3,US-S03-08,Eve Madison,25.0,Law School Roommates,"New York City, New York","Eliminated 4th (in Lisbon, Portugal )"
+US,3,US-S03-09,Michael Ilacqua,28.0,Long-Distance Dating,"San Diego, California","Eliminated 5th (in Fez, Morocco )"
+US,3,US-S03-10,Kathy Perez,31.0,Long-Distance Dating,"Birmingham, Michigan","Eliminated 5th (in Fez, Morocco )"
+US,3,US-S03-11,Aaron Goldschmidt,27.0,Lifelong Friends,"New York City, New York","Eliminated 6th (in Marrakesh, Morocco )"
+US,3,US-S03-12,Arianne Udell,27.0,Lifelong Friends,"New York City, New York","Eliminated 6th (in Marrakesh, Morocco )"
+US,3,US-S03-13,Andre Plummer,32.0,Cop & Fireman,"Los Angeles, California","Eliminated 7th (in Schwangau, Germany )"
+US,3,US-S03-14,Damon Wafer,33.0,Cop & Fireman,"Long Beach, California","Eliminated 7th (in Schwangau, Germany )"
+US,3,US-S03-15,John Vito Pietanza,28.0,Dating,"Staten Island, New York",Eliminated 8th (in Singapore )
+US,3,US-S03-16,Jill Aquilino,24.0,Dating,"Manhattan, New York",Eliminated 8th (in Singapore )
+US,3,US-S03-17,Derek Riker,32.0,Twins & Models,"Los Angeles, California","Eliminated 9th (in Ho Chi Minh City, Vietnam )"
+US,3,US-S03-18,Drew Riker,32.0,Twins & Models,"Los Angeles, California","Eliminated 9th (in Ho Chi Minh City, Vietnam )"
+US,3,US-S03-19,Ken Duphiney,40.0,Brothers,"New York City, New York",Third place
+US,3,US-S03-20,Gerard Duphiney,35.0,Brothers,"Denville, New Jersey",Third place
+US,3,US-S03-21,Teri Pollack,49.0,Married Parents,"Palm City, Florida",Runners-up
+US,3,US-S03-22,Ian Pollack,50.0,Married Parents,"Palm City, Florida",Runners-up
+US,3,US-S03-23,Flo Pesenti,23.0,Friends,"New York City, New York",Winners
+US,3,US-S03-24,Zach Behr,23.0,Friends,"New York City, New York",Winners
+US,4,US-S04-01,Debra Carmody,49.0,Married Parents,"Louisville, Kentucky","Eliminated 1st (in Cortina d'Ampezzo, Italy )"
+US,4,US-S04-02,Steve Carmody,40.0,Married Parents,"Louisville, Kentucky","Eliminated 1st (in Cortina d'Ampezzo, Italy )"
+US,4,US-S04-03,Amanda Adams,25.0,Dating,"Sioux Falls, South Dakota","Eliminated 2nd (in Venice, Italy )"
+US,4,US-S04-04,Chris Garry,28.0,Dating,"Sioux Falls, South Dakota","Eliminated 2nd (in Venice, Italy )"
+US,4,US-S04-05,Russell Brown,32.0,Friends & Dating,"Hermosa Beach, California","Eliminated 3rd (in Gmunden, Austria )"
+US,4,US-S04-06,Cindy Duck,39.0,Friends & Dating,"Los Angeles, California","Eliminated 3rd (in Gmunden, Austria )"
+US,4,US-S04-07,Steve Cottingham,47.0,Father & Son,"Santa Barbara, California","Eliminated 4th (in Saint-Rémy-de-Provence, France )"
+US,4,US-S04-08,Josh Cottingham,21.0,Father & Son,"Los Angeles, California","Eliminated 4th (in Saint-Rémy-de-Provence, France )"
+US,4,US-S04-09,Steve Meitz,46.0,Air Traffic Controllers,"Chicago, Illinois","Eliminated 5th (in Muiden, Netherlands )"
+US,4,US-S04-10,Dave Cottingham,43.0,Air Traffic Controllers,"Chicago, Illinois","Eliminated 5th (in Muiden, Netherlands )"
+US,4,US-S04-11,Monica Ambrose,29.0,NFL Wives & Moms,"Duluth, Georgia","Eliminated 6th (in Mumbai, India )"
+US,4,US-S04-12,Sheree Buchanan,31.0,NFL Wives & Moms,"Duluth, Georgia","Eliminated 6th (in Mumbai, India )"
+US,4,US-S04-13,Tian Kitchen,30.0,Friends & Models,"Miami, Florida","Eliminated 7th (in Alleppey, India )"
+US,4,US-S04-14,Jaree Poteet,33.0,Friends & Models,"Miami, Florida","Eliminated 7th (in Alleppey, India )"
+US,4,US-S04-15,Millie Smith,29.0,Dating 12 Years & Virgins,"Chattanooga, Tennessee","Eliminated 8th (in Sepilok, Malaysia )"
+US,4,US-S04-16,Chuck Shankles,28.0,Dating 12 Years & Virgins,"Chattanooga, Tennessee","Eliminated 8th (in Sepilok, Malaysia )"
+US,4,US-S04-17,Jon Weiss,40.0,Best Friends & Clowns,"Long Island, New York","Eliminated 9th (in Mooloolaba, Australia )"
+US,4,US-S04-18,Al Rios,34.0,Best Friends & Clowns,"Long Island, New York","Eliminated 9th (in Mooloolaba, Australia )"
+US,4,US-S04-19,David Dean,32.0,Best Friends,"Los Angeles, California",Third place
+US,4,US-S04-20,Jeff Strand,37.0,Best Friends,"Los Angeles, California",Third place
+US,4,US-S04-21,Kelly Parks,30.0,Engaged,"Miami, Florida",Runners-up
+US,4,US-S04-22,Jon Corso,28.0,Engaged,"Miami, Florida",Runners-up
+US,4,US-S04-23,Reichen Lehmkuhl,28.0,Married,"Los Angeles, California",Winners
+US,4,US-S04-24,Chip Arndt,36.0,Married,"Los Angeles, California",Winners
+US,5,US-S05-01,Dennis Frentsos,27.0,Once Engaged,"West Nyack, New York","Eliminated 1st (in Punta Ballena, Uruguay)"
+US,5,US-S05-02,Erika Shay,25.0,Once Engaged,"Piermont, New York","Eliminated 1st (in Punta Ballena, Uruguay)"
+US,5,US-S05-03,Alison Irwin,23.0,Dating,"Meadville, Pennsylvania","Eliminated 2nd (in San Antonio de Areco, Argentina)"
+US,5,US-S05-04,Donny Patrick,21.0,Dating,"Shenandoah, Pennsylvania","Eliminated 2nd (in San Antonio de Areco, Argentina)"
+US,5,US-S05-05,Jim McCoy,53.0,Military Father & Daughter,"Jacksonville, Florida","Eliminated 3rd (in Rio Negro, Argentina)"
+US,5,US-S05-06,Marsha McCoy,26.0,Military Father & Daughter,"Gainesville, Florida","Eliminated 3rd (in Rio Negro, Argentina)"
+US,5,US-S05-07,Bob Barron,61.0,Internet Dating Couple,"Mount Laurel, New Jersey","Eliminated 4th (in Pushkin, Russia)"
+US,5,US-S05-08,Joyce Nicolo,54.0,Internet Dating Couple,"Mount Laurel, New Jersey","Eliminated 4th (in Pushkin, Russia)"
+US,5,US-S05-09,Marshall Hudes,31.0,Brothers,"Dallas, Texas","Quit (in Luxor, Egypt)"
+US,5,US-S05-10,Lance Hudes,26.0,Brothers,"Dallas, Texas","Quit (in Luxor, Egypt)"
+US,5,US-S05-11,Charla Faddoul,27.0,Cousins,"Phoenix, Maryland","Eliminated 6th (in Lake Manyara National Park, Tanzania)"
+US,5,US-S05-12,Mirna Hindoyan,27.0,Cousins,"Towson, Maryland","Eliminated 6th (in Lake Manyara National Park, Tanzania)"
+US,5,US-S05-13,Kami French,26.0,Twins,"Eugene, Oregon","Eliminated 7th (in Paengaroa, New Zealand)"
+US,5,US-S05-14,Karli French,26.0,Twins,"Eugene, Oregon","Eliminated 7th (in Paengaroa, New Zealand)"
+US,5,US-S05-15,Linda Ruiz,45.0,Bowling Moms,"Palmdale, California","Eliminated 8th (in El Nido, Philippines)"
+US,5,US-S05-16,Karen Heins,41.0,Bowling Moms,"Palmdale, California","Eliminated 8th (in El Nido, Philippines)"
+US,5,US-S05-17,Brandon Davidson,25.0,Dating & Models,"Los Angeles, California",Third place
+US,5,US-S05-18,Nicole O'Brian,21.0,Dating & Models,"Los Angeles, California",Third place
+US,5,US-S05-19,Colin Guinn,24.0,Dating,"Corpus Christi, Texas",Runners-up
+US,5,US-S05-20,Christie Woods,26.0,Dating,"Corpus Christi, Texas",Runners-up
+US,5,US-S05-21,Chip McAllister,46.0,Married Parents,"Coto de Caza, California",Winners
+US,5,US-S05-22,Kim McAllister,44.0,Married Parents,"Coto de Caza, California",Winners
+US,6,US-S06-01,Avi Schneier,32.0,High School Buddies,"Brooklyn, New York","Eliminated 1st (in Grindavík, Iceland)"
+US,6,US-S06-02,Joe Rashbaum,32.0,High School Buddies,"Ventura, California","Eliminated 1st (in Grindavík, Iceland)"
+US,6,US-S06-03,Meredith Tufaro,26.0,Best Friends,"Queens, New York","Eliminated 2nd (in Voss, Norway)"
+US,6,US-S06-04,Maria Sampogna,26.0,Best Friends,"Queens, New York","Eliminated 2nd (in Voss, Norway)"
+US,6,US-S06-05,Lena Jensen,23.0,Sisters,"Pleasant Grove, Utah","Eliminated 3rd (in Häggvik, Sweden)"
+US,6,US-S06-06,Kristy Jensen,26.0,Sisters,"Pleasant Grove, Utah","Eliminated 3rd (in Häggvik, Sweden)"
+US,6,US-S06-07,Don St. Claire,69.0,Grandparents,"Portola Valley, California","Eliminated 4th (in Berlin, Germany)"
+US,6,US-S06-08,Mary Jean St. Claire,66.0,Grandparents,"Portola Valley, California","Eliminated 4th (in Berlin, Germany)"
+US,6,US-S06-09,Gus McLeod,50.0,Father & Daughter,"Gaithersburg, Maryland","Eliminated 5th (in Budapest, Hungary)"
+US,6,US-S06-10,Hera McLeod,24.0,Father & Daughter,"Los Angeles, California","Eliminated 5th (in Budapest, Hungary)"
+US,6,US-S06-11,Jonathan Baker,42.0,Married Entrepreneurs,"Los Angeles, California","Eliminated 6th (in Lalibela, Ethiopia)"
+US,6,US-S06-12,Victoria Fuller,32.0,Married Entrepreneurs,"Los Angeles, California","Eliminated 6th (in Lalibela, Ethiopia)"
+US,6,US-S06-13,Lori Harvey,33.0,Married Pro Wrestlers,"Molino, Florida","Eliminated 7th (in Sigiriya, Sri Lanka)"
+US,6,US-S06-14,Bolo Dar'tainian,38.0,Married Pro Wrestlers,"Molino, Florida","Eliminated 7th (in Sigiriya, Sri Lanka)"
+US,6,US-S06-15,Hayden Kristianson,25.0,Dating Actors,"Chicago, Illinois","Eliminated 8th (in Xi'an, China)"
+US,6,US-S06-16,Aaron Crumbaugh,25.0,Dating Actors,"Chicago, Illinois","Eliminated 8th (in Xi'an, China)"
+US,6,US-S06-17,Adam Malis,27.0,Formerly Dating,"Los Angeles, California",Third place
+US,6,US-S06-18,Rebecca Cardon,29.0,Formerly Dating,"Los Angeles, California",Third place
+US,6,US-S06-19,Kris Perkins,30.0,Dating Long Distance,"Long Beach, California",Runners-up
+US,6,US-S06-20,Jon Buehler,29.0,Dating Long Distance,"Scottsdale, Arizona",Runners-up
+US,6,US-S06-21,Freddy Holliday,34.0,Engaged Models,"Miami, Florida",Winners
+US,6,US-S06-22,Kendra Bentley,25.0,Engaged Models,"Miami, Florida",Winners
+US,7,US-S07-01,Ryan Phillips,31.0,Best Friends,"Landrum, South Carolina","Eliminated 1st (in Cusco, Peru)"
+US,7,US-S07-02,Chuck Horton,32.0,Best Friends,"Inman, South Carolina","Eliminated 1st (in Cusco, Peru)"
+US,7,US-S07-03,Megan Baker,26.0,Roommates,"Oak Park, California","Eliminated 2nd (in Santiago, Chile)"
+US,7,US-S07-04,Heidi Heidel,31.0,Roommates,"Oak Park, California","Eliminated 2nd (in Santiago, Chile)"
+US,7,US-S07-05,Debbie Cloyed,25.0,Lifelong Friends,"Woodbridge, Virginia","Eliminated 3rd (in Las Heras, Argentina)"
+US,7,US-S07-06,Bianca Smith,26.0,Lifelong Friends,"Woodbridge, Virginia","Eliminated 3rd (in Las Heras, Argentina)"
+US,7,US-S07-07,Susan Vaughn,54.0,Mother & Son,"Hamilton, Ohio","Eliminated 4th (in Vicente Casares, Argentina)"
+US,7,US-S07-08,Patrick Vaughn,26.0,Mother & Son,"Hamilton, Ohio","Eliminated 4th (in Vicente Casares, Argentina)"
+US,7,US-S07-09,Ray Hosteau,44.0,Dating On and Off,"Canfield, Ohio","Eliminated 5th (in Makgadikgadi Pans National Park, Botswana)"
+US,7,US-S07-10,Deana Shane,27.0,Dating On and Off,"Youngstown, Ohio","Eliminated 5th (in Makgadikgadi Pans National Park, Botswana)"
+US,7,US-S07-11,Brian Smith,27.0,Brothers,"Santa Monica, California","Eliminated 6th (in Khwai, Botswana)"
+US,7,US-S07-12,Greg Smith,24.0,Brothers,"Santa Monica, California","Eliminated 6th (in Khwai, Botswana)"
+US,7,US-S07-13,Lynn Warren,30.0,Boyfriends,"West Hollywood, California","Eliminated 7th (in Jodhpur, India)"
+US,7,US-S07-14,Alex Ali,22.0,Boyfriends,"West Hollywood, California","Eliminated 7th (in Jodhpur, India)"
+US,7,US-S07-15,Meredith Smith,69.0,Married & Retired,"Easton, Maryland","Eliminated 8th (in London, England)"
+US,7,US-S07-16,Gretchen Smith,66.0,Married & Retired,"Easton, Maryland","Eliminated 8th (in London, England)"
+US,7,US-S07-17,"Ron Young, Jr.",28.0,Former POW & Pageant Queen,"Villa Rica, Georgia",Third place
+US,7,US-S07-18,Kelly McCorkle,26.0,Former POW & Pageant Queen,"Greenville, South Carolina",Third place
+US,7,US-S07-19,Rob Mariano,29.0,Engaged,"Canton, Massachusetts",Runners-up
+US,7,US-S07-20,Amber Brkich,26.0,Engaged,"Beaver, Pennsylvania",Runners-up
+US,7,US-S07-21,Uchenna Agu,40.0,Married,"Houston, Texas",Winners
+US,7,US-S07-22,Joyce Agu,44.0,Married,"Houston, Texas",Winners
+US,8,US-S08-01,Reggie Black,42.0,"Dad, Mom & Kids","Woodbridge, Virginia","Eliminated 1st (in Lancaster, Pennsylvania )"
+US,8,US-S08-02,Kimberly Black,40.0,"Dad, Mom & Kids","Woodbridge, Virginia","Eliminated 1st (in Lancaster, Pennsylvania )"
+US,8,US-S08-03,Kenneth Black,11.0,"Dad, Mom & Kids","Woodbridge, Virginia","Eliminated 1st (in Lancaster, Pennsylvania )"
+US,8,US-S08-04,Austin Black,8.0,"Dad, Mom & Kids","Woodbridge, Virginia","Eliminated 1st (in Lancaster, Pennsylvania )"
+US,8,US-S08-05,Denny Rogers,46.0,"Dad, Mom & Kids","Shreveport, Louisiana","Eliminated 2nd (in Middleburg, Virginia )"
+US,8,US-S08-06,Renee Rogers,42.0,"Dad, Mom & Kids","Shreveport, Louisiana","Eliminated 2nd (in Middleburg, Virginia )"
+US,8,US-S08-07,Brittney Rogers,22.0,"Dad, Mom & Kids","Shreveport, Louisiana","Eliminated 2nd (in Middleburg, Virginia )"
+US,8,US-S08-08,Brock Rogers,19.0,"Dad, Mom & Kids","Shreveport, Louisiana","Eliminated 2nd (in Middleburg, Virginia )"
+US,8,US-S08-09,Tony Aiello,57.0,Father and Sons-in-Law,"Mansfield, Massachusetts","Eliminated 3rd (in Huntsville, Alabama )"
+US,8,US-S08-10,Kevin Kempskie,31.0,Father and Sons-in-Law,"Mansfield, Massachusetts","Eliminated 3rd (in Huntsville, Alabama )"
+US,8,US-S08-11,Matt Hanson,31.0,Father and Sons-in-Law,"Mansfield, Massachusetts","Eliminated 3rd (in Huntsville, Alabama )"
+US,8,US-S08-12,David Alverson,26.0,Father and Sons-in-Law,"Mansfield, Massachusetts","Eliminated 3rd (in Huntsville, Alabama )"
+US,8,US-S08-13,Mark Schroeder,40.0,"Dad, Stepmom & Kids","New Orleans, Louisiana","Eliminated 4th (in New Orleans, Louisiana )"
+US,8,US-S08-14,Char Schroeder,39.0,"Dad, Stepmom & Kids","New Orleans, Louisiana","Eliminated 4th (in New Orleans, Louisiana )"
+US,8,US-S08-15,Stassi Schroeder,17.0,"Dad, Stepmom & Kids","New Orleans, Louisiana","Eliminated 4th (in New Orleans, Louisiana )"
+US,8,US-S08-16,Hunter Schroeder,15.0,"Dad, Stepmom & Kids","New Orleans, Louisiana","Eliminated 4th (in New Orleans, Louisiana )"
+US,8,US-S08-17,Bill Gaghan,40.0,"Dad, Mom & Kids","Glastonbury, Connecticut","Eliminated 5th (in Quepos, Costa Rica )"
+US,8,US-S08-18,Tammy Gaghan,42.0,"Dad, Mom & Kids","Glastonbury, Connecticut","Eliminated 5th (in Quepos, Costa Rica )"
+US,8,US-S08-19,"Billy Gaghan, Jr.",12.0,"Dad, Mom & Kids","Glastonbury, Connecticut","Eliminated 5th (in Quepos, Costa Rica )"
+US,8,US-S08-20,Carissa Gaghan,9.0,"Dad, Mom & Kids","Glastonbury, Connecticut","Eliminated 5th (in Quepos, Costa Rica )"
+US,8,US-S08-21,Tony Paolo,52.0,"Dad, Mom & Kids","Carmel, New York","Eliminated 6th (in Page, Arizona )"
+US,8,US-S08-22,Marion Paolo,52.0,"Dad, Mom & Kids","Carmel, New York","Eliminated 6th (in Page, Arizona )"
+US,8,US-S08-23,D.J. Paolo,24.0,"Dad, Mom & Kids","Carmel, New York","Eliminated 6th (in Page, Arizona )"
+US,8,US-S08-24,Brian Paolo,16.0,"Dad, Mom & Kids","Carmel, New York","Eliminated 6th (in Page, Arizona )"
+US,8,US-S08-25,Michelle Godlewski,42.0,Sisters,"Des Plaines, Illinois","Eliminated 7th (in Absarokee, Montana )"
+US,8,US-S08-26,Sharon Godlewski,39.0,Sisters,"Des Plaines, Illinois","Eliminated 7th (in Absarokee, Montana )"
+US,8,US-S08-27,Christine Godlewski,37.0,Sisters,"Des Plaines, Illinois","Eliminated 7th (in Absarokee, Montana )"
+US,8,US-S08-28,Tricia Godlewski,26.0,Sisters,"Des Plaines, Illinois","Eliminated 7th (in Absarokee, Montana )"
+US,8,US-S08-29,Linda Weaver,46.0,Widow & Kids,"Ormond Beach, Florida",Third place
+US,8,US-S08-30,Rebecca Weaver,19.0,Widow & Kids,"Ormond Beach, Florida",Third place
+US,8,US-S08-31,Rachel Weaver,16.0,Widow & Kids,"Ormond Beach, Florida",Third place
+US,8,US-S08-32,Rolly Weaver IV,14.0,Widow & Kids,"Ormond Beach, Florida",Third place
+US,8,US-S08-33,Wally Bransen,51.0,Dad & Daughters,"Park Ridge, Illinois",Runners-up
+US,8,US-S08-34,Beth Bransen,25.0,Dad & Daughters,"Park Ridge, Illinois",Runners-up
+US,8,US-S08-35,Lauren Bransen,22.0,Dad & Daughters,"Park Ridge, Illinois",Runners-up
+US,8,US-S08-36,Lindsay Bransen,20.0,Dad & Daughters,"Park Ridge, Illinois",Runners-up
+US,8,US-S08-37,Nick Linz,24.0,Siblings,"Cincinnati, Ohio",Winners
+US,8,US-S08-38,Alex Linz,22.0,Siblings,"Cincinnati, Ohio",Winners
+US,8,US-S08-39,Megan Linz,21.0,Siblings,"Cincinnati, Ohio",Winners
+US,8,US-S08-40,Tommy Linz,19.0,Siblings,"Cincinnati, Ohio",Winners
+US,9,US-S09-01,John Lowe,38.0,Lifelong Friends,"Dorchester, Massachusetts","Eliminated 1st (in São Paulo, Brazil)"
+US,9,US-S09-02,Scott Braginton-Smith,41.0,Lifelong Friends,"West Harwich, Massachusetts","Eliminated 1st (in São Paulo, Brazil)"
+US,9,US-S09-03,Lisa Hinds,48.0,Sisters,"Santa Rosa Beach, Florida","Eliminated 2nd (in Brotas, Brazil)"
+US,9,US-S09-04,Joni Glaze,44.0,Sisters,"Katy, Texas","Eliminated 2nd (in Brotas, Brazil)"
+US,9,US-S09-05,Wanda Lopez-Rochford,44.0,Mother & Daughter,"Smyrna, Georgia","Eliminated 3rd (in Munich, Germany)"
+US,9,US-S09-06,Desiree Cifre,24.0,Mother & Daughter,"New York City, New York","Eliminated 3rd (in Munich, Germany)"
+US,9,US-S09-07,Danielle Turner,22.0,Childhood Friends,"Staten Island, New York","Eliminated 4th (in Calatafimi-Segesta, Italy)"
+US,9,US-S09-08,Dani Torchio,22.0,Childhood Friends,"Staten Island, New York","Eliminated 4th (in Calatafimi-Segesta, Italy)"
+US,9,US-S09-09,Dave Spiker,30.0,Dating,"Manhattan, Kansas","Eliminated 5th (in Syracuse, Italy)"
+US,9,US-S09-10,Lori Willems,25.0,Dating,"Manhattan, Kansas","Eliminated 5th (in Syracuse, Italy)"
+US,9,US-S09-11,Lake Garner,37.0,Married Parents,"Hattiesburg, Mississippi","Eliminated 6th (in Rio, Greece)"
+US,9,US-S09-12,Michelle Garner,36.0,Married Parents,"Hattiesburg, Mississippi","Eliminated 6th (in Rio, Greece)"
+US,9,US-S09-13,Fran Lazarus,61.0,Married 40 Years,"Silverthorne, Colorado","Eliminated 7th (in Fremantle, Australia)"
+US,9,US-S09-14,Barry Lazarus,63.0,Married 40 Years,"Silverthorne, Colorado","Eliminated 7th (in Fremantle, Australia)"
+US,9,US-S09-15,Joseph Meadows,23.0,Dating,"Fort Smith, Arkansas","Eliminated 8th (in Bangkok, Thailand)"
+US,9,US-S09-16,Monica Cayce,23.0,Dating,"Fort Smith, Arkansas","Eliminated 8th (in Bangkok, Thailand)"
+US,9,US-S09-17,Ray Whitty,27.0,Dating,"Chicago, Illinois",Third place
+US,9,US-S09-18,Yolanda Brown-Moore,27.0,Dating,"Chicago, Illinois",Third place
+US,9,US-S09-19,Eric Sanchez,27.0,Friends,"Deerfield Beach, Florida",Runners-up
+US,9,US-S09-20,Jeremy Ryan,26.0,Friends,"Pompano Beach, Florida",Runners-up
+US,9,US-S09-21,BJ Averell,26.0,Best Friends,"Los Angeles, California",Winners
+US,9,US-S09-22,Tyler MacNiven,25.0,Best Friends,"San Francisco, California",Winners
+US,10,US-S10-01,Bilal Abdul-Mani,37.0,Best Friends,"Cleveland, Ohio","Eliminated 1st (in Beijing, China )"
+US,10,US-S10-02,Sa'eed Rudolph,39.0,Best Friends,"Cleveland, Ohio","Eliminated 1st (in Beijing, China )"
+US,10,US-S10-03,Vipul Patel,29.0,Married,"Windermere, Florida","Eliminated 2nd (in Beijing, China )"
+US,10,US-S10-04,Arti Patel,26.0,Married,"Windermere, Florida","Eliminated 2nd (in Beijing, China )"
+US,10,US-S10-05,Kellie Patterson,22.0,Cheerleaders,"Columbia, South Carolina","Eliminated 3rd (in Ulaanbaatar, Mongolia )"
+US,10,US-S10-06,Jamie Hill,22.0,Cheerleaders,"Columbia, South Carolina","Eliminated 3rd (in Ulaanbaatar, Mongolia )"
+US,10,US-S10-07,Duke Marcoccio,52.0,Father & Daughter,"Warwick, Rhode Island","Eliminated 4th (in Phố Vác, Vietnam)"
+US,10,US-S10-08,Lauren Marcoccio,26.0,Father & Daughter,"Warwick, Rhode Island","Eliminated 4th (in Phố Vác, Vietnam)"
+US,10,US-S10-09,Tom Rock,39.0,Boyfriends,"New York City, New York","Eliminated 5th (in Hạ Long Bay, Vietnam )"
+US,10,US-S10-10,Terry Cosentino,45.0,Boyfriends,"New York City, New York","Eliminated 5th (in Hạ Long Bay, Vietnam )"
+US,10,US-S10-11,Peter Harsch,35.0,Recently Dating,"Laguna Beach, California","Eliminated 6th (in Kuwait City, Kuwait )"
+US,10,US-S10-12,Sarah Reinertsen,31.0,Recently Dating,"Trabuco Canyon, California","Eliminated 6th (in Kuwait City, Kuwait )"
+US,10,US-S10-13,"David Conley, Jr.",32.0,Coal Miner and Wife,"Stone, Kentucky","Eliminated 7th (in Antananarivo, Madagascar )"
+US,10,US-S10-14,Mary Conley,31.0,Coal Miner and Wife,"Stone, Kentucky","Eliminated 7th (in Antananarivo, Madagascar )"
+US,10,US-S10-15,Erwin Cho,32.0,Brothers,"San Francisco, California","Eliminated 8th (in Kyiv, Ukraine )"
+US,10,US-S10-16,Godwin Cho,29.0,Brothers,"San Francisco, California","Eliminated 8th (in Kyiv, Ukraine )"
+US,10,US-S10-17,Dustin Konzelman,24.0,Beauty Queens,"Riverside, California","Eliminated 9th (in Barcelona, Spain )"
+US,10,US-S10-18,Kandice Pelletier,24.0,Beauty Queens,"New York City, New York","Eliminated 9th (in Barcelona, Spain )"
+US,10,US-S10-19,Lyn Turk,32.0,Single Moms & Friends,"Birmingham, Alabama",Third place
+US,10,US-S10-20,Karlyn Harris,32.0,Single Moms & Friends,"Helena, Alabama",Third place
+US,10,US-S10-21,Rob Diaz,31.0,Dating,"Los Angeles, California",Runners-up
+US,10,US-S10-22,Kimberly Chabolla,28.0,Dating,"Los Angeles, California",Runners-up
+US,10,US-S10-23,Tyler Denk,29.0,Models,"Los Angeles, California",Winners
+US,10,US-S10-24,James Branaman,27.0,Models,"Los Angeles, California",Winners
+US,11,US-S11-01,John Vito Pietanza,32.0,Formerly Dating The Amazing Race 3,"New York City, New York","Eliminated 1st (in Cotopaxi National Park, Ecuador )"
+US,11,US-S11-02,Jill Aquilino,29.0,Formerly Dating The Amazing Race 3,"New York City, New York","Eliminated 1st (in Cotopaxi National Park, Ecuador )"
+US,11,US-S11-03,Kevin O'Connor,40.0,Lifelong Friends The Amazing Race 1,"Bayonne, New Jersey","Eliminated 2nd (in San Pedro de Atacama, Chile )"
+US,11,US-S11-04,Drew Feinberg,41.0,Lifelong Friends The Amazing Race 1,"Staten Island, New York","Eliminated 2nd (in San Pedro de Atacama, Chile )"
+US,11,US-S11-05,"David Conley, Jr.",33.0,Coal Miner & Wife The Amazing Race 10,"Stone, Kentucky","Eliminated 3rd (in Vicente Pérez Rosales National Park, Chile )"
+US,11,US-S11-06,Mary Conley,32.0,Coal Miner & Wife The Amazing Race 10,"Stone, Kentucky","Eliminated 3rd (in Vicente Pérez Rosales National Park, Chile )"
+US,11,US-S11-07,Rob Mariano,30.0,Newlyweds The Amazing Race 7,"Pensacola, Florida","Eliminated 4th (on Isla Redonda, Argentina )"
+US,11,US-S11-08,Amber Mariano,28.0,Newlyweds The Amazing Race 7,"Pensacola, Florida","Eliminated 4th (on Isla Redonda, Argentina )"
+US,11,US-S11-09,Teri Pollack,53.0,Married Parents The Amazing Race 3,"Palm City, Florida","Eliminated 5th (in Zanzibar City, Tanzania )"
+US,11,US-S11-10,Ian Pollack,54.0,Married Parents The Amazing Race 3,"Palm City, Florida","Eliminated 5th (in Zanzibar City, Tanzania )"
+US,11,US-S11-11,Joe Baldassare,56.0,Life Partners The Amazing Race 1,"Laguna Niguel, California","Eliminated 6th (in Sułoszowa, Poland )"
+US,11,US-S11-12,Bill Bartek,53.0,Life Partners The Amazing Race 1,"Laguna Niguel, California","Eliminated 6th (in Sułoszowa, Poland )"
+US,11,US-S11-13,Uchenna Agu,42.0,Married The Amazing Race 7,"Houston, Texas","Eliminated 7th (in Kuala Lumpur, Malaysia )"
+US,11,US-S11-14,Joyce Agu,46.0,Married The Amazing Race 7,"Houston, Texas","Eliminated 7th (in Kuala Lumpur, Malaysia )"
+US,11,US-S11-15,Oswald Mendez,36.0,Best Friends The Amazing Race 2,"New York City, New York","Eliminated 8th (in Humåtak, Guam )"
+US,11,US-S11-16,Danny Jimenez,41.0,Best Friends The Amazing Race 2,"Miami, Florida","Eliminated 8th (in Humåtak, Guam )"
+US,11,US-S11-17,Charla Faddoul,30.0,Cousins The Amazing Race 5,"Towson, Maryland",Third place
+US,11,US-S11-18,Mirna Hindoyan,30.0,Cousins The Amazing Race 5,"Towson, Maryland",Third place
+US,11,US-S11-19,Dustin Seltzer,24.0,Beauty Queens The Amazing Race 10,"Seattle, Washington",Runners-up
+US,11,US-S11-20,Kandice Pelletier,25.0,Beauty Queens The Amazing Race 10,"New York City, New York",Runners-up
+US,11,US-S11-21,Eric Sanchez,28.0,Dating The Amazing Race 9,"Deerfield Beach, Florida",Winners
+US,11,US-S11-22,Danielle Turner,23.0,Dating The Amazing Race 9,"Staten Island, New York",Winners
+US,12,US-S12-01,Ari Bonias,21.0,Best Friends,"Fountain Valley, California","Eliminated 1st (in Clifden, Ireland)"
+US,12,US-S12-02,Staella Gianakakos,23.0,Best Friends,"Fountain Valley, California","Eliminated 1st (in Clifden, Ireland)"
+US,12,US-S12-03,Kate Lewis,49.0,Married Ministers,"Thousand Oaks, California","Eliminated 2nd (in Durgerdam, Netherlands)"
+US,12,US-S12-04,Pat Hendrickson,65.0,Married Ministers,"Thousand Oaks, California","Eliminated 2nd (in Durgerdam, Netherlands)"
+US,12,US-S12-05,Marianna Ruiz,25.0,Sisters,"Miami, Florida","Eliminated 3rd (in Boulkiemdé, Burkina Faso)"
+US,12,US-S12-06,Julia Ruiz,26.0,Sisters,"Miami, Florida","Eliminated 3rd (in Boulkiemdé, Burkina Faso)"
+US,12,US-S12-07,Lorena Segura,27.0,Dating,"Sherman Oaks, California","Eliminated 4th (in Ouagadougou, Burkina Faso)"
+US,12,US-S12-08,Jason Widener,33.0,Dating,"Sherman Oaks, California","Eliminated 4th (in Ouagadougou, Burkina Faso)"
+US,12,US-S12-09,Shana Wall,32.0,Friends,"Los Angeles, California","Eliminated 5th (in Rumšiškės, Lithuania)"
+US,12,US-S12-10,Jennifer McCall,32.0,Friends,"Los Angeles, California","Eliminated 5th (in Rumšiškės, Lithuania)"
+US,12,US-S12-11,Azaria Azene,27.0,Brother & Sister,"New Orleans, Louisiana","Eliminated 6th (in Dubrovnik, Croatia)"
+US,12,US-S12-12,Hendekea Azene,23.0,Brother & Sister,"Torrance, California","Eliminated 6th (in Dubrovnik, Croatia)"
+US,12,US-S12-13,Kynt Cothron,31.0,Dating Goths,"Louisville, Kentucky","Eliminated 7th (in Mumbai, India)"
+US,12,US-S12-14,Vyxsin Fiala,29.0,Dating Goths,"Louisville, Kentucky","Eliminated 7th (in Mumbai, India)"
+US,12,US-S12-15,Nathan Hagstrom,24.0,Dating,"Fountain Valley, California","Eliminated 8th (in Taipei, Taiwan)"
+US,12,US-S12-16,Jennifer Parker,23.0,Dating,"Huntington Beach, California","Eliminated 8th (in Taipei, Taiwan)"
+US,12,US-S12-17,Nicolas Fulks,23.0,Grandson & Grandfather,"Chicago, Illinois",Third place
+US,12,US-S12-18,Donald Jerousek,68.0,Grandson & Grandfather,"Elkhorn, Wisconsin",Third place
+US,12,US-S12-19,Ronald Hsu,58.0,Father & Daughter,"Tacoma, Washington",Runners-up
+US,12,US-S12-20,Christina Hsu,26.0,Father & Daughter,"Washington, D.C.",Runners-up
+US,12,US-S12-21,TK Erwin,22.0,Newly Dating,"Huntington Beach, California",Winners
+US,12,US-S12-22,Rachel Rosales,23.0,Newly Dating,"Huntington Beach, California",Winners
+US,13,US-S13-01,Anita Jones,63.0,Married Beekeepers,"Eugene, Oregon","Eliminated 1st (in Salvador, Brazil)"
+US,13,US-S13-02,Arthur Jones,61.0,Married Beekeepers,"Eugene, Oregon","Eliminated 1st (in Salvador, Brazil)"
+US,13,US-S13-03,Anthony Marotta,32.0,Dating,"Los Angeles, California","Eliminated 2nd (in Fortaleza, Brazil)"
+US,13,US-S13-04,Stephanie Kacandes,32.0,Dating,"Los Angeles, California","Eliminated 2nd (in Fortaleza, Brazil)"
+US,13,US-S13-05,Mark Yturralde,41.0,Best Friends,"San Diego, California","Eliminated 3rd (in La Paz, Bolivia)"
+US,13,US-S13-06,Bill Kahler,42.0,Best Friends,"San Diego, California","Eliminated 3rd (in La Paz, Bolivia)"
+US,13,US-S13-07,Marisa Axelrod,22.0,Southern Belles,"Spartanburg, South Carolina","Eliminated 4th (in Tauranga, New Zealand)"
+US,13,US-S13-08,Brooke Jackson,24.0,Southern Belles,"Columbia, South Carolina","Eliminated 4th (in Tauranga, New Zealand)"
+US,13,US-S13-09,Aja Benton,25.0,Dating Long Distance,"Los Angeles, California","Eliminated 5th (in Siem Reap, Cambodia)"
+US,13,US-S13-10,Ty White,25.0,Dating Long Distance,"West Bloomfield, Michigan","Eliminated 5th (in Siem Reap, Cambodia)"
+US,13,US-S13-11,Kelly Crabb,26.0,Divorcées,"Houston, Texas","Eliminated 6th (in Delhi, India)"
+US,13,US-S13-12,Christy Cook,26.0,Divorcées,"Austin, Texas","Eliminated 6th (in Delhi, India)"
+US,13,US-S13-13,Terence Gerchberg,35.0,Newly Dating,"New York City, New York","Eliminated 7th (in Almaty, Kazakhstan)"
+US,13,US-S13-14,Sarah Leshner,31.0,Newly Dating,"New York City, New York","Eliminated 7th (in Almaty, Kazakhstan)"
+US,13,US-S13-15,Toni Imbimbo,51.0,Mother & Son,"Woodside, California","Eliminated 8th (in Moscow, Russia)"
+US,13,US-S13-16,Dallas Imbimbo,22.0,Mother & Son,"Woodside, California","Eliminated 8th (in Moscow, Russia)"
+US,13,US-S13-17,Andrew Lappitt,22.0,Frat Boys,"Tucson, Arizona",Third place
+US,13,US-S13-18,Dan Honig,23.0,Frat Boys,"Wilmington, Delaware",Third place
+US,13,US-S13-19,Ken Greene,51.0,Separated,"Tampa, Florida",Runners-up
+US,13,US-S13-20,Tina Greene,48.0,Separated,"San Diego, California",Runners-up
+US,13,US-S13-21,Nick Spangler,22.0,Siblings,"New York City, New York",Winners
+US,13,US-S13-22,Starr Spangler,21.0,Siblings,"Fort Worth, Texas",Winners
+US,14,US-S14-01,Preston McCamy,28.0,Dating,"Columbia, South Carolina","Eliminated 1st (in Stechelberg, Switzerland)"
+US,14,US-S14-02,Jennifer Hopka,26.0,Dating,"Columbia, South Carolina","Eliminated 1st (in Stechelberg, Switzerland)"
+US,14,US-S14-03,Steve Cole,43.0,Married,"Martinsville, Virginia","Eliminated 2nd (in Salzburg, Austria)"
+US,14,US-S14-04,Linda Cole,52.0,Married,"Martinsville, Virginia","Eliminated 2nd (in Salzburg, Austria)"
+US,14,US-S14-05,Brad Hunt,52.0,Married,"Columbus, Ohio","Eliminated 3rd (in Bran, Romania)"
+US,14,US-S14-06,Victoria Hunt,47.0,Married,"Columbus, Ohio","Eliminated 3rd (in Bran, Romania)"
+US,14,US-S14-07,Amanda Blackledge,23.0,Dating,"San Diego, California","Eliminated 4th (in Krasnoyarsk, Russia)"
+US,14,US-S14-08,Kris Klicka,24.0,Dating,"San Diego, California","Eliminated 4th (in Krasnoyarsk, Russia)"
+US,14,US-S14-09,Christie Volkmer,37.0,Flight Attendants,"Choctaw, Oklahoma","Eliminated 5th (in Jaipur, India)"
+US,14,US-S14-10,Jodi Wincheski,40.0,Flight Attendants,"Houston, Texas","Eliminated 5th (in Jaipur, India)"
+US,14,US-S14-11,Mel White,68.0,Father & Son,"Lynchburg, Virginia","Eliminated 6th (in Phuket, Thailand)"
+US,14,US-S14-12,Mike White,38.0,Father & Son,"Santa Monica, California","Eliminated 6th (in Phuket, Thailand)"
+US,14,US-S14-13,Mark Munoz,48.0,Brothers & Stuntmen,"Los Angeles, California","Eliminated 7th (in Guilin, China)"
+US,14,US-S14-14,Michael Munoz,51.0,Brothers & Stuntmen,"Maui, Hawaii","Eliminated 7th (in Guilin, China)"
+US,14,US-S14-15,Kisha Hoffman,28.0,Sisters,"The Bronx, New York","Eliminated 8th (in Beijing, China)"
+US,14,US-S14-16,Jen Hoffman,24.0,Sisters,"Louisville, Kentucky","Eliminated 8th (in Beijing, China)"
+US,14,US-S14-17,Margie Adams,50.0,Mother & Son,"Denver, Colorado",Third place
+US,14,US-S14-18,Luke Adams,22.0,Mother & Son,"Denver, Colorado",Third place
+US,14,US-S14-19,Jaime Edmondson,29.0,Former NFL Cheerleaders,"Fort Lauderdale, Florida",Runners-up
+US,14,US-S14-20,Cara Rosenthal,26.0,Former NFL Cheerleaders,"Boca Raton, Florida",Runners-up
+US,14,US-S14-21,Tammy Jih,26.0,Siblings & Lawyers,"San Francisco, California",Winners
+US,14,US-S14-22,Victor Jih,35.0,Siblings & Lawyers,"Los Angeles, California",Winners
+US,15,US-S15-01,Eric Paskel,41.0,Married Yoga Teachers,"Encino, California","Eliminated 1st (in Los Angeles, California)"
+US,15,US-S15-02,Lisa Paskel,43.0,Married Yoga Teachers,"Encino, California","Eliminated 1st (in Los Angeles, California)"
+US,15,US-S15-03,Garrett Paul,28.0,Dating On & Off,"Santa Cruz, California","Eliminated 2nd (in Cái Bè, Vietnam)"
+US,15,US-S15-04,Jessica Stout,27.0,Dating On & Off,"San Francisco, California","Eliminated 2nd (in Cái Bè, Vietnam)"
+US,15,US-S15-05,Marcy Malloy,60.0,Dating,"San Francisco, California","Eliminated 3rd (in Ho Chi Minh City, Vietnam)"
+US,15,US-S15-06,Ron Shalita,59.0,Dating,"San Francisco, California","Eliminated 3rd (in Ho Chi Minh City, Vietnam)"
+US,15,US-S15-07,Zev Glassenberg,26.0,Friends,"Sherman Oaks, California","Eliminated 4th (in Phnom Penh, Cambodia)"
+US,15,US-S15-08,Justin Kanew,30.0,Friends,"Los Angeles, California","Eliminated 4th (in Phnom Penh, Cambodia)"
+US,15,US-S15-09,Lance Layne,41.0,Engaged,"Salem, Massachusetts","Eliminated 5th (in Dubai, United Arab Emirates)"
+US,15,US-S15-10,Keri Morrione,33.0,Engaged,"Peabody, Massachusetts","Eliminated 5th (in Dubai, United Arab Emirates)"
+US,15,US-S15-11,Mika Combs,22.0,Newly Dating,"Nashville, Tennessee","Eliminated 6th (in Palm Jumeirah, United Arab Emirates)"
+US,15,US-S15-12,Canaan Smith,26.0,Newly Dating,"Nashville, Tennessee","Eliminated 6th (in Palm Jumeirah, United Arab Emirates)"
+US,15,US-S15-13,Maria Ho,26.0,Professional Poker Players,"Arcadia, California","Eliminated 7th (in Vierhuizen, Netherlands)"
+US,15,US-S15-14,Tiffany Michelle,25.0,Professional Poker Players,"Los Angeles, California","Eliminated 7th (in Vierhuizen, Netherlands)"
+US,15,US-S15-15,Gary Tomljenovich,47.0,Father & Son,"Laurel, Montana","Eliminated 8th (in Keava, Estonia)"
+US,15,US-S15-16,Matt Tomljenovich,22.0,Father & Son,"Bozeman, Montana","Eliminated 8th (in Keava, Estonia)"
+US,15,US-S15-17,"Herbert ""Flight Time"" Lang",32.0,Harlem Globetrotters,"Brinkley, Arkansas","Eliminated 9th (in Prague, Czech Republic)"
+US,15,US-S15-18,"Nathaniel ""Big Easy"" Lofton",28.0,Harlem Globetrotters,"New Orleans, Louisiana","Eliminated 9th (in Prague, Czech Republic)"
+US,15,US-S15-19,Brian Kleinschmidt,27.0,Married,"Nashville, Tennessee",Third place
+US,15,US-S15-20,Ericka Dunlap,27.0,Married,"Nashville, Tennessee",Third place
+US,15,US-S15-21,Sam McMillen,23.0,Brothers,"Liberty, Missouri",Runners-up
+US,15,US-S15-22,Dan McMillen,21.0,Brothers,"Liberty, Missouri",Runners-up
+US,15,US-S15-23,Meghan Rickey,23.0,Dating,"San Diego, California",Winners
+US,15,US-S15-24,Cheyne Whitney,23.0,Dating,"San Diego, California",Winners
+US,16,US-S16-01,Dana Davis,39.0,High School Sweethearts,"Arlington, Texas","Eliminated 1st (in Valparaíso, Chile)"
+US,16,US-S16-02,Adrian Davis,40.0,High School Sweethearts,"Arlington, Texas","Eliminated 1st (in Valparaíso, Chile)"
+US,16,US-S16-03,Jody Kelly,71.0,Grandmother & Granddaughter,"Round Rock, Texas","Eliminated 2nd (in Puerto Varas, Chile)"
+US,16,US-S16-04,Shannon Foster,22.0,Grandmother & Granddaughter,"Georgetown, Texas","Eliminated 2nd (in Puerto Varas, Chile)"
+US,16,US-S16-05,Monique Pryor,39.0,Moms & Attorneys,"West Orange, New Jersey","Eliminated 3rd (in San Carlos de Bariloche, Argentina)"
+US,16,US-S16-06,Shawne Morgan,39.0,Moms & Attorneys,"Bowie, Maryland","Eliminated 3rd (in San Carlos de Bariloche, Argentina)"
+US,16,US-S16-07,Joe Wang,42.0,Married,"El Segundo, California","Eliminated 4th (in Massiges, France)"
+US,16,US-S16-08,Heidi Wang,37.0,Married,"El Segundo, California","Eliminated 4th (in Massiges, France)"
+US,16,US-S16-09,Jordan Lloyd,22.0,Newly Dating,"Charlotte, North Carolina","Eliminated 5th (in Épernay, France)"
+US,16,US-S16-10,Jeff Schroeder,31.0,Newly Dating,"Norridge, Illinois","Eliminated 5th (in Épernay, France)"
+US,16,US-S16-11,Steve Smith,57.0,Father & Daughter,"Encinitas, California","Eliminated 6th (in George Town, Malaysia)"
+US,16,US-S16-12,Allie Smith,23.0,Father & Daughter,"Encinitas, California","Eliminated 6th (in George Town, Malaysia)"
+US,16,US-S16-13,Carol Rosenfeld,47.0,Dating,"Los Angeles, California",Eliminated 7th (in Singapore)
+US,16,US-S16-14,Brandy Snow,40.0,Dating,"Los Angeles, California",Eliminated 7th (in Singapore)
+US,16,US-S16-15,Louie Stravato,47.0,Detectives,"Providence, Rhode Island","Eliminated 8th (in Shanghai, China)"
+US,16,US-S16-16,Michael Naylor,45.0,Detectives,"Providence, Rhode Island","Eliminated 8th (in Shanghai, China)"
+US,16,US-S16-17,Brent Horne,28.0,Dating Models,"Columbia, South Carolina",Third place
+US,16,US-S16-18,Caite Upton,20.0,Dating Models,"Lexington, South Carolina",Third place
+US,16,US-S16-19,Jet McCoy,30.0,Brothers & Cowboys,"Ada, Oklahoma",Runners-up
+US,16,US-S16-20,Cord McCoy,29.0,Brothers & Cowboys,"Tupelo, Oklahoma",Runners-up
+US,16,US-S16-21,Dan Pious,24.0,Brothers,"Barrington, Rhode Island",Winners
+US,16,US-S16-22,Jordan Pious,22.0,Brothers,"Barrington, Rhode Island",Winners
+US,17,US-S17-01,Ron Kellum,45.0,Best Friends,"Los Angeles, California","Eliminated 1st (in Ledbury, England)"
+US,17,US-S17-02,Tony Stovall,42.0,Best Friends,"Tucson, Arizona","Eliminated 1st (in Ledbury, England)"
+US,17,US-S17-03,Andie DeKroon,43.0,Birth Mom & Daughter,"Atlanta, Georgia","Eliminated 2nd (in Accra, Ghana)"
+US,17,US-S17-04,Jenna Sykes,21.0,Birth Mom & Daughter,"Atlanta, Georgia","Eliminated 2nd (in Accra, Ghana)"
+US,17,US-S17-05,Connor Diemand-Yauman,22.0,Ivy League A Cappella Singers,"Chesterland, Ohio","Eliminated 3rd (in Riksgränsen, Sweden)"
+US,17,US-S17-06,Jonathan Schwartz,22.0,Ivy League A Cappella Singers,"Cranford, New Jersey","Eliminated 3rd (in Riksgränsen, Sweden)"
+US,17,US-S17-07,Katie Seamon,23.0,Beach Volleyball Partners,"Rahway, New Jersey","Eliminated 4th (in Ankenesstranda, Norway)"
+US,17,US-S17-08,Rachel Johnston,24.0,Beach Volleyball Partners,"Moorestown, New Jersey","Eliminated 4th (in Ankenesstranda, Norway)"
+US,17,US-S17-09,Michael Wu,58.0,Father & Son,"Sugar Land, Texas","Eliminated 5th (in Saint Petersburg, Russia)"
+US,17,US-S17-10,Kevin Wu,20.0,Father & Son,"Sugar Land, Texas","Eliminated 5th (in Saint Petersburg, Russia)"
+US,17,US-S17-11,Gary Ervin,53.0,Father & Daughter,"Morganfield, Kentucky","Eliminated 6th (in Muscat, Oman)"
+US,17,US-S17-12,Mallory Ervin,24.0,Father & Daughter,"Lexington, Kentucky","Eliminated 6th (in Muscat, Oman)"
+US,17,US-S17-13,Chad Waltrip,26.0,Newly Dating (Legs 1-8) Engaged (Legs 8-9),"Fort Lauderdale, Florida","Eliminated 7th (in Dhaka, Bangladesh)"
+US,17,US-S17-14,Stephanie Smith,23.0,Newly Dating (Legs 1-8) Engaged (Legs 8-9),"Fort Lauderdale, Florida","Eliminated 7th (in Dhaka, Bangladesh)"
+US,17,US-S17-15,Nick DeCarlo,26.0,Dating,"Henderson, Nevada","Eliminated 8th (in Seoul, South Korea)"
+US,17,US-S17-16,Vicki Casciola,26.0,Dating,"Henderson, Nevada","Eliminated 8th (in Seoul, South Korea)"
+US,17,US-S17-17,Jill Haney,27.0,Dating,"Marina Del Rey, California",Third place
+US,17,US-S17-18,Thomas Wolfard,30.0,Dating,"Marina Del Rey, California",Third place
+US,17,US-S17-19,Brook Roberts,27.0,Home Shopping Hosts,"San Diego, California",Runners-up
+US,17,US-S17-20,Claire Champlin,30.0,Home Shopping Hosts,"Reno, Nevada",Runners-up
+US,17,US-S17-21,Nat Strand,31.0,Doctors,"Newport Beach, California",Winners
+US,17,US-S17-22,Kat Chang,35.0,Doctors,"Santa Monica, California",Winners
+US,18,US-S18-01,Amanda Blackledge,25.0,Engaged The Amazing Race 14,"Pismo Beach, California","Eliminated 1st (in Broken Hill, Australia)"
+US,18,US-S18-02,Kris Klicka,27.0,Engaged The Amazing Race 14,"Pismo Beach, California","Eliminated 1st (in Broken Hill, Australia)"
+US,18,US-S18-03,Mel White,70.0,Father & Son The Amazing Race 14,"Lynchburg, Virginia","Eliminated 2nd (in Yokosuka, Japan)"
+US,18,US-S18-04,Mike White,40.0,Father & Son The Amazing Race 14,"Los Angeles, California","Eliminated 2nd (in Yokosuka, Japan)"
+US,18,US-S18-05,Jaime Edmondson,32.0,Former NFL Cheerleaders The Amazing Race 14,"Fort Lauderdale, Florida","Eliminated 3rd (in Kunming, China)"
+US,18,US-S18-06,Cara Rosenthal,28.0,Former NFL Cheerleaders The Amazing Race 14,"Boca Raton, Florida","Eliminated 3rd (in Kunming, China)"
+US,18,US-S18-07,Margie Adams,53.0,Mother & Son The Amazing Race 14,"Colorado Springs, Colorado","Eliminated 4th (in Kolkata, India)"
+US,18,US-S18-08,Luke Adams,25.0,Mother & Son The Amazing Race 14,"Colorado Springs, Colorado","Eliminated 4th (in Kolkata, India)"
+US,18,US-S18-09,Ron Hsu,61.0,Father & Daughter The Amazing Race 12,"Tacoma, Washington","Eliminated 5th (in Ramnagar, India)"
+US,18,US-S18-10,Christina Hsu,29.0,Father & Daughter The Amazing Race 12,"Washington, D.C.","Eliminated 5th (in Ramnagar, India)"
+US,18,US-S18-11,Jet McCoy,31.0,Cowboys & Brothers The Amazing Race 16,"Ada, Oklahoma","Eliminated 6th (in Zermatt, Switzerland)"
+US,18,US-S18-12,Cord McCoy,30.0,Cowboys & Brothers The Amazing Race 16,"Tupelo, Oklahoma","Eliminated 6th (in Zermatt, Switzerland)"
+US,18,US-S18-13,Kent Kaliber,35.0,Dating Goths The Amazing Race 12,"Los Angeles, California","Eliminated 7th (in Zermatt, Switzerland)"
+US,18,US-S18-14,Vyxsin Fiala,32.0,Dating Goths The Amazing Race 12,"Los Angeles, California","Eliminated 7th (in Zermatt, Switzerland)"
+US,18,US-S18-15,Zev Glassenberg,28.0,Best Friends The Amazing Race 15,"Sherman Oaks, California","Eliminated 8th (in Niterói, Brazil)"
+US,18,US-S18-16,Justin Kanew,31.0,Best Friends The Amazing Race 15,"Los Angeles, California","Eliminated 8th (in Niterói, Brazil)"
+US,18,US-S18-17,Gary Ervin,53.0,Father & Daughter The Amazing Race 17,"Morganfield, Kentucky",Third place
+US,18,US-S18-18,Mallory Ervin,25.0,Father & Daughter The Amazing Race 17,"Morganfield, Kentucky",Third place
+US,18,US-S18-19,"Herbert ""Flight Time"" Lang",34.0,Harlem Globetrotters The Amazing Race 15,"Brinkley, Arkansas",Runners-up
+US,18,US-S18-20,"Nathaniel ""Big Easy"" Lofton",29.0,Harlem Globetrotters The Amazing Race 15,"New Orleans, Louisiana",Runners-up
+US,18,US-S18-21,Kisha Hoffman,30.0,Sisters The Amazing Race 14,"The Bronx, New York",Winners
+US,18,US-S18-22,Jen Hoffman,26.0,Sisters The Amazing Race 14,"Louisville, Kentucky",Winners
+US,19,US-S19-01,Ron Zeitz,44.0,Domestic Partners,"Laguna Niguel, California","Eliminated 1st & 2nd (in Yogyakarta, Indonesia)"
+US,19,US-S19-02,Bill Smith,49.0,Domestic Partners,"Laguna Niguel, California","Eliminated 1st & 2nd (in Yogyakarta, Indonesia)"
+US,19,US-S19-03,Ethan Zohn,37.0,Dating,"New York City, New York","Eliminated 1st & 2nd (in Yogyakarta, Indonesia)"
+US,19,US-S19-04,Jenna Morasca,30.0,Dating,"New York City, New York","Eliminated 1st & 2nd (in Yogyakarta, Indonesia)"
+US,19,US-S19-05,Kaylani Paliotta,33.0,Former Vegas Showgirls,"Las Vegas, Nevada","Eliminated 3rd (in Magelang, Indonesia)"
+US,19,US-S19-06,Lisa Tilley,32.0,Former Vegas Showgirls,"Las Vegas, Nevada","Eliminated 3rd (in Magelang, Indonesia)"
+US,19,US-S19-07,Liz Canavan,24.0,Twins,"Deerfield, Illinois","Eliminated 4th (in Bangkok, Thailand)"
+US,19,US-S19-08,Marie Canavan,24.0,Twins,"Deerfield, Illinois","Eliminated 4th (in Bangkok, Thailand)"
+US,19,US-S19-09,Justin Young,31.0,Siblings,"Stone Mountain, Georgia","Eliminated 5th (in Senga Bay, Malawi)"
+US,19,US-S19-10,Jennifer Young,26.0,Siblings,"Stone Mountain, Georgia","Eliminated 5th (in Senga Bay, Malawi)"
+US,19,US-S19-11,Laurence Sunderland,48.0,Father & Son Adventurers,"Thousand Oaks, California","Eliminated 6th (in Copenhagen, Denmark)"
+US,19,US-S19-12,Zac Sunderland,19.0,Father & Son Adventurers,"Thousand Oaks, California","Eliminated 6th (in Copenhagen, Denmark)"
+US,19,US-S19-13,Bill Alden,63.0,Grandparents,"Albany, Oregon","Eliminated 7th (in Brussels, Belgium)"
+US,19,US-S19-14,Cathi Alden,62.0,Grandparents,"Albany, Oregon","Eliminated 7th (in Brussels, Belgium)"
+US,19,US-S19-15,Andy Finch,30.0,Pro Snowboarders,"Truckee, California","Eliminated 8th (in Panama City, Panama)"
+US,19,US-S19-16,Tommy Czeschin,32.0,Pro Snowboarders,"Crowley Lake, California","Eliminated 8th (in Panama City, Panama)"
+US,19,US-S19-17,Amani Pollard,36.0,Married,"Pine Mountain, Georgia",Third place
+US,19,US-S19-18,Marcus Pollard,39.0,Married,"Pine Mountain, Georgia",Third place
+US,19,US-S19-19,Jeremy Cline,35.0,Dating,"Alamo, California",Runners-up
+US,19,US-S19-20,Sandy Draghi,33.0,Dating,"Dublin, California",Runners-up
+US,19,US-S19-21,Ernie Halvorsen,29.0,Engaged,"Chicago, Illinois",Winners
+US,19,US-S19-22,Cindy Chiang,30.0,Engaged,"Chicago, Illinois",Winners
+US,20,US-S20-01,Misa Tanaka,27.0,Sisters,"San Diego, California","Eliminated 1st (in Cafayate, Argentina)"
+US,20,US-S20-02,Maiya Tanaka,25.0,Sisters,"San Diego, California","Eliminated 1st (in Cafayate, Argentina)"
+US,20,US-S20-03,Dave Gregg,44.0,Married Clowns,"New Port Richey, Florida","Eliminated 2nd (in Buenos Aires, Argentina)"
+US,20,US-S20-04,Cherie Gregg,44.0,Married Clowns,"New Port Richey, Florida","Eliminated 2nd (in Buenos Aires, Argentina)"
+US,20,US-S20-05,Elliot Weber,28.0,Twins,"Scottsdale, Arizona","Eliminated 3rd (in Asunción, Paraguay)"
+US,20,US-S20-06,Andrew Weber,28.0,Twins,"Menlo Park, California","Eliminated 3rd (in Asunción, Paraguay)"
+US,20,US-S20-07,Kerri Paul,30.0,Cousins,"Gulfport, Mississippi","Eliminated 4th (in Schwangau-Horn, Germany)"
+US,20,US-S20-08,Stacy Bowers,30.0,Cousins,"Gulfport, Mississippi","Eliminated 4th (in Schwangau-Horn, Germany)"
+US,20,US-S20-09,"Joey ""Fitness"" Lasalla",29.0,Trainer & Club Promoter,"Whitestone, New York","Eliminated 5th (in Baku, Azerbaijan)"
+US,20,US-S20-10,Danny Horal,27.0,Trainer & Club Promoter,"Holbrook, New York","Eliminated 5th (in Baku, Azerbaijan)"
+US,20,US-S20-11,Nary Ebeid,32.0,Federal Agents,"Los Angeles, California","Eliminated 6th (in Lake Manyara National Park, Tanzania)"
+US,20,US-S20-12,Jamie Graetz,33.0,Federal Agents,"Los Angeles, California","Eliminated 6th (in Lake Manyara National Park, Tanzania)"
+US,20,US-S20-13,Bopper Minton,41.0,Best Friends,"Manchester, Kentucky","Eliminated 7th (in Vypin, India)"
+US,20,US-S20-14,Mark Jackson,45.0,Best Friends,"Manchester, Kentucky","Eliminated 7th (in Vypin, India)"
+US,20,US-S20-15,Vanessa Macias,31.0,Dating Divorcés,"San Antonio, Texas","Eliminated 8th (in Osaka, Japan)"
+US,20,US-S20-16,Ralph Kelley,36.0,Dating Divorcés,"San Antonio, Texas","Eliminated 8th (in Osaka, Japan)"
+US,20,US-S20-17,Brendon Villegas,31.0,PhD Student & Event Hostess,"Westwood, California",Third place
+US,20,US-S20-18,Rachel Reilly,27.0,PhD Student & Event Hostess,"Westwood, California",Third place
+US,20,US-S20-19,Art Velez,43.0,Border Patrol Agents,"Temecula, California",Runners-up
+US,20,US-S20-20,J.J. Carrell,42.0,Border Patrol Agents,"Carlsbad, California",Runners-up
+US,20,US-S20-21,Rachel Brown,30.0,Army Wife & Combat Pilot,"Madison, Wisconsin",Winners
+US,20,US-S20-22,"Dave Brown, Jr.",33.0,Army Wife & Combat Pilot,"Madison, Wisconsin",Winners
+US,21,US-S21-01,Rob Scheer,52.0,Lumberjack & Marketing Exec,"Ketchikan, Alaska","Eliminated 1st (in Shanghai, China)"
+US,21,US-S21-02,Sheila Castle,44.0,Lumberjack & Marketing Exec,"Pigeon Forge, Tennessee","Eliminated 1st (in Shanghai, China)"
+US,21,US-S21-03,Amy Purdy,32.0,Dating On and Off,"Las Vegas, Nevada","Eliminated 2nd (in Surabaya, Indonesia)"
+US,21,US-S21-04,Daniel Gale,36.0,Dating On and Off,"Crested Butte, Colorado","Eliminated 2nd (in Surabaya, Indonesia)"
+US,21,US-S21-05,Caitlin King,24.0,Best Friends,"St. Louis, Missouri","Eliminated 3rd (in Bangil, Indonesia)"
+US,21,US-S21-06,Brittany Fletcher,25.0,Best Friends,"Chicago, Illinois","Eliminated 3rd (in Bangil, Indonesia)"
+US,21,US-S21-07,Gary Wojnar,52.0,Substitute Teachers,"Livonia, Michigan","Eliminated 4th (in Dhaka, Bangladesh)"
+US,21,US-S21-08,Will Chiola,53.0,Substitute Teachers,"Dearborn Heights, Michigan","Eliminated 4th (in Dhaka, Bangladesh)"
+US,21,US-S21-09,Rob French,46.0,Married Monster Truckers,"Boston, Georgia","Eliminated 5th (in Istanbul, Turkey)"
+US,21,US-S21-10,Kelley Carrington-French,50.0,Married Monster Truckers,"Boston, Georgia","Eliminated 5th (in Istanbul, Turkey)"
+US,21,US-S21-11,James LoMenzo,53.0,Rock Star & Lawyer,"Burbank, California","Eliminated 6th (in Moscow, Russia)"
+US,21,US-S21-12,"Mark ""Abba"" Abbattista",45.0,Rock Star & Lawyer,"Denver, Colorado","Eliminated 6th (in Moscow, Russia)"
+US,21,US-S21-13,Abbie Ginsberg,31.0,Dating Divorcés,"Encinitas, California","Eliminated 7th (in Ransdorp, Netherlands)"
+US,21,US-S21-14,Ryan Danz,35.0,Dating Divorcés,"San Diego, California","Eliminated 7th (in Ransdorp, Netherlands)"
+US,21,US-S21-15,Natalie Anderson,26.0,Twins,"Edgewater, New Jersey","Eliminated 8th (in Chenonceaux, France)"
+US,21,US-S21-16,Nadiya Anderson,26.0,Twins,"Edgewater, New Jersey","Eliminated 8th (in Chenonceaux, France)"
+US,21,US-S21-17,Trey Wier,23.0,Dating,"Austin, Texas",Third place
+US,21,US-S21-18,Lexi Beerman,22.0,Dating,"Dripping Springs, Texas",Third place
+US,21,US-S21-19,Jaymes Vaughan,30.0,Chippendales,"Las Vegas, Nevada",Runners-up
+US,21,US-S21-20,James Davis,27.0,Chippendales,"Las Vegas, Nevada",Runners-up
+US,21,US-S21-21,Josh Kilmer-Purcell,43.0,Goat Farmers,"Sharon Springs, New York",Winners
+US,21,US-S21-22,Brent Ridge,38.0,Goat Farmers,"Sharon Springs, New York",Winners
+US,22,US-S22-01,Matt Davis,25.0,Firefighters,"Gaffney, South Carolina","Eliminated 1st (in Motu Piti A'au, French Polynesia)"
+US,22,US-S22-02,Daniel Moss,24.0,Firefighters,"Gaffney, South Carolina","Eliminated 1st (in Motu Piti A'au, French Polynesia)"
+US,22,US-S22-03,Idries Abdur-Rahman,36.0,Twin Doctors,"Chicago, Illinois","Eliminated 2nd (in Motu Tapu, French Polynesia)"
+US,22,US-S22-04,Jamil Abdur-Rahman,36.0,Twin Doctors,"Chicago, Illinois","Eliminated 2nd (in Motu Tapu, French Polynesia)"
+US,22,US-S22-05,Jessica Hoel,26.0,Dating,"Huntington Beach, California","Eliminated 3rd (in Pecatu, Indonesia)"
+US,22,US-S22-06,John Erck,27.0,Dating,"Huntington Beach, California","Eliminated 3rd (in Pecatu, Indonesia)"
+US,22,US-S22-07,Dave O'Leary,58.0,Father & Son,"Salt Lake City, Utah","Withdrew (in Hanoi, Vietnam)"
+US,22,US-S22-08,Connor O'Leary,21.0,Father & Son,"Salt Lake City, Utah","Withdrew (in Hanoi, Vietnam)"
+US,22,US-S22-09,Pam Chien,29.0,Best Friends,"Los Angeles, California","Eliminated 5th (in Maun, Botswana)"
+US,22,US-S22-10,Winnie Sung,29.0,Best Friends,"Los Angeles, California","Eliminated 5th (in Maun, Botswana)"
+US,22,US-S22-11,Chuck McCall,46.0,Married,"Daphne, Alabama","Eliminated 6th (in Grindelwald, Switzerland)"
+US,22,US-S22-12,Wynona McCall,49.0,Married,"Daphne, Alabama","Eliminated 6th (in Grindelwald, Switzerland)"
+US,22,US-S22-13,Joey Graceffa,21.0,YouTube Hosts,"Los Angeles, California","Eliminated 7th (in Edinburgh, Scotland)"
+US,22,US-S22-14,Meghan Camarena,25.0,YouTube Hosts,"Los Angeles, California","Eliminated 7th (in Edinburgh, Scotland)"
+US,22,US-S22-15,Caroline Cutbirth,29.0,Country Singers,"Austin, Texas","Eliminated 8th (in Belfast, Northern Ireland)"
+US,22,US-S22-16,Jennifer Kuhle,30.0,Country Singers,"Nashville, Tennessee","Eliminated 8th (in Belfast, Northern Ireland)"
+US,22,US-S22-17,Mona Hinman-Egender,33.0,Roller Derby Moms,"Castle Pines, Colorado",Third place
+US,22,US-S22-18,Beth Bandimere,36.0,Roller Derby Moms,"Arvada, Colorado",Third place
+US,22,US-S22-19,Max Bichler,30.0,Newlyweds,"Buffalo, New York",Runners-up
+US,22,US-S22-20,Katie Kaczor-Bichler,24.0,Newlyweds,"Buffalo, New York",Runners-up
+US,22,US-S22-21,Bates Battaglia,36.0,Hockey Brothers,"Raleigh, North Carolina",Winners
+US,22,US-S22-22,Anthony Battaglia,33.0,Hockey Brothers,"Raleigh, North Carolina",Winners
+US,23,US-S23-01,Hoskote Venkatesh,60.0,Father & Daughter,"Laguna Niguel, California","Eliminated 1st (in Iquique, Chile)"
+US,23,US-S23-02,Naina Venkatesh,27.0,Father & Daughter,"Laguna Niguel, California","Eliminated 1st (in Iquique, Chile)"
+US,23,US-S23-03,Rowan Joseph,56.0,Theatre Performers,"Charlotte, North Carolina","Eliminated 2nd (in San José de Maipo, Chile)"
+US,23,US-S23-04,Shane Partlow,47.0,Theatre Performers,"Charlotte, North Carolina","Eliminated 2nd (in San José de Maipo, Chile)"
+US,23,US-S23-05,Chester Pitts II,33.0,Former NFL Teammates,"Missouri City, Texas","Eliminated 3rd (in Lisbon, Portugal)"
+US,23,US-S23-06,Ephraim Salaam,36.0,Former NFL Teammates,"Studio City, California","Eliminated 3rd (in Lisbon, Portugal)"
+US,23,US-S23-07,Brandon Squyres,34.0,Childhood Friends,"Chico, California","Eliminated 4th (in Sopot, Poland)"
+US,23,US-S23-08,Adam Switzer,34.0,Childhood Friends,"Los Angeles, California","Eliminated 4th (in Sopot, Poland)"
+US,23,US-S23-09,Tim Wiyninger,26.0,Best Friends,"Cordell, Oklahoma","Eliminated 5th (in Vienna, Austria)"
+US,23,US-S23-10,Danny Merkey,25.0,Best Friends,"Cordell, Oklahoma","Eliminated 5th (in Vienna, Austria)"
+US,23,US-S23-11,Nicky Getz,25.0,Baseball Wives,"Kansas City, Missouri","Eliminated 6th (in Al Ain, United Arab Emirates)"
+US,23,US-S23-12,Kim DeJesus,32.0,Baseball Wives,"Chicago, Illinois","Eliminated 6th (in Al Ain, United Arab Emirates)"
+US,23,US-S23-13,Ally Mello,22.0,NHL Ice Crew,"Los Angeles, California","Eliminated 7th (in Lembang, Indonesia)"
+US,23,US-S23-14,Ashley Covert,25.0,NHL Ice Crew,"Los Angeles, California","Eliminated 7th (in Lembang, Indonesia)"
+US,23,US-S23-15,Leo Temory,26.0,Cousins,"Los Angeles, California","Eliminated 8th (in Tokyo, Japan)"
+US,23,US-S23-16,Jamal Zadran,26.0,Cousins,"Los Angeles, California","Eliminated 8th (in Tokyo, Japan)"
+US,23,US-S23-17,Nicole Jasper,39.0,Married ER Doctors,"Atlanta, Georgia",Third place
+US,23,US-S23-18,Travis Jasper,43.0,Married ER Doctors,"Atlanta, Georgia",Third place
+US,23,US-S23-19,Tim Sweeney,32.0,Exes,"Morristown, New Jersey",Runners-up
+US,23,US-S23-20,Marie Mazzocchi,29.0,Exes,"Morristown, New Jersey",Runners-up
+US,23,US-S23-21,Jason Case,33.0,Dating,"Attleboro, Massachusetts",Winners
+US,23,US-S23-22,Amy Diaz,29.0,Dating,"Providence, Rhode Island",Winners
+US,24,US-S24-01,Natalie Anderson,27.0,Twins The Amazing Race 21,"Edgewater, New Jersey","Eliminated 1st (in Guangzhou, China)"
+US,24,US-S24-02,Nadiya Anderson,27.0,Twins The Amazing Race 21,"Edgewater, New Jersey","Eliminated 1st (in Guangzhou, China)"
+US,24,US-S24-03,Mark Jackson,47.0,Team Kentucky The Amazing Race 20 (Mark) The Amazing Race 17 & The Amazing Race 18 (Mallory),"Manchester, Kentucky","Eliminated 2nd (in Guangzhou, China)"
+US,24,US-S24-04,Mallory Ervin,28.0,Team Kentucky The Amazing Race 20 (Mark) The Amazing Race 17 & The Amazing Race 18 (Mallory),"Nashville, Tennessee","Eliminated 2nd (in Guangzhou, China)"
+US,24,US-S24-05,Joey Graceffa,22.0,YouTube Hosts The Amazing Race 22,"Los Angeles, California","Eliminated 3rd (in Kota Kinabalu, Malaysia)"
+US,24,US-S24-06,Meghan Camarena,26.0,YouTube Hosts The Amazing Race 22,"Los Angeles, California","Eliminated 3rd (in Kota Kinabalu, Malaysia)"
+US,24,US-S24-07,Margie O'Donnell,56.0,Mother & Son The Amazing Race 14 & The Amazing Race 18,"Colorado Springs, Colorado","Eliminated 4th (in Colombo, Sri Lanka)"
+US,24,US-S24-08,Luke Adams,28.0,Mother & Son The Amazing Race 14 & The Amazing Race 18,"Philadelphia, Pennsylvania","Eliminated 4th (in Colombo, Sri Lanka)"
+US,24,US-S24-09,Jessica Hoel,27.0,Engaged The Amazing Race 22,"Eden Prairie, Minnesota","Eliminated 5th (in Rome, Italy)"
+US,24,US-S24-10,John Erck,28.0,Engaged The Amazing Race 22,"Mora, Minnesota","Eliminated 5th (in Rome, Italy)"
+US,24,US-S24-11,"Herbert ""Flight Time"" Lang",37.0,Harlem Globetrotters The Amazing Race 15 & The Amazing Race 18,"Brinkley, Arkansas","Eliminated 6th (in Orvieto, Italy)"
+US,24,US-S24-12,"Nathaniel ""Big Easy"" Lofton",32.0,Harlem Globetrotters The Amazing Race 15 & The Amazing Race 18,"New Orleans, Louisiana","Eliminated 6th (in Orvieto, Italy)"
+US,24,US-S24-13,Jet McCoy,34.0,Cowboys The Amazing Race 16 & The Amazing Race 18,"Ada, Oklahoma","Eliminated 7th (in Seville, Spain)"
+US,24,US-S24-14,Cord McCoy,33.0,Cowboys The Amazing Race 16 & The Amazing Race 18,"Tupelo, Oklahoma","Eliminated 7th (in Seville, Spain)"
+US,24,US-S24-15,Leo Temory,27.0,Cousins The Amazing Race 23,"Torrance, California","Eliminated 8th (in Peckforton, England)"
+US,24,US-S24-16,Jamal Zadran,26.0,Cousins The Amazing Race 23,"Irvine, California","Eliminated 8th (in Peckforton, England)"
+US,24,US-S24-17,Brendon Villegas,33.0,Newlyweds The Amazing Race 20,"Los Angeles, California",Third place
+US,24,US-S24-18,Rachel Reilly,29.0,Newlyweds The Amazing Race 20,"Los Angeles, California",Third place
+US,24,US-S24-19,Caroline Cutbirth,30.0,Country Singers The Amazing Race 22,"Waco, Texas",Runners-up
+US,24,US-S24-20,Jennifer Wayne,31.0,Country Singers The Amazing Race 22,"Nashville, Tennessee",Runners-up
+US,24,US-S24-21,Dave O'Leary,59.0,Father & Son The Amazing Race 22,"Salt Lake City, Utah",Winners
+US,24,US-S24-22,Connor O'Leary,22.0,Father & Son The Amazing Race 22,"Salt Lake City, Utah",Winners
+US,25,US-S25-01,Lisa Thomson,28.0,Realtor Sisters (Miami Realtors),"Miami, Florida","Eliminated 1st (in Charlotte Amalie, U.S. Virgin Islands)"
+US,25,US-S25-02,Michelle Thomson,22.0,Realtor Sisters (Miami Realtors),"Miami, Florida","Eliminated 1st (in Charlotte Amalie, U.S. Virgin Islands)"
+US,25,US-S25-03,Dennis Hour,30.0,Newly Dating (The Dating Couple),"Tustin, California","Eliminated 2nd (in Woodstock, England)"
+US,25,US-S25-04,Isabelle Du,28.0,Newly Dating (The Dating Couple),"Tustin, California","Eliminated 2nd (in Woodstock, England)"
+US,25,US-S25-05,Michael Ward,40.0,Firefighters (The Firefighters),"Boston, Massachusetts","Eliminated 3rd (on St Ninian's Isle, Scotland)"
+US,25,US-S25-06,Scott Strazzullo,39.0,Firefighters (The Firefighters),"Boston, Massachusetts","Eliminated 3rd (on St Ninian's Isle, Scotland)"
+US,25,US-S25-07,Keith Tollefson,29.0,Engaged (Team Nashville),"Nashville, Tennessee","Eliminated 4th (in Marrakesh, Morocco)"
+US,25,US-S25-08,Whitney Duncan,29.0,Engaged (Team Nashville),"Nashville, Tennessee","Eliminated 4th (in Marrakesh, Morocco)"
+US,25,US-S25-09,Shelley Porter,42.0,Mother & Daughter (Mom/Daughter),"Detroit, Michigan","Eliminated 5th (in Hajar, Morocco)"
+US,25,US-S25-10,Nici Porter,24.0,Mother & Daughter (Mom/Daughter),"Detroit, Michigan","Eliminated 5th (in Hajar, Morocco)"
+US,25,US-S25-11,Tim Tsao,23.0,College Sweethearts (College Sweethearts),"Pasadena, California","Eliminated 6th (in Gżira, Malta)"
+US,25,US-S25-12,Te Jay McGrath,24.0,College Sweethearts (College Sweethearts),"Pasadena, California","Eliminated 6th (in Gżira, Malta)"
+US,25,US-S25-13,Kym Perfetto,34.0,Urban Bike Racers (The Cyclists),"Brooklyn, New York",Eliminated 7th (in Singapore)
+US,25,US-S25-14,Alli Forsythe,26.0,Urban Bike Racers (The Cyclists),"Brooklyn, New York",Eliminated 7th (in Singapore)
+US,25,US-S25-15,Brooke Adams,29.0,Dating Pro Wrestlers (The Wrestlers),"Houston, Texas","Eliminated 8th (in Los Angeles, California)"
+US,25,US-S25-16,Robbie Strauss,30.0,Dating Pro Wrestlers (The Wrestlers),"Woodbridge, New Jersey","Eliminated 8th (in Los Angeles, California)"
+US,25,US-S25-17,Adam Dirks,26.0,Married Surfers (Soul Surfers),"Princeville, Hawaii",Third place
+US,25,US-S25-18,Bethany Hamilton,24.0,Married Surfers (Soul Surfers),"Princeville, Hawaii",Third place
+US,25,US-S25-19,Misti Raman,36.0,Married Dentists (The Dentists),"Columbia, South Carolina",Runners-up
+US,25,US-S25-20,Jim Raman,37.0,Married Dentists (The Dentists),"Columbia, South Carolina",Runners-up
+US,25,US-S25-21,Amy DeJong,24.0,Food Scientists (Sweet Scientists),"Madison, Wisconsin",Winners
+US,25,US-S25-22,Maya Warren,29.0,Food Scientists (Sweet Scientists),"Madison, Wisconsin",Winners
+US,26,US-S26-01,Jeff Magee,57.0,Dating for 4 Years (Flight Crew),"McCall, Idaho","Eliminated 1st (in Tokyo, Japan)"
+US,26,US-S26-02,Lyda Grawn,49.0,Dating for 4 Years (Flight Crew),"Scottsdale, Arizona","Eliminated 1st (in Tokyo, Japan)"
+US,26,US-S26-03,Libby Simpson,25.0,Dating for 10 Years (Team Tuskegee),"Tuskegee, Alabama","Eliminated 2nd (in Nagano, Japan)"
+US,26,US-S26-04,C.J. Harris,26.0,Dating for 10 Years (Team Tuskegee),"Tuskegee, Alabama","Eliminated 2nd (in Nagano, Japan)"
+US,26,US-S26-05,Harley Rodriguez,41.0,Dating for 7 Years (Team New Kid ),"New York City, New York","Eliminated 3rd (in Bangkok, Thailand)"
+US,26,US-S26-06,Jonathan Knight,46.0,Dating for 7 Years (Team New Kid ),"New York City, New York","Eliminated 3rd (in Bangkok, Thailand)"
+US,26,US-S26-07,Bergen Olsen,23.0,Blind Dating (The Blonde Date),"Sunnyvale, California","Eliminated 4th (in Schliersee, Germany)"
+US,26,US-S26-08,Kurt Belcher,24.0,Blind Dating (The Blonde Date),"Butler, Kentucky","Eliminated 4th (in Schliersee, Germany)"
+US,26,US-S26-09,Jeff Weldon,26.0,Blind Dating (Team JJ),"Tampa, Florida","Eliminated 5th (in Saint-Jean-Cap-Ferrat, France)"
+US,26,US-S26-10,Jackie Ibarra,27.0,Blind Dating (Team JJ),"Las Vegas, Nevada","Eliminated 5th (in Saint-Jean-Cap-Ferrat, France)"
+US,26,US-S26-11,Aly Dudek,24.0,Dating for 7 Months ( Sochi Love),"Milwaukee, Wisconsin","Eliminated 6th (in Erongo Region, Namibia)"
+US,26,US-S26-12,Steve Langton,31.0,Dating for 7 Months ( Sochi Love),"Boston, Massachusetts","Eliminated 6th (in Erongo Region, Namibia)"
+US,26,US-S26-13,Matt Cucolo,30.0,Dating for 3 Years (Legs 1–3) Engaged (Legs 3–10) (The Hairstylists),"Scarsdale, New York","Eliminated 7th (in Otuzco, Peru)"
+US,26,US-S26-14,Ashley Gordon,28.0,Dating for 3 Years (Legs 1–3) Engaged (Legs 3–10) (The Hairstylists),"Scarsdale, New York","Eliminated 7th (in Otuzco, Peru)"
+US,26,US-S26-15,Mike Dombrowski,26.0,Dating for 8 Months (Truck Stop Love),"Traverse City, Michigan","Eliminated 8th (in Burleson, Texas)"
+US,26,US-S26-16,Rochelle Nevedal,29.0,Dating for 8 Months (Truck Stop Love),"Kalkaska, Michigan","Eliminated 8th (in Burleson, Texas)"
+US,26,US-S26-17,Hayley Keel,28.0,Blind Dating (Rx for Love),"Saint Petersburg, Florida",Third place
+US,26,US-S26-18,Blair Townsend,31.0,Blind Dating (Rx for Love),"Amelia Island, Florida",Third place
+US,26,US-S26-19,Jelani Roy,32.0,Blind Dating (The Legal Team),"New York City, New York",Runners-up
+US,26,US-S26-20,Jenny Wu,32.0,Blind Dating (The Legal Team),"Los Angeles, California",Runners-up
+US,26,US-S26-21,Laura Pierson,29.0,Blind Dating (Team SoCal ),"Los Angeles, California",Winners
+US,26,US-S26-22,Tyler Adams,26.0,Blind Dating (Team SoCal ),"Santa Monica, California",Winners
+US,27,US-S27-01,Kelly Berning,37.0,Co-Workers (Team TMZ ),"Los Angeles, California","Eliminated 1st (in Rio de Janeiro, Brazil)"
+US,27,US-S27-02,Shevonne Sullivan,31.0,Co-Workers (Team TMZ ),"Los Angeles, California","Eliminated 1st (in Rio de Janeiro, Brazil)"
+US,27,US-S27-03,Alex Manard,22.0,Cousins (The Cousins),"Champaign, Illinois","Eliminated 2nd (in Buenos Aires, Argentina)"
+US,27,US-S27-04,Adam Dingeman,24.0,Cousins (The Cousins),"Des Moines, Iowa","Eliminated 2nd (in Buenos Aires, Argentina)"
+US,27,US-S27-05,Ernest Phillips,29.0,Brothers (The Dancers),"Boston, Massachusetts","Eliminated 3rd (in San Antonio de Areco, Argentina)"
+US,27,US-S27-06,Jin Lao Greer,26.0,Brothers (The Dancers),"Boston, Massachusetts","Eliminated 3rd (in San Antonio de Areco, Argentina)"
+US,27,US-S27-07,Jazmine Lewis,23.0,Best Friends & Athletes (The Track Stars),"Los Angeles, California","Eliminated 4th (in Victoria Falls, Zimbabwe)"
+US,27,US-S27-08,Danielle Littleton,22.0,Best Friends & Athletes (The Track Stars),"Los Angeles, California","Eliminated 4th (in Victoria Falls, Zimbabwe)"
+US,27,US-S27-09,Cindy Chac,36.0,Newlyweds (Chac Attack),"San Diego, California","Eliminated 5th (in The Hague, Netherlands)"
+US,27,US-S27-10,Rick Chac,38.0,Newlyweds (Chac Attack),"San Diego, California","Eliminated 5th (in The Hague, Netherlands)"
+US,27,US-S27-11,Tanner Kloven,26.0,Best Friends (Team Texas),"Dallas, Texas","Eliminated 6th (in Agra, India)"
+US,27,US-S27-12,Josh Ahern,28.0,Best Friends (Team Texas),"Dallas, Texas","Eliminated 6th (in Agra, India)"
+US,27,US-S27-13,Denise Williams,51.0,Mother & Son (Team Alabama),"Prattville, Alabama","Eliminated 7th (in Agra, India)"
+US,27,US-S27-14,James Earl Corley,26.0,Mother & Son (Team Alabama),"Prattville, Alabama","Eliminated 7th (in Agra, India)"
+US,27,US-S27-15,Tiffany Torres,28.0,Former NFL Cheerleaders (The Cheerleaders),"Hoboken, New Jersey",Eliminated 8th (in Macau)
+US,27,US-S27-16,Krista DeBono,28.0,Former NFL Cheerleaders (The Cheerleaders),"Staten Island, New York",Eliminated 8th (in Macau)
+US,27,US-S27-17,Logan Fazio,36.0,Dating Paparazzi (The Paparazzi),"Miami Beach, Florida",Third place
+US,27,US-S27-18,Chris Gordon,46.0,Dating Paparazzi (The Paparazzi),"Miami Beach, Florida",Third place
+US,27,US-S27-19,Justin Scheman,39.0,Engaged (The Green Team),"Philadelphia, Pennsylvania",Runners-up
+US,27,US-S27-20,Diana Bishop,30.0,Engaged (The Green Team),"Philadelphia, Pennsylvania",Runners-up
+US,27,US-S27-21,Kelsey Gerckens,25.0,Dating News Anchors (The Reporters),"Santa Barbara, California",Winners
+US,27,US-S27-22,Joey Buttitta,26.0,Dating News Anchors (The Reporters),"Santa Barbara, California",Winners
+US,28,US-S28-01,Marty Cobb,51.0,Mother & Daughter,"McKinney, Texas","Eliminated 1st (in Cartagena, Colombia)"
+US,28,US-S28-02,Hagan Parkman,22.0,Mother & Daughter,"McKinney, Texas","Eliminated 1st (in Cartagena, Colombia)"
+US,28,US-S28-03,Darius Benson,22.0,Brothers,"Tuscaloosa, Alabama","Eliminated 2nd (in Cartagena, Colombia)"
+US,28,US-S28-04,Cameron Benson,19.0,Brothers,"Memphis, Tennessee","Eliminated 2nd (in Cartagena, Colombia)"
+US,28,US-S28-05,Brittany Oldehoff,26.0,Instagram Models,"Fort Lauderdale, Florida","Eliminated 3rd (in Chamonix, France)"
+US,28,US-S28-06,Jessica Versteeg,28.0,Instagram Models,"San Francisco, California","Eliminated 3rd (in Chamonix, France)"
+US,28,US-S28-07,Erin White Robinson,31.0,Best Friends,"Los Angeles, California","Eliminated 4th (in Chamonix, France)"
+US,28,US-S28-08,Joslyn Davis,33.0,Best Friends,"Los Angeles, California","Eliminated 4th (in Chamonix, France)"
+US,28,US-S28-09,Scott Fowler,58.0,Father & Daughter,"Kingsport, Tennessee","Eliminated 5th (in Tbilisi, Georgia)"
+US,28,US-S28-10,Blair Fowler,22.0,Father & Daughter,"San Diego, California","Eliminated 5th (in Tbilisi, Georgia)"
+US,28,US-S28-11,Zach King,25.0,Newlyweds,"Los Angeles, California","Eliminated 6th (in Denpasar, Indonesia)"
+US,28,US-S28-12,Rachel King,25.0,Newlyweds,"Los Angeles, California","Eliminated 6th (in Denpasar, Indonesia)"
+US,28,US-S28-13,Brodie Smith,28.0,Pro Ultimate Players,"Dallas, Texas","Eliminated 7th (in Denpasar, Indonesia)"
+US,28,US-S28-14,Kurt Gibson,30.0,Pro Ultimate Players,"Dallas, Texas","Eliminated 7th (in Denpasar, Indonesia)"
+US,28,US-S28-15,Burnie Burns,42.0,Dating Gamers,"Austin, Texas","Eliminated 8th (in Shenzhen, China)"
+US,28,US-S28-16,Ashley Jenkins,33.0,Dating Gamers,"Austin, Texas","Eliminated 8th (in Shenzhen, China)"
+US,28,US-S28-17,Tyler Oakley,26.0,Best Friends,"Jackson, Michigan",Third place
+US,28,US-S28-18,Korey Kuhl,30.0,Best Friends,"Jackson, Michigan",Third place
+US,28,US-S28-19,Sheri LaBrant,45.0,Mother & Son,"Enterprise, Alabama",Runners-up
+US,28,US-S28-20,Cole LaBrant,19.0,Mother & Son,"Enterprise, Alabama",Runners-up
+US,28,US-S28-21,Dana Borriello,29.0,Engaged Choreographers,"Los Angeles, California",Winners
+US,28,US-S28-22,Matt Steffanina,30.0,Engaged Choreographers,"Los Angeles, California",Winners
+US,29,US-S29-01,Kevin Ng,31.0,,"San Diego, California","Eliminated 1st (in Panama City, Panama)"
+US,29,US-S29-02,Jenn Lee,25.0,,"Palos Verdes, California","Eliminated 1st (in Panama City, Panama)"
+US,29,US-S29-03,Jessie Shields,28.0,,"Howland, Ohio","Eliminated 2nd (in São Paulo, Brazil)"
+US,29,US-S29-04,Francesca Piccoli,33.0,,"Banning, California","Eliminated 2nd (in São Paulo, Brazil)"
+US,29,US-S29-05,Seth Tyler,37.0,,"Seattle, Washington","Eliminated 3rd (in Zanzibar City, Tanzania)"
+US,29,US-S29-06,Olive Beauregard,24.0,,"Providence, Rhode Island","Eliminated 3rd (in Zanzibar City, Tanzania)"
+US,29,US-S29-07,Shamir Arzeno,28.0,,"Bronx, New York","Eliminated 4th (in Dar es Salaam, Tanzania)"
+US,29,US-S29-08,Sara Fowler,27.0,,"Baltimore, Maryland","Eliminated 4th (in Dar es Salaam, Tanzania)"
+US,29,US-S29-09,Vanck Zhu,28.0,,"Saint Paul, Minnesota","Eliminated 5th (in Tremezzo, Italy)"
+US,29,US-S29-10,Ashton Theiss,25.0,,"Fort Worth, Texas","Eliminated 5th (in Tremezzo, Italy)"
+US,29,US-S29-11,Liz Espey,24.0,,"Maryville, Missouri","Eliminated 6th (in Athens, Greece)"
+US,29,US-S29-12,Michael Rado,37.0,,"Pittsburgh, Pennsylvania","Eliminated 6th (in Athens, Greece)"
+US,29,US-S29-13,Becca Droz,26.0,,"Pittsburgh, Pennsylvania","Eliminated 7th (in Hoa Lư, Vietnam)"
+US,29,US-S29-14,Floyd Pierce,21.0,,"Highlands Ranch, Colorado","Eliminated 7th (in Hoa Lư, Vietnam)"
+US,29,US-S29-15,Matt Ladley,25.0,,"Steamboat Springs, Colorado","Eliminated 8th (in Seoul, South Korea)"
+US,29,US-S29-16,Redmond Ramos,28.0,,"Fremont, California","Eliminated 8th (in Seoul, South Korea)"
+US,29,US-S29-17,London Kaye,27.0,,"New York City, New York",Third place
+US,29,US-S29-18,Logan Bauer,27.0,,"Navarre, Florida",Third place
+US,29,US-S29-19,Tara Carr,38.0,,"Alexandria, Virginia",Runners-up
+US,29,US-S29-20,Joey Covino,46.0,,"Boston, Massachusetts",Runners-up
+US,29,US-S29-21,Brooke Camhi,36.0,,"Lynbrook, New York",Winners
+US,29,US-S29-22,Scott Flanary,34.0,,"Charlotte, North Carolina",Winners
+US,30,US-S30-01,Dessie Mitcheson,27.0,Models (The Ring Girls),"Apollo, Pennsylvania","Eliminated 1st (in Reykjavík, Iceland)"
+US,30,US-S30-02,Kayla Fitzgerald,26.0,Models (The Ring Girls),"Clermont, Florida","Eliminated 1st (in Reykjavík, Iceland)"
+US,30,US-S30-03,April Gould,39.0,Goat Yoga Moms (Team Goat Yoga),"Gilbert, Arizona","Eliminated 2nd (in Antwerp, Belgium)"
+US,30,US-S30-04,Sarah Williams,39.0,Goat Yoga Moms (Team Goat Yoga),"Mesa, Arizona","Eliminated 2nd (in Antwerp, Belgium)"
+US,30,US-S30-05,Cedric Ceballos,48.0,Former NBA Players (Team Slam Dunk),"Maui, Hawaii","Eliminated 3rd (in Saint-Tropez, France)"
+US,30,US-S30-06,Shawn Marion,39.0,Former NBA Players (Team Slam Dunk),"Chicago, Illinois","Eliminated 3rd (in Saint-Tropez, France)"
+US,30,US-S30-07,Joey Chestnut,33.0,Competitive Eaters (Team Chomp),"San Jose, California","Eliminated 4th (in Les Baux-de-Provence, France)"
+US,30,US-S30-08,Tim Janus,41.0,Competitive Eaters (Team Chomp),"New York City, New York","Eliminated 4th (in Les Baux-de-Provence, France)"
+US,30,US-S30-09,Trevor Wadleigh,31.0,Dating Violinists (Team Well-Strung ),"New York City, New York","Eliminated 5th (in Prague, Czech Republic)"
+US,30,US-S30-10,Chris Marchant,33.0,Dating Violinists (Team Well-Strung ),"New York City, New York","Eliminated 5th (in Prague, Czech Republic)"
+US,30,US-S30-11,Eric Guiffreda,33.0,Twins (The Firefighters),"Ponchatoula, Louisiana","Eliminated 6th (in Harare, Zimbabwe)"
+US,30,US-S30-12,Daniel Guiffreda,33.0,Twins (The Firefighters),"Ponchatoula, Louisiana","Eliminated 6th (in Harare, Zimbabwe)"
+US,30,US-S30-13,Lucas Bocanegra,35.0,Dating→Engaged Lifeguards (Team Ocean Rescue),"Miami Springs, Florida","Eliminated 7th (in Muharraq, Bahrain)"
+US,30,US-S30-14,Brittany Austin,31.0,Dating→Engaged Lifeguards (Team Ocean Rescue),"Miami Springs, Florida","Eliminated 7th (in Muharraq, Bahrain)"
+US,30,US-S30-15,Alex Rossi,26.0,IndyCar Drivers (Team IndyCar),"Nevada City, California",Eliminated 8th (in Hong Kong)
+US,30,US-S30-16,Conor Daly,25.0,IndyCar Drivers (Team IndyCar),"Noblesville, Indiana",Eliminated 8th (in Hong Kong)
+US,30,US-S30-17,Kristi Leskinen,36.0,Professional Skiers (Team Extreme),"Scottsdale, Arizona",Third place
+US,30,US-S30-18,Jen Hudak,30.0,Professional Skiers (Team Extreme),"Park City, Utah",Third place
+US,30,US-S30-19,Henry Zhang,22.0,Dating Debaters (Team Yale ),"Los Angeles, California",Runners-up
+US,30,US-S30-20,Evan Lynyak,22.0,Dating Debaters (Team Yale ),"Los Angeles, California",Runners-up
+US,30,US-S30-21,Cody Nickson,33.0,Dating Reality Stars (Team Big Brother ),"Plano, Texas",Winners
+US,30,US-S30-22,Jessica Graf,28.0,Dating Reality Stars (Team Big Brother ),"Los Angeles, California",Winners
+US,31,US-S31-01,Art Velez,49.0,Best Friends (The Amazing Race),"Temecula, California","Eliminated 1st (in Tokyo, Japan)"
+US,31,US-S31-02,J.J. Carrell,49.0,Best Friends (The Amazing Race),"San Marcos, California","Eliminated 1st (in Tokyo, Japan)"
+US,31,US-S31-03,Rupert Boneham,54.0,Married (Survivor),"Indianapolis, Indiana","Eliminated 2nd (in Ban Xiengkeo, Laos)"
+US,31,US-S31-04,Laura Boneham,49.0,Married (Survivor),"Indianapolis, Indiana","Eliminated 2nd (in Ban Xiengkeo, Laos)"
+US,31,US-S31-05,Corinne Kaplan,39.0,Friends (Survivor),"Denver, Colorado","Eliminated 3rd (in Ho Chi Minh City, Vietnam)"
+US,31,US-S31-06,Eliza Orlins,35.0,Friends (Survivor),"New York City, New York","Eliminated 3rd (in Ho Chi Minh City, Vietnam)"
+US,31,US-S31-07,Janelle Pierzina,38.0,Friends (Big Brother),"Lakeville, Minnesota","Eliminated 4th (in Kampala, Uganda)"
+US,31,US-S31-08,Britney Haynes,30.0,Friends (Big Brother),"Tulsa, Oklahoma","Eliminated 4th (in Kampala, Uganda)"
+US,31,US-S31-09,Rachel Reilly,33.0,Sisters (Big Brother),"Van Nuys, California","Eliminated 5th (in Brienz, Switzerland)"
+US,31,US-S31-10,Elissa Slater,32.0,Sisters (Big Brother),"Las Vegas, Nevada","Eliminated 5th (in Brienz, Switzerland)"
+US,31,US-S31-11,Chris Hammons,40.0,Friends (Survivor),"Moore, Oklahoma","Eliminated 6th (in Split, Croatia)"
+US,31,US-S31-12,Bret LaBelle,44.0,Friends (Survivor),"Dedham, Massachusetts","Eliminated 6th (in Split, Croatia)"
+US,31,US-S31-13,Becca Droz,28.0,Friends (The Amazing Race),"Boulder, Colorado","Eliminated 7th (in Giethoorn, Netherlands)"
+US,31,US-S31-14,Floyd Pierce,23.0,Friends (The Amazing Race),"Highlands Ranch, Colorado","Eliminated 7th (in Giethoorn, Netherlands)"
+US,31,US-S31-15,Nicole Franzel,25.0,Dating (Big Brother),"Ubly, Michigan","Eliminated 8th (in London, England)"
+US,31,US-S31-16,Victor Arroyo,27.0,Dating (Big Brother),"Slidell, Louisiana","Eliminated 8th (in London, England)"
+US,31,US-S31-17,Leo Temory,31.0,Cousins (The Amazing Race),"Pasadena, California",Third place
+US,31,US-S31-18,Jamal Zadran,31.0,Cousins (The Amazing Race),"Houston, Texas",Third place
+US,31,US-S31-19,Tyler Oakley,29.0,Best Friends (The Amazing Race),"Jackson, Michigan",Runners-up
+US,31,US-S31-20,Korey Kuhl,33.0,Best Friends (The Amazing Race),"Jackson, Michigan",Runners-up
+US,31,US-S31-21,Colin Guinn,38.0,Life Partners (The Amazing Race),"Austin, Texas",Winners
+US,31,US-S31-22,Christie Woods,40.0,Life Partners (The Amazing Race),"Austin, Texas",Winners
+US,32,US-S32-01,Nathan Worthington,39.0,Best Friends,"Dayton, Tennessee","Eliminated 1st (in Buccoo, Trinidad and Tobago)"
+US,32,US-S32-02,Cody Buell,33.0,Best Friends,"Paint Lick, Kentucky","Eliminated 1st (in Buccoo, Trinidad and Tobago)"
+US,32,US-S32-03,Kellie Wells-Brinkley,37.0,Former Olympic Hurdlers,"Richmond, Virginia","Eliminated 2nd (in Bogotá, Colombia)"
+US,32,US-S32-04,LaVonne Idlette,34.0,Former Olympic Hurdlers,"Hampton, Virginia","Eliminated 2nd (in Bogotá, Colombia)"
+US,32,US-S32-05,Jerry Eaves,61.0,Father & Son,"Louisville, Kentucky","Eliminated 3rd (in Rio Negro, Brazil)"
+US,32,US-S32-06,Frank Eaves,25.0,Father & Son,"Louisville, Kentucky","Eliminated 3rd (in Rio Negro, Brazil)"
+US,32,US-S32-07,Michelle Newland,34.0,Sisters,"Lafayette, Louisiana","Eliminated 4th (in Paris, France)"
+US,32,US-S32-08,Victoria Newland,33.0,Sisters,"Lafayette, Louisiana","Eliminated 4th (in Paris, France)"
+US,32,US-S32-09,Leo Brown,31.0,Dating,"Somerville, Massachusetts","Eliminated 5th (in Almaty, Kazakhstan)"
+US,32,US-S32-10,Alana Folsom,29.0,Dating,"Somerville, Massachusetts","Eliminated 5th (in Almaty, Kazakhstan)"
+US,32,US-S32-11,Kaylynn Williams,30.0,Sisters,"Bluffton, South Carolina","Eliminated 6th (in Hyderabad, India)"
+US,32,US-S32-12,Haley Williams,31.0,Sisters,"Bluffton, South Carolina","Eliminated 6th (in Hyderabad, India)"
+US,32,US-S32-13,Eswar Dhinakaran,24.0,Siblings,"Fremont, California","Eliminated 7th (in Siem Reap, Cambodia)"
+US,32,US-S32-14,Aparna Dhinakaran,26.0,Siblings,"Berkeley, California","Eliminated 7th (in Siem Reap, Cambodia)"
+US,32,US-S32-15,DeAngelo Williams,36.0,Former NFL Stars,"Charlotte, North Carolina","Eliminated 8th (in Manila, Philippines)"
+US,32,US-S32-16,Gary Barnidge,34.0,Former NFL Stars,"Middleburg, Florida","Eliminated 8th (in Manila, Philippines)"
+US,32,US-S32-17,Riley McKibbin,31.0,Pro Volleyball Brothers,"Honolulu, Hawaii",Third place
+US,32,US-S32-18,Maddison McKibbin,29.0,Pro Volleyball Brothers,"Honolulu, Hawaii",Third place
+US,32,US-S32-19,Hung Nguyen,39.0,Married Parents,"Houston, Texas",Runners-up
+US,32,US-S32-20,Chee Lee,38.0,Married Parents,"Houston, Texas",Runners-up
+US,32,US-S32-21,Will Jardell,30.0,Boyfriends,"Nederland, Texas",Winners
+US,32,US-S32-22,James Wallington,31.0,Boyfriends,"Grand Rapids, Michigan",Winners
+US,33,US-S33-01,Michael Norwood,,Returned to competition,Returned to competition,"Eliminated 1st (in London, England)"
+US,33,US-S33-02,Moe Badger,,Returned to competition,Returned to competition,"Eliminated 1st (in London, England)"
+US,33,US-S33-03,Arun Kumar,,Returned to competition,Returned to competition,"Eliminated 2nd (in Glasgow, Scotland)"
+US,33,US-S33-04,Natalia Kumar,,Returned to competition,Returned to competition,"Eliminated 2nd (in Glasgow, Scotland)"
+US,33,US-S33-05,Taylor Green-Jones,38.0,Married,"Fort Worth, Texas",Unable to return to competition
+US,33,US-S33-06,Isaiah Green-Jones,31.0,Married,"Portland, Oregon",Unable to return to competition
+US,33,US-S33-07,Caro Viehweg,23.0,Dating,"Los Angeles, California",Unable to return to competition
+US,33,US-S33-08,Ray Gantt,25.0,Dating,"Lakewood, New Jersey",Unable to return to competition
+US,33,US-S33-09,Connie Greiner,37.0,Married,"Newport News, Virginia",Unable to return to competition
+US,33,US-S33-10,Sam Greiner,39.0,Married,"Charlotte, North Carolina",Unable to return to competition
+US,33,US-S33-11,Anthony Sadler,29.0,Childhood Friends,"Sacramento, California",Unable to return to competition
+US,33,US-S33-12,Spencer Stone,29.0,Childhood Friends,"Sacramento, California",Unable to return to competition
+US,33,US-S33-13,Michael Norwood,36.0,Singing Police Officers,"Buffalo, New York","Eliminated 3rd (in Altstätten, Switzerland)"
+US,33,US-S33-14,Moe Badger,42.0,Singing Police Officers,"Buffalo, New York","Eliminated 3rd (in Altstätten, Switzerland)"
+US,33,US-S33-15,Akbar Cook Sr.,45.0,Married Educators,"Newark, New Jersey","Eliminated 4th (in Giuncaggio, France)"
+US,33,US-S33-16,Sheri Cook,44.0,Married Educators,"Havana, Florida","Eliminated 4th (in Giuncaggio, France)"
+US,33,US-S33-17,Lulu Gonzalez,37.0,Twins & Radio Hosts,"North Bergen, New Jersey","Eliminated 5th (in Nea Kallikrateia, Greece)"
+US,33,US-S33-18,Lala Gonzalez,37.0,Twins & Radio Hosts,"North Bergen, New Jersey","Eliminated 5th (in Nea Kallikrateia, Greece)"
+US,33,US-S33-19,Arun Kumar,56.0,Father & Daughter,"Detroit, Michigan","Eliminated 6th (in Cabo Espichel, Portugal)"
+US,33,US-S33-20,Natalia Kumar,28.0,Father & Daughter,"Detroit, Michigan","Eliminated 6th (in Cabo Espichel, Portugal)"
+US,33,US-S33-21,Ryan Ferguson,37.0,Best Friends,"Manhattan, New York",Third place
+US,33,US-S33-22,Dusty Harris,38.0,Best Friends,"Columbia, Missouri",Third place
+US,33,US-S33-23,Raquel Moore,31.0,Flight Attendants,"Chicago, Illinois",Runners-up
+US,33,US-S33-24,Cayla Platt,30.0,Flight Attendants,"Gulf Breeze, Florida",Runners-up
+US,33,US-S33-25,Kim Holderness,45.0,Married,"Sarasota, Florida",Winners
+US,33,US-S33-26,Penn Holderness,47.0,Married,"Durham, North Carolina",Winners
+US,34,US-S34-01,Aastha Lal,33.0,Engaged,"Marina del Rey, California","Eliminated 1st (in Munich, Germany)"
+US,34,US-S34-02,Nina Duong,34.0,Engaged,"Marina del Rey, California","Eliminated 1st (in Munich, Germany)"
+US,34,US-S34-03,Tim Mann,40.0,Golf Buddies,"Brentwood, Tennessee","Eliminated 2nd (in Innsbruck, Austria)"
+US,34,US-S34-04,Rex Ryan,59.0,Golf Buddies,"Brentwood, Tennessee","Eliminated 2nd (in Innsbruck, Austria)"
+US,34,US-S34-05,Rich Kuo,32.0,Motivational Speakers,"Huntington Beach, California","Eliminated 3rd (in Florence, Italy)"
+US,34,US-S34-06,Dom Jones,35.0,Motivational Speakers,"Huntington Beach, California","Eliminated 3rd (in Florence, Italy)"
+US,34,US-S34-07,Linton Atkinson,50.0,Father & Daughter,"Brooklyn, New York","Eliminated 4th (in Petra, Jordan)"
+US,34,US-S34-08,Sharik Atkinson,23.0,Father & Daughter,"Brooklyn, New York","Eliminated 4th (in Petra, Jordan)"
+US,34,US-S34-09,Abby Garrett,24.0,Childhood Sweethearts,"Birmingham, Alabama","Medically removed (in Amman, Jordan)"
+US,34,US-S34-10,Will Freeman,25.0,Childhood Sweethearts,"Birmingham, Alabama","Medically removed (in Amman, Jordan)"
+US,34,US-S34-11,Glenda Roberts,41.0,Newlyweds,"Norcross, Georgia","Eliminated 6th (in Domme, France)"
+US,34,US-S34-12,"Latrice ""Lumumba"" Roberts",41.0,Newlyweds,"Norcross, Georgia","Eliminated 6th (in Domme, France)"
+US,34,US-S34-13,Quinton Peron,29.0,Former Rams Cheerleaders,"Pasadena, California","Eliminated 7th (in Toulouse, France)"
+US,34,US-S34-14,"Madison ""Mattie"" Lynch",27.0,Former Rams Cheerleaders,"Vista, California","Eliminated 7th (in Toulouse, France)"
+US,34,US-S34-15,Marcus Craig,38.0,Military Brothers,"Richmond Hill, Georgia","Eliminated 8th (in Ronda, Spain)"
+US,34,US-S34-16,Michael Craig,30.0,Military Brothers,"Alamogordo, New Mexico","Eliminated 8th (in Ronda, Spain)"
+US,34,US-S34-17,Aubrey Ares,29.0,Ballroom Dancers,"Los Angeles, California","Eliminated 9th (in Hrunamannahreppur, Iceland)"
+US,34,US-S34-18,David Hernandez,29.0,Ballroom Dancers,"Los Angeles, California","Eliminated 9th (in Hrunamannahreppur, Iceland)"
+US,34,US-S34-19,Luis Colon,34.0,Married,"Miami, Florida",Third place
+US,34,US-S34-20,Michelle Burgos,34.0,Married,"Miami, Florida",Third place
+US,34,US-S34-21,Emily Bushnell,36.0,Long-Lost Twins,"Ardmore, Pennsylvania",Runners-up
+US,34,US-S34-22,Molly Sinert,36.0,Long-Lost Twins,"Palm Beach Gardens, Florida",Runners-up
+US,34,US-S34-23,Derek Xiao,25.0,Reality Romance,"Los Angeles, California",Winners
+US,34,US-S34-24,Claire Rehfuss,26.0,Reality Romance,"Los Angeles, California",Winners
+US,35,US-S35-01,Alexandra Lichtor,34.0,Siblings & Roommates,"Chicago, Illinois","Eliminated 1st (in Mueang Nonthaburi, Thailand)"
+US,35,US-S35-02,Sheridan Lichtor,29.0,Siblings & Roommates,"Chicago, Illinois","Eliminated 1st (in Mueang Nonthaburi, Thailand)"
+US,35,US-S35-03,Elizabeth Rivera,52.0,Mother & Daughter,"Tampa, Florida","Eliminated 2nd (in Sam Phran, Thailand)"
+US,35,US-S35-04,Iliana Rivera,27.0,Mother & Daughter,"Tampa, Florida","Eliminated 2nd (in Sam Phran, Thailand)"
+US,35,US-S35-05,Jocelyn Chao,49.0,Married Entrepreneurs,"Albuquerque, New Mexico","Eliminated 3rd (in Cần Thơ, Vietnam)"
+US,35,US-S35-06,Victor Limary,49.0,Married Entrepreneurs,"Albuquerque, New Mexico","Eliminated 3rd (in Cần Thơ, Vietnam)"
+US,35,US-S35-07,Joe Moskowitz,35.0,Engaged,"New York City, New York","Eliminated 4th (in Jaipur, India)"
+US,35,US-S35-08,Ian Todd,40.0,Engaged,"New York City, New York","Eliminated 4th (in Jaipur, India)"
+US,35,US-S35-09,Liam Hykel,23.0,Brothers,"Cheyenne, Wyoming","Eliminated 5th (in Jaipur, India)"
+US,35,US-S35-10,Yeremi Hykel,24.0,Brothers,"San Marcos, Texas","Eliminated 5th (in Jaipur, India)"
+US,35,US-S35-11,Andrea Simpson,44.0,College Friends,"Philadelphia, Pennsylvania","Eliminated 6th (in Cologne, Germany)"
+US,35,US-S35-12,Malaina Hatcher,45.0,College Friends,"Philadelphia, Pennsylvania","Eliminated 6th (in Cologne, Germany)"
+US,35,US-S35-13,Morgan Franklin,31.0,Sisters,"Brooklyn, New York","Eliminated 7th (in Ljubljana, Slovenia)"
+US,35,US-S35-14,Lena Franklin,29.0,Sisters,"Los Angeles, California","Eliminated 7th (in Ljubljana, Slovenia)"
+US,35,US-S35-15,Robbin Tomich,41.0,Childhood Friends,"Kirkland, Washington","Eliminated 8th (in Socerb, Slovenia)"
+US,35,US-S35-16,Chelsea Day,41.0,Childhood Friends,"Shoreline, Washington","Eliminated 8th (in Socerb, Slovenia)"
+US,35,US-S35-17,Todd Martin,38.0,Married High School Sweethearts,"Chino, California","Eliminated 9th (in Stockholm, Sweden)"
+US,35,US-S35-18,Ashlie Martin,38.0,Married High School Sweethearts,"Chino, California","Eliminated 9th (in Stockholm, Sweden)"
+US,35,US-S35-19,Steve Cargile,54.0,Father & Daughter,"Petty, Texas","Eliminated 10th (in Dublin, Ireland)"
+US,35,US-S35-20,Anna Leigh Wilson,28.0,Father & Daughter,"Royse City, Texas","Eliminated 10th (in Dublin, Ireland)"
+US,35,US-S35-21,Rob McArthur,48.0,Father & Son,"Riverside, California",Third place
+US,35,US-S35-22,Corey McArthur,25.0,Father & Son,"New York City, New York",Third place
+US,35,US-S35-23,Joel Strasser,42.0,Best Friends,"Kuna, Idaho",Runners-up
+US,35,US-S35-24,Garrett Smith,43.0,Best Friends,"Meridian, Idaho",Runners-up
+US,35,US-S35-25,Greg Franklin,25.0,Brothers & Computer Scientists,"New York City, New York",Winners
+US,35,US-S35-26,John Franklin,27.0,Brothers & Computer Scientists,"Mountain View, California",Winners
+US,36,US-S36-01,Maya Mody,19.0,Siblings,"Monmouth Junction, New Jersey","Eliminated 1st (in Puerto Vallarta, Mexico)"
+US,36,US-S36-02,Rohan Mody,22.0,Siblings,"Monmouth Junction, New Jersey","Eliminated 1st (in Puerto Vallarta, Mexico)"
+US,36,US-S36-03,Chris Foster,60.0,Father & Daughter,"Waltham, Massachusetts","Eliminated 2nd (in Puerto Vallarta, Mexico)"
+US,36,US-S36-04,Mary Cardona-Foster,27.0,Father & Daughter,"Waltham, Massachusetts","Eliminated 2nd (in Puerto Vallarta, Mexico)"
+US,36,US-S36-05,Anthony Smith,26.0,Twins,"Clearwater, Florida","Eliminated 3rd (in El Peñol, Colombia)"
+US,36,US-S36-06,Bailey Smith,26.0,Twins,"Clearwater, Florida","Eliminated 3rd (in El Peñol, Colombia)"
+US,36,US-S36-07,Michelle Clark,39.0,Married Aerobics Instructors,"East Point, Georgia","Eliminated 4th (in Medellín, Colombia)"
+US,36,US-S36-08,Sean Clark,46.0,Married Aerobics Instructors,"East Point, Georgia","Eliminated 4th (in Medellín, Colombia)"
+US,36,US-S36-09,Kishori Turner,26.0,Cousins,"Gaithersburg, Maryland","Eliminated 5th (in Santiago, Chile)"
+US,36,US-S36-10,Karishma Cordero,22.0,Cousins,"Austin, Texas","Eliminated 5th (in Santiago, Chile)"
+US,36,US-S36-11,Derek Williams,57.0,Grandparents,"Alta Loma, California","Eliminated 6th (in Córdoba, Argentina)"
+US,36,US-S36-12,Shelisa Williams,55.0,Grandparents,"Alta Loma, California","Eliminated 6th (in Córdoba, Argentina)"
+US,36,US-S36-13,Sunny Pulver,41.0,Firefighter Moms,"Edgerton, Wisconsin","Eliminated 7th (in Montevideo, Uruguay)"
+US,36,US-S36-14,Bizzy Smith,37.0,Firefighter Moms,"New Berlin, Wisconsin","Eliminated 7th (in Montevideo, Uruguay)"
+US,36,US-S36-15,Angie Butler,55.0,Mother & Son,"Walla Walla, Washington","Eliminated 8th (in Christ Church, Barbados)"
+US,36,US-S36-16,Danny Butler,27.0,Mother & Son,"San Diego, California","Eliminated 8th (in Christ Church, Barbados)"
+US,36,US-S36-17,Yvonne Chavez,40.0,Girlfriends,"San Diego, California","Eliminated 9th (in Puerto Plata, Dominican Republic)"
+US,36,US-S36-18,Melissa Main,38.0,Girlfriends,"San Diego, California","Eliminated 9th (in Puerto Plata, Dominican Republic)"
+US,36,US-S36-19,Amber Craven,30.0,Dating Nurses,"Englewood, Colorado","Eliminated 10th (in La Boca, Dominican Republic)"
+US,36,US-S36-20,Vinny Cagungun,37.0,Dating Nurses,"Englewood, Colorado","Eliminated 10th (in La Boca, Dominican Republic)"
+US,36,US-S36-21,Rod Gardner,46.0,Married,"Lawrenceville, Georgia",Third place
+US,36,US-S36-22,Leticia Gardner,38.0,Married,"Lawrenceville, Georgia",Third place
+US,36,US-S36-23,Juan Villa,29.0,Military Pilots,"Spokane, Washington",Runners-up
+US,36,US-S36-24,Shane Bilek,29.0,Military Pilots,"Marine City, Michigan",Runners-up
+US,36,US-S36-25,Ricky Rotandi,34.0,Boyfriends,"New York City, New York",Winners
+US,36,US-S36-26,Cesar Aldrete,34.0,Boyfriends,"New York City, New York",Winners

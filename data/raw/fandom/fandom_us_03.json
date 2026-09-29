@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 3,
+  "fandom_title": "The_Amazing_Race_3",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_3",
+  "infobox": {
+    "continents_visited": 4,
+    "countries_visited": 12,
+    "cities_visited": 40,
+    "distance_str": "41,000 mi (66,000 km)",
+    "starting_line": "Florida",
+    "finish_line": "Seattle, Washington",
+    "filming_dates": "August 9, 2002 - September 8, 2002",
+    "runners_up": "Teri & Ian<br/>Ken & Gerard"
+  },
+  "wikitext_length": 17627
+}

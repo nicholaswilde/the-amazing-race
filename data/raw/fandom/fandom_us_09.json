@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 9,
+  "fandom_title": "The_Amazing_Race_9",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_9",
+  "infobox": {
+    "continents_visited": 5,
+    "countries_visited": 10,
+    "cities_visited": 36,
+    "distance_str": "59,000 mi (95,000 km)",
+    "starting_line": "Denver,",
+    "finish_line": "Red Rocks Park, Denver, Colorado",
+    "filming_dates": "November 7, 2005 - December 3, 2005",
+    "runners_up": "Eric & Jeremy<br/>Ray & Yolanda"
+  },
+  "wikitext_length": 14600
+}

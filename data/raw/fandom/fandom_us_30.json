@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 30,
+  "fandom_title": "The_Amazing_Race_30",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_30",
+  "infobox": {
+    "continents_visited": 4,
+    "countries_visited": 11,
+    "cities_visited": 21,
+    "distance_str": "29,000 mi (47,000 km)",
+    "starting_line": "New York City, New York",
+    "finish_line": "USS ''Hornet'', Alameda,",
+    "filming_dates": "October 1, 2017 - October 24, 2017",
+    "runners_up": "Henry & Evan<br />Kristi & Jen"
+  },
+  "wikitext_length": 16047
+}

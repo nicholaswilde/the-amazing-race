@@ -31,7 +31,9 @@ def google_sheet_to_csv_url(url: str, gid: str = "0") -> str:
     if gid_match:
         gid = gid_match.group(1)
 
-    return f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid={gid}"
+    return (
+        f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid={gid}"
+    )
 
 
 class SheetsImporter:
@@ -75,7 +77,9 @@ class SheetsImporter:
 
         return df
 
-    def import_local_csv(self, file_path: Path | str, name: str | None = None) -> pd.DataFrame:
+    def import_local_csv(
+        self, file_path: Path | str, name: str | None = None
+    ) -> pd.DataFrame:
         """Import a local CSV into the sheets raw directory."""
         path = Path(file_path)
         if not path.exists():

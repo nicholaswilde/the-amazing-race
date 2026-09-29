@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 20,
+  "fandom_title": "The_Amazing_Race_20",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_20",
+  "infobox": {
+    "continents_visited": 5,
+    "countries_visited": 9,
+    "cities_visited": 22,
+    "distance_str": "36,000 mi (58,000 km)",
+    "starting_line": "Bridlewood Estate Winery, Santa Ynez,",
+    "finish_line": "Secret Island, Waikane,",
+    "filming_dates": "November 26, 2011 - December 19, 2011",
+    "runners_up": "Art & JJ<br/>Brendon & Rachel"
+  },
+  "wikitext_length": 13789
+}

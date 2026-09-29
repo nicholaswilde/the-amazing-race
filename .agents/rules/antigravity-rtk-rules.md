@@ -15,7 +15,7 @@ rtk ls src/
 rtk grep "pattern" src/
 rtk find "*.rs" .
 rtk docker ps
-rtk gh pr list
+rtk gh pr list | cat
 ```
 
 ## Meta Commands

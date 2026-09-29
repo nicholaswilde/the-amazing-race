@@ -1,0 +1,2186 @@
+{
+  "version": "US",
+  "season": 31,
+  "wiki_title": "The_Amazing_Race_31",
+  "wiki_url": "https://en.wikipedia.org/wiki/The_Amazing_Race_31",
+  "infobox": {
+    "n_teams": 11,
+    "winners": "Colin Guinn & Christie Woods",
+    "n_legs": 12,
+    "distance_raw": "25,000 mi (40,000 km)",
+    "distance_miles": 25000.0,
+    "distance_km": 40000.0,
+    "n_episodes": 12,
+    "air_dates": "April 17 (2019-04-17) \u2013June 26, 2019 (2019-06-26)",
+    "filming_dates": "June 10 (2018-06-10) \u2013July 3, 2018 (2018-07-03)"
+  },
+  "contestants": [
+    {
+      "name": "Art Velez",
+      "age": 49,
+      "relationship": "Best Friends (The Amazing Race)",
+      "hometown": "Temecula, California",
+      "status": "Eliminated 1st (in Tokyo, Japan)"
+    },
+    {
+      "name": "J.J. Carrell",
+      "age": 49,
+      "relationship": "Best Friends (The Amazing Race)",
+      "hometown": "San Marcos, California",
+      "status": "Eliminated 1st (in Tokyo, Japan)"
+    },
+    {
+      "name": "Rupert Boneham",
+      "age": 54,
+      "relationship": "Married (Survivor)",
+      "hometown": "Indianapolis, Indiana",
+      "status": "Eliminated 2nd (in Ban Xiengkeo, Laos)"
+    },
+    {
+      "name": "Laura Boneham",
+      "age": 49,
+      "relationship": "Married (Survivor)",
+      "hometown": "Indianapolis, Indiana",
+      "status": "Eliminated 2nd (in Ban Xiengkeo, Laos)"
+    },
+    {
+      "name": "Corinne Kaplan",
+      "age": 39,
+      "relationship": "Friends (Survivor)",
+      "hometown": "Denver, Colorado",
+      "status": "Eliminated 3rd (in Ho Chi Minh City, Vietnam)"
+    },
+    {
+      "name": "Eliza Orlins",
+      "age": 35,
+      "relationship": "Friends (Survivor)",
+      "hometown": "New York City, New York",
+      "status": "Eliminated 3rd (in Ho Chi Minh City, Vietnam)"
+    },
+    {
+      "name": "Janelle Pierzina",
+      "age": 38,
+      "relationship": "Friends (Big Brother)",
+      "hometown": "Lakeville, Minnesota",
+      "status": "Eliminated 4th (in Kampala, Uganda)"
+    },
+    {
+      "name": "Britney Haynes",
+      "age": 30,
+      "relationship": "Friends (Big Brother)",
+      "hometown": "Tulsa, Oklahoma",
+      "status": "Eliminated 4th (in Kampala, Uganda)"
+    },
+    {
+      "name": "Rachel Reilly",
+      "age": 33,
+      "relationship": "Sisters (Big Brother)",
+      "hometown": "Van Nuys, California",
+      "status": "Eliminated 5th (in Brienz, Switzerland)"
+    },
+    {
+      "name": "Elissa Slater",
+      "age": 32,
+      "relationship": "Sisters (Big Brother)",
+      "hometown": "Las Vegas, Nevada",
+      "status": "Eliminated 5th (in Brienz, Switzerland)"
+    },
+    {
+      "name": "Chris Hammons",
+      "age": 40,
+      "relationship": "Friends (Survivor)",
+      "hometown": "Moore, Oklahoma",
+      "status": "Eliminated 6th (in Split, Croatia)"
+    },
+    {
+      "name": "Bret LaBelle",
+      "age": 44,
+      "relationship": "Friends (Survivor)",
+      "hometown": "Dedham, Massachusetts",
+      "status": "Eliminated 6th (in Split, Croatia)"
+    },
+    {
+      "name": "Becca Droz",
+      "age": 28,
+      "relationship": "Friends (The Amazing Race)",
+      "hometown": "Boulder, Colorado",
+      "status": "Eliminated 7th (in Giethoorn, Netherlands)"
+    },
+    {
+      "name": "Floyd Pierce",
+      "age": 23,
+      "relationship": "Friends (The Amazing Race)",
+      "hometown": "Highlands Ranch, Colorado",
+      "status": "Eliminated 7th (in Giethoorn, Netherlands)"
+    },
+    {
+      "name": "Nicole Franzel",
+      "age": 25,
+      "relationship": "Dating (Big Brother)",
+      "hometown": "Ubly, Michigan",
+      "status": "Eliminated 8th (in London, England)"
+    },
+    {
+      "name": "Victor Arroyo",
+      "age": 27,
+      "relationship": "Dating (Big Brother)",
+      "hometown": "Slidell, Louisiana",
+      "status": "Eliminated 8th (in London, England)"
+    },
+    {
+      "name": "Leo Temory",
+      "age": 31,
+      "relationship": "Cousins (The Amazing Race)",
+      "hometown": "Pasadena, California",
+      "status": "Third place"
+    },
+    {
+      "name": "Jamal Zadran",
+      "age": 31,
+      "relationship": "Cousins (The Amazing Race)",
+      "hometown": "Houston, Texas",
+      "status": "Third place"
+    },
+    {
+      "name": "Tyler Oakley",
+      "age": 29,
+      "relationship": "Best Friends (The Amazing Race)",
+      "hometown": "Jackson, Michigan",
+      "status": "Runners-up"
+    },
+    {
+      "name": "Korey Kuhl",
+      "age": 33,
+      "relationship": "Best Friends (The Amazing Race)",
+      "hometown": "Jackson, Michigan",
+      "status": "Runners-up"
+    },
+    {
+      "name": "Colin Guinn",
+      "age": 38,
+      "relationship": "Life Partners (The Amazing Race)",
+      "hometown": "Austin, Texas",
+      "status": "Winners"
+    },
+    {
+      "name": "Christie Woods",
+      "age": 40,
+      "relationship": "Life Partners (The Amazing Race)",
+      "hometown": "Austin, Texas",
+      "status": "Winners"
+    }
+  ],
+  "results": [
+    {
+      "team_name": "Colin & Christie",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "3rd \u2282",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Tyler & Korey",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "7th \u2282",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Leo & Jamal",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "3rd \u2283",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Nicole & Victor",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "7th \u2021",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "4th \u2282 \u2283",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "4th \u2020",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Becca & Floyd",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "9th \u2282 \u2283",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "5th \u2020 \u2282",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Chris & Bret",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "9th \u2021",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "6th \u2020",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Rachel & Elissa",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "3rd \u2283",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "8th \u2021",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "7th \u2020 \u2282",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Janelle & Britney",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "8th \u2020",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Corinne & Eliza",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "9th \u2020",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Rupert & Laura",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "10th",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "10th \u2020",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Art & J.J.",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "11th \u2020",
+          "placement": 11,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": " You're in Our Race Now ",
+      "air_date": "April 17, 2019",
+      "viewers_millions": 5.74,
+      "raw_row": [
+        "1",
+        "\" You're in Our Race Now \"",
+        "April 17, 2019",
+        "1.2/6",
+        "5.74",
+        "0.6",
+        "1.95",
+        "1.8",
+        "7.69",
+        ""
+      ]
+    },
+    {
+      "episode": 2,
+      "title": " Knock the Newbie Out of Us ",
+      "air_date": "April 24, 2019",
+      "viewers_millions": 4.65,
+      "raw_row": [
+        "2",
+        "\" Knock the Newbie Out of Us \"",
+        "April 24, 2019",
+        "1.0/5",
+        "4.65",
+        "0.6",
+        "2.13",
+        "1.6",
+        "6.78",
+        ""
+      ]
+    },
+    {
+      "episode": 3,
+      "title": " Here Fishy, Fishy, Fishy ",
+      "air_date": "May 1, 2019",
+      "viewers_millions": 4.5,
+      "raw_row": [
+        "3",
+        "\" Here Fishy, Fishy, Fishy \"",
+        "May 1, 2019",
+        "0.9/4",
+        "4.50",
+        "0.6",
+        "2.06",
+        "1.5",
+        "6.57",
+        ""
+      ]
+    },
+    {
+      "episode": 4,
+      "title": " I Took Out A Polar Bear ",
+      "air_date": "May 8, 2019",
+      "viewers_millions": 4.44,
+      "raw_row": [
+        "4",
+        "\" I Took Out A Polar Bear \"",
+        "May 8, 2019",
+        "0.8/4",
+        "4.44",
+        "0.6",
+        "1.98",
+        "1.4",
+        "6.41",
+        ""
+      ]
+    },
+    {
+      "episode": 5,
+      "title": " I'm a Bird, I'm a Plane, I'm on The Amazing Race ",
+      "air_date": "May 22, 2019",
+      "viewers_millions": 4.24,
+      "raw_row": [
+        "5",
+        "\" I'm a Bird, I'm a Plane, I'm on The Amazing Race \"",
+        "May 22, 2019",
+        "0.9/5",
+        "4.24",
+        "0.4",
+        "1.84",
+        "1.3",
+        "6.08",
+        ""
+      ]
+    },
+    {
+      "episode": 6,
+      "title": " Who Wants a Rolex? ",
+      "air_date": "May 22, 2019",
+      "viewers_millions": 3.7,
+      "raw_row": [
+        "6",
+        "\" Who Wants a Rolex? \"",
+        "May 22, 2019",
+        "0.7/4",
+        "3.70",
+        "0.5",
+        "2.15",
+        "1.2",
+        "5.85",
+        ""
+      ]
+    },
+    {
+      "episode": 7,
+      "title": " Living Fearlessly ",
+      "air_date": "May 29, 2019",
+      "viewers_millions": 4.74,
+      "raw_row": [
+        "7",
+        "\" Living Fearlessly \"",
+        "May 29, 2019",
+        "0.8/4",
+        "4.74",
+        "0.5",
+        "1.78",
+        "1.3",
+        "6.52",
+        ""
+      ]
+    },
+    {
+      "episode": 8,
+      "title": " You're the Apple in My Eye ",
+      "air_date": "June 5, 2019",
+      "viewers_millions": 4.67,
+      "raw_row": [
+        "8",
+        "\" You're the Apple in My Eye \"",
+        "June 5, 2019",
+        "0.9/5",
+        "4.67",
+        "0.4",
+        "1.54",
+        "1.3",
+        "6.21",
+        ""
+      ]
+    },
+    {
+      "episode": 9,
+      "title": " Let's Split! ",
+      "air_date": "June 12, 2019",
+      "viewers_millions": 4.66,
+      "raw_row": [
+        "9",
+        "\" Let's Split! \"",
+        "June 12, 2019",
+        "0.8/4",
+        "4.66",
+        "0.5",
+        "1.83",
+        "1.3",
+        "6.49",
+        ""
+      ]
+    },
+    {
+      "episode": 10,
+      "title": " Chugga Chugga Choo Choo! ",
+      "air_date": "June 19, 2019",
+      "viewers_millions": 4.75,
+      "raw_row": [
+        "10",
+        "\" Chugga Chugga Choo Choo! \"",
+        "June 19, 2019",
+        "0.8/5",
+        "4.75",
+        "0.5",
+        "1.75",
+        "1.3",
+        "6.49",
+        ""
+      ]
+    },
+    {
+      "episode": 11,
+      "title": " This One is For One Million Dollars ",
+      "air_date": "June 26, 2019",
+      "viewers_millions": 3.82,
+      "raw_row": [
+        "11",
+        "\" This One is For One Million Dollars \"",
+        "June 26, 2019",
+        "0.7/4",
+        "3.82",
+        "0.6",
+        "2.21",
+        "1.3",
+        "6.03",
+        ""
+      ]
+    }
+  ],
+  "legs": [
+    {
+      "leg_number": 1,
+      "route_header": "United States \u2192 Japan",
+      "itinerary": [
+        "Episode 1: \"You're in Our Race Now\" (April 17, 2019)",
+        "Prize: A seven-day cruise for two to French Polynesia (awarded to Leo & Jamal)",
+        "Eliminated: Art & J.J.",
+        "Hermosa Beach, California (Hermosa Beach Pier) (Starting Line)",
+        "Hermosa Beach (Hermosa City Beach)",
+        "Los Angeles \u2192 Tokyo, Japan",
+        "Tokyo (Narita International Airport \u2192 Shibuya)",
+        "Tokyo (ACB Lock & Security or Tokyo Tokyo Restaurant)",
+        "Tokyo (EDGEof Shibuya Building)",
+        "Tokyo (Onarimon Station)",
+        "Tokyo (Shiba Koen)",
+        "Tokyo (Atago Jinja)",
+        "Teams set off from the Hermosa Beach Pier and ran to a giant octopus-shaped sand sculpture on an adjacent beach, where they dug for their first clue that revealed their first destination: Tokyo, Japan. Once there, teams traveled by charter bus to Shibuya, where teams were instructed to travel on foot to one of two locations, ACB Lock & Security or Tokyo Tokyo Restaurant, where they received their next clue. Each location only had a limited number of clues. Teams then traveled to the EDGEof Shibuya Building in order to find their next clue."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this season's first Roadblock, one team member had to pick one of several getas and bite the sandal until they found one of twelve made of chocolate. Both team members then had to eat the chocolate geta in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the first Roadblock, teams had to travel by taxi to Onarimon Station and then travel on foot to the nearby Shiba Koen in order to find their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's second Roadblock, the team member who did not perform the previous Roadblock had to don a blue unitard and climb to the summit of a 20-foot (6.1 m) slippery slope that resembled Mount Fuji in order to retrieve their next clue, which directed them to the Pit Stop: Atago Jinja."
+        }
+      ]
+    },
+    {
+      "leg_number": 2,
+      "route_header": "Japan \u2192 Laos",
+      "itinerary": [
+        "Episode 2: \"Knock the Newbie Out of Us\" (April 24, 2019)",
+        "Prize: US$2,500 each (awarded to Leo & Jamal)",
+        "Eliminated: Rupert & Laura",
+        "Tokyo (Atago Jinja)",
+        "Tokyo (Tickets Today)",
+        "Tokyo \u2192 Luang Prabang, Laos",
+        "Luang Prabang (Villa Santi)",
+        "Luang Prabang (Wat Sensoukharam)",
+        "Luang Prabang (Big Tree by the Mekong River)",
+        "Luang Prabang (\u00c9cole Maternelle Louang Prabang or BBQ Alley)",
+        "Ban Xieng Lom (Elephant Village)",
+        "Luang Prabang (Wat Xieng Thong) \u2192 Ban Xiengkeo (Prince Phetsarath's Palace)",
+        "At the start of this leg, teams were instructed to fly to Luang Prabang, Laos, with teams required to book their flight at Tickets Today. Once there, teams had to travel by tuk-tuk to Villa Santi and wait for their next clue to arrive by courier before sunrise. The clue instructed them to take part in the local morning alms by giving servings of sticky rice to a procession of Buddhist monks at Wat Sensoukharam. Before the monks' arrival, each team member had to don a pha biang and pick up basket of rice. After the monks passed, teams received their next clue, which directed them to a tree by the Mekong River.",
+        "This leg featured a Double U-Turn. Rachel & Elissa chose to use the U-Turn on Becca & Floyd, while Becca & Floyd chose to use the U-Turn on Tyler & Korey."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This season's first Detour was a choice between ABC or BBQ. In ABC, teams had to find the \u00c9cole Maternelle Louang Prabang, learn the Lao alphabet from a teacher, and pass an oral exam in order to receive their next clue. In BBQ, teams had to find BBQ Alley and purchase three ducks and eight tilapia. They then had to prepare eleven Lao barbecue skewers exactly like the skewers prepared during an ongoing demonstration in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to travel by tuk-tuk to the Elephant Village, which had their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to learn a series of Lao commands and then direct an elephant across the Nam Khan River. Once across, they had to search for two men playing Hmong music on qeejs with their next clue before directing their elephant back to the start and reuniting with their partner."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to travel by tuk-tuk to Wat Xieng Thong, where they boarded a long-tail boat and traveled to the Pit Stop: Prince Phetsarath's Palace in Ban Xiengkeo."
+        }
+      ]
+    },
+    {
+      "leg_number": 3,
+      "route_header": "Laos \u2192 Vietnam",
+      "itinerary": [
+        "Episode 3: \"Here Fishy, Fishy, Fishy\" (May 1, 2019)",
+        "Prize: A trip for two to Bimini, Bahamas (awarded to Becca & Floyd)",
+        "Ban Xiengkeo (Prince Phetsarath's Palace)",
+        "Luang Prabang \u2192 Ho Chi Minh City, Vietnam",
+        "Ho Chi Minh City (House of Vietnamese Medicine)",
+        "Ho Chi Minh City (Thanh \u0110a Restaurant or The CREATV Company Film Studio)",
+        "Ho Chi Minh City (Kingdom Karaoke)",
+        "Ho Chi Minh City (H\u1ed3 Th\u1ecb K\u1ef7 Flower Market)",
+        "At the start of this leg, teams were instructed to use a mobile app to book a flight to Ho Chi Minh City, Vietnam. Once there, teams had to find a doctor at the House of Vietnamese Medicine, who gave them a packet of herbal remedies, which contained their next clue.",
+        "This was a non-elimination leg."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Reel It In or Light It Up. In Reel It In, teams had to travel to Thanh \u0110a Restaurant and catch eight prawns from the pool inside the restaurant using fishing poles in order to receive their next clue. In Light It Up, teams had to travel to The CREATV Company film studio and learn a dance. When ready, they donned a glowsuit covered with electroluminescent wire and had to dance in sync alongside local dancers and Asia's Got Talent contestants 218 Dance Crew in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to learn the Vietnamese lyrics of Tr\u00fac Nh\u00e2n's song \"Th\u1eadt B\u1ea5t Ng\u1edd\" and then perform it karaoke-style in front of an audience. Once racers sang the lyrics correctly, they received their next clue, which directed them to the Pit Stop: H\u1ed3 Th\u1ecb K\u1ef7 Flower Market."
+        }
+      ]
+    },
+    {
+      "leg_number": 4,
+      "route_header": "Vietnam",
+      "itinerary": [
+        "Episode 4: \"I Took Out a Polar Bear\" (May 8, 2019)",
+        "Prize: A trip for two to Punta Cana, Dominican Republic (awarded to Colin & Christie)",
+        "Eliminated: Corinne & Eliza",
+        "Ho Chi Minh City (H\u1ed3 Th\u1ecb K\u1ef7 Flower Market)",
+        "Ho Chi Minh City (SnowTown Saigon)",
+        "Ho Chi Minh City (College Transportation Central)",
+        "Ho Chi Minh City (B\u00ecnh Qu\u1edbi Village)",
+        "Ho Chi Minh City (T\u1ea7m Vu Park) (Unaired)",
+        "At the start of this leg, teams had to travel to SnowTown Saigon and ride a sled down an indoor slope to a person dressed as a polar bear, who gave them their next clue directing them to College Transportation Central.",
+        "At T\u1ea7m Vu Park, teams encountered a Head-to-Head, which was unaired. Two teams had to compete against each other in a badminton match. The team that won the Head-to-Head could check in at the nearby Pit Stop, while the team that lost had to wait for the next team. The team that lost the final Head-to-Head was eliminated."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Speed Bump",
+          "description": "For their Speed Bump, Chris & Bret had to fill a cooler with snowballs in simulated snowstorm conditions and then deliver the cooler to College Transportation Central before they could continue racing."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to pass a Vietnamese driving test by driving a scooter through a figure-eight and over a series of speed bumps in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to travel to B\u00ecnh Qu\u1edbi Village and find their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Irritation or Irrigation. In Irritation, teams had to paddle a basket boat 200 yards (180 m) while avoiding fishermen on boats and moving their boat over bridges in order to pick up a basket of five fish. They then had to paddle back to the start and exchange the fish and the basket for their next clue. In Irrigation, teams had to assemble a bamboo water wheel and then use the water wheel to fill a jar with water in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to travel by bus and then on foot to the Pit Stop: T\u1ea7m Vu Park, adjacent to the Thanh \u0110a Canal."
+        }
+      ]
+    },
+    {
+      "leg_number": 5,
+      "route_header": "Vietnam \u2192 United Arab Emirates",
+      "itinerary": [
+        "Episode 5: \"I'm a Bird, I'm a Plane, I'm on The Amazing Race\" (May 22, 2019)",
+        "Prize: US$5,000 each (awarded to Becca & Floyd)",
+        "Ho Chi Minh City (T\u1ea7m Vu Park)",
+        "Ho Chi Minh City \u2192 Dubai, United Arab Emirates",
+        "Al Faqa (Al Faqa Desert)",
+        "Dubai (Dubai Frame)",
+        "Dubai (Burj Khalifa \u2013 Mission 828 or Dubai Garden Glow \u2013 Dinosaur Park)",
+        "Dubai (Soho Garden)",
+        "Dubai (Amwaj Tower 4)",
+        "Dubai (Dubai Marina)",
+        "At the start of this leg, teams were instructed to fly to Dubai in the United Arab Emirates. Once there, teams had to travel to a \"supercar tailgate party\". After sampling tea and dates, teams found their next clue inside a supercar, which directed them to the Dubai Frame.",
+        "This was a non-elimination leg."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Fall or Find. In Fall, teams had to travel to the Burj Khalifa and choose a jumpmaster, who took them up the building. There, teams had to don a virtual reality headset and use the controls to find a signal interceptor, climb to the top of a simulated spire, intercept a satellite, and parachute to the base of the building. After the jump, both team members had to correctly answer a series of test questions in order to receive their next clue. If they answered any questions incorrectly, they had to attempt the task again. In Find, teams had to travel to Dubai Garden Glow and don Tyrannosaurus rex costumes. They then had to search Dinosaur Park for five glowing colored dinosaur eggs and place them in a nest in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams found their next clue at the Soho Garden."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to enter a silent rave and find a party-goer dancing to the same music as the DJ (a dance remix of The Amazing Race theme), using only their sight, in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to go to the top of Amwaj Tower 4 and ride the world's longest urban zipline to the Pit Stop: the Dubai Marina."
+        }
+      ]
+    },
+    {
+      "leg_number": 6,
+      "route_header": "United Arab Emirates \u2192 Uganda",
+      "itinerary": [
+        "Episode 6: \"Who Wants a Rolex?\" (May 22, 2019)",
+        "Prize: A trip for two to Singapore (awarded to Tyler & Korey)",
+        "Eliminated: Janelle & Britney",
+        "Dubai (Dubai Marina)",
+        "Dubai \u2192 Kampala, Uganda",
+        "Kampala (Uganda National Mosque)",
+        "Kampala (Owino Market \u2013 Soweto Restaurant)",
+        "Kampala (Lake Victoria \u2013 Ggaba Landing Site)",
+        "Kampala (Jahazi Pier)",
+        "At the start of this leg, teams were instructed to fly to Kampala, Uganda. Once there, teams had to travel to the Uganda National Mosque and don customary clothing. Teams had to climb to the top of the mosque's minaret, counting the steps along the way. If they had the correct number, they received their next clue directing them to Soweto Restaurant in Owino Market.",
+        "In this season's only aired Head-to-Head, one member from each competing team had to solve a puzzle that consisted of four stacks of Ngoma drums. Team members had to move one drum at a time until each stack consisted of drums of the same color and grab an ox tail in order to win the Head-to-Head. The team that won the Head-to-Head could check in at the nearby Pit Stop, while the team that lost had to wait for the next team. The team that lost the final Head-to-Head was eliminated.",
+        "Legs 5 and 6 aired back-to-back."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Speed Bump",
+          "description": "For their Speed Bump, Rachel & Elissa had to hand-wash clothes and then hang them to dry before they could continue racing."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to find a vendor, who gave them a shopping list. They then had to purchase the ingredients on the list and properly prepare a rolex in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to travel to Ggaba Landing Site along Lake Victoria and find the village boat builders in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Salty Roll or Move the Pole. In Salty Roll, teams had to bring a wheelbarrow of Nile perch to a workstation. They then had to properly salt and roll the fish skin and had to wash, gut, and salt the meat in order to receive their next clue. In Move the Pole, teams had to load firewood from a canoe onto a bicycle and deliver the wood to a market. There, teams had to stack the wood to match a sample pile in order to receive their next clue."
+        }
+      ]
+    },
+    {
+      "leg_number": 7,
+      "route_header": "Uganda \u2192 Switzerland",
+      "itinerary": [
+        "Episode 7: \"Living Fearlessly\" (May 29, 2019)",
+        "Prize: A spa day during the Pit Stop (awarded to Tyler & Korey)",
+        "Kampala (Jahazi Pier)",
+        "Kampala (Equity Agency)",
+        "Kampala \u2192 Z\u00fcrich, Switzerland",
+        "Z\u00fcrich \u2192 Grindelwald",
+        "Grindelwald (Gletscherschlucht Glacier Gorge)",
+        "Grindelwald (Gletscherschlucht Glacier Gorge) \u2192 Guttannen (Grimsel Pass)",
+        "Guttannen (Gelmerbahn & Gelmersee or Grimsel Canyon)",
+        "Meiringen (Michaelskirche)",
+        "At the start of this leg, teams were instructed to fly to Z\u00fcrich, Switzerland, with teams required to book their flight at Equity Agency, and then travel by train to Grindelwald. Once there, teams had to travel on foot to the Gletscherschlucht Glacier Gorge.",
+        "This was a non-elimination leg."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member was harnessed to a canyon swing, and then performed a 400-foot (120 m) free-fall into the Gletscherschlucht. After the swing, they had to search the gorge for their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to travel by helicopter to the Grimsel Pass, where they found their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Water Power or Water Down. In Water Power, teams had to ride the Gelmerbahn. During the ride, teams had to study eight signs that identified reservoirs and the amount of water that each held. When their ride ended, teams had to match the eight reservoirs to their water capacities on a technical map in order to receive their next clue. If their map was incorrect, they had to ride the Gelmerbahn again. In Water Down, teams had to go canyoneering in the Grimsel Canyon. They had to rappel 150 feet (46 m) down a canyon, jump from a ledge into a glacial river, and then jump to grab their next clue hanging from a rope. After retrieving their clue, team members had to ride a zipline and then drop down into a river before hiking out of the canyon."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to drive to the Pit Stop: Michaelskirche in Meiringen."
+        }
+      ]
+    },
+    {
+      "leg_number": 8,
+      "route_header": "Switzerland",
+      "itinerary": [
+        "Episode 8: \"You're the Apple in My Eye\" (June 5, 2019)",
+        "Prize: A seven-night river cruise for two to Vietnam and Cambodia (awarded to Tyler & Korey)",
+        "Eliminated: Rachel & Elissa",
+        "Meiringen (Michaelskirche)",
+        "Hofstetten bei Brienz (Ballenberg Community Hall)",
+        "Hofstetten bei Brienz (Ballenberg Open Air Museum)",
+        "Schwanden bei Brienz (Oberschwanden)",
+        "Brienz (Grand Hotel Giessbach)",
+        "At the start of this leg, teams drove to the Ballenberg Community Hall, where Phil Keoghan informed them that they would be voting for two teams to be U-Turned on this leg. The vote was an open vote and the voting order was determined by a random draw. After the vote, teams found their next clue outside of the community hall.",
+        "Teams encountered a Live Double U-Turn Vote. The teams' votes, as well as the voting order, were as follows:"
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Speed Bump",
+          "description": "For their Speed Bump, Nicole & Victor had to fold the 26 Swiss canton flags in the Ballenberg Community Hall and place them in a basket before they could continue racing."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Haymaking or Cow Dressing. In Haymaking, one team member had to use a scythe to cut a lane of grass while their partner raked it. They then had to properly stack the grass so that it could dry into hay in order to receive their next clue. In Cow Dressing, teams had to use provided materials to re-create a floral headdress and place it on a cow's head. They then had to lead the cow to a festival in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams drove to Oberschwanden, which had their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to use a crossbow to shoot an apple off a scarecrow's head in order to receive their next clue. If team members struck the scarecrow, they had to reassemble it before taking another shot."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to drive to Lake Brienz. There, they had to pilot a motorboat across the lake to a marked pier. After disembarking, they could travel either by foot or by funicular to the Pit Stop: the Grand Hotel Giessbach."
+        },
+        {
+          "task_type": "Detour",
+          "description": "The Detour options on the teams' clues were listed as Haymaking and Cow Dressing; however, the graphics on the show listed the Detour options as Make Hay and Cow Festival."
+        }
+      ]
+    },
+    {
+      "leg_number": 9,
+      "route_header": "Switzerland \u2192 Croatia",
+      "itinerary": [
+        "Episode 9: \"Let's Split!\" (June 12, 2019)",
+        "Prize: A trip for two to Riviera Maya, Mexico (awarded to Tyler & Korey)",
+        "Eliminated: Chris & Bret",
+        "Meiringen (Michaelskirche)",
+        "Meiringen \u2192 Z\u00fcrich",
+        "Z\u00fcrich \u2192 Split, Croatia",
+        "Split (Ba\u010dvice Beach \u2013 Caffe Bar \u017dbirac)",
+        "Split (Marjan Cave Church)",
+        "Split (Ka\u0161juni Beach)",
+        "Split (Diocletian's Palace)",
+        "Split (Mateju\u0161ka Pier)",
+        "At the start of this leg, teams were instructed to travel by train to Z\u00fcrich and then fly to Split, Croatia. Once there, teams had to travel to Ba\u010dvice Beach, where each team member had to carry three glasses of punch from the Caffe Bar \u017dbirac to a group of sunbathers, who gave the teams a Travelocity Roaming Gnome that they had to keep with them for the remainder of the leg. After returning the trays to the bartender, teams received their next clue, which directed them to travel to the Marjan Cave Church and use a pulley system to deliver a loaf of bread to a monk in exchange for their next clue.",
+        "Ba\u010dvice Beach was misidentified on the show's graphics as Ka\u0161juni Beach, as Leo & Jamal instructed their taxi driver to take them to the Caffe \u017dbirac on Ba\u010dvice Beach, and Becca also instructed her taxi driver to take them to Ba\u010dvice Beach."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Poetry in Motion or Washed in from the Ocean. In Poetry in Motion, teams had to memorize a poem while riding a large flying tube being towed by a speedboat. After returning to shore, teams had to correctly recite the poem in order to receive their next clue. In Washed in from the Ocean, teams had to go snorkeling and use a metal detector to search the Adriatic Sea for a goblet and five coins, which they could exchange for their next clue after returning to shore. Though some teams did initially try Washed in from the Ocean, they all switched to Poetry in Motion."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams found their next clue at Diocletian's Palace."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to enter a Roman Senator's room and watch a troop of eighteen soldiers march in formation. After the soldiers covered themselves with shields, team members had to correctly identify the five soldiers wearing red ribbons around their helmets in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to board a dinghy and row themselves to the Pit Stop: Mateju\u0161ka Pier."
+        }
+      ]
+    },
+    {
+      "leg_number": 10,
+      "route_header": "Croatia \u2192 Netherlands",
+      "itinerary": [
+        "Episode 10: \"Chugga Chugga Choo Choo!\" (June 19, 2019)",
+        "Prize: US$7,500 each (awarded to Colin & Christie)",
+        "Eliminated: Becca & Floyd",
+        "Split (Mateju\u0161ka Pier)",
+        "Split (RIVA Travel)",
+        "Split \u2192 Amsterdam, Netherlands",
+        "Amsterdam \u2192 Kampen",
+        "Kampen (Kampen Railway Station \u2192 Jachthaven)",
+        "Kampen (Erf 34 & Nieuwe Toren or Erf 29 & Kampen Market)",
+        "Kampen (IJsselkade)",
+        "Kampen (Kampen Railway Station)",
+        "Giethoorn (Bovenwijde Lake Island)",
+        "At the start of this leg, teams were instructed to fly to Amsterdam, Netherlands, with teams required to book their flight at RIVA Travel, and then travel by train to Kampen. Outside the Kampen railway station, teams had to search a bicycle parking lot for a marked tandem bicycle, which they had to ride to the Jachthaven in order to find their next clue.",
+        "This leg featured a Double U-Turn. Leo & Jamal chose to use the U-Turn on Nicole & Victor, while Nicole & Victor chose to use the U-Turn on Becca & Floyd.",
+        "Producer Bertram van Munster appeared as the greeter of the leg as he is from Giethoorn. While he can be seen from his backside with Phil on the episode, for unknown reasons, his face was never shown in the episode."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between High or Dry. In High, teams had to ride their tandem bicycles to a farm and load a \"Kamper cow\" onto a trailer behind a tractor. They then had to follow the tractor on their bicycles to the Nieuwe Toren and hoist the cow to the top of the tower within 40 seconds. If they could raise the cow within the time limit, one team member had to climb to the top of the bell tower and receive their next clue. In Dry, teams had to bike to a farm, where both team members had to pole vault across an irrigation ditch \"the Dutch way\". They then had to bring two cheese orbs and a dozen eggs back across the ditch and transport them to the Kampen Market intact in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to travel by bicycle to the IJsselkade, where they found their next clue. Teams then had to return their bicycles to the railway station and drive themselves to Giethoorn. There, team had to board a boat and navigate the canals of Giethoorn in order to find two marked boats and create a \"boat train\". Teams then had to navigate their boats to the Pit Stop at the island on Bovenwijde Lake."
+        }
+      ]
+    },
+    {
+      "leg_number": 11,
+      "route_header": "Netherlands \u2192 England",
+      "itinerary": [
+        "Episode 11: \"This One is For One Million Dollars\" (June 26, 2019)",
+        "Eliminated: Nicole & Victor",
+        "Zwolle (De Koperen Hoogte)",
+        "Amsterdam \u2192 London, England",
+        "Charlwood (Gatwick Aviation Museum) \u2192 Dover (Dover Castle)",
+        "Dover (Dover Castle) \u2192 London (Falcon London Heliport)",
+        "London (Masthouse Terrace Pier \u2192 Savoy Pier)",
+        "London (Piccadilly Circus)",
+        "London (Kensington Road \u2013 Cabmen's Shelter or Hyde Park \u2013 The Serpentine)",
+        "London (Camden Market)",
+        "At the start of this leg, teams were instructed to fly to London, England. Once there, teams had to travel to the Gatwick Aviation Museum and board a helicopter that took them over the Seven Sisters before landing near Dover Castle, where they found their next clue."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to decipher a World War II code by listening to a speech by Neville Chamberlain. Team members then had to type the decoded message on an Underwood portable typewriter and deliver it to a brigadier outside the castle's barracks. If they gave him the correct message \u2013 \"The Dunkirk evacuation has begun. We will never surrender.\" \u2013 they received their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to return by helicopter to London. Once there, teams had to find their next clue at Masthouse Terrace Pier, which instructed them to travel by speedboat to Savoy Pier. After disembarking, teams had to go to Piccadilly Circus and find the golden queen, who gave them their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This season's final Detour was a choice between Know or Row. In Know, teams had to ride a taxicab and memorize the fifteen streets and seven landmarks that their driver identified during the route. When teams returned to the cabmen's shelter, they had to correctly recite their route in order to receive their next clue. In Row, teams had to row a double scull through a 200-metre (660 ft) course on The Serpentine in under one minute in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams traveled to Camden Market and found the Pit Stop, where Phil Keoghan surprised them with another clue. Teams had to search nearby shops for the marked items in a display and use those items to recreate the display before they could check in at the Pit Stop."
+        }
+      ]
+    },
+    {
+      "leg_number": 12,
+      "route_header": "England \u2192 United States",
+      "itinerary": [
+        "Episode 11: \"This One is For One Million Dollars\" (June 26, 2019)",
+        "Prize: US$1,000,000",
+        "Winners: Colin & Christie",
+        "Runners-up: Tyler & Korey",
+        "Third place: Leo & Jamal",
+        "London (Camden Market)",
+        "London \u2192 Detroit, Michigan",
+        "Detroit (The Spirit of Detroit)",
+        "Detroit (Guardian Building)",
+        "Hamtramck (Fowling Warehouse)",
+        "Detroit (Heidelberg Project) (Unaired)",
+        "Detroit (Third Man Records)",
+        "Detroit (Hart Plaza)",
+        "Detroit (Fort Wayne)",
+        "At the start of this leg, teams were instructed to fly to Detroit, Michigan. Once there, teams found their next clue at The Spirit of Detroit.",
+        "At Third Man Records, teams had to properly press five two-tone vinyl records using Amazing Race colors in order to receive their next clue, which directed them to Hart Plaza. There, teams had to search amongst a group of Rockin' 1000 musicians to find their next clue atop a drum. Teams then had to assemble a five-piece drum kit that precisely matched an example while the musicians played The White Stripes' single \"Seven Nation Army\" before receiving their final clue, which directed them to the finish line: Fort Wayne.",
+        "After leaving the Fowling Warehouse, teams had to travel to the Heidelberg Project and search through a field of Amazing Race clue boxes scattered throughout the outdoor art installation for one which contained their next clue. This task was unaired.",
+        "Legs 11 and 12 aired back-to-back as a special two-hour episode."
+      ],
+      "narrative": "",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this season's final Roadblock, one team member had to rappel face-first 500 feet (150 m) down the Guardian Building. On the way down, they had to look for a series of numbers that they needed to unlock a bank vault in the basement of the building in order to retrieve their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to travel to the Fowling Warehouse and play a game of fowling, which required each team member to throw a football and knock down bowling pins in order to receive their next clue."
+        }
+      ]
+    }
+  ]
+}

@@ -41,7 +41,9 @@ class FandomScraper:
         self.raw_dir = Path(raw_dir)
         self.raw_dir.mkdir(parents=True, exist_ok=True)
         self.client = httpx.Client(
-            headers={"User-Agent": "TheAmazingRaceDataset/1.0 (https://github.com/nicholaswilde/the-amazing-race)"},
+            headers={
+                "User-Agent": "TheAmazingRaceDataset/1.0 (https://github.com/nicholaswilde/the-amazing-race)"
+            },
             timeout=30.0,
         )
 
@@ -104,9 +106,15 @@ class FandomScraper:
 
         return info
 
-    def scrape_season(self, season: int, version: str = "US", save: bool = True) -> dict[str, Any]:
+    def scrape_season(
+        self, season: int, version: str = "US", save: bool = True
+    ) -> dict[str, Any]:
         """Scrape season from Fandom wiki."""
-        title = f"The_Amazing_Race_{season}" if version.upper() == "US" else f"The_Amazing_Race_Canada_{season}"
+        title = (
+            f"The_Amazing_Race_{season}"
+            if version.upper() == "US"
+            else f"The_Amazing_Race_Canada_{season}"
+        )
         logger.info("Scraping Fandom: %s", title)
 
         wikitext = self.fetch_page_wikitext(title)
