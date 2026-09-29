@@ -128,7 +128,7 @@ For AI agents operating in this workspace, modular skills are available in `.age
 
 ---
 
-## Running Tests
+## :runner: Running Tests
 
 Run the test suite with `pytest`:
 ```bash
