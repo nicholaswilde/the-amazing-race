@@ -1,0 +1,45 @@
+version,season,contestant_id,name,age,relationship,hometown,status
+US,1,US-S01-01,Matt Robar,28,Married,"Simsbury, Connecticut","Eliminated 1st (in Songwe Village, Zambia )"
+US,1,US-S01-02,Ana Robar,28,Married,"Simsbury, Connecticut","Eliminated 1st (in Songwe Village, Zambia )"
+US,1,US-S01-03,Kim Smith,28,Teachers & Roommates,"Baytown, Texas","Eliminated 2nd (in Paris, France)"
+US,1,US-S01-04,Leslie Kellner,27,Teachers & Roommates,"Baytown, Texas","Eliminated 2nd (in Paris, France)"
+US,1,US-S01-05,Pat Pierce,43,Working Moms,"Landenberg, Pennsylvania","Eliminated 3rd (in Les Baux-de-Provence, France )"
+US,1,US-S01-06,Brenda Mehta,42,Working Moms,"Elkton, Maryland","Eliminated 3rd (in Les Baux-de-Provence, France )"
+US,1,US-S01-07,Dave Groark,65,Grandparents,"Rockwall, Texas","Eliminated 4th (in El Djem, Tunisia )"
+US,1,US-S01-08,Margaretta Groark,60,Grandparents,"Rockwall, Texas","Eliminated 4th (in El Djem, Tunisia )"
+US,1,US-S01-09,Paul Alessi,32,Engaged,"Los Angeles, California","Eliminated 5th (in Jebil National Park, Tunisia )"
+US,1,US-S01-10,Amie Barsky,27,Engaged,"Los Angeles, California","Eliminated 5th (in Jebil National Park, Tunisia )"
+US,1,US-S01-11,Lenny Hudson,33,Dating,"New York City, New York","Eliminated 6th (in Agra , India)"
+US,1,US-S01-12,Karyn Jefferson,30,Dating,"New York City, New York","Eliminated 6th (in Agra , India)"
+US,1,US-S01-13,Nancy Hoyt,46,Mother & Daughter,"Waco, Texas","Eliminated 7th (in Krabi , Thailand)"
+US,1,US-S01-14,Emily Hoyt,21,Mother & Daughter,"Waco, Texas","Eliminated 7th (in Krabi , Thailand)"
+US,1,US-S01-15,Kevin O'Connor,34,Fraternity Brothers,"Bayonne, New Jersey","Eliminated 8th (in Beijing, China)"
+US,1,US-S01-16,Drew Feinberg,35,Fraternity Brothers,"Staten Island, New York","Eliminated 8th (in Beijing, China)"
+US,1,US-S01-17,Joe Baldassare,50,Life Partners,"Laguna Niguel, California",Third place
+US,1,US-S01-18,Bill Bartek,47,Life Partners,"Laguna Niguel, California",Third place
+US,1,US-S01-19,Frank Mesa,30,Separated Parents,"Queens, New York",Runners-up
+US,1,US-S01-20,Margarita Mesa,28,Separated Parents,"Queens, New York",Runners-up
+US,1,US-S01-21,Rob Frisbee,27,Lawyers & Best Friends,"Minneapolis, Minnesota",Winners
+US,1,US-S01-22,Brennan Swain,29,Lawyers & Best Friends,"Rochester, New York",Winners
+US,2,US-S02-01,Deidre Washington,51,Mother & Daughter,"Miami, Florida","Eliminated 1st (in Rio de Janeiro, Brazil )"
+US,2,US-S02-02,Hillary Washington,23,Mother & Daughter,"Brooklyn, New York","Eliminated 1st (in Rio de Janeiro, Brazil )"
+US,2,US-S02-03,Hope Davis,38,Married Parents,"Clinton, Tennessee","Eliminated 2nd (in Iguaçu National Park, Brazil )"
+US,2,US-S02-04,Norm Davis,39,Married Parents,"Clinton, Tennessee","Eliminated 2nd (in Iguaçu National Park, Brazil )"
+US,2,US-S02-05,Peggy Kuhn,63,Grandmothers,"Truckee, California","Eliminated 3rd (in Stellenbosch, South Africa )"
+US,2,US-S02-06,Claire Jinks,65,Grandmothers,"Los Gatos, California","Eliminated 3rd (in Stellenbosch, South Africa )"
+US,2,US-S02-07,Shola Richards,27,Twins,"Albany, New York","Eliminated 4th (in Khomas Region, Namibia )"
+US,2,US-S02-08,Doyin Richards,27,Twins,"Albany, New York","Eliminated 4th (in Khomas Region, Namibia )"
+US,2,US-S02-09,Cyndi Kalenberg,45,Pastors & Married Parents,"Brainerd, Minnesota","Eliminated 5th (in Amphawa, Thailand )"
+US,2,US-S02-10,Russell Kalenberg,46,Pastors & Married Parents,"Brainerd, Minnesota","Eliminated 5th (in Amphawa, Thailand )"
+US,2,US-S02-11,Mary Lenig,38,Sisters,"Sunbury, Pennsylvania",Eliminated 6th (in Hong Kong )
+US,2,US-S02-12,Peach Krebs,33,Sisters,"Paxinos, Pennsylvania",Eliminated 6th (in Hong Kong )
+US,2,US-S02-13,Gary Rosen,33,Former Roommates,"New York City, New York","Eliminated 7th (in Breakaways National Park, Australia )"
+US,2,US-S02-14,Dave Lepeska,28,Former Roommates,"Brooklyn, New York","Eliminated 7th (in Breakaways National Park, Australia )"
+US,2,US-S02-15,Oswald Mendez,31,Best Friends,"Miami, Florida","Eliminated 8th (in Auckland, New Zealand )"
+US,2,US-S02-16,Danny Jimenez,36,Best Friends,"Miami, Florida","Eliminated 8th (in Auckland, New Zealand )"
+US,2,US-S02-17,Blake Mycoskie,25,Brother & Sister,"Nashville, Tennessee",Third place
+US,2,US-S02-18,Paige Mycoskie,21,Brother & Sister,"Arlington, Texas",Third place
+US,2,US-S02-19,Tara Lynch,31,Separated Couple,"Los Angeles, California",Runners-up
+US,2,US-S02-20,Wil Steger,37,Separated Couple,"Los Angeles, California",Runners-up
+US,2,US-S02-21,Chris Luca,25,Lifelong Friends,"Boston, Massachusetts",Winners
+US,2,US-S02-22,Alex Boylan,24,Lifelong Friends,"Boston, Massachusetts",Winners

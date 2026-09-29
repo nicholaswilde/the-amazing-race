@@ -1,0 +1,163 @@
+version,season,leg_number,team_name,placement,raw_cell,is_non_elimination,fast_forward,uturn,yield,speed_bump
+US,1,1,Rob & Brennan,1,1st ƒ,False,True,False,False,False
+US,1,2,Rob & Brennan,3,3rd,False,False,False,False,False
+US,1,3,Rob & Brennan,3,3rd,False,False,False,False,False
+US,1,4,Rob & Brennan,6,6th,False,False,False,False,False
+US,1,5,Rob & Brennan,4,4th,False,False,False,False,False
+US,1,6,Rob & Brennan,3,3rd,False,False,False,False,False
+US,1,7,Rob & Brennan,3,3rd,False,False,False,False,False
+US,1,8,Rob & Brennan,3,3rd,False,False,False,False,False
+US,1,9,Rob & Brennan,1,1st,False,False,False,False,False
+US,1,10,Rob & Brennan,1,1st,False,False,False,False,False
+US,1,11,Rob & Brennan,2,2nd,False,False,False,False,False
+US,1,12,Rob & Brennan,1,1st,False,False,False,False,False
+US,1,13,Rob & Brennan,1,1st,False,False,False,False,False
+US,1,1,Frank & Margarita,3,3rd,False,False,False,False,False
+US,1,2,Frank & Margarita,4,4th,False,False,False,False,False
+US,1,3,Frank & Margarita,2,2nd,False,False,False,False,False
+US,1,4,Frank & Margarita,5,5th,False,False,False,False,False
+US,1,5,Frank & Margarita,5,5th,False,False,False,False,False
+US,1,6,Frank & Margarita,1,1st,False,False,False,False,False
+US,1,7,Frank & Margarita,1,1st ƒ,False,True,False,False,False
+US,1,8,Frank & Margarita,2,2nd,False,False,False,False,False
+US,1,9,Frank & Margarita,2,2nd,False,False,False,False,False
+US,1,10,Frank & Margarita,2,2nd,False,False,False,False,False
+US,1,11,Frank & Margarita,1,1st,False,False,False,False,False
+US,1,12,Frank & Margarita,2,2nd,False,False,False,False,False
+US,1,13,Frank & Margarita,2,2nd,False,False,False,False,False
+US,1,1,Joe & Bill,2,2nd,False,False,False,False,False
+US,1,2,Joe & Bill,2,2nd,False,False,False,False,False
+US,1,3,Joe & Bill,4,4th,False,False,False,False,False
+US,1,4,Joe & Bill,1,1st,False,False,False,False,False
+US,1,5,Joe & Bill,2,2nd,False,False,False,False,False
+US,1,6,Joe & Bill,2,2nd,False,False,False,False,False
+US,1,7,Joe & Bill,2,2nd,False,False,False,False,False
+US,1,8,Joe & Bill,4,4th,False,False,False,False,False
+US,1,9,Joe & Bill,4,4th ƒ,False,True,False,False,False
+US,1,10,Joe & Bill,4,4th ‡,False,False,False,False,False
+US,1,11,Joe & Bill,3,3rd,False,False,False,False,False
+US,1,12,Joe & Bill,3,3rd ‡,False,False,False,False,False
+US,1,13,Joe & Bill,3,3rd,False,False,False,False,False
+US,1,1,Kevin & Drew,9,9th,False,False,False,False,False
+US,1,2,Kevin & Drew,5,5th,False,False,False,False,False
+US,1,3,Kevin & Drew,1,1st ƒ,False,True,False,False,False
+US,1,4,Kevin & Drew,2,2nd,False,False,False,False,False
+US,1,5,Kevin & Drew,1,1st,False,False,False,False,False
+US,1,6,Kevin & Drew,4,4th,False,False,False,False,False
+US,1,7,Kevin & Drew,4,4th,False,False,False,False,False
+US,1,8,Kevin & Drew,1,1st,False,False,False,False,False
+US,1,9,Kevin & Drew,3,3rd,False,False,False,False,False
+US,1,10,Kevin & Drew,3,3rd,False,False,False,False,False
+US,1,11,Kevin & Drew,4,4th †,False,False,False,False,False
+US,1,1,Nancy & Emily,10,10th,False,False,False,False,False
+US,1,2,Nancy & Emily,7,7th,False,False,False,False,False
+US,1,3,Nancy & Emily,8,8th,False,False,False,False,False
+US,1,4,Nancy & Emily,3,3rd,False,False,False,False,False
+US,1,5,Nancy & Emily,3,3rd,False,False,False,False,False
+US,1,6,Nancy & Emily,5,5th,False,False,False,False,False
+US,1,7,Nancy & Emily,5,5th,False,False,False,False,False
+US,1,8,Nancy & Emily,5,5th ‡,False,False,False,False,False
+US,1,9,Nancy & Emily,5,5th †,False,False,False,False,False
+US,1,1,Lenny & Karyn,4,4th,False,False,False,False,False
+US,1,2,Lenny & Karyn,9,9th,False,False,False,False,False
+US,1,3,Lenny & Karyn,7,7th,False,False,False,False,False
+US,1,4,Lenny & Karyn,7,7th,False,False,False,False,False
+US,1,5,Lenny & Karyn,6,6th,False,False,False,False,False
+US,1,6,Lenny & Karyn,6,6th ‡,False,False,False,False,False
+US,1,7,Lenny & Karyn,6,6th †,False,False,False,False,False
+US,1,1,Paul & Amie,7,7th,False,False,False,False,False
+US,1,2,Paul & Amie,6,6th,False,False,False,False,False
+US,1,3,Paul & Amie,6,6th,False,False,False,False,False
+US,1,4,Paul & Amie,4,4th,False,False,False,False,False
+US,1,5,Paul & Amie,7,7th †,False,False,False,False,False
+US,1,1,Dave & Margaretta,8,8th,False,False,False,False,False
+US,1,2,Dave & Margaretta,8,8th,False,False,False,False,False
+US,1,3,Dave & Margaretta,5,5th,False,False,False,False,False
+US,1,4,Dave & Margaretta,8,8th †,False,False,False,False,False
+US,1,1,Pat & Brenda,5,5th,False,False,False,False,False
+US,1,2,Pat & Brenda,1,1st ƒ,False,True,False,False,False
+US,1,3,Pat & Brenda,9,9th †,False,False,False,False,False
+US,1,1,Kim & Leslie,6,6th,False,False,False,False,False
+US,1,2,Kim & Leslie,10,10th †,False,False,False,False,False
+US,1,1,Matt & Ana,11,11th †,False,False,False,False,False
+US,2,1,Chris & Alex,6,6th,False,False,False,False,False
+US,2,2,Chris & Alex,2,2nd,False,False,False,False,False
+US,2,3,Chris & Alex,7,7th,False,False,False,False,False
+US,2,4,Chris & Alex,7,7th,False,False,False,False,False
+US,2,5,Chris & Alex,1,1st,False,False,False,False,False
+US,2,6,Chris & Alex,6,6th ‡,False,False,False,False,False
+US,2,7,Chris & Alex,2,2nd,False,False,False,False,False
+US,2,8,Chris & Alex,2,2nd,False,False,False,False,False
+US,2,9,Chris & Alex,1,1st ƒ,False,True,False,False,False
+US,2,10,Chris & Alex,3,3rd,False,False,False,False,False
+US,2,11,Chris & Alex,3,3rd,False,False,False,False,False
+US,2,12,Chris & Alex,3,3rd ‡,False,False,False,False,False
+US,2,13,Chris & Alex,1,1st,False,False,False,False,False
+US,2,1,Tara & Wil,1,1st,False,False,False,False,False
+US,2,2,Tara & Wil,3,3rd,False,False,False,False,False
+US,2,3,Tara & Wil,2,2nd,False,False,False,False,False
+US,2,4,Tara & Wil,2,2nd,False,False,False,False,False
+US,2,5,Tara & Wil,3,3rd,False,False,False,False,False
+US,2,6,Tara & Wil,5,5th,False,False,False,False,False
+US,2,7,Tara & Wil,3,3rd,False,False,False,False,False
+US,2,8,Tara & Wil,4,4th,False,False,False,False,False
+US,2,9,Tara & Wil,3,3rd,False,False,False,False,False
+US,2,10,Tara & Wil,2,2nd,False,False,False,False,False
+US,2,11,Tara & Wil,1,1st ƒ,False,True,False,False,False
+US,2,12,Tara & Wil,1,1st,False,False,False,False,False
+US,2,13,Tara & Wil,2,2nd,False,False,False,False,False
+US,2,1,Blake & Paige,4,4th,False,False,False,False,False
+US,2,2,Blake & Paige,9,9th,False,False,False,False,False
+US,2,3,Blake & Paige,5,5th,False,False,False,False,False
+US,2,4,Blake & Paige,4,4th,False,False,False,False,False
+US,2,5,Blake & Paige,4,4th,False,False,False,False,False
+US,2,6,Blake & Paige,3,3rd,False,False,False,False,False
+US,2,7,Blake & Paige,5,5th,False,False,False,False,False
+US,2,8,Blake & Paige,5,5th ‡,False,False,False,False,False
+US,2,9,Blake & Paige,2,2nd,False,False,False,False,False
+US,2,10,Blake & Paige,1,1st ƒ,False,True,False,False,False
+US,2,11,Blake & Paige,2,2nd,False,False,False,False,False
+US,2,12,Blake & Paige,1,1st,False,False,False,False,False
+US,2,13,Blake & Paige,3,3rd,False,False,False,False,False
+US,2,1,Oswald & Danny,8,8th,False,False,False,False,False
+US,2,2,Oswald & Danny,7,7th,False,False,False,False,False
+US,2,3,Oswald & Danny,1,1st,False,False,False,False,False
+US,2,4,Oswald & Danny,1,1st ƒ,False,True,False,False,False
+US,2,5,Oswald & Danny,6,6th,False,False,False,False,False
+US,2,6,Oswald & Danny,4,4th,False,False,False,False,False
+US,2,7,Oswald & Danny,4,4th,False,False,False,False,False
+US,2,8,Oswald & Danny,1,1st,False,False,False,False,False
+US,2,9,Oswald & Danny,4,4th,False,False,False,False,False
+US,2,10,Oswald & Danny,4,4th ‡,False,False,False,False,False
+US,2,11,Oswald & Danny,4,4th †,False,False,False,False,False
+US,2,1,Gary & Dave,9,9th,False,False,False,False,False
+US,2,2,Gary & Dave,5,5th,False,False,False,False,False
+US,2,3,Gary & Dave,3,3rd,False,False,False,False,False
+US,2,4,Gary & Dave,3,3rd,False,False,False,False,False
+US,2,5,Gary & Dave,5,5th,False,False,False,False,False
+US,2,6,Gary & Dave,2,2nd,False,False,False,False,False
+US,2,7,Gary & Dave,1,1st ƒ,False,True,False,False,False
+US,2,8,Gary & Dave,3,3rd,False,False,False,False,False
+US,2,9,Gary & Dave,5,5th †,False,False,False,False,False
+US,2,1,Mary & Peach,7,7th,False,False,False,False,False
+US,2,2,Mary & Peach,4,4th,False,False,False,False,False
+US,2,3,Mary & Peach,4,4th,False,False,False,False,False
+US,2,4,Mary & Peach,5,5th,False,False,False,False,False
+US,2,5,Mary & Peach,2,2nd,False,False,False,False,False
+US,2,6,Mary & Peach,1,1st,False,False,False,False,False
+US,2,7,Mary & Peach,6,6th †,False,False,False,False,False
+US,2,1,Cyndi & Russell,2,2nd,False,False,False,False,False
+US,2,2,Cyndi & Russell,6,6th,False,False,False,False,False
+US,2,3,Cyndi & Russell,8,8th,False,False,False,False,False
+US,2,4,Cyndi & Russell,6,6th,False,False,False,False,False
+US,2,5,Cyndi & Russell,7,7th †,False,False,False,False,False
+US,2,1,Shola & Doyin,3,3rd,False,False,False,False,False
+US,2,2,Shola & Doyin,1,1st ƒ,False,True,False,False,False
+US,2,3,Shola & Doyin,5,5th,False,False,False,False,False
+US,2,4,Shola & Doyin,8,8th †,False,False,False,False,False
+US,2,1,Peggy & Claire,10,10th,False,False,False,False,False
+US,2,2,Peggy & Claire,8,8th,False,False,False,False,False
+US,2,3,Peggy & Claire,9,9th †,False,False,False,False,False
+US,2,1,Hope & Norm,4,4th,False,False,False,False,False
+US,2,2,Hope & Norm,10,10th †,False,False,False,False,False
+US,2,1,Deidre & Hillary,11,11th †,False,False,False,False,False

@@ -1,0 +1,23 @@
+version,season,team_id,team_name,relationship,hometown,result,status,legs_won,legs_completed
+US,1,US-S01-rob-brennan,Rob & Brennan,Lawyers & Best Friends,"Minneapolis, Minnesota",1,Winner,5,13
+US,1,US-S01-frank-margarita,Frank & Margarita,Separated Parents,"Queens, New York",2,Runner-up,3,13
+US,1,US-S01-joe-bill,Joe & Bill,Life Partners,"Laguna Niguel, California",3,Runner-up,1,13
+US,1,US-S01-kevin-drew,Kevin & Drew,Fraternity Brothers,"Bayonne, New Jersey",4,Eliminated,3,11
+US,1,US-S01-nancy-emily,Nancy & Emily,Mother & Daughter,"Waco, Texas",5,Eliminated,0,9
+US,1,US-S01-lenny-karyn,Lenny & Karyn,Dating,"New York City, New York",6,Eliminated,0,7
+US,1,US-S01-paul-amie,Paul & Amie,Engaged,"Los Angeles, California",7,Eliminated,0,5
+US,1,US-S01-dave-margaretta,Dave & Margaretta,Grandparents,"Rockwall, Texas",8,Eliminated,0,4
+US,1,US-S01-pat-brenda,Pat & Brenda,Working Moms,"Landenberg, Pennsylvania",9,Eliminated,1,3
+US,1,US-S01-kim-leslie,Kim & Leslie,Teachers & Roommates,"Baytown, Texas",10,Eliminated,0,2
+US,1,US-S01-matt-ana,Matt & Ana,Married,"Simsbury, Connecticut",11,Eliminated,0,1
+US,2,US-S02-chris-alex,Chris & Alex,Lifelong Friends,"Boston, Massachusetts",1,Winner,3,13
+US,2,US-S02-tara-wil,Tara & Wil,Separated Couple,"Los Angeles, California",2,Runner-up,3,13
+US,2,US-S02-blake-paige,Blake & Paige,Brother & Sister,"Nashville, Tennessee",3,Runner-up,2,13
+US,2,US-S02-oswald-danny,Oswald & Danny,Best Friends,"Miami, Florida",4,Eliminated,3,11
+US,2,US-S02-gary-dave,Gary & Dave,Former Roommates,"New York City, New York",5,Eliminated,1,9
+US,2,US-S02-mary-peach,Mary & Peach,Sisters,"Sunbury, Pennsylvania",6,Eliminated,1,7
+US,2,US-S02-cyndi-russell,Cyndi & Russell,Pastors & Married Parents,"Brainerd, Minnesota",7,Eliminated,0,5
+US,2,US-S02-shola-doyin,Shola & Doyin,Twins,"Albany, New York",8,Eliminated,1,4
+US,2,US-S02-peggy-claire,Peggy & Claire,Grandmothers,"Truckee, California",9,Eliminated,0,3
+US,2,US-S02-hope-norm,Hope & Norm,Married Parents,"Clinton, Tennessee",10,Eliminated,0,2
+US,2,US-S02-deidre-hillary,Deidre & Hillary,Mother & Daughter,"Miami, Florida",11,Eliminated,0,1

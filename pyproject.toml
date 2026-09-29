@@ -1,1 +1,43 @@
- 
+[project]
+name = "the-amazing-race"
+version = "0.1.0"
+description = "A comprehensive tidy dataset and AI training corpus for the TV show The Amazing Race"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "httpx>=0.27.0",
+    "lxml>=5.2.0",
+    "pandas>=2.2.2",
+    "pyarrow>=16.0.0",
+    "pydantic>=2.7.0",
+    "rich>=13.7.0",
+    "tqdm>=4.66.0",
+    "typer>=0.12.0",
+]
+
+[project.optional-dependencies]
+reddit = [
+    "praw>=7.7.1",
+]
+sheets = [
+    "gspread>=6.1.0",
+]
+dev = [
+    "pytest>=8.2.0",
+    "ruff>=0.4.0",
+]
+
+[project.scripts]
+tar-dataset = "tar_dataset.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tar_dataset"]
+
+[tool.ruff.lint]
+ignore = ["BLE001"]

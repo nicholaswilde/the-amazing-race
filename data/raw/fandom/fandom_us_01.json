@@ -1,0 +1,17 @@
+{
+  "version": "US",
+  "season": 1,
+  "fandom_title": "The_Amazing_Race_1",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_1",
+  "infobox": {
+    "continents_visited": 4,
+    "countries_visited": 9,
+    "cities_visited": 24,
+    "distance_str": "35,000 mi (56,000 km)",
+    "starting_line": "Bethesda Terrace and Fountain|Bethesda Fountain, New York (state)|New York",
+    "finish_line": "Flushing Meadows Park \u2013 , New York City, New York",
+    "filming_dates": "March 8, 2001 \u2013 April 8, 2001",
+    "runners_up": "Frank & Margarita<br />Joe & Bill"
+  },
+  "wikitext_length": 20883
+}
