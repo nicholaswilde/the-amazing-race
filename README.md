@@ -7,7 +7,7 @@ Inspired by [doehm/alone](https://github.com/doehm/alone), this repository provi
 
 ---
 
-## Architecture & Dataset Schema
+## :card_index_dividers: Architecture & Dataset Schema
 
 The dataset is partitioned into clean relational tables adhering to tidy data principles:
 
