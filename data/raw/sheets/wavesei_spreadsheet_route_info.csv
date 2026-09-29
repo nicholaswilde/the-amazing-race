@@ -1,0 +1,1716 @@
+unnamed_0,unnamed_1,unnamed_2,unnamed_3,unnamed_4,unnamed_5,unnamed_6,unnamed_7,unnamed_8,unnamed_9,unnamed_10,unnamed_11,unnamed_12,unnamed_13,unnamed_14,unnamed_15,unnamed_16,unnamed_17,unnamed_18,unnamed_19,unnamed_20,unnamed_21,unnamed_22,unnamed_23,unnamed_24,unnamed_25,unnamed_26,unnamed_27,unnamed_28,unnamed_29,unnamed_30,unnamed_31,unnamed_32,unnamed_33,unnamed_34,unnamed_35,unnamed_36,unnamed_37,unnamed_38,unnamed_39,unnamed_40,unnamed_41,unnamed_42,unnamed_43,unnamed_44
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Infos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Route Information clues are any clues that require both teams to work together in the same task. 
+Normally, this clue means traveling to the next destination, but occasionally this clue will have teams work together in a challenge 
+that all teams must perform, similar to a Detour but with no choices.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Number of Route Infos per Season,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,NOTE: This does not include challenges that teams did without ripping and reading a clue.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season #,Route Info,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 1,41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 2,58,,,,,,,,,,,,,,Season #,Route_Info,Season #,Route_Info,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 3,56,,,,,,,,,,,,,,Season 1,41,Season 5,62,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 4,58,,,,,,,,,,,,,,Season 2,58,Season 6,66,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 5,62,,,,,,,,,,,,,,Season 3,56,Season 8,66,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 6,66,,,,,,,,,,,,,,Season 4,58,Season 37,67,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 7,56,,,,,,,,,,,,,,Season 5,62,Season 38,64,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 8,66,,,,,,,,,,,,,,Season 6,66,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 9,56,,,,,,,,,,,,,,Season 7,56,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 10,52,,,,,,,,,,,,,,Season 8,66,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 11,50,,,,,,,,,,,,,,Season 9,56,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 12,49,,,,,,,,,,,,,,Season 10,52,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 13,48,,,,,,,,,,,,,,Season 11,50,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 14,46,,,,,,,,,,,,,,Season 12,49,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 15,51,,,,,,,,,,,,,,Season 13,48,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 16,54,,,,,,,,,,,,,,Season 14,46,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 17,54,,,,,,,,,,,,,,Season 15,51,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 18,56,,,,,,,,,,,,,,Season 16,54,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 19,55,,,,,,,,,,,,,,Season 17,54,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 20,48,,,,,,,,,,,,,,Season 18,56,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 21,50,,,,,,,,,,,,,,Season 19,55,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 22,51,,,,,,,,,,,,,,Season 20,48,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 23,52,,,,,,,,,,,,,,Season 21,50,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 24,53,,,,,,,,,,,,,,Season 22,51,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 25,56,,,,,,,,,,,,,,Season 23,52,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 26,49,,,,,,,,,,,,,,Season 24,53,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 27,47,,,,,,,,,,,,,,Season 25,56,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 28,52,,,,,,,,,,,,,,Season 26,49,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 29,54,,,,,,,,,,,,,,Season 27,47,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 30,49,,,,,,,,,,,,,,Season 28,52,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 31,53,,,,,,,,,,,,,,Season 29,54,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 32,53,,,,,,,,,,,,,,Season 30,49,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 33,43,,,,,,,,,,,,,,Season 31,53,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 34,39,,,,,,,,,,,,,,Season 32,53,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 35,57,,,,,,,,,,,,,,Season 33,43,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 36,45,,,,,,,,,,,,,,Season 34,39,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 37,67,,,,,,,,,,,,,,Season 35,57,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 38,64,,,,,,,,,,,,,,Season 36,45,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Total,2016,,,,,,,,,,,,,,Season 37,67,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Average,53.05263157894737,,,,,,,,,,,,,,Season 38,64,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Standard 
+Deviation",6.513799772960411,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Max,67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Min,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Mode,56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info Breakdown - Types of Transportation/Team Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Explanation of Tables:
+""Challenges"" involve any part of the Route Info that is not actively traveling somewhere or picking up the clue from a club box. Some Route Info clues are only comprised of Challenges, which I included as the second column below.
+""Flights"", ""Buses"", ""Taxis"", ""Boats"", ""Driving"", ""Bikes"" are all exactly how they appear.
+""Running"" includes specific verbage in the clue for teams to travel through physical strength, such as hiking or swimming. All route infos include some form of running, this indicator is for that specific verbage.
+""Animals"" include riding on top of an animal to reach a destination away from the start point. Leading an animal is a challenge.
+""Random Rides"" are any form of transport not mentioned above, such as ziplines and gondolas.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,# of: ,Challenges,Only Challenges,Flights,Taxis,Driving,Trains,Boats,Buses,Bikes,Random Rides,Running,Animals,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 1,4,2,9,24,4,3,5,1,0,5,5,1,63,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 2,5,0,11,28,24,1,9,2,0,2,7,0,89,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 3,11,0,10,27,20,10,6,4,1,1,6,0,96,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 4,9,1,9,26,20,5,3,1,2,3,3,0,82,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 5,13,7,13,29,12,2,8,3,0,5,5,0,97,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 6,12,4,12,35,18,8,3,4,2,3,6,0,107,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 7,9,1,12,33,19,3,2,2,0,2,2,0,85,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 8,13,4,4,11,44,0,5,2,0,2,4,0,89,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 9,2,1,12,26,25,3,6,2,1,2,5,0,85,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 10,7,2,12,22,19,11,2,4,0,0,3,2,84,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 11,4,1,14,29,16,4,3,1,0,1,5,0,78,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 12,10,3,8,25,11,2,2,2,2,2,8,0,75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 13,10,4,9,35,7,0,1,0,0,2,4,0,72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 14,9,3,10,28,6,4,1,0,1,1,3,0,66,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 15,17,7,6,29,7,0,1,1,1,1,7,0,77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 16,15,4,6,24,13,2,4,4,1,5,6,0,84,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 17,15,4,9,33,13,1,4,1,0,2,4,0,86,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 18,12,7,9,31,9,5,2,2,1,1,2,0,81,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 19,17,7,7,26,12,3,3,2,1,0,3,1,82,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 20,9,3,10,29,11,2,2,2,0,2,3,0,73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 21,14,3,8,32,7,2,3,0,0,1,2,0,72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 22,14,3,9,22,15,4,7,0,0,0,5,0,79,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 23,14,5,9,28,7,1,6,1,0,2,5,0,78,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 24,21,4,9,33,10,4,0,0,0,2,5,0,88,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 25,22,7,7,27,10,2,2,0,0,3,7,1,88,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 26,13,4,9,29,8,1,1,0,1,1,4,0,71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 27,10,4,8,34,1,4,2,1,0,2,2,0,68,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 28,8,5,8,39,3,1,0,0,0,2,5,0,71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 29,22,6,8,35,8,0,6,1,2,1,1,0,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 30,24,13,9,25,10,1,1,0,0,0,2,0,85,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 31,17,9,10,28,4,2,3,0,2,6,1,0,82,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 32,27,10,10,33,2,1,4,0,0,1,4,0,92,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 33,16,6,1,9,19,1,1,1,0,0,6,0,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 34,10,7,0,3,18,0,0,0,1,0,10,0,49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 35,17,5,8,27,19,1,4,2,0,2,9,0,94,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 36,3,3,0,12,21,0,1,0,0,0,9,0,49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 37,16,11,9,28,17,2,4,0,0,2,11,0,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 38,20,11,6,22,15,3,0,0,2,0,13,0,92,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Total,491,181,320,1016,504,99,117,46,21,67,192,5,3059,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Average,12.63888888888889,4.416666666666667,8.472222222222221,26.833333333333332,13.11111111111111,2.611111111111111,3.138888888888889,1.2777777777777777,0.5277777777777778,1.8055555555555556,4.666666666666667,0.1388888888888889,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Standard 
+Deviation",5.9433169083446895,2.8422827847649903,3.2025535446498323,7.658795130902958,8.311017739905015,2.632519464345654,2.3071661996951742,1.3007934086792923,0.7362496126066839,1.5272654263551186,2.2677868380553634,0.42445109277598775,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Mode,9,4,9,28,19,1,2,0,0,2,5,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Max,27,13,14,39,44,11,9,4,2,6,13,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Min,2,0,0,3,1,0,0,0,0,0,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season by Season,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 1,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Taxi
+Fly
+Taxi",Run,Taxi,"Taxi
+Boat",Taxi,Taxi,"Taxi
+Fly
+Taxi",Run,"Taxi
+Fly
+Taxi","Taxi
+Boat
+Run","Taxi
+Fly
+Taxi",Taxi,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Taxi
+Fly
+Taxi","Ride
+Fly 
+Taxi",Taxi,"Taxi
+Boat",Drive,"Fly
+Taxi",Taxi,"Train
+Taxi",Taxi,"Run
+Challenge
+Boat
+Taxi",Taxi,Bus,"Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Ride,,Taxi,,Animal,Train,,Taxi,,"Boat
+Challenge",Challenge,"Fly
+Taxi",Train,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Ride,,,,,Drive,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Ride,,,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,"Drive
+Ride",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 2,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Taxi","Boat
+Taxi
+Challenge","Taxi
+Fly
+Boat","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi","Taxi
+Challenge",Drive,"Boat
+Bus",Taxi,"Drive
+Fly","Drive
+Boat",Taxi,"Drive
+Run",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Taxi,Bus,Boat,"Taxi
+Fly
+Taxi",Taxi,"Train
+Taxi","Drive
+Fly",Taxi,"Taxi
+Fly
+Drive","Taxi
+Ride",Drive,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Taxi
+Ride",Drive,Taxi,"Challenge
+Run","Taxi
+Boat",Drive,"Taxi
+Challenge","Taxi
+Fly
+Taxi",Drive,Drive,Drive,"Drive
+Boat",Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,"Taxi
+Boat","Taxi
+Run",Taxi,"Drive
+Run",,Drive,"Taxi
+Boat",Taxi,Run,,Drive,Drive,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,Drive,,,,,,,,,"Drive
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,Drive,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,Drive,,,,,,,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 3,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Taxi","Drive
+Fly
+Taxi","Drive
+Fly
+Taxi",Run,"Challenge
+Taxi",Drive,"Taxi
+Fly
+Taxi","Drive
+Challenge","Taxi
+Challenge",Taxi,"Taxi
+Fly
+Taxi","Train
+Challenge",Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Taxi
+Challenge",Bus,"Bus
+Taxi","Taxi
+Fly
+Taxi","Drive
+Boat","Drive
+Train",Train,"Drive
+Boat
+Train","Drive
+Train","Challenge
+Taxi
+Fly",Taxi,Taxi,"Train
+Fly
+Drive
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Taxi
+Bus","Drive
+Boat",Run,"Train
+Taxi","Taxi
+Bus","Challenge
+Taxi","Taxi
+Ride",Train,"Challenge
+Drive","Challenge
+Run",Taxi,"Taxi
+Boat","
+Fly
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Drive,Drive,,Run,Drive,Taxi,Drive,Train,"Bike
+Boat","Train
+Challenge",,"Boat
+Taxi","Drive
+Fly",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,"Run
+Taxi",,Drive,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,Drive,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 4,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Taxi","Taxi
+Ride","Train
+Challenge","Taxi
+Fly
+Train","Drive
+Fly
+Taxi","Taxi
+Fly
+Taxi","Taxi
+Train
+Challenge","Taxi
+Fly
+Taxi",Taxi,"Taxi
+Challenge","Taxi
+Challenge","Drive
+Challenge","Drive
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Challenge
+Bus",Train,Ride,Drive,Boat,Bike,Taxi,"Taxi
+Boat",Drive,"Taxi
+Fly
+Taxi",Drive,"Drive
+Fly
+Drive",Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Ride,Taxi,Taxi,Drive,Drive,Taxi,Taxi,Boat,Drive,Taxi,Run,"Run
+Challenge","Drive
+Fly
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,"Run
+Taxi",Taxi,Train,Drive,Drive,Taxi,Taxi,,Drive,Taxi,,Drive,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,,,Taxi,,Drive,Fly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,Drive,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,,,,,"Taxi
+Bike",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 5,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Bus","Drive
+Challenge","Drive
+Fly","Drive
+Bus
+Fly","Train
+Challenge",Challenge,"Taxi
+Fly
+Fly","Taxi
+Fly
+Taxi",Drive,"Taxi
+Fly
+Drive","Drive
+Challenge",Taxi,"Taxi
+Fly
+Fly
+Run",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Boat,"Drive
+Boat
+Challenge",Drive,Taxi,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",Bus,Run,Challenge,Drive,"Taxi
+Fly","Taxi
+Fly
+Boat","Run
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Challenge
+Boat",Taxi,"Drive
+Ride",Taxi,Taxi,Taxi,Taxi,"Taxi
+Boat","Taxi
+Fly
+Taxi",,Taxi,Challenge,Ride,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,Ride,Drive,Ride,Challenge,Boat,"Taxi
+Ride",Challenge,Taxi,,Taxi,Boat,"Run
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Challenge,,,,Taxi,,,,Train,,,Run,"Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,Taxi,,,,,,,,Taxi,,,Boat,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,Taxi,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 6,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Drive","Drive
+Train
+Bus",Taxi,"Run
+Challenge",Taxi,Taxi,"Drive
+Boat","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi","Train
+Taxi","Taxi
+Fly
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Drive
+Run",Drive,Challenge,"Taxi
+Fly
+Taxi","Boat
+Fly
+Train",Taxi,"Taxi
+Fly","Taxi
+Fly
+Fly
+Taxi",Challenge,Taxi,Taxi,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Drive
+Ride","Challenge
+Boat","Taxi
+Challenge","Challenge
+Taxi",Taxi,"Taxi
+Fly
+Drive",Drive,Challenge Ride,"Taxi
+Fly
+Train","Taxi
+Challenge","Taxi
+Run","Drive
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,"Ride
+Ride","Train
+Drive","Taxi
+Bike",Taxi,Taxi,Train,Drive,Challenge,"Bus
+Challenge",Challenge,Bus,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Drive,Drive,"Bike
+Train",Taxi,"Drive
+Run","Taxi
+Train",Drive,Run,"Bus
+Taxi",Taxi,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,Drive,,,Taxi,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 7,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly",Bus,Drive,Drive,"Taxi
+Fly
+Taxi","Drive
+Challenge",Drive,"Taxi
+Fly
+Taxi",Train,"Taxi
+Fly
+Boat",Taxi,"Taxi
+Fly
+Taxi","Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Bus
+Challenge","Taxi
+Fly
+Taxi",Drive,"Drive
+Fly
+Taxi","Drive
+Challenge
+Run","Taxi
+Fly
+Train",Drive,Ride,Challenge,"Challenge
+Boat","Taxi
+Fly
+Taxi",Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Taxi
+Fly
+Taxi",Taxi,Drive,Train,Drive,Drive,Drive,Taxi,Taxi,Taxi,"Taxi
+Challenge",Taxi,"Taxi
+Fly
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,,,Taxi,"Drive
+Challenge",Drive,,Taxi,Taxi,Run,Taxi,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,"Taxi
+Ride",,,,Drive,,,,Taxi,,Taxi,,"Drive
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,"Taxi
+Challenge",,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,Taxi,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 8,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Chalenge",Drive,"Taxi
+Fly
+Taxi",Drive,"Taxi
+Fly
+Boat","Bus
+Drive",Run,Drive,Drive,Drive,Drive,"Taxi
+Fly
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Drive,Drive,"Run
+Bus",Drive,Taxi,Drive,Taxi,Drive,Ride,"Challenge
+Ride","Drive
+Challenge",Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Drive,Challenge,Drive,Challenge,Taxi,Drive,"Taxi
+Fly
+Drive",Drive,Drive,Drive,Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,"Boat
+Challenge",Drive,"Run
+Challenge",Drive,,Drive,Drive,"Drive
+Boat",Drive,Drive,Drive,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Drive,,Run,Challenge,,,,,"Drive
+Challenge",Drive,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,Drive,,,Drive,,,,,Drive,Drive,,"Drive
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,Drive,,,Drive,,,,,Drive,"Drive
+Challenge",,"Drive
+Boat",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,Drive,,,,,,Drive,,Boat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 9,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Taxi",Taxi,"Drive
+Ride","Taxi
+Fly
+Train","Taxi
+Fly
+Taxi",Drive,"Train
+Boat","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Bus",Drive,"Taxi
+Fly",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Taxi,Bus,"Drive
+Fly
+Taxi",Ride,Drive,Challenge,Taxi,Drive,"Bike
+Boat
+Bike","Taxi
+Fly
+Drive","Taxi
+Boat","Taxi
+Fly
+Drive
+Challenge",Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Taxi,Drive,Taxi,Drive,"Drive
+Run",Drive,"Taxi
+Fly",Drive,"Boat
+Taxi",Drive,"Boat
+Taxi",Run,"Drive
+Run",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,,Taxi,Drive,Run,Run,Train,Drive,Taxi,Drive,,Taxi,"Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,Drive,,,Drive,,,Drive,,Drive,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,"Drive
+Boat",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 10,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Taxi","Bus
+Train","Taxi
+Fly
+Train","Taxi
+Challenge","Taxi
+Fly
+Train","Taxi
+Fly
+Challenge","Taxi
+Fly
+Train","Drive
+Fly
+Taxi","Taxi
+Fly
+Train","Taxi
+Fly
+Train",Drive,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Taxi,"Drive
+Animal",Challenge,Taxi,Bus,Drive,"Challenge
+Drive
+Run",Taxi,Train,Drive,"Taxi
+Fly","Taxi
+Fly
+Train",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Taxi,"Animal
+Drive",Taxi,Boat,Bus,Drive,Drive,,"Train
+Drive",Drive,Taxi,Train,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,"Taxi
+Challenge",,Bus,Boat,Drive,,Drive,,Drive,Drive,,Train,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,Run,,,,,,Challenge,,,"Taxi
+Fly",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,"Taxi
+Fly",,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,Drive,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 9,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 11,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Taxi","Drive
+Fly
+Taxi",Drive,"Taxi
+Fly
+Train","Taxi
+Run
+Challenge","Taxi
+Fly
+Boat","Taxi
+Fly
+Train",Taxi,"Taxi
+Fly
+Bus
+Train","Taxi
+Fly
+Train",Boat,"Taxi
+Fly
+Drive","Taxi
+Fly
+Ride
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Taxi,Fly,"Drive
+Fly
+Drive",Fly,"Taxi
+Fly",Taxi,Taxi Challenge,Taxi,Taxi,Taxi,Taxi,Drive,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Drive,Drive,Drive,Taxi,Taxi,Taxi,Run,Drive,Taxi,"Drive
+Challenge",Taxi,Drive,Boat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Run,,Drive,Run,Taxi,,,,Taxi,Drive,Taxi,,"Taxi
+Fly",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,,,,Drive,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 12,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Boat
+Run","Drive
+Fly
+Taxi","Challenge
+Taxi
+Fly",Run,"Taxi
+Fly
+Drive","Taxi
+Fly
+Drive","Bus
+Boat","Taxi
+Fly
+Challenge","Taxi
+Fly
+Taxi","Challenge
+Drive",Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Drive
+Bike",Bus,Train,"Challenge
+Taxi",Drive,"Run
+Ride",Drive,Taxi,Taxi,"Taxi
+Fly",Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Challenge,Bike,Challenge,Run,Challenge,Taxi,Drive,Taxi,Taxi,"Train
+Challenge","Taxi
+Run",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Drive,,Run,Taxi,Run,,Drive,Taxi,Taxi,"Challenge
+Taxi",Ride,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,Taxi,,,,Taxi,,Taxi,Taxi Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 13,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Taxi","Taxi
+Fly
+Taxi","Taxi
+Fly
+Challenge","Taxi
+Fly
+Drive
+Challenge","Drive
+Fly
+Taxi","Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Challenge,Ride,Taxi Challenge,Drive,Challenge,Taxi,Taxi,Taxi,Taxi,Taxi,"Taxi
+Ride",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Taxi,Taxi,Taxi,Drive,"Taxi
+Boat",Taxi,Taxi,Run,Taxi,Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,Taxi,Taxi,Challenge,Taxi,,,,Taxi,Run,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Taxi,,,Drive,Taxi,,,,,,"Run
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,Drive,,,,,,,"Challenge
+Run",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 14,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Run","Taxi
+Fly
+Drive","Train
+Fly","Taxi
+Fly
+Taxi",Train,"Taxi
+Fly
+Taxi","Drive
+Fly
+Challenge","Taxi
+Fly
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Taxi,Drive,Train,Taxi,Drive,Taxi,Challenge,Boat,Taxi,Taxi,Challenge,"Ride
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Train,Taxi,Taxi,Taxi,,Tax,"Taxi
+Challenge",Taxi,"Challenge
+Run",Taxi,Bike,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Challenge,Drive,,Taxi,,Taxi,Taxi,,,,Run,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Taxi,,,Taxi,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 15,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Challenge
+Drive
+Fly","Taxi
+Fly
+Bus","Taxi
+Challenge",Taxi,"Challenge Fly 
+Taxi",Taxi,"Taxi
+Fly
+Drive","Taxi
+Fly
+Boat","Ferry
+Challenge","Taxi
+Fly
+Challenge",Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Challenge,Taxi Challenge ,"Taxi
+Challenge",Challenge,Drive,Taxi,Drive,Challenge,Taxi,Taxi,Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,,Run,Taxi,Run,Drive,"Taxi
+Ride",Drive,Challenge,Run,"Challenge
+Taxi",Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,,Run,Taxi,Run,Drive,Run,Bike,Run,,Taxi,Challenge,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,,,,Taxi,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,,,,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 16,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Ride
+Fly
+Bus
+Ride","Bus
+Drive
+Boat
+Run","Bus
+Drive
+Challenge","Taxi
+Fly
+Train
+Run","Drive
+Challenge","Drive
+Challenge","Taxi
+Fly
+Taxi","Boat
+Fly
+Taxi","Bus
+Train
+Challenge","Taxi
+Fly
+Boat",Taxi,"Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Ride,Drive,Run,Taxi,Drive,Drive,Ride,Taxi,"Challenge
+Taxi",Taxi,Ride,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Challenge,Drive,Drive,"Taxi
+Challenge",Run,Drive,"Run
+Boat",Taxi,Taxi,Challenge,"Drive
+Challenge",Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Run,,Drive,Taxi,Bike,Drive,"Challenge
+Taxi",,Taxi,Taxi,Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,,Taxi,Ride,,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,,,,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 17,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Drive","Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Drive",Drive,"Drive
+Train
+Fly",Taxi,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Challenge","Taxi
+Fly
+Bus
+Boat","Taxi
+Fly
+Drive","Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Challenge
+Taxi",Taxi,Taxi,"Challenge
+Taxi",Drive,"Challenge
+Taxi","Challenge
+Taxi",Drive,Taxi,"Boat
+Taxi","Boat
+Taxi",Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Challenge
+Boat",Taxi,Challenge,Drive,Drive,Taxi,"Run
+Challenge",Drive,Taxi,"Challenge
+Taxi","Run
+Ride",Ride,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Run,Taxi,Challenge,Drive,Drive,Taxi,"Challenge
+Taxi","Drive
+Challenge",Taxi,Taxi,Taxi,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,Run,,,,Taxi,Taxi,,,Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 18,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Challenge,"Challenge
+Taxi","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",Train,"Taxi
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Fly",Train,Taxi,"Taxi
+Fly
+Ride","Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Drive
+Fly
+Train
+Boat","Taxi
+Fly",Drive,Challenge,Taxi,"Taxi
+Fly
+Taxi",Taxi,"Challenge
+Drive","Bus
+Train",Train,Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Challenge,Drive,Drive,Taxi,Taxi,Taxi,Taxi,Drive,Taxi,Run,Taxi,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,"Challenge
+Taxi",Drive,Bus,Taxi,Taxi,,Drive,Taxi,,Challenge,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,Challenge,,Challenge,Taxi,,,,,,Taxi,Boat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,Drive,,Taxi,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,"Taxi
+Bike",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 19,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Challenge,"Taxi
+Fly
+Train",Bike,"Taxi
+Fly
+Taxi",Animal,"Taxi
+Fly
+Taxi",Bus,"Taxi
+Fly
+Drive",Drive,Drive,Challenge,"Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Drive
+Fly
+Taxi",Taxi,Taxi,Boat,"Taxi
+Challenge",Taxi,Taxi,"Challenge
+Taxi",Drive,Drive,"Train
+Fly
+Taxi",Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Taxi,"Challenge
+Taxi",Taxi,Boat,"Bus
+Challenge",Taxi,Run,Drive,Challenge,Drive,"Challenge
+Taxi","Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,,Run,,Taxi,Challenge,,Run,Drive,"Challenge
+Drive","Challenge
+Taxi","Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Boat,,,,,,,Drive,Train,"Challenge
+Drive",,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,Taxi,,,,,,,,Challenge,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 20,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Challenge,Drive,"Taxi
+Fly
+Challenge","Taxi
+Fly
+Drive","Train
+Drive","Drive
+Fly
+Taxi","Taxi
+Fly
+Fly",Taxi,"Taxi
+Fly
+Bus",Taxi,"Taxi
+Fly
+Boat","Taxi
+Fly
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Drive
+Fly
+Drive",Bus,Taxi,"Drive
+Challenge","Challenge
+Taxi",Taxi,Taxi,Taxi,Taxi,Taxi,Train,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Drive
+Fly
+Drive",Taxi,Run,Taxi,Drive,Taxi,Taxi,Taxi,Taxi,Taxi,Taxi,"Run
+Ride",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,"Drive
+Fly
+Drive",,,,Drive,Taxi,"Challenge
+Taxi",Run,,Boat,Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,"Challenge
+Taxi",,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,"Ride
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 21,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Challenge,"Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",Taxi,"Challenge
+Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi
+Train","Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Taxi
+Fly
+Taxi",Ride,"Train
+Challenge","Taxi
+Challenge",Taxi,Boat,Taxi,Taxi,"Boat
+Challenge",Drive,"Challenge
+Drive",Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Taxi,Taxi,Taxi,Boat,"Challenge
+Taxi",Taxi,Taxi,,Challenge,Drive,"Challenge
+Drive",Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,axi,Taxi,Taxi,,,Run,"Challenge
+Taxi",,Taxi,Drive,Drive,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Run,"Challenge
+Taxi",,,,Taxi,,,Taxi,,Drive,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 22,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Run,"Boat
+Run","Taxi
+Fly
+Drive","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Taxi","Challenge
+Taxi
+Fly
+Taxi",Drive,"Taxi
+Fly
+Taxi","Train
+Fly","Taxi
+Fly
+Drive","Boat
+Drive","Boat
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Drive,Boat,Boat,Taxi,"Taxi
+Challenge",Drive,Taxi,Train,"Challenge
+Drive","Drive
+Challenge",Drive,"Taxi
+Fly
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Fly
+Taxi",,Drive,,Taxi,Drive,Run,"Taxi
+Challenge","Drive
+Challenge",Taxi,Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Boat,,Drive,,,Run,,"Train
+Challenge",Drive,"Drive
+Run",,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,"Challenge
+Boat",,,,,,,Train,Taxi,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,Challenge,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,Taxi,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 9,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 23,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Run,"Taxi
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Fly
+Boat","Boat
+Fly","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Taxi","Challenge
+Drive","Taxi
+Fly
+Taxi",Challenge,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Boat",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Drive
+Fly
+Taxi",Taxi,"Challenge
+Taxi",Boat,Taxi,Taxi,Taxi,Drive,Challenge,Taxi,Taxi,"Ride
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Taxi,Bus,Taxi,Challenge,"Challenge
+Taxi","Taxi
+Challenge",Boat,"Drive
+Challenge",Train,Taxi,Challenge,Boat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Run,Taxi,Taxi,Drive,Taxi,Run,Drive,"Challenge
+Taxi",Taxi,,Run,Ride,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,Taxi,,,Drive,Taxi,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 24,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Challenge
+Drive",Taxi,"Taxi
+Fly
+Taxi
+Run",Taxi,"Taxi
+Fly
+Taxi",Taxi,"Challenge
+Taxi
+Fly
+Taxi",Drive,"Taxi
+Fly
+Drive","Taxi
+Fly
+Taxi","Taxi
+Fly
+Train
+Drive
+Challenge","Taxi
+Fly
+Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Fly
+Taxi
+Challenge",Taxi,Taxi,"Taxi
+Fly
+Taxi
+Challenge",Train,Train,"Challenge
+Taxi",Run,Drive,Taxi,Taxi,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Ride,"Challenge
+Taxi",Taxi,Taxi,Taxi,"Train
+Challenge","Challenge
+Taxi",Drive,Challenge,"Taxi
+Challenge",Taxi,"Challenge
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Challenge,Taxi,,,Taxi,"Taxi
+Challenge",,Drive,"Drive
+Challenge","Challenge
+Run",Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Run,,,,,Taxi,,,"Run
+Challenge",Taxi,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,Challenge,,,Ride,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 25,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Taxi,"Taxi
+Fly
+Taxi","Boat
+Train
+Drive",Ride,"Taxi
+Fly
+Taxi
+Challenge","Challenge
+Animal
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Challenge","Taxi
+Fly
+Run","Taxi
+Fly
+Taxi",Ride,"Taxi
+Fly
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Taxi
+Fly
+Taxi
+Fly","Train
+Challenge","Drive
+Challenge","Drive
+Challenge",Challenge,"Drive 
+Challenge","Taxi
+Challenge","Taxi
+Challenge",Taxi,"Ride
+Challenge",Taxi,"Drive
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Challenge,Boat,Drive,Drive,Run,Drive,Taxi,Taxi,"Challenge
+Taxi",Taxi,Taxi,"Drive
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Challenge,"Taxi
+Challenge",Challenge,Taxi,Run,Taxi,,Taxi,Challenge,Challenge,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Taxi,Taxi,Drive,,Run,,,,Taxi,Run,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,Run,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 26,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Challenge
+Drive
+Fly
+Taxi",Train,"Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi","Taxi
+Fly
+Ride","Taxi
+Fly
+Fly","Drive
+Challenge
+Drive","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi
+Challenge",Taxi,"Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Taxi,Taxi,Taxi,Taxi,"Challenge
+Drive",Taxi,"Drive
+Challenge",Drive,Bike,"Taxi
+Challenge",Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Run
+Challenge",Taxi,Taxi,Taxi,Challenge,Taxi,"Drive
+Challenge",Run,Taxi,Taxi,Run,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,,,Taxi,,"Drive
+Boat",,Taxi,Challenge,,Taxi,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,Drive,,,,,Challenge,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 27,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Boat,"Taxi
+Fly
+Taxi","Bus
+Taxi","Taxi
+Fly
+Taxi
+Challenge",Taxi,"Taxi
+Fly
+Taxi","Taxi
+Train","Taxi
+Fly
+Taxi","Taxi
+Fly
+Train",Taxi,"Taxi
+Fly
+Train","Taxi
+Fly
+Train",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Taxi
+Fly
+Taxi",Taxi,"Taxi
+Challenge",Taxi,Challenge,Taxi,Taxi,Taxi,Taxi,Taxi,Boat,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Ride
+Challenge",Taxi,Run,Taxi,"Run
+Challenge",Taxi,"Challenge
+Taxi",Taxi,Taxi,"Taxi
+Challenge",Taxi,Ride,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,,,Taxi,,,Taxi,Taxi,Taxi,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 28,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",Run,"Taxi
+Fly
+Taxi",Drive,"Taxi
+Fly
+Taxi","Taxi
+Train","Taxi
+Fly
+Drive
+Challenge","Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Taxi,Taxi,"Taxi
+Challenge",Run,"Ride
+Run",Challenge,Taxi,Drive,Challenge,Taxi,Taxi,"Ride
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Taxi,Taxi,Taxi,Taxi,Taxi,Run,Taxi,Challenge,Challenge,Taxi,Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,,,Taxi,Run,Taxi,Taxi,Taxi,Taxi,Taxi,Taxi,Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,Taxi,,,Taxi,Taxi,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,Taxi,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 29,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Challenge,"Taxi
+Fly
+Ride
+Taxi","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Challenge","Taxi
+Fly
+Drive
+Challenge","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Challenge","Boat
+Drive",Taxi,"Taxi
+Bus","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Taxi
+Fly
+Drive",Taxi,"Boat
+Taxi",Taxi,Drive,Boat,Boat,Drive,"Taxi
+Fly
+Taxi
+Challenge","Bike
+Challenge","Taxi
+Challenge",Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Drive
+Challenge",Taxi,"Taxi
+Challenge",Taxi,Drive,Taxi,Taxi,Challenge,Taxi,Bike,Taxi,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Drive,,Taxi,,,Boat,,Run,Taxi,Taxi,Challenge,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,Taxi,,"Boat
+Challenge",Taxi,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,Taxi,Taxi,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 9,,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 30,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Taxi
+Fly
+Drive","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Drive",Drive,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Train",Taxi,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Challenge,Challenge,"Run
+Challenge","Taxi
+Challenge",Drive,Taxi,Challenge,"Taxi
+Challenge","Drive
+Challenge",Taxi,Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Drive,,Taxi,,Taxi,Taxi,"Boat
+Challenge",Challenge,Challenge,Taxi,Taxi,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Challenge,,,,,,Taxi,Taxi,"Drive
+Challenge",,Challenge,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Run,,,,,,,,"Drive
+Challenge",,Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,Challenge,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 9,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 31,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Challenge,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi
+Challenge",Taxi,"Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Fly
+Train",Drive,"Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Train","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Taxi
+Fly
+Taxi",Challenge,Taxi,Taxi,Taxi,Challenge,Ride,Drive,Challenge,Bike,Ride,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Challenge,Taxi,,Taxi,Taxi,"Taxi
+Challenge",Drive,"Drive
+Boat",Challenge,Bike,"Ride
+Challenge",Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,Taxi,,Run,Ride,Taxi,,,Taxi,"Challenge
+Boat","Ride
+Challenge",Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Taxi,Taxi,,,,Ride,,,Boat,,"Taxi
+Challenge",Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,Taxi,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 32,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Taxi
+Fly
+Taxi","Taxi
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi","Taxi
+Train
+Taxi
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Taxi
+Challenge","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Challenge,"Run
+Challenge",Challenge,"Taxi
+Challenge","Run
+Challenge","Drive
+Challenge",Taxi,Challenge,"Challenge
+Taxi",,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Fly
+Challenge",Taxi,"Boat
+Challenge",Taxi,Taxi,Drive,Challenge,"Taxi
+Challenge",Boat,,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Challenge,"Taxi
+Challenge",Run,Challenge,Taxi,Taxi,"Taxi
+Challenge",Taxi,Taxi,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Boat,Challenge,Boat,Taxi,,,Taxi,"Taxi
+Challenge",Taxi,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,"Run
+Challenge",Taxi,,,,,,Ride,Taxi,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,*Teams would fly in between legs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 33,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Taxi
+Fly
+Taxi
+Challenge",Taxi,"Train
+Challenge",Run,Drive,"Taxi
+Challenge","Drive
+Challenge","Drive
+Challenge",Drive,"Drive
+Challenge",Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Run,Taxi,Drive,Bus,"Challenge
+Taxi",Taxi,Drive,Drive,"Drive
+Challenge",Run,"Drive
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Challenge,Taxi,Drive,Run,,Boat,Run,"Drive
+Challenge",Taxi,Challenge,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,,Drive,Drive,,,,Drive,,Drive,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,,,Drive,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,*Teams would fly in between legs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 34,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Drive,Drive,Drive,Taxi,Run,Drive,Drive,Run,Run,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Challenge,Drive,Drive,Taxi,Challenge,Drive,"Drive
+Challenge",Bike,Drive,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Challenge,Run,Drive,Run,,Drive,Taxi,"Challenge
+Drive",Drive,"Challenge
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Drive,,Run,,,,,Run,Challenge,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,,,Run,Drive,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 35,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Drive,Taxi,"Taxi
+Fly
+Bus",Taxi,"Taxi
+Fly
+Taxi
+Challenge",Taxi,"Taxi
+Fly
+Drive
+Boat
+Challenge","Taxi
+Fly
+Train
+Run
+Drive",Run,"Taxi
+Fly
+Taxi","Taxi
+Fly
+Drive
+Run","Taxi
+Fly
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Drive
+Fly
+Taxi","Taxi
+Challenge","Bus
+Challenge","Taxi
+Challenge",Taxi,"Challenge
+Run",Drive,Drive,"Drive
+Challenge",Challenge,Drive,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Boat
+Taxi",Taxi,"Challenge
+Taxi",Taxi,Taxi,"Challenge
+Taxi",Challenge,Run,Challenge,"Run
+Boat",Drive,"Drive
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,,Taxi,,,Taxi,Taxi,"Drive
+Run",Drive,"Boat
+Run
+Challenge","Drive
+Challenge",Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,Taxi,Taxi,Run,Drive,Ride,Drive,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,,Taxi,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,Ride,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,*Teams would fly in between legs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 36,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Drive,Run,Run,Taxi,Drive,Drive,Drive,Drive,Run,Taxi,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Drive,Run,"Run
+Taxi",Taxi,Drive,Drive,Drive,Drive,Taxi,Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,Drive,Run,Run,Run,Taxi,Drive,Drive,Drive,Challenge,"Drive
+Boat",Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,,,,,,Drive,,Taxi,Taxi,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,,,Drive,,,Taxi,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,,,Taxi,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,,,,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 37,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,"Drive
+Fly
+Taxi
+Run","Taxi
+Fly
+Taxi","Taxi
+Tran
+Taxi","Taxi
+Fly
+Taxi",Taxi,"Taxi
+Fly
+Taxi","Taxi
+Fly",Drive,"Taxi
+Fly
+Taxi
+Ride","Taxi
+Fly
+Train
+Drive
+Challenge","Taxi
+Fly","Taxi
+Fly
+Taxi
+Boat",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,"Taxi
+Boat",Taxi,"Challenge
+Taxi",Drive,Taxi,Taxi,Drive,Challenge,"Ride
+Run
+Challenge",Drive,Drive,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Boat
+Taxi",Run,Taxi,Taxi,Taxi,Challenge,Challenge,Anything but a Taxi,Run,Run,Challenge,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Taxi,Taxi,Taxi,Taxi,Run,Taxi,"Drive
+Challenge",Anything but a Taxi,Challenge,Challenge,"Boat
+Drive","Challenge
+Drive",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,,,,Taxi,,Taxi,Run,Challenge,Taxi,Run,"Drive
+Train
+Run",Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,,,,,,,Drive,Anything but a Taxi,Run,Drive,Challenge,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,,,,,,,Drive,Anything but a Taxi,,,Drive,Drive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,,,,,,,,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 38,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 1,Taxi,"Taxi
+Train
+Run",Drive,"Run
+Train
+Run","Taxi
+Fly
+Taxi",Drive,"Taxi
+Fly
+Taxi",Anything but a Taxi,"Taxi
+Fly
+Taxi","Taxi
+Fly","Taxi
+Fly
+Taxi","Taxi
+Fly
+Taxi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 2,Challenge,"Challenge
+Train
+Run",Drive,Challenge,Run,Drive,Run,"Challenge
+Anything but a Taxi","Run
+Challenge",Drive,Challenge,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 3,"Taxi
+Run",Run,Challenge,Run,Run,Drive,Challenge,Anything but a Taxi,"Taxi
+Challenge",Drive,Taxi,"Taxi
+Challenge",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 4,Drive,Run,Drive,Taxi,Run,,"Drive
+Challenge",Challenge,Run,Drive,Taxi,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 5,Bike,,"Challenge
+Drive","Taxi
+Challenge",,,Drive,Taxi,Taxi,Challenge,"Taxi
+Challenge",Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 6,Challenge,,,Taxi,,,,,,Drive,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 7,"Bike
+Drive",,,,,,,,,,,Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Route Info 8,Taxi,,,,,,,,,,,Taxi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Type of Challenge for Each Route Info,,,,,,,,,,,,,,,% of Route Info per Challenge per Leg,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Using Keywords, describing what type each Route Info is",,,,,,,,,,,,,,,Challenge #,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,,,,,,,,,,,,,,
+,"*NOTE: I am only counting Route Infos that actually require some challenge from all teams - no traveling. Unless the traveling is a unique challenge in itself, like walking an animal somewhere.",,,,,,,,,,,,,,,Challenge 1,0.23076923076923078,,,,,0.16666666666666666,,,,0.16666666666666666,0.09523809523809523,0.024390243902439025,,,,,,,,,,,,,,,,
+,"*NOTE: Not all Route Info challenges could be categorized, these are briefly described without a keyword",,,,,,,,,,,,,,,Challenge 2,0.23076923076923078,0.2,0.375,0.3333333333333333,0.14285714285714285,0.5,0.3333333333333333,0.15384615384615385,0.2727272727272727,0.08333333333333333,0.14285714285714285,0.14634146341463414,0.2,,,,,,,,,,,,,,,
+,Season #,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,Challenge 3,0.11538461538461539,0.2,,0.1111111111111111,0.2857142857142857,,0.16666666666666666,0.15384615384615385,0.18181818181818182,,0.09523809523809523,0.04878048780487805,,,,,,,,,,,,,,,,
+,Season 1,,,,,,,,,,,Searching,Searching,,,Challenge 4,0.2692307692307692,0.2,0.375,,0.42857142857142855,,0.3333333333333333,0.15384615384615385,0.13636363636363635,0.16666666666666666,0.09523809523809523,0.12195121951219512,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Language,,,,Challenge 5,0.11538461538461539,,0.25,0.3333333333333333,,0.16666666666666666,0.16666666666666666,0.23076923076923078,0.13636363636363635,0.25,0.19047619047619047,0.24390243902439024,0.2,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Challenge 4,Challenge 5,,,Challenge 6,,0.4,,0.2222222222222222,0.14285714285714285,0.16666666666666666,,0.23076923076923078,0.09090909090909091,0.16666666666666666,0.14285714285714285,0.12195121951219512,0.4,,,,,,,,,,,,,,,
+,Season 2,,,,,,,,,,,,,,,Challenge 7,0.038461538461538464,,,,,,,0.07692307692307693,0.13636363636363635,0.16666666666666666,0.19047619047619047,0.17073170731707318,,,,,,,,,,,,,,,,
+,Season 3,,,,,,,,,,,,,,,Challenge 8,,,,,,,,,0.045454545454545456,,,0.0975609756097561,,,,,,,,,,,,,,,,
+,Season 4,,,,,,,,,,,,,Puzzle,,Challenge 9,,,,,,,,,,,0.047619047619047616,0.024390243902439025,0.2,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,Challenge 9,,Challenge 10,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 5,PS,,,,Puzzle,PS,,Navigation,Heights,,,Searching,Searching,,Challenge 11,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,Animals,,,,,,,Challenge 12,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Challenge 5,,,,Challenge 6,Challenge 1,,Challenge 5,Challenge 2,,,Challenge 3,Challenge 5,,Challenge 13,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 6,,,HEC,,,,,Animals,PS,Navigation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Challenge 2,,,,,Challenge 5,Challenge 2,Challenge 5,,,,,# of Route Infos per Challenge per Season,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 7,,,,,,,,,Searching,,,,,,Season #,Challenge 1,Challenge 2,Challenge 3,Challenge 4,Challenge 5,Challenge 6,Challenge 7,Challenge 8,Challenge 9,Challenge 10,Challenge 11,Challenge 12,Challenge 13,Challenge 14,,,,,,,,,,,,,,
+,,,,,,,,,,Challenge 2,,,,,,Season 1,0,0,0,1,1,0,0,0,0,0,0,0,0,2,,,,,,,,,,,,,,
+,Season 8,,Searching,,Biking,,,,,,,,Searching,,,Season 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,Challenge 3,,Challenge 3,,,,,,,,Challenge 7,,,Season 3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,Searching,,,,,,,,,,,Season 4,0,0,0,0,0,0,0,0,1,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,Challenge 5,,,,,,,,,,,Season 5,1,1,1,0,3,1,0,0,0,0,0,0,0,7,,,,,,,,,,,,,,
+,Season 9,,,,,,Counting,,,,,,,,,Season 6,0,2,0,0,2,0,0,0,0,0,0,0,0,4,,,,,,,,,,,,,,
+,,,,,,,Challenge 2,,,,,,,,,Season 7,0,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,Season 10,,,Searching,,,,,,Heights,,,,,,Season 8,0,0,2,0,1,0,1,0,0,0,0,0,0,4,,,,,,,,,,,,,,
+,,,,Challenge 2,,,,,,Challenge 7,,,,,,Season 9,0,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,Season 11,,,,,,,,,,,,,Memory,,Season 10,0,1,0,0,0,0,1,0,0,0,0,0,0,2,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,Challenge 6,,Season 11,0,0,0,0,0,1,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,Season 12,Animals,,Animals,,Searching,,,,,,,,,,Season 12,0,0,0,3,0,0,0,0,0,0,0,0,0,3,,,,,,,,,,,,,,
+,,Challenge 4,,Challenge 4,,Challenge 4,,,,,,,,,,Season 13,0,2,0,1,0,1,0,0,0,0,0,0,0,4,,,,,,,,,,,,,,
+,Season 13,PS,,,Searching,HEC,,,,,,Memory,,,,Season 14,0,2,0,0,1,0,0,0,0,0,0,0,0,3,,,,,,,,,,,,,,
+,,Challenge 2,,,Challenge 6,Challenge 2,,,,,,Challenge 4,,,,Season 15,0,2,2,0,1,1,1,0,0,0,0,0,0,7,,,,,,,,,,,,,,
+,Season 14,PS,,,,,,Animals,,,,Searching,,,,Season 16,0,0,0,2,1,0,0,1,0,0,0,0,0,4,,,,,,,,,,,,,,
+,,Challenge 5,,,,,,Challenge 2,,,,Challenge 2,,,,Season 17,0,1,0,1,1,1,0,0,0,0,0,0,0,4,,,,,,,,,,,,,,
+,Season 15,Selling,,,Puzzle,,,,Searching,,,Pain,Heights,,,Season 18,1,1,0,1,1,2,0,1,0,0,0,0,0,7,,,,,,,,,,,,,,
+,,,,,,,,,Heights,,,,HEC,,,Season 19,2,1,0,1,0,2,1,0,0,0,0,0,0,7,,,,,,,,,,,,,,
+,,Challenge 3,,,Challenge 2,,,,Challenge 2,,,Challenge 6,Challenge 5,,,Season 20,1,1,0,0,1,0,0,0,0,0,0,0,0,3,,,,,,,,,,,,,,
+,,,,,,,,,HEC,,,,Counting,,,Season 21,1,0,0,1,1,0,0,0,0,0,0,0,0,3,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Math,,,Season 22,0,0,0,0,0,0,2,0,1,0,0,0,0,3,,,,,,,,,,,,,,
+,,,,,,,,,Challenge 3,,,,Challenge 7,,,Season 23,1,1,0,0,1,2,0,0,0,0,0,0,0,5,,,,,,,,,,,,,,
+,Season 16,Painting,,,,,,,,,ATD,,Searching,,,Season 24,0,0,1,1,1,1,0,0,0,0,0,0,0,4,,,,,,,,,,,,,,
+,,,,,,,,,,,Searching,,,,,Season 25,0,0,2,1,1,2,1,0,0,0,0,0,0,7,,,,,,,,,,,,,,
+,,Challenge 4,,,,,,,,,Challenge 4,,Challenge 5,,,Season 26,0,0,1,1,0,2,0,0,0,0,0,0,0,4,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Memory,,,Season 27,0,0,0,1,1,1,0,1,0,0,0,0,0,4,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 8,,,Season 28,0,2,1,0,2,0,0,0,0,0,0,0,0,5,,,,,,,,,,,,,,
+,Season 17,,,PS,,,,,,,,,,Heights,,Season 29,1,1,0,1,1,0,1,1,0,0,0,0,0,6,,,,,,,,,,,,,,
+,,,,Challenge 4,,,,,,,,,,Challenge 2,,Season 30,0,3,1,3,2,1,2,1,0,0,0,0,0,13,,,,,,,,,,,,,,
+,,,,Geography,,,,,,,,,,Memory,,Season 31,1,4,2,1,0,1,0,0,0,0,0,0,0,9,,,,,,,,,,,,,,
+,,,,Challenge 5,,,,,,,,,,Challenge 6,,Season 32,0,4,0,1,2,2,1,0,0,0,0,0,0,10,,,,,,,,,,,,,,
+,Season 18,Searching,Searching,,ATD,,,,,,,Pain,ATD,,,Season 33,1,0,1,2,1,0,1,0,0,0,0,0,0,6,,,,,,,,,,,,,,
+,,ATD,Puzzle,,Animals,,,,,,,,Building,,,Season 34,1,1,1,1,2,0,1,0,0,0,0,0,0,7,,,,,,,,,,,,,,
+,,Challenge 1,Challenge 6,,Challenge 2,,,,,,,Challenge 5,Challenge 8,,,Season 35,0,2,0,2,1,0,0,0,0,0,0,0,0,5,,,,,,,,,,,,,,
+,,Driving,,,ATD,,,,,,,,,,,Season 36,0,0,0,1,1,0,0,0,1,0,0,0,0,3,,,,,,,,,,,,,,
+,,Challenge 4,,,Challenge 6,,,,,,,,,,,Season 37,1,0,3,1,3,1,2,0,0,0,0,0,0,11,,,,,,,,,,,,,,
+,Season 19,Puzzle,,,,,PS,,,Building,,Puzzle,Driving,,,Season 38,0,4,0,2,1,1,3,0,0,0,0,0,0,11,,,,,,,,,,,,,,
+,,,,,,,,,,,,Searching,,,,Totals,12,38,18,30,34,23,18,5,3,0,0,0,0,181,,,,,,,,,,,,,,
+,,Challenge 1,,,,,Challenge 6,,,Challenge 4,,Challenge 1,Challenge 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,Pain,,,Memory,,,Keywords of Route Infos per Leg,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Geography,,,Keywords,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,Totals,,,,,,,,,,,,,,
+,,,,,,,,,,Challenge 7,,,Challenge 6,,,Animals,1,,2,1,1,,3,3,3,1,,1,,16,,,,,,,,,,,,,,
+,Season 20,Searching,,,,,,,,,,,Heights,,,ATD,2,1,,2,1,1,2,1,2,3,2,4,,21,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Searching,,,Balance,1,,,,,,,,,,,,,1,,,,,,,,,,,,,,
+,,Challenge 1,,,,,,,,,,,Challenge 2,,,Biking,,,,1,,,1,,,,,,,2,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Driving,,,Building,,,,,,,1,,2,1,,5,,9,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 5,,,Cooking,,,,1,,,,1,,,1,2,,5,,,,,,,,,,,,,,
+,Season 21,Heights,,,,,,,,Searching,,,PS,,,Counting,,,,,,2,,,,,,1,,3,,,,,,,,,,,,,,
+,,Challenge 1,,,,,,,,Challenge 5,,,Challenge 4,,,Dancing,,,,,,,,,,,1,,,1,,,,,,,,,,,,,,
+,Season 22,,,,,,,,PS,,,,Heights,,,Driving,1,,,1,1,,,,,,,5,,8,,,,,,,,,,,,,,
+,,,,,,,,,,,,,HEC,,,Flags,1,,,,,,,,,,,1,,2,,,,,,,,,,,,,,
+,,,,,,,,,Challenge 7,,,,Challenge 7,,,Food,1,,,,,,,1,,3,,,,5,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Searching,,,Geography,,,1,,,,,,,,1,1,,3,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Memory,,,HEC,1,,1,,1,,,1,,,1,3,,8,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 9,,,Heights,3,,,,,,,2,3,1,1,6,1,17,,,,,,,,,,,,,,
+,Season 23,,,,Driving,,,,,Animals,Food,Searching,Memory,,,Language,,,1,,,,,1,1,1,1,,,5,,,,,,,,,,,,,,
+,,,,,Challenge 5,,,,,Challenge 2,Challenge 1,Challenge 6,Challenge 6,,,Math,,,,,,,,,1,1,,1,,3,,,,,,,,,,,,,,
+,Season 24,Searching,,,,,,,,ATD,,,Heights,,,Memory,1,,,,,,,,2,2,4,10,2,21,,,,,,,,,,,,,,
+,,Challenge 4,,,,,,,,Challenge 3,,,Challenge 5,,,Music,,,,,,,,,,,,,,0,,,,,,,,,,,,,,
+,,,,,,,,,,Math,,,,,,Navigation,,,,,,,,1,,1,,1,,3,,,,,,,,,,,,,,
+,,,,,,,,,,Challenge 6,,,,,,Pain,1,,,,,,,,1,,2,,,4,,,,,,,,,,,,,,
+,Season 25,Heights,,Animals,,ATD,,,,Searching,Animals,,Swimming,,,Painting,1,,,,,,,,,1,,,,2,,,,,,,,,,,,,,
+,,Challenge 3,,Challenge 5,,Challenge 3,,,,Challenge 7,Challenge 6,,Challenge 6,,,PS,10,1,2,,1,2,1,2,6,1,3,6,,35,,,,,,,,,,,,,,
+,,PS,,,,,,,,,,,,,,Puzzle,2,1,,2,1,,,1,,1,5,3,1,17,,,,,,,,,,,,,,
+,,Challenge 4,,,,,,,,,,,,,,Searching,8,2,3,2,1,1,1,2,6,1,8,9,1,45,,,,,,,,,,,,,,
+,Season 26,,,,,Driving,,,Animals,,Math,,Animals,,,Selling,1,,,,,,,,,,,,,1,,,,,,,,,,,,,,
+,,,,,,,,,,,Food,,,,,Singing,,,,,,,,1,,,,,,1,,,,,,,,,,,,,,
+,,,,,,Challenge 3,,,Challenge 6,,Challenge 6,,Challenge 4,,,Swimming,,,,,,,,,1,,,1,,2,,,,,,,,,,,,,,
+,Season 27,,,,,Animals,,,,,,,Driving,,,Travel Issues,,,,,,,,,,,,,,0,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Navigation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Challenge 4,,,,,,,Challenge 5,,,Keywords of Route Infos per Leg,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Memory,,,Keywords,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,Percent of Keywords on Route Infos,,,,,,,,,,,,,
+,,,,,,,,,,,,,Flags,,,Animals,0.038461538461538464,,0.25,0.1111111111111111,0.14285714285714285,,0.5,0.23076923076923078,0.13636363636363635,0.08333333333333333,,0.024390243902439025,,,Keyword,%,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 6,,,ATD,0.07692307692307693,0.2,,0.2222222222222222,0.14285714285714285,0.16666666666666666,0.3333333333333333,0.07692307692307693,0.09090909090909091,0.25,0.09523809523809523,0.0975609756097561,,,Animals,0.08839779005524862,,,,,,,,,,,,
+,,,,,,,,,,,,,Building,,,Balance,0.038461538461538464,,,,,,,,,,,,,,ATD,0.11602209944751381,,,,,,,,,,,,
+,,,,,,,,,,,,,Memory,,,Biking,,,,0.1111111111111111,,,0.16666666666666666,,,,,,,,Balance,0.0055248618784530384,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 8,,,Building,,,,,,,0.16666666666666666,,0.09090909090909091,0.08333333333333333,,0.12195121951219512,,,Biking,0.011049723756906077,,,,,,,,,,,,
+,Season 28,,,,,,Searching,,Heights,Searching,,,PS,,,Cooking,,,,0.1111111111111111,,,,0.07692307692307693,,,0.047619047619047616,0.04878048780487805,,,Building,0.049723756906077346,,,,,,,,,,,,
+,,,,,,,,,,,,,Heights,,,Counting,,,,,,0.3333333333333333,,,,,,0.024390243902439025,,,Cooking,0.027624309392265192,,,,,,,,,,,,
+,,,,,,,Challenge 2,,Challenge 5,Challenge 2,,,Challenge 5,,,Dancing,,,,,,,,,,,0.047619047619047616,,,,Counting,0.016574585635359115,,,,,,,,,,,,
+,,,,,,,,,,PS,,,,,,Driving,0.038461538461538464,,,0.1111111111111111,0.14285714285714285,,,,,,,0.12195121951219512,,,Dancing,0.0055248618784530384,,,,,,,,,,,,
+,,,,,,,,,,Animals,,,,,,Flags,0.038461538461538464,,,,,,,,,,,0.024390243902439025,,,Driving,0.04419889502762431,,,,,,,,,,,,
+,,,,,,,,,,Challenge 3,,,,,,Food,0.038461538461538464,,,,,,,0.07692307692307693,,0.25,,,,,Flags,0.011049723756906077,,,,,,,,,,,,
+,Season 29,PS,,,,,,,PS,,,Cooking,PS,,,Geography,,,0.125,,,,,,,,0.047619047619047616,0.024390243902439025,,,Food,0.027624309392265192,,,,,,,,,,,,
+,,Searching,,,,,,,,,,,Building,,,HEC,0.038461538461538464,,0.125,,0.14285714285714285,,,0.07692307692307693,,,0.047619047619047616,0.07317073170731707,,,Geography,0.016574585635359115,,,,,,,,,,,,
+,,Flags,,,,,,,,,,,,,,Heights,0.11538461538461539,,,,,,,0.15384615384615385,0.13636363636363635,0.08333333333333333,0.047619047619047616,0.14634146341463414,0.2,,HEC,0.04419889502762431,,,,,,,,,,,,
+,,Challenge 1,,,,,,,Challenge 4,,,Challenge 5,Challenge 2,,,Language,,,0.125,,,,,0.07692307692307693,0.045454545454545456,0.08333333333333333,0.047619047619047616,,,,Heights,0.09392265193370165,,,,,,,,,,,,
+,,,,,,,,,,,,,Cooking,,,Math,,,,,,,,,0.045454545454545456,0.08333333333333333,,0.024390243902439025,,,Language,0.027624309392265192,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 7,,,Memory,0.038461538461538464,,,,,,,,0.09090909090909091,0.16666666666666666,0.19047619047619047,0.24390243902439024,0.4,,Math,0.016574585635359115,,,,,,,,,,,,
+,,,,,,,,,,,,,Memory,,,Music,,,,,,,,,,,,,,,Memory,0.11602209944751381,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 8,,,Navigation,,,,,,,,0.07692307692307693,,0.08333333333333333,,0.024390243902439025,,,Music,,,,,,,,,,,,,
+,Season 30,PS,PS,,,,,Building,Language,PS,,Searching,Searching,,,Pain,0.038461538461538464,,,,,,,,0.045454545454545456,,0.09523809523809523,,,,Navigation,0.016574585635359115,,,,,,,,,,,,
+,,Heights,,,,,,ATD,Singing,,,Memory,,,,Painting,0.038461538461538464,,,,,,,,,0.08333333333333333,,,,,Pain,0.022099447513812154,,,,,,,,,,,,
+,,Challenge 2,Challenge 4,,,,,Challenge 2,Challenge 4,Challenge 3,,Challenge 7,Challenge 2,,,PS,0.38461538461538464,0.2,0.25,,0.14285714285714285,0.3333333333333333,0.16666666666666666,0.15384615384615385,0.2727272727272727,0.08333333333333333,0.14285714285714285,0.14634146341463414,,,Painting,0.011049723756906077,,,,,,,,,,,,
+,,Puzzle,,,,,,,,Searching,,,Puzzle,,,Puzzle,0.07692307692307693,0.2,,0.2222222222222222,0.14285714285714285,,,0.07692307692307693,,0.08333333333333333,0.23809523809523808,0.07317073170731707,0.2,,PS,0.19337016574585636,,,,,,,,,,,,
+,,Food,,,,,,,,Memory,,,,,,Searching,0.3076923076923077,0.4,0.375,0.2222222222222222,0.14285714285714285,0.16666666666666666,0.16666666666666666,0.15384615384615385,0.2727272727272727,0.08333333333333333,0.38095238095238093,0.21951219512195122,0.2,,Puzzle,0.09392265193370165,,,,,,,,,,,,
+,,Challenge 5,,,,,,,,Challenge 6,,,Challenge 4,,,Selling,0.038461538461538464,,,,,,,,,,,,,,Searching,0.24861878453038674,,,,,,,,,,,,
+,,,,,,,,,,Animals,,,Cooking,,,Singing,,,,,,,,0.07692307692307693,,,,,,,Selling,0.0055248618784530384,,,,,,,,,,,,
+,,,,,,,,,,Challenge 8,,,Challenge 5,,,Swimming,,,,,,,,,0.045454545454545456,,,0.024390243902439025,,,Singing,0.0055248618784530384,,,,,,,,,,,,
+,,,,,,,,,,,,,Building,,,Travel Issues,,,,,,,,,,,,,,,Swimming,0.011049723756906077,,,,,,,,,,,,
+,,,,,,,,,,,,,PS,,,,,,,,,,,,,,,,,,Travel Issues,,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 31,Searching,Give blessings,,,,Counting,,,PS,,,HEC,,,# of Keyword Route Infos per Season,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Challenge 1,Challenge 2,,,,Challenge 2,,,Challenge 2,,,Challenge 3,,,Season #,Animals,ATD,Balance,Biking,Building,Cooking,Counting,Dancing,Driving,Flags,Food,Geography,HEC,Heights,Language,Math,Memory,Music,Navigation,Pain,Painting,PS,Puzzle,Searching,Selling,Singing,Swimming,Travel Issues
+,,Searching,,,,,,,,PS,,,ATD,,,Season 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0
+,,Challenge 2,,,,,,,,Challenge 3,,,Challenge 4,,,Season 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,ATD,,,Season 3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,Building,,,Season 4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+,,,,,,,,,,,,,Challenge 6,,,Season 5,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,2,1,2,0,0,0,0
+,Season 32,PS,ATD,Searching,Cooking,,,Animals,ATD,,,HEC,,,,Season 6,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+,,,,Language,,,,ATD,,,,,,,,Season 7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+,,Challenge 2,Challenge 6,Challenge 2,Challenge 5,,,Challenge 5,Challenge 2,,,Challenge 2,,,,Season 8,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
+,,Searching,,,,,,,,,,PS,,,,Season 9,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,ATD,,,,,,,,,,Heights,,,,Season 10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+,,Memory,,,,,,,,,,,,,,Season 11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+,,Challenge 4,,,,,,,,,,Challenge 6,,,,Season 12,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+,,,,,,,,,,,,Searching,,,,Season 13,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+,,,,,,,,,,,,Puzzle,,,,Season 14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+,,,,,,,,,,,,Geography,,,,Season 15,0,0,0,0,0,0,1,0,0,0,0,0,2,2,0,1,0,0,0,1,0,0,1,1,1,0,0,0
+,,,,,,,,,,,,Challenge 7,,,,Season 16,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,2,0,0,0,0
+,Season 33,Searching,,,,,,,,,Painting,Searching,,,,Season 17,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+,,,,,,,,,,,ATD,Puzzle,,,,Season 18,1,4,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,2,0,0,0,0
+,,Challenge 4,,,,,,,,,Challenge 4,Challenge 1,,,,Season 19,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,1,2,1,0,0,0,0
+,,,,,,,,,,,,PS,,,,Season 20,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+,,,,,,,,,,,,Searching,,,,Season 21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+,,,,,,,,,,,,Challenge 3,,,,Season 22,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+,,,,,,,,,,,,ATD,,,,Season 23,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+,,,,,,,,,,,,Challenge 5,,,,Season 24,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+,,,,,,,,,,,,Memory,,,,Season 25,2,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0
+,,,,,,,,,,,,Challenge 7,,,,Season 26,2,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+,Season 34,PS,,,,PS,,,,Swimming,ATD,,,,,Season 27,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,Memory,,,,,,Season 28,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2,0,2,0,0,0,0
+,,Challenge 2,,,,Challenge 4,,,,Challenge 5,Challenge 1,,,,,Season 29,0,0,0,0,1,2,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,3,0,1,0,0,0,0
+,,PS,,,,,,,,,PS,,,,,Season 30,1,1,0,0,2,1,0,0,0,0,1,0,0,1,1,0,2,0,0,0,0,4,2,3,0,1,0,0
+,,Challenge 3,,,,,,,,,Challenge 5,,,,,Season 31,0,2,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0
+,,,,,,,,,,,Memory,,,,,Season 32,1,4,0,0,0,1,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,2,1,3,0,0,0,0
+,,,,,,,,,,,Challenge 7,,,,,Season 33,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,3,0,0,0,0
+,Season 35,,,,,,,Biking,,Heights,Heights,,Searching,,,Season 34,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,4,0,0,0,0,1,0
+,,,,,,,,,,ATD,,,,,,Season 35,0,1,0,1,1,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+,,,,,,,,,,Building,,,,,,Season 36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0
+,,,,,,,,Challenge 4,,Challenge 4,Challenge 2,,Challenge 2,,,Season 37,0,2,0,0,0,0,0,0,2,0,1,0,0,0,2,0,2,0,0,0,0,3,3,3,0,0,0,0
+,,,,,,,,,,,,,Memory,,,Season 38,1,1,1,0,1,1,0,1,0,0,1,0,1,1,0,0,1,0,0,1,0,3,3,2,0,0,0,0
+,,,,,,,,,,,,,Challenge 5,,,Totals,16,21,1,2,9,5,3,1,8,2,5,3,8,17,5,3,21,0,3,4,2,35,17,45,1,1,2,0
+,Season 36,,,,,,,,,PS,,Memory,,,,Averages,0.42105263157894735,0.5526315789473685,0.02631578947368421,0.05263157894736842,0.23684210526315788,0.13157894736842105,0.07894736842105263,0.02631578947368421,0.21052631578947367,0.05263157894736842,0.13157894736842105,0.07894736842105263,0.21052631578947367,0.4473684210526316,0.13157894736842105,0.07894736842105263,0.5526315789473685,0,0.07894736842105263,0.10526315789473684,0.05263157894736842,0.9210526315789473,0.4473684210526316,1.1842105263157894,0.02631578947368421,0.02631578947368421,0.05263157894736842,0
+,,,,,,,,,,Challenge 4,,Challenge 5,,,,Maximum,2,4,1,1,2,2,1,1,2,1,1,1,2,2,2,1,2,0,1,1,1,4,3,3,1,1,1,0
+,,,,,,,,,,,,Puzzle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Challenge 9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 37,,,,,,ATD,Searching,Searching,Language,Language,PS,Driving,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,PS,,Searching,Food,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Memory,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Challenge 5,Challenge 3,Challenge 3,Challenge 5,Challenge 5,Challenge 3,Challenge 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,Puzzle,,,Puzzle,Driving,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,ATD,PS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,Challenge 6,,,Challenge 7,Challenge 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Memory,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Puzzle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Season 38,HEC,,Searching,Puzzle,,,Animals,Cooking,,Building,Dancing,Heights,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Pain,,PS,,,,,Food,,Puzzle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Challenge 2,,Challenge 4,Challenge 2,,,Challenge 4,Challenge 6,,Challenge 7,Challenge 2,Challenge 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,PS,,,,,,,,,,,ATD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Balance,,,,,,,,,,,Searching,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,PS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Challenge 7,,,,,,,,,,,Challenge 5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Puzzle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Memory,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Challenge 7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

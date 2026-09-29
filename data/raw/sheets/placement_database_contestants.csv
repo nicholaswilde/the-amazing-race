@@ -1,0 +1,2179 @@
+id,name,short_name,w,gender,seasons,unnamed_6,teams,w1,legs,first_places,legs,last_places,legs1,w2,lsid
+1,Rob Frisbee,Rob,,Male,1,USA1,1,,13,5,0.3846153846,0,0.0,,1
+2,Brennan Swain,Brennan,,Male,1,USA1,1,,13,5,0.3846153846,0,0.0,,1
+3,Frank Mesa,Frank,,Male,1,USA1,1,,13,3,0.2307692308,0,0.0,,1
+4,Margarita Mesa,Margarita,,Female,1,USA1,1,,13,3,0.2307692308,0,0.0,,1
+5,Joseph Baldassare,Joe,,Male,2,"USA1, USA11",1,,21,1,0.04761904762,5,0.2380952381,,12
+6,William Bartek,Bill,,Male,2,"USA1, USA11",1,,21,1,0.04761904762,5,0.2380952381,,12
+7,Kevin O'Connor,Kevin,,Male,2,"USA1, USA11",1,,13,3,0.2307692308,2,0.1538461538,,12
+8,Andrew Feinberg,Drew,,Male,2,"USA1, USA11",1,,13,3,0.2307692308,2,0.1538461538,,12
+9,Nancy Hoyt,Nancy,,Female,1,USA1,1,,9,0,0.0,2,0.2222222222,,1
+10,Emily Hoyt,Emily,,Female,1,USA1,1,,9,0,0.0,2,0.2222222222,,1
+11,Leonard Hudson,Lenny,,Male,1,USA1,1,,7,0,0.0,2,0.2857142857,,1
+12,Karyn Jefferson,Karyn,,Female,1,USA1,1,,7,0,0.0,2,0.2857142857,,1
+13,Paul J. Alessi,Paul,,Male,1,USA1,1,,5,0,0.0,1,0.2,,1
+14,Amie Barsky,Amie,,Female,1,USA1,1,,5,0,0.0,1,0.2,,1
+15,David Groark,Dave,,Male,1,USA1,1,,4,0,0.0,1,0.25,,1
+16,Margaretta Groark,Margaretta,,Female,1,USA1,1,,4,0,0.0,1,0.25,,1
+17,Patricia Pierce,Pat,,Female,1,USA1,1,,3,1,0.3333333333,1,0.3333333333,,1
+18,Brenda Mehta,Brenda,,Female,1,USA1,1,,3,1,0.3333333333,1,0.3333333333,,1
+19,Kimberly Smith,Kim,,Female,1,USA1,1,,2,0,0.0,1,0.5,,1
+20,Leslie Kellner,Leslie,,Female,1,USA1,1,,2,0,0.0,1,0.5,,1
+21,Matthew Robar,Matt,,Male,1,USA1,1,,1,0,0.0,1,1.0,,1
+22,Ana Robar,Ana,,Female,1,USA1,1,,1,0,0.0,1,1.0,,1
+23,Chris Luca,Chris,,Male,1,USA2,1,,13,3,0.2307692308,2,0.1538461538,,2
+24,Alex Boylan,Alex,,Male,1,USA2,1,,13,3,0.2307692308,2,0.1538461538,,2
+25,Tara Lynch,Tara,,Female,1,USA2,1,,13,3,0.2307692308,0,0.0,,2
+26,Wil Steger,Wil,,Male,1,USA2,1,,13,3,0.2307692308,0,0.0,,2
+27,Blake Mycoskie,Blake,,Male,1,USA2,1,,13,2,0.1538461538,2,0.1538461538,,2
+28,Paige Mycoskie,Paige,,Female,1,USA2,1,,13,2,0.1538461538,2,0.1538461538,,2
+29,Oswald Mendez,Oswald,,Male,2,"USA2, USA11",1,,23,6,0.2608695652,4,0.1739130435,,12
+30,Danny Jimenez,Danny,,Male,2,"USA2, USA11",1,,23,6,0.2608695652,4,0.1739130435,,12
+31,Gary Rosen,Gary,,Male,1,USA2,1,,9,1,0.1111111111,1,0.1111111111,,2
+32,Dave Lepeska,Dave,,Male,1,USA2,1,,9,1,0.1111111111,1,0.1111111111,,2
+33,Mary Lenig,Mary,,Female,1,USA2,1,,7,1,0.1428571429,1,0.1428571429,,2
+34,Peach Krebs,Peach,,Female,1,USA2,1,,7,1,0.1428571429,1,0.1428571429,,2
+35,Cyndi Kalenberg,Cyndi,,Female,1,USA2,1,,5,0,0.0,1,0.2,,2
+36,Russell Kalenberg,Russell,,Male,1,USA2,1,,5,0,0.0,1,0.2,,2
+37,Shola Richards,Shola,,Male,1,USA2,1,,4,1,0.25,1,0.25,,2
+38,Doyin Richards,Doyin,,Male,1,USA2,1,,4,1,0.25,1,0.25,,2
+39,Peggy Kuhn,Peggy,,Female,1,USA2,1,,3,0,0.0,1,0.3333333333,,2
+40,Claire Jinks,Claire,,Female,1,USA2,1,,3,0,0.0,1,0.3333333333,,2
+41,Hope Davis,Hope,,Female,1,USA2,1,,2,0,0.0,1,0.5,,2
+42,Norm Davis,Norm,,Male,1,USA2,1,,2,0,0.0,1,0.5,,2
+43,Diedre Washington,Diedre,,Female,1,USA2,1,,1,0,0.0,1,1.0,,2
+44,Hillary Washington,Hillary,,Female,1,USA2,1,,1,0,0.0,1,1.0,,2
+45,Florinka Pesenti,Flo,,Female,1,USA3,1,,13,2,0.1538461538,2,0.1538461538,,3
+46,Zach Behr,Zach,,Male,1,USA3,1,,13,2,0.1538461538,2,0.1538461538,,3
+47,Teri Pollack,Teri,,Female,2,"USA3, USA11",1,,19,3,0.1578947368,1,0.05263157895,,12
+48,Ian Pollack,Ian,,Male,2,"USA3, USA11",1,,19,3,0.1578947368,1,0.05263157895,,12
+49,Ken Duphiney,Ken,,Male,1,USA3,1,,13,3,0.2307692308,1,0.07692307692,,3
+50,Gerard Duphiney,Gerard,,Male,1,USA3,1,,13,3,0.2307692308,1,0.07692307692,,3
+51,Derek Riker,Derek,,Male,1,USA3,1,,11,4,0.3636363636,1,0.09090909091,,3
+52,Drew Riker,Drew,,Male,1,USA3,1,,11,4,0.3636363636,1,0.09090909091,,3
+53,John Vito Pietanza,John Vito,,Male,2,"USA3, USA11",1,,11,1,0.09090909091,3,0.2727272727,,12
+54,Jillian Aquilino,Jill,,Female,2,"USA3, USA11",1,,11,1,0.09090909091,3,0.2727272727,,12
+55,Andre Plummer,Andre,,Male,1,USA3,1,,7,0,0.0,1,0.1428571429,,3
+56,Damon Wafer,Damon,,Male,1,USA3,1,,7,0,0.0,1,0.1428571429,,3
+57,Aaron Goldschmidt,Aaron,,Male,1,USA3,1,,6,0,0.0,1,0.1666666667,,3
+58,Arianne Udell,Arianne,,Female,1,USA3,1,,6,0,0.0,1,0.1666666667,,3
+59,Michael Ilacqua,Michael,,Male,1,USA3,1,,5,0,0.0,1,0.2,,3
+60,Kathy Perez,Kathy,,Female,1,USA3,1,,5,0,0.0,1,0.2,,3
+61,Heather Mahar,Heather,,Female,1,USA3,1,,4,0,0.0,1,0.25,,3
+62,Eve Madison,Eve,,Female,1,USA3,1,,4,0,0.0,1,0.25,,3
+63,Dennis Hyde,Dennis,,Male,1,USA3,1,,3,0,0.0,1,0.3333333333,,3
+64,Andrew Hyde,Andrew,,Male,1,USA3,1,,3,0,0.0,1,0.3333333333,,3
+65,Tramel Raggs,Tramel,,Male,1,USA3,1,,2,0,0.0,1,0.5,,3
+66,Talicia Raggs,Talicia,,Female,1,USA3,1,,2,0,0.0,1,0.5,,3
+67,Gina Diggins,Gina,,Female,1,USA3,1,,1,0,0.0,1,1.0,,3
+68,Sylvia Pitts,Sylvia,,Female,1,USA3,1,,1,0,0.0,1,1.0,,3
+69,Reichen Lehmkuhl,Reichen,,Male,1,USA4,1,,13,2,0.1538461538,0,0.0,,4
+70,Chip Arndt,Chip,,Male,1,USA4,1,,13,2,0.1538461538,0,0.0,,4
+71,Kelly Parks,Kelly,,Female,1,USA4,1,,13,1,0.07692307692,2,0.1538461538,,4
+72,Jon Corso,Jon,,Male,1,USA4,1,,13,1,0.07692307692,2,0.1538461538,,4
+73,David Dean,David,,Male,1,USA4,1,,13,4,0.3076923077,2,0.1538461538,,4
+74,Jeff Strand,Jeff,,Male,1,USA4,1,,13,4,0.3076923077,2,0.1538461538,,4
+75,Jon Weiss,Jon,,Male,1,USA4,1,,11,1,0.09090909091,1,0.09090909091,,4
+76,Al Rios,Al,,Male,1,USA4,1,,11,1,0.09090909091,1,0.09090909091,,4
+77,Millie Smith,Millie,,Female,1,USA4,1,,9,2,0.2222222222,1,0.1111111111,,4
+78,Chuck Shankles,Chuck,,Male,1,USA4,1,,9,2,0.2222222222,1,0.1111111111,,4
+79,Tian Kitchen,Tian,,Female,1,USA4,1,,7,1,0.1428571429,1,0.1428571429,,4
+80,Jaree Poteet,Jaree,,Female,1,USA4,1,,7,1,0.1428571429,1,0.1428571429,,4
+81,Monica Ambrose,Monica,,Female,1,USA4,1,,6,0,0.0,1,0.1666666667,,4
+82,Sheree Buchanan,Sheree,,Female,1,USA4,1,,6,0,0.0,1,0.1666666667,,4
+83,Steve Meitz,Steve,,Male,1,USA4,1,,5,1,0.2,1,0.2,,4
+84,Dave Cottingham,Dave,,Male,1,USA4,1,,5,1,0.2,1,0.2,,4
+85,Steve Cottingham,Steve,,Male,1,USA4,1,,4,2,0.5,1,0.25,,4
+86,Josh Cottingham,Josh,,Male,1,USA4,1,,4,2,0.5,1,0.25,,4
+87,Russell Brown,Russell,,Male,1,USA4,1,,3,0,0.0,1,0.3333333333,,4
+88,Cindy Duck,Cindy,,Female,1,USA4,1,,3,0,0.0,1,0.3333333333,,4
+89,Amanda Adams,Amanda,,Female,1,USA4,1,,2,1,0.5,1,0.5,,4
+90,Chris Garry,Chris,,Male,1,USA4,1,,2,1,0.5,1,0.5,,4
+91,Debra Carmody,Debra,,Female,1,USA4,1,,1,0,0.0,1,1.0,,4
+92,Steve Carmody,Steve,,Male,1,USA4,1,,1,0,0.0,1,1.0,,4
+93,Chip McAllister,Chip,,Male,1,USA5,1,,13,4,0.3076923077,0,0.0,,5
+94,Kim McAllister,Kim,,Female,1,USA5,1,,13,4,0.3076923077,0,0.0,,5
+95,Colin Guinn,Colin,,Male,2,"USA5, USA31",1,,25,9,0.36,1,0.04,,76
+96,Christie Woods,Christie,,Female,2,"USA5, USA31",1,,25,9,0.36,1,0.04,,76
+97,Brandon Davidson,Brandon,,Male,1,USA5,1,,13,2,0.1538461538,2,0.1538461538,,5
+98,Nicole O'Brian,Nicole,,Female,1,USA5,1,,13,2,0.1538461538,2,0.1538461538,,5
+99,Linda Ruiz,Linda,,Female,1,USA5,1,,12,0,0.0,2,0.1666666667,,5
+100,Karen Heins,Karen,,Female,1,USA5,1,,12,0,0.0,2,0.1666666667,,5
+101,Kami French,Kami,,Female,1,USA5,1,,10,0,0.0,2,0.2,,5
+102,Karli French,Karli,,Female,1,USA5,1,,10,0,0.0,2,0.2,,5
+103,Charla Baklayan Faddoul,Charla,,Female,2,"USA5, USA11",1,,20,2,0.1,2,0.1,,12
+104,Mirna Hindoyan,Mirna,,Female,2,"USA5, USA11",1,,20,2,0.1,2,0.1,,12
+105,Marshall Hudes,Marshall,,Male,1,USA5,1,,6,0,0.0,1,0.1666666667,,5
+106,Lance Hudes,Lance,,Male,1,USA5,1,,6,0,0.0,1,0.1666666667,,5
+107,Bob Barron,Bob,,Male,1,USA5,1,,4,0,0.0,1,0.25,,5
+108,Joyce Nicolo,Joyce,,Female,1,USA5,1,,4,0,0.0,1,0.25,,5
+109,Jim McCoy,Jim,,Male,1,USA5,1,,3,0,0.0,1,0.3333333333,,5
+110,Marsha McCoy,Marsha,,Female,1,USA5,1,,3,0,0.0,1,0.3333333333,,5
+111,Alison Irwin,Alison,,Female,1,USA5,1,,2,1,0.5,1,0.5,,5
+112,Donny Patrick,Donny,,Male,1,USA5,1,,2,1,0.5,1,0.5,,5
+113,Dennis Frentsos,Dennis,,Male,1,USA5,1,,1,0,0.0,1,1.0,,5
+114,Erika Shay,Erika,,Female,1,USA5,1,,1,0,0.0,1,1.0,,5
+115,Freddy Holliday,Freddy,,Male,1,USA6,1,,13,3,0.2307692308,0,0.0,,6
+116,Kendra Bentley,Kendra,,Female,1,USA6,1,,13,3,0.2307692308,0,0.0,,6
+117,Kris Perkins,Kris,,Female,1,USA6,1,,13,4,0.3076923077,0,0.0,,6
+118,Jon Buehler,Jon,,Male,1,USA6,1,,13,4,0.3076923077,0,0.0,,6
+119,Adam Malis,Adam,,Male,1,USA6,1,,13,1,0.07692307692,2,0.1538461538,,6
+120,Rebecca Cardon,Rebecca,,Female,1,USA6,1,,13,1,0.07692307692,2,0.1538461538,,6
+121,Hayden Kristianson,Hayden,,Female,1,USA6,1,,12,4,0.3333333333,2,0.1666666667,,6
+122,Aaron Crumbaugh,Aaron,,Male,1,USA6,1,,12,4,0.3333333333,2,0.1666666667,,6
+123,Lori Harvey,Lori,,Female,1,USA6,1,,10,1,0.1,2,0.2,,6
+124,Bolo Dar'tainian,Bolo,,Male,1,USA6,1,,10,1,0.1,2,0.2,,6
+125,Jonathan Baker,Jonathan,,Male,1,USA6,1,,9,0,0.0,1,0.1111111111,,6
+126,Victoria Fuller,Victoria,,Female,1,USA6,1,,9,0,0.0,1,0.1111111111,,6
+127,Gustavius McLeod,Gus,,Male,1,USA6,1,,7,0,0.0,1,0.1428571429,,6
+128,Hera McLeod,Hera,,Female,1,USA6,1,,7,0,0.0,1,0.1428571429,,6
+129,Donald St. Claire,Don,,Male,1,USA6,1,,5,0,0.0,2,0.4,,6
+130,Mary Jean St. Claire,Mary Jean,,Female,1,USA6,1,,5,0,0.0,2,0.4,,6
+131,Lena Jensen,Lena,,Female,1,USA6,1,,3,0,0.0,1,0.3333333333,,6
+132,Kristy Jensen,Kristy,,Female,1,USA6,1,,3,0,0.0,1,0.3333333333,,6
+133,Meredith Tufaro,Meredith,,Female,1,USA6,1,,2,0,0.0,1,0.5,,6
+134,Maria Sampogna,Maria,,Female,1,USA6,1,,2,0,0.0,1,0.5,,6
+135,Avi Schneier,Avi,,Male,1,USA6,1,,1,0,0.0,1,1.0,,6
+136,Joe Rashbaum,Joe,,Male,1,USA6,1,,1,0,0.0,1,1.0,,6
+137,Uchenna Agu,Uchenna,,Male,2,"USA7, USA11",1,,22,4,0.1818181818,3,0.1363636364,,12
+138,Joyce Agu,Joyce,,Female,2,"USA7, USA11",1,,22,4,0.1818181818,3,0.1363636364,,12
+139,Robert Mariano,Rob,,Male,2,"USA7, USA11",1,,17,8,0.4705882353,1,0.05882352941,,12
+140,Amber Mariano,Amber,,Female,2,"USA7, USA11",1,,17,8,0.4705882353,1,0.05882352941,,12
+141,"Ronald Young, Jr.",Ron,,Male,1,USA7,1,,13,2,0.1538461538,2,0.1538461538,,7
+142,Kelly McCorkle,Kelly,,Female,1,USA7,1,,13,2,0.1538461538,2,0.1538461538,,7
+143,Meredith Smith,Meredith,,Male,1,USA7,1,,11,0,0.0,3,0.2727272727,,7
+144,Gretchen Smith,Gretchen,,Female,1,USA7,1,,11,0,0.0,3,0.2727272727,,7
+145,Lynn Warren,Lynn,,Male,1,USA7,1,,9,1,0.1111111111,1,0.1111111111,,7
+146,Alex Ali,Alex,,Male,1,USA7,1,,9,1,0.1111111111,1,0.1111111111,,7
+147,Brian Smith,Brian,,Male,1,USA7,1,,7,0,0.0,1,0.1428571429,,7
+148,Greg Smith,Greg,,Male,1,USA7,1,,7,0,0.0,1,0.1428571429,,7
+149,Ray Hosteau,Ray,,Male,1,USA7,1,,6,1,0.1666666667,1,0.1666666667,,7
+150,Deana Shane,Deana,,Female,1,USA7,1,,6,1,0.1666666667,1,0.1666666667,,7
+151,Susan Vaughn,Susan,,Female,1,USA7,1,,4,0,0.0,1,0.25,,7
+152,Patrick Vaughn,Patrick,,Male,1,USA7,1,,4,0,0.0,1,0.25,,7
+153,Debbie Cloyed,Debbie,,Female,1,USA7,1,,3,1,0.3333333333,1,0.3333333333,,7
+154,Bianca Smith,Bianca,,Female,1,USA7,1,,3,1,0.3333333333,1,0.3333333333,,7
+155,Megan Baker,Megan,,Female,1,USA7,1,,2,0,0.0,1,0.5,,7
+156,Heidi Heidel,Heidi,,Female,1,USA7,1,,2,0,0.0,1,0.5,,7
+157,Ryan Phillips,Ryan,,Male,1,USA7,1,,1,0,0.0,1,1.0,,7
+158,Chuck Horton,Chuck,,Male,1,USA7,1,,1,0,0.0,1,1.0,,7
+159,Nicholas Linz,Nick,,Male,1,USA8,1,,13,2,0.1538461538,0,0.0,,8
+160,Alexander Linz,Alex,,Male,1,USA8,1,,13,2,0.1538461538,0,0.0,,8
+161,Megan Linz,Megan,,Female,1,USA8,1,,13,2,0.1538461538,0,0.0,,8
+162,Thomas Linz,Tommy,,Male,1,USA8,1,,13,2,0.1538461538,0,0.0,,8
+163,Walter Bransen,Wally,,Male,1,USA8,1,,13,5,0.3846153846,1,0.07692307692,,8
+164,Elizabeth Bransen,Beth,,Female,1,USA8,1,,13,5,0.3846153846,1,0.07692307692,,8
+165,Lauren Bransen,Lauren,,Female,1,USA8,1,,13,5,0.3846153846,1,0.07692307692,,8
+166,Lindsay Bransen,Lindsay,,Female,1,USA8,1,,13,5,0.3846153846,1,0.07692307692,,8
+167,Linda Weaver,Linda,,Female,1,USA8,1,,13,1,0.07692307692,3,0.2307692308,,8
+168,Rebecca Weaver,Rebecca,,Female,1,USA8,1,,13,1,0.07692307692,3,0.2307692308,,8
+169,Rachel Weaver,Rachel,,Female,1,USA8,1,,13,1,0.07692307692,3,0.2307692308,,8
+170,Roy Holland Weaver IV,Rolly,,Male,1,USA8,1,,13,1,0.07692307692,3,0.2307692308,,8
+171,Michelle Godlewski,Michelle,,Female,1,USA8,1,,11,3,0.2727272727,3,0.2727272727,,8
+172,Sharon Godlewski,Sharon,,Female,1,USA8,1,,11,3,0.2727272727,3,0.2727272727,,8
+173,Christine Godlewski,Christine,,Female,1,USA8,1,,11,3,0.2727272727,3,0.2727272727,,8
+174,Patricia Godlewski,Tricia,,Female,1,USA8,1,,11,3,0.2727272727,3,0.2727272727,,8
+175,Anthony Paolo,Tony,,Male,1,USA8,1,,8,2,0.25,1,0.125,,8
+176,Marion Paolo,Marion,,Female,1,USA8,1,,8,2,0.25,1,0.125,,8
+177,DJ Paolo,DJ,,Male,1,USA8,1,,8,2,0.25,1,0.125,,8
+178,Brian Paolo,Brian,,Male,1,USA8,1,,8,2,0.25,1,0.125,,8
+179,William Gaghan,Bill,,Male,1,USA8,1,,6,0,0.0,1,0.1666666667,,8
+180,Tamara Gaghan,Tammy,,Female,1,USA8,1,,6,0,0.0,1,0.1666666667,,8
+181,"William Gaghan, Jr.",Billy,,Male,1,USA8,1,,6,0,0.0,1,0.1666666667,,8
+182,Carissa Gaghan,Carissa,,Female,1,USA8,1,,6,0,0.0,1,0.1666666667,,8
+183,Mark Schroeder,Mark,,Male,1,USA8,1,,4,0,0.0,1,0.25,,8
+184,Char Schroeder,Char,,Female,1,USA8,1,,4,0,0.0,1,0.25,,8
+185,Nastassia Schroeder,Stassi,,Female,1,USA8,1,,4,0,0.0,1,0.25,,8
+186,Hunter Schroeder,Hunter,,Male,1,USA8,1,,4,0,0.0,1,0.25,,8
+187,Anthony Aiello,Tony,,Male,1,USA8,1,,3,0,0.0,1,0.3333333333,,8
+188,Kevin Kempskie,Kevin,,Male,1,USA8,1,,3,0,0.0,1,0.3333333333,,8
+189,Matthew Hanson,Matt,,Male,1,USA8,1,,3,0,0.0,1,0.3333333333,,8
+190,David Alverson,David,,Male,1,USA8,1,,3,0,0.0,1,0.3333333333,,8
+191,Denny Rogers,Denny,,Male,1,USA8,1,,2,0,0.0,1,0.5,,8
+192,Renee Rogers,Renee,,Female,1,USA8,1,,2,0,0.0,1,0.5,,8
+193,Brittney Rogers,Brittney,,Female,1,USA8,1,,2,0,0.0,1,0.5,,8
+194,Brock Rogers,Brock,,Male,1,USA8,1,,2,0,0.0,1,0.5,,8
+195,Reggie Black,Reggie,,Male,1,USA8,1,,1,0,0.0,1,1.0,,8
+196,Kimberly Black,Kimberly,,Female,1,USA8,1,,1,0,0.0,1,1.0,,8
+197,Kenneth Black,Kenneth,,Male,1,USA8,1,,1,0,0.0,1,1.0,,8
+198,Austin Black,Austin,,Male,1,USA8,1,,1,0,0.0,1,1.0,,8
+199,Brian Jeffrey Averell,BJ,,Male,1,USA9,1,,13,5,0.3846153846,2,0.1538461538,,9
+200,Tyler MacNiven,Tyler,,Male,1,USA9,1,,13,5,0.3846153846,2,0.1538461538,,9
+201,Eric Sanchez,Eric,,Male,2,"USA9, USA11",2,,26,7,0.2692307692,1,0.03846153846,,12
+202,Jeremy Ryan,Jeremy,,Male,1,USA9,1,,13,6,0.4615384615,0,0.0,,9
+203,Raymond Whitty,Ray,,Male,1,USA9,1,,13,1,0.07692307692,2,0.1538461538,,9
+204,Yolanda Brown-Moore,Yolanda,,Female,1,USA9,1,,13,1,0.07692307692,2,0.1538461538,,9
+205,Joseph Meadows,Joseph,,Male,1,USA9,1,,11,0,0.0,1,0.09090909091,,9
+206,Monica Cayce,Monica,,Female,1,USA9,1,,11,0,0.0,1,0.09090909091,,9
+207,Francis Lazarus,Fran,,Female,1,USA9,1,,9,1,0.1111111111,1,0.1111111111,,9
+208,Bernard Lazarus,Barry,,Male,1,USA9,1,,9,1,0.1111111111,1,0.1111111111,,9
+209,Terry Garner,Lake,,Male,1,USA9,1,,7,0,0.0,1,0.1428571429,,9
+210,Michelle Garner,Michelle,,Female,1,USA9,1,,7,0,0.0,1,0.1428571429,,9
+211,David Spiker,Dave,,Male,1,USA9,1,,6,0,0.0,2,0.3333333333,,9
+212,Lori Willems,Lori,,Female,1,USA9,1,,6,0,0.0,2,0.3333333333,,9
+213,Danielle Turner,Danielle,,Female,2,"USA9, USA11",2,,18,1,0.05555555556,2,0.1111111111,,12
+214,Danielle Torchio,Dani,,Female,1,USA9,1,,5,0,0.0,1,0.2,,9
+215,Wanda Lopez-Rochford,Wanda,,Female,1,USA9,1,,4,0,0.0,1,0.25,,9
+216,Desiree Cifre,Desiree,,Female,1,USA9,1,,4,0,0.0,1,0.25,,9
+217,Lisa Hinds,Lisa,,Female,1,USA9,1,,2,0,0.0,1,0.5,,9
+218,Joni Glaze,Joni,,Female,1,USA9,1,,2,0,0.0,1,0.5,,9
+219,John Lowe,John,,Male,1,USA9,1,,1,0,0.0,1,1.0,,9
+220,Scott Braginton-Smith,Scott,,Male,1,USA9,1,,1,0,0.0,1,1.0,,9
+221,Tyler Denk,Tyler,,Male,1,USA10,1,,13,5,0.3846153846,0,0.0,,10
+222,James Branaman,James,,Male,1,USA10,1,,13,5,0.3846153846,0,0.0,,10
+223,Robert Diaz,Rob,,Male,1,USA10,1,,13,2,0.1538461538,0,0.0,,10
+224,Kimberly Chabolla,Kimberly,,Female,1,USA10,1,,13,2,0.1538461538,0,0.0,,10
+225,Lynette Turk,Lyn,,Female,1,USA10,1,,13,0,0.0,1,0.07692307692,,10
+226,Karlyn Harris,Karlyn,,Female,1,USA10,1,,13,0,0.0,1,0.07692307692,,10
+227,Dustin Seltzer,Dustin,,Female,2,"USA10, USA11",1,,25,6,0.24,2,0.08,,12
+228,Kandice Pelletier,Kandice,,Female,2,"USA10, USA11",1,,25,6,0.24,2,0.08,,12
+229,Erwin Cho,Erwin,,Male,1,USA10,1,,10,1,0.1,2,0.2,,10
+230,Godwin Cho,Godwin,,Male,1,USA10,1,,10,1,0.1,2,0.2,,10
+231,"David Conley, Jr.",David,,Male,2,"USA10, USA11",1,,11,1,0.09090909091,4,0.3636363636,,12
+232,Mary Conley,Mary,,Female,2,"USA10, USA11",1,,11,1,0.09090909091,4,0.3636363636,,12
+233,Peter Harsch,Peter,,Male,1,USA10,1,,6,2,0.3333333333,1,0.1666666667,,10
+234,Sarah Reinertsen,Sarah,,Female,1,USA10,1,,6,2,0.3333333333,1,0.1666666667,,10
+235,Thomas Rock,Tom,,Male,1,USA10,1,,4,0,0.0,1,0.25,,10
+236,Terrance Cosentino,Terry,,Male,1,USA10,1,,4,0,0.0,1,0.25,,10
+237,Duke Marcoccio,Duke,,Male,1,USA10,1,,3,0,0.0,1,0.3333333333,,10
+238,Lauren Marcoccio,Lauren,,Female,1,USA10,1,,3,0,0.0,1,0.3333333333,,10
+239,Kellie Patterson,Kellie,,Female,1,USA10,1,,2,0,0.0,1,0.5,,10
+240,Jamie Hill,Jamie,,Female,1,USA10,1,,2,0,0.0,1,0.5,,10
+241,Vipul Patel,Vipul,,Male,1,USA10,1,,1,0,0.0,0,0.0,,10
+242,Arti Patel,Arti,,Female,1,USA10,1,,1,0,0.0,0,0.0,,10
+243,Bilal Abdul-Mani,Bilal,,Male,1,USA10,1,,1,0,0.0,1,1.0,,10
+244,Sa'eed Rudolph,Sa'eed,,Male,1,USA10,1,,1,0,0.0,1,1.0,,10
+245,Zabrina Fernandez,Zabrina,,Female,1,ASI1,1,,13,1,0.07692307692,1,0.07692307692,,11
+246,Joe Jer Tee,Joe Jer,,Female,1,ASI1,1,,13,1,0.07692307692,1,0.07692307692,,11
+247,Sandy Sydney,Sandy,,Male,1,ASI1,1,,13,3,0.2307692308,2,0.1538461538,,11
+248,Francesca Etzdorf,Francesca,,Female,1,ASI1,1,,13,3,0.2307692308,2,0.1538461538,,11
+249,Andrew Tan,Andrew,,Male,1,ASI1,1,,13,2,0.1538461538,1,0.07692307692,,11
+250,Park Syeon,Syeon,,Female,1,ASI1,1,,13,2,0.1538461538,1,0.07692307692,,11
+251,Mardy Juwono,Mardy,,Male,1,ASI1,1,,12,2,0.1666666667,2,0.1666666667,,11
+252,Marsio Juwono,Marsio,,Male,1,ASI1,1,,12,2,0.1666666667,2,0.1666666667,,11
+253,Andy Lawson,Andy,,Male,1,ASI1,1,,10,3,0.3,1,0.1,,11
+254,Laura Kluk,Laura,,Female,1,ASI1,1,,10,3,0.3,1,0.1,,11
+255,Howard Bicknell,Howard,,Male,1,ASI1,1,,8,1,0.125,2,0.25,,11
+256,Sahran Abeysundara,Sahran,,Male,1,ASI1,1,,8,1,0.125,2,0.25,,11
+257,Melody Chen,Melody,,Female,1,ASI1,1,,6,0,0.0,1,0.1666666667,,11
+258,Sharon Wong,Sharon,,Female,1,ASI1,1,,6,0,0.0,1,0.1666666667,,11
+259,Sahil Shroff,Sahil,,Male,1,ASI1,1,,5,1,0.2,1,0.2,,11
+260,Prashant Sachdev,Prashant,,Male,1,ASI1,1,,5,1,0.2,1,0.2,,11
+261,Aubrey Miles,Aubrey,,Female,1,ASI1,1,,3,0,0.0,1,0.3333333333,,11
+262,Jacqueline Yu,Jacqueline,,Female,1,ASI1,1,,3,0,0.0,1,0.3333333333,,11
+263,Ernesto Lopez,Ernie,,Male,1,ASI1,1,,2,0,0.0,1,0.5,,11
+264,Jill Lopez,Jeena,,Female,1,ASI1,1,,2,0,0.0,1,0.5,,11
+265,Patrícia,Patrícia,,Female,1,BRA1,1,,13,2,0.1538461538,0,0.0,,13
+266,Sane,Sane,,Female,1,BRA1,1,,13,2,0.1538461538,0,0.0,,13
+267,Jonatas Guedes,Jonatas,,Male,1,BRA1,1,,13,2,0.1538461538,1,0.07692307692,,13
+268,Rafael,Rafael,,Male,1,BRA1,1,,13,2,0.1538461538,1,0.07692307692,,13
+269,Perri,Perri,,Male,1,BRA1,1,,13,5,0.3846153846,1,0.07692307692,,13
+270,Maristela,Maristela,,Female,1,BRA1,1,,13,5,0.3846153846,1,0.07692307692,,13
+271,Jorge,Jorge,,Male,1,BRA1,1,,12,1,0.08333333333,2,0.1666666667,,13
+272,Silvia,Silvia,,Female,1,BRA1,1,,12,1,0.08333333333,2,0.1666666667,,13
+273,Débora,Débora,,Female,1,BRA1,1,,10,1,0.1,2,0.2,,13
+274,Daniela,Daniela,,Female,1,BRA1,1,,10,1,0.1,2,0.2,,13
+275,Andréa de Carvalho,Andréa,,Female,1,BRA1,1,,8,1,0.125,2,0.25,,13
+276,Luciana,Luciana,,Female,1,BRA1,1,,8,1,0.125,2,0.25,,13
+277,Milene,Milene,,Female,1,BRA1,1,,7,0,0.0,1,0.1428571429,,13
+278,Jaqueline,Jaqueline,,Female,1,BRA1,1,,7,0,0.0,1,0.1428571429,,13
+279,Mari Lice,Mari Lice,,Female,1,BRA1,1,,5,0,0.0,1,0.2,,13
+280,Tâmisa,Tâmisa,,Female,1,BRA1,1,,5,0,0.0,1,0.2,,13
+281,Carlos,Carlos,,Male,1,BRA1,1,,4,1,0.25,1,0.25,,13
+282,Eduardo,Eduardo,,Male,1,BRA1,1,,4,1,0.25,1,0.25,,13
+283,Narciso,Narciso,,Male,1,BRA1,1,,2,0,0.0,1,0.5,,13
+284,Marcelo,Marcelo,,Male,1,BRA1,1,,2,0,0.0,1,0.5,,13
+285,Sandro,Sandro,,Male,1,BRA1,1,,1,0,0.0,1,1.0,,13
+286,Daniel,Daniel,,Male,1,BRA1,1,,1,0,0.0,1,1.0,,13
+287,Thomas Kyle Erwin,TK,,Male,1,USA12,1,,11,3,0.2727272727,1,0.09090909091,,14
+288,Rachel Rosales,Rachel,,Female,1,USA12,1,,11,3,0.2727272727,1,0.09090909091,,14
+289,Ronald Hsu,Ron,,Male,2,"USA12, USA18",1,,18,3,0.1666666667,1,0.05555555556,,27
+290,Christina Hsu,Christina,,Female,2,"USA12, USA18",1,,18,3,0.1666666667,1,0.05555555556,,27
+291,Nicolas Fulks,Nicolas,,Male,1,USA12,1,,11,1,0.09090909091,1,0.09090909091,,14
+292,Donald Jerousek,Donald,,Male,1,USA12,1,,11,1,0.09090909091,1,0.09090909091,,14
+293,Nathan Hagstrom,Nathan,,Male,1,USA12,1,,10,0,0.0,1,0.1,,14
+294,Jennifer Parker,Jennifer,,Female,1,USA12,1,,10,0,0.0,1,0.1,,14
+295,Kent Kaliber,Kent,,Male,2,"USA12, USA18",1,,18,0,0.0,4,0.2222222222,,27
+296,Jennifer Fiala,Vyxsin,,Female,2,"USA12, USA18",1,,18,0,0.0,4,0.2222222222,,27
+297,Azaria Azene,Azaria,,Male,1,USA12,1,,6,3,0.5,1,0.1666666667,,14
+298,Hendekea Azene,Hendekea,,Female,1,USA12,1,,6,3,0.5,1,0.1666666667,,14
+299,Shana Wall,Shana,,Female,1,USA12,1,,5,0,0.0,1,0.2,,14
+300,Jennifer McCall,Jennifer,,Female,1,USA12,1,,5,0,0.0,1,0.2,,14
+301,Lorena Segura,Lorena,,Female,1,USA12,1,,4,1,0.25,1,0.25,,14
+302,Jason Widener,Jason,,Male,1,USA12,1,,4,1,0.25,1,0.25,,14
+303,Marianna Ruiz,Marianna,,Female,1,USA12,1,,3,0,0.0,1,0.3333333333,,14
+304,Julia Ruiz,Julia,,Female,1,USA12,1,,3,0,0.0,1,0.3333333333,,14
+305,Kate Lewis,Kate,,Female,1,USA12,1,,2,0,0.0,1,0.5,,14
+306,Patrick Hendrickson,Pat,,Male,1,USA12,1,,2,0,0.0,1,0.5,,14
+307,Ari Bonias,Ari,,Male,1,USA12,1,,1,0,0.0,1,1.0,,14
+308,Staella Gianakakos,Staella,,Female,1,USA12,1,,1,0,0.0,1,1.0,,14
+309,Adrian Yap,Adrian,,Male,1,ASI2,1,,13,3,0.2307692308,0,0.0,,15
+310,Collin Low,Collin,,Male,1,ASI2,1,,13,3,0.2307692308,0,0.0,,15
+311,Pamela Chong,Pamela,,Female,1,ASI2,1,,13,1,0.07692307692,1,0.07692307692,,15
+312,Vanessa Chong,Vanessa,,Female,1,ASI2,1,,13,1,0.07692307692,1,0.07692307692,,15
+313,Marc Nelson,Marc,,Male,1,ASI2,1,,13,8,0.6153846154,1,0.07692307692,,15
+314,Rovilson Fernandez,Rovilson,,Male,1,ASI2,1,,13,8,0.6153846154,1,0.07692307692,,15
+315,Diane Douglas,Diane,,Female,1,ASI2,1,,12,1,0.08333333333,1,0.08333333333,,15
+316,Ann Tan,Ann,,Female,1,ASI2,1,,12,1,0.08333333333,1,0.08333333333,,15
+317,Natasha Monks,Natasha,,Female,1,ASI2,1,,11,0,0.0,2,0.1818181818,,15
+318,Paula Taylor,Paula,,Female,1,ASI2,1,,11,0,0.0,2,0.1818181818,,15
+319,Trinidad Reed,Terri,,Female,1,ASI2,1,,9,0,0.0,3,0.3333333333,,15
+320,Henry Reed,Henry,,Male,1,ASI2,1,,9,0,0.0,3,0.3333333333,,15
+321,Daichi Kawashima,Daichi,,Male,1,ASI2,1,,6,0,0.0,1,0.1666666667,,15
+322,Sawaka Kawashima,Sawaka,,Female,1,ASI2,1,,6,0,0.0,1,0.1666666667,,15
+323,Sophie Teng,Sophie,,Female,1,ASI2,1,,4,0,0.0,1,0.25,,15
+324,Aurelia Chenat,Aurelia,,Female,1,ASI2,1,,4,0,0.0,1,0.25,,15
+325,Kinaryosih,Kinaryosih,,Male,1,ASI2,1,,3,0,0.0,1,0.3333333333,,15
+326,Brett Money,Brett,,Male,1,ASI2,1,,3,0,0.0,1,0.3333333333,,15
+327,Edwin Lo,Edwin,,Male,1,ASI2,1,,2,0,0.0,2,1.0,,15
+328,Monica Lo,Monica,,Female,1,ASI2,1,,2,0,0.0,2,1.0,,15
+329,Vincent Chung,Vince,,Male,1,ASI3,1,,11,4,0.3636363636,0,0.0,,16
+330,Samuel Wu,Sam,,Male,1,ASI3,1,,11,4,0.3636363636,0,0.0,,16
+331,Geoffrey Rodriguez,Geoff,,Male,1,ASI3,1,,11,2,0.1818181818,0,0.0,,16
+332,Tisha Silang,Tisha,,Female,1,ASI3,1,,11,2,0.1818181818,0,0.0,,16
+333,Ida Nerina,Ida,,Female,1,ASI3,1,,11,2,0.1818181818,3,0.2727272727,,16
+334,Tania Khan,Tania,,Female,1,ASI3,1,,11,2,0.1818181818,3,0.2727272727,,16
+335,Adeline Chan,A.D.,,Female,1,ASI3,1,,10,0,0.0,2,0.2,,16
+336,Faeza Sirajudin,Fuzzie,,Female,1,ASI3,1,,10,0,0.0,2,0.2,,16
+337,Henry Chan,Henry,,Male,1,ASI3,1,,8,2,0.25,1,0.125,,16
+338,Bernadette Chan,Bernie,,Female,1,ASI3,1,,8,2,0.25,1,0.125,,16
+339,Visa Sarasas,Mai,,Female,1,ASI3,1,,5,1,0.2,1,0.2,,16
+340,Oliver Faivre,Oliver,,Male,1,ASI3,1,,5,1,0.2,1,0.2,,16
+341,Niroo Asrani,Niroo,,Male,1,ASI3,1,,4,0,0.0,1,0.25,,16
+342,Kapil Asrani,Kapil,,Male,1,ASI3,1,,4,0,0.0,1,0.25,,16
+343,Pailin Rungratanasunthorn,Pailin,,Female,1,ASI3,1,,3,0,0.0,1,0.3333333333,,16
+344,Natalie Glebova,Natalie,,Female,1,ASI3,1,,3,0,0.0,1,0.3333333333,,16
+345,Isaac Hong,Isaac,,Male,1,ASI3,1,,2,0,0.0,1,0.5,,16
+346,William Hong,William,,Male,1,ASI3,1,,2,0,0.0,1,0.5,,16
+347,Neena Rai,Neena,,Female,1,ASI3,1,,1,0,0.0,1,1.0,,16
+348,Amit Rai,Amit,,Male,1,ASI3,1,,1,0,0.0,1,1.0,,16
+349,Nicholas Spangler,Nick,,Male,1,USA13,1,,11,7,0.6363636364,0,0.0,,17
+350,Emily Spangler,Starr,,Female,1,USA13,1,,11,7,0.6363636364,0,0.0,,17
+351,Kenneth Greene,Ken,,Male,1,USA13,1,,11,3,0.2727272727,1,0.09090909091,,17
+352,Christina Greene,Tina,,Female,1,USA13,1,,11,3,0.2727272727,1,0.09090909091,,17
+353,Andre Lappitt,Andrew,,Male,1,USA13,1,,11,0,0.0,2,0.1818181818,,17
+354,Daniel Honig,Dan,,Male,1,USA13,1,,11,0,0.0,2,0.1818181818,,17
+355,Anttoni Imbimbo,Toni,,Female,1,USA13,1,,10,1,0.1,1,0.1,,17
+356,Dallas Imbimbo,Dallas,,Male,1,USA13,1,,10,1,0.1,1,0.1,,17
+357,Terence Gerchberg,Terence,,Male,1,USA13,1,,8,0,0.0,1,0.125,,17
+358,Sarah Leshner,Sarah,,Female,1,USA13,1,,8,0,0.0,1,0.125,,17
+359,Kelly Crabb,Kelly,,Female,1,USA13,1,,7,0,0.0,1,0.1428571429,,17
+360,Christy Cook,Christy,,Female,1,USA13,1,,7,0,0.0,1,0.1428571429,,17
+361,Aja Benton,Aja,,Female,1,USA13,1,,5,0,0.0,1,0.2,,17
+362,Tyrone White,Ty,,Male,1,USA13,1,,5,0,0.0,1,0.2,,17
+363,Marisa Axelrod,Marisa,,Female,1,USA13,1,,4,0,0.0,1,0.25,,17
+364,Brooke Jackson,Brooke,,Female,1,USA13,1,,4,0,0.0,1,0.25,,17
+365,Mark Yturralde,Mark,,Male,1,USA13,1,,3,0,0.0,1,0.3333333333,,17
+366,William Kahler,Bill,,Male,1,USA13,1,,3,0,0.0,1,0.3333333333,,17
+367,Anthony Marotta,Anthony,,Male,1,USA13,1,,2,0,0.0,1,0.5,,17
+368,Stephanie Kacandes,Stephanie,,Female,1,USA13,1,,2,0,0.0,1,0.5,,17
+369,Anita Jones,Anita,,Female,1,USA13,1,,1,0,0.0,1,1.0,,17
+370,Arthur Jones,Arthur,,Male,1,USA13,1,,1,0,0.0,1,1.0,,17
+371,Shay Kahana,Shay,,Male,1,ISR1,1,,10,3,0.3,0,0.0,,18
+372,Guy Osadon,Guy,,Male,1,ISR1,1,,10,3,0.3,0,0.0,,18
+373,Maya Kramer,Maya,,Female,1,ISR1,1,,10,4,0.4,0,0.0,,18
+374,Amichay Gat,Amichay,,Male,1,ISR1,1,,10,4,0.4,0,0.0,,18
+375,Tom Kilman,Tom,,Female,1,ISR1,1,,10,1,0.1,1,0.1,,18
+376,Gil Kislev,Gil,,Male,1,ISR1,1,,10,1,0.1,1,0.1,,18
+377,Michal Shaviv,Michal,,Female,1,ISR1,1,,9,1,0.1111111111,1,0.1111111111,,18
+378,Ran Shaviv,Ran,,Male,1,ISR1,1,,9,1,0.1111111111,1,0.1111111111,,18
+379,Hadas Federman,Hadas,,Female,1,ISR1,1,,8,0,0.0,2,0.25,,18
+380,Inbal Shelevi,Inbal,,Female,1,ISR1,1,,8,0,0.0,2,0.25,,18
+381,Eliana Turgeman,Eliana,,Female,1,ISR1,1,,6,0,0.0,1,0.1666666667,,18
+382,Yael Ambar,Yael,,Female,1,ISR1,1,,6,0,0.0,1,0.1666666667,,18
+383,Hannah Shaham,Hannah,,Female,1,ISR1,1,,5,1,0.2,1,0.2,,18
+384,Margalit Koenig,Margalit,,Female,1,ISR1,1,,5,1,0.2,1,0.2,,18
+385,Alen Bilig,Alen,,Male,1,ISR1,1,,4,0,0.0,1,0.25,,18
+386,Inbal Harel,Inbal,,Female,1,ISR1,1,,4,0,0.0,1,0.25,,18
+387,Maor Galam,Maor,,Male,1,ISR1,1,,3,0,0.0,2,0.6666666667,,18
+388,Asher Donsoili,Asher,,Male,1,ISR1,1,,3,0,0.0,2,0.6666666667,,18
+389,Liran Kohener,Liran,,Female,1,ISR1,1,,2,0,0.0,1,0.5,,18
+390,Elena Ralph,Elena,,Female,1,ISR1,1,,2,0,0.0,1,0.5,,18
+391,Tamara Jih,Tammy,,Female,1,USA14,1,,12,5,0.4166666667,0,0.0,,19
+392,Victor Jih,Victor,,Male,1,USA14,1,,12,5,0.4166666667,0,0.0,,19
+393,Jaime Faith Edmondson,Jaime,,Female,2,"USA14, USA18",1,,17,1,0.05882352941,1,0.05882352941,,27
+394,Cara Rosenthal,Cara,,Female,2,"USA14, USA18",1,,17,1,0.05882352941,1,0.05882352941,,27
+395,Margaret O'Donnell,Margie,,Female,3,"USA14, USA18, USA24",1,,23,4,0.1739130435,3,0.1304347826,,50
+396,Luke Adams,Luke,,Male,3,"USA14, USA18, USA24",1,,23,4,0.1739130435,3,0.1304347826,,50
+397,LaKisha Hoffman,Kisha,,Female,2,"USA14, USA18",1,,23,2,0.08695652174,2,0.08695652174,,27
+398,Jennifer Hoffman,Jen,,Female,2,"USA14, USA18",1,,23,2,0.08695652174,2,0.08695652174,,27
+399,Mark Munoz,Mark,,Male,1,USA14,1,,9,0,0.0,2,0.2222222222,,19
+400,Michael Munoz,Michael,,Male,1,USA14,1,,9,0,0.0,2,0.2222222222,,19
+401,James White,Mel,,Male,2,"USA14, USA18",1,,10,1,0.1,2,0.2,,27
+402,Michael White,Mike,,Male,2,"USA14, USA18",1,,10,1,0.1,2,0.2,,27
+403,Christina Volkmer,Christie,,Female,1,USA14,1,,6,1,0.1666666667,2,0.3333333333,,19
+404,Jordan Wincheski,Jodi,,Female,1,USA14,1,,6,1,0.1666666667,2,0.3333333333,,19
+405,Amanda Blackledge,Amanda,,Female,2,"USA14, USA18",1,,6,0,0.0,2,0.3333333333,,27
+406,Kristopher Klicka,Kris,,Male,2,"USA14, USA18",1,,6,0,0.0,2,0.3333333333,,27
+407,Bradley Hunt,Brad,,Male,1,USA14,1,,3,0,0.0,1,0.3333333333,,19
+408,Victoria Hunt,Victoria,,Female,1,USA14,1,,3,0,0.0,1,0.3333333333,,19
+409,Steven Cole,Steve,,Male,1,USA14,1,,2,0,0.0,1,0.5,,19
+410,Linda Cole,Linda,,Female,1,USA14,1,,2,0,0.0,1,0.5,,19
+411,Preston McCamy,Preston,,Male,1,USA14,1,,1,0,0.0,1,1.0,,19
+412,Jennifer Hopka,Jennifer,,Female,1,USA14,1,,1,0,0.0,1,1.0,,19
+413,Matías Franchini,Matías,,Male,1,LAM1,1,,13,4,0.3076923077,2,0.1538461538,,20
+414,Tamara Reichelt,Tamara,,Female,1,LAM1,1,,13,4,0.3076923077,2,0.1538461538,,20
+415,Daniel España,Daniel,,Male,1,LAM1,1,,13,2,0.1538461538,0,0.0,,20
+416,David Galavis,David,,Male,1,LAM1,1,,13,2,0.1538461538,0,0.0,,20
+417,Fernanda Guzmán,Ferna,,Female,1,LAM1,1,,13,4,0.3076923077,1,0.07692307692,,20
+418,Francisco Coombs,Fran,,Female,1,LAM1,1,,13,4,0.3076923077,1,0.07692307692,,20
+419,Daniel Mastroiano,Daniel,,Male,1,LAM1,1,,11,1,0.09090909091,1,0.09090909091,,20
+420,Carlos Tavares,Carlos,,Male,1,LAM1,1,,11,1,0.09090909091,1,0.09090909091,,20
+421,Rodrigo Alergo,Rodrigo,,Male,1,LAM1,1,,9,1,0.1111111111,1,0.1111111111,,20
+422,Anna Arestivo,Anna,,Female,1,LAM1,1,,9,1,0.1111111111,1,0.1111111111,,20
+423,Casilda Creixell,Casilda C.,,Female,1,LAM1,1,,8,1,0.125,2,0.25,,20
+424,Casilda Pérez,Casilda P.,,Female,1,LAM1,1,,8,1,0.125,2,0.25,,20
+425,Diego Chaustre,Diego,,Male,1,LAM1,1,,7,0,0.0,1,0.1428571429,,20
+426,Miguel Kurmen,Miguel,,Male,1,LAM1,1,,7,0,0.0,1,0.1428571429,,20
+427,Mario Torres,Mario,,Male,1,LAM1,1,,5,0,0.0,1,0.2,,20
+428,Melissa Figueredo,Melissa,,Female,1,LAM1,1,,5,0,0.0,1,0.2,,20
+429,Ricardo Acevedo,Ricardo,,Male,1,LAM1,1,,4,0,0.0,1,0.25,,20
+430,Adriana Acevedo,Adriana,,Female,1,LAM1,1,,4,0,0.0,1,0.25,,20
+431,Guillermo Villarreal,Guillermo,,Male,1,LAM1,1,,3,0,0.0,1,0.3333333333,,20
+432,Gabriel Villarreal,Gabriel,,Male,1,LAM1,1,,3,0,0.0,1,0.3333333333,,20
+433,Nora Saravia,Nora,,Female,1,LAM1,1,,2,0,0.0,2,1.0,,20
+434,Ariel Saravia,Ariel,,Male,1,LAM1,1,,2,0,0.0,2,1.0,,20
+435,Meghan Rickey,Meghan,,Female,1,USA15,1,,12,7,0.5833333333,0,0.0,,21
+436,Cheyne Whitney,Cheyne,,Male,1,USA15,1,,12,7,0.5833333333,0,0.0,,21
+437,Samuel McMillen,Sam,,Male,1,USA15,1,,12,2,0.1666666667,0,0.0,,21
+438,Daniel McMillen,Dan,,Male,1,USA15,1,,12,2,0.1666666667,0,0.0,,21
+439,Brian Kleinschmidt,Brian,,Male,1,USA15,1,,12,0,0.0,2,0.1666666667,,21
+440,Ericka Dunlap,Ericka,,Female,1,USA15,1,,12,0,0.0,2,0.1666666667,,21
+441,Herbert Lang,Flight Time,,Male,3,"USA15, USA18, USA24",1,,31,4,0.1290322581,2,0.06451612903,,50
+442,Nathaniel Lofton,Big Easy,,Male,3,"USA15, USA18, USA24",1,,31,4,0.1290322581,2,0.06451612903,,50
+443,Gary Tomljenovich,Gary,,Male,1,USA15,1,,9,1,0.1111111111,2,0.2222222222,,21
+444,Matthew Tomljenovich,Matt,,Male,1,USA15,1,,9,1,0.1111111111,2,0.2222222222,,21
+445,Maria Ho,Maria,,Female,1,USA15,1,,7,0,0.0,1,0.1428571429,,21
+446,Tiffany Michelle,Tiffany,,Female,1,USA15,1,,7,0,0.0,1,0.1428571429,,21
+447,Mika Combs,Mika,,Female,1,USA15,1,,6,0,0.0,1,0.1666666667,,21
+448,Canaan Smith,Canaan,,Male,1,USA15,1,,6,0,0.0,1,0.1666666667,,21
+449,Lance Layne,Lance,,Male,1,USA15,1,,5,0,0.0,1,0.2,,21
+450,Keri Morrione,Keri,,Female,1,USA15,1,,5,0,0.0,1,0.2,,21
+451,Zev Glassenberg,Zev,,Male,2,"USA15, USA18",1,,15,4,0.2666666667,2,0.1333333333,,27
+452,Justin Kanew,Justin,,Male,2,"USA15, USA18",1,,15,4,0.2666666667,2,0.1333333333,,27
+453,Marcy Malloy,Marcy,,Female,1,USA15,1,,3,0,0.0,1,0.3333333333,,21
+454,Ronald Shalita,Ron,,Male,1,USA15,1,,3,0,0.0,1,0.3333333333,,21
+455,Garrett Paul,Garrett,,Male,1,USA15,1,,2,0,0.0,1,0.5,,21
+456,Jessica Stout,Jessica,,Female,1,USA15,1,,2,0,0.0,1,0.5,,21
+457,Eric Paskel,Eric,,Male,1,USA15,1,,1,0,0.0,1,1.0,,21
+458,Lisa Paskel,Lisa,,Female,1,USA15,1,,1,0,0.0,1,1.0,,21
+459,Daniel Pious,Dan,,Male,1,USA16,1,,12,2,0.1666666667,0,0.0,,22
+460,Jordan Pious,Jordan,,Male,1,USA16,1,,12,2,0.1666666667,0,0.0,,22
+461,Jet McCoy,Jet,,Male,3,"USA16, USA18, USA24",1,,31,7,0.2258064516,4,0.1290322581,,50
+462,Cord McCoy,Cord,,Male,3,"USA16, USA18, USA24",1,,31,7,0.2258064516,4,0.1290322581,,50
+463,Brent Horne,Brent,,Male,1,USA16,1,,12,1,0.08333333333,1,0.08333333333,,22
+464,Lauren Caitlin Upton,Caite,,Female,1,USA16,1,,12,1,0.08333333333,1,0.08333333333,,22
+465,Louis Stravato,Louie,,Male,1,USA16,1,,11,3,0.2727272727,2,0.1818181818,,22
+466,Michael Naylor,Michael,,Male,1,USA16,1,,11,3,0.2727272727,2,0.1818181818,,22
+467,Carol Rosenfeld,Carol,,Female,1,USA16,1,,9,0,0.0,1,0.1111111111,,22
+468,Brandy Snow,Brandy,,Female,1,USA16,1,,9,0,0.0,1,0.1111111111,,22
+469,Steven Smith,Steve,,Male,1,USA16,1,,8,1,0.125,1,0.125,,22
+470,Allison Smith,Allie,,Female,1,USA16,1,,8,1,0.125,1,0.125,,22
+471,Jordan Lloyd,Jordan,,Female,1,USA16,1,,6,1,0.1666666667,2,0.3333333333,,22
+472,Jeffery Schroeder,Jeff,,Male,1,USA16,1,,6,1,0.1666666667,2,0.3333333333,,22
+473,Joseph Wang,Joe,,Male,1,USA16,1,,5,0,0.0,1,0.2,,22
+474,Heidi Wang,Heidi,,Female,1,USA16,1,,5,0,0.0,1,0.2,,22
+475,Monique Pryor,Monique,,Female,1,USA16,1,,3,0,0.0,1,0.3333333333,,22
+476,Shawne Morgan,Shawne,,Female,1,USA16,1,,3,0,0.0,1,0.3333333333,,22
+477,Jordan Kelly,Jody,,Female,1,USA16,1,,2,0,0.0,1,0.5,,22
+478,Shannon Foster,Shannon,,Female,1,USA16,1,,2,0,0.0,1,0.5,,22
+479,Dana Davis,Dana,,Female,1,USA16,1,,1,0,0.0,1,1.0,,22
+480,Adrian Davis,Adrian,,Male,1,USA16,1,,1,0,0.0,1,1.0,,22
+481,Charlie Gale,Charlie,,Male,1,CHR1,1,,12,6,0.5,1,0.08333333333,,23
+482,Rachel Chen,Rachel,,Female,1,CHR1,1,,12,6,0.5,1,0.08333333333,,23
+483,Richard Liston,Rick,,Male,1,CHR1,1,,12,5,0.4166666667,0,0.0,,23
+484,Joshua Ogilvie,Josh,,Male,1,CHR1,1,,12,5,0.4166666667,0,0.0,,23
+485,Deepak Noutiyal,Deepak,,Male,1,CHR1,1,,12,0,0.0,2,0.1666666667,,23
+486,Naresh Ludhani,Naresh,,Male,1,CHR1,1,,12,0,0.0,2,0.1666666667,,23
+487,Karen Spencer,Karen,,Female,1,CHR1,1,,11,0,0.0,2,0.1818181818,,23
+488,Lisa Chiang,Lisa,,Female,1,CHR1,1,,11,0,0.0,2,0.1818181818,,23
+489,Sarah Edson,Sarah,,Female,1,CHR1,1,,10,1,0.1,1,0.1,,23
+490,Molly Fitzpatrick,Molly,,Female,1,CHR1,1,,10,1,0.1,1,0.1,,23
+491,Sean Slaughter,Sean,,Male,1,CHR1,1,,6,0,0.0,1,0.1666666667,,23
+492,Amy Bromstead,Amy,,Female,1,CHR1,1,,6,0,0.0,1,0.1666666667,,23
+493,Bonnie Wisnewski,Bonnie,,Female,1,CHR1,1,,5,0,0.0,1,0.2,,23
+494,Melanie Plumi,Mel,,Female,1,CHR1,1,,5,0,0.0,1,0.2,,23
+495,Janis Vaisla,Janis,,Male,1,CHR1,1,,4,0,0.0,1,0.25,,23
+496,Aleksandra Kurusova,Aleksandra,,Female,1,CHR1,1,,4,0,0.0,1,0.25,,23
+497,Hector Valenzuela,Hector,,Male,1,CHR1,1,,3,0,0.0,1,0.3333333333,,23
+498,Miguel Villanueva,Miguel,,Male,1,CHR1,1,,3,0,0.0,1,0.3333333333,,23
+499,Paul Lebeneiyo,Paul,,Male,1,CHR1,1,,2,0,0.0,2,1.0,,23
+500,Francis Merinyi,Francis,,Male,1,CHR1,1,,2,0,0.0,2,1.0,,23
+501,Richard Hardin,Richard Ha.,,Male,1,ASI4,1,,11,3,0.2727272727,0,0.0,,24
+502,Richard Herrera,Richard He.,,Male,1,ASI4,1,,11,3,0.2727272727,0,0.0,,24
+503,Claire Goh,Claire,,Female,1,ASI4,1,,11,0,0.0,0,0.0,,24
+504,Michelle Ng,Michelle,,Female,1,ASI4,1,,11,0,0.0,0,0.0,,24
+505,Hussein Sutadisastra,Hussein,,Male,1,ASI4,1,,11,1,0.09090909091,2,0.1818181818,,24
+506,Natasha Sutadidsastra,Natasha,,Female,1,ASI4,1,,11,1,0.09090909091,2,0.1818181818,,24
+507,Jacinta James,Jess,,Female,1,ASI4,1,,10,3,0.3,1,0.1,,24
+508,Lani Pillinger,Lani,,Female,1,ASI4,1,,10,3,0.3,1,0.1,,24
+509,Lim Koh Hon,Ethan,,Male,1,ASI4,1,,9,2,0.2222222222,1,0.1111111111,,24
+510,Mohamad Khairie,Khairie,,Male,1,ASI4,1,,9,2,0.2222222222,1,0.1111111111,,24
+511,Dimple Inamdar,Dimple,,Female,1,ASI4,1,,8,1,0.125,1,0.125,,24
+512,Sunaina Gulia,Sunaina,,Female,1,ASI4,1,,8,1,0.125,1,0.125,,24
+513,Ivan Evetovics,Ivan,,Male,1,ASI4,1,,6,1,0.1666666667,1,0.1666666667,,24
+514,Tengku Hilda,Hilda,,Female,1,ASI4,1,,6,1,0.1666666667,1,0.1666666667,,24
+515,Sahil Banga,Sahil,,Male,1,ASI4,1,,5,0,0.0,1,0.2,,24
+516,Manas Katyal,Manas,,Male,1,ASI4,1,,5,0,0.0,1,0.2,,24
+517,Alan Luk,Alan,,Male,1,ASI4,1,,4,0,0.0,2,0.5,,24
+518,Wendy Lee,Wendy,,Female,1,ASI4,1,,4,0,0.0,2,0.5,,24
+519,Yani Hidranto,Yani,,Female,1,ASI4,1,,2,0,0.0,2,1.0,,24
+520,Nadine Zamira,Nadine,,Female,1,ASI4,1,,2,0,0.0,2,1.0,,24
+521,Natalie Strand,Nat,,Female,1,USA17,1,,12,5,0.4166666667,0,0.0,,25
+522,Katherine Chang,Kat,,Female,1,USA17,1,,12,5,0.4166666667,0,0.0,,25
+523,Brook Roberts,Brook,,Female,1,USA17,1,,12,1,0.08333333333,0,0.0,,25
+524,Claire Champlin,Claire,,Female,1,USA17,1,,12,1,0.08333333333,0,0.0,,25
+525,Jillian Haney,Jill,,Female,1,USA17,1,,12,4,0.3333333333,1,0.08333333333,,25
+526,Thomas Wolfard,Thomas,,Male,1,USA17,1,,12,4,0.3333333333,1,0.08333333333,,25
+527,Nicholas DeCarlo,Nick,,Male,1,USA17,1,,11,0,0.0,3,0.2727272727,,25
+528,Victoria Casciola,Vicki,,Female,1,USA17,1,,11,0,0.0,3,0.2727272727,,25
+529,Chad Waltrip,Chad,,Male,1,USA17,1,,9,1,0.1111111111,1,0.1111111111,,25
+530,Stephanie Smith,Stephanie,,Female,1,USA17,1,,9,1,0.1111111111,1,0.1111111111,,25
+531,Gary Ervin,Gary,,Male,2,"USA17, USA18",1,,20,3,0.15,3,0.15,,27
+532,Mallory Ervin,Mallory,,Female,3,"USA17, USA18, USA24",2,,22,3,0.1363636364,4,0.1818181818,,50
+533,Michael Wu,Michael,,Male,1,USA17,1,,7,0,0.0,2,0.2857142857,,25
+534,Kevin Wu,Kevin,,Male,1,USA17,1,,7,0,0.0,2,0.2857142857,,25
+535,Katie Seamon,Katie,,Female,1,USA17,1,,5,0,0.0,1,0.2,,25
+536,Rachel Johnston,Rachel,,Female,1,USA17,1,,5,0,0.0,1,0.2,,25
+537,Connor Diemand-Yauman,Connor,,Male,1,USA17,1,,4,1,0.25,1,0.25,,25
+538,Jonathan Schwartz,Jonathan,,Male,1,USA17,1,,4,1,0.25,1,0.25,,25
+539,Andrea DeKroon,Andie,,Female,1,USA17,1,,2,0,0.0,1,0.5,,25
+540,Jenna Sykes,Jenna,,Female,1,USA17,1,,2,0,0.0,1,0.5,,25
+541,Ronald Kellum,Ron,,Male,1,USA17,1,,1,0,0.0,1,1.0,,25
+542,Anthony Stovall,Tony,,Male,1,USA17,1,,1,0,0.0,1,1.0,,25
+543,Mauricio Coarasa,Mauricio,,Male,1,LAM2,1,,13,4,0.3076923077,0,0.0,,26
+544,Carlos Coarasa,Carlos,,Male,1,LAM2,1,,13,4,0.3076923077,0,0.0,,26
+545,Antonio Varas,Toño,,Male,1,LAM2,1,,13,5,0.3846153846,0,0.0,,26
+546,Liliana Cantú,Lili,,Female,1,LAM2,1,,13,5,0.3846153846,0,0.0,,26
+547,Aleandra Scafati,Aleandra,,Female,1,LAM2,1,,13,0,0.0,3,0.2307692308,,26
+548,Marlene Zichy,Marlene,,Female,1,LAM2,1,,13,0,0.0,3,0.2307692308,,26
+549,Guilherme Nunes,Guilherme,,Male,1,LAM2,1,,11,0,0.0,1,0.09090909091,,26
+550,Vinícius Lemos,Vinícius,,Male,1,LAM2,1,,11,0,0.0,1,0.09090909091,,26
+551,Esteban Portela,Esteban,,Male,1,LAM2,1,,10,0,0.0,1,0.1,,26
+552,Marisol Márquez,Marisol,,Female,1,LAM2,1,,10,0,0.0,1,0.1,,26
+553,Marietta Acosta,Marietta,,Female,1,LAM2,1,,9,0,0.0,1,0.1111111111,,26
+554,José Cárdenas,José,,Male,1,LAM2,1,,9,0,0.0,1,0.1111111111,,26
+555,Edison J. Perezgomez,Edison J.,,Male,1,LAM2,1,,8,3,0.375,1,0.125,,26
+556,Edison M. Perezgomez,Edison M.,,Male,1,LAM2,1,,8,3,0.375,1,0.125,,26
+557,Jelkin Rijo,Jelkin,,Female,1,LAM2,1,,6,1,0.1666666667,2,0.3333333333,,26
+558,Javier Báez,Javier,,Male,1,LAM2,1,,6,1,0.1666666667,2,0.3333333333,,26
+559,Roger Saliba,Roger,,Male,1,LAM2,1,,4,0,0.0,1,0.25,,26
+560,Omar Guedez,Omar,,Male,1,LAM2,1,,4,0,0.0,1,0.25,,26
+561,Mauricio Moreno,Mauricio,,Male,1,LAM2,1,,3,0,0.0,2,0.6666666667,,26
+562,Mariana Moreno,Mariana,,Female,1,LAM2,1,,3,0,0.0,2,0.6666666667,,26
+563,Susy Rotstain,Susy,,Female,1,LAM2,1,,2,0,0.0,1,0.5,,26
+564,Stefany Porudominsky,Stefany,,Female,1,LAM2,1,,2,0,0.0,1,0.5,,26
+565,Tyler Atkins,Tyler,,Male,1,AUS1,1,,12,4,0.3333333333,0,0.0,,28
+566,Nathan Joliffe,Nathan,,Male,1,AUS1,1,,12,4,0.3333333333,0,0.0,,28
+567,Samantha Schoers,Sam,,Female,1,AUS1,1,,12,2,0.1666666667,1,0.08333333333,,28
+568,Renae Wauhop,Renae,,Female,1,AUS1,1,,12,2,0.1666666667,1,0.08333333333,,28
+569,Jeffrey Downes,Jeff,,Male,1,AUS1,1,,12,1,0.08333333333,1,0.08333333333,,28
+570,Lucas Downes,Luke,,Male,1,AUS1,1,,12,1,0.08333333333,1,0.08333333333,,28
+571,Matthew Nunn,Matt,,Male,1,AUS1,1,,11,3,0.2727272727,2,0.1818181818,,28
+572,Thomas Warriner,Tom,,Male,1,AUS1,1,,11,3,0.2727272727,2,0.1818181818,,28
+573,Dave Miller,Dave,,Male,1,AUS1,1,,9,0,0.0,1,0.1111111111,,28
+574,Kelly Miller,Kelly,,Female,1,AUS1,1,,9,0,0.0,1,0.1111111111,,28
+575,Chris Pselletes,Chris,,Male,1,AUS1,1,,8,1,0.125,1,0.125,,28
+576,Anastasia Natasa Drimousis,Anastasia,,Female,1,AUS1,1,,8,1,0.125,1,0.125,,28
+577,Alana Munday,Alana,,Female,1,AUS1,1,,6,0,0.0,1,0.1666666667,,28
+578,Mel Greig,Mel,,Female,1,AUS1,1,,6,0,0.0,1,0.1666666667,,28
+579,Mohammed El-Leissy,Mo,,Male,1,AUS1,1,,5,0,0.0,2,0.4,,28
+580,Mostafa Haroun,Mos,,Male,1,AUS1,1,,5,0,0.0,2,0.4,,28
+581,Richard Toutounji,Richard,,Male,1,AUS1,1,,4,1,0.25,1,0.25,,28
+582,Joey Toutounji,Joey,,Female,1,AUS1,1,,4,1,0.25,1,0.25,,28
+583,Anne-Marie Brown,Anne-Marie,,Female,1,AUS1,1,,3,0,0.0,1,0.3333333333,,28
+584,Tracy Read,Tracy,,Female,1,AUS1,1,,3,0,0.0,1,0.3333333333,,28
+585,Ryan Wilson,Ryot,,Male,1,AUS1,1,,2,0,0.0,1,0.5,,28
+586,Liberty Wilson,Liberty,,Female,1,AUS1,1,,2,0,0.0,1,0.5,,28
+587,Lily Li,Lily,,Female,1,CHR2,1,,12,4,0.3333333333,0,0.0,,29
+588,Jan Höpper,Jan,,Male,1,CHR2,1,,12,4,0.3333333333,0,0.0,,29
+589,Simon Chen,Simon,,Male,1,CHR2,1,,12,0,0.0,0,0.0,,29
+590,Katherine Wang,Katherine,,Female,1,CHR2,1,,12,0,0.0,0,0.0,,29
+591,Sun Bin,Sun Bin,,Male,1,CHR2,1,,12,4,0.3333333333,1,0.08333333333,,29
+592,Hao Fei'er,Hao Fei'er,,Female,1,CHR2,1,,12,4,0.3333333333,1,0.08333333333,,29
+593,Matthew Waddick,Matt,,Male,1,CHR2,1,,11,1,0.09090909091,1,0.09090909091,,29
+594,Kylie Ann Chapman,Kylie,,Female,1,CHR2,1,,11,1,0.09090909091,1,0.09090909091,,29
+595,Jiang Zhijie,Mary,,Female,1,CHR2,1,,10,3,0.3,2,0.2,,29
+596,Jiang Xinyao,Cecilia,,Female,1,CHR2,1,,10,3,0.3,2,0.2,,29
+597,Elena Luk'Yanenko,Elena,,Female,1,CHR2,1,,8,0,0.0,2,0.25,,29
+598,Tameka Small,Tameka,,Female,1,CHR2,1,,8,0,0.0,2,0.25,,29
+599,Rhett Farber,Rhett,,Male,1,CHR2,1,,6,0,0.0,2,0.3333333333,,29
+600,Howard Snyder,Howie,,Male,1,CHR2,1,,6,0,0.0,2,0.3333333333,,29
+601,Summer Xia,Summer,,Female,1,CHR2,1,,4,0,0.0,1,0.25,,29
+602,Eachan Zhou,Eachen,,Male,1,CHR2,1,,4,0,0.0,1,0.25,,29
+603,Shu Dalong,Xiao Long,,Male,1,CHR2,1,,3,0,0.0,1,0.3333333333,,29
+604,Lv Meng,Lv Meng,,Male,1,CHR2,1,,3,0,0.0,1,0.3333333333,,29
+605,A Lai Dongmei,A Lai,,Female,1,CHR2,1,,2,0,0.0,1,0.5,,29
+606,Wang Jieqi,Jackie,,Male,1,CHR2,1,,2,0,0.0,1,0.5,,29
+607,Paul Hayes,Paul,,Male,1,CHR2,1,,1,0,0.0,1,1.0,,29
+608,Nash,Nash,,Male,1,CHR2,1,,1,0,0.0,1,1.0,,29
+609,Ernest Halvorsen,Ernie,,Male,1,USA19,1,,12,3,0.25,0,0.0,,30
+610,Cindy Chiang,Cindy,,Female,1,USA19,1,,12,3,0.25,0,0.0,,30
+611,Jeremy Cline,Jeremy,,Male,1,USA19,1,,12,1,0.08333333333,0,0.0,,30
+612,Sandra Draghi,Sandy,,Female,1,USA19,1,,12,1,0.08333333333,0,0.0,,30
+613,Amani Pollard,Amani,,Female,1,USA19,1,,12,2,0.1666666667,2,0.1666666667,,30
+614,Marcus Pollard,Marcus,,Male,1,USA19,1,,12,2,0.1666666667,2,0.1666666667,,30
+615,Andrew Finch,Andy,,Male,1,USA19,1,,11,6,0.5454545455,1,0.09090909091,,30
+616,Thomas Czeschin,Tommy,,Male,1,USA19,1,,11,6,0.5454545455,1,0.09090909091,,30
+617,William Alden,Bill,,Male,1,USA19,1,,10,0,0.0,3,0.3,,30
+618,Catherine Alden,Cathi,,Female,1,USA19,1,,10,0,0.0,3,0.3,,30
+619,Laurence Sunderland,Laurence,,Male,1,USA19,1,,8,0,0.0,1,0.125,,30
+620,Zachary Sunderland,Zac,,Male,1,USA19,1,,8,0,0.0,1,0.125,,30
+621,Justin Young,Justin,,Male,1,USA19,1,,7,0,0.0,1,0.1428571429,,30
+622,Jennifer Young,Jennifer,,Female,1,USA19,1,,7,0,0.0,1,0.1428571429,,30
+623,Elizabeth Canavan,Liz,,Female,1,USA19,1,,5,0,0.0,2,0.4,,30
+624,Marie Canavan,Marie,,Female,1,USA19,1,,5,0,0.0,2,0.4,,30
+625,Kaylani Paliotta,Kaylani,,Female,1,USA19,1,,3,0,0.0,1,0.3333333333,,30
+626,Lisa Tilley,Lisa,,Female,1,USA19,1,,3,0,0.0,1,0.3333333333,,30
+627,Ethan Zohn,Ethan,,Male,1,USA19,1,,2,0,0.0,0,0.0,,30
+628,Jenna Morasca,Jenna,,Female,1,USA19,1,,2,0,0.0,0,0.0,,30
+629,Ronald Zeitz,Ron,,Male,1,USA19,1,,2,0,0.0,1,0.5,,30
+630,William Smith,Bill,,Male,1,USA19,1,,2,0,0.0,1,0.5,,30
+631,Nicolás Brain,Nicolás,,Male,1,LAM3,1,,13,5,0.3846153846,0,0.0,,31
+632,Cristóbal Brain,Cristóbal,,Male,1,LAM3,1,,13,5,0.3846153846,0,0.0,,31
+633,Felipe Castro,Felipe,,Male,1,LAM3,1,,13,5,0.3846153846,1,0.07692307692,,31
+634,Alejandro Soler,Alejandro,,Male,1,LAM3,1,,13,5,0.3846153846,1,0.07692307692,,31
+635,Demian Bellido,Demi,,Male,1,LAM3,1,,13,1,0.07692307692,1,0.07692307692,,31
+636,Maximiliano Ottaviani,Maxi,,Male,1,LAM3,1,,13,1,0.07692307692,1,0.07692307692,,31
+637,Ricardo Bagarrán,Rick,,Male,1,LAM3,1,,11,1,0.09090909091,1,0.09090909091,,31
+638,Kathia Farah,Kathy,,Female,1,LAM3,1,,11,1,0.09090909091,1,0.09090909091,,31
+639,Juan del Mar Iglesias,Juan del Mar,,Male,1,LAM3,1,,10,1,0.1,2,0.2,,31
+640,María Victoria Montoya,Toya,,Female,1,LAM3,1,,10,1,0.1,2,0.2,,31
+641,José Varela,José,,Male,1,LAM3,1,,8,0,0.0,1,0.125,,31
+642,Marisol Ortiz,Marisol,,Female,1,LAM3,1,,8,0,0.0,1,0.125,,31
+643,Nicholas Cino,Nico,,Male,1,LAM3,1,,7,0,0.0,1,0.1428571429,,31
+644,Andrea Cino,Andre,,Female,1,LAM3,1,,7,0,0.0,1,0.1428571429,,31
+645,Juan Rivera,Pablo,,Male,1,LAM3,1,,6,0,0.0,2,0.3333333333,,31
+646,Leonor Vegas,Rosario,,Female,1,LAM3,1,,6,0,0.0,2,0.3333333333,,31
+647,Mónica Ramos,Mónica,,Female,1,LAM3,1,,4,0,0.0,1,0.25,,31
+648,Rosa Aragón,Rosy,,Female,1,LAM3,1,,4,0,0.0,1,0.25,,31
+649,Verónica Alvarado,Vero,,Female,1,LAM3,1,,3,0,0.0,2,0.6666666667,,31
+650,Gabriela Cardozo,Gaba,,Female,1,LAM3,1,,3,0,0.0,2,0.6666666667,,31
+651,Alejandra Fundaro,Ale,,Female,1,LAM3,1,,2,0,0.0,1,0.5,,31
+652,Ezequiel Ball,Eze,,Male,1,LAM3,1,,2,0,0.0,1,0.5,,31
+653,Bar Ben-Vakil,Bar,,Female,1,ISR2,1,,13,4,0.3076923077,2,0.1538461538,,32
+654,Inna Broder,Inna,,Female,1,ISR2,1,,13,4,0.3076923077,2,0.1538461538,,32
+655,Alon Harel,Alon,,Male,1,ISR2,1,,13,3,0.2307692308,0,0.0,,32
+656,Oren Harel,Oren,,Male,1,ISR2,1,,13,3,0.2307692308,0,0.0,,32
+657,Akiva Shmueli,Akiva,,Male,1,ISR2,1,,13,3,0.2307692308,1,0.07692307692,,32
+658,Anaelle Shmueli,Anaelle,,Female,1,ISR2,1,,13,3,0.2307692308,1,0.07692307692,,32
+659,Tom Kashty,Tom,,Male,1,ISR2,1,,12,1,0.08333333333,3,0.25,,32
+660,Adele Bespalov,Adele,,Female,1,ISR2,1,,12,1,0.08333333333,3,0.25,,32
+661,Osnat Shapir,Osnat,,Female,1,ISR2,1,,10,0,0.0,2,0.2,,32
+662,Carmit Zacay,Carmit,,Female,1,ISR2,1,,10,0,0.0,2,0.2,,32
+663,Idan Pundak,Pundak,,Male,1,ISR2,1,,7,1,0.1428571429,1,0.1428571429,,32
+664,Moti Lahav,Moti,,Male,1,ISR2,1,,7,1,0.1428571429,1,0.1428571429,,32
+665,Alon Apple,Alon,,Male,1,ISR2,1,,5,1,0.2,1,0.2,,32
+666,Hen Shiloni,Hen,,Female,1,ISR2,1,,5,1,0.2,1,0.2,,32
+667,Firass Janluka,Firass,,Male,1,ISR2,1,,3,0,0.0,1,0.3333333333,,32
+668,Shira Dahan,Shira,,Female,1,ISR2,1,,3,0,0.0,1,0.3333333333,,32
+669,Nitzan Avital,Nitzan,,Male,1,ISR2,1,,2,0,0.0,1,0.5,,32
+670,Frieda Moshe,Fifi,,Female,1,ISR2,1,,2,0,0.0,1,0.5,,32
+671,Tal Shaham,Tal,,Female,1,ISR2,1,,1,0,0.0,0,0.0,,32
+672,Mor Shaham,Mor,,Female,1,ISR2,1,,1,0,0.0,0,0.0,,32
+673,Gadi Chait,Gadi,,Male,1,ISR2,1,,1,0,0.0,1,1.0,,32
+674,Alona Ophir,Alona,,Female,1,ISR2,1,,1,0,0.0,1,1.0,,32
+675,Rachel Brown,Rachel,,Female,1,USA20,1,,12,8,0.6666666667,0,0.0,,33
+676,"David Brown, Jr.",Dave,,Male,1,USA20,1,,12,8,0.6666666667,0,0.0,,33
+677,Arturo Velez,Art,,Male,2,"USA20, USA31",1,,13,3,0.2307692308,1,0.07692307692,,76
+678,John James Carrell,JJ,,Male,2,"USA20, USA31",1,,13,3,0.2307692308,1,0.07692307692,,76
+679,Brendon Villegas,Brendon,,Male,2,"USA20, USA24",1,,24,3,0.125,3,0.125,,50
+680,Rachel Reilly,Rachel,,Female,3,"USA20, USA24, USA31",2,,32,3,0.09375,5,0.15625,,76
+681,Vanessa Macias,Vanessa,,Female,1,USA20,1,,11,0,0.0,1,0.09090909091,,33
+682,Ralph Kelley,Ralph,,Male,1,USA20,1,,11,0,0.0,1,0.09090909091,,33
+683,William Minton,Bopper,,Male,1,USA20,1,,10,1,0.1,3,0.3,,33
+684,Mark Jackson,Mark,,Male,2,"USA20, USA24",2,,12,1,0.08333333333,4,0.3333333333,,50
+685,Nareman Ebeid,Nary,,Female,1,USA20,1,,8,0,0.0,2,0.25,,33
+686,Jamie Graetz,Jamie,,Female,1,USA20,1,,8,0,0.0,2,0.25,,33
+687,Joey Lasalla,"Joey ""Fitness""",,Male,1,USA20,1,,6,0,0.0,1,0.1666666667,,33
+688,Danny Horal,Danny,,Male,1,USA20,1,,6,0,0.0,1,0.1666666667,,33
+689,Kerri Paul,Kerri,,Female,1,USA20,1,,5,0,0.0,1,0.2,,33
+690,Stacy Bowers,Stacy,,Female,1,USA20,1,,5,0,0.0,1,0.2,,33
+691,Elliot Weber,Elliot,,Male,1,USA20,1,,3,0,0.0,1,0.3333333333,,33
+692,Andrew Weber,Andrew,,Male,1,USA20,1,,3,0,0.0,1,0.3333333333,,33
+693,David Gregg,Dave,,Male,1,USA20,1,,2,0,0.0,1,0.5,,33
+694,Cherie Gregg,Cherie,,Female,1,USA20,1,,2,0,0.0,1,0.5,,33
+695,Misa Tanaka,Misa,,Female,1,USA20,1,,1,0,0.0,1,1.0,,33
+696,Maiya Tanaka,Maiya,,Female,1,USA20,1,,1,0,0.0,1,1.0,,33
+697,Morten Bjerke,Morten,,Male,1,NOR1,1,,13,6,0.4615384615,0,0.0,,34
+698,Truls Bjerke,Truls,,Male,1,NOR1,1,,13,6,0.4615384615,0,0.0,,34
+699,Karim Sabeur,Karim,,Male,1,NOR1,1,,13,6,0.4615384615,0,0.0,,34
+700,Khabat Sarzali,Khabat,,Male,1,NOR1,1,,13,6,0.4615384615,0,0.0,,34
+701,Cathrine Andersen,Cathrine,,Female,1,NOR1,1,,13,1,0.07692307692,1,0.07692307692,,34
+702,Michelle Holm,Michelle,,Female,1,NOR1,1,,13,1,0.07692307692,1,0.07692307692,,34
+703,Frank Hesmyr Falander,Frank,,Male,1,NOR1,1,,12,0,0.0,1,0.08333333333,,34
+704,Ivar Hesmyr Falander,Ivar,,Male,1,NOR1,1,,12,0,0.0,1,0.08333333333,,34
+705,Kari Hagrud Setsaas,Kari,,Female,1,NOR1,1,,11,0,0.0,3,0.2727272727,,34
+706,Bjørn Setsaas,Bjørn,,Male,1,NOR1,1,,11,0,0.0,3,0.2727272727,,34
+707,Tor Einar Holden,Tor Einar,,Male,1,NOR1,1,,8,0,0.0,2,0.25,,34
+708,Cathrine Hjemli Holen,Cathrine,,Female,1,NOR1,1,,8,0,0.0,2,0.25,,34
+709,Julie Aamodt,Julie,,Female,1,NOR1,1,,6,0,0.0,1,0.1666666667,,34
+710,Vichy Ericsson,Vichy,,Female,1,NOR1,1,,6,0,0.0,1,0.1666666667,,34
+711,Bjarne Vegard Drevland,Bjarne,,Male,1,NOR1,1,,5,0,0.0,2,0.4,,34
+712,Vilde Naomi Enge,Vilde,,Female,1,NOR1,1,,5,0,0.0,2,0.4,,34
+713,Martha Berberg,Martha,,Female,1,NOR1,1,,3,0,0.0,1,0.3333333333,,34
+714,Elise Berberg,Elise,,Female,1,NOR1,1,,3,0,0.0,1,0.3333333333,,34
+715,Pål Christian Egeberg,Pål Christian,,Male,1,NOR1,1,,2,0,0.0,1,0.5,,34
+716,Ivar Juliussen,Ivar,,Male,1,NOR1,1,,2,0,0.0,1,0.5,,34
+717,Kenneth Holt,Kenneth,,Male,1,NOR1,1,,1,0,0.0,1,1.0,,34
+718,Hakan Pandul,Hakan,,Male,1,NOR1,1,,1,0,0.0,1,1.0,,34
+719,Baggio Saetti,Baggio,,Male,1,VIE1,1,,13,5,0.3846153846,0,0.0,,35
+720,Thành Phúc Nguyễn,Thành Phúc,,Male,1,VIE1,1,,13,5,0.3846153846,0,0.0,,35
+721,Minh Hoàng Huỳnh,Minh Hoàng,,Male,1,VIE1,1,,13,2,0.1538461538,1,0.07692307692,,35
+722,Phương Thảo Nguyễn Thị,Phương Thảo,,Female,1,VIE1,1,,13,2,0.1538461538,1,0.07692307692,,35
+723,Thành Chung Nguyễn,Thành Chung,,Male,1,VIE1,1,,13,1,0.07692307692,2,0.1538461538,,35
+724,Thanh Bằng Nguyễn,Thanh Bằng,,Male,1,VIE1,1,,13,1,0.07692307692,2,0.1538461538,,35
+725,Chí Bình Nguyễn,Chí Bình,,Male,1,VIE1,1,,12,1,0.08333333333,1,0.08333333333,,35
+726,Hồng Long Lê,Hồng Long,,Male,1,VIE1,1,,12,1,0.08333333333,1,0.08333333333,,35
+727,Tuấn Anh Nguyễn,Tuấn Anh,,Male,1,VIE1,1,,10,2,0.2,2,0.2,,35
+728,Xuân Sơn Đỗ,Xuân Sơn,,Male,1,VIE1,1,,10,2,0.2,2,0.2,,35
+729,Minh Châu Nguyễn,Minh Châu,,Male,1,VIE1,1,,8,1,0.125,1,0.125,,35
+730,Trần Châu Nguyễn,Trần Châu,,Male,1,VIE1,1,,8,1,0.125,1,0.125,,35
+731,Gia Bình Trần,Gia Bình,,Female,1,VIE1,1,,7,0,0.0,2,0.2857142857,,35
+732,Bảo Châu Trần Thị,Bảo Châu,,Female,1,VIE1,1,,7,0,0.0,2,0.2857142857,,35
+733,Thanh Tuấn Phan Huỳnh,Thanh Tuấn,,Male,1,VIE1,1,,5,0,0.0,1,0.2,,35
+734,Mỹ Trâm Nguyễn Thị,Mỹ Trâm,,Female,1,VIE1,1,,5,0,0.0,1,0.2,,35
+735,Richard Hamilton Humphrey,Richie,,Male,2,"VIE1, VIE5",1,,9,0,0.0,4,0.4444444444,,65
+736,Ngọc Phượng Lý Thị,Mimi,,Female,2,"VIE1, VIE5",1,,9,0,0.0,4,0.4444444444,,65
+737,Thanh Thủy Nguyễn,Thanh Thủy,,Female,1,VIE1,1,,3,1,0.3333333333,1,0.3333333333,,35
+738,Minh Thoa Vũ,Minh Thoa,,Female,1,VIE1,1,,3,1,0.3333333333,1,0.3333333333,,35
+739,Shane Haw,Shane,,Male,1,AUS2,1,,12,2,0.1666666667,0,0.0,,36
+740,Andrew Thoday,Andrew,,Male,1,AUS2,1,,12,2,0.1666666667,0,0.0,,36
+741,Paul Montgomery,Paul,,Male,1,AUS2,1,,12,5,0.4166666667,0,0.0,,36
+742,Steven Scale,Steve,,Male,1,AUS2,1,,12,5,0.4166666667,0,0.0,,36
+743,Michelle Troy,Michelle,,Female,1,AUS2,1,,12,1,0.08333333333,1,0.08333333333,,36
+744,Joanne Troy,Jo,,Female,1,AUS2,1,,12,1,0.08333333333,1,0.08333333333,,36
+745,Joseph Caristo,Joseph,,Male,1,AUS2,1,,11,0,0.0,2,0.1818181818,,36
+746,Grace Caristo,Grace,,Female,1,AUS2,1,,11,0,0.0,2,0.1818181818,,36
+747,Lucy Pelosi,Lucy,,Female,1,AUS2,1,,10,0,0.0,2,0.2,,36
+748,Emilia Pelosi,Emilia,,Female,1,AUS2,1,,10,0,0.0,2,0.2,,36
+749,James Kingsbury,James,,Male,1,AUS2,1,,9,1,0.1111111111,1,0.1111111111,,36
+750,Sarah Roza,Sarah,,Female,1,AUS2,1,,9,1,0.1111111111,1,0.1111111111,,36
+751,Geoff Stick,Sticky,,Male,1,AUS2,1,,8,2,0.25,1,0.125,,36
+752,Sam Hay,Sam,,Male,1,AUS2,1,,8,2,0.25,1,0.125,,36
+753,Ross Thornton,Ross,,Male,1,AUS2,1,,6,1,0.1666666667,2,0.3333333333,,36
+754,Tarryn Lee Thornton,Tarryn,,Female,1,AUS2,1,,6,1,0.1666666667,2,0.3333333333,,36
+755,Kym Bouckaert,Kym,,Female,1,AUS2,1,,4,0,0.0,1,0.25,,36
+756,Donna Verney,Donna,,Female,1,AUS2,1,,4,0,0.0,1,0.25,,36
+757,Sue Bumback,Sue,,Female,1,AUS2,1,,3,0,0.0,1,0.3333333333,,36
+758,Teresa Italiano,Teresa,,Female,1,AUS2,1,,3,0,0.0,1,0.3333333333,,36
+759,Adam Corowa,Adam,,Male,1,AUS2,1,,2,0,0.0,1,0.5,,36
+760,Dane Corowa,Dane,,Male,1,AUS2,1,,2,0,0.0,1,0.5,,36
+761,Liu Weiwei,Liu Weiwei,,Male,1,CHR3,1,,12,6,0.5,0,0.0,,37
+762,Lei Sheng,Lei Sheng,,Male,1,CHR3,1,,12,6,0.5,0,0.0,,37
+763,Christine Tong,Christine,,Female,1,CHR3,1,,12,0,0.0,0,0.0,,37
+764,Steven Zhao,Steven,,Male,1,CHR3,1,,12,0,0.0,0,0.0,,37
+765,Ryan Burke,Ryan,,Male,1,CHR3,1,,12,3,0.25,1,0.08333333333,,37
+766,Charlie Melvin,Charlie,,Male,1,CHR3,1,,12,3,0.25,1,0.08333333333,,37
+767,Zhang Yelin,Zhang Yelin,,Male,1,CHR3,1,,11,1,0.09090909091,2,0.1818181818,,37
+768,Li Yang,Li Yang,,Female,1,CHR3,1,,11,1,0.09090909091,2,0.1818181818,,37
+769,Janelle Loh,Janelle,,Female,1,CHR3,1,,10,1,0.1,2,0.2,,37
+770,Karin von Essen,Karin,,Female,1,CHR3,1,,10,1,0.1,2,0.2,,37
+771,Tang Khai Shing,Khai Shing,,Female,1,CHR3,1,,8,1,0.125,1,0.125,,37
+772,Tang Khai Sheng,Khai Sheng,,Male,1,CHR3,1,,8,1,0.125,1,0.125,,37
+773,Henry Su,Henry,,Male,1,CHR3,1,,7,0,0.0,2,0.2857142857,,37
+774,Jennifer Su,Jennifer,,Female,1,CHR3,1,,7,0,0.0,2,0.2857142857,,37
+775,Ju Xiangcheng,Xiao Bing,,Male,1,CHR3,1,,6,0,0.0,1,0.1666666667,,37
+776,Sun Huailong,Xiao Bang,,Male,1,CHR3,1,,6,0,0.0,1,0.1666666667,,37
+777,Yu Ping,Yu Ping,,Male,1,CHR3,1,,3,0,0.0,1,0.3333333333,,37
+778,Yu Chenjing,Yu Chenjing,,Female,1,CHR3,1,,3,0,0.0,1,0.3333333333,,37
+779,Nick Black,Nick,,Male,1,CHR3,1,,2,0,0.0,1,0.5,,37
+780,Brandon Lee,Brandon,,Male,1,CHR3,1,,2,0,0.0,1,0.5,,37
+781,Hao Weiru,Jia Jia,,Female,1,CHR3,1,,1,0,0.0,1,1.0,,37
+782,Rob Biggs,Rob,,Male,1,CHR3,1,,1,0,0.0,1,1.0,,37
+783,Josh Kilmer-Purcell,Josh,,Male,1,USA21,1,,12,1,0.08333333333,1,0.08333333333,,38
+784,Brent Ridge,Brent,,Male,1,USA21,1,,12,1,0.08333333333,1,0.08333333333,,38
+785,Jaymes Vaughan,Jaymes,,Male,1,USA21,1,,12,2,0.1666666667,0,0.0,,38
+786,James Davis,James,,Male,1,USA21,1,,12,2,0.1666666667,0,0.0,,38
+787,Trey Wier,Trey,,Male,1,USA21,1,,12,3,0.25,1,0.08333333333,,38
+788,Alexis Beerman,Lexi,,Female,1,USA21,1,,12,3,0.25,1,0.08333333333,,38
+789,Natalie Anderson,Natalie,,Female,2,"USA21, USA24",1,,12,2,0.1666666667,3,0.25,,50
+790,Nadiya Anderson,Nadiya,,Female,2,"USA21, USA24",1,,12,2,0.1666666667,3,0.25,,50
+791,Abigail Ginsberg,Abbie,,Female,1,USA21,1,,9,2,0.2222222222,1,0.1111111111,,38
+792,Ryan Danz,Ryan,,Male,1,USA21,1,,9,2,0.2222222222,1,0.1111111111,,38
+793,James LoMenzo,James,,Male,1,USA21,1,,8,2,0.25,2,0.25,,38
+794,Mark Abbattista,Abba,,Male,1,USA21,1,,8,2,0.25,2,0.25,,38
+795,Robert French,Rob,,Male,1,USA21,1,,6,0,0.0,1,0.1666666667,,38
+796,Kelley Carrington-French,Kelley,,Female,1,USA21,1,,6,0,0.0,1,0.1666666667,,38
+797,Gary Wojnar,Gary,,Male,1,USA21,1,,4,0,0.0,1,0.25,,38
+798,Will Chiola,Will,,Male,1,USA21,1,,4,0,0.0,1,0.25,,38
+799,Caitlin King,Caitlin,,Female,1,USA21,1,,3,0,0.0,1,0.3333333333,,38
+800,Brittany Fletcher,Brittany,,Female,1,USA21,1,,3,0,0.0,1,0.3333333333,,38
+801,Amy Purdy,Amy,,Female,1,USA21,1,,2,0,0.0,1,0.5,,38
+802,Daniel Gale,Daniel,,Male,1,USA21,1,,2,0,0.0,1,0.5,,38
+803,Robert Scheer,Rob,,Male,1,USA21,1,,1,0,0.0,1,1.0,,38
+804,Sheila Castle,Sheila,,Female,1,USA21,1,,1,0,0.0,1,1.0,,38
+805,Daniel Belém,Daniel,,Male,1,LAM4,1,,13,2,0.1538461538,2,0.1538461538,,39
+806,César Curti,César,,Male,1,LAM4,1,,13,2,0.1538461538,2,0.1538461538,,39
+807,Fernando Ruas,Fer,,Male,1,LAM4,1,,13,1,0.07692307692,0,0.0,,39
+808,Ferdinei Martins,Ferds,,Male,1,LAM4,1,,13,1,0.07692307692,0,0.0,,39
+809,Eduardo Braga y García,Edu,,Male,1,LAM4,1,,13,3,0.2307692308,1,0.07692307692,,39
+810,Ricardo Braga y García,Rick,,Male,1,LAM4,1,,13,3,0.2307692308,1,0.07692307692,,39
+811,Renan Amaral,Renan,,Male,1,LAM4,1,,11,0,0.0,1,0.09090909091,,39
+812,Françoise Mattoso,Fran,,Female,1,LAM4,1,,11,0,0.0,1,0.09090909091,,39
+813,Ana Paula Caetano,Ana Paula,,Female,1,LAM4,1,,10,6,0.6,2,0.2,,39
+814,Renata Faria,Renata,,Female,1,LAM4,1,,10,6,0.6,2,0.2,,39
+815,Fernanda Chateaubriand,Fernanda,,Female,1,LAM4,1,,8,1,0.125,1,0.125,,39
+816,Cainã Nagano,Cainã,,Male,1,LAM4,1,,8,1,0.125,1,0.125,,39
+817,Luiz Fuzetti,Fuzetti,,Male,1,LAM4,1,,7,0,0.0,2,0.2857142857,,39
+818,Luiz Cardim,Nando,,Male,1,LAM4,1,,7,0,0.0,2,0.2857142857,,39
+819,Marília David,Gabriela,,Female,1,LAM4,1,,5,0,0.0,1,0.2,,39
+820,Harã Lemes,Harã,,Male,1,LAM4,1,,5,0,0.0,1,0.2,,39
+821,Maria Cecília Cardoso,Ciça,,Female,1,LAM4,1,,4,0,0.0,1,0.25,,39
+822,José Carlos Cardoso,Zezão,,Male,1,LAM4,1,,4,0,0.0,1,0.25,,39
+823,Gilmar Schlossmacher,Billy,,Male,1,LAM4,1,,2,0,0.0,1,0.5,,39
+824,Gilbert Schlossmacher,Gean,,Male,1,LAM4,1,,2,0,0.0,1,0.5,,39
+825,Cíntia de Franco,Ci,,Female,1,LAM4,1,,2,0,0.0,1,0.5,,39
+826,Luíza de Franco,Lu,,Female,1,LAM4,1,,2,0,0.0,1,0.5,,39
+827,Anthony Martinage,Anthony,,Male,1,FRA1,1,,10,2,0.2,2,0.2,,40
+828,Sonja Sacha,Sonja,,Female,1,FRA1,1,,10,2,0.2,2,0.2,,40
+829,Hadj Semara,Hadj,,Male,1,FRA1,1,,10,2,0.2,1,0.1,,40
+830,Yacim Djabali,Yacim,,Male,1,FRA1,1,,10,2,0.2,1,0.1,,40
+831,Stéphanie François,Stéphanie,,Female,1,FRA1,1,,10,1,0.1,1,0.1,,40
+832,Alice Digne,Alice,,Female,1,FRA1,1,,10,1,0.1,1,0.1,,40
+833,Heïdi,Heïdi,,Female,1,FRA1,1,,9,2,0.2222222222,1,0.1111111111,,40
+834,Michel,Michel,,Male,1,FRA1,1,,9,2,0.2222222222,1,0.1111111111,,40
+835,Francis Boutleux,Francis,,Male,1,FRA1,1,,7,1,0.1428571429,1,0.1428571429,,40
+836,Benjamin Boutleux,Benjamin,,Male,1,FRA1,1,,7,1,0.1428571429,1,0.1428571429,,40
+837,Oucéni Touré,Oucéni,,Male,1,FRA1,1,,5,2,0.4,1,0.2,,40
+838,Lassana Touré,Lassana,,Male,1,FRA1,1,,5,2,0.4,1,0.2,,40
+839,Mathilde,Mathilde,,Female,1,FRA1,1,,4,0,0.0,1,0.25,,40
+840,Séverine,Séverine,,Female,1,FRA1,1,,4,0,0.0,1,0.25,,40
+841,Fabien,Fabien,,Male,1,FRA1,1,,2,0,0.0,1,0.5,,40
+842,Aurélien,Aurélien,,Male,1,FRA1,1,,2,0,0.0,1,0.5,,40
+843,Antoine,Antoine,,Male,1,FRA1,1,,1,0,0.0,1,1.0,,40
+844,Héléna,Héléna,,Female,1,FRA1,1,,1,0,0.0,1,1.0,,40
+845,Lari Jeanne Moreno,LJ,,Female,1,PHI1,1,,13,1,0.07692307692,0,0.0,,41
+846,Criselda Janice Jaravata,CJ,,Female,1,PHI1,1,,13,1,0.07692307692,0,0.0,,41
+847,Fausto Reyes,Fausto,,Male,1,PHI1,1,,13,3,0.2307692308,0,0.0,,41
+848,"Dayal Chowdary, Jr.",Dayal,,Male,1,PHI1,1,,13,3,0.2307692308,0,0.0,,41
+849,Marc Duñgo,Marc,,Male,1,PHI1,1,,13,7,0.5384615385,1,0.07692307692,,41
+850,Katherine Tan,Kat,,Female,1,PHI1,1,,13,7,0.5384615385,1,0.07692307692,,41
+851,Sheena Vera Cruz,Sheena,,Female,1,PHI1,1,,12,0,0.0,2,0.1666666667,,41
+852,Gazelle Canlas,Gee,,Female,1,PHI1,1,,12,0,0.0,2,0.1666666667,,41
+853,Saida Diola,Saida,,Female,1,PHI1,1,,10,0,0.0,1,0.1,,41
+854,Jervi Li,Jervi,,Female,1,PHI1,1,,10,0,0.0,1,0.1,,41
+855,Raymund Vergara,Boom,,Male,1,PHI1,1,,9,2,0.2222222222,1,0.1111111111,,41
+856,Cheng Enriquez,Cheng,,Male,1,PHI1,1,,9,2,0.2222222222,1,0.1111111111,,41
+857,Edgar Movido,Ed,,Male,1,PHI1,1,,8,0,0.0,2,0.25,,41
+858,Angelica Movido,Angel,,Female,1,PHI1,1,,8,0,0.0,2,0.25,,41
+859,Danielle Castaño,Dani,,Female,1,PHI1,1,,6,0,0.0,2,0.3333333333,,41
+860,Michelle van Ruyven,Mish,,Female,1,PHI1,1,,6,0,0.0,2,0.3333333333,,41
+861,Pamela Spella,Pamela,,Female,1,PHI1,1,,4,0,0.0,2,0.5,,41
+862,Vanessa Ishitani,Vanessa,,Female,1,PHI1,1,,4,0,0.0,2,0.5,,41
+863,Anton del Rosario,Anton,,Male,1,PHI1,1,,2,0,0.0,1,0.5,,41
+864,Armand del Rosario,Armand,,Male,1,PHI1,1,,2,0,0.0,1,0.5,,41
+865,Crystel Castro,Crystel,,Female,1,PHI1,1,,1,0,0.0,1,1.0,,41
+866,Mykey Lacson,Mykey,,Male,1,PHI1,1,,1,0,0.0,1,1.0,,41
+867,Jonathan Battaglia,Bates,,Male,1,USA22,1,,12,5,0.4166666667,0,0.0,,42
+868,Anthony Battaglia,Anthony,,Male,1,USA22,1,,12,5,0.4166666667,0,0.0,,42
+869,Max Bichler,Max,,Male,1,USA22,1,,12,3,0.25,1,0.08333333333,,42
+870,Katherine Kaczor-Bichler,Katie,,Female,1,USA22,1,,12,3,0.25,1,0.08333333333,,42
+871,Mona Hinman-Egender,Mona,,Female,1,USA22,1,,12,0,0.0,2,0.1666666667,,42
+872,Elizabeth Bandimere,Beth,,Female,1,USA22,1,,12,0,0.0,2,0.1666666667,,42
+873,Caroline Cutbirth,Caroline,,Female,2,"USA22, USA24",1,,23,0,0.0,3,0.1304347826,,50
+874,Jennifer Wayne,Jennifer,,Female,2,"USA22, USA24",1,,23,0,0.0,3,0.1304347826,,50
+875,Joseph Michael Graceffa,Joey,,Male,2,"USA22, USA24",1,,13,0,0.0,2,0.1538461538,,50
+876,Meghan Camarena,Meghan,,Female,2,"USA22, USA24",1,,13,0,0.0,2,0.1538461538,,50
+877,Charles McCall,Chuck,,Male,1,USA22,1,,8,0,0.0,2,0.25,,42
+878,Wynona McCall,Wynona,,Female,1,USA22,1,,8,0,0.0,2,0.25,,42
+879,Pamela Chien,Pam,,Female,1,USA22,1,,7,1,0.1428571429,1,0.1428571429,,42
+880,Winnie Sung,Winnie,,Female,1,USA22,1,,7,1,0.1428571429,1,0.1428571429,,42
+881,Dave O'Leary,Dave,,Male,2,"USA22, USA24",1,,17,8,0.4705882353,1,0.05882352941,,50
+882,Connor O'Leary,Connor,,Male,2,"USA22, USA24",1,,17,8,0.4705882353,1,0.05882352941,,50
+883,Jessica Hoel,Jessica,,Female,2,"USA22, USA24",1,,11,1,0.09090909091,2,0.1818181818,,50
+884,John Erck,John,,Male,2,"USA22, USA24",1,,11,1,0.09090909091,2,0.1818181818,,50
+885,Idries Abdur-Rahman,Idries,,Male,1,USA22,1,,2,0,0.0,1,0.5,,42
+886,Jamil Abdur-Rahman,Jamil,,Male,1,USA22,1,,2,0,0.0,1,0.5,,42
+887,Matthew Davis,Matt,,Male,1,USA22,1,,1,0,0.0,1,1.0,,42
+888,Daniel Moss,Daniel,,Male,1,USA22,1,,1,0,0.0,1,1.0,,42
+889,Omar Ishqair,Omar,,Male,1,NOR2,1,,12,6,0.5,0,0.0,,43
+890,Bilal Ishqair,Bilal,,Male,1,NOR2,1,,12,6,0.5,0,0.0,,43
+891,Solfrid Kvalvik,Solfrid,,Female,1,NOR2,1,,12,2,0.1666666667,0,0.0,,43
+892,Sveinung Ellingsen,Sveinung,,Male,1,NOR2,1,,12,2,0.1666666667,0,0.0,,43
+893,Cecilie Andresen Kreutz,Cecilie,,Female,1,NOR2,1,,12,0,0.0,2,0.1666666667,,43
+894,Camilla Harner Smith,Camilla,,Female,1,NOR2,1,,12,0,0.0,2,0.1666666667,,43
+895,Julie Eline Sannerud,Julie,,Female,1,NOR2,1,,11,2,0.1818181818,1,0.09090909091,,43
+896,Robert Sømod,Robert,,Male,1,NOR2,1,,11,2,0.1818181818,1,0.09090909091,,43
+897,Lill Marie Hande,Lill,,Female,1,NOR2,1,,9,1,0.1111111111,3,0.3333333333,,43
+898,Stian Hande,Stian,,Male,1,NOR2,1,,9,1,0.1111111111,3,0.3333333333,,43
+899,Eva Skjønhaug,Eva,,Female,1,NOR2,1,,7,1,0.1428571429,1,0.1428571429,,43
+900,Wenche Eriksen,Wenche,,Female,1,NOR2,1,,7,1,0.1428571429,1,0.1428571429,,43
+901,Vinh Thanh Phung,Vinh,,Male,1,NOR2,1,,6,0,0.0,2,0.3333333333,,43
+902,Terje Løvgro Stokke,Terje,,Male,1,NOR2,1,,6,0,0.0,2,0.3333333333,,43
+903,Priscila Merkesdal,Priscila,,Female,1,NOR2,1,,3,0,0.0,1,0.3333333333,,43
+904,Linn Christine Pedersen,Lindsy,,Female,1,NOR2,1,,3,0,0.0,1,0.3333333333,,43
+905,Milorad Dunderovic,Milorad,,Male,1,NOR2,1,,2,0,0.0,1,0.5,,43
+906,Dario Dunderovic,Dario,,Male,1,NOR2,1,,2,0,0.0,1,0.5,,43
+907,Allan Wetrhus,Allan,,Male,1,NOR2,1,,1,0,0.0,1,1.0,,43
+908,Ørjan Heimlid Øvstetun,Ørjan,,Male,1,NOR2,1,,1,0,0.0,1,1.0,,43
+909,Valeria Nikiforets,Valeria,,Female,1,UKR1,1,,12,6,0.5,0,0.0,,44
+910,Bohdana Prymak,Bohdana,,Female,1,UKR1,1,,12,6,0.5,0,0.0,,44
+911,Oleksiy Yeremeyev,Oleksiy,,Male,1,UKR1,1,,12,0,0.0,2,0.1666666667,,44
+912,Olena Dolzhenko,Olena,,Female,1,UKR1,1,,12,0,0.0,2,0.1666666667,,44
+913,Kostyantin Potomkiv,Kostyantin,,Male,1,UKR1,1,,12,2,0.1666666667,1,0.08333333333,,44
+914,Yakiv Potomkiv,Yakiv,,Male,1,UKR1,1,,12,2,0.1666666667,1,0.08333333333,,44
+915,Oleksandr Perev'yazko,Oleksandr,,Male,1,UKR1,1,,10,1,0.1,3,0.3,,44
+916,Volodymyr Cherkassky,Volodymyr,,Male,1,UKR1,1,,10,1,0.1,3,0.3,,44
+917,Ihor Davydov,Ihor,,Male,1,UKR1,1,,9,2,0.2222222222,1,0.1111111111,,44
+918,Vasyl Nischyk,Vasyl,,Male,1,UKR1,1,,9,2,0.2222222222,1,0.1111111111,,44
+919,Natalia Mansfield-Murphy,Natalia,,Female,1,UKR1,1,,7,0,0.0,1,0.1428571429,,44
+920,Tatiana Maslovskaya,Tatiana,,Female,1,UKR1,1,,7,0,0.0,1,0.1428571429,,44
+921,Andriy Ishchuk,Andriy,,Male,1,UKR1,1,,6,1,0.1666666667,1,0.1666666667,,44
+922,Iryna Kozyreva,Iryna,,Female,1,UKR1,1,,6,1,0.1666666667,1,0.1666666667,,44
+923,Anna Ivanchenko,Anna,,Female,1,UKR1,1,,4,0,0.0,1,0.25,,44
+924,Roman Ivanchenko,Roman,,Male,1,UKR1,1,,4,0,0.0,1,0.25,,44
+925,Alla Medvedev,Alla,,Female,1,UKR1,1,,3,0,0.0,1,0.3333333333,,44
+926,Oleksandra Medvedev,Oleksandra,,Female,1,UKR1,1,,3,0,0.0,1,0.3333333333,,44
+927,Volodymyr Vasylenko,Volodymyr,,Male,1,UKR1,1,,1,0,0.0,1,1.0,,44
+928,Iryna Vasylenko,Iryna,,Female,1,UKR1,1,,1,0,0.0,1,1.0,,44
+929,Talia Gorodess,Talia,,Female,1,ISR3,1,,13,4,0.3076923077,0,0.0,,45
+930,Koby Windzberg,Koby,,Male,1,ISR3,1,,13,4,0.3076923077,0,0.0,,45
+931,Romi Gemer,Romi,,Female,1,ISR3,1,,13,2,0.1538461538,1,0.07692307692,,45
+932,Coral Gemer,Coral,,Female,1,ISR3,1,,13,2,0.1538461538,1,0.07692307692,,45
+933,Ma'ayan Refaeli,Ma'ayan,,Female,1,ISR3,1,,13,2,0.1538461538,1,0.07692307692,,45
+934,Bat-El Musai,Bat-El,,Female,1,ISR3,1,,13,2,0.1538461538,1,0.07692307692,,45
+935,David Guedj,David,,Male,1,ISR3,1,,12,1,0.08333333333,1,0.08333333333,,45
+936,Eliran Look,Eliran,,Male,1,ISR3,1,,12,1,0.08333333333,1,0.08333333333,,45
+937,Debbie Baruch,Debbie,,Female,1,ISR3,1,,11,1,0.09090909091,2,0.1818181818,,45
+938,Dana Dahan,Dana,,Female,1,ISR3,1,,11,1,0.09090909091,2,0.1818181818,,45
+939,Eliran Elenbogen,Eliran,,Male,1,ISR3,1,,10,1,0.1,2,0.2,,45
+940,Itzik Madhani,Itzik,,Male,1,ISR3,1,,10,1,0.1,2,0.2,,45
+941,Mor Cohen,Mor,,Female,1,ISR3,1,,8,1,0.125,1,0.125,,45
+942,Lior Cohen,Lior,,Male,1,ISR3,1,,8,1,0.125,1,0.125,,45
+943,Shimeon Edri,Shimi,,Male,1,ISR3,1,,6,0,0.0,1,0.1666666667,,45
+944,Yasmin Nagorni,Yasmin,,Female,1,ISR3,1,,6,0,0.0,1,0.1666666667,,45
+945,Ronit Shavit,Ronit,,Female,1,ISR3,1,,4,1,0.25,1,0.25,,45
+946,Liran Cohen,Liran,,Male,1,ISR3,1,,4,1,0.25,1,0.25,,45
+947,Andrea Zaltzmann,Andrea,,Female,1,ISR3,1,,3,0,0.0,2,0.6666666667,,45
+948,Ronnie Zaltzmann,Ronnie,,Male,1,ISR3,1,,3,0,0.0,2,0.6666666667,,45
+949,Herut Vaysenstern,Herut,,Female,1,ISR3,1,,1,0,0.0,1,1.0,,45
+950,Yael Teitelbaum,Yoftut,,Female,1,ISR3,1,,1,0,0.0,1,1.0,,45
+951,Tim Hague Sr.,Tim Sr.,,Male,1,CAN1,1,,10,1,0.1,2,0.2,,46
+952,Tim Hague Jr.,Tim Jr.,,Male,1,CAN1,1,,10,1,0.1,2,0.2,,46
+953,Jody Mitic,Jody,,Male,1,CAN1,1,,10,3,0.3,0,0.0,,46
+954,Cory Mitic,Cory,,Male,1,CAN1,1,,10,3,0.3,0,0.0,,46
+955,Vanessa Morgan,Vanessa,,Female,1,CAN1,1,,10,0,0.0,2,0.2,,46
+956,Celina Mziray,Celina,,Female,1,CAN1,1,,10,0,0.0,2,0.2,,46
+957,Jethro Black,Jet,,Male,2,"CAN1, CAN7",1,,10,3,0.3,2,0.2,,77
+958,David Schram,Dave,,Male,2,"CAN1, CAN7",1,,10,3,0.3,2,0.2,,77
+959,Brett Burstein,Brett,,Male,1,CAN1,1,,7,1,0.1428571429,1,0.1428571429,,46
+960,Holly Agostino,Holly,,Female,1,CAN1,1,,7,1,0.1428571429,1,0.1428571429,,46
+961,Hal Johnson,Hal,,Male,1,CAN1,1,,5,1,0.2,1,0.2,,46
+962,Joanne McLeod,Joanne,,Female,1,CAN1,1,,5,1,0.2,1,0.2,,46
+963,Kristen Idiens,Kristen,,Female,1,CAN1,1,,4,1,0.25,1,0.25,,46
+964,Darren Trapp,Darren,,Male,1,CAN1,1,,4,1,0.25,1,0.25,,46
+965,Jamie Cumberland,Jamie,,Male,1,CAN1,1,,2,0,0.0,1,0.5,,46
+966,Pierre Cadieux,Pierre,,Male,1,CAN1,1,,2,0,0.0,1,0.5,,46
+967,Treena Ley,Treena,,Female,1,CAN1,1,,1,0,0.0,1,1.0,,46
+968,Tennille Dorrington,Tennille,,Female,1,CAN1,1,,1,0,0.0,1,1.0,,46
+969,Diệp Anh Nguyễn,Diệp Lâm Anh,,Female,1,VIE2,1,,12,4,0.3333333333,0,0.0,,47
+970,Thu Hiền Trần Thị,Trần Hiền,,Female,2,"VIE2, VIE5",2,,18,4,0.2222222222,1,0.05555555556,,65
+971,Linh Chi Nguyễn Thị,Linh Chi,,Female,1,VIE2,1,,12,5,0.4166666667,1,0.08333333333,,47
+972,Nhan Phúc Vinh,Nhan Phúc Vinh,,Male,2,"VIE2, VIE5",2,,23,6,0.2608695652,2,0.08695652174,,65
+973,Đức Hưng Dương,Đức Hưng,,Male,1,VIE2,1,,12,1,0.08333333333,1,0.08333333333,,47
+974,Thùy Dung Nguyễn,Thuỳ Dung,,Female,2,"VIE2, VIE5",2,,23,2,0.08695652174,2,0.08695652174,,65
+975,Esther Lưu,Hari,,Female,1,VIE2,1,,11,2,0.1818181818,2,0.1818181818,,47
+976,Tiến Đạt Đinh,Tiến Đạt,,Male,2,"VIE2, VIE5",2,,22,7,0.3181818182,2,0.09090909091,,65
+977,Tiến Mạnh Đoàn,Đoàn Mạnh,,Male,1,VIE2,1,,8,0,0.0,2,0.25,,47
+978,Linh Sơn Nguyễn,Linh Sơn,,Male,1,VIE2,1,,8,0,0.0,2,0.25,,47
+979,Anh Tuấn Phạm,Anh Tuấn,,Male,2,"VIE2, VIE5",1,,14,1,0.07142857143,2,0.1428571429,,65
+980,Thanh Hoa Đỗ Thị,Thanh Hoa,,Female,2,"VIE2, VIE5",1,,14,1,0.07142857143,2,0.1428571429,,65
+981,Pha Lê Nguyễn,Pha Lê,,Female,2,"VIE2, VIE5",1,,15,1,0.06666666667,4,0.2666666667,,65
+982,Hà Việt Dũng,Hà Việt Dũng,,Male,2,"VIE2, VIE5",1,,15,1,0.06666666667,4,0.2666666667,,65
+983,Kim Lee,Kim Lee,,Female,1,VIE2,1,,3,0,0.0,1,0.3333333333,,47
+984,Duy Phương Nguyễn,Pharreal Phương,,Male,1,VIE2,1,,3,0,0.0,1,0.3333333333,,47
+985,Sơn Thạch Nguyễn Cao,S.T Sơn Thạch,,Male,2,"VIE2, VIE6",2,,12,5,0.4166666667,2,0.1666666667,,78
+986,Lâm Hùng Phong,Lâm Hùng Phong,,Male,1,VIE2,1,,2,0,0.0,2,1.0,,47
+987,Ezequiel Sapochnik,Ezequiel,,Male,1,LAM5,1,,13,4,0.3076923077,1,0.07692307692,,48
+988,Lucas de la Barra,Tobías,,Male,1,LAM5,1,,13,4,0.3076923077,1,0.07692307692,,48
+989,Darío Greni,Darío,,Male,1,LAM5,1,,13,3,0.2307692308,2,0.1538461538,,48
+990,Esther Martínez,Esther,,Female,1,LAM5,1,,13,3,0.2307692308,2,0.1538461538,,48
+991,Karina Cordobés,Karina,,Female,1,LAM5,1,,13,1,0.07692307692,1,0.07692307692,,48
+992,Braian Torres,Braian,,Male,1,LAM5,1,,13,1,0.07692307692,1,0.07692307692,,48
+993,Manfred Céspedes,Manfred,,Male,1,LAM5,1,,11,2,0.1818181818,1,0.09090909091,,48
+994,Pierre Monney,Pierre,,Male,1,LAM5,1,,11,2,0.1818181818,1,0.09090909091,,48
+995,Jessica Manco,Jessica,,Female,1,LAM5,1,,9,0,0.0,1,0.1111111111,,48
+996,Carelb Herrera,Michelle,,Female,1,LAM5,1,,9,0,0.0,1,0.1111111111,,48
+997,Evelyn Cristopher,Evelyn,,Female,1,LAM5,1,,8,2,0.25,2,0.25,,48
+998,Jorge Avellaneda,Jorge,,Male,1,LAM5,1,,8,2,0.25,2,0.25,,48
+999,Astrid Velásquez,Astrid,,Female,1,LAM5,1,,6,0,0.0,1,0.1666666667,,48
+1000,Alejandra Velásquez,Aleja,,Female,1,LAM5,1,,6,0,0.0,1,0.1666666667,,48
+1001,Juan López,Juanjo,,Male,1,LAM5,1,,5,0,0.0,0,0.0,,48
+1002,Gilberto Ortega,Beto,,Male,1,LAM5,1,,5,0,0.0,0,0.0,,48
+1003,Débora Cunha,Débora,,Female,1,LAM5,1,,5,1,0.2,2,0.4,,48
+1004,Renata Kimura,Renata,,Female,1,LAM5,1,,5,1,0.2,2,0.4,,48
+1005,Filippo Puccio,Filippo,,Male,1,LAM5,1,,2,0,0.0,1,0.5,,48
+1006,Eddy Díaz,Eddy,,Male,1,LAM5,1,,2,0,0.0,1,0.5,,48
+1007,Ariana Figueroa,Ari,,Female,1,LAM5,1,,1,0,0.0,1,1.0,,48
+1008,Ramón Figueroa,Ra,,Male,1,LAM5,1,,1,0,0.0,1,1.0,,48
+1009,Jason Case,Jason,,Male,1,USA23,1,,12,2,0.1666666667,0,0.0,,49
+1010,Amy Diaz,Amy,,Female,1,USA23,1,,12,2,0.1666666667,0,0.0,,49
+1011,Timothy Sweeney,Tim,,Male,1,USA23,1,,12,3,0.25,0,0.0,,49
+1012,Marie Mazzocchi,Marie,,Female,1,USA23,1,,12,3,0.25,0,0.0,,49
+1013,Nicole Jasper,Nicole,,Female,1,USA23,1,,12,3,0.25,1,0.08333333333,,49
+1014,Travis Jasper,Travis,,Male,1,USA23,1,,12,3,0.25,1,0.08333333333,,49
+1015,Leo Temory,Leo,,Male,3,"USA23, USA24, USA31",1,,34,6,0.1764705882,4,0.1176470588,,76
+1016,Jamal Zadran,Jamal,,Male,3,"USA23, USA24, USA31",1,,34,6,0.1764705882,4,0.1176470588,,76
+1017,Allison Mello,Ally,,Female,1,USA23,1,,9,0,0.0,1,0.1111111111,,49
+1018,Ashley Covert,Ashley,,Female,1,USA23,1,,9,0,0.0,1,0.1111111111,,49
+1019,Nicole Getz,Nicky,,Female,1,USA23,1,,8,0,0.0,3,0.375,,49
+1020,Kimberly DeJesus,Kim,,Female,1,USA23,1,,8,0,0.0,3,0.375,,49
+1021,Tim Wiyninger,Tim,,Male,1,USA23,1,,6,0,0.0,1,0.1666666667,,49
+1022,Daniel Merkey,Danny,,Male,1,USA23,1,,6,0,0.0,1,0.1666666667,,49
+1023,Brandon Squyres,Brandon,,Male,1,USA23,1,,5,1,0.2,1,0.2,,49
+1024,Adam Switzer,Adam,,Male,1,USA23,1,,5,1,0.2,1,0.2,,49
+1025,Chester Pitts II,Chester,,Male,1,USA23,1,,3,1,0.3333333333,1,0.3333333333,,49
+1026,Ephraim Salaam,Ephraim,,Male,1,USA23,1,,3,1,0.3333333333,1,0.3333333333,,49
+1027,Rowan Joseph,Rowan,,Male,1,USA23,1,,2,0,0.0,1,0.5,,49
+1028,Shane Partlow,Shane,,Male,1,USA23,1,,2,0,0.0,1,0.5,,49
+1029,Hoskote Venkatesh,Hoskote,,Male,1,USA23,1,,1,0,0.0,1,1.0,,49
+1030,Naina Venkatesh,Naina,,Female,1,USA23,1,,1,0,0.0,1,1.0,,49
+1031,Hương Giang Nguyễn,Hương Giang,,Female,2,"VIE3, VIE5",1,,22,7,0.3181818182,0,0.0,,65
+1032,Huy Phương Lai,Criss Lai,,Male,2,"VIE3, VIE5",1,,22,7,0.3181818182,0,0.0,,65
+1033,Trang Trần,Trang Trần,,Female,1,VIE3,1,,11,0,0.0,0,0.0,,51
+1034,Hiếu Nguyễn,Hiếu Nguyễn,,Male,1,VIE3,1,,11,0,0.0,0,0.0,,51
+1035,Huyền Trang Khiếu Thị,Trang Khiếu,,Female,1,VIE3,1,,11,0,0.0,3,0.2727272727,,51
+1036,Yahya An Đinh,An Đinh,,Female,1,VIE3,1,,11,0,0.0,3,0.2727272727,,51
+1037,Ngô Thị Mai Trang,Kiwi Ngô Mai Trang,,Female,1,VIE3,1,,10,5,0.5,2,0.2,,51
+1038,Đỗ Hoàng Dương,Đỗ Hoàng Dương,,Male,1,VIE3,1,,10,5,0.5,2,0.2,,51
+1039,Sơn Ngọc Minh,Sơn Ngọc Minh,,Male,2,"VIE3, VIE5",2,,12,1,0.08333333333,2,0.1666666667,,65
+1040,Huê Nguyễn,Mint,,Female,1,VIE3,1,,8,1,0.125,1,0.125,,51
+1041,Long Điền Nguyễn,Long Điền,,Female,1,VIE3,1,,7,1,0.1428571429,1,0.1428571429,,51
+1042,Kim Dung,Kim Dung,,Male,1,VIE3,1,,7,1,0.1428571429,1,0.1428571429,,51
+1043,Kim Thanh Trần,Kim Thanh,,Male,1,VIE3,1,,5,0,0.0,2,0.4,,51
+1044,Khải Anh Đinh,Khải Anh,,Female,1,VIE3,1,,5,0,0.0,2,0.4,,51
+1045,Lan Trinh Võ Ngọc,Miko Lan Trinh,,Female,1,VIE3,1,,3,0,0.0,1,0.3333333333,,51
+1046,Hoàng Nam Lê,Hoàng Nam,,Male,1,VIE3,1,,3,0,0.0,1,0.3333333333,,51
+1047,Minh Long Nguyễn,Minh Long,,Male,2,"VIE3, VIE5",2,,8,0,0.0,2,0.25,,65
+1048,Sơn Việt Hoàng,Sơn Việt,,Male,1,VIE3,1,,2,0,0.0,1,0.5,,51
+1049,Michael Henry,Mickey,,Male,1,CAN2,1,,12,1,0.08333333333,0,0.0,,52
+1050,Peter Schmalz,Pete,,Male,1,CAN2,1,,12,1,0.08333333333,0,0.0,,52
+1051,Natalie Spooner,Natalie,,Female,1,CAN2,1,,12,7,0.5833333333,0,0.0,,52
+1052,Meaghan Mikkelson,Meaghan,,Female,1,CAN2,1,,12,7,0.5833333333,0,0.0,,52
+1053,Ryan Steele,Ryan,,Male,1,CAN2,1,,12,0,0.0,3,0.25,,52
+1054,Robert Goodard,Rob,,Male,1,CAN2,1,,12,0,0.0,3,0.25,,52
+1055,Sukhi Atwal,Sukhi,,Female,1,CAN2,1,,11,2,0.1818181818,2,0.1818181818,,52
+1056,Harjinder Atwal,Jinder,,Male,1,CAN2,1,,11,2,0.1818181818,2,0.1818181818,,52
+1057,Alain Chanoine,Alain,,Male,1,CAN2,1,,10,1,0.1,1,0.1,,52
+1058,Audrey Tousignant-Maurice,Audrey,,Female,1,CAN2,1,,10,1,0.1,1,0.1,,52
+1059,Pierre Forget,Pierre,,Male,1,CAN2,1,,8,1,0.125,1,0.125,,52
+1060,Michel Forget,Michel,,Male,1,CAN2,1,,8,1,0.125,1,0.125,,52
+1061,Rex Harrington,Rex,,Male,1,CAN2,1,,6,0,0.0,1,0.1666666667,,52
+1062,Bob Hope,Bob,,Male,1,CAN2,1,,6,0,0.0,1,0.1666666667,,52
+1063,Cormac Foster,Cormac,,Male,1,CAN2,1,,5,0,0.0,1,0.2,,52
+1064,Nicole Foster,Nicole,,Female,1,CAN2,1,,5,0,0.0,1,0.2,,52
+1065,Laura Takahashi,Laura,,Female,1,CAN2,1,,3,0,0.0,1,0.3333333333,,52
+1066,Jacqueline Skinner,Jackie,,Female,1,CAN2,1,,3,0,0.0,1,0.3333333333,,52
+1067,Jennifer King,Jen,,Female,1,CAN2,1,,2,0,0.0,1,0.5,,52
+1068,Shawn King,Shawn,,Male,1,CAN2,1,,2,0,0.0,1,0.5,,52
+1069,Shahla Kara,Shahla,,Female,1,CAN2,1,,1,0,0.0,1,1.0,,52
+1070,Nabeela Barday,Nabeela,,Female,1,CAN2,1,,1,0,0.0,1,1.0,,52
+1071,Daniel Little,Daniel,,Male,1,AUS3,1,,10,3,0.3,0,0.0,,53
+1072,Ryan Thomas,Ryan,,Male,1,AUS3,1,,10,3,0.3,0,0.0,,53
+1073,Sally Yamamoto,Sally,,Female,1,AUS3,1,,10,1,0.1,0,0.0,,53
+1074,Tyson Smith,Tyson,,Male,1,AUS3,1,,10,1,0.1,0,0.0,,53
+1075,Ashleigh Jende,Ashleigh,,Female,1,AUS3,1,,10,1,0.1,2,0.2,,53
+1076,Jarrod Jende,Jarrod,,Male,1,AUS3,1,,10,1,0.1,2,0.2,,53
+1077,Carla Beazley,Carla,,Female,1,AUS3,1,,9,1,0.1111111111,1,0.1111111111,,53
+1078,Hereni Fulton,Hereni,,Female,1,AUS3,1,,9,1,0.1111111111,1,0.1111111111,,53
+1079,Catherine O'Brien,Cat,,Female,1,AUS3,1,,8,0,0.0,2,0.25,,53
+1080,Jesse O'Brien,Jesse,,Male,1,AUS3,1,,8,0,0.0,2,0.25,,53
+1081,John Gbenda Charles,John,,Male,1,AUS3,1,,6,3,0.5,1,0.1666666667,,53
+1082,Murray Roeske,Murray,,Male,1,AUS3,1,,6,3,0.5,1,0.1666666667,,53
+1083,Emily Trenberth,Emily,,Female,1,AUS3,1,,4,1,0.25,1,0.25,,53
+1084,Jonathan Trenberth,Jono,,Male,1,AUS3,1,,4,1,0.25,1,0.25,,53
+1085,Aston Garrett,Aston,,Female,1,AUS3,1,,3,0,0.0,1,0.3333333333,,53
+1086,Christina Orr,Christie,,Female,1,AUS3,1,,3,0,0.0,1,0.3333333333,,53
+1087,Dr Elizabeth Grant,Elizabeth,,Female,1,AUS3,1,,2,0,0.0,1,0.5,,53
+1088,Todd Grant,Todd,,Male,1,AUS3,1,,2,0,0.0,1,0.5,,53
+1089,Inga Lederhaus,Inga,,Female,1,AUS3,1,,1,0,0.0,1,1.0,,53
+1090,Tiharna McGregor,Tiharna,,Female,1,AUS3,1,,1,0,0.0,1,1.0,,53
+1091,Amy DeJong,Amy,,Female,1,USA25,1,,12,1,0.08333333333,1,0.08333333333,,54
+1092,Maya Warren,Maya,,Female,1,USA25,1,,12,1,0.08333333333,1,0.08333333333,,54
+1093,Misti Raman,Misti,,Female,1,USA25,1,,12,5,0.4166666667,1,0.08333333333,,54
+1094,James Raman,Jim,,Male,1,USA25,1,,12,5,0.4166666667,1,0.08333333333,,54
+1095,Adam Dirks,Adam,,Male,1,USA25,1,,12,3,0.25,0,0.0,,54
+1096,Bethany Hamilton,Bethany,,Female,1,USA25,1,,12,3,0.25,0,0.0,,54
+1097,Brooke Adams,Brooke,,Female,1,USA25,1,,12,1,0.08333333333,2,0.1666666667,,54
+1098,Robert Strauss,Robbie,,Male,1,USA25,1,,12,1,0.08333333333,2,0.1666666667,,54
+1099,Kym Perfetto,Kym,,Female,1,USA25,1,,9,2,0.2222222222,1,0.1111111111,,54
+1100,Alli Forsythe,Alli,,Female,1,USA25,1,,9,2,0.2222222222,1,0.1111111111,,54
+1101,Timothy Tsao,Tim,,Male,1,USA25,1,,8,0,0.0,2,0.25,,54
+1102,Te Jay McGrath,Te Jay,,Male,1,USA25,1,,8,0,0.0,2,0.25,,54
+1103,Shelley Porter,Shelley,,Female,1,USA25,1,,6,0,0.0,1,0.1666666667,,54
+1104,Enicia Porter,Nici,,Female,1,USA25,1,,6,0,0.0,1,0.1666666667,,54
+1105,Keith Tollefson,Keith,,Male,1,USA25,1,,5,0,0.0,1,0.2,,54
+1106,Whitney Duncan,Whitney,,Female,1,USA25,1,,5,0,0.0,1,0.2,,54
+1107,Michael Ward,Michael,,Male,1,USA25,1,,3,0,0.0,1,0.3333333333,,54
+1108,Scott Strazzullo,Scott,,Male,1,USA25,1,,3,0,0.0,1,0.3333333333,,54
+1109,Dennis Hour,Dennis,,Male,1,USA25,1,,2,0,0.0,1,0.5,,54
+1110,Isabelle Du,Isabelle,,Female,1,USA25,1,,2,0,0.0,1,0.5,,54
+1111,Lisa Thomson,Lisa,,Female,1,USA25,1,,1,0,0.0,1,1.0,,54
+1112,Michelle Thomson,Michelle,,Female,1,USA25,1,,1,0,0.0,1,1.0,,54
+1113,Giovanni López,Giovanni,,Male,1,LAM6,1,,13,3,0.2307692308,0,0.0,,55
+1114,Juan Carlos Estrada,Juan Carlos,,Male,1,LAM6,1,,13,3,0.2307692308,0,0.0,,55
+1115,Javier Rodriguez,Javier,,Male,1,LAM6,1,,13,4,0.3076923077,0,0.0,,55
+1116,Nicolas Podestá,Nicolas,,Male,1,LAM6,1,,13,4,0.3076923077,0,0.0,,55
+1117,Juan Molina,Juan,,Male,1,LAM6,1,,13,1,0.07692307692,3,0.2307692308,,55
+1118,Cecilia Molina,Cecilia,,Female,1,LAM6,1,,13,1,0.07692307692,3,0.2307692308,,55
+1119,Christian Altamirano,Christian,,Male,1,LAM6,1,,11,1,0.09090909091,1,0.09090909091,,55
+1120,Dina Muñoz,Dina,,Female,1,LAM6,1,,11,1,0.09090909091,1,0.09090909091,,55
+1121,Martín Suarez,Martín,,Male,1,LAM6,1,,10,0,0.0,2,0.2,,55
+1122,Jenny Machado,Jenny,,Female,1,LAM6,1,,10,0,0.0,2,0.2,,55
+1123,Estefanía Marticorena,Stefanía,,Female,1,LAM6,1,,8,3,0.375,1,0.125,,55
+1124,Felipe Galleguillos Céspedes,Felipe,,Male,1,LAM6,1,,8,3,0.375,1,0.125,,55
+1125,Sonia Parada,Sonia,,Female,1,LAM6,1,,6,1,0.1666666667,2,0.3333333333,,55
+1126,Gabriel Camero Gartner,Gabriel,,Male,1,LAM6,1,,6,1,0.1666666667,2,0.3333333333,,55
+1127,Clara Arauz,Clara,,Female,1,LAM6,1,,4,0,0.0,1,0.25,,55
+1128,Delfina Arauz,Delfina,,Female,1,LAM6,1,,4,0,0.0,1,0.25,,55
+1129,Claudia Velázquez Macías,Audi,,Female,1,LAM6,1,,3,0,0.0,1,0.3333333333,,55
+1130,David Andres,David,,Male,1,LAM6,1,,3,0,0.0,1,0.3333333333,,55
+1131,Carlos Alonso,Carlos,,Male,1,LAM6,1,,2,0,0.0,1,0.5,,55
+1132,Orlando Betancourt,Orlando,,Male,1,LAM6,1,,2,0,0.0,1,0.5,,55
+1133,Ana Pérez,Ana,,Female,1,LAM6,1,,1,0,0.0,1,1.0,,55
+1134,Alexander Sánchez,Vantroy,,Male,1,LAM6,1,,1,0,0.0,1,1.0,,55
+1135,Matthew Edwards,Matt,,Male,1,PHI2,1,,10,5,0.5,0,0.0,,56
+1136,Phoebe Walker,Phoebe,,Female,1,PHI2,1,,10,5,0.5,0,0.0,,56
+1137,Kelvin Engles,Kelvin,,Male,1,PHI2,1,,10,1,0.1,0,0.0,,56
+1138,John Paul Duray,JP,,Male,1,PHI2,1,,10,1,0.1,0,0.0,,56
+1139,Rochelle Hernandez,Roch,,Female,1,PHI2,1,,10,1,0.1,1,0.1,,56
+1140,Elijah Estillore,Eji,,Male,1,PHI2,1,,10,1,0.1,1,0.1,,56
+1141,Jet Cruz,Jet,,Male,1,PHI2,1,,9,0,0.0,1,0.1111111111,,56
+1142,Yna Cruz,Yna,,Female,1,PHI2,1,,9,0,0.0,1,0.1111111111,,56
+1143,AJ Saliba,AJ,,Male,1,PHI2,1,,8,2,0.25,1,0.125,,56
+1144,Jody Saliba,Jody,,Male,1,PHI2,1,,8,2,0.25,1,0.125,,56
+1145,Vincent Yu,Vince,,Male,1,PHI2,1,,8,1,0.125,1,0.125,,56
+1146,Edmer Manguan,Ed,,Male,1,PHI2,1,,8,1,0.125,1,0.125,,56
+1147,Romyreen Enriquez,RR,,Female,1,PHI2,1,,6,0,0.0,2,0.3333333333,,56
+1148,Jeck Maierhofer,Jeck,,Female,1,PHI2,1,,6,0,0.0,2,0.3333333333,,56
+1149,Tina Wells,Tina,,Female,1,PHI2,1,,4,0,0.0,1,0.25,,56
+1150,Avy Wells,Avy,,Female,1,PHI2,1,,4,0,0.0,1,0.25,,56
+1151,Daniel Marsh,Daniel,,Male,1,PHI2,1,,3,0,0.0,1,0.3333333333,,56
+1152,Charlie Sutcliffe,Charlie,,Male,1,PHI2,1,,3,0,0.0,1,0.3333333333,,56
+1153,Gretchen Albaniel,Chen,,Female,1,PHI2,1,,2,0,0.0,1,0.5,,56
+1154,Luz McClitton,Luz,,Female,1,PHI2,1,,2,0,0.0,1,0.5,,56
+1155,Zarah Evangelista,Zarah,,Female,1,PHI2,1,,1,0,0.0,1,1.0,,56
+1156,Rosanna Dela Rosa,Osang,,Female,1,PHI2,1,,1,0,0.0,1,1.0,,56
+1157,Zhong Hanliang,Zhong Hanliang,,Male,1,CHN1,1,,11,5,0.4545454545,0,0.0,,57
+1158,Zhong Xiuping,Jackie,,Female,1,CHN1,1,,11,5,0.4545454545,0,0.0,,57
+1159,Li Xiaopeng,Li Xiaopeng,,Male,1,CHN1,1,,11,4,0.3636363636,0,0.0,,57
+1160,Li Anqi,Li Anqi,,Female,1,CHN1,1,,11,4,0.3636363636,0,0.0,,57
+1161,Bai Jugang,Bai Jugang,,Male,1,CHN1,1,,5,0,0.0,3,0.6,,57
+1162,Guan Xiaotong,Guan Xiaotong,,Female,1,CHN1,1,,5,0,0.0,3,0.6,,57
+1163,Jin Dachuan,Jin Dachuan,,Male,2,"CHN1, CHN3",1,,20,3,0.15,2,0.1,,68
+1164,Liu Chang,Liu Chang,,Male,2,"CHN1, CHN3",1,,20,3,0.15,2,0.1,,68
+1165,Chen Xiaochun,Chen Xiaochun,,Male,1,CHN1,1,,9,1,0.1111111111,2,0.2222222222,,57
+1166,Zheng Yijian,Zheng Yijian,,Male,1,CHN1,1,,9,1,0.1111111111,2,0.2222222222,,57
+1167,Chen Yiru,Chen Yiru,,Male,1,CHN1,1,,8,0,0.0,2,0.25,,57
+1168,Zhou Weitong,Zhou Weitong,,Female,1,CHN1,1,,8,0,0.0,2,0.25,,57
+1169,Zhang Tielin,Zhang Tielin,,Male,1,CHN1,1,,6,0,0.0,2,0.3333333333,,57
+1170,Zhang Yueliang,Yueliang,,Female,1,CHN1,1,,6,0,0.0,2,0.3333333333,,57
+1171,Ying Cai'er,Ying Cai'er,,Female,1,CHN1,1,,3,0,0.0,1,0.3333333333,,57
+1172,Liu Yun,Liu Yun,,Female,1,CHN1,1,,3,0,0.0,1,0.3333333333,,57
+1173,Shay Gavriel,Shay,,Male,2,"ISR4, ISR8",1,,23,2,0.08695652174,2,0.08695652174,,81
+1174,Shani Alon,Shani,,Female,2,"ISR4, ISR8",1,,23,2,0.08695652174,2,0.08695652174,,81
+1175,Tom Baum,Tom,,Male,1,ISR4,1,,13,4,0.3076923077,0,0.0,,58
+1176,Uriel Yekutiel,Uriel,,Male,1,ISR4,1,,13,4,0.3076923077,0,0.0,,58
+1177,Yochi Apolion,Yochi,,Female,1,ISR4,1,,13,1,0.07692307692,2,0.1538461538,,58
+1178,Linor Fahima,Linor,,Female,1,ISR4,1,,13,1,0.07692307692,2,0.1538461538,,58
+1179,Vladimir Lazarovitch,Vova,,Male,2,"ISR4, ISR8",1,,15,1,0.06666666667,2,0.1333333333,,81
+1180,Alla Aibinder,Alla,,Female,2,"ISR4, ISR8",1,,15,1,0.06666666667,2,0.1333333333,,81
+1181,Gal Almog,Gal,,Male,1,ISR4,1,,11,1,0.09090909091,1,0.09090909091,,58
+1182,Liel Gelstein,Liel,,Female,1,ISR4,1,,11,1,0.09090909091,1,0.09090909091,,58
+1183,Daniel Topaz,Daniel,,Male,1,ISR4,1,,10,4,0.4,1,0.1,,58
+1184,Meiri Shemesh,Meiri,,Male,1,ISR4,1,,10,4,0.4,1,0.1,,58
+1185,Ruth Dolgakov,Alexa,,Female,1,ISR4,1,,9,1,0.1111111111,1,0.1111111111,,58
+1186,Raz Zelcerman,Raz,,Male,1,ISR4,1,,9,1,0.1111111111,1,0.1111111111,,58
+1187,Shay Attoun,Shay,,Male,1,ISR4,1,,8,0,0.0,2,0.25,,58
+1188,Adi Attoun,Adi,,Male,1,ISR4,1,,8,0,0.0,2,0.25,,58
+1189,Roni Duani,Roni,,Female,1,ISR4,1,,6,0,0.0,1,0.1666666667,,58
+1190,Yael Duani,Yael,,Female,1,ISR4,1,,6,0,0.0,1,0.1666666667,,58
+1191,Yafa Barazany,Yafa,,Female,1,ISR4,1,,4,1,0.25,1,0.25,,58
+1192,Boaz Vaknin,Boaz,,Male,1,ISR4,1,,4,1,0.25,1,0.25,,58
+1193,Liron Urfali,Tiltil,,Male,1,ISR4,1,,3,0,0.0,1,0.3333333333,,58
+1194,Shay Mizrahi,Mizrahi,,Male,1,ISR4,1,,3,0,0.0,1,0.3333333333,,58
+1195,Irit Bahir,Irit,,Female,1,ISR4,1,,2,0,0.0,1,0.5,,58
+1196,Sinai Bahir,Sinai,,Female,1,ISR4,1,,2,0,0.0,1,0.5,,58
+1197,Hila Peretz,Huti,,Female,1,ISR4,1,,1,0,0.0,1,1.0,,58
+1198,Inbal Nativ,Tzuki,,Female,1,ISR4,1,,1,0,0.0,1,1.0,,58
+1199,Pnina Rosenblum,Pnina,,Female,1,ISR4,1,,1,0,0.0,1,1.0,,58
+1200,Hen Haim Rosenblum,Hen,,Female,1,ISR4,1,,1,0,0.0,1,1.0,,58
+1201,Laura Pierson,Laura,,Female,1,USA26,1,,12,3,0.25,0,0.0,,59
+1202,Tyler Adams,Tyler,,Male,1,USA26,1,,12,3,0.25,0,0.0,,59
+1203,Jelani Roy,Jelani,,Male,1,USA26,1,,12,2,0.1666666667,0,0.0,,59
+1204,Jennifer Wu,Jenny,,Female,1,USA26,1,,12,2,0.1666666667,0,0.0,,59
+1205,Hayley Keel,Hayley,,Female,1,USA26,1,,12,3,0.25,0,0.0,,59
+1206,Blair Townsend,Blair,,Male,1,USA26,1,,12,3,0.25,0,0.0,,59
+1207,Michael Dombrowski,Mike,,Male,1,USA26,1,,12,1,0.08333333333,2,0.1666666667,,59
+1208,Rochelle Nevedal,Rochelle,,Female,1,USA26,1,,12,1,0.08333333333,2,0.1666666667,,59
+1209,Matthew Cucolo,Matt,,Male,1,USA26,1,,10,1,0.1,2,0.2,,59
+1210,Ashley Gordon,Ashley,,Female,1,USA26,1,,10,1,0.1,2,0.2,,59
+1211,Alyson Dudek,Aly,,Female,1,USA26,1,,8,1,0.125,2,0.25,,59
+1212,Steven Langton,Steve,,Male,1,USA26,1,,8,1,0.125,2,0.25,,59
+1213,Jeffrey Weldon,Jeff,,Male,1,USA26,1,,6,0,0.0,1,0.1666666667,,59
+1214,Jackie Ibarra,Jackie,,Female,1,USA26,1,,6,0,0.0,1,0.1666666667,,59
+1215,Bergen Olsen,Bergen,,Male,1,USA26,1,,5,1,0.2,1,0.2,,59
+1216,Kurt Jordan Belcher,Kurt,,Male,1,USA26,1,,5,1,0.2,1,0.2,,59
+1217,Harley Rodriguez,Harley,,Male,1,USA26,1,,4,0,0.0,2,0.5,,59
+1218,Jonathan Knight,Jonathan,,Male,1,USA26,1,,4,0,0.0,2,0.5,,59
+1219,Lebya Simpson,Libby,,Female,1,USA26,1,,2,0,0.0,1,0.5,,59
+1220,Clarence Harris,CJ,,Male,1,USA26,1,,2,0,0.0,1,0.5,,59
+1221,Jeff Magee,Jeff,,Male,1,USA26,1,,1,0,0.0,1,1.0,,59
+1222,Lyda Grawn,Lyda,,Female,1,USA26,1,,1,0,0.0,1,1.0,,59
+1223,Gino Montani,Gino,,Male,1,CAN3,1,,12,5,0.4166666667,0,0.0,,60
+1224,Jesse Montani,Jesse,,Male,1,CAN3,1,,12,5,0.4166666667,0,0.0,,60
+1225,Nick Foti,Nick,,Male,1,CAN3,1,,12,1,0.08333333333,0,0.0,,60
+1226,Matt Giunta,Matt,,Male,1,CAN3,1,,12,1,0.08333333333,0,0.0,,60
+1227,Brent Sweeney,Brent,,Male,1,CAN3,1,,12,2,0.1666666667,2,0.1666666667,,60
+1228,Sean Sweeney,Sean,,Male,1,CAN3,1,,12,2,0.1666666667,2,0.1666666667,,60
+1229,Simi Fagbongbe,Simi,,Female,1,CAN3,1,,11,0,0.0,2,0.1818181818,,60
+1230,Ope Fagbongbe,Ope,,Male,1,CAN3,1,,11,0,0.0,2,0.1818181818,,60
+1231,Dujean Williams,Dujean,,Male,1,CAN3,1,,10,2,0.2,1,0.1,,60
+1232,Leilani Ross,Leilani,,Female,1,CAN3,1,,10,2,0.2,1,0.1,,60
+1233,Brian Boyd,Brian,,Male,1,CAN3,1,,8,0,0.0,1,0.125,,60
+1234,Cynthia Boyd,Cynthia,,Female,1,CAN3,1,,8,0,0.0,1,0.125,,60
+1235,Neil Lumsden,Neil,,Male,1,CAN3,1,,7,1,0.1428571429,1,0.1428571429,,60
+1236,Kristin Lumsden,Kristin,,Female,1,CAN3,1,,7,1,0.1428571429,1,0.1428571429,,60
+1237,Nicholas La Monaca,Nic,,Male,1,CAN3,1,,6,0,0.0,1,0.1666666667,,60
+1238,Sabrina Mercuri,Sabrina,,Female,1,CAN3,1,,6,0,0.0,1,0.1666666667,,60
+1239,Hamilton Elliott,Hamilton,,Male,1,CAN3,1,,4,1,0.25,1,0.25,,60
+1240,Michaelia Drever,Michaelia,,Female,1,CAN3,1,,4,1,0.25,1,0.25,,60
+1241,Dana Hayward,Dana,,Female,1,CAN3,1,,3,0,0.0,1,0.3333333333,,60
+1242,Amanda Johnston,Amanda,,Female,1,CAN3,1,,3,0,0.0,1,0.3333333333,,60
+1243,Susan Hayre,Susan,,Female,1,CAN3,1,,2,0,0.0,1,0.5,,60
+1244,Sharnjit Gill,Sharnjit,,Female,1,CAN3,1,,2,0,0.0,1,0.5,,60
+1245,Max Altamuro,Max,,Male,1,CAN3,1,,1,0,0.0,1,1.0,,60
+1246,Elias Theodorou,Elias,,Male,1,CAN3,1,,1,0,0.0,1,1.0,,60
+1247,Han Geng,Han Geng,,Male,1,CHN2,1,,10,4,0.4,1,0.1,,61
+1248,Wu Xin,Wu Xin,,Female,1,CHN2,1,,10,4,0.4,1,0.1,,61
+1249,Yang Qianhua,Yang Qianhua,,Female,1,CHN2,1,,10,3,0.3,1,0.1,,61
+1250,Ding Zigao,Ding Zigao,,Male,1,CHN2,1,,10,3,0.3,1,0.1,,61
+1251,Xiao Yang,Xiao Yang,,Male,1,CHN2,1,,10,1,0.1,1,0.1,,61
+1252,Wang Taili,Wang Taili,,Male,1,CHN2,1,,10,1,0.1,1,0.1,,61
+1253,Jin Zhongguo,Jin Zhongguo,,Male,1,CHN2,1,,1,0,0.0,0,0.0,,61
+1254,Li Guangzhu,Li Guangzhu,,Male,1,CHN2,1,,1,0,0.0,0,0.0,,61
+1255,Yuan Zihui,Yuan Zihui,,Female,1,CHN2,1,,2,1,0.5,1,0.5,,61
+1256,Yuan Heyu,Yuan Heyu,,Male,1,CHN2,1,,2,1,0.5,1,0.5,,61
+1257,Deng Ziqi,Deng Ziqi,,Female,1,CHN2,1,,6,1,0.1666666667,4,0.6666666667,,61
+1258,Zhang Yunjing,Zhang Yunjing,,Female,1,CHN2,1,,6,1,0.1666666667,4,0.6666666667,,61
+1259,Zeng Zhiwei,Zeng Zhiwei,,Male,1,CHN2,1,,4,1,0.25,1,0.25,,61
+1260,Zeng Baoyi,Zeng Baoyi,,Female,1,CHN2,1,,4,1,0.25,1,0.25,,61
+1261,Feng Zhe,Feng Zhe,,Male,1,CHN2,1,,2,0,0.0,1,0.5,,61
+1262,Zhu Zhu,Zhu Zhu,,Female,1,CHN2,1,,2,0,0.0,1,0.5,,61
+1263,Nhật Anh Đỗ,Nhật Anh,,Female,1,VIE4,1,,11,7,0.6363636364,1,0.09090909091,,62
+1264,Ngọc Anh Trần,Ngọc Anh,,Male,1,VIE4,1,,11,7,0.6363636364,1,0.09090909091,,62
+1265,Chí Thành Trần,Chí Thành,,Male,1,VIE4,1,,11,1,0.09090909091,0,0.0,,62
+1266,Thúc Lĩnh Dương Hồng,Thúc Lĩnh Lincoln,,Male,2,"VIE4, VIE5",2,,22,6,0.2727272727,0,0.0,,65
+1267,Bảo Trinh Nguyễn,Băng Di,,Female,1,VIE4,1,,11,0,0.0,3,0.2727272727,,62
+1268,Thùy Trang Nguyễn Phạm,Trang Pháp,,Female,1,VIE4,1,,11,0,0.0,3,0.2727272727,,62
+1269,Đăng Hoàng Phạm Ngô,Đăng Hoàng,,Male,2,"VIE4, VIE5",1,,12,0,0.0,2,0.1666666667,,65
+1270,Thùy Anh Nguyễn,Thùy Anh,,Female,2,"VIE4, VIE5",1,,12,0,0.0,2,0.1666666667,,65
+1271,Nam Thành Trương,Nam Thành,,Male,1,VIE4,1,,9,2,0.2222222222,1,0.1111111111,,62
+1272,Hải Huyền Nguyễn,Hải Băng,,Female,1,VIE4,1,,9,2,0.2222222222,1,0.1111111111,,62
+1273,Phương Ly Nguyễn,Phương Ly,,Female,1,VIE4,1,,8,0,0.0,1,0.125,,62
+1274,Nam Joo Young,Joo Young,,Female,1,VIE4,1,,8,0,0.0,1,0.125,,62
+1275,Phạm Thị Diễm Chi,Song Ngư,,Female,2,"VIE4, VIE5",1,,13,0,0.0,4,0.3076923077,,65
+1276,Trúc Như Nguyễn Vũ,Trúc Như,,Female,2,"VIE4, VIE5",1,,13,0,0.0,4,0.3076923077,,65
+1277,Cát Vũ Trần Nguyên,Tim,,Male,1,VIE4,1,,4,1,0.25,2,0.5,,62
+1278,Anh Đức Tạ,Anh Đức,,Male,1,VIE4,1,,4,1,0.25,2,0.5,,62
+1279,Kelsey Gerckens,Kelsey,,Female,1,USA27,1,,12,1,0.08333333333,0,0.0,,63
+1280,Joey Buttitta,Joey,,Male,1,USA27,1,,12,1,0.08333333333,0,0.0,,63
+1281,Justin Scheman,Justin,,Male,1,USA27,1,,12,7,0.5833333333,0,0.0,,63
+1282,Diana Bishop,Diana,,Female,1,USA27,1,,12,7,0.5833333333,0,0.0,,63
+1283,Logan Fazio,Logan,,Female,1,USA27,1,,12,1,0.08333333333,1,0.08333333333,,63
+1284,Chris Gordon,Chris,,Male,1,USA27,1,,12,1,0.08333333333,1,0.08333333333,,63
+1285,Tiffany Chantell Torres,Tiffany,,Female,1,USA27,1,,11,0,0.0,2,0.1818181818,,63
+1286,Krista DeBono,Krista,,Female,1,USA27,1,,11,0,0.0,2,0.1818181818,,63
+1287,Denise Williams,Denise,,Female,1,USA27,1,,10,1,0.1,2,0.2,,63
+1288,James Earl Corley,James Earl,,Male,1,USA27,1,,10,1,0.1,2,0.2,,63
+1289,Tanner Kloven,Tanner,,Male,1,USA27,1,,9,2,0.2222222222,2,0.2222222222,,63
+1290,Josh Ahern,Josh,,Male,1,USA27,1,,9,2,0.2222222222,2,0.2222222222,,63
+1291,Cindy Chac,Cindy,,Female,1,USA27,1,,7,0,0.0,1,0.1428571429,,63
+1292,Rick Chac,Rick,,Male,1,USA27,1,,7,0,0.0,1,0.1428571429,,63
+1293,Jazmine Lewis,Jazmine,,Female,1,USA27,1,,5,0,0.0,1,0.2,,63
+1294,Danielle Littleton,Danielle,,Female,1,USA27,1,,5,0,0.0,1,0.2,,63
+1295,Ernest Phillips,Ernest,,Male,1,USA27,1,,3,0,0.0,1,0.3333333333,,63
+1296,Jayjion Greer,Jin,,Male,1,USA27,1,,3,0,0.0,1,0.3333333333,,63
+1297,Alex Manard,Alex,,Male,1,USA27,1,,2,0,0.0,1,0.5,,63
+1298,Adam Dingeman,Adam,,Male,1,USA27,1,,2,0,0.0,1,0.5,,63
+1299,Kelly Berning,Kelly,,Female,1,USA27,1,,1,0,0.0,1,1.0,,63
+1300,Shevonne Sullivan,Shevonne,,Female,1,USA27,1,,1,0,0.0,1,1.0,,63
+1301,Dana Borriello,Dana,,Female,1,USA28,1,,12,2,0.1666666667,0,0.0,,64
+1302,Matt Steffanina,Matt,,Male,1,USA28,1,,12,2,0.1666666667,0,0.0,,64
+1303,Sheri LaBrant,Sheri,,Female,1,USA28,1,,12,0,0.0,2,0.1666666667,,64
+1304,Cole LaBrant,Cole,,Male,1,USA28,1,,12,0,0.0,2,0.1666666667,,64
+1305,Matthew Oakley,Tyler,,Male,2,"USA28, USA31",1,,24,9,0.375,1,0.04166666667,,76
+1306,Korey Kuhl,Korey,,Male,2,"USA28, USA31",1,,24,9,0.375,1,0.04166666667,,76
+1307,Michael Burns,Burnie,,Male,1,USA28,1,,11,0,0.0,1,0.09090909091,,64
+1308,Ashley Jenkins,Ashley,,Female,1,USA28,1,,11,0,0.0,1,0.09090909091,,64
+1309,Brodie Smith,Brodie,,Male,1,USA28,1,,10,4,0.4,1,0.1,,64
+1310,Kurt Gibson,Kurt,,Male,1,USA28,1,,10,4,0.4,1,0.1,,64
+1311,Zach King,Zach,,Male,1,USA28,1,,9,1,0.1111111111,1,0.1111111111,,64
+1312,Rachel King,Rachel,,Female,1,USA28,1,,9,1,0.1111111111,1,0.1111111111,,64
+1313,Scott Fowler,Scott,,Male,1,USA28,1,,7,0,0.0,2,0.2857142857,,64
+1314,Laura Elizabeth Fowler,Blair,,Male,1,USA28,1,,7,0,0.0,2,0.2857142857,,64
+1315,Erin White Robinson,Erin,,Female,1,USA28,1,,5,0,0.0,1,0.2,,64
+1316,Joslyn Davis,Joslyn,,Female,1,USA28,1,,5,0,0.0,1,0.2,,64
+1317,Brittany Oldehoff,Brittany,,Female,1,USA28,1,,4,0,0.0,1,0.25,,64
+1318,Jessica Versteeg,Jessica,,Female,1,USA28,1,,4,0,0.0,1,0.25,,64
+1319,Darius Benson,Darius,,Male,1,USA28,1,,3,0,0.0,1,0.3333333333,,64
+1320,Cameron Benson,Cameron,,Male,1,USA28,1,,3,0,0.0,1,0.3333333333,,64
+1321,Martha Cobb,Marty,,Female,1,USA28,1,,2,0,0.0,1,0.5,,64
+1322,Hagan Parkman,Hagan,,Female,1,USA28,1,,2,0,0.0,1,0.5,,64
+1323,Mâu Thanh Thủy,Mâu Thanh Thủy,,Female,1,VIE5,1,,4,0,0.0,1,0.25,,65
+1324,Amit Gal,Amit,,Male,1,ISR5,1,,13,5,0.3846153846,0,0.0,,66
+1325,Raz Gal,Raz,,Male,1,ISR5,1,,13,5,0.3846153846,0,0.0,,66
+1326,Lee Hadad,Lee,,Female,1,ISR5,1,,13,2,0.1538461538,0,0.0,,66
+1327,Tal Alkobi,Tal,,Female,1,ISR5,1,,13,2,0.1538461538,0,0.0,,66
+1328,Jonathan Zirah,Josie,,Male,1,ISR5,1,,13,2,0.1538461538,2,0.1538461538,,66
+1329,Alexandre Amar,Alex,,Male,1,ISR5,1,,13,2,0.1538461538,2,0.1538461538,,66
+1330,Tzion Azoulay,Tzion,,Male,1,ISR5,1,,12,1,0.08333333333,2,0.1666666667,,66
+1331,Aviv Kordova,Aviv,,Male,1,ISR5,1,,12,1,0.08333333333,2,0.1666666667,,66
+1332,Yael Carmon,Yael,,Female,2,"ISR5, ISR8",1,,23,6,0.2608695652,1,0.04347826087,,81
+1333,Yosiel Neeman,Yosiel,,Male,2,"ISR5, ISR8",1,,23,6,0.2608695652,1,0.04347826087,,81
+1334,Ben Scheflan,Ben,,Male,2,"ISR5, ISR8",1,,21,0,0.0,3,0.1428571429,,81
+1335,Ori Scheflan,Ori,,Male,2,"ISR5, ISR8",1,,21,0,0.0,3,0.1428571429,,81
+1336,Shon Cohen,Shon,,Male,1,ISR5,1,,8,0,0.0,1,0.125,,66
+1337,Kim Weiss,Kim,,Female,1,ISR5,1,,8,0,0.0,1,0.125,,66
+1338,Monada Kancepolsky,Monada,,Female,1,ISR5,1,,7,2,0.2857142857,1,0.1428571429,,66
+1339,Adriano Jauvel,Adriano,,Male,1,ISR5,1,,7,2,0.2857142857,1,0.1428571429,,66
+1340,Naomi Alafi,Naomi,,Female,1,ISR5,1,,6,0,0.0,1,0.1666666667,,66
+1341,Hen Toledano-Alafi,Hen,,Female,1,ISR5,1,,6,0,0.0,1,0.1666666667,,66
+1342,Gali Berger,Gali,,Female,1,ISR5,1,,4,1,0.25,1,0.25,,66
+1343,Daniel Bardugo,Daniel,,Male,1,ISR5,1,,4,1,0.25,1,0.25,,66
+1344,Dor Sason,Dor,,Male,1,ISR5,1,,3,0,0.0,1,0.3333333333,,66
+1345,Sapir Aharon,Sapir,,Female,1,ISR5,1,,3,0,0.0,1,0.3333333333,,66
+1346,Shira Ben Avraham,Shira,,Female,1,ISR5,1,,2,0,0.0,1,0.5,,66
+1347,Bar Sommer,Bar,,Female,1,ISR5,1,,2,0,0.0,1,0.5,,66
+1348,Yossi Abdu,Yossi,,Male,1,ISR5,1,,1,0,0.0,1,1.0,,66
+1349,Lee Malka,Lee,,Female,1,ISR5,1,,1,0,0.0,1,1.0,,66
+1350,Avi Manasherov,Avi M.,,Male,1,ISR5,1,,1,0,0.0,1,1.0,,66
+1351,Avi Koren,Avi K.,,Male,1,ISR5,1,,1,0,0.0,1,1.0,,66
+1352,Stephanie LeClair,Steph,,Female,1,CAN4,1,,11,5,0.4545454545,0,0.0,,67
+1353,Kristen McKenzie,Kristen,,Female,1,CAN4,1,,11,5,0.4545454545,0,0.0,,67
+1354,Jillian MacLaughlin,Jillian,,Female,1,CAN4,1,,11,4,0.3636363636,0,0.0,,67
+1355,Emmett Blois,Emmett,,Male,1,CAN4,1,,11,4,0.3636363636,0,0.0,,67
+1356,Joel Ground,Joel,,Male,1,CAN4,1,,11,1,0.09090909091,2,0.1818181818,,67
+1357,Ashley Callingbull-Burnham,Ashley,,Female,1,CAN4,1,,11,1,0.09090909091,2,0.1818181818,,67
+1358,Frances Gassler,Frankie,,Female,1,CAN4,1,,10,0,0.0,1,0.1,,67
+1359,Amy Gassler,Amy,,Female,1,CAN4,1,,10,0,0.0,1,0.1,,67
+1360,Rita Yakibonge,Rita,,Female,1,CAN4,1,,9,0,0.0,2,0.2222222222,,67
+1361,Yvette Yakibonge,Yvette,,Female,1,CAN4,1,,9,0,0.0,2,0.2222222222,,67
+1362,Julie Taylor,Julie,,Female,1,CAN4,1,,7,0,0.0,1,0.1428571429,,67
+1363,Lowell Taylor,Lowell,,Male,1,CAN4,1,,7,0,0.0,1,0.1428571429,,67
+1364,Kelly Xu,Kelly,,Female,1,CAN4,1,,5,1,0.2,2,0.4,,67
+1365,Katelyn Pan,Kate,,Female,1,CAN4,1,,5,1,0.2,2,0.4,,67
+1366,Anne Morrone,Anne,,Female,1,CAN4,1,,4,0,0.0,1,0.25,,67
+1367,Tanya Muzzatti,Tanya,,Female,1,CAN4,1,,4,0,0.0,1,0.25,,67
+1368,Stéphane Tétreault,Stéphane,,Male,1,CAN4,1,,3,0,0.0,1,0.3333333333,,67
+1369,Antoine Tétreault,Antoine,,Male,1,CAN4,1,,3,0,0.0,1,0.3333333333,,67
+1370,Anthony Limbombe,Anthony,,Male,1,CAN4,1,,1,0,0.0,1,1.0,,67
+1371,Brandon Campeau,Brandon,,Male,1,CAN4,1,,1,0,0.0,1,1.0,,67
+1372,Guo Jingjing,Guo Jingjing,,Female,1,CHN3,1,,10,2,0.2,0,0.0,,68
+1373,Huo Qigang,Huo Qigang,,Male,1,CHN3,1,,10,2,0.2,0,0.0,,68
+1374,Liu Xiang,Liu Xiang,,Male,1,CHN3,1,,10,2,0.2,1,0.1,,68
+1375,Ji Longxiang,Ji Longxiang,,Male,1,CHN3,1,,10,2,0.2,1,0.1,,68
+1376,Xu Qifeng,Xu Qifeng,,Male,1,CHN3,1,,9,2,0.2222222222,1,0.1111111111,,68
+1377,Wu Jianhao,Wu Jianhao,,Male,1,CHN3,1,,9,2,0.2222222222,1,0.1111111111,,68
+1378,Yao Fengfeng,Yao Fengfeng,,Female,1,CHN3,1,,9,2,0.2222222222,1,0.1111111111,,68
+1379,Zhang Zhehan,Zhang Zhehan,,Male,1,CHN3,1,,7,1,0.1428571429,1,0.1428571429,,68
+1380,Zhang Sifan,Zhang Sifan,,Male,1,CHN3,1,,7,1,0.1428571429,1,0.1428571429,,68
+1381,Jin Xing,Jin Xing,,Female,1,CHN3,1,,6,0,0.0,3,0.5,,68
+1382,Heinz Gerd Oidtmann,Heinz,,Male,1,CHN3,1,,6,0,0.0,3,0.5,,68
+1383,Huang Tingting,Huang Tingting,,Female,2,"CHN3, CHN4",2,,10,1,0.1,2,0.2,,72
+1384,Sun Rui,Sun Rui,,Female,1,CHN3,1,,5,1,0.2,1,0.2,,68
+1385,Zhang Meixi,Zhang Meixi,,Female,1,CHN3,1,,2,0,0.0,2,1.0,,68
+1386,Zang Yafei,Zang Yafei,,Female,1,CHN3,1,,2,0,0.0,2,1.0,,68
+1387,Parul Shah,Parul,,Female,1,ASI5,1,,10,1,0.1,0,0.0,,69
+1388,Maggie Wilson,Maggie,,Female,1,ASI5,1,,10,1,0.1,0,0.0,,69
+1389,Yvonne Lee,Yvonne,,Female,1,ASI5,1,,10,1,0.1,0,0.0,,69
+1390,Chloe Chen,Chloe,,Female,1,ASI5,1,,10,1,0.1,0,0.0,,69
+1391,Eric Tai,Eric,,Male,1,ASI5,1,,10,1,0.1,2,0.2,,69
+1392,Rona Tai,Rona,,Female,1,ASI5,1,,10,1,0.1,2,0.2,,69
+1393,Treasuri Tamara,Treasuri,,Female,1,ASI5,1,,9,4,0.4444444444,1,0.1111111111,,69
+1394,Louisa Kusnandar,Louisa,,Female,1,ASI5,1,,9,4,0.4444444444,1,0.1111111111,,69
+1395,Jerald Justin Ko,JK,,Male,1,ASI5,1,,8,2,0.25,1,0.125,,69
+1396,Michael Tan,Mike,,Male,1,ASI5,1,,8,2,0.25,1,0.125,,69
+1397,Anita Silsith Bye,Anita,,Female,1,ASI5,1,,6,0,0.0,1,0.1666666667,,69
+1398,Tom William Barrett,Tom,,Male,1,ASI5,1,,6,0,0.0,1,0.1666666667,,69
+1399,Will Chee,Will,,Male,1,ASI5,1,,5,0,0.0,1,0.2,,69
+1400,Alex Chee,Alex,,Male,1,ASI5,1,,5,0,0.0,1,0.2,,69
+1401,Rachel Tampubolon,Rach,,Female,1,ASI5,1,,4,0,0.0,2,0.5,,69
+1402,Vicky Harahap,Vicky,,Male,1,ASI5,1,,4,0,0.0,2,0.5,,69
+1403,Alphaeus Tan,Alphaeus,,Male,1,ASI5,1,,2,1,0.5,1,0.5,,69
+1404,Brandon Ho,Brandon,,Male,1,ASI5,1,,2,1,0.5,1,0.5,,69
+1405,Rei Umehara,Rei,,Female,1,ASI5,1,,1,0,0.0,0,0.0,,69
+1406,Keiji Umehara,Keiji,,Male,1,ASI5,1,,1,0,0.0,0,0.0,,69
+1407,Lisa Truong-Marchetto,Lisa,,Female,1,ASI5,1,,1,0,0.0,1,1.0,,69
+1408,Nicole Truong-Marchetto,Nicole,,Female,1,ASI5,1,,1,0,0.0,1,1.0,,69
+1409,Brooke Camhi,Brooke,,Female,1,USA29,1,,12,2,0.1666666667,0,0.0,,70
+1410,Scott Flanary,Scott,,Male,1,USA29,1,,12,2,0.1666666667,0,0.0,,70
+1411,Tara Carr,Tara,,Female,1,USA29,1,,12,3,0.25,1,0.08333333333,,70
+1412,Joey Covino,Joey,,Male,1,USA29,1,,12,3,0.25,1,0.08333333333,,70
+1413,London Kaye,London,,Female,1,USA29,1,,12,0,0.0,1,0.08333333333,,70
+1414,Logan Bauer,Logan,,Male,1,USA29,1,,12,0,0.0,1,0.08333333333,,70
+1415,Matt Ladley,Matt,,Male,1,USA29,1,,11,2,0.1818181818,1,0.09090909091,,70
+1416,Redmond Ramos,Redmond,,Male,1,USA29,1,,11,2,0.1818181818,1,0.09090909091,,70
+1417,Rebecca Droz,Becca,,Female,2,"USA29, USA31",1,,20,4,0.2,2,0.1,,76
+1418,Floyd Pierce,Floyd,,Male,2,"USA29, USA31",1,,20,4,0.2,2,0.1,,76
+1419,Liz Espey,Liz,,Female,1,USA29,1,,8,2,0.25,3,0.375,,70
+1420,Michael Rado,Michael,,Male,1,USA29,1,,8,2,0.25,3,0.375,,70
+1421,Vanck Zhu,Vanck,,Male,1,USA29,1,,6,0,0.0,1,0.1666666667,,70
+1422,Ashton Theiss,Ashton,,Female,1,USA29,1,,6,0,0.0,1,0.1666666667,,70
+1423,Shamir Arzeno,Shamir,,Male,1,USA29,1,,4,0,0.0,1,0.25,,70
+1424,Sara Fowler,Sara,,Female,1,USA29,1,,4,0,0.0,1,0.25,,70
+1425,Seth Tyler,Seth,,Male,1,USA29,1,,3,1,0.3333333333,1,0.3333333333,,70
+1426,Olivia Beauregard,Olive,,Female,1,USA29,1,,3,1,0.3333333333,1,0.3333333333,,70
+1427,Jessica Shields,Jessie,,Female,1,USA29,1,,2,0,0.0,1,0.5,,70
+1428,Francesca Piccoli,Francesca,,Female,1,USA29,1,,2,0,0.0,1,0.5,,70
+1429,Kevin Ng,Kevin,,Male,1,USA29,1,,1,0,0.0,1,1.0,,70
+1430,Jennifer Lee,Jenn,,Female,1,USA29,1,,1,0,0.0,1,1.0,,70
+1431,Sam Lambert,Sam,,Male,1,CAN5,1,,11,6,0.5454545455,0,0.0,,71
+1432,Paul Mitskopoulos,Paul,,Male,1,CAN5,1,,11,6,0.5454545455,0,0.0,,71
+1433,Kenneth McAlpine,Kenneth,,Male,1,CAN5,1,,11,1,0.09090909091,0,0.0,,71
+1434,Ryan Lachapelle,Ryan,,Male,1,CAN5,1,,11,1,0.09090909091,0,0.0,,71
+1435,Korey Sam,Korey,,Male,1,CAN5,1,,11,0,0.0,1,0.09090909091,,71
+1436,Ivana Krunić,Ivana,,Female,1,CAN5,1,,11,0,0.0,1,0.09090909091,,71
+1437,Karen Richards,Karen,,Female,1,CAN5,1,,10,0,0.0,2,0.2,,71
+1438,Bercham Richards,Bert,,Male,1,CAN5,1,,10,0,0.0,2,0.2,,71
+1439,Adam Cavaleri,Adam,,Male,1,CAN5,1,,9,2,0.2222222222,1,0.1111111111,,71
+1440,Andrea Cavaleri,Andrea,,Female,1,CAN5,1,,9,2,0.2222222222,1,0.1111111111,,71
+1441,Andrea Croxen,Andrea,,Female,1,CAN5,1,,7,0,0.0,3,0.4285714286,,71
+1442,Ebonie Finley-Roberge,Ebonie,,Female,1,CAN5,1,,7,0,0.0,3,0.4285714286,,71
+1443,Zed Dhalla,Zed,,Male,1,CAN5,1,,5,1,0.2,1,0.2,,71
+1444,Shabbir Dhalla,Shabbir,,Male,1,CAN5,1,,5,1,0.2,1,0.2,,71
+1445,Megan Burden,Megan,,Female,1,CAN5,1,,3,1,0.3333333333,1,0.3333333333,,71
+1446,Courtney Roberts,Courtney,,Female,1,CAN5,1,,3,1,0.3333333333,1,0.3333333333,,71
+1447,Daniel Kipnis,Dan,,Male,1,CAN5,1,,2,0,0.0,1,0.5,,71
+1448,Riya Malik,Riya,,Female,1,CAN5,1,,2,0,0.0,1,0.5,,71
+1449,Aaron Baker,Aaron,,Male,1,CAN5,1,,1,0,0.0,1,1.0,,71
+1450,Deborah Baker,Deb,,Female,1,CAN5,1,,1,0,0.0,1,1.0,,71
+1451,Jia Jingwen,Jia Jingwen,,Female,1,CHN4,1,,10,6,0.6,0,0.0,,72
+1452,Xiu Jiekai,Xiu Jiekai,,Male,1,CHN4,1,,10,6,0.6,0,0.0,,72
+1453,Zheng Yuanchang,Zheng Yuanchang,,Male,1,CHN4,1,,10,2,0.2,1,0.1,,72
+1454,Wang Likun,Wang Likun,,Female,1,CHN4,1,,10,2,0.2,1,0.1,,72
+1455,Wu Minxia,Wu Minxia,,Female,1,CHN4,1,,10,0,0.0,1,0.1,,72
+1456,Zhang Xiaocheng,Zhang Xiaocheng,,Male,1,CHN4,1,,10,0,0.0,1,0.1,,72
+1457,Qiang Zi,Qiang Zi,,Male,1,CHN4,1,,9,1,0.1111111111,1,0.1111111111,,72
+1458,Zhang Xingyue,Zhang Xingyue,,Female,1,CHN4,1,,9,1,0.1111111111,1,0.1111111111,,72
+1459,Zhang Jike,Zhang Jike,,Male,1,CHN4,1,,6,0,0.0,3,0.5,,72
+1460,Zhang Chuanming,Zhang Chuanming,,Male,1,CHN4,1,,6,0,0.0,3,0.5,,72
+1461,Lu Ting,Lu Ting,,Female,1,CHN4,1,,5,0,0.0,1,0.2,,72
+1462,Xuyang Yuzhuo,Xuyang Yuzhuo,,Female,1,CHN4,1,,5,0,0.0,1,0.2,,72
+1463,Fan Bingbing,Fan Bingbing,,Female,1,CHN4,1,,4,1,0.25,1,0.25,,72
+1464,Xie Yilin,Xie Yilin,,Female,1,CHN4,1,,4,1,0.25,1,0.25,,72
+1465,Deng Bin,Deng Bin,,Male,1,CHN4,1,,3,0,0.0,2,0.6666666667,,72
+1466,Wang Xinyu,Wang Xinyu,,Male,1,CHN4,1,,3,0,0.0,2,0.6666666667,,72
+1467,Tohar Haimovich,Tohar,,Male,1,ISR6,1,,12,3,0.25,0,0.0,,73
+1468,Evelyn Haimovich,Evelyn,,Female,1,ISR6,1,,12,3,0.25,0,0.0,,73
+1469,Daniel Peretz,Daniel,,Male,1,ISR6,1,,12,4,0.3333333333,0,0.0,,73
+1470,Eliyahu Shabtai,Eliyahu,,Male,1,ISR6,1,,12,4,0.3333333333,0,0.0,,73
+1471,Regev Hod,Regev,,Male,1,ISR6,1,,14,4,0.2857142857,2,0.1428571429,,73
+1472,Helen Hod,Helen,,Female,1,ISR6,1,,14,4,0.2857142857,2,0.1428571429,,73
+1473,Omer Barazani,Omer,,Male,2,"ISR6, ISR8",1,,23,2,0.08695652174,3,0.1304347826,,81
+1474,Neta Barazani,Neta,,Female,2,"ISR6, ISR8",1,,23,2,0.08695652174,3,0.1304347826,,81
+1475,Yarden Vizel,Yarden,,Female,2,"ISR6, ISR8",1,,14,0,0.0,2,0.1428571429,,81
+1476,Anne Zivi,Anne,,Female,2,"ISR6, ISR8",1,,14,0,0.0,2,0.1428571429,,81
+1477,Meitar Asiss,Meitar,,Female,1,ISR6,1,,10,1,0.1,1,0.1,,73
+1478,Adi Carmeli,Adi,,Male,1,ISR6,1,,10,1,0.1,1,0.1,,73
+1479,Mor Silver,Mor Si.,,Female,1,ISR6,1,,6,0,0.0,1,0.1666666667,,73
+1480,Mor Swede,Mor Sw.,,Female,1,ISR6,1,,6,0,0.0,1,0.1666666667,,73
+1481,Yossi Mizrahi,Yossi,,Male,1,ISR6,1,,7,0,0.0,2,0.2857142857,,73
+1482,Udi Avitan,Udi,,Male,1,ISR6,1,,7,0,0.0,2,0.2857142857,,73
+1483,Avivit Marsha,Avivit,,Female,1,ISR6,1,,5,0,0.0,2,0.4,,73
+1484,Hany Yosef,Honey,,Female,1,ISR6,1,,5,0,0.0,2,0.4,,73
+1485,Nimrod Haftel,Nimrod,,Male,1,ISR6,1,,5,0,0.0,2,0.4,,73
+1486,Yonatan Heifetz,Yonatan,,Male,1,ISR6,1,,5,0,0.0,2,0.4,,73
+1487,Asaf Gurfinkel,Asaf,,Male,1,ISR6,1,,4,0,0.0,1,0.25,,73
+1488,Jessica Cohen,Jessica,,Female,1,ISR6,1,,4,0,0.0,1,0.25,,73
+1489,Noa Martonovitch,Noa,,Female,1,ISR6,1,,1,0,0.0,1,1.0,,73
+1490,Ma'ayan Martonovitch,Ma'ayan,,Female,1,ISR6,1,,1,0,0.0,1,1.0,,73
+1491,Cody Nickson,Cody,,Male,1,USA30,1,,12,2,0.1666666667,1,0.08333333333,,74
+1492,Jessica Graf,Jessica,,Female,1,USA30,1,,12,2,0.1666666667,1,0.08333333333,,74
+1493,Henry Zhang,Henry,,Male,1,USA30,1,,12,2,0.1666666667,1,0.08333333333,,74
+1494,Evan Lynyak,Evan,,Female,1,USA30,1,,12,2,0.1666666667,1,0.08333333333,,74
+1495,Kristi Leskinen,Kristi,,Female,1,USA30,1,,12,2,0.1666666667,2,0.1666666667,,74
+1496,Jen Hudak,Jen,,Female,1,USA30,1,,12,2,0.1666666667,2,0.1666666667,,74
+1497,Alexander Rossi,Alex,,Male,1,USA30,1,,11,4,0.3636363636,1,0.09090909091,,74
+1498,Conor Daly,Conor,,Male,1,USA30,1,,11,4,0.3636363636,1,0.09090909091,,74
+1499,Lucas Bocanegra,Lucas,,Male,1,USA30,1,,9,3,0.3333333333,1,0.1111111111,,74
+1500,Brittany Austin,Brittany,,Female,1,USA30,1,,9,3,0.3333333333,1,0.1111111111,,74
+1501,Eric Guiffreda,Eric,,Male,1,USA30,1,,8,0,0.0,1,0.125,,74
+1502,Daniel Guiffreda,Daniel,,Male,1,USA30,1,,8,0,0.0,1,0.125,,74
+1503,Trevor Wadleigh,Trevor,,Male,1,USA30,1,,6,0,0.0,1,0.1666666667,,74
+1504,Christopher Marchant,Chris,,Male,1,USA30,1,,6,0,0.0,1,0.1666666667,,74
+1505,Joseph Chestnut,Joey,,Male,1,USA30,1,,5,0,0.0,1,0.2,,74
+1506,Tim Jamus,Tim,,Male,1,USA30,1,,5,0,0.0,1,0.2,,74
+1507,Cedric Ceballos,Cedric,,Male,1,USA30,1,,4,0,0.0,2,0.5,,74
+1508,Shawn Marion,Shawn,,Male,1,USA30,1,,4,0,0.0,2,0.5,,74
+1509,April Gould,April,,Female,1,USA30,1,,2,0,0.0,1,0.5,,74
+1510,Sarah Williams,Sarah,,Female,1,USA30,1,,2,0,0.0,1,0.5,,74
+1511,Dessie Mitcheson,Dessie,,Female,1,USA30,1,,1,0,0.0,1,1.0,,74
+1512,Kayla Fitzgerald,Kayla,,Female,1,USA30,1,,1,0,0.0,1,1.0,,74
+1513,Courtney Berglind,Courtney,,Female,1,CAN6,1,,11,1,0.09090909091,0,0.0,,75
+1514,Adam Kovacs,Adam,,Male,1,CAN6,1,,11,1,0.09090909091,0,0.0,,75
+1515,Taylor Callens,Taylor,,Male,1,CAN6,1,,11,5,0.4545454545,0,0.0,,75
+1516,Courtney Callens,Courtney,,Female,1,CAN6,1,,11,5,0.4545454545,0,0.0,,75
+1517,Dylan Elias,Dylan,,Male,1,CAN6,1,,11,1,0.09090909091,1,0.09090909091,,75
+1518,Kwame Osei,Kwame,,Male,1,CAN6,1,,11,1,0.09090909091,1,0.09090909091,,75
+1519,Martina Seo,Martina,,Female,1,CAN6,1,,10,0,0.0,1,0.1,,75
+1520,Phil Seo,Phil,,Male,1,CAN6,1,,10,0,0.0,1,0.1,,75
+1521,Nancy Csabay,Nancy,,Female,1,CAN6,1,,9,1,0.1111111111,2,0.2222222222,,75
+1522,Mellisa Hollingsworth,Mellisa,,Female,1,CAN6,1,,9,1,0.1111111111,2,0.2222222222,,75
+1523,Leanne Larsen,Leanne,,Female,1,CAN6,1,,8,2,0.25,1,0.125,,75
+1524,Marielle Lyon,Mar,,Female,1,CAN6,1,,8,2,0.25,1,0.125,,75
+1525,Zainab Ansari,Zainab,,Female,1,CAN6,1,,6,0,0.0,3,0.5,,75
+1526,Monica Demian,Monica,,Female,1,CAN6,1,,6,0,0.0,3,0.5,,75
+1527,Todd Kirk,Todd,,Male,1,CAN6,1,,4,1,0.25,1,0.25,,75
+1528,Anna Holtby,Anna,,Female,1,CAN6,1,,4,1,0.25,1,0.25,,75
+1529,Joseph Truong,Joseph,,Male,1,CAN6,1,,3,0,0.0,1,0.3333333333,,75
+1530,Akash Sidhu,Akash,,Male,1,CAN6,1,,3,0,0.0,1,0.3333333333,,75
+1531,Corey Liddle,Chewy,,Male,1,CAN6,1,,1,0,0.0,1,1.0,,75
+1532,Mark LaVerdiere,Happy,,Male,1,CAN6,1,,1,0,0.0,1,1.0,,75
+1533,Nicole Franzel,Nicole,,Female,1,USA31,1,,11,0,0.0,2,0.1818181818,,76
+1534,Victor Arroyo,Victor,,Male,1,USA31,1,,11,0,0.0,2,0.1818181818,,76
+1535,Chris Hammons,Chris,,Male,1,USA31,1,,9,0,0.0,2,0.2222222222,,76
+1536,Bret LaBelle,Bret,,Male,1,USA31,1,,9,0,0.0,2,0.2222222222,,76
+1537,Elissa Slater,Elissa,,Female,1,USA31,1,,8,0,0.0,2,0.25,,76
+1538,Janelle Pierzina,Janelle,,Female,1,USA31,1,,6,0,0.0,1,0.1666666667,,76
+1539,Britney Haynes,Britney,,Female,1,USA31,1,,6,0,0.0,1,0.1666666667,,76
+1540,Corinne Kaplan,Corinne,,Female,1,USA31,1,,4,0,0.0,1,0.25,,76
+1541,Eliza Orlins,Eliza,,Female,1,USA31,1,,4,0,0.0,1,0.25,,76
+1542,Rupert Boneham,Rupert,,Male,1,USA31,1,,2,0,0.0,1,0.5,,76
+1543,Laura Boneham,Laura,,Female,1,USA31,1,,2,0,0.0,1,0.5,,76
+1544,Anthony Johnson,Anthony,,Male,1,CAN7,1,,11,3,0.2727272727,1,0.09090909091,,77
+1545,James Makokis,James,,Male,1,CAN7,1,,11,3,0.2727272727,1,0.09090909091,,77
+1546,Sarah Wells,Sarah,,Female,1,CAN7,1,,11,1,0.09090909091,0,0.0,,77
+1547,Sam Effah,Sam,,Male,1,CAN7,1,,11,1,0.09090909091,0,0.0,,77
+1548,Lauren Lavoie,Lauren,,Female,1,CAN7,1,,11,0,0.0,1,0.09090909091,,77
+1549,Joanne Lavoie,Joanne,,Female,1,CAN7,1,,11,0,0.0,1,0.09090909091,,77
+1550,Dave Leduc,Dave,,Male,1,CAN7,1,,10,4,0.4,1,0.1,,77
+1551,Irina Terehova,Irina,,Female,1,CAN7,1,,10,4,0.4,1,0.1,,77
+1552,Aarthy Ketheeswaran,Aarthy,,Female,1,CAN7,1,,9,3,0.3333333333,1,0.1111111111,,77
+1553,Thinesh Kumarakulasingam,Thinesh,,Male,1,CAN7,1,,9,3,0.3333333333,1,0.1111111111,,77
+1554,Trish Omeri,Trish,,Female,1,CAN7,1,,7,0,0.0,3,0.4285714286,,77
+1555,Amy De Domenico,Amy,,Female,1,CAN7,1,,7,0,0.0,3,0.4285714286,,77
+1556,Meaghan Wright,Meaghan,,Female,1,CAN7,1,,5,0,0.0,1,0.2,,77
+1557,Marie Wright,Marie,,Female,1,CAN7,1,,5,0,0.0,1,0.2,,77
+1558,Gilles Miron,Gilles,,Male,1,CAN7,1,,3,0,0.0,1,0.3333333333,,77
+1559,Sean Miron,Sean,,Male,1,CAN7,1,,3,0,0.0,1,0.3333333333,,77
+1560,Nekeita Lee,Nicki,,Female,1,CAN7,1,,2,0,0.0,1,0.5,,77
+1561,Aisha Bentham,Aisha,,Female,1,CAN7,1,,2,0,0.0,1,0.5,,77
+1562,Lệ Hằng Đặng Thị,Lệ Hằng,,Female,1,VIE6,1,,10,2,0.2,0,0.0,,78
+1563,H'Hen Niê,H'Hen Niê,,Female,1,VIE6,1,,10,2,0.2,0,0.0,,78
+1564,Bình An Nguyễn,Bình An,,Male,1,VIE6,1,,10,5,0.5,0,0.0,,78
+1565,Đỗ Mỹ Linh,Đỗ Mỹ Linh,,Female,1,VIE6,1,,10,2,0.2,0,0.0,,78
+1566,Lê Xuân Tiền,Lê Xuân Tiền,,Male,1,VIE6,1,,10,2,0.2,0,0.0,,78
+1567,Minh Triệu Phạm Định,Minh Triệu,,Female,1,VIE6,1,,10,0,0.0,2,0.2,,78
+1568,Kỳ Duyên Nguyễn Cao,Kỳ Duyên,,Female,1,VIE6,1,,10,0,0.0,2,0.2,,78
+1569,Trần Quốc Anh,Trần Quốc Anh,,Male,1,VIE6,1,,8,1,0.125,1,0.125,,78
+1570,Mai Ly Tapiau,MLee,,Female,1,VIE6,1,,8,1,0.125,1,0.125,,78
+1571,Trần Hoàng Phương,Johnny,,Male,1,VIE6,1,,7,0,0.0,2,0.2857142857,,78
+1572,Huy Trần,Huy Trần,,Male,1,VIE6,1,,7,0,0.0,2,0.2857142857,,78
+1573,Hoàng Hạnh,Hoàng Hạnh,,Female,1,VIE6,1,,6,0,0.0,2,0.3333333333,,78
+1574,Lương Gia Huy,Lương Gia Huy,,Male,1,VIE6,1,,6,0,0.0,2,0.3333333333,,78
+1575,Dương Mạc Anh Quân,Anh Quân,,Male,1,VIE6,1,,5,0,0.0,2,0.4,,78
+1576,Quốc Thiên Trần,Quốc Thiên,,Male,1,VIE6,1,,5,0,0.0,2,0.4,,78
+1577,Trương Phạm Nhất Khanh,Emma,,Female,1,VIE6,1,,3,0,0.0,1,0.3333333333,,78
+1578,Tôn Kinh Lâm,Tôn Kinh Lâm,,Male,1,VIE6,1,,3,0,0.0,1,0.3333333333,,78
+1579,Chu Minh Vũ,Chu Minh Vũ,,Male,1,VIE6,1,,2,0,0.0,2,1.0,,78
+1580,Vũ Xuân Tiến,Vũ Xuân Tiến,,Male,1,VIE6,1,,2,0,0.0,2,1.0,,78
+1581,Fatima Jakite,Fey,,Female,1,ISR7,1,,12,4,0.3333333333,1,0.08333333333,,79
+1582,Matija Galili,Tia,,Female,1,ISR7,1,,12,4,0.3333333333,1,0.08333333333,,79
+1583,Karin Kleinberg,Karin,,Female,1,ISR7,1,,12,1,0.08333333333,0,0.0,,79
+1584,Ariel Kleinberg,Ariel,,Male,1,ISR7,1,,12,1,0.08333333333,0,0.0,,79
+1585,Haviv Maman,Haviv,,Male,1,ISR7,1,,12,4,0.3333333333,1,0.08333333333,,79
+1586,Itzak Maman,Itzak,,Male,1,ISR7,1,,12,4,0.3333333333,1,0.08333333333,,79
+1587,Eyal Daniel,Eyal,,Male,1,ISR7,1,,11,2,0.1818181818,1,0.09090909091,,79
+1588,Sidney Feiner,Sid,,Male,1,ISR7,1,,11,2,0.1818181818,1,0.09090909091,,79
+1589,Nisim David,Nisim,,Male,1,ISR7,1,,10,0,0.0,2,0.2,,79
+1590,Orel Elimelech,Orel,,Female,1,ISR7,1,,10,0,0.0,2,0.2,,79
+1591,Tali Ben-Ari,Tali,,Female,1,ISR7,1,,9,0,0.0,1,0.1111111111,,79
+1592,Gili Vizel,Gili,,Female,1,ISR7,1,,9,0,0.0,1,0.1111111111,,79
+1593,Eden Katz,Eden,,Female,1,ISR7,1,,8,1,0.125,1,0.125,,79
+1594,Aviad Katz,Aviad,,Male,1,ISR7,1,,8,1,0.125,1,0.125,,79
+1595,Michal Krits,Michal,,Female,1,ISR7,1,,7,0,0.0,1,0.1428571429,,79
+1596,Omer Nudelman,Omer,,Female,1,ISR7,1,,7,0,0.0,1,0.1428571429,,79
+1597,Ben Levayev,Ben,,Male,1,ISR7,1,,5,0,0.0,1,0.2,,79
+1598,Ran Gihr,Ran,,Male,1,ISR7,1,,5,0,0.0,1,0.2,,79
+1599,Yehudit Elkobi,Yehudit,,Female,1,ISR7,1,,4,0,0.0,1,0.25,,79
+1600,Zohar Elkobi,Zohar,,Female,1,ISR7,1,,4,0,0.0,1,0.25,,79
+1601,Kamle Hassian,Kamle,,Female,1,ISR7,1,,3,0,0.0,1,0.3333333333,,79
+1602,Bahira Ablassi,Bahira,,Female,1,ISR7,1,,3,0,0.0,1,0.3333333333,,79
+1603,Noy Karako,Noy,,Female,1,ISR7,1,,2,0,0.0,1,0.5,,79
+1604,Hadar Karako,Hadar,,Female,1,ISR7,1,,2,0,0.0,1,0.5,,79
+1605,Tim Sattler-Jones,Tim,,Male,1,AUS4,1,,12,2,0.1666666667,0,0.0,,80
+1606,Rod Sattler-Jones,Rod,,Male,1,AUS4,1,,12,2,0.1666666667,0,0.0,,80
+1607,Jasmin Onus,Jasmin,,Female,1,AUS4,1,,12,1,0.08333333333,0,0.0,,80
+1608,Jerome Cubillo,Jerome,,Male,1,AUS4,1,,12,1,0.08333333333,0,0.0,,80
+1609,Vivienne Dinh,Viv,,Female,1,AUS4,1,,12,0,0.0,2,0.1666666667,,80
+1610,Joey Dinh,Joey,,Male,1,AUS4,1,,12,0,0.0,2,0.1666666667,,80
+1611,Tom Wilkinson,Tom,,Male,1,AUS4,1,,11,8,0.7272727273,1,0.09090909091,,80
+1612,Tyler Roos,Tyler,,Male,1,AUS4,1,,11,8,0.7272727273,1,0.09090909091,,80
+1613,Femi Ogunsiji,Femi,,Male,1,AUS4,1,,10,0,0.0,1,0.1,,80
+1614,Nicholas Evbuomwan,Nick,,Male,1,AUS4,1,,10,0,0.0,1,0.1,,80
+1615,Sidney Pierucci,Sid,,Male,1,AUS4,1,,8,1,0.125,2,0.25,,80
+1616,Ashley Ruscoe,Ash,,Female,1,AUS4,1,,8,1,0.125,2,0.25,,80
+1617,Hayley Foruria,Hayley,,Female,1,AUS4,1,,6,0,0.0,1,0.1666666667,,80
+1618,Mikayla Foruria,Mikayla,,Female,1,AUS4,1,,6,0,0.0,1,0.1666666667,,80
+1619,Chris Williams,Chris,,Male,1,AUS4,1,,5,0,0.0,1,0.2,,80
+1620,Adrienne Clarke,Adrienne,,Female,1,AUS4,1,,5,0,0.0,1,0.2,,80
+1621,Rowah Hassan,Rowah,,Female,1,AUS4,1,,4,0,0.0,2,0.5,,80
+1622,Amani Mawass,Amani,,Female,1,AUS4,1,,4,0,0.0,2,0.5,,80
+1623,Judy Bowe,Judy,,Female,1,AUS4,1,,2,0,0.0,1,0.5,,80
+1624,Therese Mills,Therese,,Female,1,AUS4,1,,2,0,0.0,1,0.5,,80
+1625,Alana Pappas,Alana,,Female,1,AUS4,1,,1,0,0.0,1,1.0,,80
+1626,Niko Pappas,Niko,,Male,1,AUS4,1,,1,0,0.0,1,1.0,,80
+1627,Asaf Tetro,Asaf,,Male,1,ISR8,1,,12,4,0.3333333333,0,0.0,,81
+1628,Netanel Merran,Netah,,Male,1,ISR8,1,,12,4,0.3333333333,0,0.0,,81
+1629,Ashriel Mor,Ash,,Male,1,ISR8,1,,8,1,0.125,1,0.125,,81
+1630,Alisa Zanu,Alice,,Female,1,ISR8,1,,8,1,0.125,1,0.125,,81
+1631,Eviatar Nagar,Eviatar,,Male,1,ISR8,1,,7,1,0.1428571429,1,0.1428571429,,81
+1632,Liane Weinman,Liane,,Female,1,ISR8,1,,7,1,0.1428571429,1,0.1428571429,,81
+1633,Tali Algabi,Tali,,Female,1,ISR8,1,,6,0,0.0,1,0.1666666667,,81
+1634,Gili Algabi,Gili,,Male,1,ISR8,1,,6,0,0.0,1,0.1666666667,,81
+1635,Shiri Stanescu,Shiri,,Female,1,ISR8,1,,2,0,0.0,1,0.5,,81
+1636,Noga Stanescu,Noga,,Female,1,ISR8,1,,2,0,0.0,1,0.5,,81
+1637,Ruthi Ibn Ofir,Ruthie,,Female,1,ISR8,1,,1,0,0.0,1,1.0,,81
+1638,Michal Azulay,Michal,,Female,1,ISR8,1,,1,0,0.0,1,1.0,,81
+1639,Will Jardell,Will,,Male,1,USA32,1,,12,4,0.3333333333,0,0.0,,82
+1640,James Wallington,James,,Male,1,USA32,1,,12,4,0.3333333333,0,0.0,,82
+1641,Hung Ngyuen,Hung,,Male,1,USA32,1,,12,2,0.1666666667,0,0.0,,82
+1642,Chee Lee,Chee,,Female,1,USA32,1,,12,2,0.1666666667,0,0.0,,82
+1643,Riley McKibbin,Riley,,Male,1,USA32,1,,12,5,0.4166666667,1,0.08333333333,,82
+1644,Maddison McKibbin,Maddison,,Male,1,USA32,1,,12,5,0.4166666667,1,0.08333333333,,82
+1645,DeAngelo Williams,DeAngelo,,Male,1,USA32,1,,11,1,0.09090909091,1,0.09090909091,,82
+1646,Gary Barnidge,Gary,,Male,1,USA32,1,,11,1,0.09090909091,1,0.09090909091,,82
+1647,Eswar Dhinakaran,Eswar,,Male,1,USA32,1,,10,0,0.0,1,0.1,,82
+1648,Aparna Dhinakaran,Aparna,,Female,1,USA32,1,,10,0,0.0,1,0.1,,82
+1649,Kaylynn Williams,Kaylynn,,Female,1,USA32,1,,9,0,0.0,4,0.4444444444,,82
+1650,Haley Williams,Haley,,Female,1,USA32,1,,9,0,0.0,4,0.4444444444,,82
+1651,Leo Brown,Leo,,Male,1,USA32,1,,7,0,0.0,1,0.1428571429,,82
+1652,Alana Folsom,Alana,,Female,1,USA32,1,,7,0,0.0,1,0.1428571429,,82
+1653,Michelle Newland,Michelle,,Female,1,USA32,1,,5,0,0.0,1,0.2,,82
+1654,Victoria Newland,Victoria,,Female,1,USA32,1,,5,0,0.0,1,0.2,,82
+1655,Jerry Eaves,Jerry,,Male,1,USA32,1,,3,0,0.0,1,0.3333333333,,82
+1656,Frank Eaves,Frank,,Male,1,USA32,1,,3,0,0.0,1,0.3333333333,,82
+1657,Kellie Wells-Brinkley,Kellie,,Female,1,USA32,1,,2,0,0.0,1,0.5,,82
+1658,LaVonne Idlette,LaVonne,,Female,1,USA32,1,,2,0,0.0,1,0.5,,82
+1659,Nathan Worthington,Nathan,,Male,1,USA32,1,,1,0,0.0,1,1.0,,82
+1660,Cody Buell,Cody,,Male,1,USA32,1,,1,0,0.0,1,1.0,,82
+1661,Brendon Crawley,Brendon,,Male,1,AUS5,1,,23,5,0.2173913043,2,0.08695652174,,83
+1662,Jackson Dening,Jackson,,Male,1,AUS5,1,,23,5,0.2173913043,2,0.08695652174,,83
+1663,Ashleigh Lawrence,Ashleigh,,Female,1,AUS5,1,,22,8,0.3636363636,1,0.04545454545,,83
+1664,Amanda Blanks,Amanda,,Female,1,AUS5,1,,22,8,0.3636363636,1,0.04545454545,,83
+1665,Jaskirat Dhingra,Jaskirat,,Male,1,AUS5,1,,23,4,0.1739130435,2,0.08695652174,,83
+1666,Anurag Shobti,Anurag,,Male,1,AUS5,1,,23,4,0.1739130435,2,0.08695652174,,83
+1667,Chris DiLoreto,Chris,,Male,1,AUS5,1,,22,1,0.04545454545,2,0.09090909091,,83
+1668,Aleisha Groth,Aleisha,,Female,1,AUS5,1,,22,1,0.04545454545,2,0.09090909091,,83
+1669,Skye-Blue Henderson,Skye-Blue,,Female,1,AUS5,1,,20,2,0.1,1,0.05,,83
+1670,Jake Henderson,Jake,,Male,1,AUS5,1,,20,2,0.1,1,0.05,,83
+1671,Marijana Rajčić,MJ,,Female,1,AUS5,1,,10,3,0.3,1,0.1,,83
+1672,Chelsea Randall,Chelsea,,Female,1,AUS5,1,,10,3,0.3,1,0.1,,83
+1673,Holly Edwards,Holly,,Female,1,AUS5,1,,16,0,0.0,2,0.125,,83
+1674,Dolor Edosomwan,Dolor,,Male,1,AUS5,1,,16,0,0.0,2,0.125,,83
+1675,Stan Turek,Stan,,Male,1,AUS5,1,,6,0,0.0,3,0.5,,83
+1676,Wayne Marino,Wayne,,Male,1,AUS5,1,,6,0,0.0,3,0.5,,83
+1677,Jordan Saisi,Jordan,,Male,1,AUS5,1,,12,0,0.0,1,0.08333333333,,83
+1678,Violeta Mugica,Violeta,,Female,1,AUS5,1,,12,0,0.0,1,0.08333333333,,83
+1679,Dwesmond Wiggan-Dann,Dwes,,Male,1,AUS5,1,,9,0,0.0,3,0.3333333333,,83
+1680,Katherine Dann,Katherine,,Female,1,AUS5,1,,9,0,0.0,3,0.3333333333,,83
+1681,Sefa Palu,Sefa,,Male,1,AUS5,1,,7,0,0.0,1,0.1428571429,,83
+1682,Jessica Matavao,Jessica,,Female,1,AUS5,1,,7,0,0.0,1,0.1428571429,,83
+1683,Jobelle Collier,Jobelle,,Female,1,AUS5,1,,6,0,0.0,1,0.1666666667,,83
+1684,Rani Alegre,Rani,,Male,1,AUS5,1,,6,0,0.0,1,0.1666666667,,83
+1685,Shane Wilson,Shane,,Male,1,AUS5,1,,5,1,0.2,1,0.2,,83
+1686,Deborah Wilson,Deb,,Female,1,AUS5,1,,5,1,0.2,1,0.2,,83
+1687,Malaan Ajang,Malaan,,Female,1,AUS5,1,,4,0,0.0,1,0.25,,83
+1688,Tina Kuek,Tina,,Female,1,AUS5,1,,4,0,0.0,1,0.25,,83
+1689,Jude Richards,Jude,,Female,1,AUS5,1,,3,0,0.0,1,0.3333333333,,83
+1690,Shannon Nay,Shannon,,Female,1,AUS5,1,,3,0,0.0,1,0.3333333333,,83
+1691,Alex Newell,Alex,,Male,1,AUS5,1,,2,0,0.0,1,0.5,,83
+1692,Jack Newell,Jack,,Male,1,AUS5,1,,2,0,0.0,1,0.5,,83
+1693,Kim Holderness,Kim,,Female,1,USA33,1,,11,5,0.4545454545,0,0.0,,84
+1694,Penn Holderness,Penn,,Male,1,USA33,1,,11,5,0.4545454545,0,0.0,,84
+1695,Raquel Moore,Raquel,,Female,1,USA33,1,,11,2,0.1818181818,0,0.0,,84
+1696,Cayla Platt,Cayla,,Female,1,USA33,1,,11,2,0.1818181818,0,0.0,,84
+1697,Ryan Ferguson,Ryan,,Male,1,USA33,1,,11,3,0.2727272727,2,0.1818181818,,84
+1698,Dusty Harris,Dusty,,Male,1,USA33,1,,11,3,0.2727272727,2,0.1818181818,,84
+1699,Arun Kumar,Arun,,Male,1,USA33,1,,10,0,0.0,4,0.4,,84
+1700,Natalia Kumar,Natalia,,Female,1,USA33,1,,10,0,0.0,4,0.4,,84
+1701,Marianela Gonzalez,Lulu,,Female,1,USA33,1,,8,0,0.0,2,0.25,,84
+1702,Marissa Gonzalez,Lala,,Female,1,USA33,1,,8,0,0.0,2,0.25,,84
+1703,"Akbar Cook, Sr.",Akbar,,Male,1,USA33,1,,6,0,0.0,1,0.1666666667,,84
+1704,Sheridan Cook,Sheri,,Female,1,USA33,1,,6,0,0.0,1,0.1666666667,,84
+1705,Michael Norwood,Michael,,Male,1,USA33,1,,2,0,0.0,2,1.0,,84
+1706,Armonde Badger,Moe,,Male,1,USA33,1,,2,0,0.0,2,1.0,,84
+1707,Anthony Sadler,Anthony,,Male,1,USA33,1,,3,1,0.3333333333,0,0.0,,84
+1708,Spencer Stone,Spencer,,Male,1,USA33,1,,3,1,0.3333333333,0,0.0,,84
+1709,Connie Greiner,Connie,,Female,1,USA33,1,,3,0,0.0,0,0.0,,84
+1710,Sam Greiner,Sam,,Male,1,USA33,1,,3,0,0.0,0,0.0,,84
+1711,Caroline Viehweg,Caro,,Female,1,USA33,1,,3,0,0.0,0,0.0,,84
+1712,Raymond Gantt,Ray,,Male,1,USA33,1,,3,0,0.0,0,0.0,,84
+1713,Taylor Green-Jones,Taylor,,Male,1,USA33,1,,3,0,0.0,0,0.0,,84
+1714,Isaiah Green-Jones,Isaiah,,Male,1,USA33,1,,3,0,0.0,0,0.0,,84
+1715,Catherine Wreford,Catherine,,Female,1,CAN8,1,,9,3,0.3333333333,0,0.0,,85
+1716,Craig Ramsay,Craig,,Male,1,CAN8,1,,9,3,0.3333333333,0,0.0,,85
+1717,Jesse Cockney,Jesse,,Male,1,CAN8,1,,11,3,0.2727272727,0,0.0,,85
+1718,Marika Sila,Marika,,Female,1,CAN8,1,,11,3,0.2727272727,0,0.0,,85
+1719,Franca Brodett,Franca,,Female,1,CAN8,1,,11,2,0.1818181818,0,0.0,,85
+1720,Nella Brodett,Nella,,Female,1,CAN8,1,,11,2,0.1818181818,0,0.0,,85
+1721,Brendan McDougall,Brendan,,Male,2,"CAN8, CAN11",2,,13,3,0.2307692308,3,0.2307692308,,98
+1722,Connor McDougall,Connor,,Male,1,CAN8,1,,11,3,0.2727272727,2,0.1818181818,,85
+1723,Beverley Cheng,Beverley,,Female,1,CAN8,1,,10,0,0.0,1,0.1,,85
+1724,Veronica Skye,Veronica,,Female,1,CAN8,1,,10,0,0.0,1,0.1,,85
+1725,Siginaak Court Larabee,Court,,Male,1,CAN8,1,,7,0,0.0,2,0.2857142857,,85
+1726,Ali Clark,Ali,,Female,1,CAN8,1,,7,0,0.0,2,0.2857142857,,85
+1727,Cedric Newman,Cedric,,Male,1,CAN8,1,,7,0,0.0,0,0.0,,85
+1728,Tychon Carter-Newman,Tychon,,Male,1,CAN8,1,,7,0,0.0,0,0.0,,85
+1729,Cassie Day,Cassie,,Female,1,CAN8,1,,7,0,0.0,3,0.4285714286,,85
+1730,Jahmeek Murray,Jahmeek,,Male,1,CAN8,1,,7,0,0.0,3,0.4285714286,,85
+1731,Dennis Ashe,Dennis,,Male,1,CAN8,1,,4,0,0.0,1,0.25,,85
+1732,Durrell Borden,Durrell,,Male,1,CAN8,1,,4,0,0.0,1,0.25,,85
+1733,Jully Black,Jully,,Female,1,CAN8,1,,3,0,0.0,2,0.6666666667,,85
+1734,Kathy Hunter,Kathy,,Female,1,CAN8,1,,3,0,0.0,2,0.6666666667,,85
+1735,Heath Curry,Heath,,Male,1,AUS6,1,,20,6,0.3,1,0.05,,86
+1736,Toni Hilland,Toni,,Female,1,AUS6,1,,20,6,0.3,1,0.05,,86
+1737,Angel Williams,Angel,,Female,1,AUS6,1,,20,6,0.3,0,0.0,,86
+1738,Francis Vaaua,Frankie,,Male,1,AUS6,1,,20,6,0.3,0,0.0,,86
+1739,Kelly Baildon,Kelly,,Male,1,AUS6,1,,16,3,0.1875,1,0.0625,,86
+1740,Georgia Baildon,Georgia,,Female,1,AUS6,1,,16,3,0.1875,1,0.0625,,86
+1741,Tiffany Turland,Tiffany,,Female,1,AUS6,1,,15,0,0.0,2,0.1333333333,,86
+1742,Cynthia Cameron-Turland,Cynthia,,Female,1,AUS6,1,,15,0,0.0,2,0.1333333333,,86
+1743,Pako Komira,Pako,,Male,1,AUS6,1,,18,4,0.2222222222,1,0.05555555556,,86
+1744,Mori Perez,Mori,,Male,1,AUS6,1,,18,4,0.2222222222,1,0.05555555556,,86
+1745,Lauren Howells,Lauren,,Female,1,AUS6,1,,12,0,0.0,1,0.08333333333,,86
+1746,Steph McGrath,Steph,,Female,1,AUS6,1,,12,0,0.0,1,0.08333333333,,86
+1747,Chelsea Keen,Chelsea,,Female,1,AUS6,1,,16,1,0.0625,2,0.125,,86
+1748,Jamus Maoate,Jamus,,Male,1,AUS6,1,,16,1,0.0625,2,0.125,,86
+1749,Jodie Playford,Jodie,,Female,1,AUS6,1,,10,0,0.0,1,0.1,,86
+1750,Claire Thomas,Claire,,Female,1,AUS6,1,,10,0,0.0,1,0.1,,86
+1751,Felicity Naughton,Fliss,,Female,1,AUS6,1,,9,0,0.0,1,0.1111111111,,86
+1752,Josephine O'Brienn,Tottie,,Female,1,AUS6,1,,9,0,0.0,1,0.1111111111,,86
+1753,Felicity Mifsud,Flick,,Female,1,AUS6,1,,12,1,0.08333333333,1,0.08333333333,,86
+1754,Gabby Mifsud,Gabby,,Female,1,AUS6,1,,12,1,0.08333333333,1,0.08333333333,,86
+1755,Stuart McGrath,Stuart,,Male,1,AUS6,1,,8,0,0.0,1,0.125,,86
+1756,Glennon Babui,Glennon,,Male,1,AUS6,1,,8,0,0.0,1,0.125,,86
+1757,Kathy Alexandra,Kathy,,Female,1,AUS6,1,,3,0,0.0,1,0.3333333333,,86
+1758,Chace Tran,Chace,,Male,1,AUS6,1,,3,0,0.0,1,0.3333333333,,86
+1759,Morgan Trevethan,Morgan,,Female,1,AUS6,1,,8,0,0.0,1,0.125,,86
+1760,Lilly Robbo,Lilli,,Female,1,AUS6,1,,8,0,0.0,1,0.125,,86
+1761,Tammy Chan,Tammy,,Female,1,AUS6,1,,7,0,0.0,1,0.1428571429,,86
+1762,Vincent Chan,Vincent,,Male,1,AUS6,1,,7,0,0.0,1,0.1428571429,,86
+1763,Crystal Tawil,Crystal,,Female,1,AUS6,1,,6,0,0.0,1,0.1666666667,,86
+1764,Reem Chokr,Reem,,Female,1,AUS6,1,,6,0,0.0,1,0.1666666667,,86
+1765,Sam Kimberley,Sam,,Male,1,AUS6,1,,5,0,0.0,1,0.2,,86
+1766,Stuart Moorhouse,Stu,,Male,1,AUS6,1,,5,0,0.0,1,0.2,,86
+1767,Sam Trenwith,Sam,,Male,1,AUS6,1,,3,0,0.0,1,0.3333333333,,86
+1768,Alex Hill,Alex,,Male,1,AUS6,1,,3,0,0.0,1,0.3333333333,,86
+1769,Jake O'Brien,Jake,,Male,1,AUS6,1,,2,0,0.0,1,0.5,,86
+1770,Holly MacAlpine,Holly,,Female,1,AUS6,1,,2,0,0.0,1,0.5,,86
+1771,Brenda Wilkinson,Bren,,Female,1,AUS6,1,,1,0,0.0,1,1.0,,86
+1772,Anja Gramueller-Southon,Anja,,Female,1,AUS6,1,,1,0,0.0,1,1.0,,86
+1773,Paul Farrell,Paul,,Male,1,AUS6,1,,1,0,0.0,1,1.0,,86
+1774,Rachel Farrell,Rachel,,Female,1,AUS6,1,,1,0,0.0,1,1.0,,86
+1775,Derek Xiao,Derek,,Male,1,USA34,1,,12,5,0.4166666667,0,0.0,,87
+1776,Claire Rehfuss,Claire,,Female,1,USA34,1,,12,5,0.4166666667,0,0.0,,87
+1777,Emily Bushnell,Emily,,Female,1,USA34,1,,12,1,0.08333333333,0,0.0,,87
+1778,Molly Sinert,Molly,,Female,1,USA34,1,,12,1,0.08333333333,0,0.0,,87
+1779,Luis Colon,Luis,,Male,1,USA34,1,,12,3,0.25,1,0.08333333333,,87
+1780,Michelle Burgos,Michelle,,Female,1,USA34,1,,12,3,0.25,1,0.08333333333,,87
+1781,Aubrey Ares,Aubrey,,Female,1,USA34,1,,11,0,0.0,1,0.09090909091,,87
+1782,David Hernandez,David,,Male,1,USA34,1,,11,0,0.0,1,0.09090909091,,87
+1783,Marcus Craig,Marcus,,Male,1,USA34,1,,10,3,0.3,2,0.2,,87
+1784,Michael Craig,Michael,,Male,1,USA34,1,,10,3,0.3,2,0.2,,87
+1785,Quinton Peron,Quinton,,Male,1,USA34,1,,8,0,0.0,1,0.125,,87
+1786,Mattie Lynch,Mattie,,Female,1,USA34,1,,8,0,0.0,1,0.125,,87
+1787,Glenda Roberts,Glenda,,Female,1,USA34,1,,7,0,0.0,3,0.4285714286,,87
+1788,Lumumba Roberts,Lumumba,,Male,1,USA34,1,,7,0,0.0,3,0.4285714286,,87
+1789,Abby Garrett,Abby,,Female,1,USA34,1,,5,0,0.0,0,0.0,,87
+1790,Will Freeman,Will,,Male,1,USA34,1,,5,0,0.0,0,0.0,,87
+1791,Linton Atkinson,Linton,,Male,1,USA34,1,,5,0,0.0,1,0.2,,87
+1792,Sharik Atkinson,Sharik,,Female,1,USA34,1,,5,0,0.0,1,0.2,,87
+1793,Richard Kuo,Rich,,Male,1,USA34,1,,4,0,0.0,1,0.25,,87
+1794,Dom Jones,Dom,,Female,1,USA34,1,,4,0,0.0,1,0.25,,87
+1795,Tim Mann,Tim,,Male,1,USA34,1,,2,0,0.0,1,0.5,,87
+1796,Rex Ryan,Rex,,Male,1,USA34,1,,2,0,0.0,1,0.5,,87
+1797,Aastha Lal,Aastha,,Female,1,USA34,1,,1,0,0.0,1,1.0,,87
+1798,Nina Duong,Nina,,Female,1,USA34,1,,1,0,0.0,1,1.0,,87
+1799,Tyler Smith,Ty,,Male,1,CAN9,1,,10,5,0.5,0,0.0,,88
+1800,Katrina Kastner,Kat,,Female,1,CAN9,1,,10,5,0.5,0,0.0,,88
+1801,Tyler Turner,Tyler,,Male,1,CAN9,1,,10,3,0.3,0,0.0,,88
+1802,Kayleen Vanderee,Kayleen,,Female,1,CAN9,1,,10,3,0.3,0,0.0,,88
+1803,Ben Chutta,Ben,,Male,1,CAN9,1,,10,0,0.0,1,0.1,,88
+1804,Anwar Ahmed,Anwar,,Male,1,CAN9,1,,10,0,0.0,1,0.1,,88
+1805,Deven Condo-Mitchell,Deven,,Male,1,CAN9,1,,9,0,0.0,1,0.1111111111,,88
+1806,Amanda Larocque,Amanda,,Female,1,CAN9,1,,9,0,0.0,1,0.1111111111,,88
+1807,Jermaine Aranha,Jermaine,,Male,1,CAN9,1,,8,0,0.0,3,0.375,,88
+1808,Justin Baird,Justin,,Male,1,CAN9,1,,8,0,0.0,3,0.375,,88
+1809,Derek Gottenbos,Derek,,Male,1,CAN9,1,,7,1,0.1428571429,1,0.1428571429,,88
+1810,Jaspal Sidhu,Jaspal,,Male,1,CAN9,1,,7,1,0.1428571429,1,0.1428571429,,88
+1811,Gracie Lowes,Gracie,,Female,1,CAN9,1,,5,1,0.2,1,0.2,,88
+1812,Lily Bateman,Lily,,Female,1,CAN9,1,,5,1,0.2,1,0.2,,88
+1813,Shayla Stonechild,Shayla,,Female,1,CAN9,1,,4,0,0.0,1,0.25,,88
+1814,Joel Oulette,Joel,,Male,1,CAN9,1,,4,0,0.0,1,0.25,,88
+1815,Allie Seller,Allie,,Female,1,CAN9,1,,2,0,0.0,1,0.5,,88
+1816,Eddie Parinas,Eddie,,Male,1,CAN9,1,,2,0,0.0,1,0.5,,88
+1817,Gail Kim,Gail,,Female,1,CAN9,1,,1,0,0.0,1,1.0,,88
+1818,Gisele Shaw,Gisele,,Female,1,CAN9,1,,1,0,0.0,1,1.0,,88
+1819,Greg Franklin,Greg,,Male,1,USA35,1,,12,5,0.4166666667,0,0.0,,89
+1820,John Franklin,John,,Male,1,USA35,1,,12,5,0.4166666667,0,0.0,,89
+1821,Joel Strasser,Joel,,Male,1,USA35,1,,12,1,0.08333333333,0,0.0,,89
+1822,Garrett Smith,Garrett,,Male,1,USA35,1,,12,1,0.08333333333,0,0.0,,89
+1823,Rob McArthur,Rob,,Male,1,USA35,1,,12,1,0.08333333333,1,0.08333333333,,89
+1824,Corey McArthur,Corey,,Male,1,USA35,1,,12,1,0.08333333333,1,0.08333333333,,89
+1825,Steve Cargile,Steve,,Male,1,USA35,1,,11,2,0.1818181818,1,0.09090909091,,89
+1826,Anna Leigh Wilson,Anna Leigh,,Female,1,USA35,1,,11,2,0.1818181818,1,0.09090909091,,89
+1827,Todd Martin,Todd,,Male,1,USA35,1,,10,0,0.0,1,0.1,,89
+1828,Ashlie Martin,Ashlie,,Female,1,USA35,1,,10,0,0.0,1,0.1,,89
+1829,Robbin Tomich,Robbin,,Female,1,USA35,1,,9,1,0.1111111111,1,0.1111111111,,89
+1830,Chelsea Day,Chelsea,,Female,1,USA35,1,,9,1,0.1111111111,1,0.1111111111,,89
+1831,Morgan Franklin,Morgan,,Female,1,USA35,1,,8,0,0.0,1,0.125,,89
+1832,Lena Franklin,Lena,,Female,1,USA35,1,,8,0,0.0,1,0.125,,89
+1833,Andrea Simpson,Andrea,,Female,1,USA35,1,,7,0,0.0,1,0.1428571429,,89
+1834,Malaina Hatcher,Malaina,,Female,1,USA35,1,,7,0,0.0,1,0.1428571429,,89
+1835,Liam Hykel,Liam,,Male,1,USA35,1,,6,0,0.0,2,0.3333333333,,89
+1836,Yeremi Hykel,Yeremi,,Male,1,USA35,1,,6,0,0.0,2,0.3333333333,,89
+1837,Joe Moskowitz,Joe,,Male,1,USA35,1,,5,0,0.0,1,0.2,,89
+1838,Ian Todd,Ian,,Male,1,USA35,1,,5,0,0.0,1,0.2,,89
+1839,Jocelyn Chao,Jocelyn,,Female,1,USA35,1,,4,2,0.5,1,0.25,,89
+1840,Victor Limary,Victor,,Male,1,USA35,1,,4,2,0.5,1,0.25,,89
+1841,Elizabeth Rivera,Elizabeth,,Female,1,USA35,1,,2,0,0.0,1,0.5,,89
+1842,Iliana Rivera,Iliana,,Female,1,USA35,1,,2,0,0.0,1,0.5,,89
+1843,Alexandra Lichtor,Alexandra,,Female,1,USA35,1,,1,0,0.0,1,1.0,,89
+1844,Sheridan Lichtor,Sheridan,,Male,1,USA35,1,,1,0,0.0,1,1.0,,89
+1845,Kaisa Mäkäräinen,Kaisa,,Female,1,FIN1,1,,12,1,0.08333333333,1,0.08333333333,,90
+1846,Mari Eder,Mari,,Female,1,FIN1,1,,12,1,0.08333333333,1,0.08333333333,,90
+1847,Tuukka Ritokoski,Tuukka,,Male,1,FIN1,1,,12,0,0.0,0,0.0,,90
+1848,Sami Ritokoski,Sami,,Male,1,FIN1,1,,12,0,0.0,0,0.0,,90
+1849,Janne Lehtonen,Janne,,Male,1,FIN1,1,,12,5,0.4166666667,1,0.08333333333,,90
+1850,Robin Hendry,Robin,,Male,1,FIN1,1,,12,5,0.4166666667,1,0.08333333333,,90
+1851,Bakari Diarra,Bakari,,Male,1,FIN1,1,,11,5,0.4545454545,1,0.09090909091,,90
+1852,Samuel Chime,Samuel,,Male,1,FIN1,1,,11,5,0.4545454545,1,0.09090909091,,90
+1853,Marcus Grönholm,Marcus,,Male,1,FIN1,1,,9,1,0.1111111111,1,0.1111111111,,90
+1854,Timo Rautiainen,Timo,,Male,1,FIN1,1,,9,1,0.1111111111,1,0.1111111111,,90
+1855,Peter Vesterbacka,Peter,,Male,1,FIN1,1,,8,0,0.0,2,0.25,,90
+1856,Thy Nguyen,Anna,,Female,1,FIN1,1,,8,0,0.0,2,0.25,,90
+1857,Ilmari Nurminen,Ilmari,,Male,1,FIN1,1,,6,0,0.0,2,0.3333333333,,90
+1858,Aapo Hettula,Aapo,,Male,1,FIN1,1,,6,0,0.0,2,0.3333333333,,90
+1859,Jukka Rasila,Jukka,,Male,1,FIN1,1,,5,0,0.0,1,0.2,,90
+1860,Mirva Nieminen,Mirva,,Female,1,FIN1,1,,5,0,0.0,1,0.2,,90
+1861,Katariina Kaitue,Katariina,,Female,1,FIN1,1,,3,0,0.0,0,0.0,,90
+1862,Benjamin Harima,Benjamin,,Male,1,FIN1,1,,3,0,0.0,0,0.0,,90
+1863,Lotta Hintsa,Lotta,,Female,1,FIN1,1,,3,0,0.0,1,0.3333333333,,90
+1864,Noora Hintsa,Noora,,Female,1,FIN1,1,,3,0,0.0,1,0.3333333333,,90
+1865,Aino-Kaisa Pekonen,Aino-Kaisa,,Female,1,FIN1,1,,2,0,0.0,1,0.5,,90
+1866,Silvia Modig,Silvia,,Female,1,FIN1,1,,2,0,0.0,1,0.5,,90
+1867,Anna Perho,Anna,,Female,1,FIN1,1,,1,0,0.0,1,1.0,,90
+1868,Atte Lehtiniittu,Atte,,Male,1,FIN1,1,,1,0,0.0,1,1.0,,90
+1869,Darren McMullen,Darren,,Male,1,AUS7,1,,12,6,0.5,1,0.08333333333,,91
+1870,Trustan Dougan,Tristan,,Male,1,AUS7,1,,12,6,0.5,1,0.08333333333,,91
+1871,Emma Watkins,Emma,,Female,1,AUS7,1,,12,4,0.3333333333,1,0.08333333333,,91
+1872,Hayley Watkins,Hayley,,Female,1,AUS7,1,,12,4,0.3333333333,1,0.08333333333,,91
+1873,Alli Simpson,Alli,,Female,1,AUS7,1,,12,3,0.25,2,0.1666666667,,91
+1874,Angie Simpson,Angie,,Female,1,AUS7,1,,12,3,0.25,2,0.1666666667,,91
+1875,Harry Jowsey,Harry,,Male,1,AUS7,1,,11,0,0.0,2,0.1818181818,,91
+1876,Teddy Briggs,Teddy,,Male,1,AUS7,1,,11,0,0.0,2,0.1818181818,,91
+1877,Jana Pittman,Jana,,Female,1,AUS7,1,,9,1,0.1111111111,1,0.1111111111,,91
+1878,Cornelis Rawlinson,Cor,,Male,1,AUS7,1,,9,1,0.1111111111,1,0.1111111111,,91
+1879,Rebecca Judd,Bec,,Female,1,AUS7,1,,7,0,0.0,1,0.1428571429,,91
+1880,Kate Twigley,Kate,,Female,1,AUS7,1,,7,0,0.0,1,0.1428571429,,91
+1881,George Mladenov,George,,Male,1,AUS7,1,,6,0,0.0,2,0.3333333333,,91
+1882,Pamela Mladenov,Pam,,Female,1,AUS7,1,,6,0,0.0,2,0.3333333333,,91
+1883,Benjamin Gillies,Ben,,Male,1,AUS7,1,,5,0,0.0,1,0.2,,91
+1884,Jakica Gillies,Jackie,,Female,1,AUS7,1,,5,0,0.0,1,0.2,,91
+1885,Peter Rowsthorn,Peter,,Male,1,AUS7,1,,4,0,0.0,1,0.25,,91
+1886,Frankie Rowsthorn,Frankie,,Female,1,AUS7,1,,4,0,0.0,1,0.25,,91
+1887,Grant Denyer,Grant,,Male,1,AUS7,1,,2,0,0.0,1,0.5,,91
+1888,Cheryl Denyer,Chezzi,,Female,1,AUS7,1,,2,0,0.0,1,0.5,,91
+1889,Dane Simpson,Dane,,Male,1,AUS7,1,,1,0,0.0,1,1.0,,91
+1890,Bow Simpson,Bow,,Male,1,AUS7,1,,1,0,0.0,1,1.0,,91
+1891,Ricky Rotandi,Ricky,,Male,1,USA36,1,,12,7,0.5833333333,0,0.0,,92
+1892,Cesar Aldrete,Cesar,,Male,1,USA36,1,,12,7,0.5833333333,0,0.0,,92
+1893,Juan Villa,Juan,,Male,1,USA36,1,,12,2,0.1666666667,0,0.0,,92
+1894,Shane Bilek,Shane,,Male,1,USA36,1,,12,2,0.1666666667,0,0.0,,92
+1895,Roderick Gardner,Rod,,Male,1,USA36,1,,12,3,0.25,1,0.08333333333,,92
+1896,Leticia Gardner,Leticia,,Female,1,USA36,1,,12,3,0.25,1,0.08333333333,,92
+1897,Amber Craven,Amber,,Female,1,USA36,1,,11,0,0.0,1,0.09090909091,,92
+1898,Vincent Cagungun,Vinny,,Male,1,USA36,1,,11,0,0.0,1,0.09090909091,,92
+1899,Yvonne Chavez,Yvonne,,Female,1,USA36,1,,10,0,0.0,1,0.1,,92
+1900,Melissa Main,Melissa,,Female,1,USA36,1,,10,0,0.0,1,0.1,,92
+1901,Angela Butler,Angie,,Female,1,USA36,1,,9,0,0.0,1,0.1111111111,,92
+1902,Danny Butler,Danny,,Male,1,USA36,1,,9,0,0.0,1,0.1111111111,,92
+1903,Sunny Pulver,Sunny,,Female,1,USA36,1,,8,0,0.0,1,0.125,,92
+1904,Elizabeth Smith,Bizzy,,Female,1,USA36,1,,8,0,0.0,1,0.125,,92
+1905,Derek Williams,Derek,,Male,1,USA36,1,,7,0,0.0,2,0.2857142857,,92
+1906,Shelisa Williams,Shelisa,,Female,1,USA36,1,,7,0,0.0,2,0.2857142857,,92
+1907,Kishori Turner,Kishori,,Female,1,USA36,1,,5,0,0.0,1,0.2,,92
+1908,Karishma Cordero,Karishma,,Female,1,USA36,1,,5,0,0.0,1,0.2,,92
+1909,Michelle Clark,Michelle,,Female,1,USA36,1,,4,0,0.0,1,0.25,,92
+1910,Sean Clark,Sean,,Male,1,USA36,1,,4,0,0.0,1,0.25,,92
+1911,Anthony Smith,Anthony,,Male,1,USA36,1,,3,0,0.0,1,0.3333333333,,92
+1912,Bailey Smith,Bailey,,Male,1,USA36,1,,3,0,0.0,1,0.3333333333,,92
+1913,Chris Foster,Chris,,Male,1,USA36,1,,2,0,0.0,1,0.5,,92
+1914,Mary Cardona-Foster,Mary,,Female,1,USA36,1,,2,0,0.0,1,0.5,,92
+1915,Maya Mody,Maya,,Female,1,USA36,1,,1,0,0.0,1,1.0,,92
+1916,Rohan Mody,Rohan,,Male,1,USA36,1,,1,0,0.0,1,1.0,,92
+1917,Lee Avrahami,Lee,,Female,1,ISR9,1,,12,5,0.4166666667,0,0.0,,93
+1918,Anne Avrahami,Anne,,Female,1,ISR9,1,,12,5,0.4166666667,0,0.0,,93
+1919,Inbar Ben Atia,Inbar,,Female,1,ISR9,1,,12,1,0.08333333333,0,0.0,,93
+1920,Avishay Regev,Avishay,,Male,1,ISR9,1,,12,1,0.08333333333,0,0.0,,93
+1921,Lior Dabach,Lior,,Male,1,ISR9,1,,12,0,0.0,2,0.1666666667,,93
+1922,Sapir Avisror,Sapir,,Female,1,ISR9,1,,12,0,0.0,2,0.1666666667,,93
+1923,Itzik Sokolovski,Itzik,,Male,1,ISR9,1,,11,0,0.0,1,0.09090909091,,93
+1924,Esti Sokolovski,Esti,,Female,1,ISR9,1,,11,0,0.0,1,0.09090909091,,93
+1925,Sahar Koren,Sahar,,Male,1,ISR9,1,,10,2,0.2,1,0.1,,93
+1926,Yeftah Ramon,Yeftah,,Male,1,ISR9,1,,10,2,0.2,1,0.1,,93
+1927,Udi Naor,Udi,,Male,1,ISR9,1,,9,2,0.2222222222,2,0.2222222222,,93
+1928,Matan Oved,Matan,,Male,1,ISR9,1,,9,2,0.2222222222,2,0.2222222222,,93
+1929,Mahmoud Safouri,Modi,,Male,1,ISR9,1,,7,0,0.0,0,0.0,,93
+1930,Miki Lelov,Miki,,Male,1,ISR9,1,,7,0,0.0,0,0.0,,93
+1931,Hasida Hasson,Hassi,,Female,1,ISR9,1,,6,1,0.1666666667,1,0.1666666667,,93
+1932,Yerin Hasson,Yerin,,Female,1,ISR9,1,,6,1,0.1666666667,1,0.1666666667,,93
+1933,Idan Rosen,Idan,,Male,1,ISR9,1,,5,1,0.2,1,0.2,,93
+1934,Guy Rosen,Guy,,Male,1,ISR9,1,,5,1,0.2,1,0.2,,93
+1935,Amit Hen,Amit,,Female,1,ISR9,1,,4,0,0.0,1,0.25,,93
+1936,Rotem Revivo,Rotem,,Female,1,ISR9,1,,4,0,0.0,1,0.25,,93
+1937,Raheli Mizrahi,Raheli,,Female,1,ISR9,1,,3,0,0.0,1,0.3333333333,,93
+1938,Miri Eliezer,Miri,,Female,1,ISR9,1,,3,0,0.0,1,0.3333333333,,93
+1939,Shahar Elbaz,Shahar,,Male,1,ISR9,1,,2,0,0.0,1,0.5,,93
+1940,Ronit Elbaz,Ronit,,Female,1,ISR9,1,,2,0,0.0,1,0.5,,93
+1941,Michal Matzov,Michal,,Female,1,ISR9,1,,1,0,0.0,1,1.0,,93
+1942,Elrom Ben Avraham,Elrom,,Male,1,ISR9,1,,1,0,0.0,1,1.0,,93
+1943,Taylor McPherson,Taylor,,Female,1,CAN10,1,,9,3,0.3333333333,1,0.1111111111,,94
+1944,Katie Mulkay,Katie,,Female,1,CAN10,1,,9,3,0.3333333333,1,0.1111111111,,94
+1945,Colin Rose,Colin,,Male,1,CAN10,1,,9,0,0.0,0,0.0,,94
+1946,Matt Roberts,Matt,,Male,1,CAN10,1,,9,0,0.0,0,0.0,,94
+1947,Michael Crouse,Michael,,Male,1,CAN10,1,,9,2,0.2222222222,0,0.0,,94
+1948,Tyson Gillies,Tyson,,Male,1,CAN10,1,,9,2,0.2222222222,0,0.0,,94
+1949,Lauren Peters,Lauren,,Female,1,CAN10,1,,9,2,0.2222222222,1,0.1111111111,,94
+1950,Nicole Peters,Nicole,,Female,1,CAN10,1,,9,2,0.2222222222,1,0.1111111111,,94
+1951,Kevin Martin,Kevin,,Male,1,CAN10,1,,8,1,0.125,1,0.125,,94
+1952,Gurleen Maan,Gurleen,,Female,1,CAN10,1,,8,1,0.125,1,0.125,,94
+1953,Michael Linklater,Michael,,Male,1,CAN10,1,,7,0,0.0,1,0.1428571429,,94
+1954,Amari Linklater,Amari,,Male,1,CAN10,1,,7,0,0.0,1,0.1428571429,,94
+1955,Julia Viola,Julia,,Female,1,CAN10,1,,5,1,0.2,1,0.2,,94
+1956,Olivia Curto,Olivia,,Female,1,CAN10,1,,5,1,0.2,1,0.2,,94
+1957,Bradley May,Brad,,Male,1,CAN10,1,,4,0,0.0,1,0.25,,94
+1958,Samantha May,Sam,,Female,2,"CAN10, CAN11",2,,6,0,0.0,2,0.3333333333,,98
+1959,Connor Carroll,Connor,,Male,1,CAN10,1,,3,0,0.0,1,0.3333333333,,94
+1960,John Ferguson,John,,Male,1,CAN10,1,,3,0,0.0,1,0.3333333333,,94
+1961,Dorothy Adeneye,Dorothy,,Female,1,CAN10,1,,2,0,0.0,1,0.5,,94
+1962,Olus Adeneye,Olus,,Male,1,CAN10,1,,2,0,0.0,1,0.5,,94
+1963,Eva Amo-Mensah,Eva,,Female,1,CAN10,1,,1,0,0.0,1,1.0,,94
+1964,Trystenne Burey,Trystenne,,Female,1,CAN10,1,,1,0,0.0,1,1.0,,94
+1965,Tai Tuivasa,Bam Bam,,Male,1,AUS8,1,,12,4,0.3333333333,0,0.0,,95
+1966,Logan Tuivasa,Logan,,Male,1,AUS8,1,,12,4,0.3333333333,0,0.0,,95
+1967,William Brownless,Billy,,Male,1,AUS8,1,,12,0,0.0,1,0.08333333333,,95
+1968,Oscar Brownless,Oscar,,Male,1,AUS8,1,,12,0,0.0,1,0.08333333333,,95
+1969,Brooke McClymont,Brooke,,Female,1,AUS8,1,,12,4,0.3333333333,1,0.08333333333,,95
+1970,Adam Eckersley,Adam,,Male,1,AUS8,1,,12,4,0.3333333333,1,0.08333333333,,95
+1971,Peter Helliar,Pete,,Male,1,AUS8,1,,11,2,0.1818181818,2,0.1818181818,,95
+1972,Bridget Helliar,Bridget,,Female,1,AUS8,1,,11,2,0.1818181818,2,0.1818181818,,95
+1973,Ian Thorpe,Thorpie,,Male,1,AUS8,1,,9,0,0.0,2,0.2222222222,,95
+1974,Christian Miranda,Christian,,Male,1,AUS8,1,,9,0,0.0,2,0.2222222222,,95
+1975,Chloe Logarzo,Chloe,,Female,1,AUS8,1,,7,2,0.2857142857,1,0.1428571429,,95
+1976,Emily Gielnik,Emily,,Female,1,AUS8,1,,7,2,0.2857142857,1,0.1428571429,,95
+1977,Havana Brown,Havana,,Female,1,AUS8,1,,6,0,0.0,1,0.1666666667,,95
+1978,Steph Dunstan-Wood,Steph,,Female,1,AUS8,1,,6,0,0.0,1,0.1666666667,,95
+1979,Jett Kenny,Jett,,Male,1,AUS8,1,,4,0,0.0,1,0.25,,95
+1980,Lily Brown,Lily,,Female,1,AUS8,1,,4,0,0.0,1,0.25,,95
+1981,Cyrelle Paule,Cyrell,,Female,1,AUS8,1,,3,0,0.0,1,0.3333333333,,95
+1982,Eden Dally,Eden,,Male,1,AUS8,1,,3,0,0.0,1,0.3333333333,,95
+1983,Natalie Bassingthwaighte,Nat,,Female,1,AUS8,1,,2,0,0.0,1,0.5,,95
+1984,Mel Sheldrick,Mel,,Female,1,AUS8,1,,2,0,0.0,1,0.5,,95
+1985,Luke McGregor,Luke,,Male,1,AUS8,1,,1,0,0.0,1,1.0,,95
+1986,Julie McGregor,Julie,,Female,1,AUS8,1,,1,0,0.0,1,1.0,,95
+1987,Metti Forssell,Metti,,Female,1,FIN2,1,,12,5,0.4166666667,0,0.0,,96
+1988,Hanna Launonen,Hanna,,Female,1,FIN2,1,,12,5,0.4166666667,0,0.0,,96
+1989,Mimosa Willamo,Mimosa,,Female,1,FIN2,1,,12,4,0.3333333333,0,0.0,,96
+1990,Patrick Willamo,Pati,,Male,1,FIN2,1,,12,4,0.3333333333,0,0.0,,96
+1991,Elias Aalto,Elias,,Male,1,FIN2,1,,12,3,0.25,1,0.08333333333,,96
+1992,Matias Pietilä,Matias,,Male,1,FIN2,1,,12,3,0.25,1,0.08333333333,,96
+1993,Paulus Arajuuri,Paulus,,Male,1,FIN2,1,,11,0,0.0,3,0.2727272727,,96
+1994,Adeliina Arajuuri,Adeliina,,Female,1,FIN2,1,,11,0,0.0,3,0.2727272727,,96
+1995,Leea Klemola,Leea,,Female,1,FIN2,1,,9,0,0.0,3,0.3333333333,,96
+1996,Kaarina Hazard,Kaarina,,Female,1,FIN2,1,,9,0,0.0,3,0.3333333333,,96
+1997,Deogracias Masomi,Gracias,,Male,1,FIN2,1,,7,0,0.0,1,0.1428571429,,96
+1998,Jeremie Malolo,Jeremie,,Male,1,FIN2,1,,7,0,0.0,1,0.1428571429,,96
+1999,Tiina Wikström,Tinni,,Female,1,FIN2,1,,5,0,0.0,1,0.2,,96
+2000,Antti Savinainen,Antti,,Male,1,FIN2,1,,5,0,0.0,1,0.2,,96
+2001,Mikko Kekäläinen,Mikko,,Male,1,FIN2,1,,4,0,0.0,0,0.0,,96
+2002,Mervi Levänen,Meikka,,Female,1,FIN2,1,,4,0,0.0,0,0.0,,96
+2003,Jani Sievinen,Jani,,Male,1,FIN2,1,,3,0,0.0,1,0.3333333333,,96
+2004,Maria Nyqvist,Maria,,Female,1,FIN2,1,,3,0,0.0,1,0.3333333333,,96
+2005,Tuure Boelius,Tuure,,Male,1,FIN2,1,,2,0,0.0,1,0.5,,96
+2006,Saana Boelius,Saana,,Female,1,FIN2,1,,2,0,0.0,1,0.5,,96
+2007,Aku Sipola,Aku,,Male,1,FIN2,1,,1,0,0.0,1,1.0,,96
+2008,Wille Komulainen,Wille,,Male,1,FIN2,1,,1,0,0.0,1,1.0,,96
+2009,Carson McCalley,Carson,,Male,1,USA37,1,,12,5,0.4166666667,0,0.0,,97
+2010,Jack Dodge,Jack,,Male,1,USA37,1,,12,5,0.4166666667,0,0.0,,97
+2011,Han Nguyen,Han,,Female,1,USA37,1,,12,0,0.0,1,0.08333333333,,97
+2012,Holden Nguyen,Holden,,Male,1,USA37,1,,12,0,0.0,1,0.08333333333,,97
+2013,Jonathan Towns,Jonathan,,Male,1,USA37,1,,12,3,0.25,1,0.08333333333,,97
+2014,Ana Towns,Ana,,Female,1,USA37,1,,12,3,0.25,1,0.08333333333,,97
+2015,Alyssa Borden,Alyssa,,Female,1,USA37,1,,11,2,0.1818181818,1,0.09090909091,,97
+2016,Josiah Borden,Josiah,,Male,1,USA37,1,,11,2,0.1818181818,1,0.09090909091,,97
+2017,Brett Hamby,Brett,,Male,1,USA37,1,,10,2,0.2,1,0.1,,97
+2018,Mark Romain,Mark,,Male,1,USA37,1,,10,2,0.2,1,0.1,,97
+2019,Melinda Papadeas,Melinda,,Female,1,USA37,1,,8,0,0.0,1,0.125,,97
+2020,Erika Papadeas,Erika,,Female,1,USA37,1,,8,0,0.0,1,0.125,,97
+2021,Nicholas Fiorito,Nick,,Male,1,USA37,1,,7,0,0.0,1,0.1428571429,,97
+2022,Michael Fiorito,Mike,,Male,1,USA37,1,,7,0,0.0,1,0.1428571429,,97
+2023,Jeff Bailey,Pops,,Male,1,USA37,1,,6,0,0.0,1,0.1666666667,,97
+2024,Jeff Bailey,Jeff,,Male,1,USA37,1,,6,0,0.0,1,0.1666666667,,97
+2025,Scott Thompson,Scott,,Male,1,USA37,1,,5,1,0.2,1,0.2,,97
+2026,Lori Thompson,Lori,,Female,1,USA37,1,,5,1,0.2,1,0.2,,97
+2027,Bernadette Gutierrez,Bernie,,Female,1,USA37,1,,4,0,0.0,1,0.25,,97
+2028,Carrigain Scadden,Carrigain,,Female,1,USA37,1,,4,0,0.0,1,0.25,,97
+2029,Courtney Ramsey,Courtney,,Female,1,USA37,1,,3,0,0.0,1,0.3333333333,,97
+2030,Jasmin Carey,Jasmin,,Female,1,USA37,1,,3,0,0.0,1,0.3333333333,,97
+2031,Ernest Cato,Ernest,,Male,1,USA37,1,,2,0,0.0,1,0.5,,97
+2032,Bridget Cato,Bridget,,Female,1,USA37,1,,2,0,0.0,1,0.5,,97
+2033,Mark Crawford,Mark,,Male,1,USA37,1,,1,0,0.0,1,1.0,,97
+2034,Larry Graham,Larry,,Male,1,USA37,1,,1,0,0.0,1,1.0,,97
+2035,Jackye Clayton,Jackye,,Female,1,USA37,1,,1,0,0.0,1,1.0,,97
+2036,Lauren McKinney,Lauren,,Female,1,USA37,1,,1,0,0.0,1,1.0,,97
+2037,Jesse Harink,Jesse,,Male,1,CAN11,1,,10,5,0.5,0,0.0,,98
+2038,Jonathon Braun,Jonathon,,Male,1,CAN11,1,,10,5,0.5,0,0.0,,98
+2039,Grace Dove,Grace,,Female,1,CAN11,1,,10,2,0.2,0,0.0,,98
+2040,Joe Syme,Joe,,Male,1,CAN11,1,,10,2,0.2,0,0.0,,98
+2041,Ethan Burnett,EB,,Male,1,CAN11,1,,10,2,0.2,0,0.0,,98
+2042,Blake Burnett,Blake,,Male,1,CAN11,1,,10,2,0.2,0,0.0,,98
+2043,Skylene Gladue,Nipîy,,Female,1,CAN11,1,,10,1,0.1,2,0.2,,98
+2044,Blair Gladue,Magoo,,Male,1,CAN11,1,,10,1,0.1,2,0.2,,98
+2045,Ika Wong,Ika,,Female,1,CAN11,1,,9,0,0.0,1,0.1111111111,,98
+2046,Demetres Giannitsos,Demetres,,Male,1,CAN11,1,,9,0,0.0,1,0.1111111111,,98
+2047,Lacey Koughan,Lacey,,Female,1,CAN11,1,,8,0,0.0,2,0.25,,98
+2048,Celia Koughan,Celia,,Female,1,CAN11,1,,8,0,0.0,2,0.25,,98
+2049,Rebecca Merasty,Rebecca M.,,Female,1,CAN11,1,,6,0,0.0,1,0.1666666667,,98
+2050,Rebecca Watt,Rebecca W.,,Female,1,CAN11,1,,6,0,0.0,1,0.1666666667,,98
+2051,Louis Octeau-Piché,Louis,,Male,1,CAN11,1,,5,0,0.0,1,0.2,,98
+2052,Marie Octeau,Marie,,Female,1,CAN11,1,,5,0,0.0,1,0.2,,98
+2053,Osas Igbinosun,Osas,,Male,1,CAN11,1,,3,0,0.0,1,0.3333333333,,98
+2054,Esosa Igbinosun,Esosa,,Male,1,CAN11,1,,3,0,0.0,1,0.3333333333,,98
+2055,Michele Peter,Michele,,Female,1,CAN11,1,,1,0,0.0,1,1.0,,98
+2056,Aditi Deonarine,Aditi,,Female,1,CAN11,1,,1,0,0.0,1,1.0,,98
+2057,Stephen Curry,Steve,,Male,1,AUS9,1,,15,4,0.2666666667,1,0.06666666667,,99
+2058,Bernard Curry,Bernie,,Male,1,AUS9,1,,15,4,0.2666666667,1,0.06666666667,,99
+2059,Robert Mills,Rob,,Male,1,AUS9,1,,15,5,0.3333333333,0,0.0,,99
+2060,Georgina Tunny,Georgie,,Female,1,AUS9,1,,15,5,0.3333333333,0,0.0,,99
+2061,Aesha Scott,Aesha,,Female,1,AUS9,1,,15,2,0.1333333333,2,0.1333333333,,99
+2062,Scott Dobson,Scott,,Male,1,AUS9,1,,15,2,0.1333333333,2,0.1333333333,,99
+2063,Luke O'Halloran,Luke,,Male,1,AUS9,1,,14,0,0.0,2,0.1428571429,,99
+2064,Scott O'Halloran,'Sassy' Scott,,Male,1,AUS9,1,,14,0,0.0,2,0.1428571429,,99
+2065,Gretel Killeen,Gretel,,Female,1,AUS9,1,,12,1,0.08333333333,2,0.1666666667,,99
+2066,Epiphany Morgan,Epiphany,,Female,1,AUS9,1,,12,1,0.08333333333,2,0.1666666667,,99
+2067,Melissa Leong,Melissa,,Female,1,AUS9,1,,9,0,0.0,1,0.1111111111,,99
+2068,Leah Wilson,Leah,,Female,1,AUS9,1,,9,0,0.0,1,0.1111111111,,99
+2069,Brendan Fevola,Brendan,,Male,1,AUS9,1,,7,0,0.0,1,0.1428571429,,99
+2070,Leni Fevola,Leni,,Female,1,AUS9,1,,7,0,0.0,1,0.1428571429,,99
+2071,Lindy Rama,Lindy,,Female,1,AUS9,1,,7,0,0.0,1,0.1428571429,,99
+2072,Stella Klim,Stella,,Female,1,AUS9,1,,7,0,0.0,1,0.1428571429,,99
+2073,Dom Di Tommaso,'Dom Tomato',,Male,1,AUS9,1,,6,2,0.3333333333,1,0.1666666667,,99
+2074,Marx Marsters,Marx,,Male,1,AUS9,1,,6,2,0.3333333333,1,0.1666666667,,99
+2075,Steph Tisdell,Steph,,Female,1,AUS9,1,,4,0,0.0,1,0.25,,99
+2076,Ben Tisdell,Ben,,Male,1,AUS9,1,,4,0,0.0,1,0.25,,99
+2077,Bronte Campbell,Bronte,,Female,1,AUS9,1,,3,0,0.0,1,0.3333333333,,99
+2078,Benfield Lainchbury,Benfield,,Male,1,AUS9,1,,3,0,0.0,1,0.3333333333,,99
+2079,Anthony Middleton,Ant,,Male,1,AUS9,1,,2,1,0.5,1,0.5,,99
+2080,Dan Middleton,Dan,,Male,1,AUS9,1,,2,1,0.5,1,0.5,,99
+2081,Edward Kavalee,Ed,,Male,1,AUS9,1,,1,0,0.0,1,1.0,,99
+2082,Tiffiny Hall,Tiff,,Female,1,AUS9,1,,1,0,0.0,1,1.0,,99
+2083,Jasmair Bains,Jas,,Male,1,USA38,1,,12,7,0.5833333333,0,0.0,,100
+2084,Jagateshwar Bains,Jag,,Male,1,USA38,1,,12,7,0.5833333333,0,0.0,,100
+2085,Kyland Young,Kyland,,Male,1,USA38,1,,12,0,0.0,0,0.0,,100
+2086,Taylor Hale,Taylor,,Female,1,USA38,1,,12,0,0.0,0,0.0,,100
+2087,Joseph Abdin,Joseph,,Male,1,USA38,1,,12,0,0.0,2,0.1666666667,,100
+2088,Adam Abdin,Adam,,Male,1,USA38,1,,12,0,0.0,2,0.1666666667,,100
+2089,Isabel Gleicher,Izzy,,Female,1,USA38,1,,11,0,0.0,1,0.09090909091,,100
+2090,Paige Seber,Paige,,Female,1,USA38,1,,11,0,0.0,1,0.09090909091,,100
+2091,Jack Baham,Jack,,Male,1,USA38,1,,10,0,0.0,1,0.1,,100
+2092,Chelsie Baham,Chelsie,,Female,1,USA38,1,,10,0,0.0,1,0.1,,100
+2093,Tucker Des Lauriers,Tucker,,Male,1,USA38,1,,9,4,0.4444444444,1,0.1111111111,,100
+2094,Eric Des Lauriers,Eric,,Male,1,USA38,1,,9,4,0.4444444444,1,0.1111111111,,100
+2095,Natalie Negrotti,Natalie,,Female,1,USA38,1,,7,1,0.1428571429,1,0.1428571429,,100
+2096,Stephanie Negrotti,Stephanie,,Female,1,USA38,1,,7,1,0.1428571429,1,0.1428571429,,100
+2097,Kristine Bernabe,Kristine,,Female,1,USA38,1,,6,0,0.0,1,0.1666666667,,100
+2098,Rubina Bernabe,Rubina,,Female,1,USA38,1,,6,0,0.0,1,0.1666666667,,100
+2099,Hannah Chaddha,Hannah,,Female,1,USA38,1,,5,0,0.0,1,0.2,,100
+2100,Simone Chaddha,Simone,,Female,1,USA38,1,,5,0,0.0,1,0.2,,100
+2101,Kathryn Dunn,Kat,,Female,1,USA38,1,,4,0,0.0,1,0.25,,100
+2102,Alex Romo,Alex,,Male,1,USA38,1,,4,0,0.0,1,0.25,,100
+2103,Megan Belmonte,Megan,,Female,1,USA38,1,,3,0,0.0,1,0.3333333333,,100
+2104,Matt Turner,Matt,,Male,1,USA38,1,,3,0,0.0,1,0.3333333333,,100
+2105,Angela Murray,Angela,,Female,1,USA38,1,,2,0,0.0,1,0.5,,100
+2106,Lexi Murray,Lexi,,Female,1,USA38,1,,2,0,0.0,1,0.5,,100
+2107,Giacomo Palumbo,Jack,,Male,1,USA38,1,,1,0,0.0,1,1.0,,100
+2108,Vincenzo Palumbo,Enzo,,Male,1,USA38,1,,1,0,0.0,1,1.0,,100
+2109,Maria Guzenina,Maria,,Female,1,FIN3,1,,12,4,0.3333333333,1,0.08333333333,,101
+2110,Vilma Vähämaa,Vilma,,Female,1,FIN3,1,,12,4,0.3333333333,1,0.08333333333,,101
+2111,Mia Haataja,Millu,,Female,1,FIN3,1,,12,0,0.0,0,0.0,,101
+2112,Karoliina Tuominen,Karo,,Female,1,FIN3,1,,12,0,0.0,0,0.0,,101
+2113,Tomas Grekov,Tomas,,Male,1,FIN3,1,,12,1,0.08333333333,1,0.08333333333,,101
+2114,Esko Rotola-Pukkila,Esko,,Male,1,FIN3,1,,12,1,0.08333333333,1,0.08333333333,,101
+2115,Sara Sieppi,Sara,,Female,1,FIN3,1,,11,4,0.3636363636,1,0.09090909091,,101
+2116,Artturi Sieppi,Artturi,,Male,1,FIN3,1,,11,4,0.3636363636,1,0.09090909091,,101
+2117,Armi Toivanen,Armi,,Female,1,FIN3,1,,10,0,0.0,1,0.1,,101
+2118,Sari Majamaa,Sari,,Female,1,FIN3,1,,10,0,0.0,1,0.1,,101
+2119,Tuomas Peltomäki,Tuomas,,Male,1,FIN3,1,,8,0,0.0,2,0.25,,101
+2120,Sini Peltomäki,Sini,,Female,1,FIN3,1,,8,0,0.0,2,0.25,,101
+2121,Mari Hynynen,Mari,,Female,1,FIN3,1,,7,0,0.0,1,0.1428571429,,101
+2122,Joel Volanen,Joel,,Male,1,FIN3,1,,7,0,0.0,1,0.1428571429,,101
+2123,Nina Tapio,Nina,,Female,1,FIN3,1,,5,3,0.6,1,0.2,,101
+2124,Elsa Forsberg,Elsa,,Female,1,FIN3,1,,5,3,0.6,1,0.2,,101
+2125,Paula Noronen,Paula,,Female,1,FIN3,1,,4,0,0.0,1,0.25,,101
+2126,Kati Launiainen,Kati,,Female,1,FIN3,1,,4,0,0.0,1,0.25,,101
+2127,Arttu Lindeman,Arttu,,Male,1,FIN3,1,,3,0,0.0,1,0.3333333333,,101
+2128,Jaakko Parkkali,Jaakko,,Male,1,FIN3,1,,3,0,0.0,1,0.3333333333,,101
+2129,Karri Miettinen,Karri,,Male,1,FIN3,1,,2,0,0.0,2,1.0,,101
+2130,Tuukka Rihkola,Tuukka,,Male,1,FIN3,1,,2,0,0.0,2,1.0,,101
+2131,Tom Shelah,Tom,,Male,1,ISR10,1,,11,4,0.3636363636,0,0.0,,102
+2132,Almog Ohayon,Almog,,Male,1,ISR10,1,,11,4,0.3636363636,0,0.0,,102
+2133,Adi Atzmi,Adi,,Male,1,ISR10,1,,11,0,0.0,0,0.0,,102
+2134,Or Ohana,Or,,Female,1,ISR10,1,,11,0,0.0,0,0.0,,102
+2135,Eliezer Buhbut,Ezi,,Male,1,ISR10,1,,11,1,0.09090909091,2,0.1818181818,,102
+2136,Danielle Buhbut,Dani,,Female,1,ISR10,1,,11,1,0.09090909091,2,0.1818181818,,102
+2137,Shlomi Yifrah,Shlomi,,Male,1,ISR10,1,,10,3,0.3,1,0.1,,102
+2138,Asaf Zaga,Asaf,,Male,1,ISR10,1,,10,3,0.3,1,0.1,,102
+2139,Mai Hatuel,Mai,,Female,1,ISR10,1,,9,0,0.0,1,0.1111111111,,102
+2140,Itai On,Itai,,Male,1,ISR10,1,,9,0,0.0,1,0.1111111111,,102
+2141,Sapir Harush,Sapir H.,,Female,1,ISR10,1,,8,0,0.0,1,0.125,,102
+2142,Sapir Tzemah,Sapir T.,,Female,1,ISR10,1,,8,0,0.0,1,0.125,,102
+2143,Itai Rozenblit,Itai,,Male,1,ISR10,1,,6,3,0.5,1,0.1666666667,,102
+2144,Omri Rozenblit,Omri,,Male,1,ISR10,1,,6,3,0.5,1,0.1666666667,,102
+2145,Tom Boukai,Tom,,Male,1,ISR10,1,,5,0,0.0,0,0.0,,102
+2146,Samantha Pezzino,Samantha,,Female,1,ISR10,1,,5,0,0.0,0,0.0,,102
+2147,Hen Drix,Hen,,Female,1,ISR10,1,,5,0,0.0,1,0.2,,102
+2148,Yossi Ezra,Yossi,,Male,1,ISR10,1,,5,0,0.0,1,0.2,,102
+2149,Michal Pras,Michal,,Female,1,ISR10,1,,4,0,0.0,1,0.25,,102
+2150,Nuni Keren,Nuni,,Female,1,ISR10,1,,4,0,0.0,1,0.25,,102
+2151,Ron Horwitz,Ron,,Male,1,ISR10,1,,3,1,0.3333333333,1,0.3333333333,,102
+2152,Meitav Ziv,Meitav,,Female,1,ISR10,1,,3,1,0.3333333333,1,0.3333333333,,102
+2153,Emuna Zingboim,Emuna,,Male,1,ISR10,1,,2,0,0.0,1,0.5,,102
+2154,Neria Zingboim,Neria,,Female,1,ISR10,1,,2,0,0.0,1,0.5,,102
+2155,Yotam Ohayon,Yotam,,Male,1,ISR10,1,,1,0,0.0,1,1.0,,102
+2156,Nofar Zommer,Nofar,,Female,1,ISR10,1,,1,0,0.0,1,1.0,,102
+2157,Reuven Lavi,Reuven,,Male,1,ISR10,1,,1,0,0.0,1,1.0,,102
+2158,Gali Lavi,Gali,,Female,1,ISR10,1,,1,0,0.0,1,1.0,,102
+2159,Tina Liao,Tina,,Female,1,CAN12,1,,10,5,0.5,0,0.0,,103
+2160,Liz Liao,Liz,,Female,1,CAN12,1,,10,5,0.5,0,0.0,,103
+2161,Eamon Fitzgerald,Eamon,,Male,1,CAN12,1,,10,2,0.2,0,0.0,,103
+2162,Rebecca Moroney,Bec,,Female,1,CAN12,1,,10,2,0.2,0,0.0,,103
+2163,Michele Bruzzese,Michele,,Male,1,CAN12,1,,10,0,0.0,1,0.1,,103
+2164,Matteo Bruzzese,Matteo,,Male,1,CAN12,1,,10,0,0.0,1,0.1,,103
+2165,Sacha Régnier,Sacha,,Male,1,CAN12,1,,9,2,0.2222222222,1,0.1111111111,,103
+2166,Sébastien Régnier,Sébastien,,Male,1,CAN12,1,,9,2,0.2222222222,1,0.1111111111,,103
+2167,Ameen Fadel,Ameen,,Male,1,CAN12,1,,8,1,0.125,0,0.0,,103
+2168,Surria Fadel,Surria,,Female,1,CAN12,1,,8,1,0.125,0,0.0,,103
+2169,Filipe Masetti,Filipe,,Male,1,CAN12,1,,8,0,0.0,2,0.25,,103
+2170,Clara Davel,Clara,,Female,1,CAN12,1,,8,0,0.0,2,0.25,,103
+2171,Chayla Rain,Chayla,,Female,1,CAN12,1,,7,0,0.0,1,0.1428571429,,103
+2172,Chyana Sage,Chyana,,Female,1,CAN12,1,,7,0,0.0,1,0.1428571429,,103
+2173,Keshia Gordon,Keshia,,Female,1,CAN12,1,,5,0,0.0,2,0.4,,103
+2174,Nova Stevens,Nova,,Female,1,CAN12,1,,5,0,0.0,2,0.4,,103
+2175,Dana Martin-Kelly,Dana,,Female,1,CAN12,1,,3,0,0.0,1,0.3333333333,,103
+2176,Cordelia Richards,Cordelia,,Female,1,CAN12,1,,3,0,0.0,1,0.3333333333,,103
+2177,Wesley Williams,Maestro,,Male,1,CAN12,1,,2,0,0.0,2,1.0,,103
+2178,Duane Gibson,Duane,,Male,1,CAN12,1,,2,0,0.0,2,1.0,,103

@@ -1,0 +1,400 @@
+place,team,season,age_gap,1
+,,,Average: 6.32394366197183,2
+1.0,Rob & Brennan,TAR1,2,3
+2.0,Frank & Margarita,TAR1,2,4
+3.0,Joe & Bill,TAR1,3,5
+4.0,Kevin & Drew,TAR1,1,6
+5.0,Nancy & Emily,TAR1,25,7
+6.0,Lenny & Karyn,TAR1,3,8
+7.0,Paul & Amie,TAR1,5,9
+8.0,Dave & Margaretta,TAR1,5,10
+9.0,Pat & Brenda,TAR1,1,11
+10.0,Kim & Leslie,TAR1,1,12
+11.0,Matt & Ana,TAR1,0,13
+1.0,Chris & Alex,TAR2,1,14
+2.0,Tara & Wil,TAR2,6,15
+3.0,Blake & Paige,TAR2,4,16
+4.0,Oswald & Danny,TAR2,5,17
+5.0,Gary & Dave,TAR2,5,18
+6.0,Mary & Peach,TAR2,5,19
+7.0,Cyndi & Russell,TAR2,1,20
+8.0,Shola & Doyin,TAR2,0,21
+9.0,Peggy & Claire,TAR2,2,22
+10.0,Hope & Norm,TAR2,1,23
+11.0,Deidre & Hillary,TAR2,28,24
+1.0,Flo & Zach,TAR3,0,25
+2.0,Teri & Ian,TAR3,1,26
+3.0,Ken & Gerard,TAR3,5,27
+4.0,Derek & Drew,TAR3,0,28
+5.0,John Vito & Jill,TAR3,4,29
+6.0,Andre & Damon,TAR3,1,30
+7.0,Aaron & Arianne,TAR3,0,31
+8.0,Michael & Kathy,TAR3,3,32
+9.0,Heather & Eve,TAR3,0,33
+10.0,Dennis & Andrew,TAR3,27,34
+11.0,Tramel & Talicia,TAR3,7,35
+12.0,Gina & Sylvia,TAR3,1,36
+1.0,Reichen & Chip,TAR4,8,37
+2.0,Kelly & Jon,TAR4,2,38
+3.0,David & Jeff,TAR4,5,39
+4.0,Jon & Al,TAR4,6,40
+5.0,Millie & Chuck,TAR4,1,41
+6.0,Tian & Jaree,TAR4,3,42
+7.0,Monica & Sheree,TAR4,2,43
+8.0,Steve & Dave,TAR4,3,44
+9.0,Steve & Josh,TAR4,26,45
+10.0,Russell & Cindy,TAR4,7,46
+11.0,Amanda & Chris,TAR4,3,47
+12.0,Debra & Steve,TAR4,9,48
+1.0,Chip & Kim,TAR5,2,49
+2.0,Colin & Christie,TAR5,2,50
+3.0,Brandon & Nicole,TAR5,4,51
+4.0,Linda & Karen,TAR5,4,52
+5.0,Kami & Karli,TAR5,0,53
+6.0,Charla & Mirna,TAR5,0,54
+7.0,Marshall & Lance,TAR5,5,55
+8.0,Bob & Joyce,TAR5,7,56
+9.0,Jim & Marsha,TAR5,27,57
+10.0,Alison & Donny,TAR5,2,58
+11.0,Dennis & Erika,TAR5,2,59
+1.0,Freddy & Kendra,TAR6,9,60
+2.0,Kris & Jon,TAR6,1,61
+3.0,Adam & Rebecca,TAR6,2,62
+4.0,Hayden & Aaron,TAR6,0,63
+5.0,Lori & Bolo,TAR6,5,64
+6.0,Jonathan & Victoria,TAR6,10,65
+7.0,Gus & Hera,TAR6,26,66
+8.0,Don & Mary Jean,TAR6,3,67
+9.0,Lena & Kristy,TAR6,3,68
+10.0,Meredith & Maria,TAR6,0,69
+11.0,Avi & Joe,TAR6,0,70
+1.0,Uchenna & Joyce,TAR7,4,71
+2.0,Rob & Amber,TAR7,3,72
+3.0,Ron & Kelly,TAR7,2,73
+4.0,Meredith & Gretchen,TAR7,3,74
+5.0,Lynn & Alex,TAR7,8,75
+6.0,Brian & Greg,TAR7,3,76
+7.0,Ray & Deana,TAR7,17,77
+8.0,Susan & Patrick,TAR7,28,78
+9.0,Debbie & Bianca,TAR7,1,79
+10.0,Megan & Heidi,TAR7,5,80
+11.0,Ryan & Chuck,TAR7,1,81
+1.0,Linz Family,TAR8,5,82
+2.0,Bransen Family,TAR8,31,83
+3.0,Weaver Family,TAR8,32,84
+4.0,Godlewski Family,TAR8,12,85
+5.0,Paolo Family,TAR8,36,86
+6.0,Gaghan Family,TAR8,33,87
+7.0,Schroeder Family,TAR8,25,88
+8.0,Aiello Family,TAR8,31,89
+9.0,Rogers Family,TAR8,27,90
+10.0,Black Family,TAR8,32,91
+1.0,BJ & Tyler,TAR9,1,92
+2.0,Eric & Jeremy,TAR9,1,93
+3.0,Ray & Yolanda,TAR9,0,94
+4.0,Joseph & Monica,TAR9,0,95
+5.0,Fran & Barry,TAR9,2,96
+6.0,Lake & Michelle,TAR9,1,97
+7.0,Dave & Lori,TAR9,5,98
+8.0,Danielle & Dani,TAR9,0,99
+9.0,Wanda & Desiree,TAR9,20,100
+10.0,Lisa & Joni,TAR9,4,101
+11.0,John & Scott,TAR9,3,102
+1.0,Tyler & James,TAR10,2,103
+2.0,Rob & Kimberly,TAR10,3,104
+3.0,Lyn & Karlyn,TAR10,0,105
+4.0,Dustin & Kandice,TAR10,0,106
+5.0,Erwin & Godwin,TAR10,3,107
+6.0,David & Mary,TAR10,1,108
+7.0,Peter & Sarah,TAR10,4,109
+8.0,Tom & Terry,TAR10,6,110
+9.0,Duke & Lauren,TAR10,26,111
+10.0,Kellie & Jamie,TAR10,0,112
+11.0,Vipul & Arti,TAR10,3,113
+12.0,Bilal & Sa'eed,TAR10,2,114
+1.0,Eric & Danielle,TAR11,5,115
+2.0,Dustin & Kandice,TAR11,1,116
+3.0,Charla & Mirna,TAR11,0,117
+4.0,Oswald & Danny,TAR11,5,118
+5.0,Uchenna & Joyce,TAR11,4,119
+6.0,Joe & Bill,TAR11,3,120
+7.0,Teri & Ian,TAR11,1,121
+8.0,Rob & Amber,TAR11,2,122
+9.0,David & Mary,TAR11,1,123
+10.0,Kevin & Drew,TAR11,1,124
+11.0,John Vito & Jill,TAR11,3,125
+1.0,TK & Rachel,TAR12,1,126
+2.0,Ron & Christina,TAR12,32,127
+3.0,Nicolas & Donald,TAR12,45,128
+4.0,Nathan & Jennifer,TAR12,1,129
+5.0,Kynt & Vyxsin,TAR12,1,130
+6.0,Azaria & Hendekea,TAR12,4,131
+7.0,Shana & Jennifer,TAR12,0,132
+8.0,Lorena & Jason,TAR12,6,133
+9.0,Marianna & Julia,TAR12,1,134
+10.0,Kate & Pat,TAR12,16,135
+11.0,Ari & Staella,TAR12,2,136
+1.0,Nick & Starr,TAR13,1,137
+2.0,Ken & Tina,TAR13,3,138
+3.0,Andrew & Dan,TAR13,1,139
+4.0,Toni & Dallas,TAR13,29,140
+5.0,Terence & Sarah,TAR13,4,141
+6.0,Kelly & Christy,TAR13,0,142
+7.0,Aja & Ty,TAR13,0,143
+8.0,Marisa & Brooke,TAR13,2,144
+9.0,Mark & Bill,TAR13,1,145
+10.0,Anthony & Stephanie,TAR13,0,146
+11.0,Anita & Arthur,TAR13,2,147
+1.0,Tammy & Victor,TAR14,9,148
+2.0,Jaime & Cara,TAR14,3,149
+3.0,Margie & Luke,TAR14,28,150
+4.0,Kisha & Jen,TAR14,4,151
+5.0,Mark & Michael,TAR14,3,152
+6.0,Mel & Mike,TAR14,30,153
+7.0,Christie & Jodi,TAR14,3,154
+8.0,Amanda & Kris,TAR14,1,155
+9.0,Brad & Victoria,TAR14,5,156
+10.0,Steve & Linda,TAR14,9,157
+11.0,Preston & Jennifer,TAR14,2,158
+1.0,Meghan & Cheyne,TAR15,0,159
+2.0,Sam & Dan,TAR15,2,160
+3.0,Brian & Ericka,TAR15,0,161
+4.0,Flight Time & Big Easy,TAR15,4,162
+5.0,Gary & Matt,TAR15,25,163
+6.0,Maria & Tiffany,TAR15,1,164
+7.0,Mika & Canaan,TAR15,4,165
+8.0,Lance & Keri,TAR15,8,166
+9.0,Zev & Justin,TAR15,4,167
+10.0,Marcy & Ron,TAR15,1,168
+11.0,Garrett & Jessica,TAR15,1,169
+12.0,Eric & Lisa,TAR15,2,170
+1.0,Dan & Jordan,TAR16,2,171
+2.0,Jet & Cord,TAR16,1,172
+3.0,Brent & Caite,TAR16,8,173
+4.0,Louie & Michael,TAR16,2,174
+5.0,Carol & Brandy,TAR16,7,175
+6.0,Steve & Allie,TAR16,34,176
+7.0,Jordan & Jeff,TAR16,9,177
+8.0,Joe & Heidi,TAR16,5,178
+9.0,Monique & Shawne,TAR16,0,179
+10.0,Jody & Shannon,TAR16,49,180
+11.0,Dana & Adrian,TAR16,1,181
+1.0,Nat & Kat,TAR17,4,182
+2.0,Brook & Claire,TAR17,7,183
+3.0,Jill & Thomas,TAR17,7,184
+4.0,Nick & Vicki,TAR17,0,185
+5.0,Chad & Stephanie,TAR17,3,186
+6.0,Gary & Mallory,TAR17,29,187
+7.0,Michael & Kevin,TAR17,38,188
+8.0,Katie & Rachel,TAR17,1,189
+9.0,Connor & Jonathan,TAR17,0,190
+10.0,Andie & Jenna,TAR17,22,191
+11.0,Ron & Tony,TAR17,3,192
+1.0,Kisha & Jen,TAR18,4,193
+2.0,Flight Time & Big Easy,TAR18,5,194
+3.0,Gary & Mallory,TAR18,28,195
+4.0,Zev & Justin,TAR18,3,196
+5.0,Kent & Vyxsin,TAR18,1,197
+6.0,Jet & Cord,TAR18,1,198
+7.0,Ron & Christina,TAR18,32,199
+8.0,Margie & Luke,TAR18,28,200
+9.0,Jaime & Cara,TAR18,4,201
+10.0,Mel & Mike,TAR18,30,202
+11.0,Amanda & Kris,TAR18,2,203
+1.0,Ernie & Cindy,TAR19,1,204
+2.0,Jeremy & Sandy,TAR19,2,205
+3.0,Amani & Marcus,TAR19,3,206
+4.0,Andy & Tommy,TAR19,2,207
+5.0,Bill & Cathi,TAR19,1,208
+6.0,Laurence & Zac,TAR19,29,209
+7.0,Justin & Jennifer,TAR19,5,210
+8.0,Liz & Marie,TAR19,0,211
+9.0,Kaylani & Lisa,TAR19,1,212
+10.0,Ethan & Jenna,TAR19,7,213
+11.0,Ron & Bill,TAR19,5,214
+1.0,Rachel & Dave,TAR20,3,215
+2.0,Art & JJ,TAR20,1,216
+3.0,Brendon & Rachel,TAR20,4,217
+4.0,Vanessa & Ralph,TAR20,5,218
+5.0,Bopper & Mark,TAR20,4,219
+6.0,Nary & Jamie,TAR20,1,220
+7.0,Joey & Danny,TAR20,2,221
+8.0,Kerri & Stacy,TAR20,0,222
+9.0,Elliot & Andrew,TAR20,0,223
+10.0,Dave & Cherie,TAR20,0,224
+11.0,Misa & Maiya,TAR20,2,225
+1.0,Josh & Brent,TAR21,5,226
+2.0,Jaymes & James,TAR21,3,227
+3.0,Trey & Lexi,TAR21,1,228
+4.0,Natalie & Nadiya,TAR21,0,229
+5.0,Abbie & Ryan,TAR21,4,230
+6.0,James & Abba,TAR21,8,231
+7.0,Rob & Kelley,TAR21,4,232
+8.0,Gary & Will,TAR21,1,233
+9.0,Caitlin & Brittany,TAR21,1,234
+10.0,Amy & Daniel,TAR21,4,235
+11.0,Rob & Sheila,TAR21,8,236
+1.0,Bates & Anthony,TAR22,3,237
+2.0,Max & Katie,TAR22,6,238
+3.0,Mona & Beth,TAR22,3,239
+4.0,Caroline & Jennifer,TAR22,1,240
+5.0,Joey & Meghan,TAR22,4,241
+6.0,Chuck & Wynona,TAR22,3,242
+7.0,Pam & Winnie,TAR22,0,243
+8.0,Dave & Connor,TAR22,37,244
+9.0,Jessica & John,TAR22,1,245
+10.0,Idries & Jamil,TAR22,0,246
+11.0,Matt & Daniel,TAR22,1,247
+1.0,Jason & Amy,TAR23,4,248
+2.0,Tim & Marie,TAR23,3,249
+3.0,Nicole & Travis,TAR23,4,250
+4.0,Leo & Jamal,TAR23,0,251
+5.0,Ally & Ashley,TAR23,3,252
+6.0,Nicky & Kim,TAR23,5,253
+7.0,Tim & Danny,TAR23,1,254
+8.0,Brandon & Adam,TAR23,0,255
+9.0,Chester & Ephraim,TAR23,3,256
+10.0,Rowan & Shane,TAR23,9,257
+11.0,Hoskote & Naina,TAR23,33,258
+1.0,Dave & Connor,TAR24,37,259
+2.0,Caroline & Jennifer,TAR24,1,260
+3.0,Brendon & Rachel,TAR24,4,261
+4.0,Leo & Jamal,TAR24,1,262
+5.0,Jet & Cord,TAR24,1,263
+6.0,Flight Time & Big Easy,TAR24,5,264
+7.0,Jessica & John,TAR24,1,265
+8.0,Margie & Luke,TAR24,28,266
+9.0,Joey & Meghan,TAR24,4,267
+10.0,Mark & Mallory,TAR24,19,268
+11.0,Natalie & Nadiya,TAR24,0,269
+1.0,Amy & Maya,TAR25,5,270
+2.0,Misti & Jim,TAR25,1,271
+3.0,Adam & Bethany,TAR25,2,272
+4.0,Brooke & Robbie,TAR25,1,273
+5.0,Kym & Alli,TAR25,4,274
+6.0,Tim & Te Jay,TAR25,1,275
+7.0,Shelley & Nici,TAR25,18,276
+8.0,Keith & Whitney,TAR25,0,277
+9.0,Michael & Scott,TAR25,1,278
+10.0,Dennis & Isabelle,TAR25,2,279
+11.0,Lisa & Michelle,TAR25,6,280
+1.0,Laura & Tyler,TAR26,3,281
+2.0,Jelani & Jenny,TAR26,0,282
+3.0,Hayley & Blair,TAR26,3,283
+4.0,Mike & Rochelle,TAR26,3,284
+5.0,Matt & Ashley,TAR26,2,285
+6.0,Aly & Steve,TAR26,7,286
+7.0,Jeff & Jackie,TAR26,1,287
+8.0,Bergen & Kurt,TAR26,1,288
+9.0,Harley & Jonathan,TAR26,5,289
+10.0,Libby & CJ,TAR26,1,290
+11.0,Jeff & Lyda,TAR26,8,291
+1.0,Kelsey & Joey,TAR27,1,292
+2.0,Justin & Diana,TAR27,9,293
+3.0,Logan & Chris,TAR27,10,294
+4.0,Tiffany & Krista,TAR27,0,295
+5.0,Denise & James Earl,TAR27,25,296
+6.0,Tanner & Josh,TAR27,2,297
+7.0,Cindy & Rick,TAR27,2,298
+8.0,Jazmine & Danielle,TAR27,0,299
+9.0,Ernest & Jin,TAR27,3,300
+10.0,Alex & Adam,TAR27,2,301
+11.0,Kelly & Shevonne,TAR27,6,302
+1.0,Dana & Matt,TAR28,1,303
+2.0,Sheri & Cole,TAR28,26,304
+3.0,Tyler & Korey,TAR28,4,305
+4.0,Burnie & Ashley,TAR28,9,306
+5.0,Brodie & Kurt,TAR28,2,307
+6.0,Zach & Rachel,TAR28,0,308
+7.0,Scott & Blair,TAR28,36,309
+8.0,Erin & Joslyn,TAR28,2,310
+9.0,Brittany & Jessica,TAR28,2,311
+10.0,Darius & Cameron,TAR28,3,312
+11.0,Marty & Hagan,TAR28,29,313
+1.0,Brooke & Scott,TAR29,2,314
+2.0,Tara & Joey,TAR29,8,315
+3.0,London & Logan,TAR29,0,316
+4.0,Matt & Redmond,TAR29,3,317
+5.0,Becca & Floyd,TAR29,5,318
+6.0,Liz & Michael,TAR29,13,319
+7.0,Vanck & Ashton,TAR29,3,320
+8.0,Shamir & Sara,TAR29,1,321
+9.0,Seth & Olive,TAR29,13,322
+10.0,Jessie & Francesca,TAR29,5,323
+11.0,Kevin & Jenn,TAR29,6,324
+1.0,Cody & Jessica,TAR30,5,325
+2.0,Henry & Evan,TAR30,0,326
+3.0,Kristi & Jen,TAR30,6,327
+4.0,Alex & Conor,TAR30,1,328
+5.0,Lucas & Brittany,TAR30,4,329
+6.0,Eric & Daniel,TAR30,0,330
+7.0,Trevor & Chris,TAR30,2,331
+8.0,Joey & Tim,TAR30,8,332
+9.0,Cedric & Shawn,TAR30,9,333
+10.0,April & Sarah,TAR30,0,334
+11.0,Dessie & Kayla,TAR30,1,335
+1.0,Colin & Christie,TAR31,2,336
+2.0,Tyler & Korey,TAR31,4,337
+3.0,Leo & Jamal,TAR31,0,338
+4.0,Nicole & Victor,TAR31,2,339
+5.0,Becca & Floyd,TAR31,5,340
+6.0,Chris & Bret,TAR31,4,341
+7.0,Rachel & Elissa,TAR31,1,342
+8.0,Janelle & Britney,TAR31,8,343
+9.0,Corinne & Eliza,TAR31,4,344
+10.0,Rupert & Laura,TAR31,5,345
+11.0,Art & JJ,TAR31,0,346
+1.0,Will & James,TAR32,1,347
+2.0,Hung & Chee,TAR32,1,348
+3.0,Riley & Maddison,TAR32,2,349
+4.0,Gary & DeAngelo,TAR32,2,350
+5.0,Eswar & Aparna,TAR32,2,351
+6.0,Kaylynn & Haley,TAR32,1,352
+7.0,Leo & Alana,TAR32,2,353
+8.0,Michelle & Victoria,TAR32,1,354
+9.0,Jerry & Frank,TAR32,35,355
+10.0,Kellie & LaVonne,TAR32,4,356
+11.0,Nathan & Cody,TAR32,6,357
+,,,,358
+,,,,359
+,,,,360
+,,,,361
+,,,,362
+,,,,363
+,,,,364
+,,,,365
+,,,,366
+,,,,367
+,,,,368
+,,,,369
+,,,,370
+,,,,371
+,,,,372
+,,,,373
+,,,,374
+,,,,375
+,,,,376
+,,,,377
+,,,,378
+,,,,379
+,,,,380
+,,,,381
+,,,,382
+,,,,383
+,,,,384
+,,,,385
+,,,,386
+,,,,387
+,,,,388
+,,,,389
+,,,,390
+,,,,391
+,,,,392
+,,,,393
+,,,,394
+,,,,395
+,,,,396
+,,,,397
+,,,,398
+,,,,399
+,,,,400

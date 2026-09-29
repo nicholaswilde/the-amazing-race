@@ -1,0 +1,12 @@
+the_amazing_race_placement_database
+This database contains information about placements in every season of the Amazing Race franchise.
+This database is based on information from the Amazing Race Wiki.
+"This database makes some formatting differences from the Amazing Race Wiki. For example, seasons are ordered based on when they premiered overall, rather than on when the version they are part of premiered."
+The meanings of the stats are as follows:
+Racing average is the average placement of the team across all legs it competed in.
+"Normalized racing average is similar to racing average, but it is adjusted based on the circumstances of the season to allow for better comparisons of teams across seasons."
+Dominance is the average percentage of opposing teams the team beat in each leg it competed in.
+"Rating is the team's rating, using an Elo-style rating system. A rating difference of 1,000 between two teams represents a 2/3 chance that the higher-rated team will beat the lower-rated team in any given leg."
+200
+1000
+2

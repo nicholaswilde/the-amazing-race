@@ -1,0 +1,2195 @@
+tid,cid,team,contestant
+1,1,Rob & Brennan,Rob Frisbee
+1,2,Rob & Brennan,Brennan Swain
+2,3,Frank & Margarita,Frank Mesa
+2,4,Frank & Margarita,Margarita Mesa
+3,5,Joe & Bill,Joseph Baldassare
+3,6,Joe & Bill,William Bartek
+4,7,Kevin & Drew,Kevin O'Connor
+4,8,Kevin & Drew,Andrew Feinberg
+5,9,Nancy & Emily,Nancy Hoyt
+5,10,Nancy & Emily,Emily Hoyt
+6,11,Lenny & Karyn,Leonard Hudson
+6,12,Lenny & Karyn,Karyn Jefferson
+7,13,Paul & Amie,Paul J. Alessi
+7,14,Paul & Amie,Amie Barsky
+8,15,Dave & Margaretta,David Groark
+8,16,Dave & Margaretta,Margaretta Groark
+9,17,Pat & Brenda,Patricia Pierce
+9,18,Pat & Brenda,Brenda Mehta
+10,19,Kim & Leslie,Kimberly Smith
+10,20,Kim & Leslie,Leslie Kellner
+11,21,Matt & Ana,Matthew Robar
+11,22,Matt & Ana,Ana Robar
+12,23,Chris & Alex,Chris Luca
+12,24,Chris & Alex,Alex Boylan
+13,25,Tara & Wil,Tara Lynch
+13,26,Tara & Wil,Wil Steger
+14,27,Blake & Paige,Blake Mycoskie
+14,28,Blake & Paige,Paige Mycoskie
+15,29,Oswald & Danny,Oswald Mendez
+15,30,Oswald & Danny,Danny Jimenez
+16,31,Gary & Dave,Gary Rosen
+16,32,Gary & Dave,Dave Lepeska
+17,33,Mary & Peach,Mary Lenig
+17,34,Mary & Peach,Peach Krebs
+18,35,Cyndi & Russell,Cyndi Kalenberg
+18,36,Cyndi & Russell,Russell Kalenberg
+19,37,Shola & Doyin,Shola Richards
+19,38,Shola & Doyin,Doyin Richards
+20,39,Peggy & Claire,Peggy Kuhn
+20,40,Peggy & Claire,Claire Jinks
+21,41,Hope & Norm,Hope Davis
+21,42,Hope & Norm,Norm Davis
+22,43,Diedre & Hillary,Diedre Washington
+22,44,Diedre & Hillary,Hillary Washington
+23,45,Flo & Zach,Florinka Pesenti
+23,46,Flo & Zach,Zach Behr
+24,47,Teri & Ian,Teri Pollack
+24,48,Teri & Ian,Ian Pollack
+25,49,Ken & Gerard,Ken Duphiney
+25,50,Ken & Gerard,Gerard Duphiney
+26,51,Derek & Drew,Derek Riker
+26,52,Derek & Drew,Drew Riker
+27,53,John Vito & Jill,John Vito Pietanza
+27,54,John Vito & Jill,Jillian Aquilino
+28,55,Andre & Damon,Andre Plummer
+28,56,Andre & Damon,Damon Wafer
+29,57,Aaron & Arianne,Aaron Goldschmidt
+29,58,Aaron & Arianne,Arianne Udell
+30,59,Michael & Kathy,Michael Ilacqua
+30,60,Michael & Kathy,Kathy Perez
+31,61,Heather & Eve,Heather Mahar
+31,62,Heather & Eve,Eve Madison
+32,63,Dennis & Andrew,Dennis Hyde
+32,64,Dennis & Andrew,Andrew Hyde
+33,65,Tramel & Talicia,Tramel Raggs
+33,66,Tramel & Talicia,Talicia Raggs
+34,67,Gina & Sylvia,Gina Diggins
+34,68,Gina & Sylvia,Sylvia Pitts
+35,69,Reichen & Chip,Reichen Lehmkuhl
+35,70,Reichen & Chip,Chip Arndt
+36,71,Kelly & Jon,Kelly Parks
+36,72,Kelly & Jon,Jon Corso
+37,73,David & Jeff,David Dean
+37,74,David & Jeff,Jeff Strand
+38,75,Jon & Al,Jon Weiss
+38,76,Jon & Al,Al Rios
+39,77,Millie & Chuck,Millie Smith
+39,78,Millie & Chuck,Chuck Shankles
+40,79,Tian & Jaree,Tian Kitchen
+40,80,Tian & Jaree,Jaree Poteet
+41,81,Monica & Sheree,Monica Ambrose
+41,82,Monica & Sheree,Sheree Buchanan
+42,83,Steve & Dave,Steve Meitz
+42,84,Steve & Dave,Dave Cottingham
+43,85,Steve & Josh,Steve Cottingham
+43,86,Steve & Josh,Josh Cottingham
+44,87,Russell & Cindy,Russell Brown
+44,88,Russell & Cindy,Cindy Duck
+45,89,Amanda & Chris,Amanda Adams
+45,90,Amanda & Chris,Chris Garry
+46,91,Debra & Steve,Debra Carmody
+46,92,Debra & Steve,Steve Carmody
+47,93,Chip & Kim,Chip McAllister
+47,94,Chip & Kim,Kim McAllister
+48,95,Colin & Christie,Colin Guinn
+48,96,Colin & Christie,Christie Woods
+49,97,Brandon & Nicole,Brandon Davidson
+49,98,Brandon & Nicole,Nicole O'Brian
+50,99,Linda & Karen,Linda Ruiz
+50,100,Linda & Karen,Karen Heins
+51,101,Kami & Karli,Kami French
+51,102,Kami & Karli,Karli French
+52,103,Charla & Mirna,Charla Baklayan Faddoul
+52,104,Charla & Mirna,Mirna Hindoyan
+53,105,Marshall & Lance,Marshall Hudes
+53,106,Marshall & Lance,Lance Hudes
+54,107,Bob & Joyce,Bob Barron
+54,108,Bob & Joyce,Joyce Nicolo
+55,109,Jim & Marsha,Jim McCoy
+55,110,Jim & Marsha,Marsha McCoy
+56,111,Alison & Donny,Alison Irwin
+56,112,Alison & Donny,Donny Patrick
+57,113,Dennis & Erika,Dennis Frentsos
+57,114,Dennis & Erika,Erika Shay
+58,115,Freddy & Kendra,Freddy Holliday
+58,116,Freddy & Kendra,Kendra Bentley
+59,117,Kris & Jon,Kris Perkins
+59,118,Kris & Jon,Jon Buehler
+60,119,Adam & Rebecca,Adam Malis
+60,120,Adam & Rebecca,Rebecca Cardon
+61,121,Hayden & Aaron,Hayden Kristianson
+61,122,Hayden & Aaron,Aaron Crumbaugh
+62,123,Lori & Bolo,Lori Harvey
+62,124,Lori & Bolo,Bolo Dar'tainian
+63,125,Jonathan & Victoria,Jonathan Baker
+63,126,Jonathan & Victoria,Victoria Fuller
+64,127,Gus & Hera,Gustavius McLeod
+64,128,Gus & Hera,Hera McLeod
+65,129,Don & Mary Jean,Donald St. Claire
+65,130,Don & Mary Jean,Mary Jean St. Claire
+66,131,Lena & Kristy,Lena Jensen
+66,132,Lena & Kristy,Kristy Jensen
+67,133,Meredith & Maria,Meredith Tufaro
+67,134,Meredith & Maria,Maria Sampogna
+68,135,Avi & Joe,Avi Schneier
+68,136,Avi & Joe,Joe Rashbaum
+69,137,Uchenna & Joyce,Uchenna Agu
+69,138,Uchenna & Joyce,Joyce Agu
+70,139,Rob & Amber,Robert Mariano
+70,140,Rob & Amber,Amber Mariano
+71,141,Ron & Kelly,"Ronald Young, Jr."
+71,142,Ron & Kelly,Kelly McCorkle
+72,143,Meredith & Gretchen,Meredith Smith
+72,144,Meredith & Gretchen,Gretchen Smith
+73,145,Lynn & Alex,Lynn Warren
+73,146,Lynn & Alex,Alex Ali
+74,147,Brian & Greg,Brian Smith
+74,148,Brian & Greg,Greg Smith
+75,149,Ray & Deana,Ray Hosteau
+75,150,Ray & Deana,Deana Shane
+76,151,Susan & Patrick,Susan Vaughn
+76,152,Susan & Patrick,Patrick Vaughn
+77,153,Debbie & Bianca,Debbie Cloyed
+77,154,Debbie & Bianca,Bianca Smith
+78,155,Megan & Heidi,Megan Baker
+78,156,Megan & Heidi,Heidi Heidel
+79,157,Ryan & Chuck,Ryan Phillips
+79,158,Ryan & Chuck,Chuck Horton
+80,159,Linz Family,Nicholas Linz
+80,160,Linz Family,Alexander Linz
+80,161,Linz Family,Megan Linz
+80,162,Linz Family,Thomas Linz
+81,163,Bransen Family,Walter Bransen
+81,164,Bransen Family,Elizabeth Bransen
+81,165,Bransen Family,Lauren Bransen
+81,166,Bransen Family,Lindsay Bransen
+82,167,Weaver Family,Linda Weaver
+82,168,Weaver Family,Rebecca Weaver
+82,169,Weaver Family,Rachel Weaver
+82,170,Weaver Family,Roy Holland Weaver IV
+83,171,Godlewski Family,Michelle Godlewski
+83,172,Godlewski Family,Sharon Godlewski
+83,173,Godlewski Family,Christine Godlewski
+83,174,Godlewski Family,Patricia Godlewski
+84,175,Paolo Family,Anthony Paolo
+84,176,Paolo Family,Marion Paolo
+84,177,Paolo Family,DJ Paolo
+84,178,Paolo Family,Brian Paolo
+85,179,Gaghan Family,William Gaghan
+85,180,Gaghan Family,Tamara Gaghan
+85,181,Gaghan Family,"William Gaghan, Jr."
+85,182,Gaghan Family,Carissa Gaghan
+86,183,Schroeder Family,Mark Schroeder
+86,184,Schroeder Family,Char Schroeder
+86,185,Schroeder Family,Nastassia Schroeder
+86,186,Schroeder Family,Hunter Schroeder
+87,187,Aiello Family,Anthony Aiello
+87,188,Aiello Family,Kevin Kempskie
+87,189,Aiello Family,Matthew Hanson
+87,190,Aiello Family,David Alverson
+88,191,Rogers Family,Denny Rogers
+88,192,Rogers Family,Renee Rogers
+88,193,Rogers Family,Brittney Rogers
+88,194,Rogers Family,Brock Rogers
+89,195,Black Family,Reggie Black
+89,196,Black Family,Kimberly Black
+89,197,Black Family,Kenneth Black
+89,198,Black Family,Austin Black
+90,199,BJ & Tyler,Brian Jeffrey Averell
+90,200,BJ & Tyler,Tyler MacNiven
+91,201,Eric & Jeremy,Eric Sanchez
+91,202,Eric & Jeremy,Jeremy Ryan
+92,203,Ray & Yolanda,Raymond Whitty
+92,204,Ray & Yolanda,Yolanda Brown-Moore
+93,205,Joseph & Monica,Joseph Meadows
+93,206,Joseph & Monica,Monica Cayce
+94,207,Fran & Barry,Francis Lazarus
+94,208,Fran & Barry,Bernard Lazarus
+95,209,Lake & Michelle,Terry Garner
+95,210,Lake & Michelle,Michelle Garner
+96,211,Dave & Lori,David Spiker
+96,212,Dave & Lori,Lori Willems
+97,213,Danielle & Dani,Danielle Turner
+97,214,Danielle & Dani,Danielle Torchio
+98,215,Wanda & Desiree,Wanda Lopez-Rochford
+98,216,Wanda & Desiree,Desiree Cifre
+99,217,Lisa & Joni,Lisa Hinds
+99,218,Lisa & Joni,Joni Glaze
+100,219,John & Scott,John Lowe
+100,220,John & Scott,Scott Braginton-Smith
+101,221,Tyler & James,Tyler Denk
+101,222,Tyler & James,James Branaman
+102,223,Rob & Kimberly,Robert Diaz
+102,224,Rob & Kimberly,Kimberly Chabolla
+103,225,Lyn & Karlyn,Lynette Turk
+103,226,Lyn & Karlyn,Karlyn Harris
+104,227,Dustin & Kandice,Dustin Seltzer
+104,228,Dustin & Kandice,Kandice Pelletier
+105,229,Erwin & Godwin,Erwin Cho
+105,230,Erwin & Godwin,Godwin Cho
+106,231,David & Mary,"David Conley, Jr."
+106,232,David & Mary,Mary Conley
+107,233,Peter & Sarah,Peter Harsch
+107,234,Peter & Sarah,Sarah Reinertsen
+108,235,Tom & Terry,Thomas Rock
+108,236,Tom & Terry,Terrance Cosentino
+109,237,Duke & Lauren,Duke Marcoccio
+109,238,Duke & Lauren,Lauren Marcoccio
+110,239,Kellie & Jamie,Kellie Patterson
+110,240,Kellie & Jamie,Jamie Hill
+111,241,Vipul & Arti,Vipul Patel
+111,242,Vipul & Arti,Arti Patel
+112,243,Bilal & Sa'eed,Bilal Abdul-Mani
+112,244,Bilal & Sa'eed,Sa'eed Rudolph
+113,245,Zabrina & Joe Jer,Zabrina Fernandez
+113,246,Zabrina & Joe Jer,Joe Jer Tee
+114,247,Sandy & Francesca,Sandy Sydney
+114,248,Sandy & Francesca,Francesca Etzdorf
+115,249,Andrew & Syeon,Andrew Tan
+115,250,Andrew & Syeon,Park Syeon
+116,251,Mardy & Marsio,Mardy Juwono
+116,252,Mardy & Marsio,Marsio Juwono
+117,253,Andy & Laura,Andy Lawson
+117,254,Andy & Laura,Laura Kluk
+118,255,Howard & Sahran,Howard Bicknell
+118,256,Howard & Sahran,Sahran Abeysundara
+119,257,Melody & Sharon,Melody Chen
+119,258,Melody & Sharon,Sharon Wong
+120,259,Sahil & Prashant,Sahil Shroff
+120,260,Sahil & Prashant,Prashant Sachdev
+121,261,Aubrey & Jacqueline,Aubrey Miles
+121,262,Aubrey & Jacqueline,Jacqueline Yu
+122,263,Ernie & Jeena,Ernesto Lopez
+122,264,Ernie & Jeena,Jill Lopez
+123,201,Eric & Danielle,Eric Sanchez
+123,213,Eric & Danielle,Danielle Turner
+124,265,Patrícia & Sane,Patrícia
+124,266,Patrícia & Sane,Sane
+125,267,Jonatas & Rafael,Jonatas Guedes
+125,268,Jonatas & Rafael,Rafael
+126,269,Perri & Maristela,Perri
+126,270,Perri & Maristela,Maristela
+127,271,Jorge & Silvia,Jorge
+127,272,Jorge & Silvia,Silvia
+128,273,Débora & Daniela,Débora
+128,274,Débora & Daniela,Daniela
+129,275,Andréa & Luciana,Andréa de Carvalho
+129,276,Andréa & Luciana,Luciana
+130,277,Milene & Jaqueline,Milene
+130,278,Milene & Jaqueline,Jaqueline
+131,279,Mari Lice & Tâmisa,Mari Lice
+131,280,Mari Lice & Tâmisa,Tâmisa
+132,281,Carlos & Eduardo,Carlos
+132,282,Carlos & Eduardo,Eduardo
+133,283,Narciso & Marcelo,Narciso
+133,284,Narciso & Marcelo,Marcelo
+134,285,Sandro & Daniel,Sandro
+134,286,Sandro & Daniel,Daniel
+135,287,TK & Rachel,Thomas Kyle Erwin
+135,288,TK & Rachel,Rachel Rosales
+136,289,Ron & Christina,Ronald Hsu
+136,290,Ron & Christina,Christina Hsu
+137,291,Nicolas & Donald,Nicolas Fulks
+137,292,Nicolas & Donald,Donald Jerousek
+138,293,Nathan & Jennifer,Nathan Hagstrom
+138,294,Nathan & Jennifer,Jennifer Parker
+139,295,Kent & Vyxsin,Kent Kaliber
+139,296,Kent & Vyxsin,Jennifer Fiala
+140,297,Azaria & Hendekea,Azaria Azene
+140,298,Azaria & Hendekea,Hendekea Azene
+141,299,Shana & Jennifer,Shana Wall
+141,300,Shana & Jennifer,Jennifer McCall
+142,301,Lorena & Jason,Lorena Segura
+142,302,Lorena & Jason,Jason Widener
+143,303,Marianna & Julia,Marianna Ruiz
+143,304,Marianna & Julia,Julia Ruiz
+144,305,Kate & Pat,Kate Lewis
+144,306,Kate & Pat,Patrick Hendrickson
+145,307,Ari & Staella,Ari Bonias
+145,308,Ari & Staella,Staella Gianakakos
+146,309,Adrian & Collin,Adrian Yap
+146,310,Adrian & Collin,Collin Low
+147,311,Pamela & Vanessa,Pamela Chong
+147,312,Pamela & Vanessa,Vanessa Chong
+148,313,Marc & Rovilson,Marc Nelson
+148,314,Marc & Rovilson,Rovilson Fernandez
+149,315,Diane & Ann,Diane Douglas
+149,316,Diane & Ann,Ann Tan
+150,317,Natasha & Paula,Natasha Monks
+150,318,Natasha & Paula,Paula Taylor
+151,319,Terri & Henry,Trinidad Reed
+151,320,Terri & Henry,Henry Reed
+152,321,Daichi & Sawaka,Daichi Kawashima
+152,322,Daichi & Sawaka,Sawaka Kawashima
+153,323,Sophie & Aurelia,Sophie Teng
+153,324,Sophie & Aurelia,Aurelia Chenat
+154,325,Kinaryosih & Brett,Kinaryosih
+154,326,Kinaryosih & Brett,Brett Money
+155,327,Edwin & Monica,Edwin Lo
+155,328,Edwin & Monica,Monica Lo
+156,329,Vince & Sam,Vincent Chung
+156,330,Vince & Sam,Samuel Wu
+157,331,Geoff & Tisha,Geoffrey Rodriguez
+157,332,Geoff & Tisha,Tisha Silang
+158,333,Ida & Tania,Ida Nerina
+158,334,Ida & Tania,Tania Khan
+159,335,A.D. & Fuzzie,Adeline Chan
+159,336,A.D. & Fuzzie,Faeza Sirajudin
+160,337,Henry & Bernie,Henry Chan
+160,338,Henry & Bernie,Bernadette Chan
+161,339,Mai & Oliver,Visa Sarasas
+161,340,Mai & Oliver,Oliver Faivre
+162,341,Niroo & Kapil,Niroo Asrani
+162,342,Niroo & Kapil,Kapil Asrani
+163,343,Pailin & Natalie,Pailin Rungratanasunthorn
+163,344,Pailin & Natalie,Natalie Glebova
+164,345,Isaac & William,Isaac Hong
+164,346,Isaac & William,William Hong
+165,347,Neena & Amit,Neena Rai
+165,348,Neena & Amit,Amit Rai
+166,349,Nick & Starr,Nicholas Spangler
+166,350,Nick & Starr,Emily Spangler
+167,351,Ken & Tina,Kenneth Greene
+167,352,Ken & Tina,Christina Greene
+168,353,Andrew & Dan,Andre Lappitt
+168,354,Andrew & Dan,Daniel Honig
+169,355,Toni & Dallas,Anttoni Imbimbo
+169,356,Toni & Dallas,Dallas Imbimbo
+170,357,Terence & Sarah,Terence Gerchberg
+170,358,Terence & Sarah,Sarah Leshner
+171,359,Kelly & Christy,Kelly Crabb
+171,360,Kelly & Christy,Christy Cook
+172,361,Aja & Ty,Aja Benton
+172,362,Aja & Ty,Tyrone White
+173,363,Marisa & Brooke,Marisa Axelrod
+173,364,Marisa & Brooke,Brooke Jackson
+174,365,Mark & Bill,Mark Yturralde
+174,366,Mark & Bill,William Kahler
+175,367,Anthony & Stephanie,Anthony Marotta
+175,368,Anthony & Stephanie,Stephanie Kacandes
+176,369,Anita & Arthur,Anita Jones
+176,370,Anita & Arthur,Arthur Jones
+177,371,Shay & Guy,Shay Kahana
+177,372,Shay & Guy,Guy Osadon
+178,373,Maya & Amichay,Maya Kramer
+178,374,Maya & Amichay,Amichay Gat
+179,375,Tom & Gil,Tom Kilman
+179,376,Tom & Gil,Gil Kislev
+180,377,Michal & Ran,Michal Shaviv
+180,378,Michal & Ran,Ran Shaviv
+181,379,Hadas & Inbal,Hadas Federman
+181,380,Hadas & Inbal,Inbal Shelevi
+182,381,Eliana & Yael,Eliana Turgeman
+182,382,Eliana & Yael,Yael Ambar
+183,383,Hannah & Margalit,Hannah Shaham
+183,384,Hannah & Margalit,Margalit Koenig
+184,385,Alen & Inbal,Alen Bilig
+184,386,Alen & Inbal,Inbal Harel
+185,387,Maor & Asher,Maor Galam
+185,388,Maor & Asher,Asher Donsoili
+186,389,Liran & Elena,Liran Kohener
+186,390,Liran & Elena,Elena Ralph
+187,391,Tammy & Victor,Tamara Jih
+187,392,Tammy & Victor,Victor Jih
+188,393,Jaime & Cara,Jaime Faith Edmondson
+188,394,Jaime & Cara,Cara Rosenthal
+189,395,Margie & Luke,Margaret O'Donnell
+189,396,Margie & Luke,Luke Adams
+190,397,Kisha & Jen,LaKisha Hoffman
+190,398,Kisha & Jen,Jennifer Hoffman
+191,399,Mark & Michael,Mark Munoz
+191,400,Mark & Michael,Michael Munoz
+192,401,Mel & Mike,James White
+192,402,Mel & Mike,Michael White
+193,403,Christie & Jodi,Christina Volkmer
+193,404,Christie & Jodi,Jordan Wincheski
+194,405,Amanda & Kris,Amanda Blackledge
+194,406,Amanda & Kris,Kristopher Klicka
+195,407,Brad & Victoria,Bradley Hunt
+195,408,Brad & Victoria,Victoria Hunt
+196,409,Steve & Linda,Steven Cole
+196,410,Steve & Linda,Linda Cole
+197,411,Preston & Jennifer,Preston McCamy
+197,412,Preston & Jennifer,Jennifer Hopka
+198,413,Matías & Tamara,Matías Franchini
+198,414,Matías & Tamara,Tamara Reichelt
+199,415,Daniel & David,Daniel España
+199,416,Daniel & David,David Galavis
+200,417,Ferna & Fran,Fernanda Guzmán
+200,418,Ferna & Fran,Francisco Coombs
+201,419,Daniel & Carlos,Daniel Mastroiano
+201,420,Daniel & Carlos,Carlos Tavares
+202,421,Rodrigo & Anna,Rodrigo Alergo
+202,422,Rodrigo & Anna,Anna Arestivo
+203,423,Casilda & Casilda,Casilda Creixell
+203,424,Casilda & Casilda,Casilda Pérez
+204,425,Diego & Miguel,Diego Chaustre
+204,426,Diego & Miguel,Miguel Kurmen
+205,427,Mario & Melissa,Mario Torres
+205,428,Mario & Melissa,Melissa Figueredo
+206,429,Ricardo & Adriana,Ricardo Acevedo
+206,430,Ricardo & Adriana,Adriana Acevedo
+207,431,Guillermo & Gabriel,Guillermo Villarreal
+207,432,Guillermo & Gabriel,Gabriel Villarreal
+208,433,Nora & Ariel,Nora Saravia
+208,434,Nora & Ariel,Ariel Saravia
+209,435,Meghan & Cheyne,Meghan Rickey
+209,436,Meghan & Cheyne,Cheyne Whitney
+210,437,Sam & Dan,Samuel McMillen
+210,438,Sam & Dan,Daniel McMillen
+211,439,Brian & Ericka,Brian Kleinschmidt
+211,440,Brian & Ericka,Ericka Dunlap
+212,441,Flight Time & Big Easy,Herbert Lang
+212,442,Flight Time & Big Easy,Nathaniel Lofton
+213,443,Gary & Matt,Gary Tomljenovich
+213,444,Gary & Matt,Matthew Tomljenovich
+214,445,Maria & Tiffany,Maria Ho
+214,446,Maria & Tiffany,Tiffany Michelle
+215,447,Mika & Canaan,Mika Combs
+215,448,Mika & Canaan,Canaan Smith
+216,449,Lance & Keri,Lance Layne
+216,450,Lance & Keri,Keri Morrione
+217,451,Zev & Justin,Zev Glassenberg
+217,452,Zev & Justin,Justin Kanew
+218,453,Marcy & Ron,Marcy Malloy
+218,454,Marcy & Ron,Ronald Shalita
+219,455,Garrett & Jessica,Garrett Paul
+219,456,Garrett & Jessica,Jessica Stout
+220,457,Eric & Lisa,Eric Paskel
+220,458,Eric & Lisa,Lisa Paskel
+221,459,Dan & Jordan,Daniel Pious
+221,460,Dan & Jordan,Jordan Pious
+222,461,Jet & Cord,Jet McCoy
+222,462,Jet & Cord,Cord McCoy
+223,463,Brent & Caite,Brent Horne
+223,464,Brent & Caite,Lauren Caitlin Upton
+224,465,Louie & Michael,Louis Stravato
+224,466,Louie & Michael,Michael Naylor
+225,467,Carol & Brandy,Carol Rosenfeld
+225,468,Carol & Brandy,Brandy Snow
+226,469,Steve & Allie,Steven Smith
+226,470,Steve & Allie,Allison Smith
+227,471,Jordan & Jeff,Jordan Lloyd
+227,472,Jordan & Jeff,Jeffery Schroeder
+228,473,Joe & Heidi,Joseph Wang
+228,474,Joe & Heidi,Heidi Wang
+229,475,Monique & Shawne,Monique Pryor
+229,476,Monique & Shawne,Shawne Morgan
+230,477,Jody & Shannon,Jordan Kelly
+230,478,Jody & Shannon,Shannon Foster
+231,479,Dana & Adrian,Dana Davis
+231,480,Dana & Adrian,Adrian Davis
+232,481,Charlie & Rachel,Charlie Gale
+232,482,Charlie & Rachel,Rachel Chen
+233,483,Rick & Josh,Richard Liston
+233,484,Rick & Josh,Joshua Ogilvie
+234,485,Deepak & Naresh,Deepak Noutiyal
+234,486,Deepak & Naresh,Naresh Ludhani
+235,487,Karen & Lisa,Karen Spencer
+235,488,Karen & Lisa,Lisa Chiang
+236,489,Sarah & Molly,Sarah Edson
+236,490,Sarah & Molly,Molly Fitzpatrick
+237,491,Sean & Amy,Sean Slaughter
+237,492,Sean & Amy,Amy Bromstead
+238,493,Bonnie & Mel,Bonnie Wisnewski
+238,494,Bonnie & Mel,Melanie Plumi
+239,495,Janis & Aleksandra,Janis Vaisla
+239,496,Janis & Aleksandra,Aleksandra Kurusova
+240,497,Hector & Miguel,Hector Valenzuela
+240,498,Hector & Miguel,Miguel Villanueva
+241,499,Paul & Francis,Paul Lebeneiyo
+241,500,Paul & Francis,Francis Merinyi
+242,501,Richard & Richard,Richard Hardin
+242,502,Richard & Richard,Richard Herrera
+243,503,Claire & Michelle,Claire Goh
+243,504,Claire & Michelle,Michelle Ng
+244,505,Hussein & Natasha,Hussein Sutadisastra
+244,506,Hussein & Natasha,Natasha Sutadidsastra
+245,507,Jess & Lani,Jacinta James
+245,508,Jess & Lani,Lani Pillinger
+246,509,Ethan & Khairie,Lim Koh Hon
+246,510,Ethan & Khairie,Mohamad Khairie
+247,511,Dimple & Sunaina,Dimple Inamdar
+247,512,Dimple & Sunaina,Sunaina Gulia
+248,513,Ivan & Hilda,Ivan Evetovics
+248,514,Ivan & Hilda,Tengku Hilda
+249,515,Sahil & Manas,Sahil Banga
+249,516,Sahil & Manas,Manas Katyal
+250,517,Alan & Wendy,Alan Luk
+250,518,Alan & Wendy,Wendy Lee
+251,519,Yani & Nadine,Yani Hidranto
+251,520,Yani & Nadine,Nadine Zamira
+252,521,Nat & Kat,Natalie Strand
+252,522,Nat & Kat,Katherine Chang
+253,523,Brook & Claire,Brook Roberts
+253,524,Brook & Claire,Claire Champlin
+254,525,Jill & Thomas,Jillian Haney
+254,526,Jill & Thomas,Thomas Wolfard
+255,527,Nick & Vicki,Nicholas DeCarlo
+255,528,Nick & Vicki,Victoria Casciola
+256,529,Chad & Stephanie,Chad Waltrip
+256,530,Chad & Stephanie,Stephanie Smith
+257,531,Gary & Mallory,Gary Ervin
+257,532,Gary & Mallory,Mallory Ervin
+258,533,Michael & Kevin,Michael Wu
+258,534,Michael & Kevin,Kevin Wu
+259,535,Katie & Rachel,Katie Seamon
+259,536,Katie & Rachel,Rachel Johnston
+260,537,Connor & Jonathan,Connor Diemand-Yauman
+260,538,Connor & Jonathan,Jonathan Schwartz
+261,539,Andie & Jenna,Andrea DeKroon
+261,540,Andie & Jenna,Jenna Sykes
+262,541,Ron & Tony,Ronald Kellum
+262,542,Ron & Tony,Anthony Stovall
+263,543,Mauricio & Carlos,Mauricio Coarasa
+263,544,Mauricio & Carlos,Carlos Coarasa
+264,545,Toño & Lili,Antonio Varas
+264,546,Toño & Lili,Liliana Cantú
+265,547,Aleandra & Marlene,Aleandra Scafati
+265,548,Aleandra & Marlene,Marlene Zichy
+266,549,Guilherme & Vinícius,Guilherme Nunes
+266,550,Guilherme & Vinícius,Vinícius Lemos
+267,551,Esteban & Marisol,Esteban Portela
+267,552,Esteban & Marisol,Marisol Márquez
+268,553,Marietta & José,Marietta Acosta
+268,554,Marietta & José,José Cárdenas
+269,555,Edison & Edison,Edison J. Perezgomez
+269,556,Edison & Edison,Edison M. Perezgomez
+270,557,Jelkin & Javier,Jelkin Rijo
+270,558,Jelkin & Javier,Javier Báez
+271,559,Roger & Omar,Roger Saliba
+271,560,Roger & Omar,Omar Guedez
+272,561,Mauricio & Mariana,Mauricio Moreno
+272,562,Mauricio & Mariana,Mariana Moreno
+273,563,Susy & Stefany,Susy Rotstain
+273,564,Susy & Stefany,Stefany Porudominsky
+274,565,Tyler & Nathan,Tyler Atkins
+274,566,Tyler & Nathan,Nathan Joliffe
+275,567,Sam & Renae,Samantha Schoers
+275,568,Sam & Renae,Renae Wauhop
+276,569,Jeff & Luke,Jeffrey Downes
+276,570,Jeff & Luke,Lucas Downes
+277,571,Matt & Tom,Matthew Nunn
+277,572,Matt & Tom,Thomas Warriner
+278,573,Dave & Kelly,Dave Miller
+278,574,Dave & Kelly,Kelly Miller
+279,575,Chris & Anastasia,Chris Pselletes
+279,576,Chris & Anastasia,Anastasia Natasa Drimousis
+280,577,Alana & Mel,Alana Munday
+280,578,Alana & Mel,Mel Greig
+281,579,Mo & Mos,Mohammed El-Leissy
+281,580,Mo & Mos,Mostafa Haroun
+282,581,Richard & Joey,Richard Toutounji
+282,582,Richard & Joey,Joey Toutounji
+283,583,Anne-Marie & Tracy,Anne-Marie Brown
+283,584,Anne-Marie & Tracy,Tracy Read
+284,585,Ryot & Liberty,Ryan Wilson
+284,586,Ryot & Liberty,Liberty Wilson
+285,587,Lily & Jan,Lily Li
+285,588,Lily & Jan,Jan Höpper
+286,589,Simon & Katherine,Simon Chen
+286,590,Simon & Katherine,Katherine Wang
+287,591,Sun Bin & Hao Fei'er,Sun Bin
+287,592,Sun Bin & Hao Fei'er,Hao Fei'er
+288,593,Matt & Kylie,Matthew Waddick
+288,594,Matt & Kylie,Kylie Ann Chapman
+289,595,Mary & Cecilia,Jiang Zhijie
+289,596,Mary & Cecilia,Jiang Xinyao
+290,597,Elena & Tameka,Elena Luk'Yanenko
+290,598,Elena & Tameka,Tameka Small
+291,599,Rhett & Howie,Rhett Farber
+291,600,Rhett & Howie,Howard Snyder
+292,601,Summer & Eachen,Summer Xia
+292,602,Summer & Eachen,Eachan Zhou
+293,603,Xiao Long & Lv Meng,Shu Dalong
+293,604,Xiao Long & Lv Meng,Lv Meng
+294,605,A Lai & Jackie,A Lai Dongmei
+294,606,A Lai & Jackie,Wang Jieqi
+295,607,Paul & Nash,Paul Hayes
+295,608,Paul & Nash,Nash
+296,609,Ernie & Cindy,Ernest Halvorsen
+296,610,Ernie & Cindy,Cindy Chiang
+297,611,Jeremy & Sandy,Jeremy Cline
+297,612,Jeremy & Sandy,Sandra Draghi
+298,613,Amani & Marcus,Amani Pollard
+298,614,Amani & Marcus,Marcus Pollard
+299,615,Andy & Tommy,Andrew Finch
+299,616,Andy & Tommy,Thomas Czeschin
+300,617,Bill & Cathi,William Alden
+300,618,Bill & Cathi,Catherine Alden
+301,619,Laurence & Zac,Laurence Sunderland
+301,620,Laurence & Zac,Zachary Sunderland
+302,621,Justin & Jennifer,Justin Young
+302,622,Justin & Jennifer,Jennifer Young
+303,623,Liz & Marie,Elizabeth Canavan
+303,624,Liz & Marie,Marie Canavan
+304,625,Kaylani & Lisa,Kaylani Paliotta
+304,626,Kaylani & Lisa,Lisa Tilley
+305,627,Ethan & Jenna,Ethan Zohn
+305,628,Ethan & Jenna,Jenna Morasca
+306,629,Ron & Bill,Ronald Zeitz
+306,630,Ron & Bill,William Smith
+307,631,Nicolás & Cristóbal,Nicolás Brain
+307,632,Nicolás & Cristóbal,Cristóbal Brain
+308,633,Felipe & Alejandro,Felipe Castro
+308,634,Felipe & Alejandro,Alejandro Soler
+309,635,Demi & Maxi,Demian Bellido
+309,636,Demi & Maxi,Maximiliano Ottaviani
+310,637,Rick & Kathy,Ricardo Bagarrán
+310,638,Rick & Kathy,Kathia Farah
+311,639,Juan del Mar & Toya,Juan del Mar Iglesias
+311,640,Juan del Mar & Toya,María Victoria Montoya
+312,641,José & Marisol,José Varela
+312,642,José & Marisol,Marisol Ortiz
+313,643,Nico & Andre,Nicholas Cino
+313,644,Nico & Andre,Andrea Cino
+314,645,Pablo & Rosario,Juan Rivera
+314,646,Pablo & Rosario,Leonor Vegas
+315,647,Mónica & Rosy,Mónica Ramos
+315,648,Mónica & Rosy,Rosa Aragón
+316,649,Vero & Gaba,Verónica Alvarado
+316,650,Vero & Gaba,Gabriela Cardozo
+317,651,Ale & Eze,Alejandra Fundaro
+317,652,Ale & Eze,Ezequiel Ball
+318,653,Bar & Inna,Bar Ben-Vakil
+318,654,Bar & Inna,Inna Broder
+319,655,Alon & Oren,Alon Harel
+319,656,Alon & Oren,Oren Harel
+320,657,Akiva & Anaelle,Akiva Shmueli
+320,658,Akiva & Anaelle,Anaelle Shmueli
+321,659,Tom & Adele,Tom Kashty
+321,660,Tom & Adele,Adele Bespalov
+322,661,Osnat & Carmit,Osnat Shapir
+322,662,Osnat & Carmit,Carmit Zacay
+323,663,Pundak & Moti,Idan Pundak
+323,664,Pundak & Moti,Moti Lahav
+324,665,Alon & Hen,Alon Apple
+324,666,Alon & Hen,Hen Shiloni
+325,667,Firass & Shira,Firass Janluka
+325,668,Firass & Shira,Shira Dahan
+326,669,Nitzan & Fifi,Nitzan Avital
+326,670,Nitzan & Fifi,Frieda Moshe
+327,671,Tal & Mor,Tal Shaham
+327,672,Tal & Mor,Mor Shaham
+328,673,Gadi & Alona,Gadi Chait
+328,674,Gadi & Alona,Alona Ophir
+329,675,Rachel & Dave,Rachel Brown
+329,676,Rachel & Dave,"David Brown, Jr."
+330,677,Art & JJ,Arturo Velez
+330,678,Art & JJ,John James Carrell
+331,679,Brendon & Rachel,Brendon Villegas
+331,680,Brendon & Rachel,Rachel Reilly
+332,681,Vanessa & Ralph,Vanessa Macias
+332,682,Vanessa & Ralph,Ralph Kelley
+333,683,Bopper & Mark,William Minton
+333,684,Bopper & Mark,Mark Jackson
+334,685,Nary & Jamie,Nareman Ebeid
+334,686,Nary & Jamie,Jamie Graetz
+335,687,"Joey ""Fitness"" & Danny",Joey Lasalla
+335,688,"Joey ""Fitness"" & Danny",Danny Horal
+336,689,Kerri & Stacy,Kerri Paul
+336,690,Kerri & Stacy,Stacy Bowers
+337,691,Elliot & Andrew,Elliot Weber
+337,692,Elliot & Andrew,Andrew Weber
+338,693,Dave & Cherie,David Gregg
+338,694,Dave & Cherie,Cherie Gregg
+339,695,Misa & Maiya,Misa Tanaka
+339,696,Misa & Maiya,Maiya Tanaka
+340,697,Morten & Truls,Morten Bjerke
+340,698,Morten & Truls,Truls Bjerke
+341,699,Karim & Khabat,Karim Sabeur
+341,700,Karim & Khabat,Khabat Sarzali
+342,701,Cathrine & Michelle,Cathrine Andersen
+342,702,Cathrine & Michelle,Michelle Holm
+343,703,Frank & Ivar,Frank Hesmyr Falander
+343,704,Frank & Ivar,Ivar Hesmyr Falander
+344,705,Kari & Bjørn,Kari Hagrud Setsaas
+344,706,Kari & Bjørn,Bjørn Setsaas
+345,707,Tor Einar & Cathrine,Tor Einar Holden
+345,708,Tor Einar & Cathrine,Cathrine Hjemli Holen
+346,709,Julie & Vichy,Julie Aamodt
+346,710,Julie & Vichy,Vichy Ericsson
+347,711,Bjarne & Vilde,Bjarne Vegard Drevland
+347,712,Bjarne & Vilde,Vilde Naomi Enge
+348,713,Martha & Elise,Martha Berberg
+348,714,Martha & Elise,Elise Berberg
+349,715,Pål Christian & Ivar,Pål Christian Egeberg
+349,716,Pål Christian & Ivar,Ivar Juliussen
+350,717,Kenneth & Hakan,Kenneth Holt
+350,718,Kenneth & Hakan,Hakan Pandul
+351,719,Baggio & Thành Phúc,Baggio Saetti
+351,720,Baggio & Thành Phúc,Thành Phúc Nguyễn
+352,721,Minh Hoàng & Phương Thảo,Minh Hoàng Huỳnh
+352,722,Minh Hoàng & Phương Thảo,Phương Thảo Nguyễn Thị
+353,723,Thành Chung & Thanh Bằng,Thành Chung Nguyễn
+353,724,Thành Chung & Thanh Bằng,Thanh Bằng Nguyễn
+354,725,Chí Bình & Hồng Long,Chí Bình Nguyễn
+354,726,Chí Bình & Hồng Long,Hồng Long Lê
+355,727,Tuấn Anh & Xuân Sơn,Tuấn Anh Nguyễn
+355,728,Tuấn Anh & Xuân Sơn,Xuân Sơn Đỗ
+356,729,Minh Châu & Trần Châu,Minh Châu Nguyễn
+356,730,Minh Châu & Trần Châu,Trần Châu Nguyễn
+357,731,Gia Bình & Bảo Châu,Gia Bình Trần
+357,732,Gia Bình & Bảo Châu,Bảo Châu Trần Thị
+358,733,Thanh Tuấn & Mỹ Trâm,Thanh Tuấn Phan Huỳnh
+358,734,Thanh Tuấn & Mỹ Trâm,Mỹ Trâm Nguyễn Thị
+359,735,Richie & Mimi,Richard Hamilton Humphrey
+359,736,Richie & Mimi,Ngọc Phượng Lý Thị
+360,737,Thanh Thủy & Minh Thoa,Thanh Thủy Nguyễn
+360,738,Thanh Thủy & Minh Thoa,Minh Thoa Vũ
+361,739,Shane & Andrew,Shane Haw
+361,740,Shane & Andrew,Andrew Thoday
+362,741,Paul & Steve,Paul Montgomery
+362,742,Paul & Steve,Steven Scale
+363,743,Michelle & Jo,Michelle Troy
+363,744,Michelle & Jo,Joanne Troy
+364,745,Joseph & Grace,Joseph Caristo
+364,746,Joseph & Grace,Grace Caristo
+365,747,Lucy & Emilia,Lucy Pelosi
+365,748,Lucy & Emilia,Emilia Pelosi
+366,749,James & Sarah,James Kingsbury
+366,750,James & Sarah,Sarah Roza
+367,751,Sticky & Sam,Geoff Stick
+367,752,Sticky & Sam,Sam Hay
+368,753,Ross & Tarryn,Ross Thornton
+368,754,Ross & Tarryn,Tarryn Lee Thornton
+369,755,Kym & Donna,Kym Bouckaert
+369,756,Kym & Donna,Donna Verney
+370,757,Sue & Teresa,Sue Bumback
+370,758,Sue & Teresa,Teresa Italiano
+371,759,Adam & Dane,Adam Corowa
+371,760,Adam & Dane,Dane Corowa
+372,761,Liu Weiwei & Lei Sheng,Liu Weiwei
+372,762,Liu Weiwei & Lei Sheng,Lei Sheng
+373,763,Christine & Steven,Christine Tong
+373,764,Christine & Steven,Steven Zhao
+374,765,Ryan & Charlie,Ryan Burke
+374,766,Ryan & Charlie,Charlie Melvin
+375,767,Zhang Yelin & Li Yang,Zhang Yelin
+375,768,Zhang Yelin & Li Yang,Li Yang
+376,769,Janelle & Karin,Janelle Loh
+376,770,Janelle & Karin,Karin von Essen
+377,771,Khai Shing & Khai Sheng,Tang Khai Shing
+377,772,Khai Shing & Khai Sheng,Tang Khai Sheng
+378,773,Henry & Jennifer,Henry Su
+378,774,Henry & Jennifer,Jennifer Su
+379,775,Xiao Bing & Xiao Bang,Ju Xiangcheng
+379,776,Xiao Bing & Xiao Bang,Sun Huailong
+380,777,Yu Ping & Yu Chenjing,Yu Ping
+380,778,Yu Ping & Yu Chenjing,Yu Chenjing
+381,779,Nick & Brandon,Nick Black
+381,780,Nick & Brandon,Brandon Lee
+382,781,Jia Jia & Rob,Hao Weiru
+382,782,Jia Jia & Rob,Rob Biggs
+383,783,Josh & Brent,Josh Kilmer-Purcell
+383,784,Josh & Brent,Brent Ridge
+384,785,Jaymes & James,Jaymes Vaughan
+384,786,Jaymes & James,James Davis
+385,787,Trey & Lexi,Trey Wier
+385,788,Trey & Lexi,Alexis Beerman
+386,789,Natalie & Nadiya,Natalie Anderson
+386,790,Natalie & Nadiya,Nadiya Anderson
+387,791,Abbie & Ryan,Abigail Ginsberg
+387,792,Abbie & Ryan,Ryan Danz
+388,793,James & Abba,James LoMenzo
+388,794,James & Abba,Mark Abbattista
+389,795,Rob & Kelley,Robert French
+389,796,Rob & Kelley,Kelley Carrington-French
+390,797,Gary & Will,Gary Wojnar
+390,798,Gary & Will,Will Chiola
+391,799,Caitlin & Brittany,Caitlin King
+391,800,Caitlin & Brittany,Brittany Fletcher
+392,801,Amy & Daniel,Amy Purdy
+392,802,Amy & Daniel,Daniel Gale
+393,803,Rob & Sheila,Robert Scheer
+393,804,Rob & Sheila,Sheila Castle
+394,805,Daniel & César,Daniel Belém
+394,806,Daniel & César,César Curti
+395,807,Fer & Ferds,Fernando Ruas
+395,808,Fer & Ferds,Ferdinei Martins
+396,809,Edu & Rick,Eduardo Braga y García
+396,810,Edu & Rick,Ricardo Braga y García
+397,811,Renan & Fran,Renan Amaral
+397,812,Renan & Fran,Françoise Mattoso
+398,813,Ana Paula & Renata,Ana Paula Caetano
+398,814,Ana Paula & Renata,Renata Faria
+399,815,Fernanda & Cainã,Fernanda Chateaubriand
+399,816,Fernanda & Cainã,Cainã Nagano
+400,817,Fuzetti & Nando,Luiz Fuzetti
+400,818,Fuzetti & Nando,Luiz Cardim
+401,819,Gabriela & Harã,Marília David
+401,820,Gabriela & Harã,Harã Lemes
+402,821,Ciça & Zezão,Maria Cecília Cardoso
+402,822,Ciça & Zezão,José Carlos Cardoso
+403,823,Billy & Gean,Gilmar Schlossmacher
+403,824,Billy & Gean,Gilbert Schlossmacher
+404,825,Ci & Lu,Cíntia de Franco
+404,826,Ci & Lu,Luíza de Franco
+405,827,Anthony & Sonja,Anthony Martinage
+405,828,Anthony & Sonja,Sonja Sacha
+406,829,Hadj & Yacim,Hadj Semara
+406,830,Hadj & Yacim,Yacim Djabali
+407,831,Stéphanie & Alice,Stéphanie François
+407,832,Stéphanie & Alice,Alice Digne
+408,833,Heïdi & Michel,Heïdi
+408,834,Heïdi & Michel,Michel
+409,835,Francis & Benjamin,Francis Boutleux
+409,836,Francis & Benjamin,Benjamin Boutleux
+410,837,Oucéni & Lassana,Oucéni Touré
+410,838,Oucéni & Lassana,Lassana Touré
+411,839,Mathilde & Séverine,Mathilde
+411,840,Mathilde & Séverine,Séverine
+412,841,Fabien & Aurélien,Fabien
+412,842,Fabien & Aurélien,Aurélien
+413,843,Antoine & Héléna,Antoine
+413,844,Antoine & Héléna,Héléna
+414,845,LJ & CJ,Lari Jeanne Moreno
+414,846,LJ & CJ,Criselda Janice Jaravata
+415,847,Fausto & Dayal,Fausto Reyes
+415,848,Fausto & Dayal,"Dayal Chowdary, Jr."
+416,849,Marc & Kat,Marc Duñgo
+416,850,Marc & Kat,Katherine Tan
+417,851,Sheena & Gee,Sheena Vera Cruz
+417,852,Sheena & Gee,Gazelle Canlas
+418,853,Saida & Jervi,Saida Diola
+418,854,Saida & Jervi,Jervi Li
+419,855,Boom & Cheng,Raymund Vergara
+419,856,Boom & Cheng,Cheng Enriquez
+420,857,Ed & Angel,Edgar Movido
+420,858,Ed & Angel,Angelica Movido
+421,859,Dani & Mish,Danielle Castaño
+421,860,Dani & Mish,Michelle van Ruyven
+422,861,Pamela & Vanessa,Pamela Spella
+422,862,Pamela & Vanessa,Vanessa Ishitani
+423,863,Anton & Armand,Anton del Rosario
+423,864,Anton & Armand,Armand del Rosario
+424,865,Crystel & Mykey,Crystel Castro
+424,866,Crystel & Mykey,Mykey Lacson
+425,867,Bates & Anthony,Jonathan Battaglia
+425,868,Bates & Anthony,Anthony Battaglia
+426,869,Max & Katie,Max Bichler
+426,870,Max & Katie,Katherine Kaczor-Bichler
+427,871,Mona & Beth,Mona Hinman-Egender
+427,872,Mona & Beth,Elizabeth Bandimere
+428,873,Caroline & Jennifer,Caroline Cutbirth
+428,874,Caroline & Jennifer,Jennifer Wayne
+429,875,Joey & Meghan,Joseph Michael Graceffa
+429,876,Joey & Meghan,Meghan Camarena
+430,877,Chuck & Wynona,Charles McCall
+430,878,Chuck & Wynona,Wynona McCall
+431,879,Pam & Winnie,Pamela Chien
+431,880,Pam & Winnie,Winnie Sung
+432,881,Dave & Connor,Dave O'Leary
+432,882,Dave & Connor,Connor O'Leary
+433,883,Jessica & John,Jessica Hoel
+433,884,Jessica & John,John Erck
+434,885,Idries & Jamil,Idries Abdur-Rahman
+434,886,Idries & Jamil,Jamil Abdur-Rahman
+435,887,Matt & Daniel,Matthew Davis
+435,888,Matt & Daniel,Daniel Moss
+436,889,Omar & Bilal,Omar Ishqair
+436,890,Omar & Bilal,Bilal Ishqair
+437,891,Solfrid & Sveinung,Solfrid Kvalvik
+437,892,Solfrid & Sveinung,Sveinung Ellingsen
+438,893,Cecilie & Camilla,Cecilie Andresen Kreutz
+438,894,Cecilie & Camilla,Camilla Harner Smith
+439,895,Julie & Robert,Julie Eline Sannerud
+439,896,Julie & Robert,Robert Sømod
+440,897,Lill & Stian,Lill Marie Hande
+440,898,Lill & Stian,Stian Hande
+441,899,Eva & Wenche,Eva Skjønhaug
+441,900,Eva & Wenche,Wenche Eriksen
+442,901,Vinh & Terje,Vinh Thanh Phung
+442,902,Vinh & Terje,Terje Løvgro Stokke
+443,903,Priscila & Lindsy,Priscila Merkesdal
+443,904,Priscila & Lindsy,Linn Christine Pedersen
+444,905,Milorad & Dario,Milorad Dunderovic
+444,906,Milorad & Dario,Dario Dunderovic
+445,907,Allan & Ørjan,Allan Wetrhus
+445,908,Allan & Ørjan,Ørjan Heimlid Øvstetun
+446,909,Valeria & Bohdana,Valeria Nikiforets
+446,910,Valeria & Bohdana,Bohdana Prymak
+447,911,Oleksiy & Olena,Oleksiy Yeremeyev
+447,912,Oleksiy & Olena,Olena Dolzhenko
+448,913,Kostyantin & Yakiv,Kostyantin Potomkiv
+448,914,Kostyantin & Yakiv,Yakiv Potomkiv
+449,915,Oleksandr & Volodymyr,Oleksandr Perev'yazko
+449,916,Oleksandr & Volodymyr,Volodymyr Cherkassky
+450,917,Ihor & Vasyl,Ihor Davydov
+450,918,Ihor & Vasyl,Vasyl Nischyk
+451,919,Natalia & Tatiana,Natalia Mansfield-Murphy
+451,920,Natalia & Tatiana,Tatiana Maslovskaya
+452,921,Andriy & Iryna,Andriy Ishchuk
+452,922,Andriy & Iryna,Iryna Kozyreva
+453,923,Anna & Roman,Anna Ivanchenko
+453,924,Anna & Roman,Roman Ivanchenko
+454,925,Alla & Oleksandra,Alla Medvedev
+454,926,Alla & Oleksandra,Oleksandra Medvedev
+455,927,Volodymyr & Iryna,Volodymyr Vasylenko
+455,928,Volodymyr & Iryna,Iryna Vasylenko
+456,929,Talia & Koby,Talia Gorodess
+456,930,Talia & Koby,Koby Windzberg
+457,931,Romi & Coral,Romi Gemer
+457,932,Romi & Coral,Coral Gemer
+458,933,Ma'ayan & Bat-El,Ma'ayan Refaeli
+458,934,Ma'ayan & Bat-El,Bat-El Musai
+459,935,David & Eliran,David Guedj
+459,936,David & Eliran,Eliran Look
+460,937,Debbie & Dana,Debbie Baruch
+460,938,Debbie & Dana,Dana Dahan
+461,939,Eliran & Itzik,Eliran Elenbogen
+461,940,Eliran & Itzik,Itzik Madhani
+462,941,Mor & Lior,Mor Cohen
+462,942,Mor & Lior,Lior Cohen
+463,943,Shimi & Yasmin,Shimeon Edri
+463,944,Shimi & Yasmin,Yasmin Nagorni
+464,945,Ronit & Liran,Ronit Shavit
+464,946,Ronit & Liran,Liran Cohen
+465,947,Andrea & Ronnie,Andrea Zaltzmann
+465,948,Andrea & Ronnie,Ronnie Zaltzmann
+466,949,Herut & Yoftut,Herut Vaysenstern
+466,950,Herut & Yoftut,Yael Teitelbaum
+467,951,Tim Sr. & Tim Jr.,Tim Hague Sr.
+467,952,Tim Sr. & Tim Jr.,Tim Hague Jr.
+468,953,Jody & Cory,Jody Mitic
+468,954,Jody & Cory,Cory Mitic
+469,955,Vanessa & Celina,Vanessa Morgan
+469,956,Vanessa & Celina,Celina Mziray
+470,957,Jet & Dave,Jethro Black
+470,958,Jet & Dave,David Schram
+471,959,Brett & Holly,Brett Burstein
+471,960,Brett & Holly,Holly Agostino
+472,961,Hal & Joanne,Hal Johnson
+472,962,Hal & Joanne,Joanne McLeod
+473,963,Kristen & Darren,Kristen Idiens
+473,964,Kristen & Darren,Darren Trapp
+474,965,Jamie & Pierre,Jamie Cumberland
+474,966,Jamie & Pierre,Pierre Cadieux
+475,967,Treena & Tennille,Treena Ley
+475,968,Treena & Tennille,Tennille Dorrington
+476,969,Diệp Lâm Anh & Thu Hiền,Diệp Anh Nguyễn
+476,970,Diệp Lâm Anh & Thu Hiền,Thu Hiền Trần Thị
+477,971,Linh Chi & Nhan Phúc Vinh,Linh Chi Nguyễn Thị
+477,972,Linh Chi & Nhan Phúc Vinh,Nhan Phúc Vinh
+478,973,Đức Hưng & Thùy Dung,Đức Hưng Dương
+478,974,Đức Hưng & Thùy Dung,Thùy Dung Nguyễn
+479,975,Hari & Tiến Đạt,Esther Lưu
+479,976,Hari & Tiến Đạt,Tiến Đạt Đinh
+480,977,Đoàn Mạnh & Linh Sơn,Tiến Mạnh Đoàn
+480,978,Đoàn Mạnh & Linh Sơn,Linh Sơn Nguyễn
+481,979,Anh Tuấn & Thanh Hoa,Anh Tuấn Phạm
+481,980,Anh Tuấn & Thanh Hoa,Thanh Hoa Đỗ Thị
+482,981,Pha Lê & Hà Việt Dũng,Pha Lê Nguyễn
+482,982,Pha Lê & Hà Việt Dũng,Hà Việt Dũng
+483,983,Kim Lee & Pharreal Phương,Kim Lee
+483,984,Kim Lee & Pharreal Phương,Duy Phương Nguyễn
+484,985,S.T & Lâm Hùng Phong,Sơn Thạch Nguyễn Cao
+484,986,S.T & Lâm Hùng Phong,Lâm Hùng Phong
+485,987,Ezequiel & Tobías,Ezequiel Sapochnik
+485,988,Ezequiel & Tobías,Lucas de la Barra
+486,989,Darío & Esther,Darío Greni
+486,990,Darío & Esther,Esther Martínez
+487,991,Karina & Braian,Karina Cordobés
+487,992,Karina & Braian,Braian Torres
+488,993,Manfred & Pierre,Manfred Céspedes
+488,994,Manfred & Pierre,Pierre Monney
+489,995,Jessica & Michelle,Jessica Manco
+489,996,Jessica & Michelle,Carelb Herrera
+490,997,Evelyn & Jorge,Evelyn Cristopher
+490,998,Evelyn & Jorge,Jorge Avellaneda
+491,999,Astrid & Aleja,Astrid Velásquez
+491,1000,Astrid & Aleja,Alejandra Velásquez
+492,1001,Juanjo & Beto,Juan López
+492,1002,Juanjo & Beto,Gilberto Ortega
+493,1003,Débora & Renata,Débora Cunha
+493,1004,Débora & Renata,Renata Kimura
+494,1005,Filippo & Eddy,Filippo Puccio
+494,1006,Filippo & Eddy,Eddy Díaz
+495,1007,Ari & Ra,Ariana Figueroa
+495,1008,Ari & Ra,Ramón Figueroa
+496,1009,Jason & Amy,Jason Case
+496,1010,Jason & Amy,Amy Diaz
+497,1011,Tim & Marie,Timothy Sweeney
+497,1012,Tim & Marie,Marie Mazzocchi
+498,1013,Nicole & Travis,Nicole Jasper
+498,1014,Nicole & Travis,Travis Jasper
+499,1015,Leo & Jamal,Leo Temory
+499,1016,Leo & Jamal,Jamal Zadran
+500,1017,Ally & Ashley,Allison Mello
+500,1018,Ally & Ashley,Ashley Covert
+501,1019,Nicky & Kim,Nicole Getz
+501,1020,Nicky & Kim,Kimberly DeJesus
+502,1021,Tim & Danny,Tim Wiyninger
+502,1022,Tim & Danny,Daniel Merkey
+503,1023,Brandon & Adam,Brandon Squyres
+503,1024,Brandon & Adam,Adam Switzer
+504,1025,Chester & Ephraim,Chester Pitts II
+504,1026,Chester & Ephraim,Ephraim Salaam
+505,1027,Rowan & Shane,Rowan Joseph
+505,1028,Rowan & Shane,Shane Partlow
+506,1029,Hoskote & Naina,Hoskote Venkatesh
+506,1030,Hoskote & Naina,Naina Venkatesh
+507,684,Mark & Mallory,Mark Jackson
+507,532,Mark & Mallory,Mallory Ervin
+508,1031,Hương Giang & Criss Lai,Hương Giang Nguyễn
+508,1032,Hương Giang & Criss Lai,Huy Phương Lai
+509,1033,Trang Trần & Hiếu Nguyễn,Trang Trần
+509,1034,Trang Trần & Hiếu Nguyễn,Hiếu Nguyễn
+510,1035,Trang Khiếu & An Đinh,Huyền Trang Khiếu Thị
+510,1036,Trang Khiếu & An Đinh,Yahya An Đinh
+511,1037,Kiwi Ngô Mai Trang & Đỗ Hoàng Dương,Ngô Thị Mai Trang
+511,1038,Kiwi Ngô Mai Trang & Đỗ Hoàng Dương,Đỗ Hoàng Dương
+512,1039,Sơn Ngọc Minh & Mint,Sơn Ngọc Minh
+512,1040,Sơn Ngọc Minh & Mint,Huê Nguyễn
+513,1041,Long Điền & Kim Dung,Long Điền Nguyễn
+513,1042,Long Điền & Kim Dung,Kim Dung
+514,1043,Kim Thanh & Khải Anh,Kim Thanh Trần
+514,1044,Kim Thanh & Khải Anh,Khải Anh Đinh
+515,1045,Miko Lan Trinh & Hoàng Nam,Lan Trinh Võ Ngọc
+515,1046,Miko Lan Trinh & Hoàng Nam,Hoàng Nam Lê
+516,1047,Minh Long & Sơn Việt,Minh Long Nguyễn
+516,1048,Minh Long & Sơn Việt,Sơn Việt Hoàng
+517,1049,Mickey & Pete,Michael Henry
+517,1050,Mickey & Pete,Peter Schmalz
+518,1051,Natalie & Meaghan,Natalie Spooner
+518,1052,Natalie & Meaghan,Meaghan Mikkelson
+519,1053,Ryan & Rob,Ryan Steele
+519,1054,Ryan & Rob,Robert Goodard
+520,1055,Sukhi & Jinder,Sukhi Atwal
+520,1056,Sukhi & Jinder,Harjinder Atwal
+521,1057,Alain & Audrey,Alain Chanoine
+521,1058,Alain & Audrey,Audrey Tousignant-Maurice
+522,1059,Pierre & Michel,Pierre Forget
+522,1060,Pierre & Michel,Michel Forget
+523,1061,Rex & Bob,Rex Harrington
+523,1062,Rex & Bob,Bob Hope
+524,1063,Cormac & Nicole,Cormac Foster
+524,1064,Cormac & Nicole,Nicole Foster
+525,1065,Laura & Jackie,Laura Takahashi
+525,1066,Laura & Jackie,Jacqueline Skinner
+526,1067,Jen & Shawn,Jennifer King
+526,1068,Jen & Shawn,Shawn King
+527,1069,Shahla & Nabeela,Shahla Kara
+527,1070,Shahla & Nabeela,Nabeela Barday
+528,1071,Daniel & Ryan,Daniel Little
+528,1072,Daniel & Ryan,Ryan Thomas
+529,1073,Sally & Tyson,Sally Yamamoto
+529,1074,Sally & Tyson,Tyson Smith
+530,1075,Ashleigh & Jarrod,Ashleigh Jende
+530,1076,Ashleigh & Jarrod,Jarrod Jende
+531,1077,Carla & Hereni,Carla Beazley
+531,1078,Carla & Hereni,Hereni Fulton
+532,1079,Cat & Jesse,Catherine O'Brien
+532,1080,Cat & Jesse,Jesse O'Brien
+533,1081,John & Murray,John Gbenda Charles
+533,1082,John & Murray,Murray Roeske
+534,1083,Emily & Jono,Emily Trenberth
+534,1084,Emily & Jono,Jonathan Trenberth
+535,1085,Aston & Christie,Aston Garrett
+535,1086,Aston & Christie,Christina Orr
+536,1087,Elizabeth & Todd,Dr Elizabeth Grant
+536,1088,Elizabeth & Todd,Todd Grant
+537,1089,Inga & Tiharna,Inga Lederhaus
+537,1090,Inga & Tiharna,Tiharna McGregor
+538,1091,Amy & Maya,Amy DeJong
+538,1092,Amy & Maya,Maya Warren
+539,1093,Misti & Jim,Misti Raman
+539,1094,Misti & Jim,James Raman
+540,1095,Adam & Bethany,Adam Dirks
+540,1096,Adam & Bethany,Bethany Hamilton
+541,1097,Brooke & Robbie,Brooke Adams
+541,1098,Brooke & Robbie,Robert Strauss
+542,1099,Kym & Alli,Kym Perfetto
+542,1100,Kym & Alli,Alli Forsythe
+543,1101,Tim & Te Jay,Timothy Tsao
+543,1102,Tim & Te Jay,Te Jay McGrath
+544,1103,Shelley & Nici,Shelley Porter
+544,1104,Shelley & Nici,Enicia Porter
+545,1105,Keith & Whitney,Keith Tollefson
+545,1106,Keith & Whitney,Whitney Duncan
+546,1107,Michael & Scott,Michael Ward
+546,1108,Michael & Scott,Scott Strazzullo
+547,1109,Dennis & Isabelle,Dennis Hour
+547,1110,Dennis & Isabelle,Isabelle Du
+548,1111,Lisa & Michelle,Lisa Thomson
+548,1112,Lisa & Michelle,Michelle Thomson
+549,1113,Giovanni & Juan Carlos,Giovanni López
+549,1114,Giovanni & Juan Carlos,Juan Carlos Estrada
+550,1115,Javier & Nicolas,Javier Rodriguez
+550,1116,Javier & Nicolas,Nicolas Podestá
+551,1117,Juan & Cecilia,Juan Molina
+551,1118,Juan & Cecilia,Cecilia Molina
+552,1119,Christian & Dina,Christian Altamirano
+552,1120,Christian & Dina,Dina Muñoz
+553,1121,Martín & Jenny,Martín Suarez
+553,1122,Martín & Jenny,Jenny Machado
+554,1123,Stefanía & Felipe,Estefanía Marticorena
+554,1124,Stefanía & Felipe,Felipe Galleguillos Céspedes
+555,1125,Sonia & Gabriel,Sonia Parada
+555,1126,Sonia & Gabriel,Gabriel Camero Gartner
+556,1127,Clara & Delfina,Clara Arauz
+556,1128,Clara & Delfina,Delfina Arauz
+557,1129,Audi & David,Claudia Velázquez Macías
+557,1130,Audi & David,David Andres
+558,1131,Carlos & Orlando,Carlos Alonso
+558,1132,Carlos & Orlando,Orlando Betancourt
+559,1133,Ana & Vantroy,Ana Pérez
+559,1134,Ana & Vantroy,Alexander Sánchez
+560,1135,Matt & Phoebe,Matthew Edwards
+560,1136,Matt & Phoebe,Phoebe Walker
+561,1137,Kelvin & JP,Kelvin Engles
+561,1138,Kelvin & JP,John Paul Duray
+562,1139,Roch & Eji,Rochelle Hernandez
+562,1140,Roch & Eji,Elijah Estillore
+563,1141,Jet & Yna,Jet Cruz
+563,1142,Jet & Yna,Yna Cruz
+564,1143,AJ & Jody,AJ Saliba
+564,1144,AJ & Jody,Jody Saliba
+565,1145,Vince & Ed,Vincent Yu
+565,1146,Vince & Ed,Edmer Manguan
+566,1147,RR & Jeck,Romyreen Enriquez
+566,1148,RR & Jeck,Jeck Maierhofer
+567,1149,Tina & Avy,Tina Wells
+567,1150,Tina & Avy,Avy Wells
+568,1151,Daniel & Charlie,Daniel Marsh
+568,1152,Daniel & Charlie,Charlie Sutcliffe
+569,1153,Chen & Luz,Gretchen Albaniel
+569,1154,Chen & Luz,Luz McClitton
+570,1155,Zarah & Osang,Zarah Evangelista
+570,1156,Zarah & Osang,Rosanna Dela Rosa
+571,1157,Zhong Hanliang & Jackie,Zhong Hanliang
+571,1158,Zhong Hanliang & Jackie,Zhong Xiuping
+572,1159,Li Xiaopeng & Li Anqi,Li Xiaopeng
+572,1160,Li Xiaopeng & Li Anqi,Li Anqi
+573,1161,Bai Jugang & Guan Xiaotong,Bai Jugang
+573,1162,Bai Jugang & Guan Xiaotong,Guan Xiaotong
+574,1163,Jin Dachuan & Liu Chang,Jin Dachuan
+574,1164,Jin Dachuan & Liu Chang,Liu Chang
+575,1165,Chen Xiaochun & Zheng Yijian,Chen Xiaochun
+575,1166,Chen Xiaochun & Zheng Yijian,Zheng Yijian
+576,1167,Chen Yiru & Zhou Weitong,Chen Yiru
+576,1168,Chen Yiru & Zhou Weitong,Zhou Weitong
+577,1169,Zhang Tielin & Yueliang,Zhang Tielin
+577,1170,Zhang Tielin & Yueliang,Zhang Yueliang
+578,1171,Ying Cai'er & Liu Yun,Ying Cai'er
+578,1172,Ying Cai'er & Liu Yun,Liu Yun
+579,1173,Shay & Shani,Shay Gavriel
+579,1174,Shay & Shani,Shani Alon
+580,1175,Tom & Uriel,Tom Baum
+580,1176,Tom & Uriel,Uriel Yekutiel
+581,1177,Yochi & Linor,Yochi Apolion
+581,1178,Yochi & Linor,Linor Fahima
+582,1179,Vova & Alla,Vladimir Lazarovitch
+582,1180,Vova & Alla,Alla Aibinder
+583,1181,Gal & Liel,Gal Almog
+583,1182,Gal & Liel,Liel Gelstein
+584,1183,Daniel & Meiri,Daniel Topaz
+584,1184,Daniel & Meiri,Meiri Shemesh
+585,1185,Alexa & Raz,Ruth Dolgakov
+585,1186,Alexa & Raz,Raz Zelcerman
+586,1187,Shay & Adi,Shay Attoun
+586,1188,Shay & Adi,Adi Attoun
+587,1189,Roni & Yael,Roni Duani
+587,1190,Roni & Yael,Yael Duani
+588,1191,Yafa & Boaz,Yafa Barazany
+588,1192,Yafa & Boaz,Boaz Vaknin
+589,1193,Tiltil & Mizrahi,Liron Urfali
+589,1194,Tiltil & Mizrahi,Shay Mizrahi
+590,1195,Irit & Sinai,Irit Bahir
+590,1196,Irit & Sinai,Sinai Bahir
+591,1197,Huti & Tzuki,Hila Peretz
+591,1198,Huti & Tzuki,Inbal Nativ
+592,1199,Pnina & Hen,Pnina Rosenblum
+592,1200,Pnina & Hen,Hen Haim Rosenblum
+593,1201,Laura & Tyler,Laura Pierson
+593,1202,Laura & Tyler,Tyler Adams
+594,1203,Jelani & Jenny,Jelani Roy
+594,1204,Jelani & Jenny,Jennifer Wu
+595,1205,Hayley & Blair,Hayley Keel
+595,1206,Hayley & Blair,Blair Townsend
+596,1207,Mike & Rochelle,Michael Dombrowski
+596,1208,Mike & Rochelle,Rochelle Nevedal
+597,1209,Matt & Ashley,Matthew Cucolo
+597,1210,Matt & Ashley,Ashley Gordon
+598,1211,Aly & Steve,Alyson Dudek
+598,1212,Aly & Steve,Steven Langton
+599,1213,Jeff & Jackie,Jeffrey Weldon
+599,1214,Jeff & Jackie,Jackie Ibarra
+600,1215,Bergen & Kurt,Bergen Olsen
+600,1216,Bergen & Kurt,Kurt Jordan Belcher
+601,1217,Harley & Jonathan,Harley Rodriguez
+601,1218,Harley & Jonathan,Jonathan Knight
+602,1219,Libby & CJ,Lebya Simpson
+602,1220,Libby & CJ,Clarence Harris
+603,1221,Jeff & Lyda,Jeff Magee
+603,1222,Jeff & Lyda,Lyda Grawn
+604,1223,Gino & Jesse,Gino Montani
+604,1224,Gino & Jesse,Jesse Montani
+605,1225,Nick & Matt,Nick Foti
+605,1226,Nick & Matt,Matt Giunta
+606,1227,Brent & Sean,Brent Sweeney
+606,1228,Brent & Sean,Sean Sweeney
+607,1229,Simi & Ope,Simi Fagbongbe
+607,1230,Simi & Ope,Ope Fagbongbe
+608,1231,Dujean & Leilani,Dujean Williams
+608,1232,Dujean & Leilani,Leilani Ross
+609,1233,Brian & Cynthia,Brian Boyd
+609,1234,Brian & Cynthia,Cynthia Boyd
+610,1235,Neil & Kristin,Neil Lumsden
+610,1236,Neil & Kristin,Kristin Lumsden
+611,1237,Nic & Sabrina,Nicholas La Monaca
+611,1238,Nic & Sabrina,Sabrina Mercuri
+612,1239,Hamilton & Michaelia,Hamilton Elliott
+612,1240,Hamilton & Michaelia,Michaelia Drever
+613,1241,Dana & Amanda,Dana Hayward
+613,1242,Dana & Amanda,Amanda Johnston
+614,1243,Susan & Sharnjit,Susan Hayre
+614,1244,Susan & Sharnjit,Sharnjit Gill
+615,1245,Max & Elias,Max Altamuro
+615,1246,Max & Elias,Elias Theodorou
+616,1247,Han Geng & Wu Xin,Han Geng
+616,1248,Han Geng & Wu Xin,Wu Xin
+617,1249,Yang Qianhua & Ding Zigao,Yang Qianhua
+617,1250,Yang Qianhua & Ding Zigao,Ding Zigao
+618,1251,Xiao Yang & Wang Taili,Xiao Yang
+618,1252,Xiao Yang & Wang Taili,Wang Taili
+619,1253,Jin Zhongguo & Li Guangzhu,Jin Zhongguo
+619,1254,Jin Zhongguo & Li Guangzhu,Li Guangzhu
+620,1255,Yuan Zihui & Yuan Heyu,Yuan Zihui
+620,1256,Yuan Zihui & Yuan Heyu,Yuan Heyu
+621,1257,Deng Ziqi & Zhang Yunjing,Deng Ziqi
+621,1258,Deng Ziqi & Zhang Yunjing,Zhang Yunjing
+622,1259,Zeng Zhiwei & Zeng Baoyi,Zeng Zhiwei
+622,1260,Zeng Zhiwei & Zeng Baoyi,Zeng Baoyi
+623,1261,Feng Zhe & Zhu Zhu,Feng Zhe
+623,1262,Feng Zhe & Zhu Zhu,Zhu Zhu
+624,1263,Nhật Anh & Ngọc Anh,Nhật Anh Đỗ
+624,1264,Nhật Anh & Ngọc Anh,Ngọc Anh Trần
+625,1265,Chí Thành & Lincoln,Chí Thành Trần
+625,1266,Chí Thành & Lincoln,Thúc Lĩnh Dương Hồng
+626,1267,Băng Di & Trang Pháp,Bảo Trinh Nguyễn
+626,1268,Băng Di & Trang Pháp,Thùy Trang Nguyễn Phạm
+627,1269,Đăng Hoàng & Thùy Anh,Đăng Hoàng Phạm Ngô
+627,1270,Đăng Hoàng & Thùy Anh,Thùy Anh Nguyễn
+628,1271,Nam Thành & Hải Băng,Nam Thành Trương
+628,1272,Nam Thành & Hải Băng,Hải Huyền Nguyễn
+629,1273,Phương Ly & Joo Young,Phương Ly Nguyễn
+629,1274,Phương Ly & Joo Young,Nam Joo Young
+630,1275,Song Ngư & Trúc Như,Phạm Thị Diễm Chi
+630,1276,Song Ngư & Trúc Như,Trúc Như Nguyễn Vũ
+631,1277,Tim & Anh Đức,Cát Vũ Trần Nguyên
+631,1278,Tim & Anh Đức,Anh Đức Tạ
+632,1279,Kelsey & Joey,Kelsey Gerckens
+632,1280,Kelsey & Joey,Joey Buttitta
+633,1281,Justin & Diana,Justin Scheman
+633,1282,Justin & Diana,Diana Bishop
+634,1283,Logan & Chris,Logan Fazio
+634,1284,Logan & Chris,Chris Gordon
+635,1285,Tiffany & Krista,Tiffany Chantell Torres
+635,1286,Tiffany & Krista,Krista DeBono
+636,1287,Denise & James Earl,Denise Williams
+636,1288,Denise & James Earl,James Earl Corley
+637,1289,Tanner & Josh,Tanner Kloven
+637,1290,Tanner & Josh,Josh Ahern
+638,1291,Cindy & Rick,Cindy Chac
+638,1292,Cindy & Rick,Rick Chac
+639,1293,Jazmine & Danielle,Jazmine Lewis
+639,1294,Jazmine & Danielle,Danielle Littleton
+640,1295,Ernest & Jin,Ernest Phillips
+640,1296,Ernest & Jin,Jayjion Greer
+641,1297,Alex & Adam,Alex Manard
+641,1298,Alex & Adam,Adam Dingeman
+642,1299,Kelly & Shevonne,Kelly Berning
+642,1300,Kelly & Shevonne,Shevonne Sullivan
+643,1301,Dana & Matt,Dana Borriello
+643,1302,Dana & Matt,Matt Steffanina
+644,1303,Sheri & Cole,Sheri LaBrant
+644,1304,Sheri & Cole,Cole LaBrant
+645,1305,Tyler & Korey,Matthew Oakley
+645,1306,Tyler & Korey,Korey Kuhl
+646,1307,Burnie & Ashley,Michael Burns
+646,1308,Burnie & Ashley,Ashley Jenkins
+647,1309,Brodie & Kurt,Brodie Smith
+647,1310,Brodie & Kurt,Kurt Gibson
+648,1311,Zach & Rachel,Zach King
+648,1312,Zach & Rachel,Rachel King
+649,1313,Scott & Blair,Scott Fowler
+649,1314,Scott & Blair,Laura Elizabeth Fowler
+650,1315,Erin & Joslyn,Erin White Robinson
+650,1316,Erin & Joslyn,Joslyn Davis
+651,1317,Brittany & Jessica,Brittany Oldehoff
+651,1318,Brittany & Jessica,Jessica Versteeg
+652,1319,Darius & Cameron,Darius Benson
+652,1320,Darius & Cameron,Cameron Benson
+653,1321,Marty & Hagan,Martha Cobb
+653,1322,Marty & Hagan,Hagan Parkman
+654,976,Tiến Đạt & Thúc Lĩnh Lincoln,Tiến Đạt Đinh
+654,1266,Tiến Đạt & Thúc Lĩnh Lincoln,Thúc Lĩnh Dương Hồng
+655,972,Nhan Phúc Vinh & Thuỳ Dung,Nhan Phúc Vinh
+655,974,Nhan Phúc Vinh & Thuỳ Dung,Thùy Dung Nguyễn
+656,970,Trần Hiền & Minh Long,Thu Hiền Trần Thị
+656,1047,Trần Hiền & Minh Long,Minh Long Nguyễn
+657,1039,Sơn Ngọc Minh & Mâu Thanh Thủy,Sơn Ngọc Minh
+657,1323,Sơn Ngọc Minh & Mâu Thanh Thủy,Mâu Thanh Thủy
+658,1324,Amit & Raz,Amit Gal
+658,1325,Amit & Raz,Raz Gal
+659,1326,Lee & Tal,Lee Hadad
+659,1327,Lee & Tal,Tal Alkobi
+660,1328,Josie & Alex,Jonathan Zirah
+660,1329,Josie & Alex,Alexandre Amar
+661,1330,Tzion & Aviv,Tzion Azoulay
+661,1331,Tzion & Aviv,Aviv Kordova
+662,1332,Yael & Yosiel,Yael Carmon
+662,1333,Yael & Yosiel,Yosiel Neeman
+663,1334,Ben & Ori,Ben Scheflan
+663,1335,Ben & Ori,Ori Scheflan
+664,1336,Shon & Kim,Shon Cohen
+664,1337,Shon & Kim,Kim Weiss
+665,1338,Monada & Adriano,Monada Kancepolsky
+665,1339,Monada & Adriano,Adriano Jauvel
+666,1340,Naomi & Hen,Naomi Alafi
+666,1341,Naomi & Hen,Hen Toledano-Alafi
+667,1342,Gali & Daniel,Gali Berger
+667,1343,Gali & Daniel,Daniel Bardugo
+668,1344,Dor & Sapir,Dor Sason
+668,1345,Dor & Sapir,Sapir Aharon
+669,1346,Shira & Bar,Shira Ben Avraham
+669,1347,Shira & Bar,Bar Sommer
+670,1348,Yossi & Lee,Yossi Abdu
+670,1349,Yossi & Lee,Lee Malka
+671,1350,Avi & Avi,Avi Manasherov
+671,1351,Avi & Avi,Avi Koren
+672,1352,Steph & Kristen,Stephanie LeClair
+672,1353,Steph & Kristen,Kristen McKenzie
+673,1354,Jillian & Emmett,Jillian MacLaughlin
+673,1355,Jillian & Emmett,Emmett Blois
+674,1356,Joel & Ashley,Joel Ground
+674,1357,Joel & Ashley,Ashley Callingbull-Burnham
+675,1358,Frankie & Amy,Frances Gassler
+675,1359,Frankie & Amy,Amy Gassler
+676,1360,Rita & Yvette,Rita Yakibonge
+676,1361,Rita & Yvette,Yvette Yakibonge
+677,1362,Julie & Lowell,Julie Taylor
+677,1363,Julie & Lowell,Lowell Taylor
+678,1364,Kelly & Kate,Kelly Xu
+678,1365,Kelly & Kate,Katelyn Pan
+679,1366,Anne & Tanya,Anne Morrone
+679,1367,Anne & Tanya,Tanya Muzzatti
+680,1368,Stéphane & Antoine,Stéphane Tétreault
+680,1369,Stéphane & Antoine,Antoine Tétreault
+681,1370,Anthony & Brandon,Anthony Limbombe
+681,1371,Anthony & Brandon,Brandon Campeau
+682,1372,Guo Jingjing & Huo Qigang,Guo Jingjing
+682,1373,Guo Jingjing & Huo Qigang,Huo Qigang
+683,1374,Liu Xiang & Xu Qifeng,Liu Xiang
+683,1375,Liu Xiang & Xu Qifeng,Ji Longxiang
+684,1376,Wu Jianhao & Yao Fengfeng,Xu Qifeng
+684,1377,Wu Jianhao & Yao Fengfeng,Wu Jianhao
+684,1378,Wu Jianhao & Yao Fengfeng,Yao Fengfeng
+685,1379,Zhang Zhehan & Zhang Sifan,Zhang Zhehan
+685,1380,Zhang Zhehan & Zhang Sifan,Zhang Sifan
+686,1381,Jin Xing & Heinz,Jin Xing
+686,1382,Jin Xing & Heinz,Heinz Gerd Oidtmann
+687,1383,Huang Tingting & Sun Rui,Huang Tingting
+687,1384,Huang Tingting & Sun Rui,Sun Rui
+688,1385,Zhang Meixi & Zang Yafei,Zhang Meixi
+688,1386,Zhang Meixi & Zang Yafei,Zang Yafei
+689,1387,Parul & Maggie,Parul Shah
+689,1388,Parul & Maggie,Maggie Wilson
+690,1389,Yvonne & Chloe,Yvonne Lee
+690,1390,Yvonne & Chloe,Chloe Chen
+691,1391,Eric & Rona,Eric Tai
+691,1392,Eric & Rona,Rona Tai
+692,1393,Treasuri & Louisa,Treasuri Tamara
+692,1394,Treasuri & Louisa,Louisa Kusnandar
+693,1395,JK & Mike,Jerald Justin Ko
+693,1396,JK & Mike,Michael Tan
+694,1397,Anita & Tom,Anita Silsith Bye
+694,1398,Anita & Tom,Tom William Barrett
+695,1399,Will & Alex,Will Chee
+695,1400,Will & Alex,Alex Chee
+696,1401,Rach & Vicky,Rachel Tampubolon
+696,1402,Rach & Vicky,Vicky Harahap
+697,1403,Alphaeus & Brandon,Alphaeus Tan
+697,1404,Alphaeus & Brandon,Brandon Ho
+698,1405,Rei & Keiji,Rei Umehara
+698,1406,Rei & Keiji,Keiji Umehara
+699,1407,Lisa & Nicole,Lisa Truong-Marchetto
+699,1408,Lisa & Nicole,Nicole Truong-Marchetto
+700,1409,Brooke & Scott,Brooke Camhi
+700,1410,Brooke & Scott,Scott Flanary
+701,1411,Tara & Joey,Tara Carr
+701,1412,Tara & Joey,Joey Covino
+702,1413,London & Logan,London Kaye
+702,1414,London & Logan,Logan Bauer
+703,1415,Matt & Redmond,Matt Ladley
+703,1416,Matt & Redmond,Redmond Ramos
+704,1417,Becca & Floyd,Rebecca Droz
+704,1418,Becca & Floyd,Floyd Pierce
+705,1419,Liz & Michael,Liz Espey
+705,1420,Liz & Michael,Michael Rado
+706,1421,Vanck & Ashton,Vanck Zhu
+706,1422,Vanck & Ashton,Ashton Theiss
+707,1423,Shamir & Sara,Shamir Arzeno
+707,1424,Shamir & Sara,Sara Fowler
+708,1425,Seth & Olive,Seth Tyler
+708,1426,Seth & Olive,Olivia Beauregard
+709,1427,Jessie & Francesca,Jessica Shields
+709,1428,Jessie & Francesca,Francesca Piccoli
+710,1429,Kevin & Jenn,Kevin Ng
+710,1430,Kevin & Jenn,Jennifer Lee
+711,1431,Sam & Paul,Sam Lambert
+711,1432,Sam & Paul,Paul Mitskopoulos
+712,1433,Kenneth & Ryan,Kenneth McAlpine
+712,1434,Kenneth & Ryan,Ryan Lachapelle
+713,1435,Korey & Ivana,Korey Sam
+713,1436,Korey & Ivana,Ivana Krunić
+714,1437,Karen & Bert,Karen Richards
+714,1438,Karen & Bert,Bercham Richards
+715,1439,Adam & Andrea,Adam Cavaleri
+715,1440,Adam & Andrea,Andrea Cavaleri
+716,1441,Andrea & Ebonie,Andrea Croxen
+716,1442,Andrea & Ebonie,Ebonie Finley-Roberge
+717,1443,Zed & Shabbir,Zed Dhalla
+717,1444,Zed & Shabbir,Shabbir Dhalla
+718,1445,Megan & Courtney,Megan Burden
+718,1446,Megan & Courtney,Courtney Roberts
+719,1447,Dan & Riya,Daniel Kipnis
+719,1448,Dan & Riya,Riya Malik
+720,1449,Aaron & Deb,Aaron Baker
+720,1450,Aaron & Deb,Deborah Baker
+721,1451,Jia Jingwen & Xiu Jiekai,Jia Jingwen
+721,1452,Jia Jingwen & Xiu Jiekai,Xiu Jiekai
+722,1453,Zheng Yuanchang & Wang Likun,Zheng Yuanchang
+722,1454,Zheng Yuanchang & Wang Likun,Wang Likun
+723,1455,Wu Minxia & Zhang Xiaocheng,Wu Minxia
+723,1456,Wu Minxia & Zhang Xiaocheng,Zhang Xiaocheng
+724,1457,Qiang Zi & Zhang Xingyue,Qiang Zi
+724,1458,Qiang Zi & Zhang Xingyue,Zhang Xingyue
+725,1459,Zhang Jike & Zhang Chuanming,Zhang Jike
+725,1460,Zhang Jike & Zhang Chuanming,Zhang Chuanming
+726,1461,Lu Ting & Xuyang Yuzhuo,Lu Ting
+726,1462,Lu Ting & Xuyang Yuzhuo,Xuyang Yuzhuo
+726,1383,Lu Ting & Xuyang Yuzhuo,Huang Tingting
+727,1463,Fan Bingbing & Xie Yilin,Fan Bingbing
+727,1464,Fan Bingbing & Xie Yilin,Xie Yilin
+728,1465,Deng Bin & Wang Xinyu,Deng Bin
+728,1466,Deng Bin & Wang Xinyu,Wang Xinyu
+729,1467,Tohar & Evelyn,Tohar Haimovich
+729,1468,Tohar & Evelyn,Evelyn Haimovich
+730,1469,Daniel & Eliyahu,Daniel Peretz
+730,1470,Daniel & Eliyahu,Eliyahu Shabtai
+731,1471,Regev & Helen,Regev Hod
+731,1472,Regev & Helen,Helen Hod
+732,1473,Omer & Neta,Omer Barazani
+732,1474,Omer & Neta,Neta Barazani
+733,1475,Yarden & Anne,Yarden Vizel
+733,1476,Yarden & Anne,Anne Zivi
+734,1477,Meitar & Adi,Meitar Asiss
+734,1478,Meitar & Adi,Adi Carmeli
+735,1479,Mor & Mor,Mor Silver
+735,1480,Mor & Mor,Mor Swede
+736,1481,Yossi & Udi,Yossi Mizrahi
+736,1482,Yossi & Udi,Udi Avitan
+737,1483,Avivit & Honey,Avivit Marsha
+737,1484,Avivit & Honey,Hany Yosef
+738,1485,Nimrod & Yonatan,Nimrod Haftel
+738,1486,Nimrod & Yonatan,Yonatan Heifetz
+739,1487,Asaf & Jessica,Asaf Gurfinkel
+739,1488,Asaf & Jessica,Jessica Cohen
+740,1489,Noa & Ma'ayan,Noa Martonovitch
+740,1490,Noa & Ma'ayan,Ma'ayan Martonovitch
+741,1491,Cody & Jessica,Cody Nickson
+741,1492,Cody & Jessica,Jessica Graf
+742,1493,Henry & Evan,Henry Zhang
+742,1494,Henry & Evan,Evan Lynyak
+743,1495,Kristi & Jen,Kristi Leskinen
+743,1496,Kristi & Jen,Jen Hudak
+744,1497,Alex & Conor,Alexander Rossi
+744,1498,Alex & Conor,Conor Daly
+745,1499,Lucas & Brittany,Lucas Bocanegra
+745,1500,Lucas & Brittany,Brittany Austin
+746,1501,Eric & Daniel,Eric Guiffreda
+746,1502,Eric & Daniel,Daniel Guiffreda
+747,1503,Trevor & Chris,Trevor Wadleigh
+747,1504,Trevor & Chris,Christopher Marchant
+748,1505,Joey & Tim,Joseph Chestnut
+748,1506,Joey & Tim,Tim Jamus
+749,1507,Cedric & Shawn,Cedric Ceballos
+749,1508,Cedric & Shawn,Shawn Marion
+750,1509,April & Sarah,April Gould
+750,1510,April & Sarah,Sarah Williams
+751,1511,Dessie & Kayla,Dessie Mitcheson
+751,1512,Dessie & Kayla,Kayla Fitzgerald
+752,1513,Courtney & Adam,Courtney Berglind
+752,1514,Courtney & Adam,Adam Kovacs
+753,1515,Taylor & Courtney,Taylor Callens
+753,1516,Taylor & Courtney,Courtney Callens
+754,1517,Dylan & Kwame,Dylan Elias
+754,1518,Dylan & Kwame,Kwame Osei
+755,1519,Martina & Phil,Martina Seo
+755,1520,Martina & Phil,Phil Seo
+756,1521,Nancy & Mellisa,Nancy Csabay
+756,1522,Nancy & Mellisa,Mellisa Hollingsworth
+757,1523,Leanne & Mar,Leanne Larsen
+757,1524,Leanne & Mar,Marielle Lyon
+758,1525,Zainab & Monica,Zainab Ansari
+758,1526,Zainab & Monica,Monica Demian
+759,1527,Todd & Anna,Todd Kirk
+759,1528,Todd & Anna,Anna Holtby
+760,1529,Joseph & Akash,Joseph Truong
+760,1530,Joseph & Akash,Akash Sidhu
+761,1531,Chewy & Happy,Corey Liddle
+761,1532,Chewy & Happy,Mark LaVerdiere
+762,1533,Nicole & Victor,Nicole Franzel
+762,1534,Nicole & Victor,Victor Arroyo
+763,1535,Chris & Bret,Chris Hammons
+763,1536,Chris & Bret,Bret LaBelle
+764,1537,Rachel & Elissa,Elissa Slater
+764,680,Rachel & Elissa,Rachel Reilly
+765,1538,Janelle & Britney,Janelle Pierzina
+765,1539,Janelle & Britney,Britney Haynes
+766,1540,Corinne & Eliza,Corinne Kaplan
+766,1541,Corinne & Eliza,Eliza Orlins
+767,1542,Rupert & Laura,Rupert Boneham
+767,1543,Rupert & Laura,Laura Boneham
+768,1544,Anthony & James,Anthony Johnson
+768,1545,Anthony & James,James Makokis
+769,1546,Sarah & Sam,Sarah Wells
+769,1547,Sarah & Sam,Sam Effah
+770,1548,Lauren & Joanne,Lauren Lavoie
+770,1549,Lauren & Joanne,Joanne Lavoie
+771,1550,Dave & Irina,Dave Leduc
+771,1551,Dave & Irina,Irina Terehova
+772,1552,Aarthy & Thinesh,Aarthy Ketheeswaran
+772,1553,Aarthy & Thinesh,Thinesh Kumarakulasingam
+773,1554,Trish & Amy,Trish Omeri
+773,1555,Trish & Amy,Amy De Domenico
+774,1556,Meaghan & Marie,Meaghan Wright
+774,1557,Meaghan & Marie,Marie Wright
+775,1558,Gilles & Sean,Gilles Miron
+775,1559,Gilles & Sean,Sean Miron
+776,1560,Nicki & Aisha,Nekeita Lee
+776,1561,Nicki & Aisha,Aisha Bentham
+777,1562,Lệ Hằng & H'Hen Niê,Lệ Hằng Đặng Thị
+777,1563,Lệ Hằng & H'Hen Niê,H'Hen Niê
+778,985,S.T Sơn Thạch & Bình An,Sơn Thạch Nguyễn Cao
+778,1564,S.T Sơn Thạch & Bình An,Bình An Nguyễn
+779,1565,Đỗ Mỹ Linh & Lê Xuân Tiền,Đỗ Mỹ Linh
+779,1566,Đỗ Mỹ Linh & Lê Xuân Tiền,Lê Xuân Tiền
+780,1567,Minh Triệu & Kỳ Duyên,Minh Triệu Phạm Định
+780,1568,Minh Triệu & Kỳ Duyên,Kỳ Duyên Nguyễn Cao
+781,1569,Trần Quốc Anh & MLee,Trần Quốc Anh
+781,1570,Trần Quốc Anh & MLee,Mai Ly Tapiau
+782,1571,Johnny & Huy Trần,Trần Hoàng Phương
+782,1572,Johnny & Huy Trần,Huy Trần
+783,1573,Hoàng Hạnh & Lương Gia Huy,Hoàng Hạnh
+783,1574,Hoàng Hạnh & Lương Gia Huy,Lương Gia Huy
+784,1575,Anh Quân & Quốc Thiên,Dương Mạc Anh Quân
+784,1576,Anh Quân & Quốc Thiên,Quốc Thiên Trần
+785,1577,Emma & Tôn Kinh Lâm,Trương Phạm Nhất Khanh
+785,1578,Emma & Tôn Kinh Lâm,Tôn Kinh Lâm
+786,1579,Chu Minh Vũ & Vũ Xuân Tiến,Chu Minh Vũ
+786,1580,Chu Minh Vũ & Vũ Xuân Tiến,Vũ Xuân Tiến
+787,1581,Fey & Tia,Fatima Jakite
+787,1582,Fey & Tia,Matija Galili
+788,1583,Karin & Ariel,Karin Kleinberg
+788,1584,Karin & Ariel,Ariel Kleinberg
+789,1585,Haviv & Itzak,Haviv Maman
+789,1586,Haviv & Itzak,Itzak Maman
+790,1587,Eyal & Sid,Eyal Daniel
+790,1588,Eyal & Sid,Sidney Feiner
+791,1589,Nisim & Orel,Nisim David
+791,1590,Nisim & Orel,Orel Elimelech
+792,1591,Tali & Gili,Tali Ben-Ari
+792,1592,Tali & Gili,Gili Vizel
+793,1593,Eden & Aviad,Eden Katz
+793,1594,Eden & Aviad,Aviad Katz
+794,1595,Michal & Omer,Michal Krits
+794,1596,Michal & Omer,Omer Nudelman
+795,1597,Ben & Ran,Ben Levayev
+795,1598,Ben & Ran,Ran Gihr
+796,1599,Yehudit & Zohar,Yehudit Elkobi
+796,1600,Yehudit & Zohar,Zohar Elkobi
+797,1601,Kamle & Bahira,Kamle Hassian
+797,1602,Kamle & Bahira,Bahira Ablassi
+798,1603,Noy & Hadar,Noy Karako
+798,1604,Noy & Hadar,Hadar Karako
+799,1605,Tim & Rod,Tim Sattler-Jones
+799,1606,Tim & Rod,Rod Sattler-Jones
+800,1607,Jasmin & Jerome,Jasmin Onus
+800,1608,Jasmin & Jerome,Jerome Cubillo
+801,1609,Viv & Joey,Vivienne Dinh
+801,1610,Viv & Joey,Joey Dinh
+802,1611,Tom & Tyler,Tom Wilkinson
+802,1612,Tom & Tyler,Tyler Roos
+803,1613,Femi & Nick,Femi Ogunsiji
+803,1614,Femi & Nick,Nicholas Evbuomwan
+804,1615,Sid & Ash,Sidney Pierucci
+804,1616,Sid & Ash,Ashley Ruscoe
+805,1617,Hayley & Mikayla,Hayley Foruria
+805,1618,Hayley & Mikayla,Mikayla Foruria
+806,1619,Chris & Adrienne,Chris Williams
+806,1620,Chris & Adrienne,Adrienne Clarke
+807,1621,Rowah & Amani,Rowah Hassan
+807,1622,Rowah & Amani,Amani Mawass
+808,1623,Judy & Therese,Judy Bowe
+808,1624,Judy & Therese,Therese Mills
+809,1625,Alana & Niko,Alana Pappas
+809,1626,Alana & Niko,Niko Pappas
+810,1627,Asaf & Netah,Asaf Tetro
+810,1628,Asaf & Netah,Netanel Merran
+811,1629,Ash & Alice,Ashriel Mor
+811,1630,Ash & Alice,Alisa Zanu
+812,1631,Eviatar & Liane,Eviatar Nagar
+812,1632,Eviatar & Liane,Liane Weinman
+813,1633,Tali & Gili,Tali Algabi
+813,1634,Tali & Gili,Gili Algabi
+814,1635,Shiri & Noga,Shiri Stanescu
+814,1636,Shiri & Noga,Noga Stanescu
+815,1637,Ruthie & Michal,Ruthi Ibn Ofir
+815,1638,Ruthie & Michal,Michal Azulay
+816,1639,Will & James,Will Jardell
+816,1640,Will & James,James Wallington
+817,1641,Hung & Chee,Hung Ngyuen
+817,1642,Hung & Chee,Chee Lee
+818,1643,Riley & Maddison,Riley McKibbin
+818,1644,Riley & Maddison,Maddison McKibbin
+819,1645,DeAngelo & Gary,DeAngelo Williams
+819,1646,DeAngelo & Gary,Gary Barnidge
+820,1647,Eswar & Aparna,Eswar Dhinakaran
+820,1648,Eswar & Aparna,Aparna Dhinakaran
+821,1649,Kaylynn & Haley,Kaylynn Williams
+821,1650,Kaylynn & Haley,Haley Williams
+822,1651,Leo & Alana,Leo Brown
+822,1652,Leo & Alana,Alana Folsom
+823,1653,Michelle & Victoria,Michelle Newland
+823,1654,Michelle & Victoria,Victoria Newland
+824,1655,Jerry & Frank,Jerry Eaves
+824,1656,Jerry & Frank,Frank Eaves
+825,1657,Kellie & LaVonne,Kellie Wells-Brinkley
+825,1658,Kellie & LaVonne,LaVonne Idlette
+826,1659,Nathan & Cody,Nathan Worthington
+826,1660,Nathan & Cody,Cody Buell
+827,1661,Brendon & Jackson,Brendon Crawley
+827,1662,Brendon & Jackson,Jackson Dening
+828,1663,Ashleigh & Amanda,Ashleigh Lawrence
+828,1664,Ashleigh & Amanda,Amanda Blanks
+829,1665,Jaskirat & Anurag,Jaskirat Dhingra
+829,1666,Jaskirat & Anurag,Anurag Shobti
+830,1667,Chris & Aleisha,Chris DiLoreto
+830,1668,Chris & Aleisha,Aleisha Groth
+831,1669,Skye-Blue & Jake,Skye-Blue Henderson
+831,1670,Skye-Blue & Jake,Jake Henderson
+832,1671,MJ & Chelsea,Marijana Rajčić
+832,1672,MJ & Chelsea,Chelsea Randall
+833,1673,Holly & Dolor,Holly Edwards
+833,1674,Holly & Dolor,Dolor Edosomwan
+834,1675,Stan & Wayne,Stan Turek
+834,1676,Stan & Wayne,Wayne Marino
+835,1677,Jordan & Violeta,Jordan Saisi
+835,1678,Jordan & Violeta,Violeta Mugica
+836,1679,Dwes & Katherine,Dwesmond Wiggan-Dann
+836,1680,Dwes & Katherine,Katherine Dann
+837,1681,Sefa & Jessica,Sefa Palu
+837,1682,Sefa & Jessica,Jessica Matavao
+838,1683,Jobelle & Rani,Jobelle Collier
+838,1684,Jobelle & Rani,Rani Alegre
+839,1685,Shane & Deb,Shane Wilson
+839,1686,Shane & Deb,Deborah Wilson
+840,1687,Malaan & Tina,Malaan Ajang
+840,1688,Malaan & Tina,Tina Kuek
+841,1689,Jude & Shannon,Jude Richards
+841,1690,Jude & Shannon,Shannon Nay
+842,1691,Alex & Jack,Alex Newell
+842,1692,Alex & Jack,Jack Newell
+843,1693,Kim & Penn,Kim Holderness
+843,1694,Kim & Penn,Penn Holderness
+844,1695,Raquel & Cayla,Raquel Moore
+844,1696,Raquel & Cayla,Cayla Platt
+845,1697,Ryan & Dusty,Ryan Ferguson
+845,1698,Ryan & Dusty,Dusty Harris
+846,1699,Arun & Natalia,Arun Kumar
+846,1700,Arun & Natalia,Natalia Kumar
+847,1701,Lulu & Lala,Marianela Gonzalez
+847,1702,Lulu & Lala,Marissa Gonzalez
+848,1703,Akbar & Sheri,"Akbar Cook, Sr."
+848,1704,Akbar & Sheri,Sheridan Cook
+849,1705,Michael & Moe,Michael Norwood
+849,1706,Michael & Moe,Armonde Badger
+850,1707,Anthony & Spencer,Anthony Sadler
+850,1708,Anthony & Spencer,Spencer Stone
+851,1709,Connie & Sam,Connie Greiner
+851,1710,Connie & Sam,Sam Greiner
+852,1711,Caro & Ray,Caroline Viehweg
+852,1712,Caro & Ray,Raymond Gantt
+853,1713,Taylor & Isaiah,Taylor Green-Jones
+853,1714,Taylor & Isaiah,Isaiah Green-Jones
+854,1715,Catherine & Craig,Catherine Wreford
+854,1716,Catherine & Craig,Craig Ramsay
+855,1717,Jesse & Marika,Jesse Cockney
+855,1718,Jesse & Marika,Marika Sila
+856,1719,Franca & Nella,Franca Brodett
+856,1720,Franca & Nella,Nella Brodett
+857,1721,Brendan & Connor,Brendan McDougall
+857,1722,Brendan & Connor,Connor McDougall
+858,1723,Beverley & Veronica,Beverley Cheng
+858,1724,Beverley & Veronica,Veronica Skye
+859,1725,Court & Ali,Siginaak Court Larabee
+859,1726,Court & Ali,Ali Clark
+860,1727,Cedric & Tychon,Cedric Newman
+860,1728,Cedric & Tychon,Tychon Carter-Newman
+861,1729,Cassie & Jahmeek,Cassie Day
+861,1730,Cassie & Jahmeek,Jahmeek Murray
+862,1731,Dennis & Durrell,Dennis Ashe
+862,1732,Dennis & Durrell,Durrell Borden
+863,1733,Jully & Kathy,Jully Black
+863,1734,Jully & Kathy,Kathy Hunter
+864,1735,Heath & Toni,Heath Curry
+864,1736,Heath & Toni,Toni Hilland
+865,1737,Angel & Frankie,Angel Williams
+865,1738,Angel & Frankie,Francis Vaaua
+866,1739,Kelly & Georgia,Kelly Baildon
+866,1740,Kelly & Georgia,Georgia Baildon
+867,1741,Tiffany & Cynthia,Tiffany Turland
+867,1742,Tiffany & Cynthia,Cynthia Cameron-Turland
+868,1743,Pako & Mori,Pako Komira
+868,1744,Pako & Mori,Mori Perez
+869,1745,Lauren & Steph,Lauren Howells
+869,1746,Lauren & Steph,Steph McGrath
+870,1747,Chelsea & Jamus,Chelsea Keen
+870,1748,Chelsea & Jamus,Jamus Maoate
+871,1749,Jodie & Claire,Jodie Playford
+871,1750,Jodie & Claire,Claire Thomas
+872,1751,Fliss & Tottie,Felicity Naughton
+872,1752,Fliss & Tottie,Josephine O'Brienn
+873,1753,Flick & Gabby,Felicity Mifsud
+873,1754,Flick & Gabby,Gabby Mifsud
+874,1755,Stuart & Glennon,Stuart McGrath
+874,1756,Stuart & Glennon,Glennon Babui
+875,1757,Kathy & Chace,Kathy Alexandra
+875,1758,Kathy & Chace,Chace Tran
+876,1759,Morgan & Lilli,Morgan Trevethan
+876,1760,Morgan & Lilli,Lilly Robbo
+877,1761,Tammy & Vincent,Tammy Chan
+877,1762,Tammy & Vincent,Vincent Chan
+878,1763,Crystal & Reem,Crystal Tawil
+878,1764,Crystal & Reem,Reem Chokr
+879,1765,Sam & Stu,Sam Kimberley
+879,1766,Sam & Stu,Stuart Moorhouse
+880,1767,Sam & Alex,Sam Trenwith
+880,1768,Sam & Alex,Alex Hill
+881,1769,Jake & Holly,Jake O'Brien
+881,1770,Jake & Holly,Holly MacAlpine
+882,1771,Bren & Anja,Brenda Wilkinson
+882,1772,Bren & Anja,Anja Gramueller-Southon
+883,1773,Paul & Rachel,Paul Farrell
+883,1774,Paul & Rachel,Rachel Farrell
+884,1775,Derek & Claire,Derek Xiao
+884,1776,Derek & Claire,Claire Rehfuss
+885,1777,Emily & Molly,Emily Bushnell
+885,1778,Emily & Molly,Molly Sinert
+886,1779,Luis & Michelle,Luis Colon
+886,1780,Luis & Michelle,Michelle Burgos
+887,1781,Aubrey & David,Aubrey Ares
+887,1782,Aubrey & David,David Hernandez
+888,1783,Marcus & Michael,Marcus Craig
+888,1784,Marcus & Michael,Michael Craig
+889,1785,Quinton & Mattie,Quinton Peron
+889,1786,Quinton & Mattie,Mattie Lynch
+890,1787,Glenda & Lumumba,Glenda Roberts
+890,1788,Glenda & Lumumba,Lumumba Roberts
+891,1789,Abby & Will,Abby Garrett
+891,1790,Abby & Will,Will Freeman
+892,1791,Linton & Sharik,Linton Atkinson
+892,1792,Linton & Sharik,Sharik Atkinson
+893,1793,Rich & Dom,Richard Kuo
+893,1794,Rich & Dom,Dom Jones
+894,1795,Tim & Rex,Tim Mann
+894,1796,Tim & Rex,Rex Ryan
+895,1797,Aastha & Nina,Aastha Lal
+895,1798,Aastha & Nina,Nina Duong
+896,1799,Ty & Kat,Tyler Smith
+896,1800,Ty & Kat,Katrina Kastner
+897,1801,Tyler & Kayleen,Tyler Turner
+897,1802,Tyler & Kayleen,Kayleen Vanderee
+898,1803,Ben & Anwar,Ben Chutta
+898,1804,Ben & Anwar,Anwar Ahmed
+899,1805,Deven & Amanda,Deven Condo-Mitchell
+899,1806,Deven & Amanda,Amanda Larocque
+900,1807,Jermaine & Justin,Jermaine Aranha
+900,1808,Jermaine & Justin,Justin Baird
+901,1809,Derek & Jaspal,Derek Gottenbos
+901,1810,Derek & Jaspal,Jaspal Sidhu
+902,1811,Gracie & Lily,Gracie Lowes
+902,1812,Gracie & Lily,Lily Bateman
+903,1813,Shayla & Joel,Shayla Stonechild
+903,1814,Shayla & Joel,Joel Oulette
+904,1815,Allie & Eddie,Allie Seller
+904,1816,Allie & Eddie,Eddie Parinas
+905,1817,Gail & Gisele,Gail Kim
+905,1818,Gail & Gisele,Gisele Shaw
+906,1819,Greg & John,Greg Franklin
+906,1820,Greg & John,John Franklin
+907,1821,Joel & Garrett,Joel Strasser
+907,1822,Joel & Garrett,Garrett Smith
+908,1823,Rob & Corey,Rob McArthur
+908,1824,Rob & Corey,Corey McArthur
+909,1825,Steve & Anna Leigh,Steve Cargile
+909,1826,Steve & Anna Leigh,Anna Leigh Wilson
+910,1827,Todd & Ashlie,Todd Martin
+910,1828,Todd & Ashlie,Ashlie Martin
+911,1829,Robbin & Chelsea,Robbin Tomich
+911,1830,Robbin & Chelsea,Chelsea Day
+912,1831,Morgan & Lena,Morgan Franklin
+912,1832,Morgan & Lena,Lena Franklin
+913,1833,Andrea & Malaina,Andrea Simpson
+913,1834,Andrea & Malaina,Malaina Hatcher
+914,1835,Liam & Yeremi,Liam Hykel
+914,1836,Liam & Yeremi,Yeremi Hykel
+915,1837,Joe & Ian,Joe Moskowitz
+915,1838,Joe & Ian,Ian Todd
+916,1839,Jocelyn & Victor,Jocelyn Chao
+916,1840,Jocelyn & Victor,Victor Limary
+917,1841,Elizabeth & Iliana,Elizabeth Rivera
+917,1842,Elizabeth & Iliana,Iliana Rivera
+918,1843,Alexandra & Sheridan,Alexandra Lichtor
+918,1844,Alexandra & Sheridan,Sheridan Lichtor
+919,1845,Kaisa & Mari,Kaisa Mäkäräinen
+919,1846,Kaisa & Mari,Mari Eder
+920,1847,Tuukka & Sami,Tuukka Ritokoski
+920,1848,Tuukka & Sami,Sami Ritokoski
+921,1849,Janne & Robin,Janne Lehtonen
+921,1850,Janne & Robin,Robin Hendry
+922,1851,Bakari & Samuel,Bakari Diarra
+922,1852,Bakari & Samuel,Samuel Chime
+923,1853,Marcus & Timo,Marcus Grönholm
+923,1854,Marcus & Timo,Timo Rautiainen
+924,1855,Peter & Anna,Peter Vesterbacka
+924,1856,Peter & Anna,Thy Nguyen
+925,1857,Ilmari & Aapo,Ilmari Nurminen
+925,1858,Ilmari & Aapo,Aapo Hettula
+926,1859,Jukka & Mirva,Jukka Rasila
+926,1860,Jukka & Mirva,Mirva Nieminen
+927,1861,Katariina & Benjamin,Katariina Kaitue
+927,1862,Katariina & Benjamin,Benjamin Harima
+928,1863,Lotta & Noora,Lotta Hintsa
+928,1864,Lotta & Noora,Noora Hintsa
+929,1865,Aino-Kaisa & Silvia,Aino-Kaisa Pekonen
+929,1866,Aino-Kaisa & Silvia,Silvia Modig
+930,1867,Anna & Atte,Anna Perho
+930,1868,Anna & Atte,Atte Lehtiniittu
+931,1869,Darren & Tristan,Darren McMullen
+931,1870,Darren & Tristan,Trustan Dougan
+932,1871,Emma & Hayley,Emma Watkins
+932,1872,Emma & Hayley,Hayley Watkins
+933,1873,Alli & Angie,Alli Simpson
+933,1874,Alli & Angie,Angie Simpson
+934,1875,Harry & Teddy,Harry Jowsey
+934,1876,Harry & Teddy,Teddy Briggs
+935,1877,Jana & Cor,Jana Pittman
+935,1878,Jana & Cor,Cornelis Rawlinson
+936,1879,Bec & Kate,Rebecca Judd
+936,1880,Bec & Kate,Kate Twigley
+937,1881,George & Pam,George Mladenov
+937,1882,George & Pam,Pamela Mladenov
+938,1883,Ben & Jackie,Benjamin Gillies
+938,1884,Ben & Jackie,Jakica Gillies
+939,1885,Peter & Frankie,Peter Rowsthorn
+939,1886,Peter & Frankie,Frankie Rowsthorn
+940,1887,Grant & Chezzi,Grant Denyer
+940,1888,Grant & Chezzi,Cheryl Denyer
+941,1889,Dane & Bow,Dane Simpson
+941,1890,Dane & Bow,Bow Simpson
+942,1891,Ricky & Cesar,Ricky Rotandi
+942,1892,Ricky & Cesar,Cesar Aldrete
+943,1893,Juan & Shane,Juan Villa
+943,1894,Juan & Shane,Shane Bilek
+944,1895,Rod & Leticia,Roderick Gardner
+944,1896,Rod & Leticia,Leticia Gardner
+945,1897,Amber & Vinny,Amber Craven
+945,1898,Amber & Vinny,Vincent Cagungun
+946,1899,Yvonne & Melissa,Yvonne Chavez
+946,1900,Yvonne & Melissa,Melissa Main
+947,1901,Angie & Danny,Angela Butler
+947,1902,Angie & Danny,Danny Butler
+948,1903,Sunny & Bizzy,Sunny Pulver
+948,1904,Sunny & Bizzy,Elizabeth Smith
+949,1905,Derek & Shelisa,Derek Williams
+949,1906,Derek & Shelisa,Shelisa Williams
+950,1907,Kishori & Karishma,Kishori Turner
+950,1908,Kishori & Karishma,Karishma Cordero
+951,1909,Michelle & Sean,Michelle Clark
+951,1910,Michelle & Sean,Sean Clark
+952,1911,Anthony & Bailey,Anthony Smith
+952,1912,Anthony & Bailey,Bailey Smith
+953,1913,Chris & Mary,Chris Foster
+953,1914,Chris & Mary,Mary Cardona-Foster
+954,1915,Maya & Rohan,Maya Mody
+954,1916,Maya & Rohan,Rohan Mody
+955,1917,Lee & Anne,Lee Avrahami
+955,1918,Lee & Anne,Anne Avrahami
+956,1919,Inbar & Avishay,Inbar Ben Atia
+956,1920,Inbar & Avishay,Avishay Regev
+957,1921,Lior & Sapir,Lior Dabach
+957,1922,Lior & Sapir,Sapir Avisror
+958,1923,Itzik & Esti,Itzik Sokolovski
+958,1924,Itzik & Esti,Esti Sokolovski
+959,1925,Sahar & Yeftah,Sahar Koren
+959,1926,Sahar & Yeftah,Yeftah Ramon
+960,1927,Udi & Matan,Udi Naor
+960,1928,Udi & Matan,Matan Oved
+961,1929,Modi & Miki,Mahmoud Safouri
+961,1930,Modi & Miki,Miki Lelov
+962,1931,Hassi & Yerin,Hasida Hasson
+962,1932,Hassi & Yerin,Yerin Hasson
+963,1933,Idan & Guy,Idan Rosen
+963,1934,Idan & Guy,Guy Rosen
+964,1935,Amit & Rotem,Amit Hen
+964,1936,Amit & Rotem,Rotem Revivo
+965,1937,Raheli & Miri,Raheli Mizrahi
+965,1938,Raheli & Miri,Miri Eliezer
+966,1939,Shahar & Ronit,Shahar Elbaz
+966,1940,Shahar & Ronit,Ronit Elbaz
+967,1941,Michal & Elrom,Michal Matzov
+967,1942,Michal & Elrom,Elrom Ben Avraham
+968,1943,Taylor & Katie,Taylor McPherson
+968,1944,Taylor & Katie,Katie Mulkay
+969,1945,Colin & Matt,Colin Rose
+969,1946,Colin & Matt,Matt Roberts
+970,1947,Michael & Tyson,Michael Crouse
+970,1948,Michael & Tyson,Tyson Gillies
+971,1949,Lauren & Nicole,Lauren Peters
+971,1950,Lauren & Nicole,Nicole Peters
+972,1951,Kevin & Gurleen,Kevin Martin
+972,1952,Kevin & Gurleen,Gurleen Maan
+973,1953,Michael & Amari,Michael Linklater
+973,1954,Michael & Amari,Amari Linklater
+974,1955,Julia & Olivia,Julia Viola
+974,1956,Julia & Olivia,Olivia Curto
+975,1957,Brad & Sam,Bradley May
+975,1958,Brad & Sam,Samantha May
+976,1959,Connor & John,Connor Carroll
+976,1960,Connor & John,John Ferguson
+977,1961,Dorothy & Olus,Dorothy Adeneye
+977,1962,Dorothy & Olus,Olus Adeneye
+978,1963,Eva & Trystenne,Eva Amo-Mensah
+978,1964,Eva & Trystenne,Trystenne Burey
+979,1965,Bam Bam & Logan,Tai Tuivasa
+979,1966,Bam Bam & Logan,Logan Tuivasa
+980,1967,Billy & Oscar,William Brownless
+980,1968,Billy & Oscar,Oscar Brownless
+981,1969,Brooke & Adam,Brooke McClymont
+981,1970,Brooke & Adam,Adam Eckersley
+982,1971,Pete & Bridget,Peter Helliar
+982,1972,Pete & Bridget,Bridget Helliar
+983,1973,Thorpie & Christian,Ian Thorpe
+983,1974,Thorpie & Christian,Christian Miranda
+984,1975,Chloe & Emily,Chloe Logarzo
+984,1976,Chloe & Emily,Emily Gielnik
+985,1977,Havana & Steph,Havana Brown
+985,1978,Havana & Steph,Steph Dunstan-Wood
+986,1979,Jett & Lily,Jett Kenny
+986,1980,Jett & Lily,Lily Brown
+987,1981,Cyrell & Eden,Cyrelle Paule
+987,1982,Cyrell & Eden,Eden Dally
+988,1983,Nat & Mel,Natalie Bassingthwaighte
+988,1984,Nat & Mel,Mel Sheldrick
+989,1985,Luke & Julie,Luke McGregor
+989,1986,Luke & Julie,Julie McGregor
+990,1987,Metti & Hanna,Metti Forssell
+990,1988,Metti & Hanna,Hanna Launonen
+991,1989,Mimosa & Pati,Mimosa Willamo
+991,1990,Mimosa & Pati,Patrick Willamo
+992,1991,Elias & Matias,Elias Aalto
+992,1992,Elias & Matias,Matias Pietilä
+993,1993,Paulus & Adeliina,Paulus Arajuuri
+993,1994,Paulus & Adeliina,Adeliina Arajuuri
+994,1995,Leea & Kaarina,Leea Klemola
+994,1996,Leea & Kaarina,Kaarina Hazard
+995,1997,Gracias & Jeremie,Deogracias Masomi
+995,1998,Gracias & Jeremie,Jeremie Malolo
+996,1999,Tinni & Antti,Tiina Wikström
+996,2000,Tinni & Antti,Antti Savinainen
+997,2001,Mikko & Meikka,Mikko Kekäläinen
+997,2002,Mikko & Meikka,Mervi Levänen
+998,2003,Jani & Maria,Jani Sievinen
+998,2004,Jani & Maria,Maria Nyqvist
+999,2005,Tuure & Saana,Tuure Boelius
+999,2006,Tuure & Saana,Saana Boelius
+1000,2007,Aku & Wille,Aku Sipola
+1000,2008,Aku & Wille,Wille Komulainen
+1001,2009,Carson & Jack,Carson McCalley
+1001,2010,Carson & Jack,Jack Dodge
+1002,2011,Han & Holden,Han Nguyen
+1002,2012,Han & Holden,Holden Nguyen
+1003,2013,Jonathan & Ana,Jonathan Towns
+1003,2014,Jonathan & Ana,Ana Towns
+1004,2015,Alyssa & Josiah,Alyssa Borden
+1004,2016,Alyssa & Josiah,Josiah Borden
+1005,2017,Brett & Mark,Brett Hamby
+1005,2018,Brett & Mark,Mark Romain
+1006,2019,Melinda & Erika,Melinda Papadeas
+1006,2020,Melinda & Erika,Erika Papadeas
+1007,2021,Nick & Mike,Nicholas Fiorito
+1007,2022,Nick & Mike,Michael Fiorito
+1008,2023,Pops & Jeff,Jeff Bailey
+1008,2024,Pops & Jeff,Jeff Bailey
+1009,2025,Scott & Lori,Scott Thompson
+1009,2026,Scott & Lori,Lori Thompson
+1010,2027,Bernie & Carrigain,Bernadette Gutierrez
+1010,2028,Bernie & Carrigain,Carrigain Scadden
+1011,2029,Courtney & Jasmin,Courtney Ramsey
+1011,2030,Courtney & Jasmin,Jasmin Carey
+1012,2031,Ernest & Bridget,Ernest Cato
+1012,2032,Ernest & Bridget,Bridget Cato
+1013,2033,Mark & Larry,Mark Crawford
+1013,2034,Mark & Larry,Larry Graham
+1014,2035,Jackye & Lauren,Jackye Clayton
+1014,2036,Jackye & Lauren,Lauren McKinney
+1015,2037,Jesse & Jonathon,Jesse Harink
+1015,2038,Jesse & Jonathon,Jonathon Braun
+1016,2039,Grace & Joe,Grace Dove
+1016,2040,Grace & Joe,Joe Syme
+1017,2041,EB & Blake,Ethan Burnett
+1017,2042,EB & Blake,Blake Burnett
+1018,2043,Nipîy & Magoo,Skylene Gladue
+1018,2044,Nipîy & Magoo,Blair Gladue
+1019,2045,Ika & Demetres,Ika Wong
+1019,2046,Ika & Demetres,Demetres Giannitsos
+1020,2047,Lacey & Celia,Lacey Koughan
+1020,2048,Lacey & Celia,Celia Koughan
+1021,2049,Rebecca & Rebecca,Rebecca Merasty
+1021,2050,Rebecca & Rebecca,Rebecca Watt
+1022,2051,Louis & Marie,Louis Octeau-Piché
+1022,2052,Louis & Marie,Marie Octeau
+1023,2053,Osas & Esosa,Osas Igbinosun
+1023,2054,Osas & Esosa,Esosa Igbinosun
+1024,1721,Brendan & Sam,Brendan McDougall
+1024,1958,Brendan & Sam,Samantha May
+1025,2055,Michele & Aditi,Michele Peter
+1025,2056,Michele & Aditi,Aditi Deonarine
+1026,2057,Steve & Bernie,Stephen Curry
+1026,2058,Steve & Bernie,Bernard Curry
+1027,2059,Rob & Georgie,Robert Mills
+1027,2060,Rob & Georgie,Georgina Tunny
+1028,2061,Aesha & Scott,Aesha Scott
+1028,2062,Aesha & Scott,Scott Dobson
+1029,2063,Luke & 'Sassy' Scott,Luke O'Halloran
+1029,2064,Luke & 'Sassy' Scott,Scott O'Halloran
+1030,2065,Gretel & Epiphany,Gretel Killeen
+1030,2066,Gretel & Epiphany,Epiphany Morgan
+1031,2067,Melissa & Leah,Melissa Leong
+1031,2068,Melissa & Leah,Leah Wilson
+1032,2069,Brendan & Leni,Brendan Fevola
+1032,2070,Brendan & Leni,Leni Fevola
+1033,2071,Lindy & Stella,Lindy Rama
+1033,2072,Lindy & Stella,Stella Klim
+1034,2073,'Dom Tomato' & Marx,Dom Di Tommaso
+1034,2074,'Dom Tomato' & Marx,Marx Marsters
+1035,2075,Steph & Ben,Steph Tisdell
+1035,2076,Steph & Ben,Ben Tisdell
+1036,2077,Bronte & Benfield,Bronte Campbell
+1036,2078,Bronte & Benfield,Benfield Lainchbury
+1037,2079,Ant & Dan,Anthony Middleton
+1037,2080,Ant & Dan,Dan Middleton
+1038,2081,Ed & Tiff,Edward Kavalee
+1038,2082,Ed & Tiff,Tiffiny Hall
+1039,2083,Jas & Jag,Jasmair Bains
+1039,2084,Jas & Jag,Jagateshwar Bains
+1040,2085,Kyland & Taylor,Kyland Young
+1040,2086,Kyland & Taylor,Taylor Hale
+1041,2087,Joseph & Adam,Joseph Abdin
+1041,2088,Joseph & Adam,Adam Abdin
+1042,2089,Izzy & Paige,Isabel Gleicher
+1042,2090,Izzy & Paige,Paige Seber
+1043,2091,Jack & Chelsie,Jack Baham
+1043,2092,Jack & Chelsie,Chelsie Baham
+1044,2093,Tucker & Eric,Tucker Des Lauriers
+1044,2094,Tucker & Eric,Eric Des Lauriers
+1045,2095,Natalie & Stephanie,Natalie Negrotti
+1045,2096,Natalie & Stephanie,Stephanie Negrotti
+1046,2097,Kristine & Rubina,Kristine Bernabe
+1046,2098,Kristine & Rubina,Rubina Bernabe
+1047,2099,Hannah & Simone,Hannah Chaddha
+1047,2100,Hannah & Simone,Simone Chaddha
+1048,2101,Kat & Alex,Kathryn Dunn
+1048,2102,Kat & Alex,Alex Romo
+1049,2103,Megan & Matt,Megan Belmonte
+1049,2104,Megan & Matt,Matt Turner
+1050,2105,Angela & Lexi,Angela Murray
+1050,2106,Angela & Lexi,Lexi Murray
+1051,2107,Jack & Enzo,Giacomo Palumbo
+1051,2108,Jack & Enzo,Vincenzo Palumbo
+1052,2109,Maria & Vilma,Maria Guzenina
+1052,2110,Maria & Vilma,Vilma Vähämaa
+1053,2111,Millu & Karo,Mia Haataja
+1053,2112,Millu & Karo,Karoliina Tuominen
+1054,2113,Tomas & Esko,Tomas Grekov
+1054,2114,Tomas & Esko,Esko Rotola-Pukkila
+1055,2115,Sara & Artturi,Sara Sieppi
+1055,2116,Sara & Artturi,Artturi Sieppi
+1056,2117,Armi & Sari,Armi Toivanen
+1056,2118,Armi & Sari,Sari Majamaa
+1057,2119,Tuomas & Sini,Tuomas Peltomäki
+1057,2120,Tuomas & Sini,Sini Peltomäki
+1058,2121,Mari & Joel,Mari Hynynen
+1058,2122,Mari & Joel,Joel Volanen
+1059,2123,Nina & Elsa,Nina Tapio
+1059,2124,Nina & Elsa,Elsa Forsberg
+1060,2125,Paula & Kati,Paula Noronen
+1060,2126,Paula & Kati,Kati Launiainen
+1061,2127,Arttu & Jaakko,Arttu Lindeman
+1061,2128,Arttu & Jaakko,Jaakko Parkkali
+1062,2129,Karri & Tuukka,Karri Miettinen
+1062,2130,Karri & Tuukka,Tuukka Rihkola
+1063,2131,Tom & Almog,Tom Shelah
+1063,2132,Tom & Almog,Almog Ohayon
+1064,2133,Adi & Or,Adi Atzmi
+1064,2134,Adi & Or,Or Ohana
+1065,2135,Ezi & Dani,Eliezer Buhbut
+1065,2136,Ezi & Dani,Danielle Buhbut
+1066,2137,Shlomi & Asaf,Shlomi Yifrah
+1066,2138,Shlomi & Asaf,Asaf Zaga
+1067,2139,Mai & Itai,Mai Hatuel
+1067,2140,Mai & Itai,Itai On
+1068,2141,Sapir & Sapir,Sapir Harush
+1068,2142,Sapir & Sapir,Sapir Tzemah
+1069,2143,Itai & Omri,Itai Rozenblit
+1069,2144,Itai & Omri,Omri Rozenblit
+1070,2145,Tom & Samantha,Tom Boukai
+1070,2146,Tom & Samantha,Samantha Pezzino
+1071,2147,Hen & Yossi,Hen Drix
+1071,2148,Hen & Yossi,Yossi Ezra
+1072,2149,Michal & Nuni,Michal Pras
+1072,2150,Michal & Nuni,Nuni Keren
+1073,2151,Ron & Meitav,Ron Horwitz
+1073,2152,Ron & Meitav,Meitav Ziv
+1074,2153,Emuna & Neria,Emuna Zingboim
+1074,2154,Emuna & Neria,Neria Zingboim
+1075,2155,Yotam & Nofar,Yotam Ohayon
+1075,2156,Yotam & Nofar,Nofar Zommer
+1076,2157,Reuven & Gali,Reuven Lavi
+1076,2158,Reuven & Gali,Gali Lavi
+1077,2159,Tina & Liz,Tina Liao
+1077,2160,Tina & Liz,Liz Liao
+1078,2161,Eamon & Bec,Eamon Fitzgerald
+1078,2162,Eamon & Bec,Rebecca Moroney
+1079,2163,Michele & Matteo,Michele Bruzzese
+1079,2164,Michele & Matteo,Matteo Bruzzese
+1080,2165,Sacha & Sébastien,Sacha Régnier
+1080,2166,Sacha & Sébastien,Sébastien Régnier
+1081,2167,Ameen & Surria,Ameen Fadel
+1081,2168,Ameen & Surria,Surria Fadel
+1082,2169,Filipe & Clara,Filipe Masetti
+1082,2170,Filipe & Clara,Clara Davel
+1083,2171,Chayla & Chyana,Chayla Rain
+1083,2172,Chayla & Chyana,Chyana Sage
+1084,2173,Keshia & Nova,Keshia Gordon
+1084,2174,Keshia & Nova,Nova Stevens
+1085,2175,Dana & Cordelia,Dana Martin-Kelly
+1085,2176,Dana & Cordelia,Cordelia Richards
+1086,2177,Maestro & Duane,Wesley Williams
+1086,2178,Maestro & Duane,Duane Gibson

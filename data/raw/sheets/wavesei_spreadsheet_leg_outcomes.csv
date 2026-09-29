@@ -1,0 +1,245 @@
+unnamed_0,unnamed_1,unnamed_2,unnamed_3,unnamed_4,unnamed_5,unnamed_6,unnamed_7,unnamed_8,unnamed_9,unnamed_10,unnamed_11,unnamed_12,unnamed_13,unnamed_14,unnamed_15,unnamed_16,unnamed_17,unnamed_18,unnamed_19,unnamed_20,unnamed_21
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,Leg Outcomes,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,"All legs on TAR end in a Pit Stop, where teams are told their placement and if they are eliminated or not by Phil. As such, Pit Stops are defined by when teams meet with Phil on a mat, except for Season 1. Normally, the last team to arrive to the Pit Stop are eliminated because the Pit Stop is marked as an elimination point., but occasionally teams will be saved from elimination because the Pit Stop has been designated as a non-elimination point, or teams are told to continue racing. To me, both cases are effectively non-elimination legs. Final Legs are neither elimination or non-elimination legs.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,Number of Elimination and Non-Elimination Legs per Season,,,,,,,,,,,,,,,,,,,,
+,Season,Elim,NonElim,,,,,,,,,,,,,,,,,,
+,Season 1,8,4,,,,,,,,,,,,,,,,,,
+,Season 2,8,4,,,,,,,,,,,,,,,,,,
+,Season 3,9,3,,,,,,,,,,,,,,,,,,
+,Season 4,9,3,,,,,,,,,,,,,,,,,,
+,Season 5,8,4,,,,,,,,,,,,,,,,,,
+,Season 6,8,3,,,,,,,,,,,,,,,,,,
+,Season 7,8,4,,,,,,,,,,,,,,,,,,
+,Season 8,7,4,,,,,,,,,,,,,,,,,,
+,Season 9,8,4,,,,,,,,,,,,,,,,,,
+,Season 10,8,3,,,,,,,,,,,,,,,,,,
+,Season 11,8,4,,,,,,,,,,,,,,,,,,
+,Season 12,8,2,,,,,,,,,,,,,,,,,,
+,Season 13,8,2,,,,,,,,,,,,,,,,,,
+,Season 14,8,3,,,,,,,,,,,,,,,,,,
+,Season 15,9,2,,,,,,,,,,,,,,,,,,
+,Season 16,8,3,,,,,,,,,,,,,,,,,,
+,Season 17,8,3,,,,,,,,,,,,,,,,,,
+,Season 18,8,3,,,,,,,,,,,,,,,,,,
+,Season 19,7,4,,,,,,,,,,,,,,,,,,
+,Season 20,8,3,,,,,,,,,,,,,,,,,,
+,Season 21,8,3,,,,,,,,,,,,,,,,,,
+,Season 22,8,3,,,,,,,,,,,,,,,,,,
+,Season 23,8,3,,,,,,,,,,,,,,,,,,
+,Season 24,8,3,,,,,,,,,,,,,,,,,,
+,Season 25,7,4,,,,,,,,,,,,,,,,,,
+,Season 26,7,4,,,,,,,,,,,,,,,,,,
+,Season 27,8,3,,,,,,,,,,,,,,,,,,
+,Season 28,8,3,,,,,,,,,,,,,,,,,,
+,Season 29,8,3,,,,,,,,,,,,,,,,,,
+,Season 30,8,3,,,,,,,,,,,,,,,,,,
+,Season 31,8,3,,,,,,,,,,,,,,,,,,
+,Season 32,8,2,,,,,,,,,,,,,,,,,,
+,Season 33,6,4,,,,,,,,,,,,,,,,,,
+,Season 34,9,0,,,,,,,,,,,,,,,,,,
+,Season 35,10,1,,,,,,,,,,,,,,,,,,
+,Season 36,10,0,,,,,,,,,,,,,,,,,,
+,Season 37,10,1,,,,,,,,,,,,,,,,,,
+,Season 38,10,1,1,,,,,,,,,,,,,,,,,
+,Totals,290,107,,,,,,,,,,,,,,,,,,
+,Average,8.055555555555555,2.9722222222222223,,,,,,,,,,,,,,,,,,
+,Standard Deviation,0.7538262188687577,1.027788502732545,,,,,,,,,,,,,,,,,,
+,Max,10,4,,,,,,,,,,,,,,,,,,
+,Min,6,0,,,,,,,,,,,,,,,,,,
+,Mode,8,3,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,Number of Elimination and Non-Elimination Legs per Leg,,,,,,,,Legs in Between Non-Elims per Season,,,,,,,,
+,,,,,,Elim Leg,,,Non Elim Leg,,,,*NOTE: The count includes all elim legs in between two non-elim legs.,,,,,,,First Leg of Non-Elim per Season,
+,,,,,Leg #,Total #,% of Total,% per Leg,Total # ,% of Total ,% per Leg ,,"*NOTE: If there is no gap, ""N/A"" is input. 0 means back-to-back non-elim legs.",,,,,,,,
+,,,,,Leg 1,34,0.11724137931034483,0.8947368421052632,4,0.037383177570093455,0.10526315789473684,,*NOTE: The final gap is the amount of elim legs until the final leg.,,,,,,,Season,First Leg
+,,,,,Leg 2,37,0.12758620689655173,0.9736842105263158,1,0.009345794392523364,0.02631578947368421,,Season,First Gap,Second Gap,Third Gap,Final Gap,Average,,Season 1,6
+,,,,,Leg 3,31,0.10689655172413794,0.8157894736842105,7,0.06542056074766354,0.18421052631578946,,Season 1,1,1,1,0,0.75,,Season 2,6
+,,,,,Leg 4,28,0.09655172413793103,0.7368421052631579,10,0.09345794392523364,0.2631578947368421,,Season 2,1,1,1,0,0.75,,Season 3,8
+,,,,,Leg 5,28,0.09655172413793103,0.7368421052631579,10,0.09345794392523364,0.2631578947368421,,Season 3,0,2,,0,0.6666666666666666,,Season 4,8
+,,,,,Leg 6,28,0.09655172413793103,0.7368421052631579,10,0.09345794392523364,0.2631578947368421,,Season 4,1,1,,0,0.6666666666666666,,Season 5,5
+,,,,,Leg 7,23,0.07931034482758621,0.6052631578947368,15,0.14018691588785046,0.39473684210526316,,Season 5,2,0,1,1,1,,Season 6,4
+,,,,,Leg 8,25,0.08620689655172414,0.6578947368421053,13,0.12149532710280374,0.34210526315789475,,Season 6,2,2,,1,1.6666666666666667,,Season 7,5
+,,,,,Leg 9,25,0.08620689655172414,0.6578947368421053,13,0.12149532710280374,0.34210526315789475,,Season 7,2,1,1,0,1,,Season 8,5
+,,,,,Leg 10,20,0.06896551724137931,0.5405405405405406,17,0.1588785046728972,0.4594594594594595,,Season 8,1,1,0,2,1,,Season 9,3
+,,,,,Leg 11,28,0.09655172413793103,0.875,4,0.037383177570093455,0.125,,Season 9,4,1,1,0,1.5,,Season 10,5
+,,,,,Leg 12,2,0.006896551724137931,0.25,6,0.056074766355140186,0.75,,Season 10,1,2,,1,1.3333333333333333,,Season 11,5
+,,,,,,,,,,,,,Season 11,5,2,0,1,2,,Season 12,7
+,,,,,,,,,,,,,Season 12,1,,,1,1,,Season 13,6
+,,,,,,,,,,,,,Season 13,2,,,1,1.5,,Season 14,5
+,,,,,,,,,,,,,Season 14,2,1,,1,1.3333333333333333,,Season 15,8
+,,,,,,,,,,,,,Season 15,1,,,1,1,,Season 16,4
+,,,,,,,,,,,,,Season 16,2,2,,1,1.6666666666666667,,Season 17,3
+,,,,,,,,,,,,,Season 17,2,3,,1,2,,Season 18,1
+,,,,,,,,,,,,,Season 18,2,3,,3,2.6666666666666665,,Season 19,1
+,,,,,,,,,,,,,Season 19,2,1,2,2,1.75,,Season 20,4
+,,,,,,,,,,,,,Season 20,2,1,,2,1.6666666666666667,,Season 21,5
+,,,,,,,,,,,,,Season 21,1,2,,1,1.3333333333333333,,Season 22,3
+,,,,,,,,,,,,,Season 22,2,2,,2,2,,Season 23,4
+,,,,,,,,,,,,,Season 23,2,2,,1,1.6666666666666667,,Season 24,4
+,,,,,,,,,,,,,Season 24,1,2,,2,1.6666666666666667,,Season 25,4
+,,,,,,,,,,,,,Season 25,2,2,0,0,1,,Season 26,3
+,,,,,,,,,,,,,Season 26,3,1,1,0,1.25,,Season 27,4
+,,,,,,,,,,,,,Season 27,1,1,,3,1.6666666666666667,,Season 28,1
+,,,,,,,,,,,,,Season 28,4,1,,3,2.6666666666666665,,Season 29,5
+,,,,,,,,,,,,,Season 29,1,1,,2,1.3333333333333333,,Season 30,3
+,,,,,,,,,,,,,Season 30,3,2,,1,2,,Season 31,3
+,,,,,,,,,,,,,Season 31,1,1,,4,2,,Season 32,4
+,,,,,,,,,,,,,Season 32,1,,,4,2.5,,Season 33,2
+,,,,,,,,,,,,,Season 33,2,1,1,1,1.25,,Season 34,
+,,,,,,,,,,,,,Season 34,,,,,,,Season 35,3
+,,,,,,,,,,,,,Season 35,,,,8,,,Season 36,
+,,,,,,,,,,,,,Season 36,,,,,,,Season 37,9
+,,,,,,,,,,,,,Season 37,,,,2,,,Season 38,8
+,,,,,,,,,,,,,Season 38,,,,3,,,Average,4.457142857142857
+,,,,,,,,,,,,,Averages,1.8181818181818181,1.4827586206896552,0.8181818181818182,1.5555555555555556,,,Standard Deviation,1.9754799438119746
+,,,,,,,,,,,,,Smallest Gap,0,,Smallest Gap,0,,,Mode,5
+,,,,,,,,,,,,,Largest Gap,5,,Largest Gap,8,,,Earliest Leg,1
+,,,,,,,,,,,,,Mode,1,,,,,,Latest Leg,9
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,Reasons for Elimination (or almost elimination),,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,"Explanation: 
+""Travel Issues"" can mean issues with any form of travel and getting lost in general. 
+""Didn't do as good"" is a catch-all for teams who didn't do anything explicitely wrong
+""Clue"", ""Bag"", and ""Passport"" Issues all could mean forgetting, missing, or misreading",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,, ,Reasons,Bad on challenge,Travel Issues,Didn't do as good,U-Turned,Clue Issue,Outran,Money Issue,Injury,Bag Issue,Fast Forward,Speed Bump,Yielded,Passport Issue,,,,
+,,,,Amount:,188,152,48,28,20,17,5,5,5,5,5,4,4,,,,
+,,,,%,0.3868312757201646,0.31275720164609055,0.09876543209876543,0.05761316872427984,0.0411522633744856,0.03497942386831276,0.0102880658436214,0.0102880658436214,0.0102880658436214,0.0102880658436214,0.0102880658436214,0.00823045267489712,0.00823045267489712,,,,
+,,,,Average # per Season:,5.081081081081081,4.108108108108108,1.2972972972972974,0.7567567567567568,0.5405405405405406,0.4594594594594595,0.13513513513513514,0.13513513513513514,0.13513513513513514,0.13513513513513514,0.13513513513513514,0.10810810810810811,0.10810810810810811,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,Season #,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,,,,,,
+,,,Season 1,Travel Issues,Didn’t do as good,"Bad on challenge
+Travel Issues",Money Issues,Travel Issues,Production Issue,Travel Issues,"Travel Issues
+Didn't do as good",Bad on challenge,Didn't do as good,Travel Issues,Didn't do as good,,,,,,
+,,,Season 2,Bad on challenge,Travel Issues,Travel Issues,Travel Issues,Travel Issues,Missed clue,"Missed clue
+Bad on challenge",Bad on challenge,Bad on challenge,Travel Issues,"Bad on challenge
+Travel Issues",Travel Issues,,,,,,
+,,,Season 3,Travel Issues,Travel Issues,Stuck at fast forward,Didn't read clue,Travel Issues,Didn't do as good,Travel Issues,Travel Issues,Bad on challenge,Travel Issues,Missed clue,Didn't do as good,,,,,,
+,,,Season 4,Didn't do as good,Bad on challenge,Travel Issues,Travel Issues,Didn't do as good,Travel Issues,Bad on challenge,Bad on challenge,Travel Issues,"Bad on challenge
+Travel Issues",Didn't do as good,"Bad on challenge
+Travel Issues",,,,,,
+,,,Season 5,Travel Issues,Bad on challenge,"Travel Issues
+Didn't do as good","Travel Issues
+Didn't do as good",Bad on challenge,Injured,Didn't do as good,Bad on challenge,Stuck at fast forward,Didn't do as good,Bad on challenge,Bad on challenge,,,,,,
+,,,Season 6,"Bad on challenge
+Travel Issues","Bad on challenge
+Travel Issues",Bad on challenge,Travel Issues,Travel Issues,Didn't do as good,Travel Issues,Bad on challenge,Didn't read clue,Yielded,"Bad on challenge
+Travel Issues",,,,,,,
+,,,Season 7,Outran,Outran,Travel Issues,Bad on challenge,Bad on challenge,"Bad on challenge
+Outran",Travel Issues,Didn't do as good,Travel Issues,"Travel Issues
+Outran",Didn't do as good,Travel Issues,,,,,,
+,,,Season 8,Didn't do as good,Travel Issues,Bad on challenge,Didn't do as good,Bad on challenge,Bad on challenge,Travel Issues,Travel Issues,Travel Issues,Travel Issues,Bad on challenge,,,,,,,
+,,,Season 9,Travel issues,Travel Issues,Bad on challenge,Travel Issues,Yielded,Travel Issues,Bad on challenge,Bad on challenge,Travel Issues,Outran,Bad on challenge,Travel Issues,,,,,,
+,,,Season 10,"Travel Issues
+Didn't do as good",Travel Issues,Travel Issues,Bad on challenge,Bad on challenge,Travel Issues,Bad on challenge,Bad on challenge,Travel Issues,Didn't do as good,Didn't do as good,,,,,,,
+,,,Season 11,Travel issues,Travel Issues,Travel Issues,Bad on challenge,Bad on challenge,Travel Issues,Travel Issues,Penalty,Travel Issues,Travel Issues,Bad on challenge,Didn't do as good,,,,,,
+,,,Season 12,Bad on challenge,Didn’t do as good,Bad on challenge,U-Turned,"Bad on challenge
+Travel Issues",Travel Issues,Travel Issues,"Had speed bump
+Bad on challenge",Travel Issues,Didn't do as good,,,,,,,,
+,,,Season 13,Didn't do as good,Didn’t do as good,Didn’t read clue,Didn't do as good,Didn't do as good,Travel Issues,Bad on challenge,Stuck at fast forward,"Didn't read clue
+Bad on challenge","Bad on challenge
+Money Issues",,,,,,,,
+,,,Season 14,Didn't do as good,Bad on challenge,Travel Issues,U-Turned,Travel Issues,Didn't do as good,Travel Issues,"Forgot bag
+Money Issues",Didn't do as good,Bad on challenge,"U-Turned
+Had to pee",,,,,,,
+,,,Season 15,Bad on challenge,Bad on challenge,Bad on challenge,Lost passport,Travel Issues,Bad on challenge,Bad on challenge,Didn't do as good,Didn't do as good,Didn't do as good,Bad on challenge,,,,,,,
+,,,Season 16,Bad on challenge,Didn’t do as good,Bad on challenge,"Bad on challenge
+Travel Issues","Bad on challenge
+U-Turned","Bad on challenge
+Travel Issues",Didn't read clue,Travel Issues,U-Turned,"Bad on challenge
+Travel Issues",Travel Issues,,,,,,,
+,,,Season 17,Travel issues,Didn’t do as good,Travel Issues,Bad on challenge,Travel Issues,Bad on challenge,Didn't read clue,Travel Issues,"Travel Issues
+U-Turned","Bad on challenge
+Outran",Travel Issues,,,,,,,
+,,,Season 18,"Bad on challenge
+Travel Issues",Bad on challenge,Bad on challenge,"Travel Issues
+Forgot bag","Bad on challenge
+U-Turned",Bad on challenge,Bad on challenge,Didn't do as good,"U-Turned
+Bad on challenge",Didn't read clue,Bad on challenge,,,,,,,
+,,,Season 19,Travel issues,Forgot and misssed clue,Didn't do as good,Bad on challenge,Money Issues,"Bad on challenge
+Travel Issues",Lost clue,"Bad on challenge
+Travel Issues","Bad on challenge
+U-Turned",Travel Issues,Travel Issues,,,,,,,
+,,,Season 20,Couldn't find mat,"Travel Issues
+Bad on challenge",Bad on challenge,Travel Issues,Travel Issues,Stuck at fast forward,Bad on challenge,Didn't do as good,"Bad on challenge
+Injury",Didn't do as good,Injury,,,,,,,
+,,,Season 21,"Travel Issues
+Outran",Travel Issues,Travel Issues,"Bad on challenge
+Travel Issues",Bad on challenge,Didn't do as good,Lost passport,Lost passport,"Travel Issues
+U-Turned","Travel Issues
+Bad on challenge",Didn't do as good,,,,,,,
+,,,Season 22,Bad on challenge,Bad on challenge,Outran,"Bad on challenge
+Didn't use express pass",Bad on challenge,Bad on challenge,Bad on challenge,Bad on challenge,Outran,"U-Turned
+Outran","Bad on challenge
+Travel Issues",,,,,,,
+,,,Season 23,Bad on challenge,"Bad on challenge
+Travel Issues",Travel Issues,Bad on challenge,"Bad on challenge
+U-Turned",Bad on challenge,Bad on challenge,"U-Turned
+Had speed bump",Bad on challenge,Bad on challenge,Bad on challenge,,,,,,,
+,,,Season 24,Bad on challenge,"Forgot bag
+Bad on challenge",Travel Issues,Bad on challenge,Travel Issues,"Bad on challenge
+Travel Issues","Travel Issues
+Outran",Travel Issues,Bad on challenge,"U-Turned
+Travel Issues",Bad on challenge,,,,,,,
+,,,Season 25,"Bad on challenge
+Outran",Travel Issues,"Bad on challenge
+Injured",Bad on challenge,"Bad on challenge
+U-Turned",Travel Issues,Travel Issues,Bad on challenge,Stuck at fast forward,Bad on challenge,"Bad on challenge
+Injury",,,,,,,
+,,,Season 26,"Bad on challenge
+U-Turned",Travel Issues,Travel Issues,Didn't do as good,"Travel Issues
+Bad on challenge",Travel Issues,Travel Issues,"U-Turned
+Had speed bump",Bad on challenge,"Travel Issues
+Had speed bump","Bad on challenge
+Travel Issues",,,,,,,
+,,,Season 27,Bad on challenge,"Bad on challenge
+Travel Issues",Travel Issues,Bad on challenge,"Travel Issues
+Didn't read clue",Bad on challenge,Bad on challenge,"Bad on challenge
+Travel Issues","U-Turned
+Had speed bump",Bad on challenge,"Bad on challenge
+Travel Issues",,,,,,,
+,,,Season 28,Bad on challenge,Travel Issues,Bad on challenge,"Travel Issues
+Bad on challenge",Bad on challenge,Bad on challenge,"Grabbed wrong bag
+Outran",Travel Issues,"Bad on challenge
+Outran",U-Turned,"Bad on challenge
+Travel issues",,,,,,,
+,,,Season 29,"Travel Issues
+Missed clue",Travel Issues,U-Turned,Bad on challenge,"Travel Issues
+Bad on challenge",U-Turned,Bad on challenge,"U-Turned
+Didn't read clue",Didn't read clue,Injury,Travel Isues,,,,,,,
+,,,Season 30,"Didn't do as good
+Outran",Bad on challenge,Travel Issues,Bad on challenge,Bad on challenge,U-Turned,Bad on challenge,Bad on challenge,Lost passport,Bad on challenge,Bad on challenge,,,,,,,
+,,,Season 31,"Bad on challenge
+Travel Issues",Bad on challenge,Bad on challenge,Bad on challenge,Bad on challenge,Bad on challenge,Travel Issues,U-Turned,Bad on challenge,U-Turned,Didn't do as good,,,,,,,
+,,,Season 32,Bad on challenge,"Travel Issues
+Didn't read clue","U-Turned
+Forgot bag",Bad on challenge,Travel Issues,Travel Issues,"Bad on challenge
+Yielded",Yielded,U-Turned,Allianced,,,,,,,,
+,,,Season 33,Bad on challenge,"Travel Issues
+Bad on challenge",Bad on challenge,"Travel Issues
+Bad on challenge",Travel Issues,Bad on challenge,Didn't do as good,"Travel Issues
+Missed clue",Bad on challenge,"Bad on challenge
+Travel Issues",,,,,,,,
+,,,Season 34,Didn't do as good,Bad on challenge,"Bad on challenge
+Travel Issues",Bad on challenge,Injury,Travel Issues,Travel Issues,Bad on challenge,Bad on challenge,,,,,,,,,
+,,,Season 35,Didn't do as good,Bad on challenge,Bad on challenge,"Bad on challenge
+Travel Issues",Bad on challenge,Didn't do as good,Money Issue,Travel Issues,Travel Issues,Didn't do as good,Travel Issues,,,,,,,
+,,,Season 36,Travel Issues,Outran,Bad on challenge,Bad on challenge,"Bad on challenge
+Travel Issues",Didn't do as good,"Bad on challenge
+Travel Issues",Travel Issues,Bad on challenge,Didn't do as good,,,,,,,,
+,,,Season 37,"Outran
+Bad on challenge",Bad on challenge,Bad on challenge,"Travel Issues
+Driver's Seated","U-Turned
+Bad on challenge","Bad on challenge
+Lost foot race",Bad on challenge,Didn't read clue,"Got lost
+Bad on challenge",Got lost,Got lost,,,,,,,
+,,,Season 38,"Got lost
+Hazard",Bad on challenge,"Got Lost
+Bad on challenge",Bad on challenge,Bad on challenge,Didn't do as good,"Got lost
+Clue Issue",Bad on challenge,Bad on challenge,Got lost,Bad on challenge,,,,,,,

@@ -1,0 +1,2295 @@
+id,name,cid,sid,tid,season,short_name,w,gender,age,hometown
+1,Rob Frisbee,1,1,1,USA1,Rob,,Male,27.0,"Minneapolis, MN"
+2,Brennan Swain,2,1,1,USA1,Brennan,,Male,29.0,"Rochester, NY"
+3,Frank Mesa,3,1,2,USA1,Frank,,Male,30.0,"Queens, NY"
+4,Margarita Mesa,4,1,2,USA1,Margarita,,Female,28.0,"Queens, NY"
+5,Joseph Baldassare,5,1,3,USA1,Joe,,Male,50.0,"Laguna Niguel, CA"
+6,Bill Bartek,6,1,3,USA1,Bill,,Male,47.0,"Laguna Niguel, CA"
+7,Kevin O'Connor,7,1,4,USA1,Kevin,,Male,34.0,"Bayonne, NJ"
+8,Andrew Feinberg,8,1,4,USA1,Drew,,Male,35.0,"Staten Island, NY"
+9,Nancy Hoyt,9,1,5,USA1,Nancy,,Female,46.0,"Waco, TX"
+10,Emily Hoyt,10,1,5,USA1,Emily,,Female,21.0,"Waco, TX"
+11,Leonard Hudson,11,1,6,USA1,Lenny,,Male,33.0,"New York, NY"
+12,Karyn Jefferson,12,1,6,USA1,Karyn,,Female,29.0,"New York, NY"
+13,Paul J. Alessi,13,1,7,USA1,Paul,,Male,32.0,"Los Angeles, CA"
+14,Amie Barsky,14,1,7,USA1,Amie,,Female,27.0,"Los Angeles, CA"
+15,David Groark,15,1,8,USA1,Dave,,Male,64.0,"Rockwall, TX"
+16,Margaretta Groark,16,1,8,USA1,Margaretta,,Female,59.0,"Rockwall, TX"
+17,Patricia Pierce,17,1,9,USA1,Pat,,Female,42.0,"Landenberg, PA"
+18,Brenda Mehta,18,1,9,USA1,Brenda,,Female,41.0,"Elkton, MD"
+19,Kimberly Smith,19,1,10,USA1,Kim,,Female,28.0,"Baytown, TX"
+20,Leslie Kellner,20,1,10,USA1,Leslie,,Female,27.0,"Baytown, TX"
+21,Matthew Robar,21,1,11,USA1,Matt,,Male,28.0,"Simsbury, CT"
+22,Ana Robar,22,1,11,USA1,Ana,,Female,28.0,"Simsbury, CT"
+23,Chris Luca,23,2,12,USA2,Chris,,Male,25.0,"Boston, MA"
+24,Alex Boylan,24,2,12,USA2,Alex,,Male,24.0,"Boston, MA"
+25,Tara Lynch,25,2,13,USA2,Tara,,Female,31.0,"Los Angeles, CA"
+26,Wil Steger,26,2,13,USA2,Wil,,Male,36.0,"Los Angeles, CA"
+27,Blake Mycoskie,27,2,14,USA2,Blake,,Male,25.0,"Nashville, TN"
+28,Paige Mycoskie,28,2,14,USA2,Paige,,Female,21.0,"Arlington, TX"
+29,Oswald Mendez,29,2,15,USA2,Oswald,,Male,31.0,"Miami, FL"
+30,Danny Jimenez,30,2,15,USA2,Danny,,Male,36.0,"Miami, FL"
+31,Gary Rosen,31,2,16,USA2,Gary,,Male,33.0,"New York, NY"
+32,Dave Lepeska,32,2,16,USA2,Dave,,Male,28.0,"Brooklyn, NY"
+33,Mary Lenig,33,2,17,USA2,Mary,,Female,38.0,"Sunbury, PA"
+34,Peach Krebs,34,2,17,USA2,Peach,,Female,33.0,"Paxinos, PA"
+35,Cyndi Kalenberg,35,2,18,USA2,Cyndi,,Female,45.0,"Brainerd, MN"
+36,Russell Kalenberg,36,2,18,USA2,Russell,,Male,46.0,"Brainerd, MN"
+37,Shola Richards,37,2,19,USA2,Shola,,Male,27.0,"Albany, NY"
+38,Doyin Richards,38,2,19,USA2,Doyin,,Male,27.0,"Albany, NY"
+39,Peggy Kuhn,39,2,20,USA2,Peggy,,Female,63.0,"Truckee, CA"
+40,Claire Jinks,40,2,20,USA2,Claire,,Female,65.0,"Los Gatos, CA"
+41,Hope Davis,41,2,21,USA2,Hope,,Female,38.0,"Clinton, TN"
+42,Norm Davis,42,2,21,USA2,Norm,,Male,39.0,"Clinton, TN"
+43,Diedre Washington,43,2,22,USA2,Diedre,,Female,51.0,"Miami, FL"
+44,Hillary Washington,44,2,22,USA2,Hillary,,Female,23.0,"Brooklyn, NY"
+45,Florinka Pesenti,45,3,23,USA3,Flo,,Female,23.0,"New York, NY"
+46,Zach Behr,46,3,23,USA3,Zach,,Male,23.0,"New York, NY"
+47,Teri Pollack,47,3,24,USA3,Teri,,Female,49.0,"Palm City, FL"
+48,Ian Pollack,48,3,24,USA3,Ian,,Male,50.0,"Palm City, FL"
+49,Ken Duphiney,49,3,25,USA3,Ken,,Male,40.0,"New York, NY"
+50,Gerard Duphiney,50,3,25,USA3,Gerard,,Male,35.0,"Denville, NJ"
+51,Derek Riker,51,3,26,USA3,Derek,,Male,32.0,"Los Angeles, CA"
+52,Drew Riker,52,3,26,USA3,Drew,,Male,32.0,"Los Angeles, CA"
+53,John Vito Pietanza,53,3,27,USA3,John Vito,,Male,28.0,"Staten Island, NY"
+54,Jill Aquilino,54,3,27,USA3,Jill,,Female,24.0,"Manhattan, NY"
+55,Andre Plummer,55,3,28,USA3,Andre,,Male,32.0,"Los Angeles, CA"
+56,Damon Wafer,56,3,28,USA3,Damon,,Male,33.0,"Long Beach, CA"
+57,Aaron Goldschmidt,57,3,29,USA3,Aaron,,Male,27.0,"New York, NY"
+58,Arianne Udell,58,3,29,USA3,Arianne,,Female,27.0,"New York, NY"
+59,Michael Ilacqua,59,3,30,USA3,Michael,,Male,28.0,"San Diego, CA"
+60,Kathy Perez,60,3,30,USA3,Kathy,,Female,31.0,"Birmingham, MI"
+61,Heather Mahar,61,3,31,USA3,Heather,,Female,25.0,"Boston, MA"
+62,Eve Madison,62,3,31,USA3,Eve,,Female,24.0,"New York, NY"
+63,Dennis Hyde,63,3,32,USA3,Dennis,,Male,48.0,"Lexington, KY"
+64,Andrew Hyde,64,3,32,USA3,Andrew,,Male,21.0,"Lexington, KY"
+65,Tramel Raggs,65,3,33,USA3,Tramel,,Male,22.0,"Gary, IN"
+66,Talicia Raggs,66,3,33,USA3,Talicia,,Female,29.0,"Los Angeles, CA"
+67,Gina Diggins,67,3,34,USA3,Gina,,Female,35.0,"Hilton Head Island, SC"
+68,Sylvia Pitts,68,3,34,USA3,Sylvia,,Female,34.0,"Hilton Head Island, SC"
+69,Reichen Lehmkuhl,69,4,35,USA4,Reichen,,Male,28.0,"Los Angeles, CA"
+70,Chip Arndt,70,4,35,USA4,Chip,,Male,36.0,"Los Angeles, CA"
+71,Kelly Parks,71,4,36,USA4,Kelly,,Female,30.0,"Miami, FL"
+72,Jon Corso,72,4,36,USA4,Jon,,Male,28.0,"Miami, FL"
+73,David Dean,73,4,37,USA4,David,,Male,32.0,"Los Angeles, CA"
+74,Jeff Strand,74,4,37,USA4,Jeff,,Male,37.0,"Los Angeles, CA"
+75,Jon Weiss,75,4,38,USA4,Jon,,Male,40.0,"Long Island, NY"
+76,Al Rios,76,4,38,USA4,Al,,Male,34.0,"Long Island, NY"
+77,Millie Smith,77,4,39,USA4,Millie,,Female,29.0,"Chattanooga, TN"
+78,Chuck Shankles,78,4,39,USA4,Chuck,,Male,28.0,"Chattanooga, TN"
+79,Tian Kitchen,79,4,40,USA4,Tian,,Female,30.0,"Miami, FL"
+80,Jaree Poteet,80,4,40,USA4,Jaree,,Female,33.0,"Miami, FL"
+81,Monica Ambrose,81,4,41,USA4,Monica,,Female,29.0,"Duluth, GA"
+82,Sheree Buchanan,82,4,41,USA4,Sheree,,Female,31.0,"Duluth, GA"
+83,Steve Meitz,83,4,42,USA4,Steve,,Male,46.0,"Chicago, IL"
+84,Dave Cottingham,84,4,42,USA4,Dave,,Male,43.0,"Chicago, IL"
+85,Steve Cottingham,85,4,43,USA4,Steve,,Male,47.0,"Santa Barbara, CA"
+86,Josh Cottingham,86,4,43,USA4,Josh,,Male,21.0,"Los Angeles, CA"
+87,Russell Brown,87,4,44,USA4,Russell,,Male,32.0,"Hermosa Beach, CA"
+88,Cindy Duck,88,4,44,USA4,Cindy,,Female,39.0,"Los Angeles, CA"
+89,Amanda Adams,89,4,45,USA4,Amanda,,Female,25.0,"Sioux Falls, SD"
+90,Chris Garry,90,4,45,USA4,Chris,,Male,28.0,"Sioux Falls, SD"
+91,Debra Carmody,91,4,46,USA4,Debra,,Female,49.0,"Louisville, KY"
+92,Steve Carmody,92,4,46,USA4,Steve,,Male,40.0,"Louisville, KY"
+93,Chip McAllister,93,5,47,USA5,Chip,,Male,46.0,"Coto de Caza, CA"
+94,Kim McAllister,94,5,47,USA5,Kim,,Female,44.0,"Coto de Caza, CA"
+95,Colin Guinn,95,5,48,USA5,Colin,,Male,24.0,"Corpus Christi, TX"
+96,Christie Woods,96,5,48,USA5,Christie,,Female,26.0,"Corpus Christi, TX"
+97,Brandon Davidson,97,5,49,USA5,Brandon,,Male,25.0,"Los Angeles, CA"
+98,Nicole O'Brian,98,5,49,USA5,Nicole,,Female,21.0,"Los Angeles, CA"
+99,Linda Ruiz,99,5,50,USA5,Linda,,Female,45.0,"Palmdale, CA"
+100,Karen Heins,100,5,50,USA5,Karen,,Female,41.0,"Palmdale, CA"
+101,Kami French,101,5,51,USA5,Kami,,Female,26.0,"Eugene, OR"
+102,Karli French,102,5,51,USA5,Karli,,Female,26.0,"Eugene, OR"
+103,Charla Baklayan Faddoul,103,5,52,USA5,Charla,,Female,27.0,"Phoenix, MD"
+104,Mirna Hindoyan,104,5,52,USA5,Mirna,,Female,27.0,"Towson, MD"
+105,Marshall Hudes,105,5,53,USA5,Marshall,,Male,31.0,"Dallas, TX"
+106,Lance Hudes,106,5,53,USA5,Lance,,Male,26.0,"Dallas, TX"
+107,Bob Barron,107,5,54,USA5,Bob,,Male,61.0,"Mount Laurel, NJ"
+108,Joyce Nicolo,108,5,54,USA5,Joyce,,Female,54.0,"Mount Laurel, NJ"
+109,Jim McCoy,109,5,55,USA5,Jim,,Male,53.0,"Jacksonville, FL"
+110,Marsha McCoy,110,5,55,USA5,Marsha,,Female,26.0,"Gainesville, FL"
+111,Alison Irwin,111,5,56,USA5,Alison,,Female,23.0,"Meadville, PA"
+112,Donny Patrick,112,5,56,USA5,Donny,,Male,21.0,"Shenandoah, PA"
+113,Dennis Frentsos,113,5,57,USA5,Dennis,,Male,27.0,"West Nyack, NY"
+114,Erika Shay,114,5,57,USA5,Erika,,Female,25.0,"Piermont, NY"
+115,Freddy Holliday,115,6,58,USA6,Freddy,,Male,34.0,"Miami, FL"
+116,Kendra Bentley,116,6,58,USA6,Kendra,,Female,25.0,"Miami, FL"
+117,Kris Perkins,117,6,59,USA6,Kris,,Female,30.0,"Long Beach, CA"
+118,Jon Buehler,118,6,59,USA6,Jon,,Male,29.0,"Scottsdale, AZ"
+119,Adam Malis,119,6,60,USA6,Adam,,Male,27.0,"Los Angeles, CA"
+120,Rebecca Cardon,120,6,60,USA6,Rebecca,,Female,29.0,"Los Angeles, CA"
+121,Hayden Kristianson,121,6,61,USA6,Hayden,,Female,31.0,"Chicago, IL"
+122,Aaron Crumbaugh,122,6,61,USA6,Aaron,,Male,31.0,"Chicago, IL"
+123,Lori Harvey,123,6,62,USA6,Lori,,Female,33.0,"Molino, FL"
+124,Bolo Dar'tainian,124,6,62,USA6,Bolo,,Male,38.0,"Molino, FL"
+125,Jonathan Baker,125,6,63,USA6,Jonathan,,Male,42.0,"Los Angeles, CA"
+126,Victoria Fuller,126,6,63,USA6,Victoria,,Female,32.0,"Los Angeles, CA"
+127,Gustavius McLeod,127,6,64,USA6,Gus,,Male,50.0,"Gaithersburg, MD"
+128,Hera McLeod,128,6,64,USA6,Hera,,Female,24.0,"Los Angeles, CA"
+129,Donald St. Claire,129,6,65,USA6,Don,,Male,69.0,"Portola Valley, CA"
+130,Mary Jean St. Claire,130,6,65,USA6,Mary Jean,,Female,66.0,"Portola Valley, CA"
+131,Lena Jensen,131,6,66,USA6,Lena,,Female,23.0,"Pleasant Grove, UT"
+132,Kristy Jensen,132,6,66,USA6,Kristy,,Female,26.0,"Pleasant Grove, UT"
+133,Meredith Tufaro,133,6,67,USA6,Meredith,,Female,26.0,"Queens, NY"
+134,Maria Sampogna,134,6,67,USA6,Maria,,Female,26.0,"Queens, NY"
+135,Avi Schneier,135,6,68,USA6,Avi,,Male,32.0,"Brooklyn, NY"
+136,Joe Rashbaum,136,6,68,USA6,Joe,,Male,32.0,"Ventura, CA"
+137,Uchenna Agu,137,7,69,USA7,Uchenna,,Male,40.0,"Houston, TX"
+138,Joyce Agu,138,7,69,USA7,Joyce,,Female,44.0,"Houston, TX"
+139,Rob Mariano,139,7,70,USA7,Rob,,Male,29.0,"Canton, MA"
+140,Amber Brkich,140,7,70,USA7,Amber,,Female,26.0,"Beaver, PA"
+141,"Ronald Young, Jr.",141,7,71,USA7,Ron,,Male,28.0,"Villa Rica, GA"
+142,Kelly McCorkle,142,7,71,USA7,Kelly,,Female,26.0,"Greenville, SC"
+143,Meredith Smith,143,7,72,USA7,Meredith,,Male,69.0,"Easton, MD"
+144,Gretchen Smith,144,7,72,USA7,Gretchen,,Female,66.0,"Easton, MD"
+145,Lynn Warren,145,7,73,USA7,Lynn,,Male,30.0,"West Hollywood, CA"
+146,Alex Ali,146,7,73,USA7,Alex,,Male,22.0,"West Hollywood, CA"
+147,Brian Smith,147,7,74,USA7,Brian,,Male,27.0,"Santa Monica, CA"
+148,Greg Smith,148,7,74,USA7,Greg,,Male,24.0,"Santa Monica, CA"
+149,Ray Hosteau,149,7,75,USA7,Ray,,Male,44.0,"Canfield, OH"
+150,Deana Shane,150,7,75,USA7,Deana,,Female,27.0,"Youngstown, OH"
+151,Susan Vaughn,151,7,76,USA7,Susan,,Female,54.0,"Hamilton, OH"
+152,Patrick Vaughn,152,7,76,USA7,Patrick,,Male,26.0,"Hamilton, OH"
+153,Debbie Cloyed,153,7,77,USA7,Debbie,,Female,25.0,"Woodbridge, VA"
+154,Bianca Smith,154,7,77,USA7,Bianca,,Female,26.0,"Woodbridge, VA"
+155,Megan Baker,155,7,78,USA7,Megan,,Female,26.0,"Oak Park, CA"
+156,Heidi Heidel,156,7,78,USA7,Heidi,,Female,31.0,"Oak Park, CA"
+157,Ryan Phillips,157,7,79,USA7,Ryan,,Male,31.0,"Landrum, SC"
+158,Chuck Horton,158,7,79,USA7,Chuck,,Male,32.0,"Inman, SC"
+159,Nicholas Linz,159,8,80,USA8,Nick,,Male,24.0,"Cincinnati, OH"
+160,Alexander Linz,160,8,80,USA8,Alex,,Male,22.0,"Cincinnati, OH"
+161,Megan Linz,161,8,80,USA8,Megan,,Female,21.0,"Cincinnati, OH"
+162,Thomas Linz,162,8,80,USA8,Tommy,,Male,19.0,"Cincinnati, OH"
+163,Walter Bransen,163,8,81,USA8,Wally,,Male,51.0,"Park Ridge, IL"
+164,Elizabeth Bransen,164,8,81,USA8,Beth,,Female,25.0,"Park Ridge, IL"
+165,Lauren Bransen,165,8,81,USA8,Lauren,,Female,22.0,"Park Ridge, IL"
+166,Lindsay Bransen,166,8,81,USA8,Lindsay,,Female,20.0,"Park Ridge, IL"
+167,Linda Weaver,167,8,82,USA8,Linda,,Female,46.0,"Ormond Beach, FL"
+168,Rebecca Weaver,168,8,82,USA8,Rebecca,,Female,19.0,"Ormond Beach, FL"
+169,Rachel Weaver,169,8,82,USA8,Rachel,,Female,16.0,"Ormond Beach, FL"
+170,Roy Holland Weaver IV,170,8,82,USA8,Rolly,,Male,14.0,"Ormond Beach, FL"
+171,Michelle Godlewski,171,8,83,USA8,Michelle,,Female,42.0,"Des Plaines, IL"
+172,Sharon Godlewski,172,8,83,USA8,Sharon,,Female,39.0,"Des Plaines, IL"
+173,Christine Godlewski,173,8,83,USA8,Christine,,Female,37.0,"Des Plaines, IL"
+174,Patricia Godlewski,174,8,83,USA8,Tricia,,Female,26.0,"Des Plaines, IL"
+175,Anthony Paolo,175,8,84,USA8,Tony,,Male,52.0,"Carmel, NY"
+176,Marion Paolo,176,8,84,USA8,Marion,,Female,52.0,"Carmel, NY"
+177,DJ Paolo,177,8,84,USA8,DJ,,Male,24.0,"Carmel, NY"
+178,Brian Paolo,178,8,84,USA8,Brian,,Male,16.0,"Carmel, NY"
+179,William Gaghan,179,8,85,USA8,Bill,,Male,40.0,"Glastonbury, CT"
+180,Tamara Gaghan,180,8,85,USA8,Tammy,,Female,42.0,"Glastonbury, CT"
+181,"William Gaghan, Jr.",181,8,85,USA8,Billy,,Male,12.0,"Glastonbury, CT"
+182,Carissa Gaghan,182,8,85,USA8,Carissa,,Female,9.0,"Glastonbury, CT"
+183,Mark Schroeder,183,8,86,USA8,Mark,,Male,40.0,"New Orleans, LA"
+184,Char Schroeder,184,8,86,USA8,Char,,Female,39.0,"New Orleans, LA"
+185,Nastassia Schroeder,185,8,86,USA8,Stassi,,Female,17.0,"New Orleans, LA"
+186,Hunter Schroeder,186,8,86,USA8,Hunter,,Male,15.0,"New Orleans, LA"
+187,Anthony Aiello,187,8,87,USA8,Tony,,Male,57.0,"Mansfield, MA"
+188,Kevin Kempskie,188,8,87,USA8,Kevin,,Male,31.0,"Mansfield, MA"
+189,Matthew Hanson,189,8,87,USA8,Matt,,Male,31.0,"Mansfield, MA"
+190,David Alverson,190,8,87,USA8,David,,Male,26.0,"Mansfield, MA"
+191,Denny Rogers,191,8,88,USA8,Denny,,Male,46.0,"Shreveport, LA"
+192,Renee Rogers,192,8,88,USA8,Renee,,Female,42.0,"Shreveport, LA"
+193,Brittney Rogers,193,8,88,USA8,Brittney,,Female,22.0,"Shreveport, LA"
+194,Brock Rogers,194,8,88,USA8,Brock,,Male,19.0,"Shreveport, LA"
+195,Reggie Black,195,8,89,USA8,Reggie,,Male,42.0,"Woodbridge, VA"
+196,Kimberly Black,196,8,89,USA8,Kimberly,,Female,40.0,"Woodbridge, VA"
+197,Kenneth Black,197,8,89,USA8,Kenneth,,Male,11.0,"Woodbridge, VA"
+198,Austin Black,198,8,89,USA8,Austin,,Male,8.0,"Woodbridge, VA"
+199,Brian Jeffrey Averell,199,9,90,USA9,BJ,,Male,26.0,"Los Angeles, CA"
+200,Tyler MacNiven,200,9,90,USA9,Tyler,,Male,25.0,"San Francisco, CA"
+201,Eric Sanchez,201,9,91,USA9,Eric,,Male,27.0,"Deerfield Beach, FL"
+202,Jeremy Ryan,202,9,91,USA9,Jeremy,,Male,26.0,"Pompano Beach, FL"
+203,Raymond Whitty,203,9,92,USA9,Ray,,Male,27.0,"Chicago, IL"
+204,Yolanda Brown-Moore,204,9,92,USA9,Yolanda,,Female,27.0,"Chicago, IL"
+205,Joseph Meadows,205,9,93,USA9,Joseph,,Male,23.0,"Fort Smith, AR"
+206,Monica Cayce,206,9,93,USA9,Monica,,Female,23.0,"Fort Smith, AR"
+207,Francis Lazarus,207,9,94,USA9,Fran,,Female,61.0,"Silverthorne, CO"
+208,Bernard Lazarus,208,9,94,USA9,Barry,,Male,63.0,"Silverthorne, CO"
+209,Terry Garner,209,9,95,USA9,Lake,,Male,37.0,"Hattiesburg, MS"
+210,Michelle Garner,210,9,95,USA9,Michelle,,Female,36.0,"Hattiesburg, MS"
+211,David Spiker,211,9,96,USA9,Dave,,Male,30.0,"Manhattan, KS"
+212,Lori Willems,212,9,96,USA9,Lori,,Female,25.0,"Manhattan, KS"
+213,Danielle Turner,213,9,97,USA9,Danielle,,Female,22.0,"Staten Island, NY"
+214,Danielle Torchio,214,9,97,USA9,Dani,,Female,22.0,"Staten Island, NY"
+215,Wanda Lopez-Rochford,215,9,98,USA9,Wanda,,Female,44.0,"Smyrna, GA"
+216,Desiree Cifre,216,9,98,USA9,Desiree,,Female,24.0,"New York, NY"
+217,Lisa Hinds,217,9,99,USA9,Lisa,,Female,48.0,"Santa Rosa Beach, FL"
+218,Joni Glaze,218,9,99,USA9,Joni,,Female,44.0,"Katy, TX"
+219,John Lowe,219,9,100,USA9,John,,Male,38.0,"Dorchester, MA"
+220,Scott Braginton-Smith,220,9,100,USA9,Scott,,Male,41.0,"West Harwich, MA"
+221,Tyler Denk,221,10,101,USA10,Tyler,,Male,29.0,"Los Angeles, CA"
+222,James Branaman,222,10,101,USA10,James,,Male,27.0,"Los Angeles, CA"
+223,Robert Diaz,223,10,102,USA10,Rob,,Male,31.0,"Los Angeles, CA"
+224,Kimberly Chabolla,224,10,102,USA10,Kimberly,,Female,28.0,"Los Angeles, CA"
+225,Lynette Turk,225,10,103,USA10,Lyn,,Female,32.0,"Birmingham, AL"
+226,Karlyn Harris,226,10,103,USA10,Karlyn,,Female,32.0,"Helena, AL"
+227,Dustin-Leigh Konzelman,227,10,104,USA10,Dustin,,Female,24.0,"Riverside, CA"
+228,Kandice Pelletier,228,10,104,USA10,Kandice,,Female,24.0,"New York, NY"
+229,Erwin Cho,229,10,105,USA10,Erwin,,Male,32.0,"San Francisco, CA"
+230,Godwin Cho,230,10,105,USA10,Godwin,,Male,29.0,"San Francisco, CA"
+231,"David Conley, Jr.",231,10,106,USA10,David,,Male,32.0,"Stone, KY"
+232,Mary Conley,232,10,106,USA10,Mary,,Female,31.0,"Stone, KY"
+233,Peter Harsch,233,10,107,USA10,Peter,,Male,35.0,"Laguna Beach, CA"
+234,Sarah Reinertsen,234,10,107,USA10,Sarah,,Female,31.0,"Trabuco Canyon, CA"
+235,Thomas Rock,235,10,108,USA10,Tom,,Male,39.0,"New York, NY"
+236,Terrance Cosentino,236,10,108,USA10,Terry,,Male,45.0,"New York, NY"
+237,Duke Marcoccio,237,10,109,USA10,Duke,,Male,52.0,"Warwick, RI"
+238,Lauren Marcoccio,238,10,109,USA10,Lauren,,Female,26.0,"Warwick, RI"
+239,Kellie Patterson,239,10,110,USA10,Kellie,,Female,22.0,"Columbia, SC"
+240,Jamie Hill,240,10,110,USA10,Jamie,,Female,22.0,"Columbia, SC"
+241,Vipul Patel,241,10,111,USA10,Vipul,,Male,29.0,"Windermere, FL"
+242,Arti Patel,242,10,111,USA10,Arti,,Female,26.0,"Windermere, FL"
+243,Bilal Abdul-Mani,243,10,112,USA10,Bilal,,Male,37.0,"Cleveland, OH"
+244,Sa'eed Rudolph,244,10,112,USA10,Sa'eed,,Male,39.0,"Cleveland, OH"
+245,Zabrina Fernandez,245,11,113,ASI1,Zabrina,,Female,26.0,"Kuala Lumpur, Malaysia"
+246,Joe Jer Tee,246,11,113,ASI1,Joe Jer,,Female,29.0,"Kuala Lumpur, Malaysia"
+247,Sandy Sydney,247,11,114,ASI1,Sandy,,Male,29.0,Hong Kong
+248,Francesca Etzdorf,248,11,114,ASI1,Francesca,,Female,27.0,Hong Kong
+249,Andrew Tan,249,11,115,ASI1,Andrew,,Male,26.0,"Kuala Lumpur, Malaysia"
+250,Park Syeon,250,11,115,ASI1,Syeon,,Female,28.0,"Kuala Lumpur, Malaysia"
+251,Mardy Juwono,251,11,116,ASI1,Mardy,,Male,36.0,"Jakarta, Indonesia"
+252,Marsio Juwono,252,11,116,ASI1,Marsio,,Male,34.0,"Jakarta, Indonesia"
+253,Andy Lawson,253,11,117,ASI1,Andy,,Male,28.0,"Koh Samui, Thailand"
+254,Laura Kluk,254,11,117,ASI1,Laura,,Female,37.0,"Koh Samui, Thailand"
+255,Howard Bicknell,255,11,118,ASI1,Howard,,Male,39.0,"Colombo, Sri Lanka"
+256,Sahran Abeysundara,256,11,118,ASI1,Sahran,,Male,31.0,"Colombo, Sri Lanka"
+257,Melody Chen,257,11,119,ASI1,Melody,,Female,28.0,Singapore
+258,Sharon Wong,258,11,119,ASI1,Sharon,,Female,31.0,Singapore
+259,Sahil Shroff,259,11,120,ASI1,Sahil,,Male,26.0,"Mumbai, India"
+260,Prashant Sachdev,260,11,120,ASI1,Prashant,,Male,26.0,"Mumbai, India"
+261,Aubrey Miles,261,11,121,ASI1,Aubrey,,Female,26.0,"Manila, Philippines"
+262,Jacqueline Yu,262,11,121,ASI1,Jacqueline,,Female,23.0,"Manila, Philippines"
+263,Ernesto Lopez,263,11,122,ASI1,Ernie,,Male,42.0,"Manila, Philippines"
+264,Jill Lopez,264,11,122,ASI1,Jeena,,Female,35.0,"Manila, Philippines"
+265,Eric Sanchez,201,12,123,USA11,Eric,,Male,28.0,"Deerfield Beach, FL"
+266,Danielle Turner,213,12,123,USA11,Danielle,,Female,23.0,"Staten Island, NY"
+267,Dustin Seltzer,227,12,124,USA11,Dustin,,Female,25.0,"Seattle, WA"
+268,Kandice Pelletier,228,12,124,USA11,Kandice,,Female,25.0,"New York, NY"
+269,Charla Baklayan Faddoul,103,12,125,USA11,Charla,,Female,30.0,"Towson, MD"
+270,Mirna Hindoyan,104,12,125,USA11,Mirna,,Female,30.0,"Towson, MD"
+271,Oswald Mendez,29,12,126,USA11,Oswald,,Male,36.0,"New York, NY"
+272,Danny Jimenez,30,12,126,USA11,Danny,,Male,41.0,"Miami, FL"
+273,Uchenna Agu,137,12,127,USA11,Uchenna,,Male,42.0,"Houston, TX"
+274,Joyce Agu,138,12,127,USA11,Joyce,,Female,46.0,"Houston, TX"
+275,Joseph Baldassare,5,12,128,USA11,Joe,,Male,56.0,"Laguna Niguel, CA"
+276,William Bartek,6,12,128,USA11,Bill,,Male,53.0,"Laguna Niguel, CA"
+277,Teri Pollack,47,12,129,USA11,Teri,,Female,53.0,"Palm City, FL"
+278,Ian Pollack,48,12,129,USA11,Ian,,Male,54.0,"Palm City, FL"
+279,Robert Mariano,139,12,130,USA11,Rob,,Male,30.0,"Pensacola, FL"
+280,Amber Mariano,140,12,130,USA11,Amber,,Female,28.0,"Pensacola, FL"
+281,"David Conley, Jr.",231,12,131,USA11,David,,Male,33.0,"Stone, KY"
+282,Mary Conley,232,12,131,USA11,Mary,,Female,32.0,"Stone, KY"
+283,Kevin O'Connor,7,12,132,USA11,Kevin,,Male,40.0,"Bayonne, NJ"
+284,Andrew Feinberg,8,12,132,USA11,Drew,,Male,41.0,"Staten Island, NY"
+285,John Vito Pietanza,53,12,133,USA11,John Vito,,Male,32.0,"New York, NY"
+286,Jillian Aquilino,54,12,133,USA11,Jill,,Female,29.0,"New York, NY"
+287,Patrícia,265,13,134,BRA1,Patrícia,,Female,,"São Paulo, SP"
+288,Sane,266,13,134,BRA1,Sane,,Female,,"São Paulo, SP"
+289,Jonatas Guedes,267,13,135,BRA1,Jonatas,,Male,,"São Paulo, SP"
+290,Rafael,268,13,135,BRA1,Rafael,,Male,,"São Paulo, SP"
+291,Perri,269,13,136,BRA1,Perri,,Male,,"Aracaju, SE"
+292,Maristela,270,13,136,BRA1,Maristela,,Female,,"Aracaju, SE"
+293,Jorge,271,13,137,BRA1,Jorge,,Male,,"Brotas, SP"
+294,Silvia,272,13,137,BRA1,Silvia,,Female,,"Brotas, SP"
+295,Débora,273,13,138,BRA1,Débora,,Female,,"São Paulo, SP"
+296,Daniela,274,13,138,BRA1,Daniela,,Female,,"São Paulo, SP"
+297,Andréa de Carvalho,275,13,139,BRA1,Andréa,,Female,,"São Paulo, SP"
+298,Luciana,276,13,139,BRA1,Luciana,,Female,,"São Paulo, SP"
+299,Milene,277,13,140,BRA1,Milene,,Female,,"São Paulo, SP"
+300,Jaqueline,278,13,140,BRA1,Jaqueline,,Female,,"São Paulo, SP"
+301,Mari Lice,279,13,141,BRA1,Mari Lice,,Female,40.0,Rio Grande do Sul
+302,Tâmisa,280,13,141,BRA1,Tâmisa,,Female,23.0,Rio Grande do Sul
+303,Carlos,281,13,142,BRA1,Carlos,,Male,46.0,"São Paulo, SP"
+304,Eduardo,282,13,142,BRA1,Eduardo,,Male,24.0,"São Paulo, SP"
+305,Narciso,283,13,143,BRA1,Narciso,,Male,31.0,"Belém, PA"
+306,Marcelo,284,13,143,BRA1,Marcelo,,Male,41.0,"Belém, PA"
+307,Sandro,285,13,144,BRA1,Sandro,,Male,28.0,"Rio de Janeiro, RJ"
+308,Daniel,286,13,144,BRA1,Daniel,,Male,23.0,"Rio de Janeiro, RJ"
+309,Thomas Kyle Erwin,287,14,145,USA12,TK,,Male,22.0,"Huntington Beach, CA"
+310,Rachel Rosales,288,14,145,USA12,Rachel,,Female,23.0,"Huntington Beach, CA"
+311,Ronald Hsu,289,14,146,USA12,Ronald,,Male,58.0,"Tacoma, WA"
+312,Christina Hsu,290,14,146,USA12,Christina,,Female,26.0,"Washington, DC"
+313,Nicolas Fulks,291,14,147,USA12,Nicolas,,Male,23.0,"Chicago, IL"
+314,Donald Jerousek,292,14,147,USA12,Donald,,Male,68.0,"Elkhorn, WI"
+315,Nathan Hagstrom,293,14,148,USA12,Nathan,,Male,24.0,"Fountain Valley, CA"
+316,Jennifer Parker,294,14,148,USA12,Jennifer,,Female,23.0,"Huntington Beach, CA"
+317,Kent Cothron,295,14,149,USA12,Kynt,,Male,21.0,"Louisville, KY"
+318,Jennifer Fiala,296,14,149,USA12,Vyxsin,,Female,22.0,"Louisville, KY"
+319,Azaria Azene,297,14,150,USA12,Azaria,,Male,27.0,"New Orleans, LA"
+320,Hendekea Azene,298,14,150,USA12,Hendekea,,Female,23.0,"Torrance, CA"
+321,Shana Wall,299,14,151,USA12,Shana,,Female,32.0,"Los Angeles, CA"
+322,Jennifer McCall,300,14,151,USA12,Jennifer,,Female,32.0,"Los Angeles, CA"
+323,Lorena Segura,301,14,152,USA12,Lorena,,Female,27.0,"Sherman Oaks, CA"
+324,Jason Widener,302,14,152,USA12,Jason,,Male,33.0,"Sherman Oaks, CA"
+325,Marianna Ruiz,303,14,153,USA12,Marianna,,Female,25.0,"Miami, FL"
+326,Julia Ruiz,304,14,153,USA12,Julia,,Female,26.0,"Miami, FL"
+327,Kate Lewis,305,14,154,USA12,Kate,,Female,49.0,"Thousand Oaks, CA"
+328,Patrick Hendrickson,306,14,154,USA12,Pat,,Male,65.0,"Thousand Oaks, CA"
+329,Ari Bonias,307,14,155,USA12,Ari,,Male,21.0,"Fountain Valley, CA"
+330,Staella Gianakakos,308,14,155,USA12,Staella,,Female,23.0,"Fountain Valley, CA"
+331,Adrian Yap,309,15,156,ASI2,Adrian,,Male,27.0,Singapore
+332,Collin Low,310,15,156,ASI2,Collin,,Male,35.0,Singapore
+333,Pamela Chong,311,15,157,ASI2,Pamela,,Female,24.0,"Kuala Lumpur, Malaysia"
+334,Vanessa Chong,312,15,157,ASI2,Vanessa,,Female,29.0,"Kuala Lumpur, Malaysia"
+335,Marc Nelson,313,15,158,ASI2,Marc,,Male,31.0,"Manila, Philippines"
+336,Rovilson Fernandez,314,15,158,ASI2,Rovilson,,Male,30.0,"Dagupan, Philippines"
+337,Diane Douglas,315,15,159,ASI2,Diane,,Female,33.0,"Kuala Lumpur, Malaysia"
+338,Ann Tan,316,15,159,ASI2,Ann,,Female,40.0,"Kuala Lumpur, Malaysia"
+339,Natasha Monks,317,15,160,ASI2,Natasha,,Female,24.0,"Bangkok, Thailand"
+340,Paula Taylor,318,15,160,ASI2,Paula,,Female,24.0,"Bangkok, Thailand"
+341,Trinidad Reed,319,15,161,ASI2,Terri,,Female,44.0,"Manila, Philippines"
+342,Henry Reed,320,15,161,ASI2,Henry,,Male,48.0,"Manila, Philippines"
+343,Daichi Kawashima,321,15,162,ASI2,Daichi,,Male,26.0,"Tokyo, Japan"
+344,Sawaka Kawashima,322,15,162,ASI2,Sawaka,,Female,28.0,"Tokyo, Japan"
+345,Sophie Teng,323,15,163,ASI2,Sophie,,Female,27.0,Hong Kong
+346,Aurelia Chenat,324,15,163,ASI2,Aurelia,,Female,27.0,Hong Kong
+347,Kinaryosih,325,15,164,ASI2,Kinaryosih,,Male,28.0,"Jakarta, Indonesia"
+348,Brett Money,326,15,164,ASI2,Brett,,Male,26.0,"Jakarta, Indonesia"
+349,Edwin Lo,327,15,165,ASI2,Edwin,,Male,26.0,Hong Kong
+350,Monica Lo,328,15,165,ASI2,Monica,,Female,28.0,Hong Kong
+351,Vincent Chung,329,16,166,ASI3,Vince,,Male,32.0,Hong Kong
+352,Samuel Wu,330,16,166,ASI3,Sam,,Male,32.0,Hong Kong
+353,Geoffrey Rodriguez,331,16,167,ASI3,Geoff,,Male,26.0,"Batangas, Philippines"
+354,Tisha Silang,332,16,167,ASI3,Tisha,,Female,32.0,"Batangas, Philippines"
+355,Ida Nerina,333,16,168,ASI3,Ida,,Female,44.0,"Kuala Lumpur, Malaysia"
+356,Tania Khan,334,16,168,ASI3,Tania,,Female,36.0,"Kuala Lumpur, Malaysia"
+357,Adeline Chan,335,16,169,ASI3,A.D.,,Female,34.0,Singapore
+358,Faeza Sirajudin,336,16,169,ASI3,Fuzzie,,Female,34.0,Singapore
+359,Henry Chan,337,16,170,ASI3,Henry,,Male,43.0,"Kuala Lumpur, Malaysia"
+360,Bernadette Chan,338,16,170,ASI3,Bernie,,Female,39.0,"Kuala Lumpur, Malaysia"
+361,Visa Sarasas,339,16,171,ASI3,Mai,,Female,24.0,"Bangkok, Thailand"
+362,Oliver Faivre,340,16,171,ASI3,Oliver,,Male,25.0,"Bangkok, Thailand"
+363,Niroo Asrani,341,16,172,ASI3,Niroo,,Male,53.0,"Mumbai, India"
+364,Kapil Asrani,342,16,172,ASI3,Kapil,,Male,25.0,"Mumbai, India"
+365,Pailin Rungratanasunthorn,343,16,173,ASI3,Pailin,,Female,25.0,"Bangkok, Thailand"
+366,Natalie Glebova,344,16,173,ASI3,Natalie,,Female,26.0,"Bangkok, Thailand"
+367,Isaac Hong,345,16,174,ASI3,Isaac,,Male,29.0,"Seoul, South Korea"
+368,William Hong,346,16,174,ASI3,William,,Male,26.0,"Seoul, South Korea"
+369,Neena Rai,347,16,175,ASI3,Neena,,Female,24.0,"Delhi, India"
+370,Amit Rai,348,16,175,ASI3,Amit,,Male,27.0,"Delhi, India"
+371,Nicholas Spangler,349,17,176,USA13,Nick,,Male,22.0,"New York, NY"
+372,Emily Spangler,350,17,176,USA13,Starr,,Female,21.0,"Fort Worth, TX"
+373,Kenneth Greene,351,17,177,USA13,Ken,,Male,51.0,"Tampa, FL"
+374,Christina Greene,352,17,177,USA13,Tina,,Female,48.0,"San Diego, CA"
+375,Andre Lappitt,353,17,178,USA13,Andrew,,Male,22.0,"Tucson, AZ"
+376,Daniel Honig,354,17,178,USA13,Dan,,Male,23.0,"Wilmington, DE"
+377,Anttoni Imbimbo,355,17,179,USA13,Toni,,Female,51.0,"Woodside, CA"
+378,Dallas Imbimbo,356,17,179,USA13,Dallas,,Male,22.0,"Woodside, CA"
+379,Terence Gerchberg,357,17,180,USA13,Terence,,Male,35.0,"New York, NY"
+380,Sarah Leshner,358,17,180,USA13,Sarah,,Female,31.0,"New York, NY"
+381,Kelly Crabb,359,17,181,USA13,Kelly,,Female,26.0,"Houston, TX"
+382,Christy Cook,360,17,181,USA13,Christy,,Female,26.0,"Austin, TX"
+383,Aja Benton,361,17,182,USA13,Aja,,Female,25.0,"Los Angeles, CA"
+384,Tyrone White,362,17,182,USA13,Ty,,Male,25.0,"West Bloomfield, MI"
+385,Marisa Axelrod,363,17,183,USA13,Marisa,,Female,22.0,"Spartanburg, SC"
+386,Brooke Jackson,364,17,183,USA13,Brooke,,Female,24.0,"Columbia, SC"
+387,Mark Yturralde,365,17,184,USA13,Mark,,Male,41.0,"San Diego, CA"
+388,William Kahler,366,17,184,USA13,Bill,,Male,42.0,"San Diego, CA"
+389,Anthony Marotta,367,17,185,USA13,Anthony,,Male,32.0,"Los Angeles, CA"
+390,Stephanie Kacandes,368,17,185,USA13,Stephanie,,Female,32.0,"Los Angeles, CA"
+391,Anita Jones,369,17,186,USA13,Anita,,Female,63.0,"Eugene, OR"
+392,Arthur Jones,370,17,186,USA13,Arthur,,Male,61.0,"Eugene, OR"
+393,Shay Kahana,371,18,187,ISR1,Shay,,Male,32.0,Tel Aviv
+394,Guy Osadon,372,18,187,ISR1,Guy,,Male,30.0,Tel Aviv
+395,Maya Kramer,373,18,188,ISR1,Maya,,Female,30.0,Tel Aviv
+396,Amichay Gat,374,18,188,ISR1,Amichay,,Male,33.0,Tel Aviv
+397,Tom Kilman,375,18,189,ISR1,Tom,,Female,27.0,Herzliya
+398,Gil Kislev,376,18,189,ISR1,Gil,,Male,54.0,Herzliya
+399,Michal Shaviv,377,18,190,ISR1,Michal,,Female,35.0,Or Yehuda
+400,Ran Shaviv,378,18,190,ISR1,Ran,,Male,39.0,Or Yehuda
+401,Hadas Federman,379,18,191,ISR1,Hadas,,Female,24.0,Herzliya
+402,Inbal Shelevi,380,18,191,ISR1,Inbal,,Female,24.0,Herzliya
+403,Eliana Turgeman,381,18,192,ISR1,Eliana,,Female,33.0,Tel Aviv
+404,Yael Ambar,382,18,192,ISR1,Yael,,Female,32.0,Ramat Hasharon
+405,Hannah Shaham,383,18,193,ISR1,Hannah,,Female,55.0,Ashdot Ya'akov
+406,Margalit Koenig,384,18,193,ISR1,Margalit,,Female,62.0,Dganya B
+407,Alen Bilig,385,18,194,ISR1,Alen,,Male,32.0,Tel Aviv
+408,Inbal Harel,386,18,194,ISR1,Inbal,,Female,26.0,Tel Aviv
+409,Maor Galam,387,18,195,ISR1,Maor,,Male,24.0,Ashdod
+410,Asher Donsoili,388,18,195,ISR1,Asher,,Male,24.0,Ashdod
+411,Liran Kohener,389,18,196,ISR1,Liran,,Female,20.0,Rishon Lezion
+412,Elena Ralph,390,18,196,ISR1,Elena,,Female,24.0,Ramat Gan
+413,Tamara Jih,391,19,197,USA14,Tammy,,Female,26.0,"San Francisco, CA"
+414,Victor Jih,392,19,197,USA14,Victor,,Male,35.0,"Los Angeles, CA"
+415,Jaime Faith Edmondson,393,19,198,USA14,Jaime,,Female,29.0,"Fort Lauderdale, FL"
+416,Cara Rosenthal,394,19,198,USA14,Cara,,Female,26.0,"Boca Raton, FL"
+417,Margaret Adams,395,19,199,USA14,Margie,,Female,50.0,"Denver, CO"
+418,Luke Adams,396,19,199,USA14,Luke,,Male,22.0,"Denver, CO"
+419,LaKisha Hoffman,397,19,200,USA14,Kisha,,Female,28.0,"Bronx, NY"
+420,Jennifer Hoffman,398,19,200,USA14,Jen,,Female,24.0,"Louisville, KY"
+421,Mark Munoz,399,19,201,USA14,Mark,,Male,48.0,"Los Angeles, CA"
+422,Michael Munoz,400,19,201,USA14,Michael,,Male,51.0,"Maui, HI"
+423,James White,401,19,202,USA14,Mel,,Male,68.0,"Lynchburg, VA"
+424,Michael White,402,19,202,USA14,Mike,,Male,38.0,"Santa Monica, CA"
+425,Christina Volkmer,403,19,203,USA14,Christie,,Female,37.0,"Choctaw, OK"
+426,Jordan Wincheski,404,19,203,USA14,Jodi,,Female,40.0,"Houston, TX"
+427,Amanda Blackledge,405,19,204,USA14,Amanda,,Female,23.0,"San Diego, CA"
+428,Kristopher Klicka,406,19,204,USA14,Kris,,Male,24.0,"San Diego, CA"
+429,Bradley Hunt,407,19,205,USA14,Brad,,Male,52.0,"Columbus, OH"
+430,Victoria Hunt,408,19,205,USA14,Victoria,,Female,47.0,"Columbus, OH"
+431,Steven Cole,409,19,206,USA14,Steve,,Male,43.0,"Martinsville, VA"
+432,Linda Cole,410,19,206,USA14,Linda,,Female,52.0,"Martinsville, VA"
+433,Preston McCamy,411,19,207,USA14,Preston,,Male,28.0,"Columbia, SC"
+434,Jennifer Hopka,412,19,207,USA14,Jennifer,,Female,26.0,"Columbia, SC"
+435,Matías Franchini,413,20,208,LAM1,Matías,,Male,35.0,"Buenos Aires, Argentina"
+436,Tamara Reichelt,414,20,208,LAM1,Tamara,,Female,29.0,"Buenos Aires, Argentina"
+437,Daniel España,415,20,209,LAM1,Daniel,,Male,55.0,"Caracas, Venezuela"
+438,David Galavis,416,20,209,LAM1,David,,Male,23.0,"Caracas, Venezuela"
+439,Fernanda Guzmán,417,20,210,LAM1,Ferna,,Female,28.0,"Santiago, Chile"
+440,Francisco Coombs,418,20,210,LAM1,Fran,,Female,28.0,"Santiago, Chile"
+441,Daniel Mastroiano,419,20,211,LAM1,Daniel,,Male,27.0,"Araraquara, Brazil"
+442,Carlos Tavares,420,20,211,LAM1,Carlos,,Male,29.0,"Araraquara, Brazil"
+443,Rodrigo Alergo,421,20,212,LAM1,Rodrigo,,Male,29.0,"São Paulo, Brazil"
+444,Anna Arestivo,422,20,212,LAM1,Anna,,Female,28.0,"São Paulo, Brazil"
+445,Casilda Creixell,423,20,213,LAM1,Casilda C.,,Female,55.0,"Mexico City, Mexico"
+446,Casilda Pérez,424,20,213,LAM1,Casilda P.,,Female,30.0,"Mexico City, Mexico"
+447,Diego Chaustre,425,20,214,LAM1,Diego,,Male,28.0,"Bogotá, Colombia"
+448,Miguel Kurmen,426,20,214,LAM1,Miguel,,Male,26.0,"Bogotá, Colombia"
+449,Mario Torres,427,20,215,LAM1,Mario,,Male,38.0,"Bucaramanga, Colombia"
+450,Melissa Figueredo,428,20,215,LAM1,Melissa,,Female,24.0,"Bucaramanga, Colombia"
+451,Ricardo Acevedo,429,20,216,LAM1,Ricardo,,Male,60.0,"Panama City, Panama"
+452,Adriana Acevedo,430,20,216,LAM1,Adriana,,Female,26.0,"Panama City, Panama"
+453,Guillermo Villarreal,431,20,217,LAM1,Guillermo,,Male,33.0,"Playa del Carmen, Mexico"
+454,Gabriel Villarreal,432,20,217,LAM1,Gabriel,,Male,33.0,"Playa del Carmen, Mexico"
+455,Nora Saravia,433,20,218,LAM1,Nora,,Female,33.0,"Rosario, Argentina"
+456,Ariel Saravia,434,20,218,LAM1,Ariel,,Male,26.0,"Rosario, Argentina"
+457,Meghan Rickey,435,21,219,USA15,Meghan,,Female,23.0,"San Diego, CA"
+458,Cheyne Whitney,436,21,219,USA15,Cheyne,,Male,23.0,"San Diego, CA"
+459,Samuel McMillen,437,21,220,USA15,Sam,,Male,23.0,"Liberty, MO"
+460,Daniel McMillen,438,21,220,USA15,Dan,,Male,21.0,"Liberty, MO"
+461,Brian Kleinschmidt,439,21,221,USA15,Brian,,Male,27.0,"Nashville, TN"
+462,Ericka Dunlap,440,21,221,USA15,Ericka,,Female,27.0,"Nashville, TN"
+463,Herbert Lang,441,21,222,USA15,Flight Time,,Male,32.0,"Brinkley, AR"
+464,Nathaniel Lofton,442,21,222,USA15,Big Easy,,Male,28.0,"New Orleans, LA"
+465,Gary Tomljenovich,443,21,223,USA15,Gary,,Male,47.0,"Laurel, MT"
+466,Matthew Tomljenovich,444,21,223,USA15,Matt,,Male,22.0,"Bozeman, MT"
+467,Maria Ho,445,21,224,USA15,Maria,,Female,26.0,"Arcadia, CA"
+468,Tiffany Michelle,446,21,224,USA15,Tiffany,,Female,25.0,"Los Angeles, CA"
+469,Mika Combs,447,21,225,USA15,Mika,,Female,22.0,"Nashville, TN"
+470,Canaan Smith,448,21,225,USA15,Canaan,,Male,26.0,"Nashville, TN"
+471,Lance Layne,449,21,226,USA15,Lance,,Male,41.0,"Salem, MA"
+472,Keri Morrione,450,21,226,USA15,Keri,,Female,33.0,"Peabody, MA"
+473,Zev Glassenberg,451,21,227,USA15,Zev,,Male,26.0,"Sherman Oaks, CA"
+474,Justin Kanew,452,21,227,USA15,Justin,,Male,30.0,"Los Angeles, CA"
+475,Marcy Malloy,453,21,228,USA15,Marcy,,Female,60.0,"San Francisco, CA"
+476,Ronald Shalita,454,21,228,USA15,Ron,,Male,59.0,"San Francisco, CA"
+477,Garrett Paul,455,21,229,USA15,Garrett,,Male,28.0,"Santa Cruz, CA"
+478,Jessica Stout,456,21,229,USA15,Jessica,,Female,27.0,"San Francisco, CA"
+479,Eric Paskel,457,21,230,USA15,Eric,,Male,41.0,"Encino, CA"
+480,Lisa Paskel,458,21,230,USA15,Lisa,,Female,43.0,"Encino, CA"
+481,Daniel Pious,459,22,231,USA16,Dan,,Male,24.0,"Barrington, RI"
+482,Jordan Pious,460,22,231,USA16,Jordan,,Male,22.0,"Barrington, RI"
+483,Jet McCoy,461,22,232,USA16,Jet,,Male,30.0,"Ada, OK"
+484,Cord McCoy,462,22,232,USA16,Cord,,Male,29.0,"Tupelo, OK"
+485,Brent Horne,463,22,233,USA16,Brent,,Male,28.0,"Columbia, SC"
+486,Lauren Caitlin Upton,464,22,233,USA16,Caite,,Female,20.0,"Lexington, SC"
+487,Louis Stravato,465,22,234,USA16,Louie,,Male,47.0,"Providence, RI"
+488,Michael Naylor,466,22,234,USA16,Michael,,Male,45.0,"Providence, RI"
+489,Carol Rosenfeld,467,22,235,USA16,Carol,,Female,47.0,"Los Angeles, CA"
+490,Brandy Snow,468,22,235,USA16,Brandy,,Female,40.0,"Los Angeles, CA"
+491,Steven Smith,469,22,236,USA16,Steve,,Male,57.0,"Encinitas, CA"
+492,Allison Smith,470,22,236,USA16,Allie,,Female,23.0,"Encinitas, CA"
+493,Jordan Lloyd,471,22,237,USA16,Jordan,,Female,22.0,"Charlotte, NC"
+494,Jeffery Schroeder,472,22,237,USA16,Jeff,,Male,31.0,"Norridge, IL"
+495,Joseph Wang,473,22,238,USA16,Joe,,Male,42.0,"El Segundo, CA"
+496,Heidi Wang,474,22,238,USA16,Heidi,,Female,37.0,"El Segundo, CA"
+497,Monique Pryor,475,22,239,USA16,Monique,,Female,39.0,"West Orange, NJ"
+498,Shawne Morgan,476,22,239,USA16,Shawne,,Female,39.0,"Bowie, MD"
+499,Jordan Kelly,477,22,240,USA16,Jody,,Female,71.0,"Round Rock, TX"
+500,Shannon Foster,478,22,240,USA16,Shannon,,Female,22.0,"Georgetown, TX"
+501,Dana Davis,479,22,241,USA16,Dana,,Female,39.0,"Arlington, TX"
+502,Adrian Davis,480,22,241,USA16,Adrian,,Male,40.0,"Arlington, TX"
+503,Charlie Gale,481,23,242,CHR1,Charlie,,Male,26.0,Australia
+504,Rachel Chen,482,23,242,CHR1,Rachel,,Female,25.0,USA
+505,Richard Liston,483,23,243,CHR1,Rick,,Male,25.0,"Melbourne, Australia"
+506,Joshua Ogilvie,484,23,243,CHR1,Josh,,Male,29.0,Australia
+507,Deepak Noutiyal,485,23,244,CHR1,Deepak,,Male,29.0,India
+508,Naresh Ludhani,486,23,244,CHR1,Naresh,,Male,30.0,India
+509,Karen Spencer,487,23,245,CHR1,Karen,,Female,45.0,"Vancouver, Canada"
+510,Lisa Chiang,488,23,245,CHR1,Lisa,,Female,38.0,USA
+511,Sarah Edson,489,23,246,CHR1,Sarah,,Female,24.0,"London, England"
+512,Molly Fitzpatrick,490,23,246,CHR1,Molly,,Female,34.0,"San Francisco, USA"
+513,Sean Slaughter,491,23,247,CHR1,Sean,,Male,,USA
+514,Amy Bromstead,492,23,247,CHR1,Amy,,Female,,"San Francisco, USA"
+515,Bonnie Wisnewski,493,23,248,CHR1,Bonnie,,Female,54.0,USA
+516,Melanie Plumi,494,23,248,CHR1,Mel,,Female,54.0,"Arizona, USA"
+517,Janis Vaisla,495,23,249,CHR1,Janis,,Male,40.0,"Riga, Latvia"
+518,Aleksandra Kurusova,496,23,249,CHR1,Aleksandra,,Female,24.0,"Riga, Latvia"
+519,Hector Valenzuela,497,23,250,CHR1,Hector,,Male,31.0,"Mexico City, Mexico"
+520,Miguel Villanueva,498,23,250,CHR1,Miguel,,Male,27.0,"Mexico City, Mexico"
+521,Paul Lebeneiyo,499,23,251,CHR1,Paul,,Male,27.0,"Rift Valley, Kenya"
+522,Francis Merinyi,500,23,251,CHR1,Francis,,Male,31.0,"Rift Valley, Kenya"
+523,Richard Hardin,501,24,252,ASI4,Richard Ha.,,Male,34.0,"Manila, Philippines"
+524,Richard Herrera,502,24,252,ASI4,Richard He.,,Male,31.0,"Manila, Philippines"
+525,Claire Goh,503,24,253,ASI4,Claire,,Female,21.0,Singapore
+526,Michelle Ng,504,24,253,ASI4,Michelle,,Female,22.0,Singapore
+527,Hussein Sutadisastra,505,24,254,ASI4,Hussein,,Male,53.0,"Jakarta, Indonesia"
+528,Natasha Sutadidsastra,506,24,254,ASI4,Natasha,,Female,24.0,"Jakarta, Indonesia"
+529,Jacinta James,507,24,255,ASI4,Jess,,Female,27.0,"Manila, Philippines"
+530,Lani Pillinger,508,24,255,ASI4,Lani,,Female,27.0,"Manila, Philippines"
+531,Lim Koh Hon,509,24,256,ASI4,Ethan,,Male,26.0,"Kuala Lumpur, Malaysia"
+532,Mohamad Khairie,510,24,256,ASI4,Khairie,,Male,25.0,"Kuala Lumpur, Malaysia"
+533,Dimple Inamdar,511,24,257,ASI4,Dimple,,Female,32.0,"Mumbai, India"
+534,Sunaina Gulia,512,24,257,ASI4,Sunaina,,Female,31.0,"Haryana, India"
+535,Ivan Evetovics,513,24,258,ASI4,Ivan,,Male,33.0,"Kuching, Malaysia"
+536,Tengku Hilda,514,24,258,ASI4,Hilda,,Female,38.0,"Kuching, Malaysia"
+537,Sahil Banga,515,24,259,ASI4,Sahil,,Male,25.0,"New Delhi, India"
+538,Manas Katyal,516,24,259,ASI4,Manas,,Male,23.0,"New Delhi, India"
+539,Alan Luk,517,24,260,ASI4,Alan,,Male,32.0,Hong Kong
+540,Wendy Lee,518,24,260,ASI4,Wendy,,Female,24.0,Hong Kong
+541,Yani Hidranto,519,24,261,ASI4,Yani,,Female,28.0,"Jakarta, Indonesia"
+542,Nadine Zamira,520,24,261,ASI4,Nadine,,Female,26.0,"Jakarta, Indonesia"
+543,Natalie Strand,521,25,262,USA17,Nat,,Female,31.0,"Newport Beach, CA"
+544,Katherine Chang,522,25,262,USA17,Kat,,Female,35.0,"Santa Monica, CA"
+545,Brook Roberts,523,25,263,USA17,Brook,,Female,27.0,"San Diego, CA"
+546,Claire Champlin,524,25,263,USA17,Claire,,Female,30.0,"Reno, NV"
+547,Jillian Haney,525,25,264,USA17,Jill,,Female,27.0,"Marina Del Rey, CA"
+548,Thomas Wolfard,526,25,264,USA17,Thomas,,Male,30.0,"Marina Del Rey, CA"
+549,Nicholas DeCarlo,527,25,265,USA17,Nick,,Male,26.0,"Henderson, NV"
+550,Victoria Casciola,528,25,265,USA17,Vicki,,Female,26.0,"Henderson, NV"
+551,Chad Waltrip,529,25,266,USA17,Chad,,Male,26.0,"Fort Lauderdale, FL"
+552,Stephanie Smith,530,25,266,USA17,Stephanie,,Female,23.0,"Fort Lauderdale, FL"
+553,Gary Ervin,531,25,267,USA17,Gary,,Male,53.0,"Morganfield, KY"
+554,Mallory Ervin,532,25,267,USA17,Mallory,,Female,24.0,"Lexington, KY"
+555,Michael Wu,533,25,268,USA17,Michael,,Male,58.0,"Sugar Land, TX"
+556,Kevin Wu,534,25,268,USA17,Kevin,,Male,20.0,"Sugar Land, TX"
+557,Katie Seamon,535,25,269,USA17,Katie,,Female,23.0,"Rahway, NJ"
+558,Rachel Johnston,536,25,269,USA17,Rachel,,Female,24.0,"Moorestown, NJ"
+559,Connor Diemand-Yauman,537,25,270,USA17,Connor,,Male,22.0,"Chesterland, OH"
+560,Jonathan Schwartz,538,25,270,USA17,Jonathan,,Male,22.0,"Cranford, NJ"
+561,Andrea DeKroon,539,25,271,USA17,Andie,,Female,43.0,"Atlanta, GA"
+562,Jenna Sykes,540,25,271,USA17,Jenna,,Female,21.0,"Athens, GA"
+563,Ronald Kellum,541,25,272,USA17,Ron,,Male,45.0,"Los Angeles, CA"
+564,Anthony Stovall,542,25,272,USA17,Tony,,Male,42.0,"Tucson, AZ"
+565,Mauricio Coarasa,543,26,273,LAM2,Mauricio,,Male,36.0,"Mexico City, Mexico"
+566,Carlos Coarasa,544,26,273,LAM2,Carlos,,Male,39.0,"Mexico City, Mexico"
+567,Antonio Varas,545,26,274,LAM2,Toño,,Male,38.0,"Monterrey, Mexico"
+568,Liliana Cantú,546,26,274,LAM2,Lili,,Female,36.0,"Monterrey, Mexico"
+569,Aleandra Scafati,547,26,275,LAM2,Aleandra,,Female,41.0,"Buenos Aires, Argentina"
+570,Marlene Zichy,548,26,275,LAM2,Marlene,,Female,39.0,"Buenos Aires, Argentina"
+571,Guilherme Nunes,549,26,276,LAM2,Guilherme,,Male,30.0,"Rio de Janeiro, Brazil"
+572,Vinícius Lemos,550,26,276,LAM2,Vinícius,,Male,25.0,"Rio de Janeiro, Brazil"
+573,Esteban Portela,551,26,277,LAM2,Esteban,,Male,35.0,"Bogotá, Colombia"
+574,Marisol Márquez,552,26,277,LAM2,Marisol,,Female,33.0,"Bogotá, Colombia"
+575,Marietta Acosta,553,26,278,LAM2,Marietta,,Female,23.0,"Barranquilla, Colombia"
+576,José Cárdenas,554,26,278,LAM2,José,,Male,27.0,"Barranquilla, Colombia"
+577,Edison J. Perezgomez,555,26,279,LAM2,Edison J.,,Male,56.0,"Saltillo, Mexico"
+578,Edison M. Perezgomez,556,26,279,LAM2,Edison M.,,Male,26.0,"Saltillo, Mexico"
+579,Jelkin Rijo,557,26,280,LAM2,Jelkin,,Female,29.0,"La Romana, Dominican Republic"
+580,Javier Báez,558,26,280,LAM2,Javier,,Male,36.0,"La Romana, Dominican Republic"
+581,Roger Saliba,559,26,281,LAM2,Roger,,Male,29.0,"Puerto Ordaz, Venezuela"
+582,Omar Guedez,560,26,281,LAM2,Omar,,Male,26.0,"Puerto Ordaz, Venezuela"
+583,Mauricio Moreno,561,26,282,LAM2,Mauricio,,Male,42.0,"Concepción, Chile"
+584,Mariana Moreno,562,26,282,LAM2,Mariana,,Female,39.0,"Petrópolis, Brazil"
+585,Susy Rotstain,563,26,283,LAM2,Susy,,Female,44.0,"Lima, Peru"
+586,Stefany Porudominsky,564,26,283,LAM2,Stefany,,Female,23.0,"Lima, Peru"
+587,LaKisha Hoffman,397,27,284,USA18,Kisha,,Female,30.0,"Bronx, NY"
+588,Jennifer Hoffman,398,27,284,USA18,Jen,,Female,26.0,"Louisville, KY"
+589,Herbert Lang,441,27,285,USA18,Flight Time,,Male,34.0,"Brinkley, AR"
+590,Nathaniel Lofton,442,27,285,USA18,Big Easy,,Male,29.0,"New Orleans, LA"
+591,Gary Ervin,531,27,286,USA18,Gary,,Male,53.0,"Morganfield, KY"
+592,Mallory Ervin,532,27,286,USA18,Mallory,,Female,25.0,"Morganfield, KY"
+593,Zev Glassenberg,451,27,287,USA18,Zev,,Male,28.0,"Sherman Oaks, CA"
+594,Justin Kanew,452,27,287,USA18,Justin,,Male,31.0,"Los Angeles, CA"
+595,Kent Kaliber,295,27,288,USA18,Kent,,Male,24.0,"Los Angeles, CA"
+596,Jennifer Fiala,296,27,288,USA18,Vyxsin,,Female,25.0,"Los Angeles, CA"
+597,Jet McCoy,461,27,289,USA18,Jet,,Male,31.0,"Ada, OK"
+598,Cord McCoy,462,27,289,USA18,Cord,,Male,30.0,"Tupelo, OK"
+599,Ronald Hsu,289,27,290,USA18,Ron,,Male,61.0,"Tacoma, WA"
+600,Christina Hsu,290,27,290,USA18,Christina,,Female,29.0,"Washington, DC"
+601,Margaret Adams,395,27,291,USA18,Margie,,Female,53.0,"Colorado Springs, CO"
+602,Luke Adams,396,27,291,USA18,Luke,,Male,25.0,"Colorado Springs, CO"
+603,Jaime Faith Edmondson,393,27,292,USA18,Jaime,,Female,32.0,"Fort Lauderdale, FL"
+604,Cara Rosenthal,394,27,292,USA18,Cara,,Female,28.0,"Boca Raton, FL"
+605,James White,401,27,293,USA18,Mel,,Male,70.0,"Lynchburg, VA"
+606,Michael White,402,27,293,USA18,Mike,,Male,40.0,"Los Angeles, CA"
+607,Amanda Blackledge,405,27,294,USA18,Amanda,,Female,25.0,"Pismo Beach, CA"
+608,Kristopher Klicka,406,27,294,USA18,Kris,,Male,27.0,"Pismo Beach, CA"
+609,Tyler Atkins,565,28,295,AUS1,Tyler,,Male,25.0,"Sydney, NSW"
+610,Nathan Joliffe,566,28,295,AUS1,Nathan,,Male,25.0,"Sydney, NSW"
+611,Samantha Schoers,567,28,296,AUS1,Sam,,Female,22.0,"Perth, WA"
+612,Renae Wauhop,568,28,296,AUS1,Renae,,Female,23.0,"Perth, WA"
+613,Jeffrey Downes,569,28,297,AUS1,Jeff,,Male,60.0,"Brisbane, QLD"
+614,Lucas Downes,570,28,297,AUS1,Luke,,Male,32.0,"Brisbane, QLD"
+615,Matthew Nunn,571,28,298,AUS1,Matt,,Male,26.0,"Birdsville, QLD"
+616,Thomas Warriner,572,28,298,AUS1,Tom,,Male,26.0,"Newcastle Waters, NT"
+617,Dave Miller,573,28,299,AUS1,Dave,,Male,52.0,"Geraldton, WA"
+618,Kelly Miller,574,28,299,AUS1,Kelly,,Female,37.0,"Geraldton, WA"
+619,Chris Pselletes,575,28,300,AUS1,Chris,,Male,23.0,"Sydney, NSW"
+620,Anastasia Natasa Drimousis,576,28,300,AUS1,Anastasia,,Female,21.0,"Sydney, NSW"
+621,Alana Munday,577,28,301,AUS1,Alana,,Female,25.0,"Adelaide, SA"
+622,Mel Greig,578,28,301,AUS1,Mel,,Female,28.0,"Adelaide, SA"
+623,Mohammed El-Leissy,579,28,302,AUS1,Mo,,Male,26.0,"Melbourne, VIC"
+624,Mostafa Haroun,580,28,302,AUS1,Mos,,Male,25.0,"Melbourne, VIC"
+625,Richard Toutounji,581,28,303,AUS1,Richard,,Male,29.0,"Sydney, NSW"
+626,Joey Toutounji,582,28,303,AUS1,Joey,,Female,30.0,"Sydney, NSW"
+627,Anne-Marie Brown,583,28,304,AUS1,Anne-Marie,,Female,53.0,"Perth, WA"
+628,Tracy Read,584,28,304,AUS1,Tracy,,Female,46.0,"Perth, WA"
+629,Ryan Wilson,585,28,305,AUS1,Ryot,,Male,23.0,"Sydney, NSW"
+630,Liberty Wilson,586,28,305,AUS1,Liberty,,Female,27.0,"Sydney, NSW"
+631,Lily Li,587,29,306,CHR2,Lily,,Female,29.0,"California, USA"
+632,Jan Höpper,588,29,306,CHR2,Jan,,Male,26.0,Germany
+633,Simon Chen,589,29,307,CHR2,Simon,,Male,33.0,"Los Angeles, USA"
+634,Katherine Wang,590,29,307,CHR2,Katherine,,Female,24.0,"Hunan, China"
+635,Sun Bin,591,29,308,CHR2,Sun Bin,,Male,25.0,"Shanghai, China"
+636,Hao Fei'er,592,29,308,CHR2,Hao Fei'er,,Female,26.0,"Shanghai, China"
+637,Matthew Waddick,593,29,309,CHR2,Matt,,Male,28.0,New Zealand
+638,Kylie Ann Chapman,594,29,309,CHR2,Kylie,,Female,26.0,"Perth, Australia"
+639,Jiang Zhijie,595,29,310,CHR2,Mary,,Female,22.0,"Nanjing, China"
+640,Jiang Xinyao,596,29,310,CHR2,Cecilia,,Female,20.0,"Nanjing, China"
+641,Elena Luk'Yanenko,597,29,311,CHR2,Elena,,Female,28.0,"Kiev, Ukraine"
+642,Tameka Small,598,29,311,CHR2,Tameka,,Female,28.0,"London, England"
+643,Rhett Farber,599,29,312,CHR2,Rhett,,Male,52.0,"Florida, USA"
+644,Howard Snyder,600,29,312,CHR2,Howie,,Male,49.0,"New York, USA"
+645,Summer Xia,601,29,313,CHR2,Summer,,Female,24.0,"Wenzhou, China"
+646,Eachan Zhou,602,29,313,CHR2,Eachen,,Male,25.0,"Wenzhou, China"
+647,Shu Dalong,603,29,314,CHR2,Xiao Long,,Male,36.0,"Shanghai, China"
+648,Lv Meng,604,29,314,CHR2,Lv Meng,,Male,36.0,"Shanghai, China"
+649,A Lai Dongmei,605,29,315,CHR2,A Lai,,Female,47.0,"Yinchuan, China"
+650,Wang Jieqi,606,29,315,CHR2,Jackie,,Male,23.0,"Yinchuan, China"
+651,Paul Hayes,607,29,316,CHR2,Paul,,Male,28.0,Canada
+652,Nash,608,29,316,CHR2,Nash,,Male,37.0,Ghana
+653,Ernest Halvorsen,609,30,317,USA19,Ernie,,Male,29.0,"Chicago, IL"
+654,Cindy Chiang,610,30,317,USA19,Cindy,,Female,30.0,"Chicago, IL"
+655,Jeremy Cline,611,30,318,USA19,Jeremy,,Male,35.0,"Alamo, CA"
+656,Sandra Draghi,612,30,318,USA19,Sandy,,Female,33.0,"Dublin, CA"
+657,Amani Pollard,613,30,319,USA19,Amani,,Female,36.0,"Pine Mountain, GA"
+658,Marcus Pollard,614,30,319,USA19,Marcus,,Male,39.0,"Pine Mountain, GA"
+659,Andrew Finch,615,30,320,USA19,Andy,,Male,30.0,"Truckee, CA"
+660,Thomas Czeschin,616,30,320,USA19,Tommy,,Male,32.0,"Crowley Lake, CA"
+661,William Alden,617,30,321,USA19,Bill,,Male,63.0,"Albany, OR"
+662,Catherine Alden,618,30,321,USA19,Cathi,,Female,62.0,"Albany, OR"
+663,Laurence Sunderland,619,30,322,USA19,Laurence,,Male,48.0,"Thousand Oaks, CA"
+664,Zachary Sunderland,620,30,322,USA19,Zac,,Male,19.0,"Thousand Oaks, CA"
+665,Justin Young,621,30,323,USA19,Justin,,Male,31.0,"Stone Mountain, GA"
+666,Jennifer Young,622,30,323,USA19,Jennifer,,Female,26.0,"Stone Mountain, GA"
+667,Elizabeth Canavan,623,30,324,USA19,Liz,,Female,24.0,"Deerfield, IL"
+668,Marie Canavan,624,30,324,USA19,Marie,,Female,24.0,"Deerfield, IL"
+669,Kaylani Paliotta,625,30,325,USA19,Kaylani,,Female,33.0,"Las Vegas, NV"
+670,Lisa Tilley,626,30,325,USA19,Lisa,,Female,32.0,"Las Vegas, NV"
+671,Ethan Zohn,627,30,326,USA19,Ethan,,Male,37.0,"New York, NY"
+672,Jenna Morasca,628,30,326,USA19,Jenna,,Female,30.0,"New York, NY"
+673,Ronald Zeitz,629,30,327,USA19,Ron,,Male,44.0,"Laguna Niguel, CA"
+674,William Smith,630,30,327,USA19,Bill,,Male,49.0,"Laguna Niguel, CA"
+675,Nicolás Brain,631,31,328,LAM3,Nicolás,,Male,26.0,"Santiago, Chile"
+676,Cristóbal Brain,632,31,328,LAM3,Cristóbal,,Male,26.0,"Santiago, Chile"
+677,Felipe Castro,633,31,329,LAM3,Felipe,,Male,33.0,"Bogotá, Colombia"
+678,Alejandro Soler,634,31,329,LAM3,Alejandro,,Male,34.0,"Bogotá, Colombia"
+679,Demian Bellido,635,31,330,LAM3,Demi,,Male,25.0,"Buenos Aires, Argentina"
+680,Maximiliano Ottaviani,636,31,330,LAM3,Maxi,,Male,26.0,"Buenos Aires, Argentina"
+681,Ricardo Bagarrán,637,31,331,LAM3,Rick,,Male,40.0,"Puerto Vallarta, Mexico"
+682,Kathia Farah,638,31,331,LAM3,Kathy,,Female,36.0,"Puerto Vallarta, Mexico"
+683,Juan del Mar Iglesias,639,31,332,LAM3,Juan del Mar,,Male,40.0,"Bogotá, Colombia"
+684,María Victoria Montoya,640,31,332,LAM3,Toya,,Female,29.0,"Bogotá, Colombia"
+685,José Varela,641,31,333,LAM3,José,,Male,31.0,"San José, Costa Rica"
+686,Marisol Ortiz,642,31,333,LAM3,Marisol,,Female,30.0,"San José, Costa Rica"
+687,Nicholas Cino,643,31,334,LAM3,Nico,,Male,26.0,"Lima, Peru"
+688,Andrea Cino,644,31,334,LAM3,Andre,,Female,21.0,"Lima, Peru"
+689,Juan Rivera,645,31,335,LAM3,Pablo,,Male,33.0,"Cuenca, Ecuador"
+690,Leonor Vegas,646,31,335,LAM3,Rosario,,Female,40.0,"Loja, Ecuador"
+691,Mónica Ramos,647,31,336,LAM3,Mónica,,Female,45.0,"Guadalajara, Mexico"
+692,Rosa Aragón,648,31,336,LAM3,Rosy,,Female,47.0,"Guadalajara, Mexico"
+693,Verónica Alvarado,649,31,337,LAM3,Vero,,Female,24.0,"Cagua, Venezuela"
+694,Gabriela Cardozo,650,31,337,LAM3,Gaba,,Female,24.0,"Turmero, Venezuela"
+695,Alejandra Fundaro,651,31,338,LAM3,Ale,,Female,49.0,"Córdoba, Argentina"
+696,Ezequiel Ball,652,31,338,LAM3,Eze,,Male,48.0,"Córdoba, Argentina"
+697,Bar Ben-Vakil,653,32,339,ISR2,Bar,,Female,22.0,Netanya
+698,Inna Broder,654,32,339,ISR2,Inna,,Female,23.0,Netanya
+699,Alon Harel,655,32,340,ISR2,Alon,,Male,38.0,Tel Aviv
+700,Oren Harel,656,32,340,ISR2,Oren,,Male,47.0,Giv'atayim
+701,Akiva Shmueli,657,32,341,ISR2,Akiva,,Male,28.0,Tirat Yehuda
+702,Anaelle Shmueli,658,32,341,ISR2,Anaelle,,Female,26.0,Tirat Yehuda
+703,Tom Kashty,659,32,342,ISR2,Tom,,Male,23.0,Petah Tikva
+704,Adele Bespalov,660,32,342,ISR2,Adele,,Female,18.0,Tel Aviv
+705,Osnat Shapir,661,32,343,ISR2,Osnat,,Female,45.0,Kiryat Ekron
+706,Carmit Zacay,662,32,343,ISR2,Carmit,,Female,50.0,Kiryat Ekron
+707,Idan Pundak,663,32,344,ISR2,Pundak,,Male,30.0,Petah Tikva
+708,Moti Lahav,664,32,344,ISR2,Moti,,Male,28.0,Petah Tikva
+709,Alon Apple,665,32,345,ISR2,Alon,,Male,32.0,Tel Aviv
+710,Hen Shiloni,666,32,345,ISR2,Hen,,Female,28.0,Tel Aviv
+711,Firass Janluka,667,32,346,ISR2,Firass,,Male,36.0,Nazareth Illit
+712,Shira Dahan,668,32,346,ISR2,Shira,,Female,33.0,Nazareth Illit
+713,Nitzan Avital,669,32,347,ISR2,Nitzan,,Male,28.0,Alfei Menashe
+714,Frieda Moshe,670,32,347,ISR2,Fifi,,Female,21.0,Alfei Menashe
+715,Tal Shaham,671,32,348,ISR2,Tal,,Female,54.0,Herzliya
+716,Mor Shaham,672,32,348,ISR2,Mor,,Female,29.0,Herzliya
+717,Gadi Chait,673,32,349,ISR2,Gadi,,Male,36.0,Tel Aviv
+718,Alona Ophir,674,32,349,ISR2,Alona,,Female,44.0,Tel Aviv
+719,Rachel Brown,675,33,350,USA20,Rachel,,Female,30.0,"Madison, WI"
+720,"David Brown, Jr.",676,33,350,USA20,Dave,,Male,33.0,"Madison, WI"
+721,Arthur Velez,677,33,351,USA20,Art,,Male,43.0,"Temecula, CA"
+722,John James Carrell,678,33,351,USA20,JJ,,Male,42.0,"Carlsbad, CA"
+723,Brendon Villegas,679,33,352,USA20,Brendon,,Male,31.0,"Westwood, CA"
+724,Rachel Reilly,680,33,352,USA20,Rachel,,Female,27.0,"Westwood, CA"
+725,Vanessa Macias,681,33,353,USA20,Vanessa,,Female,31.0,"San Antonio, TX"
+726,Ralph Kelley,682,33,353,USA20,Ralph,,Male,36.0,"San Antonio, TX"
+727,William Minton,683,33,354,USA20,Bopper,,Male,41.0,"Manchester, KY"
+728,Mark Jackson,684,33,354,USA20,Mark,,Male,45.0,"Manchester, KY"
+729,Nareman Ebeid,685,33,355,USA20,Nary,,Female,32.0,"Los Angeles, CA"
+730,Jamie Graetz,686,33,355,USA20,Jamie,,Female,33.0,"Los Angeles, CA"
+731,Joey Lasalla,687,33,356,USA20,"Joey ""Fitness""",,Male,29.0,"Whitestone, NY"
+732,Danny Horal,688,33,356,USA20,Danny,,Male,27.0,"Holbrook, NY"
+733,Kerri Paul,689,33,357,USA20,Kerri,,Female,30.0,"Gulfport, MS"
+734,Stacy Bowers,690,33,357,USA20,Stacy,,Female,30.0,"Gulfport, MS"
+735,Elliot Weber,691,33,358,USA20,Elliot,,Male,28.0,"Scottsdale, AZ"
+736,Andrew Weber,692,33,358,USA20,Andrew,,Male,28.0,"Menlo Park, CA"
+737,David Gregg,693,33,359,USA20,Dave,,Male,44.0,"New Port Richey, FL"
+738,Cherie Gregg,694,33,359,USA20,Cherie,,Female,44.0,"New Port Richey, FL"
+739,Misa Tanaka,695,33,360,USA20,Misa,,Female,27.0,"San Diego, CA"
+740,Maiya Tanaka,696,33,360,USA20,Maiya,,Female,25.0,"San Diego, CA"
+741,Morten Bjerke,697,34,361,NOR1,Morten,,Male,34.0,Bodø
+742,Truls Bjerke,698,34,361,NOR1,Truls,,Male,30.0,Bodø
+743,Karim Sabeur,699,34,362,NOR1,Karim,,Male,26.0,Oslo
+744,Khabat Sarzali,700,34,362,NOR1,Khabat,,Male,27.0,Oslo
+745,Cathrine Andersen,701,34,363,NOR1,Cathrine,,Female,29.0,Oslo
+746,Michelle Holm,702,34,363,NOR1,Michelle,,Female,29.0,Holmestrand
+747,Frank Hesmyr Falander,703,34,364,NOR1,Frank,,Male,26.0,Flatdal
+748,Ivar Hesmyr Falander,704,34,364,NOR1,Ivar,,Male,26.0,Flatdal
+749,Kari Hagrud Setsaas,705,34,365,NOR1,Kari,,Female,44.0,Høvringen
+750,Bjørn Setsaas,706,34,365,NOR1,Bjørn,,Male,64.0,Høvringen
+751,Tor Einar Holden,707,34,366,NOR1,Tor Einar,,Male,42.0,Malme
+752,Cathrine Hjemli Holen,708,34,366,NOR1,Cathrine,,Female,22.0,Malme
+753,Julie Aamodt,709,34,367,NOR1,Julie,,Female,28.0,Oslo
+754,Vichy Ericsson,710,34,367,NOR1,Vichy,,Female,30.0,"Gothenburg, Sweden"
+755,Bjarne Vegard Drevland,711,34,368,NOR1,Bjarne,,Male,31.0,Kragerø
+756,Vilde Naomi Enge,712,34,368,NOR1,Vilde,,Female,20.0,Oslo
+757,Martha Berberg,713,34,369,NOR1,Martha,,Female,22.0,Kristiansand
+758,Elise Berberg,714,34,369,NOR1,Elise,,Female,25.0,Kristiansand
+759,Pål Christian Egeberg,715,34,370,NOR1,Pål Christian,,Male,32.0,Hamar
+760,Ivar Juliussen,716,34,370,NOR1,Ivar,,Male,39.0,Hamar
+761,Kenneth Holt,717,34,371,NOR1,Kenneth,,Male,32.0,Oslo
+762,Hakan Pandul,718,34,371,NOR1,Hakan,,Male,32.0,Oslo
+763,Baggio Saetti,719,35,372,VIE1,Baggio,,Male,22.0,Ho Chi Minh City
+764,Thành Phúc Nguyễn,720,35,372,VIE1,Thành Phúc,,Male,22.0,Ho Chi Minh City
+765,Minh Hoàng Huỳnh,721,35,373,VIE1,Minh Hoàng,,Male,29.0,Ho Chi Minh City
+766,Phương Thảo Nguyễn Thị,722,35,373,VIE1,Phương Thảo,,Female,28.0,Ho Chi Minh City
+767,Thành Chung Nguyễn,723,35,374,VIE1,Thành Chung,,Male,29.0,Thai Nguyen
+768,Thanh Bằng Nguyễn,724,35,374,VIE1,Thanh Bằng,,Male,27.0,Thai Nguyen
+769,Chí Bình Nguyễn,725,35,375,VIE1,Chí Bình,,Male,31.0,Hanoi
+770,Hồng Long Lê,726,35,375,VIE1,Hồng Long,,Male,29.0,Hanoi
+771,Tuấn Anh Nguyễn,727,35,376,VIE1,Tuấn Anh,,Male,29.0,Hanoi
+772,Xuân Sơn Đỗ,728,35,376,VIE1,Xuân Sơn,,Male,24.0,Hoa Binh
+773,Minh Châu Nguyễn,729,35,377,VIE1,Minh Châu,,Male,29.0,Hanoi
+774,Trần Châu Nguyễn,730,35,377,VIE1,Trần Châu,,Male,29.0,Hanoi
+775,Gia Bình Trần,731,35,378,VIE1,Gia Bình,,Female,33.0,
+776,Bảo Châu Trần Thị,732,35,378,VIE1,Bảo Châu,,Female,34.0,
+777,Thanh Tuấn Phan Huỳnh,733,35,379,VIE1,Thanh Tuấn,,Male,32.0,Ho Chi Minh City
+778,Mỹ Trâm Nguyễn Thị,734,35,379,VIE1,Mỹ Trâm,,Female,27.0,Ho Chi Minh City
+779,Richard Hamilton Humphrey,735,35,380,VIE1,Richie,,Male,39.0,"Los Angeles, CA"
+780,Ngọc Phượng Lý Thị,736,35,380,VIE1,Mimi,,Female,23.0,Ho Chi Minh City
+781,Thanh Thủy Nguyễn,737,35,381,VIE1,Thanh Thủy,,Female,25.0,Hanoi
+782,Minh Thoa Vũ,738,35,381,VIE1,Minh Thoa,,Female,25.0,Hanoi
+783,Shane Haw,739,36,382,AUS2,Shane,,Male,43.0,"Melbourne, VIC"
+784,Andrew Thoday,740,36,382,AUS2,Andrew,,Male,35.0,"Melbourne, VIC"
+785,Paul Montgomery,741,36,383,AUS2,Paul,,Male,27.0,"Melbourne, VIC"
+786,Steven Scale,742,36,383,AUS2,Steve,,Male,29.0,"Melbourne, VIC"
+787,Michelle Troy,743,36,384,AUS2,Michelle,,Female,26.0,"Sydney, NSW"
+788,Joanne Troy,744,36,384,AUS2,Jo,,Female,26.0,"Sydney, NSW"
+789,Joseph Caristo,745,36,385,AUS2,Joseph,,Male,22.0,"Sydney, NSW"
+790,Grace Caristo,746,36,385,AUS2,Grace,,Female,21.0,"Sydney, NSW"
+791,Lucy Pelosi,747,36,386,AUS2,Lucy,,Female,36.0,"Sydney, NSW"
+792,Emilia Pelosi,748,36,386,AUS2,Emilia,,Female,30.0,"Sydney, NSW"
+793,James Kingsbury,749,36,387,AUS2,James,,Male,23.0,"Melbourne, VIC"
+794,Sarah Roza,750,36,387,AUS2,Sarah,,Female,32.0,"Melbourne, VIC"
+795,Geoff Stick,751,36,388,AUS2,Sticky,,Male,24.0,"Launceston, TAS"
+796,Sam Hay,752,36,388,AUS2,Sam,,Male,24.0,"Launceston, TAS"
+797,Ross Thornton,753,36,389,AUS2,Ross,,Male,55.0,"Melbourne, VIC"
+798,Tarryn Lee Thornton,754,36,389,AUS2,Tarryn,,Female,27.0,"Melbourne, VIC"
+799,Kym Bouckaert,755,36,390,AUS2,Kym,,Female,46.0,"Brisbane, QLD"
+800,Donna Verney,756,36,390,AUS2,Donna,,Female,42.0,"Brisbane, QLD"
+801,Sue Bumback,757,36,391,AUS2,Sue,,Female,40.0,"Geraldton, WA"
+802,Teresa Italiano,758,36,391,AUS2,Teresa,,Female,44.0,"Geraldton, WA"
+803,Adam Corowa,759,36,392,AUS2,Adam,,Male,30.0,"Tweed Heads, NSW"
+804,Dane Corowa,760,36,392,AUS2,Dane,,Male,29.0,"Tweed Heads, NSW"
+805,Liu Weiwei,761,37,393,CHR3,Liu Weiwei,,Male,30.0,"Shandong, China"
+806,Lei Sheng,762,37,393,CHR3,Lei Sheng,,Male,40.0,"Xi'an, China"
+807,Christine Tong,763,37,394,CHR3,Christine,,Female,23.0,"Taipei, Taiwan"
+808,Steven Zhao,764,37,394,CHR3,Steven,,Male,24.0,"Taipei, Taiwan"
+809,Ryan Burke,765,37,395,CHR3,Ryan,,Male,26.0,"New York, USA"
+810,Charlie Melvin,766,37,395,CHR3,Charlie,,Male,24.0,"California, USA"
+811,Zhang Yelin,767,37,396,CHR3,Zhang Yelin,,Male,27.0,"Dalian, China"
+812,Li Yang,768,37,396,CHR3,Li Yang,,Female,27.0,"Dalian, China"
+813,Janelle Loh,769,37,397,CHR3,Janelle,,Female,21.0,"Sydney, Australia"
+814,Karin von Essen,770,37,397,CHR3,Karin,,Female,23.0,"Stockholm, Sweden"
+815,Tang Khai Shing,771,37,398,CHR3,Khai Shing,,Female,25.0,"Penang, Malaysia"
+816,Tang Khai Sheng,772,37,398,CHR3,Khai Sheng,,Male,25.0,"Penang, Malaysia"
+817,Henry Su,773,37,399,CHR3,Henry,,Male,33.0,"New Jersey, USA"
+818,Jennifer Su,774,37,399,CHR3,Jennifer,,Female,32.0,"Pennsylvania, USA"
+819,Ju Xiangcheng,775,37,400,CHR3,Xiao Bing,,Male,30.0,"Yingkou, China"
+820,Sun Huailong,776,37,400,CHR3,Xiao Bang,,Male,22.0,"Yingkou, China"
+821,Yu Ping,777,37,401,CHR3,Yu Ping,,Male,46.0,"Shanghai, China"
+822,Yu Chenjing,778,37,401,CHR3,Yu Chenjing,,Female,22.0,"Shanghai, China"
+823,Nick Black,779,37,402,CHR3,Nick,,Male,30.0,"Scotland, UK"
+824,Brandon Lee,780,37,402,CHR3,Brandon,,Male,27.0,"Boston, USA"
+825,Hao Weiru,781,37,403,CHR3,Jia Jia,,Female,30.0,"Chengdu, China"
+826,Rob Biggs,782,37,403,CHR3,Rob,,Male,42.0,Canada
+827,Josh Kilmer-Purcell,783,38,404,USA21,Josh,,Male,43.0,"Sharon Springs, NY"
+828,Brent Ridge,784,38,404,USA21,Brent,,Male,38.0,"Sharon Springs, NY"
+829,Jaymes Vaughan,785,38,405,USA21,Jaymes,,Male,30.0,"Las Vegas, NV"
+830,James Davis,786,38,405,USA21,James,,Male,27.0,"Las Vegas, NV"
+831,Trey Wier,787,38,406,USA21,Trey,,Male,23.0,"Austin, TX"
+832,Alexis Beerman,788,38,406,USA21,Lexi,,Female,22.0,"Dripping Springs, TX"
+833,Natalie Anderson,789,38,407,USA21,Natalie,,Female,26.0,"Edgewater, NJ"
+834,Nadiya Anderson,790,38,407,USA21,Nadiya,,Female,26.0,"Edgewater, NJ"
+835,Abigail Ginsberg,791,38,408,USA21,Abbie,,Female,31.0,"Encinitas, CA"
+836,Ryan Danz,792,38,408,USA21,Ryan,,Male,35.0,"San Diego, CA"
+837,James LoMenzo,793,38,409,USA21,James,,Male,53.0,"Burbank, CA"
+838,Mark Abbattista,794,38,409,USA21,Abba,,Male,45.0,"Denver, CO"
+839,Robert French,795,38,410,USA21,Rob,,Male,46.0,"Boston, GA"
+840,Kelley Carrington-French,796,38,410,USA21,Kelley,,Female,50.0,"Boston, GA"
+841,Gary Wojnar,797,38,411,USA21,Gary,,Male,52.0,"Livonia, MI"
+842,Will Chiola,798,38,411,USA21,Will,,Male,53.0,"Dearborn Heights, MI"
+843,Caitlin King,799,38,412,USA21,Caitlin,,Female,24.0,"St. Louis, MO"
+844,Brittany Fletcher,800,38,412,USA21,Brittany,,Female,25.0,"Chicago, IL"
+845,Amy Purdy,801,38,413,USA21,Amy,,Female,32.0,"Las Vegas, NV"
+846,Daniel Gale,802,38,413,USA21,Daniel,,Male,36.0,"Crested Butte, CO"
+847,Robert Scheer,803,38,414,USA21,Rob,,Male,52.0,"Ketchikan, AK"
+848,Sheila Castle,804,38,414,USA21,Sheila,,Female,44.0,"Pigeon Forge, TN"
+849,Daniel Belém,805,39,415,LAM4,Daniel,,Male,25.0,"Ribeirão Preto, SP"
+850,César Curti,806,39,415,LAM4,César,,Male,25.0,"São Paulo, SP"
+851,Fernando Ruas,807,39,416,LAM4,Fer,,Male,32.0,"São Paulo, SP"
+852,Ferdinei Martins,808,39,416,LAM4,Ferds,,Male,32.0,"São Paulo, SP"
+853,Eduardo Braga y García,809,39,417,LAM4,Edu,,Male,25.0,"Uberlândia, MG"
+854,Ricardo Braga y García,810,39,417,LAM4,Rick,,Male,29.0,"Uberlândia, MG"
+855,Renan Amaral,811,39,418,LAM4,Renan,,Male,26.0,"Rio de Janeiro, RJ"
+856,Françoise Mattoso,812,39,418,LAM4,Fran,,Female,27.0,"Rio de Janeiro, RJ"
+857,Ana Paula Caetano,813,39,419,LAM4,Ana Paula,,Female,35.0,"Brasilia, DF"
+858,Renata Faria,814,39,419,LAM4,Renata,,Female,33.0,"Brasilia, DF"
+859,Fernanda Chateaubriand,815,39,420,LAM4,Fernanda,,Female,22.0,"Brasilia, DF"
+860,Cainã Nagano,816,39,420,LAM4,Cainã,,Male,22.0,"Brasilia, DF"
+861,Luiz Fuzetti,817,39,421,LAM4,Fuzetti,,Male,54.0,"Embu das Artes, SP"
+862,Luiz Cardim,818,39,421,LAM4,Nando,,Male,30.0,"Embu das Artes, SP"
+863,Marília David,819,39,422,LAM4,Gabriela,,Female,29.0,"São Paulo, SP"
+864,Harã Lemes,820,39,422,LAM4,Harã,,Male,29.0,"São Paulo, SP"
+865,Maria Cecília Cardoso,821,39,423,LAM4,Ciça,,Female,57.0,"Goiania, GO"
+866,José Carlos Cardoso,822,39,423,LAM4,Zezão,,Male,26.0,"Goiania, GO"
+867,Gilmar Schlossmacher,823,39,424,LAM4,Billy,,Male,49.0,"São Paulo, SP"
+868,Gilbert Schlossmacher,824,39,424,LAM4,Gean,,Male,48.0,"São Paulo, SP"
+869,Cíntia de Franco,825,39,425,LAM4,Ci,,Female,25.0,"Campinas, SP"
+870,Luíza de Franco,826,39,425,LAM4,Lu,,Female,25.0,"Campinas, SP"
+871,Anthony Martinage,827,40,426,FRA1,Anthony,,Male,29.0,Paris
+872,Sonja Sacha,828,40,426,FRA1,Sonja,,Female,33.0,Paris
+873,Hadj Semara,829,40,427,FRA1,Hadj,,Male,24.0,Maubeuge
+874,Yacim Djabali,830,40,427,FRA1,Yacim,,Male,25.0,Maubeuge
+875,Stéphanie François,831,40,428,FRA1,Stéphanie,,Female,29.0,Pau
+876,Alice Digne,832,40,428,FRA1,Alice,,Female,31.0,Pau
+877,Heïdi,833,40,429,FRA1,Heïdi,,Female,32.0,Alpes-Maritimes
+878,Michel,834,40,429,FRA1,Michel,,Male,54.0,Alpes-Maritimes
+879,Francis Boutleux,835,40,430,FRA1,Francis,,Male,54.0,Calais
+880,Benjamin Boutleux,836,40,430,FRA1,Benjamin,,Male,27.0,Calais
+881,Oucéni Touré,837,40,431,FRA1,Oucéni,,Male,28.0,Villetaneuse
+882,Lassana Touré,838,40,431,FRA1,Lassana,,Male,28.0,Villetaneuse
+883,Mathilde,839,40,432,FRA1,Mathilde,,Female,22.0,Garches
+884,Séverine,840,40,432,FRA1,Séverine,,Female,21.0,Garches
+885,Fabien,841,40,433,FRA1,Fabien,,Male,30.0,Paris
+886,Aurélien,842,40,433,FRA1,Aurélien,,Male,30.0,Paris
+887,Antoine,843,40,434,FRA1,Antoine,,Male,23.0,"Charleroi, Belgium"
+888,Héléna,844,40,434,FRA1,Héléna,,Female,21.0,"Charleroi, Belgium"
+889,Lari Jeanne Moreno,845,41,435,PHI1,LJ,,Female,31.0,"Dagupan, Pangasinan"
+890,Criselda Janice Jaravata,846,41,435,PHI1,CJ,,Female,29.0,"Makati, Manila"
+891,Fausto Reyes,847,41,436,PHI1,Fausto,,Male,33.0,"Pasay, Manila"
+892,"Dayal Chowdary, Jr.",848,41,436,PHI1,Dayal,,Male,25.0,"Pasay, Manila"
+893,Marc Duñgo,849,41,437,PHI1,Marc,,Male,42.0,"Parañaque, Manila"
+894,Katherine Tan,850,41,437,PHI1,Kat,,Female,27.0,Manila
+895,Sheena Vera Cruz,851,41,438,PHI1,Sheena,,Female,27.0,Guam
+896,Gazelle Canlas,852,41,438,PHI1,Gee,,Female,24.0,"Antipolo, Rizal"
+897,Saida Diola,853,41,439,PHI1,Saida,,Female,24.0,"San Juan, Batangas"
+898,Jervi Li,854,41,439,PHI1,Jervi,,Female,22.0,"Ozamiz, Misamis Occidental"
+899,Raymund Vergara,855,41,440,PHI1,Boom,,Male,27.0,"Valenzuela, Manila"
+900,Cheng Enriquez,856,41,440,PHI1,Cheng,,Male,40.0,"Valenzuela, Manila"
+901,Edgar Movido,857,41,441,PHI1,Ed,,Male,47.0,"Angeles, Pampanga"
+902,Angelica Movido,858,41,441,PHI1,Angel,,Female,22.0,"Angeles, Pampanga"
+903,Danielle Castaño,859,41,442,PHI1,Dani,,Female,22.0,"Quezon City, Manila"
+904,Michelle van Ruyven,860,41,442,PHI1,Mish,,Female,23.0,"Vancouver, Canada"
+905,Pamela Spella,861,41,443,PHI1,Pamela,,Female,41.0,"Ayala Alabang, Manila"
+906,Vanessa Ishitani,862,41,443,PHI1,Vanessa,,Female,35.0,"Ayala Alabang, Manila"
+907,Anton del Rosario,863,41,444,PHI1,Anton,,Male,30.0,"Makati, Manila"
+908,Armand del Rosario,864,41,444,PHI1,Armand,,Male,33.0,"Makati, Manila"
+909,Crystel Castro,865,41,445,PHI1,Crystel,,Female,25.0,"Angeles, Pampanga"
+910,Mykey Lacson,866,41,445,PHI1,Mykey,,Male,33.0,"Angeles, Pampanga"
+911,Jonathan Battaglia,867,42,446,USA22,Bates,,Male,36.0,"Raleigh, NC"
+912,Anthony Battaglia,868,42,446,USA22,Anthony,,Male,33.0,"Raleigh, NC"
+913,Max Bichler,869,42,447,USA22,Max,,Male,30.0,"Buffalo, NY"
+914,Katherine Kaczor-Bichler,870,42,447,USA22,Katie,,Female,24.0,"Buffalo, NY"
+915,Mona Hinman-Egender,871,42,448,USA22,Mona,,Female,33.0,"Castle Pines, CO"
+916,Elizabeth Bandimere,872,42,448,USA22,Beth,,Female,36.0,"Arvada, CO"
+917,Caroline Cutbirth,873,42,449,USA22,Caroline,,Female,29.0,"Austin, TX"
+918,Jennifer Kuhle,874,42,449,USA22,Jennifer,,Female,30.0,"Nashville, TN"
+919,Joseph Michael Graceffa,875,42,450,USA22,Joey,,Male,21.0,"Los Angeles, CA"
+920,Meghan Camarena,876,42,450,USA22,Meghan,,Female,25.0,"Los Angeles, CA"
+921,Charles McCall,877,42,451,USA22,Chuck,,Male,46.0,"Daphne, AL"
+922,Wynona McCall,878,42,451,USA22,Wynona,,Female,49.0,"Daphne, AL"
+923,Pamela Chien,879,42,452,USA22,Pam,,Female,29.0,"Los Angeles, CA"
+924,Winnie Sung,880,42,452,USA22,Winnie,,Female,29.0,"Los Angeles, CA"
+925,David O'Leary,881,42,453,USA22,Dave,,Male,58.0,"Salt Lake City, UT"
+926,Connor O'Leary,882,42,453,USA22,Connor,,Male,21.0,"Salt Lake City, UT"
+927,Jessica Hoel,883,42,454,USA22,Jessica,,Female,26.0,"Huntington Beach, CA"
+928,John Erck,884,42,454,USA22,John,,Male,27.0,"Huntington Beach, CA"
+929,Idries Abdur-Rahman,885,42,455,USA22,Idries,,Male,36.0,"Chicago, IL"
+930,Jamil Abdur-Rahman,886,42,455,USA22,Jamil,,Male,36.0,"Chicago, IL"
+931,Matthew Davis,887,42,456,USA22,Matt,,Male,25.0,"Gaffney, SC"
+932,Daniel Moss,888,42,456,USA22,Daniel,,Male,24.0,"Gaffney, SC"
+933,Omar Ishqair,889,43,457,NOR2,Omar,,Male,28.0,Oslo/Dubai
+934,Bilal Ishqair,890,43,457,NOR2,Bilal,,Male,26.0,Oslo/Dubai
+935,Solfrid Kvalvik,891,43,458,NOR2,Solfrid,,Female,37.0,Andenes
+936,Sveinung Ellingsen,892,43,458,NOR2,Sveinung,,Male,29.0,Andenes
+937,Cecilie Andresen Kreutz,893,43,459,NOR2,Cecilie,,Female,41.0,Bærum
+938,Camilla Harner Smith,894,43,459,NOR2,Camilla,,Female,43.0,Bærum
+939,Julie Eline Sannerud,895,43,460,NOR2,Julie,,Female,21.0,Oslo
+940,Robert Sømod,896,43,460,NOR2,Robert,,Male,23.0,Oslo
+941,Lill Marie Hande,897,43,461,NOR2,Lill,,Female,33.0,Son
+942,Stian Hande,898,43,461,NOR2,Stian,,Male,33.0,Son
+943,Eva Skjønhaug,899,43,462,NOR2,Eva,,Female,49.0,Drøbak
+944,Wenche Eriksen,900,43,462,NOR2,Wenche,,Female,50.0,Drøbak
+945,Vinh Thanh Phung,901,43,463,NOR2,Vinh,,Male,28.0,Oslo
+946,Terje Løvgro Stokke,902,43,463,NOR2,Terje,,Male,29.0,Oslo
+947,Priscila Merkesdal,903,43,464,NOR2,Priscila,,Female,23.0,Bergen
+948,Linn Christine Pedersen,904,43,464,NOR2,Lindsy,,Female,21.0,Bergen
+949,Milorad Dunderovic,905,43,465,NOR2,Milorad,,Male,59.0,Nittedal
+950,Dario Dunderovic,906,43,465,NOR2,Dario,,Male,22.0,Nittedal
+951,Allan Wetrhus,907,43,466,NOR2,Allan,,Male,42.0,Kristiansand
+952,Ørjan Heimlid Øvstetun,908,43,466,NOR2,Ørjan,,Male,26.0,Kristiansand
+953,Valeria Nikiforets,909,44,467,UKR1,Valeria,,Female,,Lviv
+954,Bohdana Prymak,910,44,467,UKR1,Bohdana,,Female,,Lviv
+955,Oleksiy Yeremeyev,911,44,468,UKR1,Oleksiy,,Male,,"Simferopol, Crimea"
+956,Olena Dolzhenko,912,44,468,UKR1,Olena,,Female,,"Simferopol, Crimea"
+957,Kostyantin Potomkiv,913,44,469,UKR1,Kostyantin,,Male,,Kyiv
+958,Yakiv Potomkiv,914,44,469,UKR1,Yakiv,,Male,18.0,Kyiv
+959,Oleksandr Perev'yazko,915,44,470,UKR1,Oleksandr,,Male,,Kyiv
+960,Volodymyr Cherkassky,916,44,470,UKR1,Volodymyr,,Male,,Kyiv
+961,Ihor Davydov,917,44,471,UKR1,Ihor,,Male,27.0,Kyiv
+962,Vasyl Nischyk,918,44,471,UKR1,Vasyl,,Male,,Kyiv
+963,Natalia Mansfield-Murphy,919,44,472,UKR1,Natalia,,Female,,"Brovary, Kyiv Oblast"
+964,Tatiana Maslovskaya,920,44,472,UKR1,Tatiana,,Female,,"Brovary, Kyiv Oblast"
+965,Andriy Ishchuk,921,44,473,UKR1,Andriy,,Male,,Kyiv
+966,Iryna Kozyreva,922,44,473,UKR1,Iryna,,Female,,Kyiv
+967,Anna Ivanchenko,923,44,474,UKR1,Anna,,Female,,Kyiv
+968,Roman Ivanchenko,924,44,474,UKR1,Roman,,Male,,Kyiv
+969,Alla Medvedev,925,44,475,UKR1,Alla,,Female,,Kyiv
+970,Oleksandra Medvedev,926,44,475,UKR1,Oleksandra,,Female,,Kyiv
+971,Volodymyr Vasylenko,927,44,476,UKR1,Volodymyr,,Male,72.0,Kharkiv
+972,Iryna Vasylenko,928,44,476,UKR1,Iryna,,Female,40.0,Kharkiv
+973,Talia Gorodess,929,45,477,ISR3,Talia,,Female,30.0,Giv'atayim
+974,Koby Windzberg,930,45,477,ISR3,Koby,,Male,34.0,Giv'atayim
+975,Romi Gemer,931,45,478,ISR3,Romi,,Female,18.0,Petah Tikva
+976,Coral Gemer,932,45,478,ISR3,Coral,,Female,20.0,Petah Tikva
+977,Ma'ayan Refaeli,933,45,479,ISR3,Ma'ayan,,Female,20.0,Zrahia
+978,Bat-El Musai,934,45,479,ISR3,Bat-El,,Female,20.0,Zrahia
+979,David Guedj,935,45,480,ISR3,David,,Male,28.0,Ashdod
+980,Eliran Look,936,45,480,ISR3,Eliran,,Male,28.0,Ashdod
+981,Debbie Baruch,937,45,481,ISR3,Debbie,,Female,46.0,Jerusalem
+982,Dana Dahan,938,45,481,ISR3,Dana,,Female,24.0,Jerusalem
+983,Eliran Elenbogen,939,45,482,ISR3,Eliran,,Male,26.0,Carmiel
+984,Itzik Madhani,940,45,482,ISR3,Itzik,,Male,28.0,Carmiel
+985,Mor Cohen,941,45,483,ISR3,Mor,,Female,28.0,Eilat
+986,Lior Cohen,942,45,483,ISR3,Lior,,Male,33.0,Eilat
+987,Shimeon Edri,943,45,484,ISR3,Shimi,,Male,26.0,Tel Aviv
+988,Yasmin Nagorni,944,45,484,ISR3,Yasmin,,Female,19.0,Tel Aviv
+989,Ronit Shavit,945,45,485,ISR3,Ronit,,Female,33.0,Afula
+990,Liran Cohen,946,45,485,ISR3,Liran,,Male,27.0,Afula
+991,Andrea Zaltzmann,947,45,486,ISR3,Andrea,,Female,57.0,Jerusalem
+992,Ronnie Zaltzmann,948,45,486,ISR3,Ronnie,,Male,60.0,Jerusalem
+993,Herut Vaysenstern,949,45,487,ISR3,Herut,,Female,32.0,Petah Tikva
+994,Yael Teitelbaum,950,45,487,ISR3,Yoftut,,Female,30.0,Petah Tikva
+995,Tim Hague Sr.,951,46,488,CAN1,Tim Sr.,,Male,48.0,"Winnipeg, MB"
+996,Tim Hague Jr.,952,46,488,CAN1,Tim Jr.,,Male,23.0,"Winnipeg, MB"
+997,Jody Mitic,953,46,489,CAN1,Jody,,Male,36.0,"Ottawa, ON"
+998,Cory Mitic,954,46,489,CAN1,Cory,,Male,32.0,"Edmonton, AB"
+999,Vanessa Morgan,955,46,490,CAN1,Vanessa,,Female,21.0,"Ottawa, ON"
+1000,Celina Mziray,956,46,490,CAN1,Celina,,Female,30.0,"Ottawa, ON"
+1001,Jethro Black,957,46,491,CAN1,Jet,,Male,32.0,"London, ON"
+1002,Dave Schram,958,46,491,CAN1,Dave,,Male,28.0,"London, ON"
+1003,Brett Burstein,959,46,492,CAN1,Brett,,Male,33.0,"Montreal, QC"
+1004,Holly Agostino,960,46,492,CAN1,Holly,,Female,33.0,"Montreal, QC"
+1005,Hal Johnson,961,46,493,CAN1,Hal,,Male,57.0,"Oakville, ON"
+1006,Joanne McLeod,962,46,493,CAN1,Joanne,,Female,54.0,"Oakville, ON"
+1007,Kristen Idiens,963,46,494,CAN1,Kristen,,Female,32.0,"Fairmont Hot Springs, BC"
+1008,Darren Trapp,964,46,494,CAN1,Darren,,Male,26.0,"Fairmont Hot Springs, BC"
+1009,Jamie Cumberland,965,46,495,CAN1,Jamie,,Male,47.0,"Airdrie, AB"
+1010,Pierre Cadieux,966,46,495,CAN1,Pierre,,Male,38.0,"Innisfail, AB"
+1011,Treena Ley,967,46,496,CAN1,Treena,,Female,36.0,"Hamilton, ON"
+1012,Tennille Dorrington,968,46,496,CAN1,Tennille,,Female,36.0,"Hamilton, ON"
+1013,Diệp Anh Nguyễn,969,47,497,VIE2,Diệp Lâm Anh,,Female,24.0,Hanoi
+1014,Thu Hiền Trần Thị,970,47,497,VIE2,Thu Hiền,,Female,24.0,Hanoi
+1015,Linh Chi Nguyễn Thị,971,47,498,VIE2,Linh Chi,,Female,31.0,Lam Dong
+1016,Nhan Phúc Vinh,972,47,498,VIE2,Nhan Phúc Vinh,,Male,27.0,Can Tho
+1017,Đức Hưng Dương,973,47,499,VIE2,Đức Hưng,,Male,29.0,Hanoi
+1018,Thùy Dung Nguyễn,974,47,499,VIE2,Thùy Dung,,Female,26.0,Hanoi
+1019,Esther Lưu,975,47,500,VIE2,Hari,,Female,28.0,"Seoul, South Korea"
+1020,Tiến Đạt Đinh,976,47,500,VIE2,Tiến Đạt,,Male,32.0,Ho Chi Minh City
+1021,Tiến Mạnh Đoàn,977,47,501,VIE2,Đoàn Mạnh,,Male,26.0,Ha Giang
+1022,Linh Sơn Nguyễn,978,47,501,VIE2,Linh Sơn,,Male,26.0,Ha Nam
+1023,Anh Tuấn Phạm,979,47,502,VIE2,Anh Tuấn,,Male,29.0,Hai Phong
+1024,Thanh Hóa Đỗ Thị,980,47,502,VIE2,Thanh Hóa,,Female,23.0,Hanoi
+1025,Pha Lê Nguyễn,981,47,503,VIE2,Pha Lê,,Female,26.0,Hai Phong
+1026,Hà Việt Dũng,982,47,503,VIE2,Hà Việt Dũng,,Male,26.0,Phu Tho
+1027,Kim Lee,983,47,504,VIE2,Kim Lee,,Female,25.0,"Los Angeles, CA"
+1028,Duy Phương Nguyễn,984,47,504,VIE2,Pharreal Phương,,Male,24.0,Hai Phong
+1029,Sơn Thạch Nguyễn Cao,985,47,505,VIE2,S.T,,Male,22.0,Ho Chi Minh City
+1030,Lâm Hùng Phong,986,47,505,VIE2,Lâm Hùng Phong,,Male,22.0,Ho Chi Minh City
+1031,Ezequiel Sapochnik,987,48,506,LAM5,Ezequiel,,Male,35.0,"Chubut, Argentina"
+1032,Lucas de la Barra,988,48,506,LAM5,Tobías,,Male,34.0,"Santa Rosa, Argentina"
+1033,Darío Greni,989,48,507,LAM5,Darío,,Male,38.0,"Canelones, Uruguay"
+1034,Esther Martínez,990,48,507,LAM5,Esther,,Female,41.0,"Canelones, Uruguay"
+1035,Karina Cordobés,991,48,508,LAM5,Karina,,Female,24.0,"Buenos Aires, Argentina"
+1036,Braian Torres,992,48,508,LAM5,Braian,,Male,26.0,"Buenos Aires, Argentina"
+1037,Manfred Céspedes,993,48,509,LAM5,Manfred,,Male,25.0,"Alajuela, Costa Rica"
+1038,Pierre Monney,994,48,509,LAM5,Pierre,,Male,27.0,"San José, Costa Rica"
+1039,Jessica Manco,995,48,510,LAM5,Jessica,,Female,27.0,"Caracas, Venezuela"
+1040,Carelb Herrera,996,48,510,LAM5,Michelle,,Female,30.0,"Caracas, Venezuela"
+1041,Evelyn Cristopher,997,48,511,LAM5,Evelyn,,Female,39.0,"Bogotá, Colombia"
+1042,Jorge Avellaneda,998,48,511,LAM5,Jorge,,Male,30.0,"Bogotá, Colombia"
+1043,Astrid Velásquez,999,48,512,LAM5,Astrid,,Female,34.0,"Medellín, Colombia"
+1044,Alejandra Velásquez,1000,48,512,LAM5,Aleja,,Female,28.0,"Medellín, Colombia"
+1045,Juan López,1001,48,513,LAM5,Juanjo,,Male,38.0,"Guatemala City, Guatemala"
+1046,Gilberto Ortega,1002,48,513,LAM5,Beto,,Male,36.0,"Mexico City, Mexico"
+1047,Débora Cunha,1003,48,514,LAM5,Débora,,Female,30.0,"São Paulo, Brazil"
+1048,Renata Kimura,1004,48,514,LAM5,Renata,,Female,26.0,"São Paulo, Brazil"
+1049,Filippo Puccio,1005,48,515,LAM5,Filippo,,Male,42.0,"Ocumare del Tuy, Venezuela"
+1050,Eddy Díaz,1006,48,515,LAM5,Eddy,,Male,47.0,"Maracaibo, Venezuela"
+1051,Ariana Figueroa,1007,48,516,LAM5,Ari,,Female,26.0,"Mexico City, Mexico"
+1052,Ramón Figueroa,1008,48,516,LAM5,Ra,,Male,32.0,"Mexico City, Mexico"
+1053,Jason Case,1009,49,517,USA23,Jason,,Male,33.0,"Attleboro, MA"
+1054,Amy Diaz,1010,49,517,USA23,Amy,,Female,29.0,"Providence, RI"
+1055,Timothy Sweeney,1011,49,518,USA23,Tim,,Male,32.0,"Morristown, NJ"
+1056,Marie Mazzocchi,1012,49,518,USA23,Marie,,Female,29.0,"Morristown, NJ"
+1057,Nicole Jasper,1013,49,519,USA23,Nicole,,Female,39.0,"Atlanta, GA"
+1058,Travis Jasper,1014,49,519,USA23,Travis,,Male,43.0,"Atlanta, GA"
+1059,Leo Temory,1015,49,520,USA23,Leo,,Male,26.0,"Los Angeles, CA"
+1060,Jamal Zadran,1016,49,520,USA23,Jamal,,Male,26.0,"Los Angeles, CA"
+1061,Allison Mello,1017,49,521,USA23,Ally,,Female,22.0,"Los Angeles, CA"
+1062,Ashley Covert,1018,49,521,USA23,Ashley,,Female,25.0,"Los Angeles, CA"
+1063,Nicole Getz,1019,49,522,USA23,Nicky,,Female,27.0,"Kansas City, MO"
+1064,Kimberly DeJesus,1020,49,522,USA23,Kim,,Female,32.0,"Chicago, IL"
+1065,Tim Wiyninger,1021,49,523,USA23,Tim,,Male,26.0,"Cordell, OK"
+1066,Daniel Merkey,1022,49,523,USA23,Danny,,Male,25.0,"Cordell, OK"
+1067,Brandon Squyres,1023,49,524,USA23,Brandon,,Male,34.0,"Chico, CA"
+1068,Adam Switzer,1024,49,524,USA23,Adam,,Male,34.0,"Los Angeles, CA"
+1069,Chester Pitts II,1025,49,525,USA23,Chester,,Male,33.0,"Missouri City, TX"
+1070,Ephraim Salaam,1026,49,525,USA23,Ephraim,,Male,36.0,"Studio City, CA"
+1071,Rowan Joseph,1027,49,526,USA23,Rowan,,Male,56.0,"Charlotte, NC"
+1072,Shane Partlow,1028,49,526,USA23,Shane,,Male,47.0,"Charlotte, NC"
+1073,Hoskote Venkatesh,1029,49,527,USA23,Hoskote,,Male,60.0,"Laguna Niguel, CA"
+1074,Naina Venkatesh,1030,49,527,USA23,Naina,,Female,27.0,"Laguna Niguel, CA"
+1075,Dave O'Leary,881,50,528,USA24,Dave,,Male,59.0,"Salt Lake City, UT"
+1076,Connor O'Leary,882,50,528,USA24,Connor,,Male,22.0,"Salt Lake City, UT"
+1077,Caroline Cutbirth,873,50,529,USA24,Caroline,,Female,30.0,"Waco, TX"
+1078,Jennifer Wayne,874,50,529,USA24,Jennifer,,Female,31.0,"Nashville, TN"
+1079,Brendon Villegas,679,50,530,USA24,Brendon,,Male,33.0,"Los Angeles, CA"
+1080,Rachel Reilly,680,50,530,USA24,Rachel,,Female,29.0,"Los Angeles, CA"
+1081,Leo Temory,1015,50,531,USA24,Leo,,Male,27.0,"Torrance, CA"
+1082,Jamal Zadran,1016,50,531,USA24,Jamal,,Male,26.0,"Irvine, CA"
+1083,Jet McCoy,461,50,532,USA24,Jet,,Male,34.0,"Ada, OK"
+1084,Cord McCoy,462,50,532,USA24,Cord,,Male,33.0,"Tupelo, OK"
+1085,Herbert Lang,441,50,533,USA24,Flight Time,,Male,37.0,"Brinkley, AR"
+1086,Nathaniel Lofton,442,50,533,USA24,Big Easy,,Male,32.0,"New Orleans, LA"
+1087,Jessica Hoel,883,50,534,USA24,Jessica,,Female,27.0,"Eden Prairie, MN"
+1088,John Erck,884,50,534,USA24,John,,Male,28.0,"Mona, MN"
+1089,Margaret O'Donnell,395,50,535,USA24,Margie,,Female,56.0,"Colorado Springs, CO"
+1090,Luke Adams,396,50,535,USA24,Luke,,Male,28.0,"Philadelphia, PA"
+1091,Joseph Michael Graceffa,875,50,536,USA24,Joey,,Male,22.0,"Los Angeles, CA"
+1092,Meghan Camarena,876,50,536,USA24,Meghan,,Female,26.0,"Los Angeles, CA"
+1093,Mark Jackson,684,50,537,USA24,Mark,,Male,47.0,"Manchester, KY"
+1094,Mallory Ervin,532,50,537,USA24,Mallory,,Female,28.0,"Nashville, TN"
+1095,Natalie Anderson,789,50,538,USA24,Natalie,,Female,27.0,"Edgewater, NJ"
+1096,Nadiya Anderson,790,50,538,USA24,Nadiya,,Female,27.0,"Edgewater, NJ"
+1097,Ngọc Hiếu Nguyễn,1031,51,539,VIE3,Hương Giang,,Female,23.0,Hanoi
+1098,Huy Phương Lai,1032,51,539,VIE3,Criss,,Male,32.0,Long An
+1099,Trang Trần,1033,51,540,VIE3,Trang Trần,,Female,29.0,Hanoi
+1100,Hiếu Nguyễn,1034,51,540,VIE3,Hiếu Nguyễn,,Male,24.0,Thai Binh
+1101,Huyền Trang Khiếu Thị,1035,51,541,VIE3,Trang Khiếu,,Female,23.0,Bac Giang
+1102,Yahya An Đinh,1036,51,541,VIE3,An Đinh,,Female,25.0,"Vancouver, Canada"
+1103,Ngô Thị Mai Trang,1037,51,542,VIE3,Kiwi Ngô Mai Trang,,Female,32.0,Nam Dinh
+1104,Đỗ Hoàng Dương,1038,51,542,VIE3,Đỗ Hoàng Dương,,Male,39.0,Ho Chi Minh City
+1105,Sơn Ngọc Minh,1039,51,543,VIE3,Sơn Ngọc Minh,,Male,24.0,Can Tho
+1106,Huê Nguyễn,1040,51,543,VIE3,Mint,,Female,32.0,Ho Chi Minh City
+1107,Long Điền Nguyễn,1041,51,544,VIE3,Long Điền,,Female,30.0,Ho Chi Minh City
+1108,Kim Dung,1042,51,544,VIE3,Kim Dung,,Male,26.0,Bien Hoa
+1109,Kim Thanh Trần,1043,51,545,VIE3,Kim Thanh,,Male,26.0,Dong Nai
+1110,Khải Anh Đinh,1044,51,545,VIE3,Khải Anh,,Female,24.0,Hanoi
+1111,Lan Trinh Võ Ngọc,1045,51,546,VIE3,Miko Lan Trinh,,Female,27.0,Ho Chi Minh City
+1112,Hoàng Nam Lê,1046,51,546,VIE3,Hoàng Nam,,Male,29.0,Hanoi
+1113,Minh Long Nguyễn,1047,51,547,VIE3,Minh Long,,Male,26.0,Da Nang
+1114,Sơn Việt Hoàng,1048,51,547,VIE3,Sơn Việt,,Male,29.0,Hanoi
+1115,Michael Henry,1049,52,548,CAN2,Mickey,,Male,24.0,"Seguin, ON"
+1116,Peter Schmalz,1050,52,548,CAN2,Pete,,Male,24.0,"Parry Sound, ON"
+1117,Natalie Spooner,1051,52,549,CAN2,Natalie,,Female,23.0,"Scarborough, ON"
+1118,Meaghan Mikkelson,1052,52,549,CAN2,Meaghan,,Female,29.0,"Calgary, AB"
+1119,Ryan Steele,1053,52,550,CAN2,Ryan,,Male,36.0,"Vancouver, BC"
+1120,Robert Goodard,1054,52,550,CAN2,Rob,,Male,24.0,"Vancouver, BC"
+1121,Sukhi Atwal,1055,52,551,CAN2,Sukhi,,Female,32.0,"Terrace, BC"
+1122,Harjinder Atwal,1056,52,551,CAN2,Jinder,,Male,26.0,"Terrace, BC"
+1123,Alain Chanoine,1057,52,552,CAN2,Alain,,Male,32.0,"Saint-Hubert, QC"
+1124,Audrey Tousignant-Maurice,1058,52,552,CAN2,Audrey,,Female,31.0,"Saint-Hubert, QC"
+1125,Pierre Forget,1059,52,553,CAN2,Pierre,,Male,42.0,"Terrebonne, QC"
+1126,Michel Forget,1060,52,553,CAN2,Michel,,Male,42.0,"Terrebonne, QC"
+1127,Rex Harrington,1061,52,554,CAN2,Rex,,Male,51.0,"Ashburn, ON"
+1128,Bob Hope,1062,52,554,CAN2,Bob,,Male,47.0,"Ashburn, ON"
+1129,Cormac Foster,1063,52,555,CAN2,Cormac,,Male,19.0,"Winnipeg, MB"
+1130,Nicole Foster,1064,52,555,CAN2,Nicole,,Female,39.0,"Winnipeg, MB"
+1131,Laura Takahashi,1065,52,556,CAN2,Laura,,Female,28.0,"Toronto, ON"
+1132,Jacqueline Skinner,1066,52,556,CAN2,Jackie,,Female,31.0,"Toronto, ON"
+1133,Jennifer King,1067,52,557,CAN2,Jen,,Female,40.0,"Halifax, NS"
+1134,Shawn King,1068,52,557,CAN2,Shawn,,Male,41.0,"Halifax, NS"
+1135,Shahla Kara,1069,52,558,CAN2,Shahla,,Female,29.0,"Markham, ON"
+1136,Nabeela Barday,1070,52,558,CAN2,Nabeela,,Female,29.0,"Markham, ON"
+1137,Daniel Little,1071,53,559,AUS3,Daniel,,Male,28.0,"Sydney, NSW"
+1138,Ryan Thomas,1072,53,559,AUS3,Ryan,,Male,32.0,"Sydney, NSW"
+1139,Sally Yamamoto,1073,53,560,AUS3,Sally,,Female,33.0,"Perth, WA"
+1140,Tyson Smith,1074,53,560,AUS3,Tyson,,Male,38.0,"Perth, WA"
+1141,Ashleigh Jende,1075,53,561,AUS3,Ashleigh,,Female,27.0,"Melbourne, VIC"
+1142,Jarrod Jende,1076,53,561,AUS3,Jarrod,,Male,28.0,"Melbourne, VIC"
+1143,Carla Beazley,1077,53,562,AUS3,Carla,,Female,37.0,"Taraunga, NZ"
+1144,Hereni Fulton,1078,53,562,AUS3,Hereni,,Female,42.0,"Taraunga, NZ"
+1145,Catherine O'Brien,1079,53,563,AUS3,Cat,,Female,38.0,"Hamilton, NZ"
+1146,Jesse O'Brien,1080,53,563,AUS3,Jesse,,Male,36.0,"Hamilton, NZ"
+1147,John Gbenda Charles,1081,53,564,AUS3,John,,Male,35.0,"Christchurch, NZ"
+1148,Murray Roeske,1082,53,564,AUS3,Murray,,Male,35.0,"Wellington, NZ"
+1149,Emily Trenberth,1083,53,565,AUS3,Emily,,Female,24.0,"Christchurch, NZ"
+1150,Jonathan Trenberth,1084,53,565,AUS3,Jono,,Male,26.0,"Christchurch, NZ"
+1151,Aston Garrett,1085,53,566,AUS3,Aston,,Female,32.0,"Auckland, NZ"
+1152,Christina Orr,1086,53,566,AUS3,Christie,,Female,35.0,"Auckland, NZ"
+1153,Dr Elizabeth Grant,1087,53,567,AUS3,Elizabeth,,Female,50.0,"Adelaide, SA"
+1154,Todd Grant,1088,53,567,AUS3,Todd,,Male,25.0,"Adelaide, SA"
+1155,Inga Lederhaus,1089,53,568,AUS3,Inga,,Female,27.0,"Perth, WA"
+1156,Tiharna McGregor,1090,53,568,AUS3,Tiharna,,Female,26.0,"Perth, WA"
+1157,Amy DeJong,1091,54,569,USA25,Amy,,Female,24.0,"Madison, WI"
+1158,Maya Warren,1092,54,569,USA25,Maya,,Female,29.0,"Madison, WI"
+1159,Misti Raman,1093,54,570,USA25,Misti,,Female,36.0,"Columbia, SC"
+1160,James Raman,1094,54,570,USA25,Jim,,Male,37.0,"Columbia, SC"
+1161,Adam Dirks,1095,54,571,USA25,Adam,,Male,26.0,"Princeville, HI"
+1162,Bethany Hamilton,1096,54,571,USA25,Bethany,,Female,24.0,"Princeville, HI"
+1163,Brooke Adams,1097,54,572,USA25,Brooke,,Female,29.0,"Houston, TX"
+1164,Robert Strauss,1098,54,572,USA25,Robbie,,Male,30.0,"Woodbridge, NJ"
+1165,Kym Perfetto,1099,54,573,USA25,Kym,,Female,30.0,"Brooklyn, NY"
+1166,Alli Forsythe,1100,54,573,USA25,Alli,,Female,26.0,"Brooklyn, NY"
+1167,Timothy Tsao,1101,54,574,USA25,Tim,,Male,23.0,"Pasadena, CA"
+1168,Te Jay McGrath,1102,54,574,USA25,Te Jay,,Male,24.0,"Pasadena, CA"
+1169,Shelley Porter,1103,54,575,USA25,Shelley,,Female,42.0,"Detroit, MI"
+1170,Enicia Porter,1104,54,575,USA25,Nici,,Female,24.0,"Detroit, MI"
+1171,Keith Tollefson,1105,54,576,USA25,Keith,,Male,29.0,"Nashville, TN"
+1172,Whitney Duncan,1106,54,576,USA25,Whitney,,Female,29.0,"Nashville, TN"
+1173,Michael Ward,1107,54,577,USA25,Michael,,Male,40.0,"Boston, MA"
+1174,Scott Strazzullo,1108,54,577,USA25,Scott,,Male,39.0,"Boston, MA"
+1175,Dennis Hour,1109,54,578,USA25,Dennis,,Male,30.0,"Tustin, CA"
+1176,Isabelle Du,1110,54,578,USA25,Isabelle,,Female,28.0,"Tustin, CA"
+1177,Lisa Thomson,1111,54,579,USA25,Lisa,,Female,28.0,"Miami, FL"
+1178,Michelle Thomson,1112,54,579,USA25,Michelle,,Female,22.0,"Miami, FL"
+1179,Giovanni López,1113,55,580,LAM6,Giovanni,,Male,44.0,"Guayaquil, Ecuador"
+1180,Juan Carlos Estrada,1114,55,580,LAM6,Juan Carlos,,Male,45.0,"Guayaquil, Ecuador"
+1181,Javier Rodriguez,1115,55,581,LAM6,Javier,,Male,30.0,"San Fernando, Argentina"
+1182,Nicolas Podestá,1116,55,581,LAM6,Nicolas,,Male,30.0,"Buenos Aires, Argentina"
+1183,Juan Molina,1117,55,582,LAM6,Juan,,Male,51.0,"Guadalajara, Mexico"
+1184,Cecilia Molina,1118,55,582,LAM6,Cecilia,,Female,24.0,"Guadalajara, Mexico"
+1185,Christian Altamirano,1119,55,583,LAM6,Christian,,Male,26.0,"Guayaquil, Ecuador"
+1186,Dina Muñoz,1120,55,583,LAM6,Dina,,Female,23.0,"Guayaquil, Ecuador"
+1187,Martín Suarez,1121,55,584,LAM6,Martín,,Male,29.0,"Santa Marta, Colombia"
+1188,Jenny Machado,1122,55,584,LAM6,Jenny,,Female,26.0,"Santa Marta, Colombia"
+1189,Estefanía Marticorena,1123,55,585,LAM6,Stefanía,,Female,26.0,"Coquimbo, Chile"
+1190,Felipe Galleguillos Céspedes,1124,55,585,LAM6,Felipe,,Male,38.0,"Coquimbo, Chile"
+1191,Sonia Parada,1125,55,586,LAM6,Sonia,,Female,26.0,"Bogotá, Colombia"
+1192,Gabriel Camero Gartner,1126,55,586,LAM6,Gabriel,,Male,25.0,"Bogotá, Colombia"
+1193,Clara Arauz,1127,55,587,LAM6,Clara,,Female,25.0,"Buenos Aires, Argentina"
+1194,Delfina Arauz,1128,55,587,LAM6,Delfina,,Female,28.0,"Buenos Aires, Argentina"
+1195,Claudia Velázquez Macías,1129,55,588,LAM6,Audi,,Female,23.0,"Cuernavaca, Mexico"
+1196,David Andres,1130,55,588,LAM6,David,,Male,25.0,"Cuernavaca, Mexico"
+1197,Carlos Alonso,1131,55,589,LAM6,Carlos,,Male,28.0,"Valencia, Venezuela"
+1198,Orlando Betancourt,1132,55,589,LAM6,Orlando,,Male,21.0,"Merida, Venezuela"
+1199,Ana Pérez,1133,55,590,LAM6,Ana,,Female,27.0,"Caracas, Venezuela"
+1200,Alexander Sánchez,1134,55,590,LAM6,Vantroy,,Male,27.0,"Caracas, Venezuela"
+1201,Matthew Edwards,1135,56,591,PHI2,Matt,,Male,22.0,"Angeles City, Pampanga"
+1202,Phoebe Walker,1136,56,591,PHI2,Phoebe,,Female,21.0,"Hong Kong, China"
+1203,Kelvin Engles,1137,56,592,PHI2,Kelvin,,Male,23.0,Manila
+1204,John Paul Duray,1138,56,592,PHI2,JP,,Male,25.0,"Olongapo, Zambales"
+1205,Rochelle Hernandez,1139,56,593,PHI2,Roch,,Female,34.0,"Santa Maria, Bulacan"
+1206,Elijah Estillore,1140,56,593,PHI2,Eji,,Male,29.0,"Cebu City, Cebu"
+1207,Jet Cruz,1141,56,594,PHI2,Jet,,Male,29.0,"Baguio, Benguet"
+1208,Yna Cruz,1142,56,594,PHI2,Yna,,Female,28.0,"Baguio, Benguet"
+1209,AJ Saliba,1143,56,595,PHI2,AJ,,Male,52.0,"Olongapo, Zambales"
+1210,Jody Saliba,1144,56,595,PHI2,Jody,,Male,21.0,"Olongapo, Zambales"
+1211,Vincent Yu,1145,56,596,PHI2,Vince,,Male,24.0,"Quezon, Manila"
+1212,Edmer Manguan,1146,56,596,PHI2,Ed,,Male,21.0,"San Juan, Manila"
+1213,Romyreen Enriquez,1147,56,597,PHI2,RR,,Female,30.0,"Quezon City, Manila"
+1214,Jeck Maierhofer,1148,56,597,PHI2,Jeck,,Female,28.0,"San Pedro, Laguna"
+1215,Tina Wells,1149,56,598,PHI2,Tina,,Female,26.0,"Pilar, Bataan"
+1216,Avy Wells,1150,56,598,PHI2,Avy,,Female,22.0,"Pilar, Bataan"
+1217,Daniel Marsh,1151,56,599,PHI2,Daniel,,Male,25.0,"Argao, Cebu"
+1218,Charlie Sutcliffe,1152,56,599,PHI2,Charlie,,Male,25.0,"Alegria, Cebu"
+1219,Gretchen Albaniel,1153,56,600,PHI2,Chen,,Female,28.0,"Puerto Princesa, Palawan"
+1220,Luz McClitton,1154,56,600,PHI2,Luz,,Female,36.0,"Muntinlupa, Manila"
+1221,Zarah Evangelista,1155,56,601,PHI2,Zarah,,Female,24.0,"Davao City, Davao del Sur"
+1222,Rosanna Dela Rosa,1156,56,601,PHI2,Osang,,Female,25.0,"Davao City, Davao del Sur"
+1223,Zhong Hanliang,1157,57,602,CHN1,Zhong Hanliang,,Male,40.0,Hong Kong
+1224,Zhong Xiuping,1158,57,602,CHN1,Jackie,,Female,38.0,Hong Kong
+1225,Li Xiaopeng,1159,57,603,CHN1,Li Xiaopeng,,Male,33.0,"Changsha, Hunan"
+1226,Li Anqi,1160,57,603,CHN1,Li Anqi,,Female,27.0,United States
+1227,Bai Jugang,1161,57,604,CHN1,Bai Jugang,,Male,21.0,"Mianyang, Sichuan"
+1228,Guan Xiaotong,1162,57,604,CHN1,Guan Xiaotong,,Female,17.0,Beijing
+1229,Jin Dachuan,1163,57,605,CHN1,Jin Dachuan,,Male,21.0,"Taian, Shandong"
+1230,Liu Chang,1164,57,605,CHN1,Liu Chang,,Male,28.0,"Dongtai, Jiangsu"
+1231,Chen Xiaochun,1165,57,606,CHN1,Chen Xiaochun,,Male,47.0,Hong Kong
+1232,Zheng Yijian,1166,57,606,CHN1,Zheng Yijian,,Male,47.0,Hong Kong
+1233,Chen Yiru,1167,57,607,CHN1,Chen Yiru,,Male,34.0,"Taipei, Taiwan"
+1234,Zhou Weitong,1168,57,607,CHN1,Zhou Weitong,,Female,32.0,"Qiandongnanzhou, Guizhou"
+1235,Zhang Tielin,1169,57,608,CHN1,Zhang Tielin,,Male,57.0,"Tangshan, Hebei"
+1236,Zhang Yueliang,1170,57,608,CHN1,Yueliang,,Female,23.0,United Kingdom
+1237,Ying Cai'er,1171,57,609,CHN1,Ying Cai'er,,Female,31.0,"Taipei, Taiwan"
+1238,Liu Yun,1172,57,609,CHN1,Liu Yun,,Female,32.0,"Changsha, Hunan"
+1239,Shay Gavriel,1173,58,610,ISR4,Shay,,Male,28.0,Ein Ya'akov
+1240,Shani Alon,1174,58,610,ISR4,Shani,,Female,27.0,Ein Ya'akov
+1241,Tom Baum,1175,58,611,ISR4,Tom,,Male,20.0,Tel Aviv
+1242,Uriel Yekutiel,1176,58,611,ISR4,Uriel,,Male,26.0,Tel Aviv
+1243,Yochi Apolion,1177,58,612,ISR4,Yochi,,Female,24.0,Givatayim
+1244,Linor Fahima,1178,58,612,ISR4,Linor,,Female,24.0,Kiryat Ata
+1245,Vladimir Lazarovitch,1179,58,613,ISR4,Vova,,Male,27.0,Petah Tikva
+1246,Alla Aibinder,1180,58,613,ISR4,Alla,,Female,25.0,Petah Tikva
+1247,Gal Almog,1181,58,614,ISR4,Gal,,Male,26.0,Ashdod
+1248,Liel Gelstein,1182,58,614,ISR4,Liel,,Female,26.0,Ashdod
+1249,Daniel Topaz,1183,58,615,ISR4,Daniel,,Male,25.0,Tel Aviv
+1250,Meiri Shemesh,1184,58,615,ISR4,Meiri,,Male,24.0,Jerusalem
+1251,Ruth Dolgakov,1185,58,616,ISR4,Alexa,,Female,21.0,Tel Aviv
+1252,Raz Zelcerman,1186,58,616,ISR4,Raz,,Male,29.0,Tel Aviv
+1253,Shay Attoun,1187,58,617,ISR4,Shay,,Male,27.0,Eilat
+1254,Adi Attoun,1188,58,617,ISR4,Adi,,Male,27.0,Eilat
+1255,Roni Duani,1189,58,618,ISR4,Roni,,Female,28.0,Tel Aviv
+1256,Yael Duani,1190,58,618,ISR4,Yael,,Female,32.0,Tel Aviv
+1257,Yafa Barazany,1191,58,619,ISR4,Yafa,,Female,57.0,Rosh HaAyin
+1258,Boaz Vaknin,1192,58,619,ISR4,Boaz,,Male,27.0,Kiryat Ono
+1259,Liron Urfali,1193,58,620,ISR4,Tiltil,,Male,38.0,Tel Aviv
+1260,Shay Mizrahi,1194,58,620,ISR4,Mizrahi,,Male,37.0,Tel Aviv
+1261,Irit Bahir,1195,58,621,ISR4,Irit,,Female,54.0,Ein Harod
+1262,Sinai Bahir,1196,58,621,ISR4,Sinai,,Female,31.0,Ein Harod
+1263,Hila Peretz,1197,58,622,ISR4,Huti,,Female,29.0,Petah Tikva
+1264,Inbal Nativ,1198,58,622,ISR4,Tzuki,,Female,29.0,Petah Tikva
+1265,Pnina Rosenblum,1199,58,623,ISR4,Pnina,,Female,59.0,Tel Aviv
+1266,Hen Haim Rosenblum,1200,58,623,ISR4,Hen,,Female,21.0,Tel Aviv
+1267,Laura Pierson,1201,59,624,USA26,Laura,,Female,29.0,"Los Angeles, CA"
+1268,Tyler Adams,1202,59,624,USA26,Tyler,,Male,26.0,"Santa Monica, CA"
+1269,Jelani Roy,1203,59,625,USA26,Jelani,,Male,32.0,"New York, NY"
+1270,Jennifer Wu,1204,59,625,USA26,Jenny,,Female,32.0,"Los Angeles, CA"
+1271,Hayley Keel,1205,59,626,USA26,Hayley,,Female,28.0,"Saint Petersburg, FL"
+1272,Blair Townsend,1206,59,626,USA26,Blair,,Male,31.0,"Amelia Island, FL"
+1273,Michael Dombrowski,1207,59,627,USA26,Mike,,Male,26.0,"Traverse City, MI"
+1274,Rochelle Nevedal,1208,59,627,USA26,Rochelle,,Female,29.0,"Kalkaska, MI"
+1275,Matthew Cucolo,1209,59,628,USA26,Matt,,Male,30.0,"Scarsdale, NY"
+1276,Ashley Gordon,1210,59,628,USA26,Ashley,,Female,28.0,"Scarsdale, NY"
+1277,Alyson Dudek,1211,59,629,USA26,Aly,,Female,24.0,"Milwaukee, WI"
+1278,Steven Langton,1212,59,629,USA26,Steve,,Male,31.0,"Boston, MA"
+1279,Jeffrey Weldon,1213,59,630,USA26,Jeff,,Male,26.0,"Tampa, FL"
+1280,Jackie Ibarra,1214,59,630,USA26,Jackie,,Female,27.0,"Las Vegas, NV"
+1281,Bergen Olsen,1215,59,631,USA26,Bergen,,Male,23.0,"Sunnyvale, CA"
+1282,Kurt Jordan Belcher,1216,59,631,USA26,Kurt,,Male,24.0,"Butler, KY"
+1283,Harley Rodriguez,1217,59,632,USA26,Harley,,Male,41.0,"New York, NY"
+1284,Jonathan Knight,1218,59,632,USA26,Jonathan,,Male,46.0,"New York, NY"
+1285,Lebya Simpson,1219,59,633,USA26,Libby,,Female,25.0,"Tuskegee, AL"
+1286,Clarence Harris,1220,59,633,USA26,CJ,,Male,26.0,"Tuskegee, AL"
+1287,Jeff Magee,1221,59,634,USA26,Jeff,,Male,57.0,"McCall, ID"
+1288,Lyda Grawn,1222,59,634,USA26,Lyda,,Female,49.0,"Scottsdale, AZ"
+1289,Gino Montani,1223,60,635,CAN3,Gino,,Male,28.0,"Hamilton, ON"
+1290,Jesse Montani,1224,60,635,CAN3,Jesse,,Male,25.0,"Hamilton, ON"
+1291,Nick Foti,1225,60,636,CAN3,Nick,,Male,35.0,"Newmarket, ON"
+1292,Matt Giunta,1226,60,636,CAN3,Matt,,Male,33.0,"Stouffville, ON"
+1293,Brent Sweeney,1227,60,637,CAN3,Brent,,Male,25.0,"Toronto, ON"
+1294,Sean Sweeney,1228,60,637,CAN3,Sean,,Male,28.0,"Toronto, ON"
+1295,Simi Fagbongbe,1229,60,638,CAN3,Simi,,Female,21.0,"Burnaby, BC"
+1296,Ope Fagbongbe,1230,60,638,CAN3,Ope,,Male,46.0,"Burnaby, BC"
+1297,Dujean Williams,1231,60,639,CAN3,Dujean,,Male,25.0,"Toronto, ON"
+1298,Leilani Ross,1232,60,639,CAN3,Leilani,,Female,24.0,"Toronto, ON"
+1299,Brian Boyd,1233,60,640,CAN3,Brian,,Male,46.0,"Winnipeg, MB"
+1300,Cynthia Boyd,1234,60,640,CAN3,Cynthia,,Female,41.0,"Winnipeg, MB"
+1301,Neil Lumsden,1235,60,641,CAN3,Neil,,Male,62.0,"Burlington, ON"
+1302,Kristin Lumsden,1236,60,641,CAN3,Kristin,,Female,31.0,"Toronto, ON"
+1303,Nicholas La Monaca,1237,60,642,CAN3,Nic,,Male,22.0,"Montreal, QC"
+1304,Sabrina Mercuri,1238,60,642,CAN3,Sabrina,,Female,32.0,"Montreal, QC"
+1305,Hamilton Elliott,1239,60,643,CAN3,Hamilton,,Male,19.0,"Centreville, NS"
+1306,Michaelia Drever,1240,60,643,CAN3,Michaelia,,Female,19.0,"Centreville, NS"
+1307,Dana Hayward,1241,60,644,CAN3,Dana,,Female,23.0,"Wabush, NL"
+1308,Amanda Johnston,1242,60,644,CAN3,Amanda,,Female,23.0,"Wabush, NL"
+1309,Susan Hayre,1243,60,645,CAN3,Susan,,Female,38.0,"Vancouver, BC"
+1310,Sharnjit Gill,1244,60,645,CAN3,Sharnjit,,Female,39.0,"Vancouver, BC"
+1311,Max Altamuro,1245,60,646,CAN3,Max,,Male,29.0,"Toronto, ON"
+1312,Elias Theodorou,1246,60,646,CAN3,Elias,,Male,26.0,"Toronto, ON"
+1313,Han Geng,1247,61,647,CHN2,Han Geng,,Male,31.0,"Mudanjiang, Heilongjiang"
+1314,Wu Xin,1248,61,647,CHN2,Wu Xin,,Female,32.0,"Shenyang, Liaoning"
+1315,Yang Qianhua,1249,61,648,CHN2,Yang Qianhua,,Female,41.0,Hong Kong
+1316,Ding Zigao,1250,61,648,CHN2,Ding Zigao,,Male,35.0,Shanghai
+1317,Xiao Yang,1251,61,649,CHN2,Xiao Yang,,Male,35.0,"Chengde, Hebei"
+1318,Wang Taili,1252,61,649,CHN2,Wang Taili,,Male,46.0,"Weifang, Shandong"
+1319,Jin Zhongguo,1253,61,650,CHN2,Jin Zhongguo,,Male,39.0,"Seoul, South Korea"
+1320,Li Guangzhu,1254,61,650,CHN2,Li Guangzhu,,Male,30.0,"Namyangju, South Korea"
+1321,Yuan Zihui,1255,61,651,CHN2,Yuan Zihui,,Female,37.0,Hong Kong
+1322,Yuan Heyu,1256,61,651,CHN2,Yuan Heyu,,Male,30.0,Hong Kong
+1323,Deng Ziqi,1257,61,652,CHN2,Deng Ziqi,,Female,23.0,Shanghai
+1324,Zhang Yunjing,1258,61,652,CHN2,Zhang Yunjing,,Female,31.0,"Taipei, Taiwan"
+1325,Zeng Zhiwei,1259,61,653,CHN2,Zeng Zhiwei,,Male,62.0,Hong Kong
+1326,Zeng Baoyi,1260,61,653,CHN2,Zeng Baoyi,,Female,42.0,Hong Kong
+1327,Feng Zhe,1261,61,654,CHN2,Feng Zhe,,Male,27.0,"Chengdu, Sichuan"
+1328,Zhu Zhu,1262,61,654,CHN2,Zhu Zhu,,Female,30.0,Beijing
+1329,Nhật Anh Đỗ,1263,62,655,VIE4,Nhật Anh,,Female,25.0,Ho Chi Minh City
+1330,Ngọc Anh Trần,1264,62,655,VIE4,Ngọc Anh,,Male,34.0,Ho Chi Minh City
+1331,Chí Thành Trần,1265,62,656,VIE4,Chí Thành,,Male,29.0,Hanoi
+1332,Thúc Lĩnh Dương Hồng,1266,62,656,VIE4,Lincoln,,Male,25.0,"Paris, France"
+1333,Bảo Trinh Nguyễn,1267,62,657,VIE4,Băng Di,,Female,26.0,Ho Chi Minh City
+1334,Thùy Trang Nguyễn Phạm,1268,62,657,VIE4,Trang Pháp,,Female,25.0,Hanoi
+1335,Đăng Hoàng Phạm Ngô,1269,62,658,VIE4,Đăng Hoàng,,Male,24.0,Hanoi
+1336,Thùy Anh Nguyễn,1270,62,658,VIE4,Thùy Anh,,Female,20.0,Hanoi
+1337,Nam Thành Trương,1271,62,659,VIE4,Nam Thành,,Male,24.0,Tra Vinch
+1338,Hải Huyền Nguyễn,1272,62,659,VIE4,Hải Băng,,Female,27.0,Hanoi
+1339,Phương Ly Nguyễn,1273,62,660,VIE4,Phương Ly,,Female,25.0,Hanoi
+1340,Nam Joo Young,1274,62,660,VIE4,Joo Young,,Female,27.0,"Seoul, South Korea"
+1341,Phạm Thị Diễm Chi,1275,62,661,VIE4,Song Ngư,,Female,22.0,Can Tho
+1342,Trúc Như Nguyễn Vũ,1276,62,661,VIE4,Trúc Như,,Female,24.0,Long An
+1343,Cát Vũ Trần Nguyên,1277,62,662,VIE4,Tim,,Male,30.0,Ho Chi Minh City
+1344,Anh Đức Tạ,1278,62,662,VIE4,Anh Đức,,Male,28.0,Ho Chi Minh City
+1345,Kelsey Gerckens,1279,63,663,USA27,Kelsey,,Female,25.0,"Santa Barbara, CA"
+1346,Joey Buttitta,1280,63,663,USA27,Joey,,Male,26.0,"Santa Barbara, CA"
+1347,Justin Scheman,1281,63,664,USA27,Justin,,Male,39.0,"Philadelphia, PA"
+1348,Diana Bishop,1282,63,664,USA27,Diana,,Female,30.0,"Philadelphia, PA"
+1349,Logan Fazio,1283,63,665,USA27,Logan,,Female,36.0,"Miami Beach, FL"
+1350,Chris Gordon,1284,63,665,USA27,Chris,,Male,46.0,"Miami Beach, FL"
+1351,Tiffany Chantell Torres,1285,63,666,USA27,Tiffany,,Female,28.0,"Hoboken, NJ"
+1352,Krista DeBono,1286,63,666,USA27,Krista,,Female,28.0,"Staten Island, NY"
+1353,Denise Williams,1287,63,667,USA27,Denise,,Female,51.0,"Prattville, AL"
+1354,James Earl Corley,1288,63,667,USA27,James Earl,,Male,26.0,"Prattville, AL"
+1355,Tanner Kloven,1289,63,668,USA27,Tanner,,Male,26.0,"Dallas, TX"
+1356,Josh Ahern,1290,63,668,USA27,Josh,,Male,28.0,"Dallas, TX"
+1357,Cindy Chac,1291,63,669,USA27,Cindy,,Female,36.0,"San Diego, CA"
+1358,Rick Chac,1292,63,669,USA27,Rick,,Male,38.0,"San Diego, CA"
+1359,Jazmine Lewis,1293,63,670,USA27,Jazmine,,Female,23.0,"Los Angeles, CA"
+1360,Danielle Littleton,1294,63,670,USA27,Danielle,,Female,22.0,"Los Angeles, CA"
+1361,Ernest Phillips,1295,63,671,USA27,Ernest,,Male,29.0,"Boston, MA"
+1362,Jayjion Greer,1296,63,671,USA27,Jin,,Male,26.0,"Boston, MA"
+1363,Alex Manard,1297,63,672,USA27,Alex,,Male,22.0,"Champaign, IL"
+1364,Adam Dingeman,1298,63,672,USA27,Adam,,Male,24.0,"Des Moines, IA"
+1365,Kelly Berning,1299,63,673,USA27,Kelly,,Female,37.0,"Los Angeles, CA"
+1366,Shevonne Sullivan,1300,63,673,USA27,Shevonne,,Female,31.0,"Los Angeles, CA"
+1367,Dana Borriello,1301,64,674,USA28,Dana,,Female,29.0,"Los Angeles, CA"
+1368,Matt Steffanina,1302,64,674,USA28,Matt,,Male,30.0,"Los Angeles, CA"
+1369,Sheri LaBrant,1303,64,675,USA28,Sheri,,Female,45.0,"Enterprise, AL"
+1370,Cole LaBrant,1304,64,675,USA28,Cole,,Male,19.0,"Enterprise, AL"
+1371,Matthew Oakley,1305,64,676,USA28,Tyler,,Male,26.0,"Jackson, MI"
+1372,Korey Kuhl,1306,64,676,USA28,Korey,,Male,30.0,"Jackson, MI"
+1373,Michael Burns,1307,64,677,USA28,Burnie,,Male,42.0,"Austin, TX"
+1374,Ashley Jenkins,1308,64,677,USA28,Ashley,,Female,33.0,"Austin, TX"
+1375,Brodie Smith,1309,64,678,USA28,Brodie,,Male,28.0,"Dallas, TX"
+1376,Kurt Gibson,1310,64,678,USA28,Kurt,,Male,30.0,"Dallas, TX"
+1377,Zach King,1311,64,679,USA28,Zach,,Male,25.0,"Los Angeles, CA"
+1378,Rachel King,1312,64,679,USA28,Rachel,,Female,25.0,"Los Angeles, CA"
+1379,Scott Fowler,1313,64,680,USA28,Scott,,Male,58.0,"Kingsport, TN"
+1380,Laura Elizabeth Fowler,1314,64,680,USA28,Blair,,Male,22.0,"San Diego, CA"
+1381,Erin White Robinson,1315,64,681,USA28,Erin,,Female,31.0,"Los Angeles, CA"
+1382,Joslyn Davis,1316,64,681,USA28,Joslyn,,Female,33.0,"Los Angeles, CA"
+1383,Brittany Oldehoff,1317,64,682,USA28,Brittany,,Female,26.0,"Fort Lauderdale, FL"
+1384,Jessica Versteeg,1318,64,682,USA28,Jessica,,Female,28.0,"San Francisco, CA"
+1385,Darius Benson,1319,64,683,USA28,Darius,,Male,22.0,"Tuscaloosa, AL"
+1386,Cameron Benson,1320,64,683,USA28,Cameron,,Male,19.0,"Memphis, TN"
+1387,Martha Cobb,1321,64,684,USA28,Marty,,Female,51.0,"McKinney, TX"
+1388,Hagan Parkman,1322,64,684,USA28,Hagan,,Female,22.0,"McKinney, TX"
+1389,Tiến Đạt Đinh,976,65,685,VIE5,Tiến Đạt,,Male,35.0,Ho Chi Minh City
+1390,Thúc Lĩnh Dương Hồng,1266,65,685,VIE5,Thúc Lĩnh Lincoln,,Male,26.0,"Paris, France"
+1391,Hương Giang Nguyễn,1031,65,686,VIE5,Hương Giang,,Female,25.0,Hanoi
+1392,Huy Phương Lai,1032,65,686,VIE5,Criss Lai,,Male,34.0,Long An
+1393,Nhan Phúc Vinh,972,65,687,VIE5,Nhan Phúc Vinh,,Male,30.0,Can Tho
+1394,Thùy Dung Nguyễn,974,65,687,VIE5,Thuỳ Dung,,Female,29.0,Hanoi
+1395,Pha Lê Nguyễn,981,65,688,VIE5,Pha Lê,,Female,29.0,Hai Phong
+1396,Hà Việt Dũng,982,65,688,VIE5,Hà Việt Dũng,,Male,29.0,Phu Tho
+1397,Anh Tuấn Phạm,979,65,689,VIE5,Anh Tuấn,,Male,32.0,Hai Phong
+1398,Thanh Hoa Đỗ Thị,980,65,689,VIE5,Thanh Hoa,,Female,26.0,Hanoi
+1399,Phạm Thị Diễm Chi,1275,65,690,VIE5,Song Ngư,,Female,23.0,Can Tho
+1400,Trúc Như Nguyễn Vũ,1276,65,690,VIE5,Trúc Như,,Female,25.0,Long An
+1401,Thu Hiền Trần Thị,970,65,691,VIE5,Trần Hiền,,Female,27.0,Hanoi
+1402,Minh Long Nguyễn,1047,65,691,VIE5,Minh Long,,Male,28.0,Da Nang
+1403,Richard Hamilton Humphrey,735,65,692,VIE5,Richie,,Male,43.0,"Los Angeles, CA"
+1404,Ngọc Phượng Lý Thị,736,65,692,VIE5,Mimi,,Female,27.0,Ho Chi Minh City
+1405,Sơn Ngọc Minh,1039,65,693,VIE5,Sơn Ngọc Minh,,Male,26.0,Can Tho
+1406,Mâu Thanh Thủy,1323,65,693,VIE5,Mâu Thanh Thủy,,Female,24.0,Ho Chi Minh City
+1407,Đăng Hoàng Phạm Ngô,1269,65,694,VIE5,Đăng Hoàng,,Male,25.0,Hanoi
+1408,Thùy Anh Nguyễn,1270,65,694,VIE5,Thùy Anh,,Female,21.0,Hanoi
+1409,Amit Gal,1324,66,695,ISR5,Amit,,Male,63.0,Amir
+1410,Raz Gal,1325,66,695,ISR5,Raz,,Male,32.0,Tel Aviv
+1411,Lee Hadad,1326,66,696,ISR5,Lee,,Female,26.0,Rehovot
+1412,Tal Alkobi,1327,66,696,ISR5,Tal,,Female,27.0,Ashdod
+1413,Jonathan Zirah,1328,66,697,ISR5,Josie,,Male,28.0,Tel Aviv
+1414,Alexandre Amar,1329,66,697,ISR5,Alex,,Male,26.0,Netanya
+1415,Tzion Azoulay,1330,66,698,ISR5,Tzion,,Male,25.0,Bat Yam
+1416,Aviv Kordova,1331,66,698,ISR5,Aviv,,Male,25.0,Holon
+1417,Yael Carmon,1332,66,699,ISR5,Yael,,Female,27.0,Tel Aviv
+1418,Yosiel Neeman,1333,66,699,ISR5,Yosiel,,Male,23.0,Holon
+1419,Ben Scheflan,1334,66,700,ISR5,Ben,,Male,25.0,"Brooklyn, New York"
+1420,Ori Scheflan,1335,66,700,ISR5,Ori,,Male,22.0,Tel Aviv
+1421,Shon Cohen,1336,66,701,ISR5,Shon,,Male,24.0,Tel Aviv
+1422,Kim Weiss,1337,66,701,ISR5,Kim,,Female,22.0,Tel Baruch
+1423,Monada Kancepolsky,1338,66,702,ISR5,Monada,,Female,26.0,Netanya
+1424,Adriano Jauvel,1339,66,702,ISR5,Adriano,,Male,30.0,Netanya
+1425,Naomi Alafi,1340,66,703,ISR5,Naomi,,Female,30.0,Jerusalem
+1426,Hen Toledano-Alafi,1341,66,703,ISR5,Hen,,Female,25.0,Tel Aviv
+1427,Gali Berger,1342,66,704,ISR5,Gali,,Female,24.0,Kiryat Motzkin
+1428,Daniel Bardugo,1343,66,704,ISR5,Daniel,,Male,24.0,Kiryat Bialik
+1429,Dor Sason,1344,66,705,ISR5,Dor,,Male,24.0,Holon
+1430,Sapir Aharon,1345,66,705,ISR5,Sapir,,Female,24.0,Bat Yam
+1431,Shira Ben Avraham,1346,66,706,ISR5,Shira,,Female,22.0,Petah Tikva
+1432,Bar Sommer,1347,66,706,ISR5,Bar,,Female,22.0,Ganei Am
+1433,Yossi Abdu,1348,66,707,ISR5,Yossi,,Male,23.0,Yagel
+1434,Lee Malka,1349,66,707,ISR5,Lee,,Female,21.0,Herzliya
+1435,Avi Manasherov,1350,66,708,ISR5,Avi M.,,Male,29.0,Netanya
+1436,Avi Koren,1351,66,708,ISR5,Avi K.,,Male,29.0,Herzliya
+1437,Stephanie LeClair,1352,67,709,CAN4,Steph,,Female,27.0,"Toronto, ON"
+1438,Kristen McKenzie,1353,67,709,CAN4,Kristen,,Female,25.0,"Toronto, ON"
+1439,Jillian MacLaughlin,1354,67,710,CAN4,Jillian,,Female,30.0,"New Glasgow, NS"
+1440,Emmett Blois,1355,67,710,CAN4,Emmett,,Male,28.0,"Gore, NS"
+1441,Joel Ground,1356,67,711,CAN4,Joel,,Male,42.0,"Enoch Cree Nation, AB"
+1442,Ashley Callingbull-Burnham,1357,67,711,CAN4,Ashley,,Female,26.0,"Enoch Cree Nation, AB"
+1443,Frances Gassler,1358,67,712,CAN4,Frankie,,Female,41.0,"Aldergrove, BC"
+1444,Amy Gassler,1359,67,712,CAN4,Amy,,Female,25.0,"Aldergrove, BC"
+1445,Rita Yakibonge,1360,67,713,CAN4,Rita,,Female,23.0,"Edmonton, AB"
+1446,Yvette Yakibonge,1361,67,713,CAN4,Yvette,,Female,23.0,"Edmonton, AB"
+1447,Julie Taylor,1362,67,714,CAN4,Julie,,Female,33.0,"Lethbridge, AB"
+1448,Lowell Taylor,1363,67,714,CAN4,Lowell,,Male,34.0,"Lethbridge, AB"
+1449,Kelly Xu,1364,67,715,CAN4,Kelly,,Female,25.0,"Toronto, ON"
+1450,Katelyn Pan,1365,67,715,CAN4,Kate,,Female,25.0,"Toronto, ON"
+1451,Anne Morrone,1366,67,716,CAN4,Anne,,Female,40.0,"Toronto, ON"
+1452,Tanya Muzzatti,1367,67,716,CAN4,Tanya,,Female,40.0,"Toronto, ON"
+1453,Stéphane Tétreault,1368,67,717,CAN4,Stéphane,,Male,51.0,"Montréal, QC"
+1454,Antoine Tétreault,1369,67,717,CAN4,Antoine,,Male,25.0,"Montréal, QC"
+1455,Anthony Limbombe,1370,67,718,CAN4,Anthony,,Male,21.0,"Windsor, ON"
+1456,Brandon Campeau,1371,67,718,CAN4,Brandon,,Male,21.0,"Windsor, ON"
+1457,Guo Jingjing,1372,68,719,CHN3,Guo Jingjing,,Female,34.0,"Baoding, Hebei"
+1458,Huo Qigang,1373,68,719,CHN3,Huo Qigang,,Male,37.0,Hong Kong
+1459,Jin Dachuan,1163,68,720,CHN3,Jin Dachuan,,Male,23.0,"Taian, Shandong"
+1460,Liu Chang,1164,68,720,CHN3,Liu Chang,,Male,30.0,"Dongtai, Jiangsu"
+1461,Liu Xiang,1374,68,721,CHN3,Liu Xiang,,Male,33.0,Shanghai
+1462,Ji Longxiang,1375,68,721,CHN3,Ji Longxiang,,Male,,
+1463,Xu Qifeng,1376,68,721,CHN3,Xu Qifeng,,Male,33.0,Shanghai
+1464,Wu Jianhao,1377,68,722,CHN3,Wu Jianhao,,Male,38.0,"Santa Monica, California"
+1465,Yao Fengfeng,1378,68,722,CHN3,Yao Fengfeng,,Female,25.0,"Santa Monica, California"
+1466,Zhang Zhehan,1379,68,723,CHN3,Zhang Zhehan,,Male,25.0,"Xinyu, Jianxi"
+1467,Zhang Sifan,1380,68,723,CHN3,Zhang Sifan,,Male,23.0,Beijing
+1468,Jin Xing,1381,68,724,CHN3,Jin Xing,,Female,48.0,"Shenyang, Liaoning"
+1469,Heinz Gerd Oidtmann,1382,68,724,CHN3,Heinz,,Male,48.0,Germany
+1470,Huang Tingting,1383,68,725,CHN3,Huang Tingting,,Female,24.0,"Nanjing, Jiangsu"
+1471,Sun Rui,1384,68,725,CHN3,Sun Rui,,Female,21.0,"Harbin, Heilongjiang"
+1472,Zhang Meixi,1385,68,726,CHN3,Zhang Meixi,,Female,32.0,"Shenzhen, Guangzhou"
+1473,Zang Yafei,1386,68,726,CHN3,Zang Yafei,,Female,36.0,"Yanbian, Jilin"
+1474,Parul Shah,1387,69,727,ASI5,Parul,,Female,28.0,"San Nicolas, Philippines"
+1475,Maggie Wilson,1388,69,727,ASI5,Maggie,,Female,27.0,"Bacolod, Philippines"
+1476,Yvonne Lee,1389,69,728,ASI5,Yvonne,,Female,28.0,"Klang, Malaysia"
+1477,Chloe Chen,1390,69,728,ASI5,Chloe,,Female,27.0,"Kuala Lumpur, Malaysia"
+1478,Eric Tai,1391,69,729,ASI5,Eric,,Male,34.0,"Quezon City, Philippines"
+1479,Rona Tai,1392,69,729,ASI5,Rona,,Female,34.0,"Quezon City, Philippines"
+1480,Treasuri Tamara,1393,69,730,ASI5,Treasuri,,Female,30.0,"Jakarta, Indonesia"
+1481,Louisa Kusnandar,1394,69,730,ASI5,Louisa,,Female,29.0,"Jakarta, Indonesia"
+1482,Jerald Justin Ko,1395,69,731,ASI5,JK,,Male,29.0,Singapore
+1483,Michael Tan,1396,69,731,ASI5,Mike,,Male,29.0,Singapore
+1484,Anita Silsith Bye,1397,69,732,ASI5,Anita,,Female,24.0,"Bangkok, Thailand"
+1485,Tom William Barrett,1398,69,732,ASI5,Tom,,Male,31.0,"Bangkok, Thailand"
+1486,Will Chee,1399,69,733,ASI5,Will,,Male,23.0,"Kuala Lumpur, Malaysia"
+1487,Alex Chee,1400,69,733,ASI5,Alex,,Male,21.0,"Kuala Lumpur, Malaysia"
+1488,Rachel Tampubolon,1401,69,734,ASI5,Rach,,Female,30.0,"Jakarta, Indonesia"
+1489,Vicky Harahap,1402,69,734,ASI5,Vicky,,Male,29.0,"Jakarta, Indonesia"
+1490,Alphaeus Tan,1403,69,735,ASI5,Alphaeus,,Male,23.0,"Kuala Lumpur, Malaysia"
+1491,Brandon Ho,1404,69,735,ASI5,Brandon,,Male,23.0,"Kuala Lumpur, Malaysia"
+1492,Rei Umehara,1405,69,736,ASI5,Rei,,Female,30.0,Singapore
+1493,Keiji Umehara,1406,69,736,ASI5,Keiji,,Male,26.0,Singapore
+1494,Lisa Truong-Marchetto,1407,69,737,ASI5,Lisa,,Female,38.0,"Ho Chi Minh City, Vietnam"
+1495,Nicole Truong-Marchetto,1408,69,737,ASI5,Nicole,,Female,34.0,"Ho Chi Minh City, Vietnam"
+1496,Brooke Camhi,1409,70,738,USA29,Brooke,,Female,36.0,"Lynbrook, NY"
+1497,Scott Flanary,1410,70,738,USA29,Scott,,Male,34.0,"Charlotte, NC"
+1498,Tara Carr,1411,70,739,USA29,Tara,,Female,38.0,"Alexandria, VA"
+1499,Joey Covino,1412,70,739,USA29,Joey,,Male,46.0,"Boston, MA"
+1500,London Kaye,1413,70,740,USA29,London,,Female,27.0,"New York, NY"
+1501,Logan Bauer,1414,70,740,USA29,Logan,,Male,27.0,"Navarre, FL"
+1502,Matt Ladley,1415,70,741,USA29,Matt,,Male,25.0,"Steamboat Springs, CO"
+1503,Redmond Ramos,1416,70,741,USA29,Redmond,,Male,28.0,"Fremont, CA"
+1504,Rebecca Droz,1417,70,742,USA29,Becca,,Female,26.0,"Pittsburgh, PA"
+1505,Floyd Pierce,1418,70,742,USA29,Floyd,,Male,21.0,"Highlands Ranch, CO"
+1506,Liz Espey,1419,70,743,USA29,Liz,,Female,24.0,"Maryville, MO"
+1507,Michael Rado,1420,70,743,USA29,Michael,,Male,37.0,"Pittsburgh, PA"
+1508,Vanck Zhu,1421,70,744,USA29,Vanck,,Male,28.0,"Saint Paul, MN"
+1509,Ashton Theiss,1422,70,744,USA29,Ashton,,Female,25.0,"Fort Worth, TX"
+1510,Shamir Arzeno,1423,70,745,USA29,Shamir,,Male,28.0,"Bronx, NY"
+1511,Sara Fowler,1424,70,745,USA29,Sara,,Female,27.0,"Baltimore, MD"
+1512,Seth Tyler,1425,70,746,USA29,Seth,,Male,37.0,"Seattle, WA"
+1513,Olivia Beauregard,1426,70,746,USA29,Olive,,Female,24.0,"Providence, RI"
+1514,Jessica Shields,1427,70,747,USA29,Jessie,,Female,28.0,"Howland, OH"
+1515,Francesca Piccoli,1428,70,747,USA29,Francesca,,Female,33.0,"Banning, CA"
+1516,Kevin Ng,1429,70,748,USA29,Kevin,,Male,31.0,"San Diego, CA"
+1517,Jennifer Lee,1430,70,748,USA29,Jenn,,Female,25.0,"Palos Verdes, CA"
+1518,Sam Lambert,1431,71,749,CAN5,Sam,,Male,25.0,"Toronto, ON"
+1519,Paul Mitskopoulos,1432,71,749,CAN5,Paul,,Male,24.0,"Toronto, ON"
+1520,Kenneth McAlpine,1433,71,750,CAN5,Kenneth,,Male,25.0,"Rossland, BC"
+1521,Ryan Lachapelle,1434,71,750,CAN5,Ryan,,Male,25.0,"Rossland, BC"
+1522,Korey Sam,1435,71,751,CAN5,Korey,,Male,31.0,"Toronto, ON"
+1523,Ivana Krunić,1436,71,751,CAN5,Ivana,,Female,31.0,"Toronto, ON"
+1524,Karen Richards,1437,71,752,CAN5,Karen,,Female,31.0,"Edmonton, AB"
+1525,Bercham Richards,1438,71,752,CAN5,Bert,,Male,36.0,"Edmonton, AB"
+1526,Adam Cavaleri,1439,71,753,CAN5,Adam,,Male,29.0,"Montréal, QC"
+1527,Andrea Cavaleri,1440,71,753,CAN5,Andrea,,Female,28.0,"Montréal, QC"
+1528,Andrea Croxen,1441,71,754,CAN5,Andrea,,Female,29.0,"Montréal, QC"
+1529,Ebonie Finley-Roberge,1442,71,754,CAN5,Ebonie,,Female,29.0,"Montréal, QC"
+1530,Zed Dhalla,1443,71,755,CAN5,Zed,,Male,27.0,"Vancouver, BC"
+1531,Shabbir Dhalla,1444,71,755,CAN5,Shabbir,,Male,57.0,"Vancouver, BC"
+1532,Megan Burden,1445,71,756,CAN5,Megan,,Female,23.0,"St. John's, NL"
+1533,Courtney Roberts,1446,71,756,CAN5,Courtney,,Female,21.0,"St. John's, NL"
+1534,Daniel Kipnis,1447,71,757,CAN5,Dan,,Male,23.0,"Toronto, ON"
+1535,Riya Malik,1448,71,757,CAN5,Riya,,Female,23.0,"Toronto, ON"
+1536,Aaron Baker,1449,71,758,CAN5,Aaron,,Male,30.0,"Grand Forks, BC"
+1537,Deborah Baker,1450,71,758,CAN5,Deb,,Female,55.0,"Grand Forks, BC"
+1538,Jia Jingwen,1451,72,759,CHN4,Jia Jingwen,,Female,43.0,"Taipei, Taiwan"
+1539,Xiu Jiekai,1452,72,759,CHN4,Xiu Jiekai,,Male,34.0,"Taipei, Taiwan"
+1540,Zheng Yuanchang,1453,72,760,CHN4,Zheng Yuanchang,,Male,35.0,"Beitun, Taiwan"
+1541,Wang Likun,1454,72,760,CHN4,Wang Likun,,Female,32.0,"Chifeng, Inner Mongolia"
+1542,Wu Minxia,1455,72,761,CHN4,Wu Minxia,,Female,31.0,Shanghai
+1543,Zhang Xiaocheng,1456,72,761,CHN4,Zhang Xiaocheng,,Male,31.0,Shanghai
+1544,Qiang Zi,1457,72,762,CHN4,Qiang Zi,,Male,35.0,Shanxi
+1545,Zhang Xingyue,1458,72,762,CHN4,Zhang Xingyue,,Female,25.0,"Zhoukou, Henan"
+1546,Zhang Jike,1459,72,763,CHN4,Zhang Jike,,Male,29.0,"Qingdao, Shandong"
+1547,Zhang Chuanming,1460,72,763,CHN4,Zhang Chuanming,,Male,,"Qingdao, Shandong"
+1548,Lu Ting,1461,72,764,CHN4,Lu Ting,,Female,24.0,Shanghai
+1549,Xuyang Yuzhuo,1462,72,764,CHN4,Xuyang Yuzhuo,,Female,22.0,"Yueyang, Hunan"
+1550,Huang Tingting,1383,72,764,CHN4,Huang Tingting,,Female,25.0,"Nanjing, Jiangsu"
+1551,Fan Bingbing,1463,72,765,CHN4,Fan Bingbing,,Female,36.0,"Qingdao, Shandong"
+1552,Xie Yilin,1464,72,765,CHN4,Xie Yilin,,Female,27.0,"Yuli, Taiwan"
+1553,Deng Bin,1465,72,766,CHN4,Deng Bin,,Male,20.0,"Yongzhou, Hunan"
+1554,Wang Xinyu,1466,72,766,CHN4,Wang Xinyu,,Male,21.0,"Shiyan, Hubei"
+1555,Tohar Haimovich,1467,73,767,ISR6,Tohar,,Male,35.0,Tel Aviv
+1556,Evelyn Haimovich,1468,73,767,ISR6,Evelyn,,Female,31.0,Tel Aviv
+1557,Daniel Peretz,1469,73,768,ISR6,Daniel,,Male,23.0,Tzafria
+1558,Eliyahu Shabtai,1470,73,768,ISR6,Eliyahu,,Male,26.0,Rehovot
+1559,Regev Hod,1471,73,769,ISR6,Regev,,Male,37.0,Rehovot
+1560,Helen Hod,1472,73,769,ISR6,Helen,,Female,29.0,Rehovot
+1561,Omer Barazani,1473,73,770,ISR6,Omer,,Male,25.0,Jerusalem
+1562,Neta Barazani,1474,73,770,ISR6,Neta,,Female,18.0,Jerusalem
+1563,Yarden Vizel,1475,73,771,ISR6,Yarden,,Female,23.0,Netanya
+1564,Anne Zivi,1476,73,771,ISR6,Anne,,Female,23.0,Givatayim
+1565,Meitar Asiss,1477,73,772,ISR6,Meitar,,Female,23.0,Rishon LeZion
+1566,Adi Carmeli,1478,73,772,ISR6,Adi,,Male,23.0,Rishon LeZion
+1567,Mor Silver,1479,73,773,ISR6,Mor Si.,,Female,32.0,Tel Aviv
+1568,Mor Swede,1480,73,773,ISR6,Mor Sw.,,Female,31.0,Tel Aviv
+1569,Yossi Mizrahi,1481,73,774,ISR6,Yossi,,Male,40.0,Tiberias
+1570,Udi Avitan,1482,73,774,ISR6,Udi,,Male,40.0,Beit She'an
+1571,Avivit Marsha,1483,73,775,ISR6,Avivit,,Female,31.0,Holon
+1572,Hany Yosef,1484,73,775,ISR6,Honey,,Female,29.0,Holon
+1573,Nimrod Haftel,1485,73,776,ISR6,Nimrod,,Male,23.0,Tel Aviv
+1574,Yonatan Heifetz,1486,73,776,ISR6,Yonatan,,Male,23.0,Karkur
+1575,Asaf Gurfinkel,1487,73,777,ISR6,Asaf,,Male,26.0,Herzliya
+1576,Jessica Cohen,1488,73,777,ISR6,Jessica,,Female,25.0,Herzliya
+1577,Noa Martonovitch,1489,73,778,ISR6,Noa,,Female,28.0,Ramat Efal
+1578,Ma'ayan Martonovitch,1490,73,778,ISR6,Ma'ayan,,Female,25.0,Ramat Efal
+1579,Cody Nickson,1491,74,779,USA30,Cody,,Male,33.0,"Plano, TX"
+1580,Jessica Graf,1492,74,779,USA30,Jessica,,Female,28.0,"Los Angeles, CA"
+1581,Henry Zhang,1493,74,780,USA30,Henry,,Male,22.0,"Los Angeles, CA"
+1582,Evan Lynyak,1494,74,780,USA30,Evan,,Female,22.0,"Los Angeles, CA"
+1583,Kristi Leskinen,1495,74,781,USA30,Kristi,,Female,36.0,"Scottsdale, AZ"
+1584,Jen Hudak,1496,74,781,USA30,Jen,,Female,30.0,"Park City, UT"
+1585,Alexander Rossi,1497,74,782,USA30,Alex,,Male,26.0,"Nevada City, CA"
+1586,Conor Daly,1498,74,782,USA30,Conor,,Male,25.0,"Noblesville, IN"
+1587,Lucas Bocanegra,1499,74,783,USA30,Lucas,,Male,35.0,"Miami Springs, FL"
+1588,Brittany Austin,1500,74,783,USA30,Brittany,,Female,31.0,"Miami Springs, FL"
+1589,Eric Guiffreda,1501,74,784,USA30,Eric,,Male,33.0,"Ponchatoula, LA"
+1590,Daniel Guiffreda,1502,74,784,USA30,Daniel,,Male,33.0,"Ponchatoula, LA"
+1591,Trevor Wadleigh,1503,74,785,USA30,Trevor,,Male,31.0,"New York, NY"
+1592,Christopher Marchant,1504,74,785,USA30,Chris,,Male,33.0,"New York, NY"
+1593,Joseph Chestnut,1505,74,786,USA30,Joey,,Male,33.0,"San Jose, CA"
+1594,Tim Jamus,1506,74,786,USA30,Tim,,Male,41.0,"New York, NY"
+1595,Cedric Ceballos,1507,74,787,USA30,Cedric,,Male,48.0,"Maui, HI"
+1596,Shawn Marion,1508,74,787,USA30,Shawn,,Male,39.0,"Chicago, IL"
+1597,April Gould,1509,74,788,USA30,April,,Female,39.0,"Gilbert, AZ"
+1598,Sarah Williams,1510,74,788,USA30,Sarah,,Female,39.0,"Mesa, AZ"
+1599,Dessie Mitcheson,1511,74,789,USA30,Dessie,,Female,27.0,"Apollo, PA"
+1600,Kayla Fitzgerald,1512,74,789,USA30,Kayla,,Female,26.0,"Clemont, FL"
+1601,Courtney Berglind,1513,75,790,CAN6,Courtney,,Female,28.0,"Calgary, AB"
+1602,Adam Kovacs,1514,75,790,CAN6,Adam,,Male,29.0,"Calgary, AB"
+1603,Taylor Callens,1515,75,791,CAN6,Taylor,,Male,25.0,"Williams Lake, BC"
+1604,Courtney Callens,1516,75,791,CAN6,Courtney,,Female,27.0,"Langley, BC"
+1605,Dylan Elias,1517,75,792,CAN6,Dylan,,Male,28.0,"Fort McMurray, AB"
+1606,Kwame Osei,1518,75,792,CAN6,Kwame,,Male,34.0,"Fort McMurray, AB"
+1607,Martina Seo,1519,75,793,CAN6,Martina,,Female,40.0,"North Vancouver, BC"
+1608,Phil Seo,1520,75,793,CAN6,Phil,,Male,37.0,"Burnaby, BC"
+1609,Nancy Csabay,1521,75,794,CAN6,Nancy,,Female,49.0,"Taber, AB"
+1610,Mellisa Hollingsworth,1522,75,794,CAN6,Mellisa,,Female,37.0,"Eckville, AB"
+1611,Leanne Larsen,1523,75,795,CAN6,Leanne,,Female,25.0,"Toronto, ON"
+1612,Marielle Lyon,1524,75,795,CAN6,Mar,,Female,26.0,"Toronto, ON"
+1613,Zainab Ansari,1525,75,796,CAN6,Zainab,,Female,32.0,"Toronto, ON"
+1614,Monica Demian,1526,75,796,CAN6,Monica,,Female,24.0,"Ajax, ON"
+1615,Todd Kirk,1527,75,797,CAN6,Todd,,Male,24.0,"Edmonton, AB"
+1616,Anna Holtby,1528,75,797,CAN6,Anna,,Female,24.0,"Edmonton, AB"
+1617,Joseph Truong,1529,75,798,CAN6,Joseph,,Male,23.0,"Toronto, ON"
+1618,Akash Sidhu,1530,75,798,CAN6,Akash,,Male,22.0,"Toronto, ON"
+1619,Corey Liddle,1531,75,799,CAN6,Chewy,,Male,47.0,"Stoney Creek, ON"
+1620,Mark LaVerdiere,1532,75,799,CAN6,Happy,,Male,48.0,"Orillia, ON"
+1621,Colin Guinn,95,76,800,USA31,Colin,,Male,38.0,"Austin, TX"
+1622,Christie Woods,96,76,800,USA31,Christie,,Female,40.0,"Austin, TX"
+1623,Matthew Oakley,1305,76,801,USA31,Tyler,,Male,29.0,"Jackson, MI"
+1624,Korey Kuhl,1306,76,801,USA31,Korey,,Male,33.0,"Jackson, MI"
+1625,Leo Temory,1015,76,802,USA31,Leo,,Male,31.0,"Pasadena, CA"
+1626,Jamal Zadran,1016,76,802,USA31,Jamal,,Male,31.0,"Houston, TX"
+1627,Nicole Franzel,1533,76,803,USA31,Nicole,,Female,25.0,"Ubly, MI"
+1628,Victor Arroyo,1534,76,803,USA31,Victor,,Male,27.0,"Sidell, LA"
+1629,Rebecca Droz,1417,76,804,USA31,Becca,,Female,28.0,"Boulder, CO"
+1630,Floyd Pierce,1418,76,804,USA31,Floyd,,Male,23.0,"Highlands Ranch, CO"
+1631,Chris Hammons,1535,76,805,USA31,Chris,,Male,40.0,"Moore, OK"
+1632,Bret LaBelle,1536,76,805,USA31,Bret,,Male,44.0,"Dedham, MA"
+1633,Rachel Reilly,680,76,806,USA31,Rachel,,Female,33.0,"Van Nuys, CA"
+1634,Elissa Slater,1537,76,806,USA31,Elissa,,Female,32.0,"Las Vegas, NV"
+1635,Janelle Pierzina,1538,76,807,USA31,Janelle,,Female,38.0,"Lakeville, MN"
+1636,Britney Haynes,1539,76,807,USA31,Britney,,Female,30.0,"Tulsa, OK"
+1637,Corinne Kaplan,1540,76,808,USA31,Corinne,,Female,39.0,"Denver, CO"
+1638,Eliza Orlins,1541,76,808,USA31,Eliza,,Female,35.0,"New York, NY"
+1639,Rupert Boneham,1542,76,809,USA31,Rupert,,Male,54.0,"Indianapolis, IN"
+1640,Laura Boneham,1543,76,809,USA31,Laura,,Female,49.0,"Indianapolis, IN"
+1641,Arturo Velez,677,76,810,USA31,Art,,Male,49.0,"Temecula, CA"
+1642,John James Carrell,678,76,810,USA31,JJ,,Male,49.0,"San Marcos, CA"
+1643,Anthony Johnson,1544,77,811,CAN7,Anthony,,Male,33.0,"Edmonton, AB"
+1644,James Makokis,1545,77,811,CAN7,James,,Male,37.0,"Edmonton, AB"
+1645,Sarah Wells,1546,77,812,CAN7,Sarah,,Female,29.0,"Toronto, ON"
+1646,Sam Effah,1547,77,812,CAN7,Sam,,Male,30.0,"Toronto, ON"
+1647,Lauren Lavoie,1548,77,813,CAN7,Lauren,,Female,27.0,"Regina, SK"
+1648,Joanne Lavoie,1549,77,813,CAN7,Joanne,,Female,21.0,"Regina, SK"
+1649,Dave Leduc,1550,77,814,CAN7,Dave,,Male,27.0,"Gatineau, QC"
+1650,Irina Terehova,1551,77,814,CAN7,Irina,,Female,29.0,"Montreal, QC"
+1651,Aarthy Ketheeswaran,1552,77,815,CAN7,Aarthy,,Female,25.0,"Vancouver, BC"
+1652,Thinesh Kumarakulasingam,1553,77,815,CAN7,Thinesh,,Male,28.0,"Vancouver, BC"
+1653,Trish Omeri,1554,77,816,CAN7,Trish,,Female,40.0,"Etobicoke, ON"
+1654,Amy De Domenico,1555,77,816,CAN7,Amy,,Female,50.0,"Etobicoke, ON"
+1655,Meaghan Wright,1556,77,817,CAN7,Meaghan,,Female,25.0,"Halifax, NS"
+1656,Marie Wright,1557,77,817,CAN7,Marie,,Female,25.0,"Halifax, NS"
+1657,Gilles Miron,1558,77,818,CAN7,Gilles,,Male,65.0,"Sunderland, ON"
+1658,Sean Miron,1559,77,818,CAN7,Sean,,Male,20.0,"Sunderland, ON"
+1659,Nekeita Lee,1560,77,819,CAN7,Nicki,,Female,31.0,"Toronto, ON"
+1660,Aisha Bentham,1561,77,819,CAN7,Aisha,,Female,31.0,"Toronto, ON"
+1661,Jethro Black,957,77,820,CAN7,Jet,,Male,40.0,"Toronto, ON"
+1662,David Schram,958,77,820,CAN7,Dave,,Male,35.0,"London, ON"
+1663,Lệ Hằng Đặng Thị,1562,78,821,VIE6,Lệ Hằng,,Female,26.0,Da Nang
+1664,H'Hen Niê,1563,78,821,VIE6,H'Hen Niê,,Female,27.0,Buon Ma Thuot
+1665,Sơn Thạch Nguyễn Cao,985,78,822,VIE6,S.T Sơn Thạch,,Male,29.0,Ho Chi Minh City
+1666,Bình An Nguyễn,1564,78,822,VIE6,Bình An,,Male,26.0,Phu Tho
+1667,Đỗ Mỹ Linh,1565,78,823,VIE6,Đỗ Mỹ Linh,,Female,23.0,Hanoi
+1668,Lê Xuân Tiền,1566,78,823,VIE6,Lê Xuân Tiền,,Male,23.0,Phu Yen
+1669,Minh Triệu Phạm Định,1567,78,824,VIE6,Minh Triệu,,Female,31.0,Phu Yen
+1670,Kỳ Duyên Nguyễn Cao,1568,78,824,VIE6,Kỳ Duyên,,Female,23.0,Nam Dinh
+1671,Trần Quốc Anh,1569,78,825,VIE6,Trần Quốc Anh,,Male,21.0,Hanoi
+1672,Mai Ly Tapiau,1570,78,825,VIE6,MLee,,Female,27.0,Ho Chi Minh City
+1673,Trần Hoàng Phương,1571,78,826,VIE6,Johnny,,Male,27.0,Germany
+1674,Huy Trần,1572,78,826,VIE6,Huy Trần,,Male,29.0,"Berlin, Germany"
+1675,Hoàng Hạnh,1573,78,827,VIE6,Hoàng Hạnh,,Female,29.0,Hanoi
+1676,Lương Gia Huy,1574,78,827,VIE6,Lương Gia Huy,,Male,,Hanoi
+1677,Dương Mạc Anh Quân,1575,78,828,VIE6,Anh Quân,,Male,30.0,Hanoi
+1678,Quốc Thiên Trần,1576,78,828,VIE6,Quốc Thiên,,Male,31.0,Dong Noi
+1679,Trương Phạm Nhất Khanh,1577,78,829,VIE6,Emma,,Female,24.0,Ca Mau
+1680,Tôn Kinh Lâm,1578,78,829,VIE6,Tôn Kinh Lâm,,Male,24.0,Da Nang
+1681,Chu Minh Vũ,1579,78,830,VIE6,Chu Minh Vũ,,Male,40.0,Hanoi
+1682,Vũ Xuân Tiến,1580,78,830,VIE6,Vũ Xuân Tiến,,Male,,Hanoi
+1683,Fatima Jakite,1581,79,831,ISR7,Fey,,Female,23.0,Tel Aviv
+1684,Matija Galili,1582,79,831,ISR7,Tia,,Female,23.0,Tel Aviv
+1685,Karin Kleinberg,1583,79,832,ISR7,Karin,,Female,22.0,Sderot
+1686,Ariel Kleinberg,1584,79,832,ISR7,Ariel,,Male,23.0,Sderot
+1687,Haviv Maman,1585,79,833,ISR7,Haviv,,Male,30.0,Tel Aviv
+1688,Itzak Maman,1586,79,833,ISR7,Itzak,,Male,30.0,Tel Aviv
+1689,Eyal Daniel,1587,79,834,ISR7,Eyal,,Male,24.0,Neve Monosson
+1690,Sidney Feiner,1588,79,834,ISR7,Sid,,Male,23.0,Neve Monosson
+1691,Nisim David,1589,79,835,ISR7,Nisim,,Male,26.0,Kiryat Malakhi
+1692,Orel Elimelech,1590,79,835,ISR7,Orel,,Female,29.0,Kiryat Malakhi
+1693,Tali Ben-Ari,1591,79,836,ISR7,Tali,,Female,58.0,Givatayim
+1694,Gili Vizel,1592,79,836,ISR7,Gili,,Female,54.0,Givatayim
+1695,Eden Katz,1593,79,837,ISR7,Eden,,Female,24.0,Rehovot
+1696,Aviad Katz,1594,79,837,ISR7,Aviad,,Male,37.0,Rehovot
+1697,Michal Krits,1595,79,838,ISR7,Michal,,Female,19.0,Irus
+1698,Omer Nudelman,1596,79,838,ISR7,Omer,,Female,21.0,Netayim
+1699,Ben Levayev,1597,79,839,ISR7,Ben,,Male,24.0,Bat Yam
+1700,Ran Gihr,1598,79,839,ISR7,Ran,,Male,23.0,Bat Yam
+1701,Yehudit Elkobi,1599,79,840,ISR7,Yehudit,,Female,51.0,Modi'in-Maccabim-Re'ut
+1702,Zohar Elkobi,1600,79,840,ISR7,Zohar,,Female,24.0,Modi'in-Maccabim-Re'ut
+1703,Kamle Hassian,1601,79,841,ISR7,Kamle,,Female,24.0,Jaffa
+1704,Bahira Ablassi,1602,79,841,ISR7,Bahira,,Female,24.0,Jaffa
+1705,Noy Karako,1603,79,842,ISR7,Noy,,Female,20.0,Moshav Ginaton
+1706,Hadar Karako,1604,79,842,ISR7,Hadar,,Female,20.0,Moshav Ginaton
+1707,Tim Sattler-Jones,1605,80,843,AUS4,Tim,,Male,29.0,"Newcastle, NSW"
+1708,Rod Sattler-Jones,1606,80,843,AUS4,Rod,,Male,28.0,"Newcastle, NSW"
+1709,Jasmin Onus,1607,80,844,AUS4,Jasmin,,Female,30.0,"Darwin, NT"
+1710,Jerome Cubillo,1608,80,844,AUS4,Jerome,,Male,30.0,"Darwin, NT"
+1711,Vivienne Dinh,1609,80,845,AUS4,Viv,,Female,25.0,"Melbourne, VIC"
+1712,Joey Dinh,1610,80,845,AUS4,Joey,,Male,28.0,"Melbourne, VIC"
+1713,Tom Wilkinson,1611,80,846,AUS4,Tom,,Male,23.0,"Melbourne, VIC"
+1714,Tyler Roos,1612,80,846,AUS4,Tyler,,Male,23.0,"Melbourne, VIC"
+1715,Femi Ogunsiji,1613,80,847,AUS4,Femi,,Male,23.0,"Sydney, NSW"
+1716,Nicholas Evbuomwan,1614,80,847,AUS4,Nick,,Male,23.0,"Sydney, NSW"
+1717,Sidney Pierucci,1615,80,848,AUS4,Sid,,Male,26.0,"Sydney, NSW"
+1718,Ashley Ruscoe,1616,80,848,AUS4,Ash,,Female,30.0,"Sydney, NSW"
+1719,Hayley Foruria,1617,80,849,AUS4,Hayley,,Female,29.0,"Townsville, QLD"
+1720,Mikayla Foruria,1618,80,849,AUS4,Mikayla,,Female,24.0,"Cairns, QLD"
+1721,Chris Williams,1619,80,850,AUS4,Chris,,Male,58.0,"Mount Compass, SA"
+1722,Adrienne Clarke,1620,80,850,AUS4,Adrienne,,Female,59.0,"Mount Compass, SA"
+1723,Rowah Hassan,1621,80,851,AUS4,Rowah,,Female,42.0,"Sydney, NSW"
+1724,Amani Mawass,1622,80,851,AUS4,Amani,,Female,18.0,"Sydney, NSW"
+1725,Judy Bowe,1623,80,852,AUS4,Judy,,Female,53.0,"Canberra, ACT"
+1726,Therese Mills,1624,80,852,AUS4,Therese,,Female,45.0,"Canberra, ACT"
+1727,Alana Pappas,1625,80,853,AUS4,Alana,,Female,21.0,"Adelaide, SA"
+1728,Niko Pappas,1626,80,853,AUS4,Niko,,Male,19.0,"Adelaide, SA"
+1729,Yael Carmon,1332,81,854,ISR8,Yael,,Female,29.0,Tel Aviv
+1730,Yosiel Neeman,1333,81,854,ISR8,Yosiel,,Male,25.0,Holon
+1731,Asaf Tetro,1627,81,855,ISR8,Asaf,,Male,23.0,Holon
+1732,Netanel Merran,1628,81,855,ISR8,Netah,,Male,23.0,Holon
+1733,Omer Barazani,1473,81,856,ISR8,Omer,,Male,26.0,Jerusalem
+1734,Neta Barazani,1474,81,856,ISR8,Neta,,Female,20.0,Jerusalem
+1735,Ben Scheflan,1334,81,857,ISR8,Ben,,Male,27.0,Tel Aviv
+1736,Ori Scheflan,1335,81,857,ISR8,Ori,,Male,24.0,Tel Aviv
+1737,Shay Gavriel,1173,81,858,ISR8,Shay,,Male,32.0,Ein Ya'akov
+1738,Shani Alon,1174,81,858,ISR8,Shani,,Female,31.0,Ein Ya'akov
+1739,Ashriel Mor,1629,81,859,ISR8,Ash,,Male,27.0,Jerusalem
+1740,Alisa Zanu,1630,81,859,ISR8,Alice,,Female,24.0,Jerusalem
+1741,Eviatar Nagar,1631,81,860,ISR8,Eviatar,,Male,30.0,Ramat Gan
+1742,Liane Weinman,1632,81,860,ISR8,Liane,,Female,32.0,Ramat Gan
+1743,Tali Algabi,1633,81,861,ISR8,Tali,,Female,45.0,Tel Aviv
+1744,Gili Algabi,1634,81,861,ISR8,Gili,,Male,29.0,Tel Aviv
+1745,Yarden Vizel,1475,81,862,ISR8,Yarden,,Female,24.0,Givatayim
+1746,Anne Zivi,1476,81,862,ISR8,Anne,,Female,24.0,Givatayim
+1747,Vladimir Lazarovitch,1179,81,863,ISR8,Vova,,Male,31.0,Petah Tikva
+1748,Alla Aibinder,1180,81,863,ISR8,Alla,,Female,29.0,Tel Aviv
+1749,Shiri Stanescu,1635,81,864,ISR8,Shiri,,Female,,Ramat Gan
+1750,Noga Stanescu,1636,81,864,ISR8,Noga,,Female,,Ramat Gan
+1751,Ruthi Ibn Ofir,1637,81,865,ISR8,Ruthie,,Female,57.0,Beit Nekofa
+1752,Michal Azulay,1638,81,865,ISR8,Michal,,Female,53.0,Beit Nekofa
+1753,Will Jardell,1639,82,866,USA32,Will,,Male,30.0,"Nederland, TX"
+1754,James Wallington,1640,82,866,USA32,James,,Male,31.0,"Grand Rapids, MI"
+1755,Hung Ngyuen,1641,82,867,USA32,Hung,,Male,39.0,"Houston, TX"
+1756,Chee Lee,1642,82,867,USA32,Chee,,Female,38.0,"Houston, TX"
+1757,Riley McKibbin,1643,82,868,USA32,Riley,,Male,31.0,"Honolulu, HI"
+1758,Maddison McKibbin,1644,82,868,USA32,Maddison,,Male,29.0,"Honolulu, HI"
+1759,DeAngelo Williams,1645,82,869,USA32,DeAngelo,,Male,36.0,"Charlotte, NC"
+1760,Gary Barnidge,1646,82,869,USA32,Gary,,Male,34.0,"Middleburg, FL"
+1761,Eswar Dhinakaran,1647,82,870,USA32,Eswar,,Male,24.0,"Fremont, CA"
+1762,Aparna Dhinakaran,1648,82,870,USA32,Aparna,,Female,26.0,"Berkeley, CA"
+1763,Kaylynn Williams,1649,82,871,USA32,Kaylynn,,Female,30.0,"Bluffton, SC"
+1764,Haley Williams,1650,82,871,USA32,Haley,,Female,31.0,"Bluffton, SC"
+1765,Leo Brown,1651,82,872,USA32,Leo,,Male,31.0,"Somerville, MA"
+1766,Alana Folsom,1652,82,872,USA32,Alana,,Female,29.0,"Somerville, MA"
+1767,Michelle Newland,1653,82,873,USA32,Michelle,,Female,34.0,"Lafayette, LA"
+1768,Victoria Newland,1654,82,873,USA32,Victoria,,Female,33.0,"Lafayette, LA"
+1769,Jerry Eaves,1655,82,874,USA32,Jerry,,Male,60.0,"Louisville, KY"
+1770,Frank Eaves,1656,82,874,USA32,Frank,,Male,25.0,"Louisville, KY"
+1771,Kellie Wells-Brinkley,1657,82,875,USA32,Kellie,,Female,38.0,"Richmond, VA"
+1772,LaVonne Idlette,1658,82,875,USA32,LaVonne,,Female,34.0,"Hampton, VA"
+1773,Nathan Worthington,1659,82,876,USA32,Nathan,,Male,39.0,"Dayton, TN"
+1774,Cody Buell,1660,82,876,USA32,Cody,,Male,33.0,"Paint Lick, KY"
+1775,Brendon Crawley,1661,83,877,AUS5,Brendon,,Male,25.0,"Yass, NSW"
+1776,Jackson Dening,1662,83,877,AUS5,Jackson,,Male,23.0,"Tamworth, NSW"
+1777,Ashleigh Lawrence,1663,83,878,AUS5,Ashleigh,,Female,32.0,"Gold Coast, QLD"
+1778,Amanda Blanks,1664,83,878,AUS5,Amanda,,Female,29.0,"Gold Coast, QLD"
+1779,Jaskirat Dhingra,1665,83,879,AUS5,Jaskirat,,Male,29.0,"Sydney, NSW"
+1780,Anurag Shobti,1666,83,879,AUS5,Anurag,,Male,29.0,"Sydney, NSW"
+1781,Chris DiLoreto,1667,83,880,AUS5,Chris,,Male,31.0,"Brisbane, QLD"
+1782,Aleisha Groth,1668,83,880,AUS5,Aleisha,,Female,30.0,"Brisbane, QLD"
+1783,Skye-Blue Henderson,1669,83,881,AUS5,Skye-Blue,,Female,27.0,"Melbourne, VIC"
+1784,Jake Henderson,1670,83,881,AUS5,Jake,,Male,29.0,"Long Forest, VIC"
+1785,Marijana Rajčić,1671,83,882,AUS5,MJ,,Female,31.0,"Adelaide, SA"
+1786,Chelsea Randall,1672,83,882,AUS5,Chelsea,,Female,29.0,"Adelaide, SA"
+1787,Holly Edwards,1673,83,883,AUS5,Holly,,Female,25.0,"Sydney, NSW"
+1788,Dolor Edosomwan,1674,83,883,AUS5,Dolor,,Male,26.0,"Sydney, NSW"
+1789,Stan Turek,1675,83,884,AUS5,Stan,,Male,36.0,"Richmond, NSW"
+1790,Wayne Marino,1676,83,884,AUS5,Wayne,,Male,26.0,"Richmond, NSW"
+1791,Jordan Saisi,1677,83,885,AUS5,Jordan,,Male,23.0,"Melbourne, VIC"
+1792,Violeta Mugica,1678,83,885,AUS5,Violeta,,Female,22.0,"Melbourne, VIC"
+1793,Dwesmond Wiggan-Dann,1679,83,886,AUS5,Dwes,,Male,32.0,"One Arm Point, WA"
+1794,Katherine Dann,1680,83,886,AUS5,Katherine,,Female,31.0,"Broome, WA"
+1795,Sefa Palu,1681,83,887,AUS5,Sefa,,Male,29.0,"Sydney, NSW"
+1796,Jessica Matavao,1682,83,887,AUS5,Jessica,,Female,32.0,"Sydney, NSW"
+1797,Jobelle Collier,1683,83,888,AUS5,Jobelle,,Female,29.0,"Shepparton, VIC"
+1798,Rani Alegre,1684,83,888,AUS5,Rani,,Male,52.0,"Shepparton, VIC"
+1799,Shane Wilson,1685,83,889,AUS5,Shane,,Male,47.0,"Wollongong, NSW"
+1800,Deborah Wilson,1686,83,889,AUS5,Deb,,Female,41.0,"Wollongong, NSW"
+1801,Malaan Ajang,1687,83,890,AUS5,Malaan,,Female,27.0,"Melbourne, VIC"
+1802,Tina Kuek,1688,83,890,AUS5,Tina,,Female,26.0,"Melbourne, VIC"
+1803,Jude Richards,1689,83,891,AUS5,Jude,,Female,49.0,"Brisbane, QLD"
+1804,Shannon Nay,1690,83,891,AUS5,Shannon,,Female,45.0,"Gold Coast, QLD"
+1805,Alex Newell,1691,83,892,AUS5,Alex,,Male,28.0,"Sydney, NSW"
+1806,Jack Newell,1692,83,892,AUS5,Jack,,Male,28.0,"Sydney, NSW"
+1807,Kim Holderness,1693,84,893,USA33,Kim,,Female,45.0,"Sarasota, FL"
+1808,Penn Holderness,1694,84,893,USA33,Penn,,Male,47.0,"Durham, NC"
+1809,Raquel Moore,1695,84,894,USA33,Raquel,,Female,31.0,"Chicago, IL"
+1810,Cayla Platt,1696,84,894,USA33,Cayla,,Female,30.0,"Gulf Breeze, FL"
+1811,Ryan Ferguson,1697,84,895,USA33,Ryan,,Male,37.0,"Manhattan, NY"
+1812,Dusty Harris,1698,84,895,USA33,Dusty,,Male,38.0,"Columbia, MO"
+1813,Arun Kumar,1699,84,896,USA33,Arun,,Male,56.0,"Detroit, MI"
+1814,Natalia Kumar,1700,84,896,USA33,Natalia,,Female,28.0,"Detroit, MI"
+1815,Marianela Gonzalez,1701,84,897,USA33,Lulu,,Female,37.0,"North Bergen, NJ"
+1816,Marissa Gonzalez,1702,84,897,USA33,Lala,,Female,37.0,"North Bergen, NJ"
+1817,"Akbar Cook, Sr.",1703,84,898,USA33,Akbar,,Male,45.0,"Newark, NJ"
+1818,Sheridan Cook,1704,84,898,USA33,Sheri,,Female,44.0,"Havana, FL"
+1819,Michael Norwood,1705,84,899,USA33,Michael,,Male,36.0,"Buffalo, NY"
+1820,Armonde Badger,1706,84,899,USA33,Moe,,Male,42.0,"Buffalo, NY"
+1821,Anthony Sadler,1707,84,900,USA33,Anthony,,Male,29.0,"Sacramento, CA"
+1822,Spencer Stone,1708,84,900,USA33,Spencer,,Male,29.0,"Sacramento, CA"
+1823,Connie Greiner,1709,84,901,USA33,Connie,,Female,38.0,"Newport News, VA"
+1824,Sam Greiner,1710,84,901,USA33,Sam,,Male,29.0,"Charlotte, NC"
+1825,Caroline Viehweg,1711,84,902,USA33,Caro,,Female,23.0,"Los Angeles, CA"
+1826,Raymond Gantt,1712,84,902,USA33,Ray,,Male,25.0,"Lakewood, NJ"
+1827,Taylor Green-Jones,1713,84,903,USA33,Taylor,,Male,38.0,"Fort Worth, TX"
+1828,Isaiah Green-Jones,1714,84,903,USA33,Isaiah,,Male,31.0,"Portland, OR"
+1829,Catherine Wreford,1715,85,904,CAN8,Catherine,,Female,42.0,"Winnipeg, MB"
+1830,Craig Ramsay,1716,85,904,CAN8,Craig,,Male,45.0,"Windsor, ON"
+1831,Jesse Cockney,1717,85,905,CAN8,Jesse,,Male,32.0,"Canmore, AB"
+1832,Marika Sila,1718,85,905,CAN8,Marika,,Female,29.0,"Canmore, AB"
+1833,Franca Brodett,1719,85,906,CAN8,Franca,,Female,32.0,"Edmonton, AB"
+1834,Nella Brodett,1720,85,906,CAN8,Nella,,Female,30.0,"Edmonton, AB"
+1835,Brendan McDougall,1721,85,907,CAN8,Brendan,,Male,29.0,"McDougall, ON"
+1836,Connor McDougall,1722,85,907,CAN8,Connor,,Male,26.0,"McDougall, ON"
+1837,Beverley Cheng,1723,85,908,CAN8,Beverley,,Female,30.0,"Toronto, ON"
+1838,Veronica Skye,1724,85,908,CAN8,Veronica,,Female,32.0,"Vancouver, BC"
+1839,Siginaak Court Larabee,1725,85,909,CAN8,Court,,Male,39.0,"Whistler, BC"
+1840,Ali Clark,1726,85,909,CAN8,Ali,,Female,33.0,"Fernie, BC"
+1841,Cedric Newman,1727,85,910,CAN8,Cedric,,Male,50.0,"Montreal, QC"
+1842,Tychon Carter-Newman,1728,85,910,CAN8,Tychon,,Male,30.0,"Montreal, QC"
+1843,Cassie Day,1729,85,911,CAN8,Cassie,,Female,31.0,"Toronto, ON"
+1844,Jahmeek Murray,1730,85,911,CAN8,Jahmeek,,Male,32.0,"Toronto, ON"
+1845,Dennis Ashe,1731,85,912,CAN8,Dennis,,Male,42.0,"Halifax, NS"
+1846,Durrell Borden,1732,85,912,CAN8,Durrell,,Male,33.0,"Halifax, NS"
+1847,Jully Black,1733,85,913,CAN8,Jully,,Female,44.0,"Toronto, ON"
+1848,Kathy Hunter,1734,85,913,CAN8,Kathy,,Female,41.0,"Regina, SK"
+1849,Heath Curry,1735,86,914,AUS6,Heath,,Male,33.0,"Melbourne, VIC"
+1850,Toni Hilland,1736,86,914,AUS6,Toni,,Female,38.0,"Melbourne, VIC"
+1851,Angel Williams,1737,86,915,AUS6,Angel,,Female,24.0,"Brisbane, QLD"
+1852,Francis Vaaua,1738,86,915,AUS6,Frankie,,Male,25.0,"Gold Coast, QLD"
+1853,Kelly Baildon,1739,86,916,AUS6,Kelly,,Male,25.0,"Brisbane, QLD"
+1854,Georgia Baildon,1740,86,916,AUS6,Georgia,,Female,25.0,"Brisbane, QLD"
+1855,Tiffany Turland,1741,86,917,AUS6,Tiffany,,Female,36.0,"Pilbara, WA"
+1856,Cynthia Cameron-Turland,1742,86,917,AUS6,Cynthia,,Female,21.0,"Pilbara, WA"
+1857,Pako Komira,1743,86,918,AUS6,Pako,,Male,38.0,"Sydney, NSW"
+1858,Mori Perez,1744,86,918,AUS6,Mori,,Male,39.0,"Sydney, NSW"
+1859,Lauren Howells,1745,86,919,AUS6,Lauren,,Female,27.0,Western Australia
+1860,Steph McGrath,1746,86,919,AUS6,Steph,,Female,34.0,Western Australia
+1861,Chelsea Keen,1747,86,920,AUS6,Chelsea,,Female,26.0,Queensland
+1862,Jamus Maoate,1748,86,920,AUS6,Jamus,,Male,35.0,Queensland
+1863,Jodie Playford,1749,86,921,AUS6,Jodie,,Female,55.0,New South Wales
+1864,Claire Thomas,1750,86,921,AUS6,Claire,,Female,48.0,New South Wales
+1865,Felicity Naughton,1751,86,922,AUS6,Fliss,,Female,20.0,"Crookwell, NSW"
+1866,Josephine O'Brienn,1752,86,922,AUS6,Tottie,,Female,20.0,"Crookwell, NSW"
+1867,Felicity Mifsud,1753,86,923,AUS6,Flick,,Female,28.0,"Melbourne, VIC"
+1868,Gabby Mifsud,1754,86,923,AUS6,Gabby,,Female,24.0,"Melbourne, VIC"
+1869,Stuart McGrath,1755,86,924,AUS6,Stuart,,Male,31.0,"Tiwi Island, NT"
+1870,Glennon Babui,1756,86,924,AUS6,Glennon,,Male,23.0,"Elcho Island, NT"
+1871,Kathy Alexandra,1757,86,925,AUS6,Kathy,,Female,28.0,"Sydney, NSW"
+1872,Chace Tran,1758,86,925,AUS6,Chace,,Male,27.0,"Sydney, NSW"
+1873,Morgan Trevethan,1759,86,926,AUS6,Morgan,,Female,23.0,"Gold Coast, QLD"
+1874,Lilly Robbo,1760,86,926,AUS6,Lilli,,Female,23.0,"Gold Coast, QLD"
+1875,Tammy Chan,1761,86,927,AUS6,Tammy,,Female,28.0,Victoria
+1876,Vincent Chan,1762,86,927,AUS6,Vincent,,Male,40.0,Queensland
+1877,Crystal Tawil,1763,86,928,AUS6,Crystal,,Female,27.0,New South Wales
+1878,Reem Chokr,1764,86,928,AUS6,Reem,,Female,26.0,New South Wales
+1879,Sam Kimberley,1765,86,929,AUS6,Sam,,Male,23.0,"Perth, WA"
+1880,Stuart Moorhouse,1766,86,929,AUS6,Stu,,Male,23.0,"Perth, WA"
+1881,Sam Trenwith,1767,86,930,AUS6,Sam,,Male,27.0,"Adelaide, SA"
+1882,Alex Hill,1768,86,930,AUS6,Alex,,Male,28.0,"Adelaide, SA"
+1883,Jake O'Brien,1769,86,931,AUS6,Jake,,Male,29.0,"Sydney, NSW"
+1884,Holly MacAlpine,1770,86,931,AUS6,Holly,,Female,24.0,"Sydney, NSW"
+1885,Brenda Wilkinson,1771,86,932,AUS6,Bren,,Female,56.0,Western Australia
+1886,Anja Gramueller-Southon,1772,86,932,AUS6,Anja,,Female,53.0,Western Australia
+1887,Paul Farrell,1773,86,933,AUS6,Paul,,Male,67.0,"Phillip Island, VIC"
+1888,Rachel Farrell,1774,86,933,AUS6,Rachel,,Female,33.0,"Phillip Island, VIC"
+1889,Derek Xiao,1775,87,934,USA34,Derek,,Male,25.0,"Los Angeles, CA"
+1890,Claire Rehfuss,1776,87,934,USA34,Claire,,Female,26.0,"Los Angeles, CA"
+1891,Emily Bushnell,1777,87,935,USA34,Emily,,Female,36.0,"Ardmore, PA"
+1892,Molly Sinert,1778,87,935,USA34,Molly,,Female,35.0,"Palm Beach Gardens, FL"
+1893,Luis Colon,1779,87,936,USA34,Luis,,Male,34.0,"Miami, FL"
+1894,Michelle Burgos,1780,87,936,USA34,Michelle,,Female,34.0,"Miami, FL"
+1895,Aubrey Ares,1781,87,937,USA34,Aubrey,,Female,29.0,"Los Angeles, CA"
+1896,David Hernandez,1782,87,937,USA34,David,,Male,29.0,"Los Angeles, CA"
+1897,Marcus Craig,1783,87,938,USA34,Marcus,,Male,38.0,"Richmond Hill, GA"
+1898,Michael Craig,1784,87,938,USA34,Michael,,Male,30.0,"Alamogordo, NM"
+1899,Quinton Peron,1785,87,939,USA34,Quinton,,Male,29.0,"Pasadena, CA"
+1900,Mattie Lynch,1786,87,939,USA34,Mattie,,Female,27.0,"Vista, CA"
+1901,Glenda Roberts,1787,87,940,USA34,Glenda,,Female,41.0,"Norcross, GA"
+1902,Lumumba Roberts,1788,87,940,USA34,Lumumba,,Male,41.0,"Norcross, GA"
+1903,Abby Garrett,1789,87,941,USA34,Abby,,Female,24.0,"Birmingham, AL"
+1904,Will Freeman,1790,87,941,USA34,Will,,Male,25.0,"Birmingham, AL"
+1905,Linton Atkinson,1791,87,942,USA34,Linton,,Male,50.0,"Brooklyn, NY"
+1906,Sharik Atkinson,1792,87,942,USA34,Sharik,,Female,23.0,"Brooklyn, NY"
+1907,Richard Kuo,1793,87,943,USA34,Rich,,Male,32.0,"Huntington Beach, CA"
+1908,Dom Jones,1794,87,943,USA34,Dom,,Female,35.0,"Huntington Beach, CA"
+1909,Tim Mann,1795,87,944,USA34,Tim,,Male,40.0,"Brentwood, TN"
+1910,Rex Ryan,1796,87,944,USA34,Rex,,Male,59.0,"Brentwood, TN"
+1911,Aastha Lal,1797,87,945,USA34,Aastha,,Female,33.0,"Marina del Rey, CA"
+1912,Nina Duong,1798,87,945,USA34,Nina,,Female,34.0,"Marina del Rey, CA"
+1913,Tyler Smith,1799,88,946,CAN9,Ty,,Male,25.0,"Hinton, AB"
+1914,Katrina Kastner,1800,88,946,CAN9,Kat,,Female,25.0,"Calgary, AB"
+1915,Tyler Turner,1801,88,947,CAN9,Tyler,,Male,35.0,"Calgary, AB"
+1916,Kayleen Vanderee,1802,88,947,CAN9,Kayleen,,Female,31.0,"Comox Valley, BC"
+1917,Ben Chutta,1803,88,948,CAN9,Ben,,Male,31.0,"Winnipeg, MB"
+1918,Anwar Ahmed,1804,88,948,CAN9,Anwar,,Male,32.0,"Winnipeg, MB"
+1919,Deven Condo-Mitchell,1805,88,949,CAN9,Deven,,Male,33.0,"Gesgapegiag, QC"
+1920,Amanda Larocque,1806,88,949,CAN9,Amanda,,Female,41.0,"Gesgapegiag, QC"
+1921,Jermaine Aranha,1807,88,950,CAN9,Jermaine,,Male,41.0,"Toronto, ON"
+1922,Justin Baird,1808,88,950,CAN9,Justin,,Male,36.0,"Toronto, ON"
+1923,Derek Gottenbos,1809,88,951,CAN9,Derek,,Male,28.0,"Richmond, BC"
+1924,Jaspal Sidhu,1810,88,951,CAN9,Jaspal,,Male,28.0,"Richmond, BC"
+1925,Gracie Lowes,1811,88,952,CAN9,Gracie,,Female,25.0,"Toronto, ON"
+1926,Lily Bateman,1812,88,952,CAN9,Lily,,Female,24.0,"Canning, NS"
+1927,Shayla Stonechild,1813,88,953,CAN9,Shayla,,Female,29.0,"Medicine Hat, AB"
+1928,Joel Oulette,1814,88,953,CAN9,Joel,,Male,21.0,"Medicine Hat, AB"
+1929,Allie Seller,1815,88,954,CAN9,Allie,,Female,48.0,"Courtenay, BC"
+1930,Eddie Parinas,1816,88,954,CAN9,Eddie,,Male,52.0,"Richmond, BC"
+1931,Gail Kim,1817,88,955,CAN9,Gail,,Female,46.0,"Toronto, ON"
+1932,Gisele Shaw,1818,88,955,CAN9,Gisele,,Female,34.0,"Yellowknife, NT"
+1933,Greg Franklin,1819,89,956,USA35,Greg,,Male,25.0,"New York City, NY"
+1934,John Franklin,1820,89,956,USA35,John,,Male,27.0,"Mountain View, CA"
+1935,Joel Strasser,1821,89,957,USA35,Joel,,Male,42.0,"Kuna, ID"
+1936,Garrett Smith,1822,89,957,USA35,Garrett,,Male,43.0,"Meridian, ID"
+1937,Rob McArthur,1823,89,958,USA35,Rob,,Male,48.0,"Riverside, CA"
+1938,Corey McArthur,1824,89,958,USA35,Corey,,Male,25.0,"New York City, NY"
+1939,Steve Cargile,1825,89,959,USA35,Steve,,Male,45.0,"Petty, TX"
+1940,Anna Leigh Wilson,1826,89,959,USA35,Anna Leigh,,Female,28.0,"Royse City, TX"
+1941,Todd Martin,1827,89,960,USA35,Todd,,Male,38.0,"Chino, CA"
+1942,Ashlie Martin,1828,89,960,USA35,Ashlie,,Female,38.0,"Chino, CA"
+1943,Robbin Tomich,1829,89,961,USA35,Robbin,,Female,41.0,"Kirkland, WA"
+1944,Chelsea Day,1830,89,961,USA35,Chelsea,,Female,41.0,"Shoreline, WA"
+1945,Morgan Franklin,1831,89,962,USA35,Morgan,,Female,31.0,"Brooklyn, NY"
+1946,Lena Franklin,1832,89,962,USA35,Lena,,Female,29.0,"Los Angeles, CA"
+1947,Andrea Simpson,1833,89,963,USA35,Andrea,,Female,44.0,"Philadelphia, PA"
+1948,Malaina Hatcher,1834,89,963,USA35,Malaina,,Female,45.0,"Philadelphia, PA"
+1949,Liam Hykel,1835,89,964,USA35,Liam,,Male,23.0,"Cheyenne, WY"
+1950,Yeremi Hykel,1836,89,964,USA35,Yeremi,,Male,24.0,"San Marcos, TX"
+1951,Joe Moskowitz,1837,89,965,USA35,Joe,,Male,45.0,"New York City, NY"
+1952,Ian Todd,1838,89,965,USA35,Ian,,Male,40.0,"New York City, NY"
+1953,Jocelyn Chao,1839,89,966,USA35,Jocelyn,,Female,49.0,"Albuquerque, NM"
+1954,Victor Limary,1840,89,966,USA35,Victor,,Male,49.0,"Albuquerque, NM"
+1955,Elizabeth Rivera,1841,89,967,USA35,Elizabeth,,Female,52.0,"Tampa, FL"
+1956,Iliana Rivera,1842,89,967,USA35,Iliana,,Female,27.0,"Tampa, FL"
+1957,Alexandra Lichtor,1843,89,968,USA35,Alexandra,,Female,34.0,"Chicago, IL"
+1958,Sheridan Lichtor,1844,89,968,USA35,Sheridan,,Male,29.0,"Chicago, IL"
+1959,Kaisa Mäkäräinen,1845,90,969,FIN1,Kaisa,,Female,40.0,Joensuu
+1960,Mari Eder,1846,90,969,FIN1,Mari,,Female,35.0,Eno
+1961,Tuukka Ritokoski,1847,90,970,FIN1,Tuukka,,Male,28.0,Kerava
+1962,Sami Ritokoski,1848,90,970,FIN1,Sami,,Male,58.0,Kerava
+1963,Janne Lehtonen,1849,90,971,FIN1,Janne,,Male,40.0,
+1964,Robin Hendry,1850,90,971,FIN1,Robin,,Male,37.0,
+1965,Bakari Diarra,1851,90,972,FIN1,Bakari,,Male,25.0,Helsinki
+1966,Samuel Chime,1852,90,972,FIN1,Samuel,,Male,24.0,Helsinki
+1967,Marcus Grönholm,1853,90,973,FIN1,Marcus,,Male,55.0,Ingå
+1968,Timo Rautiainen,1854,90,973,FIN1,Timo,,Male,58.0,Espoo
+1969,Peter Vesterbacka,1855,90,974,FIN1,Peter,,Male,55.0,Pori
+1970,Thy Nguyen,1856,90,974,FIN1,Anna,,Female,18.0,Pori
+1971,Ilmari Nurminen,1857,90,975,FIN1,Ilmari,,Male,32.0,Tampere
+1972,Aapo Hettula,1858,90,975,FIN1,Aapo,,Male,30.0,Tampere
+1973,Jukka Rasila,1859,90,976,FIN1,Jukka,,Male,53.0,Oulu
+1974,Mirva Nieminen,1860,90,976,FIN1,Mirva,,Female,45.0,Oulu
+1975,Katariina Kaitue,1861,90,977,FIN1,Katariina,,Female,56.0,Helsinki
+1976,Benjamin Harima,1862,90,977,FIN1,Benjamin,,Male,29.0,Helsinki
+1977,Lotta Hintsa,1863,90,978,FIN1,Lotta,,Female,34.0,Nurmo
+1978,Noora Hintsa,1864,90,978,FIN1,Noora,,Female,32.0,Nurmo
+1979,Aino-Kaisa Pekonen,1865,90,979,FIN1,Aino-Kaisa,,Female,44.0,Riihimäki
+1980,Silvia Modig,1866,90,979,FIN1,Silvia,,Female,46.0,Helsinki
+1981,Anna Perho,1867,90,980,FIN1,Anna,,Female,52.0,
+1982,Atte Lehtiniittu,1868,90,980,FIN1,Atte,,Male,22.0,
+1983,Darren McMullen,1869,91,981,AUS7,Darren,,Male,41.0,"Sydney, NSW"
+1984,Trustan Dougan,1870,91,981,AUS7,Tristan,,Male,26.0,"Sydney, NSW"
+1985,Emma Watkins,1871,91,982,AUS7,Emma,,Female,33.0,"Robertson, NSW"
+1986,Hayley Watkins,1872,91,982,AUS7,Hayley,,Female,34.0,"Sydney, NSW"
+1987,Alli Simpson,1873,91,983,AUS7,Alli,,Female,25.0,"Gold Coast, QLD"
+1988,Angie Simpson,1874,91,983,AUS7,Angie,,Female,52.0,"Gold Coast, QLD"
+1989,Harry Jowsey,1875,91,984,AUS7,Harry,,Male,26.0,"Gold Coast, QLD"
+1990,Teddy Briggs,1876,91,984,AUS7,Teddy,,Male,29.0,"Adelaide, SA"
+1991,Jana Pittman,1877,91,985,AUS7,Jana,,Female,40.0,"Castle Hill, NSW"
+1992,Cornelis Rawlinson,1878,91,985,AUS7,Cor,,Male,16.0,"Castle Hill, NSW"
+1993,Rebecca Judd,1879,91,986,AUS7,Bec,,Female,40.0,"Melbourne, VIC"
+1994,Kate Twigley,1880,91,986,AUS7,Kate,,Female,38.0,"Perth, WA"
+1995,George Mladenov,1881,91,987,AUS7,George,,Male,33.0,"Bankstown, NSW"
+1996,Pamela Mladenov,1882,91,987,AUS7,Pam,,Female,24.0,"Bankstown, NSW"
+1997,Benjamin Gillies,1883,91,988,AUS7,Ben,,Male,43.0,"Melbourne, VIC"
+1998,Jakica Gillies,1884,91,988,AUS7,Jackie,,Female,42.0,"Melbourne, VIC"
+1999,Peter Rowsthorn,1885,91,989,AUS7,Peter,,Male,60.0,"Perth, WA"
+2000,Frankie Rowsthorn,1886,91,989,AUS7,Frankie,,Female,20.0,"Perth, WA"
+2001,Grant Denyer,1887,91,990,AUS7,Grant,,Male,45.0,"Bathurst, NSW"
+2002,Cheryl Denyer,1888,91,990,AUS7,Chezzi,,Female,43.0,"Bathurst, NSW"
+2003,Dane Simpson,1889,91,991,AUS7,Dane,,Male,40.0,"Wagga Wagga, NSW"
+2004,Bow Simpson,1890,91,991,AUS7,Bow,,Male,69.0,"Walgett, NSW"
+2005,Ricky Rotandi,1891,92,992,USA36,Ricky,,Male,34.0,"New York City, NY"
+2006,Cesar Aldrete,1892,92,992,USA36,Cesar,,Male,34.0,"New York City, NY"
+2007,Juan Villa,1893,92,993,USA36,Juan,,Male,29.0,"Spokane, WA"
+2008,Shane Bilek,1894,92,993,USA36,Shane,,Male,29.0,"Marine City, MI"
+2009,Roderick Gardner,1895,92,994,USA36,Rod,,Male,46.0,"Lawrenceville, GA"
+2010,Leticia Gardner,1896,92,994,USA36,Leticia,,Female,38.0,"Lawrenceville, GA"
+2011,Amber Craven,1897,92,995,USA36,Amber,,Female,30.0,"Englewood, CO"
+2012,Vincent Cagungun,1898,92,995,USA36,Vinny,,Male,37.0,"Englewood, CO"
+2013,Yvonne Chavez,1899,92,996,USA36,Yvonne,,Female,40.0,"San Diego, CA"
+2014,Melissa Main,1900,92,996,USA36,Melissa,,Female,38.0,"San Diego, CA"
+2015,Angela Butler,1901,92,997,USA36,Angie,,Female,55.0,"Walla Walla, WA"
+2016,Danny Butler,1902,92,997,USA36,Danny,,Male,27.0,"San Diego, CA"
+2017,Sunny Pulver,1903,92,998,USA36,Sunny,,Female,41.0,"Edgerton, WI"
+2018,Elizabeth Smith,1904,92,998,USA36,Bizzy,,Female,37.0,"New Berlin, WI"
+2019,Derek Williams,1905,92,999,USA36,Derek,,Male,57.0,"Alta Loma, CA"
+2020,Shelisa Williams,1906,92,999,USA36,Shelisa,,Female,55.0,"Alta Loma, CA"
+2021,Kishori Turner,1907,92,1000,USA36,Kishori,,Female,26.0,"Gaithersburg, MD"
+2022,Karishma Cordero,1908,92,1000,USA36,Karishma,,Female,22.0,"Austin, TX"
+2023,Michelle Clark,1909,92,1001,USA36,Michelle,,Female,39.0,"East Point, GA"
+2024,Sean Clark,1910,92,1001,USA36,Sean,,Male,46.0,"East Point, GA"
+2025,Anthony Smith,1911,92,1002,USA36,Anthony,,Male,26.0,"Clearwater, FL"
+2026,Bailey Smith,1912,92,1002,USA36,Bailey,,Male,26.0,"Clearwater, FL"
+2027,Chris Foster,1913,92,1003,USA36,Chris,,Male,60.0,"Waltham, MA"
+2028,Mary Cardona-Foster,1914,92,1003,USA36,Mary,,Female,27.0,"Waltham, MA"
+2029,Maya Mody,1915,92,1004,USA36,Maya,,Female,20.0,"Monmouth Junction, NJ"
+2030,Rohan Mody,1916,92,1004,USA36,Rohan,,Male,23.0,"Monmouth Junction, NJ"
+2031,Lee Avrahami,1917,93,1005,ISR9,Lee,,Female,24.0,Tel Aviv
+2032,Anne Avrahami,1918,93,1005,ISR9,Anne,,Female,23.0,Tel Aviv
+2033,Inbar Ben Atia,1919,93,1006,ISR9,Inbar,,Female,26.0,Gedera
+2034,Avishay Regev,1920,93,1006,ISR9,Avishay,,Male,44.0,Talmei Yehi'el
+2035,Lior Dabach,1921,93,1007,ISR9,Lior,,Male,30.0,Be'er Ya'akov
+2036,Sapir Avisror,1922,93,1007,ISR9,Sapir,,Female,28.0,Be'er Ya'akov
+2037,Itzik Sokolovski,1923,93,1008,ISR9,Itzik,,Male,33.0,Bnei Brak
+2038,Esti Sokolovski,1924,93,1008,ISR9,Esti,,Female,31.0,Bnei Brak
+2039,Sahar Koren,1925,93,1009,ISR9,Sahar,,Male,29.0,Ramat Gan
+2040,Yeftah Ramon,1926,93,1009,ISR9,Yeftah,,Male,31.0,Kfar HaNassi
+2041,Udi Naor,1927,93,1010,ISR9,Udi,,Male,28.0,Ramat HaSharon
+2042,Matan Oved,1928,93,1010,ISR9,Matan,,Male,28.0,Ramat HaSharon
+2043,Mahmoud Safouri,1929,93,1011,ISR9,Modi,,Male,46.0,Bat Yam
+2044,Miki Lelov,1930,93,1011,ISR9,Miki,,Male,43.0,Bat Yam
+2045,Hasida Hasson,1931,93,1012,ISR9,Hassi,,Female,52.0,Reshon LeZion
+2046,Yerin Hasson,1932,93,1012,ISR9,Yerin,,Female,24.0,Reshon LeZion
+2047,Idan Rosen,1933,93,1013,ISR9,Idan,,Male,26.0,Tel Aviv
+2048,Guy Rosen,1934,93,1013,ISR9,Guy,,Male,58.0,Tel Aviv
+2049,Amit Hen,1935,93,1014,ISR9,Amit,,Female,30.0,Tel Aviv
+2050,Rotem Revivo,1936,93,1014,ISR9,Rotem,,Female,29.0,Tel Aviv
+2051,Raheli Mizrahi,1937,93,1015,ISR9,Raheli,,Female,39.0,Jerusalem
+2052,Miri Eliezer,1938,93,1015,ISR9,Miri,,Female,42.0,Jerusalem
+2053,Shahar Elbaz,1939,93,1016,ISR9,Shahar,,Male,27.0,Petah Tikva
+2054,Ronit Elbaz,1940,93,1016,ISR9,Ronit,,Female,56.0,Petah Tikva
+2055,Michal Matzov,1941,93,1017,ISR9,Michal,,Female,29.0,Haifa
+2056,Elrom Ben Avraham,1942,93,1017,ISR9,Elrom,,Male,25.0,Petah Tikva
+2057,Taylor McPherson,1943,94,1018,CAN10,Taylor,,Female,24.0,"Edmonton, AB"
+2058,Katie Mulkay,1944,94,1018,CAN10,Katie,,Female,24.0,"Edmonton, AB"
+2059,Colin Rose,1945,94,1019,CAN10,Colin,,Male,33.0,"Mount Pearl, NL"
+2060,Matt Roberts,1946,94,1019,CAN10,Matt,,Male,31.0,"Mount Pearl, NL"
+2061,Michael Crouse,1947,94,1020,CAN10,Michael,,Male,33.0,"Vancouver, BC"
+2062,Tyson Gillies,1948,94,1020,CAN10,Tyson,,Male,35.0,"Vancouver, BC"
+2063,Lauren Peters,1949,94,1021,CAN10,Lauren,,Female,26.0,"Mississauga, ON"
+2064,Nicole Peters,1950,94,1021,CAN10,Nicole,,Female,26.0,"Mississauga, ON"
+2065,Kevin Martin,1951,94,1022,CAN10,Kevin,,Male,31.0,"Calgary, AB"
+2066,Gurleen Maan,1952,94,1022,CAN10,Gurleen,,Female,35.0,"Abbotsford, BC"
+2067,Michael Linklater,1953,94,1023,CAN10,Michael,,Male,42.0,"Saskatoon, SK"
+2068,Amari Linklater,1954,94,1023,CAN10,Amari,,Male,19.0,"Saskatoon, SK"
+2069,Julia Viola,1955,94,1024,CAN10,Julia,,Female,33.0,"Clearview, ON"
+2070,Olivia Curto,1956,94,1024,CAN10,Olivia,,Female,33.0,"Clearview, ON"
+2071,Bradley May,1957,94,1025,CAN10,Brad,,Male,52.0,"Toronto, ON"
+2072,Samantha May,1958,94,1025,CAN10,Sam,,Female,24.0,"Toronto, ON"
+2073,Connor Carroll,1959,94,1026,CAN10,Connor,,Male,26.0,"Pickering, ON"
+2074,John Ferguson,1960,94,1026,CAN10,John,,Male,26.0,"Erin, ON"
+2075,Dorothy Adeneye,1961,94,1027,CAN10,Dorothy,,Female,29.0,"Calgary, AB"
+2076,Olus Adeneye,1962,94,1027,CAN10,Olus,,Male,32.0,"Calgary, AB"
+2077,Eva Amo-Mensah,1963,94,1028,CAN10,Eva,,Female,30.0,"Toronto, ON"
+2078,Trystenne Burey,1964,94,1028,CAN10,Trystenne,,Female,27.0,"Toronto, ON"
+2079,Tai Tuivasa,1965,95,1029,AUS8,Bam Bam,,Male,31.0,"Sydney, NSW"
+2080,Logan Tuivasa,1966,95,1029,AUS8,Logan,,Male,35.0,"Sydney, NSW"
+2081,William Brownless,1967,95,1030,AUS8,Billy,,Male,57.0,"Jerilderie, NSW"
+2082,Oscar Brownless,1968,95,1030,AUS8,Oscar,,Male,24.0,"Jerilderie, NSW"
+2083,Brooke McClymont,1969,95,1031,AUS8,Brooke,,Female,43.0,"Grafton, NSW"
+2084,Adam Eckersley,1970,95,1031,AUS8,Adam,,Male,42.0,"Grafton, NSW"
+2085,Peter Helliar,1971,95,1032,AUS8,Pete,,Male,48.0,"Melbourne, VIC"
+2086,Bridget Helliar,1972,95,1032,AUS8,Bridget,,Female,44.0,"Melbourne, VIC"
+2087,Ian Thorpe,1973,95,1033,AUS8,Thorpie,,Male,41.0,"Sydney, NSW"
+2088,Christian Miranda,1974,95,1033,AUS8,Christian,,Male,38.0,"Sydney, NSW"
+2089,Chloe Logarzo,1975,95,1034,AUS8,Chloe,,Female,29.0,"Melbourne, VIC"
+2090,Emily Gielnik,1976,95,1034,AUS8,Emily,,Female,32.0,"Melbourne, VIC"
+2091,Havana Brown,1977,95,1035,AUS8,Havana,,Female,39.0,"Melbourne, VIC"
+2092,Steph Dunstan-Wood,1978,95,1035,AUS8,Steph,,Female,38.0,"Melbourne, VIC"
+2093,Jett Kenny,1979,95,1036,AUS8,Jett,,Male,30.0,
+2094,Lily Brown,1980,95,1036,AUS8,Lily,,Female,26.0,
+2095,Cyrelle Paule,1981,95,1037,AUS8,Cyrell,,Female,35.0,"Sydney, NSW"
+2096,Eden Dally,1982,95,1037,AUS8,Eden,,Male,31.0,"Sydney, NSW"
+2097,Natalie Bassingthwaighte,1983,95,1038,AUS8,Nat,,Female,48.0,"Wollongong, NSW"
+2098,Mel Sheldrick,1984,95,1038,AUS8,Mel,,Female,50.0,"Wollongong, NSW"
+2099,Luke McGregor,1985,95,1039,AUS8,Luke,,Male,41.0,"Hobart, TAS"
+2100,Julie McGregor,1986,95,1039,AUS8,Julie,,Female,63.0,"Hobart, TAS"
+2101,Metti Forssell,1987,96,1040,FIN2,Metti,,Female,33.0,Kokkola
+2102,Hanna Launonen,1988,96,1040,FIN2,Hanna,,Female,33.0,
+2103,Mimosa Willamo,1989,96,1041,FIN2,Mimosa,,Female,29.0,Espoo
+2104,Patrick Willamo,1990,96,1041,FIN2,Pati,,Male,55.0,
+2105,Elias Aalto,1991,96,1042,FIN2,Elias,,Male,38.0,
+2106,Matias Pietilä,1992,96,1042,FIN2,Matias,,Male,41.0,
+2107,Paulus Arajuuri,1993,96,1043,FIN2,Paulus,,Male,36.0,Helsinki
+2108,Adeliina Arajuuri,1994,96,1043,FIN2,Adeliina,,Female,32.0,
+2109,Leea Klemola,1995,96,1044,FIN2,Leea,,Female,59.0,Veteli
+2110,Kaarina Hazard,1996,96,1044,FIN2,Kaarina,,Female,60.0,Kuopio
+2111,Deogracias Masomi,1997,96,1045,FIN2,Gracias,,Male,37.0,"Kinshasa, D.R. Congo"
+2112,Jeremie Malolo,1998,96,1045,FIN2,Jeremie,,Male,32.0,"Kinshasa, D.R. Congo"
+2113,Tiina Wikström,1999,96,1046,FIN2,Tinni,,Female,34.0,
+2114,Antti Savinainen,2000,96,1046,FIN2,Antti,,Male,29.0,
+2115,Mikko Kekäläinen,2001,96,1047,FIN2,Mikko,,Male,47.0,Pieksämäki
+2116,Mervi Levänen,2002,96,1047,FIN2,Meikka,,Female,65.0,
+2117,Jani Sievinen,2003,96,1048,FIN2,Jani,,Male,50.0,Vihti
+2118,Maria Nyqvist,2004,96,1048,FIN2,Maria,,Female,40.0,
+2119,Tuure Boelius,2005,96,1049,FIN2,Tuure,,Male,23.0,Pori
+2120,Saana Boelius,2006,96,1049,FIN2,Saana,,Female,22.0,
+2121,Aku Sipola,2007,96,1050,FIN2,Aku,,Male,34.0,Raahe
+2122,Wille Komulainen,2008,96,1050,FIN2,Wille,,Male,42.0,
+2123,Carson McCalley,2009,97,1051,USA37,Carson,,Male,28.0,"Brooklyn, NY"
+2124,Jack Dodge,2010,97,1051,USA37,Jack,,Male,27.0,"Brooklyn, NY"
+2125,Han Nguyen,2011,97,1052,USA37,Han,,Female,26.0,"Los Gatos, CA"
+2126,Holden Nguyen,2012,97,1052,USA37,Holden,,Male,22.0,"Los Gatos, CA"
+2127,Jonathan Towns,2013,97,1053,USA37,Jonathan,,Male,42.0,"Pomona, CA"
+2128,Ana Towns,2014,97,1053,USA37,Ana,,Female,35.0,"Pomona, CA"
+2129,Alyssa Borden,2015,97,1054,USA37,Alyssa,,Female,31.0,"Philadelphia, PA"
+2130,Josiah Borden,2016,97,1054,USA37,Josiah,,Male,32.0,"Philadelphia, PA"
+2131,Brett Hamby,2017,97,1055,USA37,Brett,,Male,36.0,"Las Vegas, NV"
+2132,Mark Romain,2018,97,1055,USA37,Mark,,Male,37.0,"Las Vegas, NV"
+2133,Melinda Papadeas,2019,97,1056,USA37,Melinda,,Female,66.0,"Chandler, AZ"
+2134,Erika Papadeas,2020,97,1056,USA37,Erika,,Female,32.0,"Englewood, CO"
+2135,Nicholas Fiorito,2021,97,1057,USA37,Nick,,Male,32.0,"Brooklyn, NY"
+2136,Michael Fiorito,2022,97,1057,USA37,Mike,,Male,28.0,"Brooklyn, NY"
+2137,Jeff Bailey,2023,97,1058,USA37,Pops,,Male,65.0,"St. Louis, MO"
+2138,Jeff Bailey,2024,97,1058,USA37,Jeff,,Male,36.0,"St. Louis, MO"
+2139,Scott Thompson,2025,97,1059,USA37,Scott,,Male,47.0,"Salt Lake City, UT"
+2140,Lori Thompson,2026,97,1059,USA37,Lori,,Female,49.0,"Salt Lake City, UT"
+2141,Bernadette Gutierrez,2027,97,1060,USA37,Bernie,,Female,31.0,"Dallas, TX"
+2142,Carrigain Scadden,2028,97,1060,USA37,Carrigain,,Female,33.0,"Denver, CO"
+2143,Courtney Ramsey,2029,97,1061,USA37,Courtney,,Female,33.0,"Leland, NC"
+2144,Jasmin Carey,2030,97,1061,USA37,Jasmin,,Female,34.0,"Leland, NC"
+2145,Ernest Cato,2031,97,1062,USA37,Ernest,,Male,59.0,"Chicago, IL"
+2146,Bridget Cato,2032,97,1062,USA37,Bridget,,Female,28.0,"Somerville, MA"
+2147,Mark Crawford,2033,97,1063,USA37,Mark,,Male,63.0,"Watertown, TN"
+2148,Larry Graham,2034,97,1063,USA37,Larry,,Male,59.0,"Bartlett, TN"
+2149,Jackye Clayton,2035,97,1064,USA37,Jackye,,Female,51.0,"Waco, TX"
+2150,Lauren McKinney,2036,97,1064,USA37,Lauren,,Female,61.0,"Waco, TX"
+2151,Jesse Harink,2037,98,1065,CAN11,Jesse,,Male,33.0,"Sherwood Park, AB"
+2152,Jonathon Braun,2038,98,1065,CAN11,Jonathon,,Male,36.0,"Woodlawn, ON"
+2153,Grace Dove,2039,98,1066,CAN11,Grace,,Female,33.0,"Prince George, BC"
+2154,Joe Syme,2040,98,1066,CAN11,Joe,,Male,35.0,"Prince George, BC"
+2155,Ethan Burnett,2041,98,1067,CAN11,EB,,Male,22.0,"Toronto, ON"
+2156,Blake Burnett,2042,98,1067,CAN11,Blake,,Male,26.0,"Toronto, ON"
+2157,Skylene Gladue,2043,98,1068,CAN11,Nipîy,,Female,45.0,"Edmonton, AB"
+2158,Blair Gladue,2044,98,1068,CAN11,Magoo,,Male,51.0,"Edmonton, AB"
+2159,Ika Wong,2045,98,1069,CAN11,Ika,,Female,40.0,"Toronto, ON"
+2160,Demetres Giannitsos,2046,98,1069,CAN11,Demetres,,Male,33.0,"Toronto, ON"
+2161,Lacey Koughan,2047,98,1070,CAN11,Lacey,,Female,26.0,"Charlottetown, PE"
+2162,Celia Koughan,2048,98,1070,CAN11,Celia,,Female,29.0,"Charlottetown, PE"
+2163,Rebecca Merasty,2049,98,1071,CAN11,Rebecca M.,,Female,35.0,"Vancouver, BC"
+2164,Rebecca Watt,2050,98,1071,CAN11,Rebecca W.,,Female,33.0,"Vancouver, BC"
+2165,Louis Octeau-Piché,2051,98,1072,CAN11,Louis,,Male,32.0,"Vaudreuil-Dorion, QC"
+2166,Marie Octeau,2052,98,1072,CAN11,Marie,,Female,58.0,"Vaudreuil-Dorion, QC"
+2167,Osas Igbinosun,2053,98,1073,CAN11,Osas,,Male,31.0,"Calgary, AB"
+2168,Esosa Igbinosun,2054,98,1073,CAN11,Esosa,,Male,35.0,"Calgary, AB"
+2169,Brendan McDougall,1721,98,1074,CAN11,Brendan,,Male,32.0,"McDougall, ON"
+2170,Samantha May,1958,98,1074,CAN11,Sam,,Female,26.0,"Toronto, ON"
+2171,Michele Peter,2055,98,1075,CAN11,Michele,,Female,39.0,"Toronto, ON"
+2172,Aditi Deonarine,2056,98,1075,CAN11,Aditi,,Female,38.0,"Toronto, ON"
+2173,Stephen Curry,2057,99,1076,AUS9,Steve,,Male,48.0,"Melbourne, VIC"
+2174,Bernard Curry,2058,99,1076,AUS9,Bernie,,Male,50.0,"Melbourne, VIC"
+2175,Robert Mills,2059,99,1077,AUS9,Rob,,Male,42.0,"Melbourne, VIC"
+2176,Georgina Tunny,2060,99,1077,AUS9,Georgie,,Female,34.0,"Brisbane, QLD"
+2177,Aesha Scott,2061,99,1078,AUS9,Aesha,,Female,33.0,New Zealand
+2178,Scott Dobson,2062,99,1078,AUS9,Scott,,Male,34.0,New Zealand
+2179,Luke O'Halloran,2063,99,1079,AUS9,Luke,,Male,34.0,"Melbourne, VIC"
+2180,Scott O'Halloran,2064,99,1079,AUS9,'Sassy' Scott,,Male,39.0,"Melbourne, VIC"
+2181,Gretel Killeen,2065,99,1080,AUS9,Gretel,,Female,62.0,"Sydney, NSW"
+2182,Epiphany Morgan,2066,99,1080,AUS9,Epiphany,,Female,33.0,"Sydney, NSW"
+2183,Melissa Leong,2067,99,1081,AUS9,Melissa,,Female,43.0,"Sydney, NSW"
+2184,Leah Wilson,2068,99,1081,AUS9,Leah,,Female,44.0,"Sydney, NSW"
+2185,Brendan Fevola,2069,99,1082,AUS9,Brendan,,Male,44.0,"Melbourne, VIC"
+2186,Leni Fevola,2070,99,1082,AUS9,Leni,,Female,18.0,"Melbourne, VIC"
+2187,Lindy Rama,2071,99,1083,AUS9,Lindy,,Female,46.0,"Melbourne, VIC"
+2188,Stella Klim,2072,99,1083,AUS9,Stella,,Female,19.0,"Melbourne, VIC"
+2189,Dom Di Tommaso,2073,99,1084,AUS9,'Dom Tomato',,Male,32.0,"Canterbury, NSW"
+2190,Marx Marsters,2074,99,1084,AUS9,Marx,,Male,33.0,"Sydney, NSW"
+2191,Steph Tisdell,2075,99,1085,AUS9,Steph,,Female,32.0,"Mt Isa, QLD"
+2192,Ben Tisdell,2076,99,1085,AUS9,Ben,,Male,34.0,"Mt Isa, QLD"
+2193,Bronte Campbell,2077,99,1086,AUS9,Bronte,,Female,30.0,"Brisbane, QLD"
+2194,Benfield Lainchbury,2078,99,1086,AUS9,Benfield,,Male,35.0,"Brisbane, QLD"
+2195,Anthony Middleton,2079,99,1087,AUS9,Ant,,Male,44.0,"Portsmouth, England"
+2196,Dan Middleton,2080,99,1087,AUS9,Dan,,Male,46.0,"Portsmouth, England"
+2197,Edward Kavalee,2081,99,1088,AUS9,Ed,,Male,45.0,"Sydney, NSW"
+2198,Tiffiny Hall,2082,99,1088,AUS9,Tiff,,Female,40.0,"Melbourne, VIC"
+2199,Jasmair Bains,2083,100,1089,USA38,Jas,,Male,28.0,"Omak, WA"
+2200,Jagateshwar Bains,2084,100,1089,USA38,Jag,,Male,27.0,"Omak, WA"
+2201,Kyland Young,2085,100,1090,USA38,Kyland,,Male,34.0,"Los Angeles, CA"
+2202,Taylor Hale,2086,100,1090,USA38,Taylor,,Female,30.0,"Los Angeles, CA"
+2203,Joseph Abdin,2087,100,1091,USA38,Joseph,,Male,28.0,"Palm Beach, FL"
+2204,Adam Abdin,2088,100,1091,USA38,Adam,,Male,24.0,"Miami, FL"
+2205,Isabel Gleicher,2089,100,1092,USA38,Izzy,,Female,34.0,"New York City, NY"
+2206,Paige Seber,2090,100,1092,USA38,Paige,,Female,32.0,"New York City, NY"
+2207,Jack Baham,2091,100,1093,USA38,Jack,,Male,58.0,"Rancho Cucamonga, CA"
+2208,Chelsie Baham,2092,100,1093,USA38,Chelsie,,Female,28.0,"Rancho Cucamonga, CA"
+2209,Tucker Des Lauriers,2093,100,1094,USA38,Tucker,,Male,31.0,"Brooklyn, NY"
+2210,Eric Des Lauriers,2094,100,1094,USA38,Eric,,Male,32.0,"Boston, MA"
+2211,Natalie Negrotti,2095,100,1095,USA38,Natalie,,Female,34.0,"New York City, NY"
+2212,Stephanie Negrotti,2096,100,1095,USA38,Stephanie,,Female,36.0,"Lanai, HI"
+2213,Kristine Bernabe,2097,100,1096,USA38,Kristine,,Female,38.0,"Los Angeles, CA"
+2214,Rubina Bernabe,2098,100,1096,USA38,Rubina,,Female,36.0,"Los Angeles, CA"
+2215,Hannah Chaddha,2099,100,1097,USA38,Hannah,,Female,25.0,"Washington, DC"
+2216,Simone Chaddha,2100,100,1097,USA38,Simone,,Female,22.0,"Los Angeles, CA"
+2217,Kathryn Dunn,2101,100,1098,USA38,Kat,,Female,35.0,"Dallas, TX"
+2218,Alex Romo,2102,100,1098,USA38,Alex,,Male,32.0,"Dallas, TX"
+2219,Megan Belmonte,2103,100,1099,USA38,Megan,,Female,24.0,"Providence, RI"
+2220,Matt Turner,2104,100,1099,USA38,Matt,,Male,25.0,"Providence, RI"
+2221,Angela Murray,2105,100,1100,USA38,Angela,,Female,51.0,"Syracuse, UT"
+2222,Lexi Murray,2106,100,1100,USA38,Lexi,,Female,23.0,"Las Vegas, NV"
+2223,Giacomo Palumbo,2107,100,1101,USA38,Jack,,Male,40.0,"Marlton, NJ"
+2224,Vincenzo Palumbo,2108,100,1101,USA38,Enzo,,Male,47.0,"Bayonne, NJ"
+2225,Maria Guzenina,2109,101,1102,FIN3,Maria,,Female,56.0,Helsinki
+2226,Vilma Vähämaa,2110,101,1102,FIN3,Vilma,,Female,32.0,Helsinki
+2227,Mia Haataja,2111,101,1103,FIN3,Millu,,Female,32.0,Savonlinna
+2228,Karoliina Tuominen,2112,101,1103,FIN3,Karo,,Female,30.0,Savonlinna
+2229,Tomas Grekov,2113,101,1104,FIN3,Tomas,,Male,30.0,Jyväskylä
+2230,Esko Rotola-Pukkila,2114,101,1104,FIN3,Esko,,Male,63.0,Jyväskylä
+2231,Sara Sieppi,2115,101,1105,FIN3,Sara,,Female,34.0,Tornio
+2232,Artturi Sieppi,2116,101,1105,FIN3,Artturi,,Male,31.0,Tornio
+2233,Armi Toivanen,2117,101,1106,FIN3,Armi,,Female,44.0,Tampere
+2234,Sari Majamaa,2118,101,1106,FIN3,Sari,,Female,46.0,Tampere
+2235,Tuomas Peltomäki,2119,101,1107,FIN3,Tuomas,,Male,43.0,Oulu
+2236,Sini Peltomäki,2120,101,1107,FIN3,Sini,,Female,43.0,Oulu
+2237,Mari Hynynen,2121,101,1108,FIN3,Mari,,Female,55.0,Varkaus
+2238,Joel Volanen,2122,101,1108,FIN3,Joel,,Male,25.0,Varkaus
+2239,Nina Tapio,2123,101,1109,FIN3,Nina,,Female,53.0,Helsinki
+2240,Elsa Forsberg,2124,101,1109,FIN3,Elsa,,Female,25.0,Helsinki
+2241,Paula Noronen,2125,101,1110,FIN3,Paula,,Female,51.0,Helsinki
+2242,Kati Launiainen,2126,101,1110,FIN3,Kati,,Female,49.0,Helsinki
+2243,Arttu Lindeman,2127,101,1111,FIN3,Arttu,,Male,28.0,Hollola
+2244,Jaakko Parkkali,2128,101,1111,FIN3,Jaakko,,Male,29.0,Lahti
+2245,Karri Miettinen,2129,101,1112,FIN3,Karri,,Male,47.0,Järvenpää
+2246,Tuukka Rihkola,2130,101,1112,FIN3,Tuukka,,Male,43.0,Tampere
+2247,Tom Shelah,2131,102,1113,ISR10,Tom,,Male,28.0,Tel Aviv
+2248,Almog Ohayon,2132,102,1113,ISR10,Almog,,Male,30.0,Nahariya
+2249,Adi Atzmi,2133,102,1114,ISR10,Adi,,Male,38.0,Ramat Gan
+2250,Or Ohana,2134,102,1114,ISR10,Or,,Female,38.0,Ramat Gan
+2251,Eliezer Buhbut,2135,102,1115,ISR10,Ezi,,Male,56.0,Kfar HaOranim
+2252,Danielle Buhbut,2136,102,1115,ISR10,Dani,,Female,26.0,Kfar HaOranim
+2253,Shlomi Yifrah,2137,102,1116,ISR10,Shlomi,,Male,28.0,Ashdod
+2254,Asaf Zaga,2138,102,1116,ISR10,Asaf,,Male,28.0,Be'er-Sheva
+2255,Mai Hatuel,2139,102,1117,ISR10,Mai,,Female,32.0,Herut
+2256,Itai On,2140,102,1117,ISR10,Itai,,Male,32.0,Herut
+2257,Sapir Harush,2141,102,1118,ISR10,Sapir H.,,Female,30.0,Jerusalem
+2258,Sapir Tzemah,2142,102,1118,ISR10,Sapir T.,,Female,30.0,Jerusalem
+2259,Itai Rozenblit,2143,102,1119,ISR10,Itai,,Male,21.0,Ramat HaSharon
+2260,Omri Rozenblit,2144,102,1119,ISR10,Omri,,Male,24.0,Ramat HaSharon
+2261,Tom Boukai,2145,102,1120,ISR10,Tom,,Male,32.0,Herzliya
+2262,Samantha Pezzino,2146,102,1120,ISR10,Samantha,,Female,32.0,Herzliya
+2263,Hen Drix,2147,102,1121,ISR10,Hen,,Female,37.0,Neve Yarak
+2264,Yossi Ezra,2148,102,1121,ISR10,Yossi,,Male,37.0,Rishon LeZion
+2265,Michal Pras,2149,102,1122,ISR10,Michal,,Female,29.0,Ramat Ef'al
+2266,Nuni Keren,2150,102,1122,ISR10,Nuni,,Female,27.0,Tel Aviv
+2267,Ron Horwitz,2151,102,1123,ISR10,Ron,,Male,24.0,Petah Tikva
+2268,Meitav Ziv,2152,102,1123,ISR10,Meitav,,Female,26.0,Givat Shmuel
+2269,Emuna Zingboim,2153,102,1124,ISR10,Emuna,,Male,25.0,Ra'anana
+2270,Neria Zingboim,2154,102,1124,ISR10,Neria,,Female,27.0,Ra'anana
+2271,Yotam Ohayon,2155,102,1125,ISR10,Yotam,,Male,30.0,Be'er-Sheva
+2272,Nofar Zommer,2156,102,1125,ISR10,Nofar,,Female,30.0,Givatayim
+2273,Reuven Lavi,2157,102,1126,ISR10,Reuven,,Male,59.0,Tel Aviv
+2274,Gali Lavi,2158,102,1126,ISR10,Gali,,Female,24.0,Tel Aviv
+2275,Tina Liao,2159,103,1127,CAN12,Tina,,Female,32.0,"Hamilton, ON"
+2276,Liz Liao,2160,103,1127,CAN12,Liz,,Female,32.0,"Hamilton, ON"
+2277,Eamon Fitzgerald,2161,103,1128,CAN12,Eamon,,Male,34.0,"Toronto, ON"
+2278,Rebecca Moroney,2162,103,1128,CAN12,Bec,,Female,36.0,"Toronto, ON"
+2279,Michele Bruzzese,2163,103,1129,CAN12,Michele,,Male,28.0,"Toronto, ON"
+2280,Matteo Bruzzese,2164,103,1129,CAN12,Matteo,,Male,26.0,"Toronto, ON"
+2281,Sacha Régnier,2165,103,1130,CAN12,Sacha,,Male,25.0,"Winnipeg, MB"
+2282,Sébastien Régnier,2166,103,1130,CAN12,Sébastien,,Male,27.0,"Winnipeg, MB"
+2283,Ameen Fadel,2167,103,1131,CAN12,Ameen,,Male,26.0,"Windsor, ON"
+2284,Surria Fadel,2168,103,1131,CAN12,Surria,,Female,62.0,"Windsor, ON"
+2285,Filipe Masetti,2169,103,1132,CAN12,Filipe,,Male,39.0,"Calgary, AB"
+2286,Clara Davel,2170,103,1132,CAN12,Clara,,Female,32.0,"Calgary, AB"
+2287,Chayla Rain,2171,103,1133,CAN12,Chayla,,Female,29.0,"Edmonton, AB"
+2288,Chyana Sage,2172,103,1133,CAN12,Chyana,,Female,32.0,"Hamilton, ON"
+2289,Keshia Gordon,2173,103,1134,CAN12,Keshia,,Female,35.0,"Vancouver, BC"
+2290,Nova Stevens,2174,103,1134,CAN12,Nova,,Female,33.0,"Vancouver, BC"
+2291,Dana Martin-Kelly,2175,103,1135,CAN12,Dana,,Female,56.0,"Wabush, NL"
+2292,Cordelia Richards,2176,103,1135,CAN12,Cordelia,,Female,31.0,"Wabush, NL"
+2293,Wesley Williams,2177,103,1136,CAN12,Maestro,,Male,58.0,"Saint John, NB"
+2294,Duane Gibson,2178,103,1136,CAN12,Duane,,Male,37.0,"Woodbridge, ON"

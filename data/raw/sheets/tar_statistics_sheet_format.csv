@@ -1,0 +1,57 @@
+potential_keylegend_that_i_dont_use,unnamed_1,unnamed_2,the_keylegend_i_use,unnamed_4,"what_is_domination_index_di
+article_link",unnamed_6,versions,unnamed_8,unnamed_9,unnamed_10,other_info
+1st Place,,,1st Place,,"It's the average of a team's placement relative to the other teams or their Performance Index.
+It ranks a team's performance each leg from a scale from 0 to 1.
+Purpose: This calculates the average fairly, scaling placements in each leg fairly.
+
+Example: Team Guido/Joe and Bill placed 4th out of 9 teams in Leg 3 of TAR(US)1 and also placed 4th out of 4 teams in Leg 10. Normally, these placements will added and averaged equally, but it seems unfair to say that placing 4th/9 is just as good as placing 4th/4, so we need a system that scales last place out of four teams effectively.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perfomance Index Formula: [performance index] = 1 - (([leg placement] - 1)÷[# of teams on that leg])
+Google Sheets Formula: =ROUND(MINUS(1, DIVIDE(MINUS([leg placement], 1), [# of teams on that leg])), 5
+(Average these formulas ^ to get their Domination Index)",,Name,Alternate Name,Country/Region,,U-Turn/Yield Count only counts successful U-Turns/Yields (doesn't count burning the board)
+,,,2nd Place,,,,The Amazing Race (US),The Amazing Race,United States,,
+,,,2nd-to-Last Place,,,,,,,,
+Eliminated,,,Eliminated,,,,The Amazing Race (AS),The Amazing Race Asia,Asia,,
+Non-Elimination/No-Rest Leg/Superleg,,,Non-Elimination/No-Rest Leg/Superleg,,,,,,,,"Non-Elimination Legs, No-Rest Legs, and Superlegs are counted as a Non-Elimination Leg"
+Winner,,,Winner,,,,The Amazing Race (BR),The Amazing Race: A Corrida Milionária,Brazil,,
+Crossed Finish Line 2nd,,,Crossed Finish Line 2nd,,,,,,,,
+Crossed Finish Line 3rd,,,Crossed Finish Line 3rd,,,,The Amazing Race (IL),HaMerotz LaMillion,Israel,,
+Saved by Salvage Pass,,,Saved by Salvage Pass,,,,,,,,Their age is determined by their age during the very first day of racing and not their current age
+►,Used Fast-Forward,,Used Fast-Forward,,,,The Amazing Race (LA),The Amazing Race,Latin America,,
+⊃,U-Turned,,U-Turned Successfully,,,,,,,,
+⊂,Used U-Turn,,,,,,The Amazing Race (CR),The Amazing Race China Rush,China,,
+⋑,Double U-Turned,,,,,,,,,,No-Rest Legs and Superlegs are counted in the averages
+⋐,Used Double U-Turn,,,,,,The Amazing Race (AU),The Amazing Race Australia,Australia,,
+<,Yielded,,Yielded Successfully,,,,,,,,
+>,Used Yield,,,,,,The Amazing Race (NO),The Amazing Race Norge,Norway,,Legs with only three teams and Final Legs are not counted in Second-to-Last Place Finishes count
+~,Lost Double Battle,,,,,,,,,,
+ϵ,Used Express Pass,,,,,,The Amazing Race (VN),The Amazing Race Vietnam,Vietnam,,
+►,(Didn't) Used/Given Salvage Pass,,Used Salvage Pass,,,,,,,,
+←,One-Wayed,,One-Wayed Successfully,,,,The Amazing Race (FR),Amazing Race,France,,Standard Deviation column measures Population Standard Deviation
+→,Used One-Way,,,,,,,,,,
+H,Penailized with Hazard,,Penailized with Hazard,,,,The Amazing Race (PH),The Amazing Race Philippines,Philippines,,
+∪,Automatic U-Turned,,U-Turned Successfully,,,,,,,,Vote U-Turns/Yields doesn't count as using a sucessful U-Turn/Yield count
+^~+-=*,Intersected,,,,,,The Amazing Race (UA),Velyki perehony,Ukraine,,
+⏭︎,Awarded First-Class Pass,,⏭︎,,,,,,,,
+§,Given Sabotage Pass,,Given Sabotage Pass,,,,The Amazing Race (CA),The Amazing Race Canada,Canada,,"Quartile 1 is wrong in Google Sheets, so the Interquartile Range is off"
+ֆ,Given Salvage Pass,,Given Salvage Pass,,,,,,,,
+,,,,,,,The Amazing Race (CN),The Amazing Race China,China,,
+,,,,,,,,,,,
+,,,,,,,The Amazing Race (FN),The Amazing Race Suomi,Finland,,

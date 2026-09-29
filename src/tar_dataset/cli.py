@@ -123,11 +123,29 @@ def import_sheet(
         ..., "--name", "-n", help="Dataset name slug (e.g. tar_leg_times)"
     ),
     gid: str = typer.Option("0", "--gid", "-g", help="Google Sheet tab GID"),
+    sheet: str | None = typer.Option(
+        None,
+        "--sheet",
+        "-s",
+        help="Specific workbook tab/sheet name (for Excel workbooks)",
+    ),
+    xlsx: bool = typer.Option(
+        False,
+        "--xlsx",
+        help="Download as full multi-tab XLSX workbook and export all tabs",
+    ),
 ) -> None:
     """Import a community Google Sheet or external CSV table."""
-    console.print(f"[bold blue]Importing Google Sheet: {name}...[/bold blue]")
+    console.print(f"[bold blue]Importing Sheet: {name}...[/bold blue]")
     importer = SheetsImporter()
-    df = importer.import_public_sheet(sheet_url=url, name=name, gid=gid, save=True)
+    df = importer.import_public_sheet(
+        sheet_url=url,
+        name=name,
+        gid=gid,
+        sheet_name=sheet,
+        prefer_xlsx=xlsx,
+        save=True,
+    )
     console.print(
         f"[green]✓ Imported {len(df)} rows with columns: {list(df.columns)}[/green]"
     )

@@ -23,6 +23,7 @@ reddit = [
 ]
 sheets = [
     "gspread>=6.1.0",
+    "openpyxl>=3.1.0",
 ]
 dev = [
     "pytest>=8.2.0",

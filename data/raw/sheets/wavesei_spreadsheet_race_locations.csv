@@ -1,0 +1,259 @@
+unnamed_0,unnamed_1,unnamed_2,unnamed_3,unnamed_4,unnamed_5,unnamed_6,unnamed_7,unnamed_8,unnamed_9,unnamed_10,unnamed_11,unnamed_12,unnamed_13,unnamed_14,unnamed_15,unnamed_16,unnamed_17,unnamed_18,unnamed_19,unnamed_20,unnamed_21,unnamed_22,unnamed_23,unnamed_24,unnamed_25,unnamed_26,unnamed_27,unnamed_28,unnamed_29,unnamed_30,unnamed_31,unnamed_32,unnamed_33,unnamed_34,unnamed_35,unnamed_36,unnamed_37,unnamed_38,unnamed_39,unnamed_40,unnamed_41,unnamed_42,unnamed_43,unnamed_44,unnamed_45,unnamed_46,unnamed_47,unnamed_48,unnamed_49,unnamed_50,unnamed_51,unnamed_52,unnamed_53,unnamed_54,unnamed_55,unnamed_56,unnamed_57,unnamed_58,unnamed_59,unnamed_60,unnamed_61,unnamed_62,unnamed_63,unnamed_64,unnamed_65,unnamed_66,unnamed_67,unnamed_68,unnamed_69,unnamed_70
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Location Information,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,"*NOTE: Colored Legs denote the final leg of that season, Leg 13 is always the final leg",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Countries/Areas traveled to in each Leg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# of Countries traveled to on each Season,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Leg #,Leg 1,,Leg 2,,Leg 3,,Leg 4,,Leg 5,,Leg 6,,Leg 7,,Leg 8,,Leg 9,,Leg 10,,Leg 10,,Leg 11,,Leg 11,,Leg 12,,Leg 12,,Leg 13,,,Season #,#,,,,,,,,,,,,,,,,,,Countries traveled to in each Leg,,,,,,,,,,,,,,,
+,,Season #,Country/ies,Area of World,Country/ies ,Area of World ,Country/ies  ,Area of World  ,Country/ies   ,Area of World   ,Country/ies    ,Area of World    ,Country/ies     ,Area of World     ,Country/ies      ,Area of World         ,Country/ies         ,Area of World        ,Country/ies             ,Area of World       , Country/ies ,   Area of World     ,     Country/ies     ,     Area of World      ,     Country/ies      ,       Area of World       ,     Country/ies     2,      Area of World          ,     Country/ies     3,      Area of World      ,      Country/ies       ,      Area of World       ,     Country/ies         ,      Area of World         ,,Season 1,8,,,,,,,,,,,,,,,,,,Season #,Leg 1,Leg 2,Leg 3,Leg 4,Leg 5,Leg 6,Leg 7,Leg 8,Leg 9,Leg 10,Leg 11,Leg 12,Leg 13,,# of Unique Countries
+,,Season 1,Zambia,Southern Africa,France,Western Europe,France,Western Europe,Tunisia,Northern Africa,Tunisia,Northern Africa,Italy,Southern Europe,India,South Asia,India,South Asia,Thailand,South East Asia,Thailand,South East Asia,,,China,East Asia,,,USA,North America,,,USA,North America,,Season 2,8,,,,,,,,,,,,,,,,,,Season 1,Zambia,France,France,Tunisia,Tunisia,Italy,India,India,Thailand,Thailand,China,USA,USA,,8
+,,Season 2,Brazil,South America,Brazil,South America,South Africa,Southern Africa,Namibia,Southern Africa,Thailand,South East Asia,Thailand,South East Asia,China,East Asia,Australia,Oceania,Australia,Oceania,New Zealand,Oceania,,,New Zealand,Oceania,,,USA,North America,,,USA,North America,,Season 3,12,,,,,,,,,,,,,,,,,,Season 2,Brazil,Brazil,South Africa,Namibia,Thailand,Thailand,China,Australia,Australia,New Zealand,New Zealand,USA,USA,,8
+,,Season 3,Mexico,North America,Mexico,North America,"England
+Scotland","Western Europe
+Western Europe",Portugal,Western Europe,Morocco,Northern Africa,Morocco,Northern Africa,"Germany
+Austria","Central Europe
+Central Europe",Switzerland,Central Europe,Switzerland,Central Europe,"Malaysia
+Singapore","South East Asia
+South East Asia",,,Vietnam,South East Asia,,,Vietnam,South East Asia,,,USA,North America,,Season 4,9,,,,,,,,,,,,,,,,,,Season 3,Mexico,Mexico,"England
+",Portugal,Morocco,Morocco,"Germany
+",Switzerland,Switzerland,"Malaysia
+",Vietnam,Vietnam,USA,,12
+,,Season 4,Italy,Western Europe,Italy,Southern Europe,Austria,Central Europe ,France,Western Europe,Netherlands,Central Europe,India,South Asia,India,South Asia,Malaysia,South East Asia,Malaysia,South East Asia,South Korea,East Asia,,,Australia,Oceania,,,Australia,Oceania,,,USA,North America,,Season 5,11,,,,,,,,,,,,,,,,,,,,,Scotland,,,,Austria,,,Singapore,,,,,
+,,Season 5,Uruguay,South America,Argentina,South America,Argentina,South America,Russia,Eastern Europe,Egypt,Northern Africa,Egypt,Northern Africa,Tanzania,East Africa,UAE,Middle East,India,South Asia,New Zealand,Oceania,,,Philippines,South East Asia,,,Philippines,South East Asia,,,"Canada
+USA","North America
+North America",,Season 6,11,,,,,,,,,,,,,,,,,,Season 4,Italy,Italy,Austria,France,Netherlands,India,India,Malaysia,Malaysia,South Korea,Australia,Australia,USA,,9
+,,Season 6,Iceland,Northern Europe,Norway,Northern Europe,Sweden,Northern Europe,Senegal,West Africa,Germany,Central Europe,Hungary,Central Europe,France,Western Europe,"France
+Ethiopia","Western Europe
+East Africa",Sri Lanka,South Asia,China,East Asia,,,China,East Asia,,,,,USA,North America,,,,Season 7,11,,,,,,,,,,,,,,,,,,Season 5,Uruguay,Argentina,Argentina,Russia,Egypt,Egypt,Tanzania,UAE,India,New Zealand,Philippines,Philippines,Canada,,11
+,,Season 7,Peru,South America,Chile,South America,Argentina,South America,Argentina,South America,South Africa,Southern Africa,Botswana,Southern Africa,Botswana,Southern Africa,India,South Asia,India,South Asia,Turkey,Middle East,,,England,Western Europe,,,Jamaica,Caribbean,,,"Puerto Rico
+USA","Central America
+North America",,Season 8,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,USA,,
+,,Season 8,USA,North America,USA,North America,USA,North America,USA,North America,Panama,Central America,Costa Rica,Central America,USA,North America,USA,North America,USA,North America,USA,North America,,,USA,North America,,,,,"Canada
+USA","North America
+North America",,,,Season 9,10,,,,,,,,,,,,,,,,,,Season 6,Iceland,Norway,Sweden,Senegal,Germany,Hungary,France,France,Sri Lanka,China,China,USA,,,11
+,,Season 9,Brazil,South America,Brazil,South America,Russia,Eastern Europe,Germany,Central Europe,Italy,Southern Europe,Italy,Southern Europe,Greece,Southern Europe,Oman,Middle East,Australia,Oceania,Australia,Oceania,,,Thailand,South East Asia,,,Japan,East Asia,,,USA,North America,,Season 10,13,,,,,,,,,,,,,,,,,,,,,,,,,,Ethiopia,,,,,,,
+,,Season 10,China,East Asia,Mongolia,East Asia,Vietnam,South East Asia,Vietnam,South East Asia,India,South Asia,Kuwait,Middle East,Mauritius,Southern Africa,Madagascar,Southern Africa,"Finland
+Ukraine","Northern Europe
+Eastern Europe",Morocco,Northern Africa,,,Spain,Western Europe,,,,,"France
+USA","Western Europe
+North America",,,,Season 11,10,,,,,,,,,,,,,,,,,,Season 7,Peru,Chile,Argentina,Argentina,South Africa,Botswana,Botswana,India,India,Turkey,England,Jamaica,Puerto Rico,,11
+,,Season 11,Ecuador,South America,Chile,South America,Chile,South America,Argentina,South America,Mozambique,East Africa,Tanzania,East Africa,Poland,Eastern Europe,Poland,Eastern Europe,Malaysia,South East Asia,China,East Asia,,,China,East Asia,,,Guam,Oceania,,,USA,North America,,Season 12,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,USA,,
+,,Season 12,Ireland,Western Europe,Netherlands,Central Europe,Burkina Faso,West Africa,Burkina Faso,West Africa,Lithuania,Eastern Europe,Croatia,Southern Europe,Italy,Southern Europe,India,South Asia,Japan,East Asia,Taiwan,East Asia,,,,,USA,North America,,,,,,,,Season 13,8,,,,,,,,,,,,,,,,,,Season 8,USA,USA,USA,USA,Panama,Costa Rica,USA,USA,USA,USA,USA,Canada,,,4
+,,Season 13,Brazil,South America,Brazil,South America,Bolivia,South America,New Zealand,Oceania,Cambodia,South East Asia,India,South Asia,India,South Asia,Kazakhstan,Central Asia,Russia,Eastern Europe,Russia,Eastern Europe,,,,,USA,North America,,,,,,,,Season 14,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,USA,,,
+,,Season 14,Switzerland,Central Europe,"Germany
+Austria","Central Europe
+Central Europe","Germany
+Romania","Central Europe
+Eastern Europe",Russia,Eastern Europe,Russia,Eastern Europe,India,South Asia,Thailand,South East Asia,Thailand,South East Asia,China,East Asia,China,East Asia,,,China,East Asia,,,,,USA,North America,,,,Season 15,9,,,,,,,,,,,,,,,,,,Season 9,Brazil,Brazil,Russia,Germany,Italy,Italy,Greece,Oman,Australia,Australia,Thailand,Japan,USA,,10
+,,Season 15,Japan,East Asia,Vietnam,South East Asia,Vietnam,South East Asia,Cambodia,South East Asia,UAE,Middle East,UAE,Middle East,Netherlands,Central Europe,Sweden,Northern Europe,Estonia,Eastern Europe,Czech Republic,Central Europe,,,Czech Republic,Central Europe,,,,,USA,North America,,,,Season 16,9,,,,,,,,,,,,,,,,,,Season 10,China,Mongolia,Vietnam,Vietnam,India,Kuwait,Mauritius,Madagascar,Finland,Morocco,Spain,France,,,13
+,,Season 16,Chile,South America,Chile,South America,Argentina,South America,Germany,Central Europe,France,Western Europe,France,Western Europe,Seychelles,East Africa,Malaysia,South East Asia,Singapore,South East Asia,China,East Asia,,,China,East Asia,,,,,USA,North America,,,,Season 17,10,,,,,,,,,,,,,,,,,,,,,,,,,,,Ukraine,,,USA,,,
+,,Season 17,England,Western Europe,Ghana,West Africa,Ghana,West Africa,Sweden,Northern Europe,Norway,Northern Europe,Russia,Eastern Europe,Russia,Eastern Europe,Oman,Middle East,Bangladesh,South Asia,China,East Asia,,,South Korea,East Asia,,,,,USA,North America,,,,Season 18,9,,,,,,,,,,,,,,,,,,Season 11,Ecuador,Chile,Chile,Argentina,Mozambique,Tanzania,Poland,Poland,Malaysia,China,China,Guam,USA,,10
+,,Season 18,Australia,Oceania,Australia,Oceania,Japan,East Asia,China,East Asia,China,East Asia,India,South Asia,India,South Asia,Austria,Central Europe,"Liechtenstein
+Switzerland","Central Europe
+Central Europe",Switzerland,Central Europe,,,Brazil,South America,,,,,USA,North America,,,,Season 19,10,,,,,,,,,,,,,,,,,,Season 12,Ireland,Netherlands,Burkina Faso,Burkina Faso,Lithuania,Croatia,Italy,India,Japan,Taiwan,USA,,,,10
+,,Season 19,Taiwan,East Asia,Indonesia,South East Asia,Indonesia,South East Asia,Thailand,South East Asia,Thailand,South East Asia,Malawi,East Africa,Malawi,East Africa,Denmark,Northern Europe,"Germany
+Belgium","Central Europe
+Central Europe",Belgium,Central Europe,,,"Netherlands
+Panama","Central Europe
+Central America",,,,,USA,North America,,,,Season 20,10,,,,,,,,,,,,,,,,,,Season 13,Brazil,Brazil,Bolivia,New Zealand,Cambodia,India,India,Kazakhstan,Russia,Russia,USA,,,,8
+,,Season 20,Argentina,South America,Argentina,South America,Paraguay,South America,Italy,Southern Europe,"Austria
+Germany",Central Europe,Azerbaijan,West Asia,Tanzania,East Africa,Tanzania,East Africa,India,South Asia,India,South Asia,,,Japan,East Asia,,,,,USA,North America,,,,Season 21,9,,,,,,,,,,,,,,,,,,Season 14,Switzerland,Germany,Germany,Russia,Russia,India,Thailand,Thailand,China,China,China,USA,,,9
+,,Season 21,China,East Asia,Indonesia,South East Asia,Indonesia,South East Asia,Bangladesh,South Asia,Bangladesh,South Asia,Turkey,Middle East,Russia,Eastern Europe,Russia,Eastern Europe,Netherlands,Central Europe,Spain,Western Europe,,,France,Western Europe,,,,,USA,North America,,,,Season 22,12,,,,,,,,,,,,,,,,,,,,Austria,Romania,,,,,,,,,,,,
+,,Season 22,French Polynesia,Oceania,French Polynesia,Oceania,New Zealand,Oceania,Indonesia,South East Asia,Vietnam,South East Asia,Botswana,Southern Africa,Botswana,Southern Africa,Switzerland,Central Europe,"Germany
+Belgium",Central Europe,Scotland,Western Europe,,,Northern Ireland,Western Europe,,,,,"England 
+USA","Western Europe
+North America",,,,Season 23,8,,,,,,,,,,,,,,,,,,Season 15,Japan,Vietnam,Vietnam,Cambodia,UAE,UAE,Netherlands,Sweden,Estonia,Czech Republic,Czech Republic,USA,,,9
+,,Season 23,Chile,South America,Chile,South America,Portugal,Western Europe,Norway,Northern Europe,Norway,Northern Europe,Austria,Central Europe,UAE,Middle East,UAE,Middle East,Indonesia,South East Asia,Indonesia,South East Asia,,,Japan,East Asia,,,,,USA,North America,,,,Season 24,9,,,,,,,,,,,,,,,,,,Season 16,Chile,Chile,Argentina,Germany,France,France,Seychelles,Malaysia,Singapore,China,China,USA,,,9
+,,Season 24,China,East Asia,China,East Asia,Malaysia,South East Asia,Malaysia,South East Asia,Sri Lanka,South Asia,Sri Lanka,South Asia,Italy,Southern Europe,Italy,Southern Europe,Switzerland,Central Europe,Spain,Western Europe,,,"England
+Wales",Western Europe,,,,,USA,North America,,,,Season 25,11,,,,,,,,,,,,,,,,,,Season 17,England,Ghana,Ghana,Sweden,Norway,Russia,Russia,Oman,Bangladesh,China,South Korea,USA,,,10
+,,Season 25,Virgin Islands,Caribbean,England,Western Europe,Scotland,Western Europe,"Netherlands
+Sweden","Central Europe
+Northern Europe",Morocco,Northern Africa,Morocco,Northern Africa,Italy,Southern Europe,Malta,Southern Europe,Singapore,South East Asia,Philippines,South East Asia,,,Philippines,South East Asia,,,,,USA,North America,,,,Season 26,9,,,,,,,,,,,,,,,,,,Season 18,Australia,Australia,Japan,China,China,India,India,Austria,Liechtenstein,Switzerland,Brazil,USA,,,9
+,,Season 26,Japan,East Asia,Japan,East Asia,Thailand,South East Asia,Thailand,South East Asia,Germany,Central Europe,"France
+Monaco","Western Europe
+Western Europe",Namibia,Southern Africa,Namibia,Southern Africa,Netherlands,Central Europe,Peru,South America,,,Peru,South America,,,,,USA,North America,,,,Season 27,9,,,,,,,,,,,,,,,,,,,,,,,,,,,Switzerland,,,,,,
+,,Season 27,Brazil,South America,Argentina,South America,Argentina,South America,Zambia,Southern Africa,Zambia,Southern Africa,France,Western Europe,Netherlands,Central Europe,Poland,Eastern Europe,India,South Asia,India,South Asia,,,China,East Asia,,,,,USA,North America,,,,Season 28,10,,,,,,,,,,,,,,,,,,Season 19,Taiwan,Indonesia,Indonesia,Thailand,Thailand,Malawi,Malawi,Denmark,Germany,Belgium,Netherlands,USA,,,10
+,,Season 28,Mexico,North America,Colombia,South America,Colombia,South America,"Switzerland
+France","Central Europe
+Western Europe",France,Western Europe,Armenia,West Asia,Georgia,West Asia,UAE,Middle East,Indonesia,South East Asia,Indonesia,South East Asia,,,China,East Asia,,,,,USA,North America,,,,Season 29,9,,,,,,,,,,,,,,,,,,,,,,,,,,,Belgium,,Panama,,,,
+,,Season 29,Panama,Central America,Brazil,South America,Tanzania,East Africa,Tanzania,East Africa,Norway,Northern Europe,Italy,Southern Europe,Italy,Southern Europe,Greece,Southern Europe,Vietnam,South East Asia,Vietnam,South East Asia,,,South Korea,East Asia,,,,,USA,North America,,,,Season 30,10,,,,,,,,,,,,,,,,,,Season 20,Argentina,Argentina,Paraguay,Italy,Austria,Azerbaijan,Tanzania,Tanzania,India,India,Japan,USA,,,10
+,,Season 30,Iceland,Western Europe,Belgium,Central Europe,Morocco,Northern Africa,France,Western Europe,France,Western Europe,Czech Republic,Central Europe,Zimbabwe,Southern Africa,Zimbabwe,Southern Africa,Bahrain,Middle East,Thailand,South East Asia,,,China,East Asia,,,,,USA,North America,,,,Season 31,10,,,,,,,,,,,,,,,,,,,,,,,Germany,,,,,,,,,,
+,,Season 31,Japan,East Asia,Laos,South East Asia,Vietnam,South East Asia,Vietnam,South East Asia,UAE,Middle East,Uganda,East Africa,Switzerland,Central Europe,Switzerland,Central Europe,Croatia,Southern Europe,Netherlands,Central Europe,,,England,Western Europe,,,,,USA,North America,,,,Season 32,11,,,,,,,,,,,,,,,,,,Season 21,China,Indonesia,Indonesia,Bangladesh,Bangladesh,Turkey,Russia,Russia,Netherlands,Spain,France,USA,,,9
+,,Season 32,Trinidad and Tabago,Caribbean,Colombia,South America,Brazil,South America,Paraguay,South America,France,Western Europe,Germany,Central Europe,Kazakhstan,Central Asia,India,South Asia,Cambodia,South East Asia,Philippines,South East Asia,,,,,USA,North America,,,,,,,,Season 33,7,,,,,,,,,,,,,,,,,,Season 22,French Polynesia,French Polynesia,New Zealand,Indonesia,Vietnam,Botswana,Botswana,Switzerland,Germany,Scotland,Northern Ireland,England ,,,12
+,,Season 33,England,Western Europe,England,Western Europe,Scotland,Western Europe,Switzerland,Central Europe,Switzerland,Central Europe,France,Western Europe,France,Western Europe,Greece,Southern Europe,Greece,Southern Europe,Portugal,Western Europe,,,,,USA,North America,,,,,,,,Season 34,8,,,,,,,,,,,,,,,,,,,,,,,,,,,Belgium,,,USA,,,
+,,Season 34,Germany,Central Europe,Austria,Central Europe,Italy,Southern Europe,Jordan,Middle East,Jordan,Middle East,France,Western Europe,France,Western Europe,Spain,Western Europe,Iceland,Western Europe,,,USA,North America,,,,,,,,,,,,Season 35,8,,,,,,,,,,,,,,,,,,Season 23,Chile,Chile,Portugal,Norway,Norway,Austria,UAE,UAE,Indonesia,Indonesia,Japan,USA,,,8
+,,Season 35,Thailand,South East Asia,Thailand,South East Asia,Vietnam,South East Asia,Vietnam,South East Asia,India,South Asia,India,South Asia,Germany,Central Europe,Slovenia,Central Europe,Slovenia,Central Europe,Sweden,Northern Europe,,,Ireland,Western Europe,,,,,USA,North America,,,,Season 36,8,,,,,,,,,,,,,,,,,,Season 24,China,China,Malaysia,Malaysia,Sri Lanka,Sri Lanka,Italy,Italy,Switzerland,Spain,England,USA,,,9
+,,Season 36,Mexico,North America,Mexico,North America,Colombia,South America,Colombia,South America,Chile,South America,Argentina,South America,Uruguay,South America,Barbados,Caribbean,Dominican Republic,Caribbean,Dominican Republic,Caribbean,,,,,USA,North America,,,,,,,,Season 37,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Wales,,,,
+,,Season 37,China,East Asia,Japan,East Asia,Japan,East Asia,Indonesia,South East Asia,Indonesia,South East Asia,UAE,Middle East,Bulgaria,Southern Europe,Bulgaria,Southern Europe,Italy,Southern Europe,France,Western Europe,,,Portugal,Western Europe,,,,,USA,North America,,,,Season 38,9,,,,,,,,,,,,,,,,,,Season 25,Virgin Islands,England,Scotland,Netherlands,Morocco,Morocco,Italy,Malta,Singapore,Philippines,Philippines,USA,,,11
+,,Season 38,Netherlands,Central Europe,Czech Republic ,Eastern Europe,Czech Republic ,Eastern Europe,Hungary,Central Europe,Croatia,Southern Europe,Croatia,Southern Europe,Romania,Eastern Europe,Romania,Eastern Europe,Greece,Southern Europe,Italy,Southern Europe,,,France,Western Europe,,,,,USA,North America,,,,,,,,,,,,,,,,,,,,,,,,,,,Sweden,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Season 26,Japan,Japan,Thailand,Thailand,Germany,France,Namibia,Namibia,Netherlands,Peru,Peru,USA,,,9
+,,"*NOTE: Every race starts in the USA except for Seasons 34, 36, and 38",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monaco,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Season 27,Brazil,Argentina,Argentina,Zambia,Zambia,France,Netherlands,Poland,India,India,China,USA,,,9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Season 28,Mexico,Colombia,Colombia,Switzerland,France,Armenia,Georgia,UAE,Indonesia,Indonesia,China,USA,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,France,,,,,,,,,,,
+,,Legs Ran in Each Location:,,,,,,,,,,,,,Areas/Countries Ran in Per Leg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Season 29,Panama,Brazil,Tanzania,Tanzania,Norway,Italy,Italy,Greece,Vietnam,Vietnam,South Korea,USA,,,9
+,,Location,# of Legs,% of Legs,Location,# of Legs,% of Legs,Location,# of Legs,% of Legs,Location,# of Legs,% of Legs,,Leg 1,,,Leg 2,,,Leg 3,,,Leg 4,,,Leg 5,,,Leg 6,,,Leg 7,,,Leg 8,,,Leg 9,,,Leg 10,,,Leg 11,,,Leg 12,,,Final Legs,,,,Season 30,Iceland,Belgium,Morocco,France,France,Czech Republic,Zimbabwe,Zimbabwe,Bahrain,Thailand,China,USA,,,10
+,,Europe,162,1,North America,56,1,Africa,42,1,Asia,127,1,,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,Area,# of Times,% of Legs,,Season 31,Japan,Laos,Vietnam,Vietnam,UAE,Uganda,Switzerland,Switzerland,Croatia,Netherlands,England,USA,,,10
+,,Central Europe,52,0.32098765432098764,USA,49,0.875,Southern Africa,16,0.38095238095238093,South East Asia,57,0.44881889763779526,,South America,10,0.2631578947368421,South America,13,0.34210526315789475,South America,10,0.2631578947368421,South East Asia,9,0.23684210526315788,South East Asia,5,0.13157894736842105,Western Europe,6,0.15789473684210525,Central Europe,6,0.15789473684210525,Central Europe,5,0.13157894736842105,Central Europe,10,0.2631578947368421,South East Asia,9,0.24324324324324326,East Asia,16,0.5,North America,2,0.25,North America,40,1.0526315789473684,,Season 32,Trinidad and Tabago,Colombia,Brazil,Paraguay,France,Germany,Kazakhstan,India,Cambodia,Philippines,USA,,,,11
+,,Western Europe,50,0.30864197530864196,Mexico,5,0.08928571428571429,East Africa,11,0.2619047619047619,East Asia,40,0.31496062992125984,,East Asia,8,0.2222222222222222,Central Europe,5,0.1388888888888889,South East Asia,8,0.21052631578947367,Central Europe,6,0.15789473684210525,Central Europe,5,0.13157894736842105,South Asia,6,0.15789473684210525,Southern Europe,6,0.15789473684210525,Middle East,5,0.13157894736842105,South East Asia,9,0.23684210526315788,East Asia,7,0.1891891891891892,Western Europe,9,0.28125,Oceania,2,0.25,Western Europe,2,0.05405405405405406,,Season 33,England,England,Scotland,Switzerland,Switzerland,France,France,Greece,Greece,Portugal,USA,,,,7
+,,Southern Europe,26,0.16049382716049382,Canada,2,0.03571428571428571,Northern Africa,10,0.23809523809523808,South Asia,27,0.2125984251968504,,Western Europe,5,0.1388888888888889,South East Asia,5,0.1388888888888889,Western Europe,6,0.15789473684210525,South America,4,0.10526315789473684,Western Europe,4,0.10526315789473684,Southern Europe,5,0.13157894736842105,Southern Africa,5,0.13157894736842105,South Asia,4,0.10526315789473684,South Asia,6,0.15789473684210525,Western Europe,5,0.13513513513513514,South East Asia,4,0.125,South East Asia,2,0.25,Central America,1,0.02702702702702703,,Season 34,Germany,Austria,Italy,Jordan,Jordan,France,France,Spain,Iceland,USA,,,,,8
+,,Eastern Europe,21,0.12962962962962962,Caribbean,6,1,West Africa,5,0.11904761904761904,West Asia,3,0.023622047244094488,,North America,4,0.1111111111111111,East Asia,4,0.1111111111111111,East Asia,2,0.05263157894736842,Western Europe,4,0.10526315789473684,South Asia,4,0.10526315789473684,Central Europe,4,0.10526315789473684,South Asia,4,0.10526315789473684,Southern Europe,5,0.13157894736842105,Southern Europe,4,0.10526315789473684,Central Europe,4,0.10810810810810811,Central Europe,2,0.0625,Caribbean,1,0.125,,,,,Season 35,Thailand,Thailand,Vietnam,Vietnam,India,India,Germany,Slovenia,Slovenia,Sweden,Ireland,USA,,,8
+,,Northern Europe,13,0.08024691358024691,Dominican Republic,2,0.3333333333333333,Morocco,6,0.14285714285714285,China,22,0.1732283464566929,,Central Europe,3,0.08333333333333333,North America,3,0.07894736842105263,Central Europe ,2,0.05263157894736842,Northern Europe,3,0.07894736842105263,Middle East,3,0.07894736842105263,Middle East,4,0.10526315789473684,East Africa,4,0.10526315789473684,Eastern Europe,4,0.10526315789473684,Eastern Europe,3,0.07894736842105263,Oceania,3,0.08108108108108109,Oceania,2,0.0625,East Asia,1,0.125,,,,,Season 36,Mexico,Mexico,Colombia,Colombia,Chile,Argentina,Uruguay,Barbados,Dominican Republic,Dominican Republic,USA,,,,8
+,,France,22,0.13580246913580246,Virgin Islands,1,0.16666666666666666,Tanzania,6,0.14285714285714285,India,21,0.16535433070866143,,Oceania,2,0.05555555555555555,Western Europe,3,0.07894736842105263,Eastern Europe,3,0.07894736842105263,Eastern Europe,2,0.05263157894736842,Northern Europe,3,0.07894736842105263,Northern Africa,3,0.07894736842105263,Eastern Europe,4,0.10526315789473684,Southern Africa,3,0.07894736842105263,Oceania,2,0.05263157894736842,South Asia,2,0.05405405405405406,South America,2,0.0625,,,,,,,,Season 37,China,Japan,Japan,Indonesia,Indonesia,UAE,Bulgaria,Bulgaria,Italy,France,Portugal,USA,,,9
+,,Italy,15,0.09259259259259259,Jamaica,1,0.16666666666666666,Botswana,4,0.09523809523809523,Thailand,14,0.11023622047244094,,Caribbean,2,0.05555555555555555,Oceania,2,0.05555555555555555,West Africa,2,0.05263157894736842,Southern Africa,2,0.05263157894736842,Eastern Europe,2,0.05263157894736842,East Africa,3,0.07894736842105263,Western Europe,3,0.07894736842105263,South East Asia,3,0.07894736842105263,East Asia,1,0.02631578947368421,Caribbean,1,0.02702702702702703,Central America,1,0.03125,,,,,,,,Season 38,Netherlands,Czech Republic ,Czech Republic ,Hungary,Croatia,Croatia,Romania,Romania,Greece,Italy,France,USA,,,9
+,,Germany,13,0.08024691358024691,Barbados,1,0.16666666666666666,Namibia,3,0.07142857142857142,Vietnam,13,0.10236220472440945,,Central America,1,0.027777777777777776,West Africa,1,0.027777777777777776,North America,1,0.02631578947368421,West Africa,2,0.05263157894736842,Southern Africa,2,0.05263157894736842,Southern Africa,2,0.05263157894736842,East Asia,1,0.02631578947368421,East Africa,2,0.05263157894736842,Caribbean,1,0.02631578947368421,Eastern Europe,1,0.02702702702702703,North America,1,0.03125,,,,,,,,,,,,,,,,,,,,,,,
+,,Switzerland,12,0.07407407407407407,Trinidad and Tabago,1,0.16666666666666666,Zambia,3,0.07142857142857142,Indonesia,11,0.08661417322834646,,Northern Europe,1,0.027777777777777776,Northern Europe,1,0.027777777777777776,Northern Africa,1,0.02631578947368421,East Africa,1,0.02631578947368421,Southern Europe,2,0.05263157894736842,West Asia,2,0.05263157894736842,Central Asia,1,0.02631578947368421,Northern Europe,2,0.05263157894736842,Middle East,1,0.02631578947368421,Middle East,1,0.02702702702702703,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Russia,10,0.06172839506172839,Central America,5,1,Tunisia,2,0.047619047619047616,Japan,11,0.08661417322834646,,Southern Africa,1,0.02631578947368421,,,,Northern Europe,1,0.02631578947368421,Middle East,1,0.02631578947368421,Central America,1,0.02631578947368421,Central America,1,0.02631578947368421,Middle East,1,0.02631578947368421,Western Europe,2,0.05263157894736842,North America,1,0.02631578947368421,North America,1,0.02702702702702703,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Netherlands,10,0.06172839506172839,Panama,3,0.6,Egypt,2,0.047619047619047616,Malaysia,6,0.047244094488188976,,South East Asia,1,0.02631578947368421,,,,Oceania,1,0.02631578947368421,North America,1,0.02631578947368421,East Africa,1,0.02631578947368421,Eastern Europe,1,0.02631578947368421,North America,1,0.02631578947368421,Caribbean,1,0.02631578947368421,Northern Europe,1,0.02631578947368421,Northern Africa,1,0.02702702702702703,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,England,9,0.05555555555555555,Costa Rica,1,0.2,Burkina Faso,2,0.047619047619047616,Philippines,5,0.03937007874015748,,,,,,,,Southern Africa,1,0.02631578947368421,Northern Africa,1,0.02631578947368421,East Asia,1,0.02631578947368421,South America,1,0.02631578947368421,South America,1,0.02631578947368421,Central Asia,1,0.02631578947368421,Western Europe,1,0.02631578947368421,South America,1,0.02702702702702703,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Austria,7,0.043209876543209874,Puerto Rico,1,0.2,Ghana,2,0.047619047619047616,Bangladesh,3,0.023622047244094488,,,,,,,,Southern Europe,1,0.02631578947368421,Oceania,1,0.02631578947368421,Northern Africa,1,0.02631578947368421,South East Asia,1,0.02631578947368421,West Asia,1,0.02631578947368421,North America,1,0.02631578947368421,,,,Northern Europe,1,0.02702702702702703,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Norway,5,0.030864197530864196,South America,43,1,Malawi,2,0.047619047619047616,Cambodia,3,0.023622047244094488,,,,,,,,,,,Southern Europe,1,0.02631578947368421,South America,1,0.02631578947368421,,,,South East Asia,1,0.02631578947368421,Oceania,1,0.02631578947368421,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Greece,5,0.030864197530864196,Argentina,11,0.2558139534883721,South Africa,2,0.047619047619047616,South Korea,3,0.023622047244094488,,,,,,,,,,,South Asia,1,0.02631578947368421,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Sweden,5,0.030864197530864196,Brazil,10,0.23255813953488372,Zimbabwe,2,0.047619047619047616,Sri Lanka,3,0.023622047244094488,,,,,,,,,,,East Asia,1,0.02631578947368421,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Czech Republic,5,0.030864197530864196,Chile,8,0.18604651162790697,Ethiopia,1,0.023809523809523808,Singapore,2,0.015748031496062992,,Country,# of Times,% of Leg,Country,# of Times,% of Leg,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,Country,# of Times,% of Legs,,,,,,,,,,,,,,,,,
+,,Belgium,4,0.024691358024691357,Colombia,5,0.11627906976744186,Madagascar,1,0.023809523809523808,Kazakhstan,2,0.015748031496062992,,Brazil,4,0.10526315789473684,Brazil,4,0.10526315789473684,Argentina,4,0.10526315789473684,France,3,0.07894736842105263,France,4,0.10526315789473684,France,5,0.13157894736842105,India,4,0.10526315789473684,India,4,0.1111111111111111,India,4,0.10526315789473684,China,5,0.14285714285714285,China,8,0.26666666666666666,USA,2,0.25,USA,38,1,,,,,,,,,,,,,,,,,
+,,Scotland,4,0.024691358024691357,Peru,3,0.06976744186046512,Mauritius,1,0.023809523809523808,Armenia,1,0.007874015748031496,,China,4,0.10526315789473684,Chile,4,0.10526315789473684,Vietnam,4,0.10526315789473684,Vietnam,3,0.07894736842105263,Germany,3,0.07894736842105263,India,5,0.13157894736842105,Italy,4,0.10526315789473684,Switzerland,3,0.08333333333333333,Switzerland,3,0.07894736842105263,India,2,0.05714285714285714,England,3,0.1,Australia,1,0.125,Canada,2,0.05263157894736842,,,,,,,,,,,,,,,,,
+,,Spain,4,0.024691358024691357,Paraguay,2,0.046511627906976744,Mozambique,1,0.023809523809523808,Azerbaijan,1,0.007874015748031496,,Japan,3,0.07894736842105263,Argentina,3,0.07894736842105263,Scotland,3,0.07894736842105263,Argentina,2,0.05263157894736842,Norway,3,0.07894736842105263,Italy,3,0.07894736842105263,Botswana,2,0.05263157894736842,UAE,3,0.08333333333333333,Australia,2,0.05263157894736842,Indonesia,2,0.05714285714285714,Japan,2,0.06666666666666667,Guam,1,0.125,Puerto Rico,1,0.02631578947368421,,,,,,,,,,,,,,,,,
+,,Portugal,4,0.024691358024691357,Uruguay,2,0.046511627906976744,Senegal,1,0.023809523809523808,Georgia,1,0.007874015748031496,,Mexico,3,0.07894736842105263,Austria,2,0.05263157894736842,Colombia,2,0.05263157894736842,Germany,2,0.05263157894736842,India,2,0.05263157894736842,Botswana,2,0.05263157894736842,France,3,0.07894736842105263,Oman,3,0.08333333333333333,Malaysia,2,0.05263157894736842,New Zealand,2,0.05714285714285714,Philippines,2,0.06666666666666667,Jamaica,1,0.125,England ,1,0.02631578947368421,,,,,,,,,,,,,,,,,
+,,Croatia,4,0.024691358024691357,Ecuador,1,0.023255813953488372,Seychelles,1,0.023809523809523808,Laos,1,0.007874015748031496,,Chile,2,0.05263157894736842,Colombia,2,0.05263157894736842,Indonesia,2,0.05263157894736842,Russia,2,0.05263157894736842,Morocco,2,0.05263157894736842,Morocco,2,0.05263157894736842,Germany,2,0.05263157894736842,Greece,2,0.05555555555555555,Singapore,2,0.05263157894736842,Philippines,2,0.05714285714285714,South Korea,2,0.06666666666666667,Japan,1,0.125,France,1,0.02631578947368421,,,,,,,,,,,,,,,,,
+,,Iceland,3,0.018518518518518517,Bolivia,1,0.023255813953488372,Uganda,1,0.023809523809523808,,,,,England,2,0.05263157894736842,England,2,0.05263157894736842,Austria,1,0.02631578947368421,Sweden,2,0.05263157894736842,Thailand,2,0.05263157894736842,UAE,2,0.05263157894736842,Netherlands,2,0.05263157894736842,Malaysia,2,0.05555555555555555,"Germany
+Belgium",2,0.05263157894736842,Spain,2,0.05714285714285714,Australia,1,0.03333333333333333,Philippines,1,0.125,,,,,,,,,,,,,,,,,,,,
+,,Poland,3,0.018518518518518517,Middle East,16,1,Oceania,16,1,,,,,Iceland,2,0.05263157894736842,Indonesia,2,0.05263157894736842,Bolivia,1,0.02631578947368421,Switzerland,2,0.05263157894736842,UAE,2,0.05263157894736842,Croatia,2,0.05263157894736842,Russia,2,0.05263157894736842,Poland,2,0.05555555555555555,Netherlands,2,0.05263157894736842,Thailand,2,0.05714285714285714,Brazil,1,0.03333333333333333,Vietnam,1,0.125,,,,,,,,,,,,,,,,,,,,
+,,Ireland,3,0.018518518518518517,UAE,8,0.5,Australia,8,0.5,,,,,Argentina,1,0.02631578947368421,Mexico,2,0.05263157894736842,Brazil,1,0.02631578947368421,Thailand,2,0.05263157894736842,Austria,1,0.02631578947368421,Argentina,1,0.02631578947368421,Tanzania,2,0.05263157894736842,Australia,1,0.027777777777777776,Indonesia,2,0.05263157894736842,Australia,1,0.02857142857142857,Czech Republic,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Romania,3,0.018518518518518517,Oman,5,0.3125,New Zealand,5,0.3125,,,,,Australia,1,0.02631578947368421,Australia,1,0.02631578947368421,Burkina Faso,1,0.02631578947368421,Bangladesh,1,0.02631578947368421,Bangladesh,1,0.02631578947368421,Armenia,1,0.02631578947368421,Austria,1,0.02631578947368421,Austria,1,0.027777777777777776,Greece,2,0.05263157894736842,Belgium,1,0.02857142857142857,France,2,0.06666666666666667,,,,,,,,,,,,,,,,,,,,,,,
+,,Slovenia,2,0.012345679012345678,Jordan,2,0.125,French Polynesia,2,0.125,,,,,Ecuador,1,0.02631578947368421,Belgium,1,0.02631578947368421,Chile,1,0.02631578947368421,Burkina Faso,1,0.02631578947368421,Cambodia,1,0.02631578947368421,Austria,1,0.02631578947368421,Georgia,1,0.02631578947368421,Barbados,1,0.027777777777777776,Bahrain,1,0.02631578947368421,Czech Republic,1,0.02857142857142857,Ireland,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Hungary,2,0.012345679012345678,Turkey,2,0.125,Guam,1,0.0625,,,,,French Polynesia,1,0.02631578947368421,China,1,0.02631578947368421,"England
+Scotland",1,0.02631578947368421,Cambodia,1,0.02631578947368421,Chile,1,0.02631578947368421,Azerbaijan,1,0.02631578947368421,Greece,1,0.02631578947368421,Denmark,1,0.027777777777777776,Bangladesh,1,0.02631578947368421,Dominican Republic,1,0.02857142857142857,Netherlands,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Bulgaria,2,0.012345679012345678,Kuwait,1,0.0625,,,,,,,,Germany,1,0.02631578947368421,France,1,0.02631578947368421,France,1,0.02631578947368421,China,1,0.02631578947368421,China,1,0.02631578947368421,Costa Rica,1,0.02631578947368421,Kazakhstan,1,0.02631578947368421,Ethiopia,1,0.027777777777777776,Cambodia,1,0.02631578947368421,Malaysia,1,0.02857142857142857,New Zealand,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Denmark,1,0.006172839506172839,Bahrain,1,0.0625,,,,,,,,Ireland,1,0.02631578947368421,French Polynesia,1,0.02631578947368421,Germany,1,0.02631578947368421,Colombia,1,0.02631578947368421,Egypt,1,0.02631578947368421,Czech Republic,1,0.02631578947368421,Malawi,1,0.02631578947368421,France,1,0.027777777777777776,China,1,0.02631578947368421,Morocco,1,0.02857142857142857,Northern Ireland,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Estonia,1,0.006172839506172839,,,,,,,,,,,Italy,1,0.02631578947368421,"Germany
+Austria",1,0.02631578947368421,Ghana,1,0.02631578947368421,Indonesia,2,0.05263157894736842,Italy,1,0.02631578947368421,Egypt,1,0.02631578947368421,Mauritius,1,0.02631578947368421,Italy,1,0.027777777777777776,Croatia,1,0.02631578947368421,Netherlands,1,0.02857142857142857,Panama,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Finland,1,0.006172839506172839,,,,,,,,,,,Panama,1,0.02631578947368421,Ghana,1,0.02631578947368421,Italy,1,0.02631578947368421,Italy,1,0.02631578947368421,Jordan,1,0.02631578947368421,"France
+Monaco",1,0.02631578947368421,Namibia,1,0.02631578947368421,Kazakhstan,1,0.027777777777777776,Dominican Republic,1,0.02631578947368421,Peru,1,0.02857142857142857,Peru,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Liechtenstein,1,0.006172839506172839,,,,,,,,,,,Peru,1,0.02631578947368421,Italy,1,0.02631578947368421,Japan,2,0.05263157894736842,Jordan,1,0.02631578947368421,Lithuania,1,0.02631578947368421,Germany,1,0.02631578947368421,Poland,1,0.02631578947368421,Madagascar,1,0.027777777777777776,Estonia,1,0.02631578947368421,Portugal,1,0.02857142857142857,Spain,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Lithuania,1,0.006172839506172839,,,,,,,,,,,Switzerland,1,0.02631578947368421,Japan,2,0.05263157894736842,Malaysia,1,0.02631578947368421,Malaysia,1,0.02631578947368421,Mozambique,1,0.02631578947368421,Hungary,1,0.02631578947368421,Seychelles,1,0.02631578947368421,Malta,1,0.027777777777777776,"Finland
+Ukraine",1,0.02631578947368421,Russia,1,0.02857142857142857,Thailand,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Monaco,1,0.006172839506172839,,,,,,,,,,,Taiwan,1,0.02631578947368421,Laos,1,0.02631578947368421,Morocco,1,0.02631578947368421,Namibia,1,0.02631578947368421,Netherlands,1,0.02631578947368421,Kuwait,1,0.02631578947368421,Switzerland,1,0.02631578947368421,Namibia,1,0.027777777777777776,Iceland,1,0.02631578947368421,Scotland,1,0.02857142857142857,USA,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Malta,1,0.006172839506172839,,,,,,,,,,,Thailand,1,0.02631578947368421,Mongolia,1,0.02631578947368421,New Zealand,1,0.02631578947368421,Netherlands,1,0.02631578947368421,Panama,1,0.02631578947368421,Malawi,1,0.02631578947368421,Thailand,1,0.02631578947368421,Russia,1,0.027777777777777776,Japan,1,0.02631578947368421,Singapore,1,0.02857142857142857,Vietnam,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Northern Ireland,1,0.006172839506172839,,,,,,,,,,,Trinidad and Tabago,1,0.02631578947368421,Netherlands,1,0.02631578947368421,Paraguay,1,0.02631578947368421,New Zealand,1,0.02631578947368421,Russia,1,0.02631578947368421,Russia,1,0.02631578947368421,UAE,1,0.02631578947368421,Slovenia,1,0.027777777777777776,Liechtenstein,1,0.02631578947368421,South Korea,1,0.02857142857142857,Wales,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Ukraine,1,0.006172839506172839,,,,,,,,,,,Uruguay,1,0.02631578947368421,Norway,1,0.02631578947368421,Portugal,1,0.02631578947368421,Norway,1,0.02631578947368421,South Africa,1,0.02631578947368421,Sri Lanka,1,0.02631578947368421,Uruguay,1,0.02631578947368421,Spain,1,0.027777777777777776,Russia,1,0.02631578947368421,Sweden,1,0.02857142857142857,Portugal,1,0.03333333333333333,,,,,,,,,,,,,,,,,,,,,,,
+,,Wales,1,0.006172839506172839,,,,,,,,,,,USA,1,0.02631578947368421,USA,1,0.02631578947368421,Romania,1,0.02631578947368421,Paraguay,1,0.02631578947368421,Sri Lanka,1,0.02631578947368421,Tanzania,1,0.02631578947368421,USA,1,0.02631578947368421,Sweden,1,0.027777777777777776,Slovenia,1,0.02631578947368421,Switzerland,1,0.02857142857142857,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,Virgin Islands,1,0.02631578947368421,Thailand,1,0.02631578947368421,Russia,1,0.02631578947368421,Portugal,1,0.02631578947368421,Switzerland,1,0.02631578947368421,Thailand,1,0.02631578947368421,Zimbabwe,1,0.02631578947368421,Tanzania,1,0.027777777777777776,Sri Lanka,1,0.02631578947368421,Taiwan,1,0.02857142857142857,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,Zambia,1,0.02631578947368421,Vietnam,1,0.02631578947368421,South Africa,1,0.02631578947368421,Senegal,1,0.02631578947368421,Tunisia,1,0.02631578947368421,Turkey,1,0.02631578947368421,Bulgaria,1,0.02631578947368421,Thailand,1,0.027777777777777776,Thailand,1,0.02631578947368421,Turkey,1,0.02857142857142857,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,Sweden,1,0.02631578947368421,Tanzania,1,0.02631578947368421,Vietnam,1,0.02631578947368421,Uganda,1,0.02631578947368421,,,,USA,1,0.027777777777777776,USA,1,0.02631578947368421,USA,1,0.02857142857142857,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,Tanzania,1,0.02631578947368421,Tunisia,1,0.02631578947368421,Zambia,1,0.02631578947368421,,,,,,,Zimbabwe,1,0.027777777777777776,Vietnam,1,0.02631578947368421,Vietnam,1,0.02857142857142857,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,Thailand,1,0.02631578947368421,USA,1,0.02631578947368421,,,,,,,,,,,,,Italy,1,0.02631578947368421,France,1,0.02857142857142857,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,USA,1,0.02631578947368421,Zambia,1,0.02631578947368421,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,% of Areas Ran in Per Leg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,South Asia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Northern Africa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Southern Europe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,South Asia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,South Asia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Middle East,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,South Asia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,East Africa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Middle East,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Southern Africa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Central Europe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,South Asia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Northern Africa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Western Europe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Western Europe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,West Asia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Southern Europe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Central Europe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,East Africa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Central Europe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*NOTE: All legs end in the USA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,*Maps retreived from each season's respective wikipedia article,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Zoom in to see detail!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,Season 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Season 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
