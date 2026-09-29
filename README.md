@@ -54,7 +54,7 @@ uv sync
 
 ---
 
-## CLI Usage
+## :computer: CLI Usage
 
 All tasks are accessible through the `tar-dataset` CLI:
 
