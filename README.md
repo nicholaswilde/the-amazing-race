@@ -118,7 +118,7 @@ uv run tar-dataset stats
 
 ---
 
-## Agent / Antigravity Skills
+## :robot: Agent / Antigravity Skills
 
 For AI agents operating in this workspace, modular skills are available in `.agents/skills/`:
 - **`tar-scrape-wiki`**: Instructions and commands for Wikipedia & Fandom extraction.
