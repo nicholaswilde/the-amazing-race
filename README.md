@@ -32,7 +32,7 @@ The dataset is partitioned into clean relational tables adhering to tidy data pr
 
 ---
 
-## Quick Start with `uv`
+## :runner: Quick Start with `uv`
 
 This repository uses [`uv`](https://docs.astral.sh/uv/) for high-performance dependency tracking and execution.
 
@@ -128,7 +128,7 @@ For AI agents operating in this workspace, modular skills are available in `.age
 
 ---
 
-## :runner: Running Tests
+## :dash: Running Tests
 
 Run the test suite with `pytest`:
 ```bash
