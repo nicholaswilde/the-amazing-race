@@ -1,4 +1,4 @@
-# The Amazing Race Dataset & AI Training Corpus
+# :card_index_dividers: The Amazing Race Dataset & AI Training Corpus :checkered_flag:
 [![task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 
 A comprehensive tidy dataset and AI training corpus for the CBS reality competition television series **[The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series))**.
