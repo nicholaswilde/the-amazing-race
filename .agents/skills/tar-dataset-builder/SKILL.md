@@ -8,7 +8,7 @@ description: >-
 # Build & Export The Amazing Race Dataset
 
 This skill executes the transformation pipeline that takes raw scraped data (from Wikipedia, Fandom, Reddit, and Sheets) and compiles it into:
-1. **Tidy relational tables** in `data/processed/` (both CSV and Apache Parquet formats, following the `doehm/alone` structure).
+1. **Tidy relational tables** in `data/processed/` (both CSV and Apache Parquet formats, following the `doehm/alone` structure; local reference at `/home/nicholas/git/doehm/alone`).
 2. **AI Training corpora** in `data/ai/` (JSONL formatted for chat fine-tuning and RAG embeddings).
 
 ## Commands

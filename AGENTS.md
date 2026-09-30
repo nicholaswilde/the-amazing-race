@@ -55,3 +55,6 @@ Agents can invoke the following skills located in `.agents/skills/`:
   rtk gh issue comment 4 --body "Imported Season <N> (<version>)" | cat
   ```
 
+## Reference Repositories
+- **`doehm/alone`**: When inspecting or searching the reference `doehm/alone` repository for schema patterns, tidy data structures, or package conventions, **always look locally first** at `/home/nicholas/git/doehm/alone` before searching the web or GitHub.
+
