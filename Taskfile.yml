@@ -164,6 +164,17 @@ tasks:
     cmds:
       - uv run tar-dataset package --component checksums {{.CLI_ARGS}}
 
+  release:
+    desc: Automated release tagging, validation, and version bump (./scripts/release.sh)
+    cmds:
+      - ./scripts/release.sh {{.CLI_ARGS}}
+
+  release:summary:
+    desc: Generate categorized release notes and update draft release (./scripts/release_summary.py)
+    cmds:
+      - ./scripts/release_summary.py {{.CLI_ARGS}}
+
+
   # Data Ingestion & Scrapers
   scrape:wiki:
     desc: Scrape Wikipedia season tables, cast, results matrices, and leg summaries

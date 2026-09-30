@@ -30,6 +30,9 @@ Agents can invoke the following skills located in `.agents/skills/`:
 - `tar-scrape-reddit`: Extracts discussion threads and comments from r/TheAmazingRace.
 - `tar-import-sheets`: Imports community Google Sheets and CSVs.
 - `tar-dataset-builder`: Compiles raw data into tidy tables (`alone` format) and exports AI training JSONL.
+- `release`: Automates versioning, validation (`task check`), tagging, and atomic push to trigger GitHub release workflow (`./scripts/release.sh`).
+- `release-summary`: Generates categorized release notes from git logs and updates GitHub draft release (`./scripts/release_summary.py`).
+
 
 ## RTK Command Guidelines
 - **Git Operations**: Prefix `git` commands with `rtk` (e.g., `rtk git status`, `rtk git diff`, `rtk git log`, `rtk git commit`, `rtk git push`).
