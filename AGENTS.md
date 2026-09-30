@@ -4,7 +4,7 @@ This repository creates a comprehensive tidy dataset and AI training corpus for 
 
 ## Environment & Dependency Management
 - **Tooling**: Use [`uv`](https://docs.astral.sh/uv/) and [`go-task`](https://taskfile.dev/) (`task`) to manage dependencies, run pipeline workflows, and execute commands.
-  - Run tasks: `task <command>` (e.g., `task test`, `task check`, `task build`, `task sync`)
+  - Run tasks: `task <command>` (e.g., `task test`, `task check`, `task build`, `task package`, `task sync`)
   - Run scripts and CLI: `uv run tar-dataset <command>`
   - Run tests: `task test` or `uv run --extra dev pytest`
   - Manage packages: `uv add <package>`, `uv lock`, or `task sync`
@@ -16,7 +16,7 @@ This repository creates a comprehensive tidy dataset and AI training corpus for 
   - `scrapers/`: Wikipedia, Fandom, and Reddit scrapers.
   - `importers/`: Google Sheets and CSV importers.
   - `processors/`: Dataset builder (`builder.py`) and validator (`validator.py`).
-  - `exports/`: AI training dataset exporters (`ai_formats.py`).
+  - `exports/`: Exporters for AI training corpora, SQLite, Arrow, R, and release packaging (`packaging.py`).
   - `cli.py`: Typer command-line application (`uv run tar-dataset`).
 - `data/`:
   - `data/raw/`: Cached raw scraped data (`wikipedia/`, `fandom/`, `reddit/`, `sheets/`).

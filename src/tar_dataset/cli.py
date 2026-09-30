@@ -14,6 +14,7 @@ from rich.table import Table
 from tar_dataset.exports.ai_formats import AIExportBuilder
 from tar_dataset.exports.arrow_export import export_arrow_and_hf
 from tar_dataset.exports.benchmark import BenchmarkSuite
+from tar_dataset.exports.packaging import ReleasePackager
 from tar_dataset.exports.r_export import export_to_r
 from tar_dataset.exports.sqlite_export import export_to_sqlite
 from tar_dataset.importers.sheets import SheetsImporter
@@ -366,6 +367,99 @@ def eval_benchmark() -> None:
     suite = BenchmarkSuite()
     summary = suite.evaluate_benchmark()
     suite.render_summary(summary)
+
+
+@app.command("package")
+def package_cmd(
+    output_dir: Path = typer.Option(
+        Path("dist/release"),
+        "--output-dir",
+        "-o",
+        help="Target directory for release bundles and checksums",
+    ),
+    version: str | None = typer.Option(
+        None,
+        "--version",
+        "-v",
+        help="Release version string (e.g. 0.1.0 or v0.1.0; defaults to pyproject.toml)",
+    ),
+    component: str = typer.Option(
+        "all",
+        "--component",
+        "-c",
+        help="Component to package: all, csv, parquet, ai, sqlite, r, python, checksums",
+    ),
+) -> None:
+    """Package segmented release archives for CSV, Parquet, AI JSONL, R, Python, and generate checksums."""
+    console.print(
+        f"[bold blue]Packaging release distribution assets (version: {version or 'auto'})...[/bold blue]"
+    )
+    packager = ReleasePackager(output_dir=output_dir, version=version)
+
+    comp = component.lower()
+    if comp == "all":
+        results = packager.package_all()
+    elif comp == "csv":
+        results = {
+            "csv": packager.package_csv(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "parquet":
+        results = {
+            "parquet": packager.package_parquet(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "ai":
+        results = {
+            "ai": packager.package_ai(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "sqlite":
+        pkg = packager.package_sqlite()
+        results = ({"sqlite": pkg} if pkg else {}) | {
+            "checksums": packager.generate_checksums()
+        }
+    elif comp == "r":
+        results = {
+            "r": packager.package_r(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "python":
+        results = {
+            "python": packager.package_python(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "checksums":
+        results = {"checksums": packager.generate_checksums()}
+    else:
+        console.print(
+            f"[bold red]Unknown component '{component}'.[/bold red] Choose from: all, csv, parquet, ai, sqlite, r, python, checksums."
+        )
+        raise typer.Exit(1)
+
+    table = Table(title=f"Release Distribution Assets ({packager.tag_version})")
+    table.add_column("Category", style="bold cyan")
+    table.add_column("Asset File", style="bold white")
+    table.add_column("Size", justify="right", style="green")
+
+    for cat, item in results.items():
+        if item is None:
+            continue
+        items_list = item if isinstance(item, list) else [item]
+        for p in items_list:
+            if isinstance(p, Path) and p.exists():
+                size_kb = p.stat().st_size / 1024
+                size_str = (
+                    f"{size_kb / 1024:.2f} MB"
+                    if size_kb >= 1024
+                    else f"{size_kb:.1f} KB"
+                )
+                table.add_row(cat.upper(), p.name, size_str)
+
+    console.print(table)
+    console.print(
+        f"[bold green]✓ Release assets successfully created in {output_dir}/[/bold green]"
+    )
 
 
 @app.command("validate")

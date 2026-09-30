@@ -106,6 +106,11 @@ task export:sqlite    # Export unified SQLite bundle (tar.db)
 task export:arrow     # Export Apache Arrow IPC files and HuggingFace datasets
 task export:r         # Export native R datasets (.rds, .rda) and companion package (r/)
 task export:ai        # Export fine-tuning and RAG JSONL corpora
+task package          # Build all segmented release bundles and checksums
+task package:csv      # Build tidy CSV release bundle
+task package:parquet  # Build Parquet columnar release bundle
+task package:ai       # Build AI training datasets bundle
+task package:r        # Build R companion source package tarball
 task eval:benchmark   # Evaluate 45 curated AI benchmark questions
 task validate         # Verify dataset schema and relational integrity
 task stats            # Show table row counts and summary stats
@@ -255,6 +260,20 @@ uv run tar-dataset gaps --season 29 --detail
 
 # Export markdown audit report
 uv run tar-dataset gaps --export-md docs/dataset_gaps.md
+```
+
+### 15. Package Release Distribution Bundles
+Generates targeted asset packages for CSV, Parquet, AI corpora, R, and Python distributions with SHA-256 checksums:
+```bash
+# Package all distribution bundles
+uv run tar-dataset package --version 0.1.0
+
+# Package specific component
+uv run tar-dataset package --component csv
+uv run tar-dataset package --component parquet
+uv run tar-dataset package --component ai
+uv run tar-dataset package --component r
+uv run tar-dataset package --component python
 ```
 
 ---
