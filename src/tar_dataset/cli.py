@@ -429,11 +429,16 @@ def package_cmd(
             "python": packager.package_python(),
             "checksums": packager.generate_checksums(),
         }
+    elif comp == "manifest":
+        results = {
+            "manifest": packager.generate_manifest(),
+            "checksums": packager.generate_checksums(),
+        }
     elif comp == "checksums":
         results = {"checksums": packager.generate_checksums()}
     else:
         console.print(
-            f"[bold red]Unknown component '{component}'.[/bold red] Choose from: all, csv, parquet, ai, sqlite, r, python, checksums."
+            f"[bold red]Unknown component '{component}'.[/bold red] Choose from: all, csv, parquet, ai, sqlite, r, python, manifest, checksums."
         )
         raise typer.Exit(1)
 
