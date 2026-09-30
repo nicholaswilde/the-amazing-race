@@ -2,21 +2,32 @@
 set -e
 
 # Extract and calculate next version
-LATEST_TAG=$(git tag --sort=-v:refname | head -n 1)
+ACTION="${1:-}"
 
-if [ -z "$LATEST_TAG" ]; then
-    # Read current version from pyproject.toml as base
-    CURRENT_VER=$(python3 -c "import re, pathlib; print(re.search(r'version\s*=\s*\"([^\"]+)\"', pathlib.Path('pyproject.toml').read_text()).group(1))")
-    NEW_VER="$CURRENT_VER"
-    NEW_TAG="v$NEW_VER"
+# Extract base version
+LATEST_TAG=$(git tag --sort=-v:refname | head -n 1)
+CURRENT_VER=$(python3 -c "import re, pathlib; print(re.search(r'version\s*=\s*\"([^\"]+)\"', pathlib.Path('pyproject.toml').read_text()).group(1))")
+
+if [ -n "$LATEST_TAG" ]; then
+    TAG_VER=${LATEST_TAG#v}
+    IFS='.' read -ra VER_PARTS <<< "$TAG_VER"
+    MAJOR=${VER_PARTS[0]:-0}
+    MINOR=${VER_PARTS[1]:-1}
+    PATCH=${VER_PARTS[2]:-0}
 else
-    CURRENT_VER=${LATEST_TAG#v}
     IFS='.' read -ra VER_PARTS <<< "$CURRENT_VER"
     MAJOR=${VER_PARTS[0]:-0}
     MINOR=${VER_PARTS[1]:-1}
     PATCH=${VER_PARTS[2]:-0}
+fi
 
-    ACTION="${1:-patch}"
+if [ -z "$ACTION" ]; then
+    if [ -z "$LATEST_TAG" ]; then
+        NEW_VER="$CURRENT_VER"
+    else
+        NEW_VER="${MAJOR}.${MINOR}.$((PATCH + 1))"
+    fi
+else
     case "$ACTION" in
         major)
             NEW_VER="$((MAJOR + 1)).0.0"
@@ -38,8 +49,8 @@ else
             exit 1
             ;;
     esac
-    NEW_TAG="v$NEW_VER"
 fi
+NEW_TAG="v$NEW_VER"
 
 echo "Current version: ${LATEST_TAG:-none (base in pyproject: $CURRENT_VER)}"
 echo "Target version:  $NEW_TAG"
