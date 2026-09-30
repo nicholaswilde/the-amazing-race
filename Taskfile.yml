@@ -1,6 +1,8 @@
 # https://taskfile.dev
 version: '3'
 
+dotenv: ['.env']
+
 vars:
   PYTHON_FILES: src tests
 
@@ -36,6 +38,21 @@ tasks:
     desc: Run pytest test suite
     cmds:
       - uv run --extra dev pytest {{.CLI_ARGS}}
+
+  test:coverage:
+    desc: Run pytest test suite with branch test coverage
+    cmds:
+      - uv run --extra dev pytest --cov=tar_dataset --cov-report=term-missing --cov-report=xml --cov-report=lcov {{.CLI_ARGS}}
+
+  coverage:report:
+    desc: Generate HTML test coverage report in htmlcov/
+    cmds:
+      - uv run --extra dev pytest --cov=tar_dataset --cov-report=html
+
+  coverage:upload:
+    desc: Upload test coverage results to Coveralls.io
+    cmds:
+      - uv run --extra dev coveralls
 
   lint:
     desc: Lint Python source code with ruff

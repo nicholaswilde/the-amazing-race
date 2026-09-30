@@ -26,7 +26,9 @@ sheets = [
     "openpyxl>=3.1.0",
 ]
 dev = [
+    "coveralls>=4.1.0",
     "pytest>=8.2.0",
+    "pytest-cov>=7.1.0",
     "ruff>=0.4.0",
 ]
 
@@ -42,3 +44,29 @@ packages = ["src/tar_dataset"]
 
 [tool.ruff.lint]
 ignore = ["BLE001", "B008"]
+
+[tool.coverage.run]
+source = ["tar_dataset"]
+branch = true
+omit = [
+    "tests/*",
+    "*/__init__.py",
+]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
+
+[dependency-groups]
+dev = [
+    "coveralls>=4.1.0",
+    "pytest-cov>=7.1.0",
+]

@@ -1,5 +1,6 @@
 # :card_index_dividers: The Amazing Race Dataset & AI Training Corpus :checkered_flag:
 [![task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
+[![Coverage](https://img.shields.io/coveralls/github/nicholaswilde/the-amazing-race/main?style=for-the-badge&logo=coveralls)](https://coveralls.io/github/nicholaswilde/the-amazing-race?branch=main)
 
 A comprehensive tidy dataset and AI training corpus for the CBS reality competition television series **[The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series))**.
 
@@ -15,8 +16,6 @@ The dataset is partitioned into clean relational tables adhering to tidy data pr
 
 > **Comprehensive Documentation**: See the [Data Dictionary & Schema Reference](docs/data_dictionary.md) for complete column descriptions, primary/foreign keys, and Entity-Relationship diagrams across all 7 tables.  
 > **Interactive Notebook**: Check out [`notebooks/tar_exploration.ipynb`](notebooks/tar_exploration.ipynb) for a reference starter guide covering racing averages, route maps, and data analysis.
-
-### Tidy Datasets (`data/processed/`)
 
 All processed tables are provided in **CSV**, **Apache Parquet**, and **Apache Arrow IPC** (`data/processed/arrow/`), alongside a unified **SQLite** relational database (`data/processed/tar.db`) for zero-dependency SQL querying.
 
@@ -75,9 +74,12 @@ All repository workflows can be driven directly via `task`:
 task                  # List all available tasks
 task check            # Run linting, test suite, and dataset validation
 task test             # Run pytest test suite
+task test:coverage    # Run pytest with branch test coverage reporting
+task coverage:report  # Generate HTML test coverage report (htmlcov/)
+task coverage:upload  # Upload coverage results to Coveralls.io
 task lint             # Lint code with ruff
 task format           # Format code with ruff
-task pipeline       # Full end-to-end rebuild: build, export all formats, eval, and check
+task pipeline         # Full end-to-end rebuild: build, export all formats, eval, and check
 task build            # Compile raw data into tidy CSV + Parquet + SQLite tables
 task export:sqlite    # Export unified SQLite bundle (tar.db)
 task export:arrow     # Export Apache Arrow IPC files and HuggingFace datasets
@@ -85,7 +87,6 @@ task export:ai        # Export fine-tuning and RAG JSONL corpora
 task eval:benchmark   # Evaluate 45 curated AI benchmark questions
 task validate         # Verify dataset schema and relational integrity
 task stats            # Show table row counts and summary stats
-task export:ai        # Export fine-tuning and RAG JSONL corpora
 task scrape:wiki      # Scrape Wikipedia seasons (pass args via --, e.g. -- --season 1)
 task scrape:fandom    # Scrape Fandom Wiki infoboxes
 task scrape:reddit    # Scrape Reddit discussion threads
