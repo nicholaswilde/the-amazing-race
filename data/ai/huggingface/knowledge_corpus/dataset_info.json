@@ -1,0 +1,15 @@
+{
+  "builder_name": "arrow_dataset",
+  "citation": "The Amazing Race Dataset & AI Training Corpus",
+  "description": "RAG knowledge retrieval corpus containing detailed leg narratives, challenge summaries, and team profiles.",
+  "homepage": "https://github.com/nicholaswilde/the-amazing-race",
+  "license": "Apache-2.0",
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 273658,
+      "num_examples": 520,
+      "dataset_name": "knowledge_corpus"
+    }
+  }
+}

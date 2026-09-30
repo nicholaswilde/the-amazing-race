@@ -328,4 +328,11 @@ class DatasetBuilder:
             df.to_parquet(parquet_path, index=False)
             logger.info("Saved %s: %d records -> %s", name, len(df), csv_path)
 
+        try:
+            from tar_dataset.exports.sqlite_export import export_to_sqlite
+
+            export_to_sqlite(processed_dir=self.processed_dir)
+        except Exception as e:
+            logger.warning("Could not automatically update SQLite database: %s", e)
+
         return dfs

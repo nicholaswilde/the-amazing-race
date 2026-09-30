@@ -13,22 +13,31 @@ The dataset is partitioned into clean relational tables adhering to tidy data pr
 
 ### Tidy Datasets (`data/processed/`)
 
-| Dataset | Format | Description |
-| :--- | :--- | :--- |
-| **`seasons`** | `.csv`, `.parquet` | Season-level summary: franchise country (`version`), season number, winner names, total legs, teams count, route distance (miles & km), filming dates, and broadcast dates. |
-| **`episodes`** | `.csv`, `.parquet` | Episode broadcast metadata, titles (racer quotes), air dates, and Nielsen television viewership ratings (millions). |
-| **`contestants`** | `.csv`, `.parquet` | Individual racer demographics: unique `contestant_id`, full name, age, relationship, hometown, and final finish status. |
-| **`teams`** | `.csv`, `.parquet` | Team-level profiles: `team_id`, member pairing, relationship type, final standing/placement, legs won, and total legs completed. |
-| **`legs`** | `.csv`, `.parquet` | Leg itineraries: origin and destination countries/cities, number of route stops, challenge count, and full narrative summary. |
-| **`leg_results`** | `.csv`, `.parquet` | Granular leg finish placements for every team: placement rank (1st, 2nd, etc.), Non-Elimination Leg (NEL) saves, Fast Forward usage, U-Turns, and Speed Bumps. |
-| **`tasks`** | `.csv`, `.parquet` | Detailed challenges: Detours, Roadblocks, Route Info, Speed Bumps, and Fast Forwards with full task descriptions. |
+> **Comprehensive Documentation**: See the [Data Dictionary & Schema Reference](docs/data_dictionary.md) for complete column descriptions, primary/foreign keys, and Entity-Relationship diagrams across all 7 tables.  
+> **Interactive Notebook**: Check out [`notebooks/tar_exploration.ipynb`](notebooks/tar_exploration.ipynb) for a reference starter guide covering racing averages, route maps, and data analysis.
 
-### AI Training Corpora (`data/ai/`)
+### Tidy Datasets (`data/processed/`)
+
+All processed tables are provided in **CSV**, **Apache Parquet**, and **Apache Arrow IPC** (`data/processed/arrow/`), alongside a unified **SQLite** relational database (`data/processed/tar.db`) for zero-dependency SQL querying.
+
+| Dataset | Formats | Description |
+| :--- | :--- | :--- |
+| **`seasons`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Season-level summary: franchise country (`version`), season number, winner names, total legs, teams count, route distance (miles & km), filming dates, and broadcast dates. |
+| **`episodes`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Episode broadcast metadata, titles (racer quotes), air dates, and Nielsen television viewership ratings (millions). |
+| **`contestants`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Individual racer demographics: unique `contestant_id`, full name, age, relationship, hometown, and final finish status. |
+| **`teams`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Team-level profiles: `team_id`, member pairing, relationship type, final standing/placement, legs won, and total legs completed. |
+| **`legs`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Leg itineraries: origin and destination countries/cities, number of route stops, challenge count, and full narrative summary. |
+| **`leg_results`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Granular leg finish placements for every team: placement rank (1st, 2nd, etc.), Non-Elimination Leg (NEL) saves, Fast Forward usage, U-Turns, and Speed Bumps. |
+| **`tasks`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Detailed challenges: Detours, Roadblocks, Route Info, Speed Bumps, and Fast Forwards with full task descriptions. |
+
+### AI Training Corpora & Benchmarks (`data/ai/`)
 
 | File | Format | Use Case | Description |
 | :--- | :--- | :--- | :--- |
 | **`tar_qa_finetuning.jsonl`** | Chat JSONL | SFT / Instruction Tuning | High-quality multi-turn question-answer pairs formatted for OpenAI / Gemini fine-tuning covering winners, rules, eliminations, routes, and challenges. |
 | **`tar_knowledge_corpus.jsonl`** | JSONL | RAG / Embeddings / Pre-training | Structured narrative documents with metadata (season, leg, route) suitable for vector database retrieval and context injection. |
+| **`tar_benchmark_suite.jsonl`** | JSONL | Evaluation & Benchmarking | 45 curated evaluation benchmark questions with rubrics, scoring trivia, rules comprehension, and route accuracy. |
+| **`huggingface/`** | Arrow Datasets | HF `datasets` Direct Loading | Ready-to-load HuggingFace Datasets disk bundles for high-throughput training. |
 
 ---
 
@@ -68,7 +77,12 @@ task check            # Run linting, test suite, and dataset validation
 task test             # Run pytest test suite
 task lint             # Lint code with ruff
 task format           # Format code with ruff
-task build            # Compile raw data into tidy CSV + Parquet tables
+task pipeline       # Full end-to-end rebuild: build, export all formats, eval, and check
+task build            # Compile raw data into tidy CSV + Parquet + SQLite tables
+task export:sqlite    # Export unified SQLite bundle (tar.db)
+task export:arrow     # Export Apache Arrow IPC files and HuggingFace datasets
+task export:ai        # Export fine-tuning and RAG JSONL corpora
+task eval:benchmark   # Evaluate 45 curated AI benchmark questions
 task validate         # Verify dataset schema and relational integrity
 task stats            # Show table row counts and summary stats
 task export:ai        # Export fine-tuning and RAG JSONL corpora
@@ -106,10 +120,23 @@ uv run tar-dataset scrape-fandom --start 1 --end 36
 ```
 
 ### 3. Scrape Reddit Discussions
-Collects episode discussion threads, post-episode reactions, and top user comments from `r/TheAmazingRace` (no API key required):
+Collects episode discussion threads, live broadcast reactions, post-episode debriefs, and racer AMAs from `r/TheAmazingRace`:
 ```bash
-uv run tar-dataset scrape-reddit --query "Episode Discussion" --limit 25 --comments
-uv run tar-dataset scrape-reddit --query "AMA" --limit 10
+# Scrape official episode discussions
+uv run tar-dataset scrape-reddit --query "Discussion Thread" --limit 50
+
+# Scrape live broadcast reactions
+uv run tar-dataset scrape-reddit --query "Live Discussion" --limit 50
+
+# Scrape post-episode debriefs
+uv run tar-dataset scrape-reddit --query "Post-Episode Discussion" --limit 50
+
+# Scrape racer AMAs
+uv run tar-dataset scrape-reddit --query "AMA" --limit 25
+
+# Batch scrape all 4 discussion categories in one shot
+task scrape:reddit:all
+# or: uv run tar-dataset scrape-reddit --batch
 ```
 
 ### 4. Import Google Sheets & CSVs
@@ -138,9 +165,65 @@ Checks relational consistency, missing values, and schema constraints:
 uv run tar-dataset validate
 ```
 
-### 8. View Dataset Statistics
+### 8. Export SQLite Bundle
+Generates the composite `tar.db` SQLite database:
+```bash
+uv run tar-dataset export-sqlite
+# or via task:
+task export:sqlite
+```
+
+### 9. Export Apache Arrow & HuggingFace Datasets
+Serializes tables to `.arrow` files and builds HuggingFace disk datasets:
+```bash
+uv run tar-dataset export-arrow
+# or via task:
+task export:arrow
+```
+
+### 10. Evaluate AI Benchmark Suite
+Scores LLM trivia, rules comprehension, and route accuracy against 45 curated prompts:
+```bash
+uv run tar-dataset eval-benchmark
+# or via task:
+task eval:benchmark
+```
+
+### 11. Inspect Seasons, Teams, and Racers in the Terminal
+Interactively inspect details, routes, and statistics with Rich terminal formatting:
+```bash
+# Inspect Season overview, legs itinerary, and leaderboard
+uv run tar-dataset show season 1
+
+# Inspect Team profile, members, racing average, and leg-by-leg placements
+uv run tar-dataset show team "Rob & Brennan"
+
+# Inspect Contestant profile
+uv run tar-dataset show racer "Rob Frisbee"
+
+# Inspect specific Leg challenges and narrative
+uv run tar-dataset show leg 1 --season 1
+```
+
+### 12. View Dataset Statistics
 ```bash
 uv run tar-dataset stats
+```
+
+### 13. Audit Dataset Gaps & Missingness
+Identifies null cells, season-level missingness, and column completeness rates:
+```bash
+# Run full completeness audit across all 7 tables
+uv run tar-dataset gaps
+# or via task:
+task gaps
+
+# Drill down into specific tables or seasons
+uv run tar-dataset gaps --table contestants
+uv run tar-dataset gaps --season 29 --detail
+
+# Export markdown audit report
+uv run tar-dataset gaps --export-md docs/dataset_gaps.md
 ```
 
 ---

@@ -168,7 +168,90 @@ class AIExportBuilder:
                         season_num,
                     )
 
+        # 6. Reddit Community Discussions, Live Reactions, & Contestant AMAs
+        reddit_discs = self.load_reddit_discussions()
+        for disc in reddit_discs:
+            title = disc.get("title", "")
+            s_num = disc.get("season")
+            ep_num = disc.get("episode")
+            thread_type = disc.get("thread_type", "episode_discussion")
+            comments = disc.get("comments", [])
+
+            substantive_comments = [
+                c
+                for c in comments
+                if len(c.get("body", "").strip()) >= 30
+                and not c.get("body", "").startswith("Welcome to")
+            ]
+
+            if thread_type == "ama":
+                qa_summary = [
+                    f'- Viewer/Racer Q&A: "{c.get("body")}"'
+                    for c in substantive_comments[:4]
+                ]
+                comment_text = (
+                    "\n".join(qa_summary)
+                    if qa_summary
+                    else "Racers answered fan questions about behind-the-scenes race dynamics and casting."
+                )
+                prompt = f"What insights were shared during the r/TheAmazingRace contestant AMA '{title}'?"
+                response = (
+                    f"In the r/TheAmazingRace contestant AMA '{title}', racers discussed their time on the show:\n\n"
+                    f"{comment_text}"
+                )
+                add_qa(prompt, response, "reddit_ama", season=s_num)
+
+            elif s_num and ep_num:
+                top_comments_summary = [
+                    f'- {c.get("author", "Viewer")}: "{c.get("body")}"'
+                    for c in substantive_comments[:4]
+                ]
+                summary_block = (
+                    "\n".join(top_comments_summary)
+                    if top_comments_summary
+                    else "Viewers discussed team navigation, Detour performance, and Pit Stop placements."
+                )
+                type_label = (
+                    "live broadcast reactions"
+                    if thread_type == "live_discussion"
+                    else (
+                        "post-episode reactions"
+                        if thread_type == "post_episode"
+                        else "episode discussion"
+                    )
+                )
+                prompt = f"What were the fan {type_label} on r/TheAmazingRace for Season {s_num} Episode {ep_num}?"
+                response = (
+                    f"During Season {s_num}, Episode {ep_num} of The Amazing Race ('{title}'), the Reddit community shared the following {type_label}:\n\n"
+                    f"{summary_block}"
+                )
+                add_qa(prompt, response, f"reddit_{thread_type}", season=s_num)
+
         return qa_records
+
+    def load_reddit_discussions(self) -> list[dict[str, Any]]:
+        """Load and deduplicate raw scraped Reddit discussions and comments."""
+        reddit_dir = Path("data/raw/reddit")
+        if not reddit_dir.exists():
+            return []
+
+        seen_ids: set[str] = set()
+        discussions: list[dict[str, Any]] = []
+
+        for json_file in sorted(reddit_dir.glob("*.json")):
+            try:
+                with open(json_file, encoding="utf-8") as fp:
+                    data = json.load(fp)
+                    if isinstance(data, list):
+                        for item in data:
+                            pid = item.get("post_id")
+                            if pid and pid not in seen_ids:
+                                seen_ids.add(pid)
+                                discussions.append(item)
+            except Exception as e:
+                logger.warning("Could not read reddit data file %s: %s", json_file, e)
+
+        return discussions
 
     def generate_knowledge_corpus(self) -> list[dict[str, Any]]:
         """Generate structured document chunks with metadata for RAG and embedding."""
@@ -247,6 +330,65 @@ class AIExportBuilder:
                         },
                     }
                 )
+
+        # 3. Reddit Community Discussions, Live Reactions, and AMAs
+        reddit_discs = self.load_reddit_discussions()
+        for disc in reddit_discs:
+            pid = disc.get("post_id", "")
+            title = disc.get("title", "")
+            s_num = disc.get("season")
+            ep_num = disc.get("episode")
+            thread_type = disc.get("thread_type", "episode_discussion")
+            author = disc.get("author", "unknown")
+            score = disc.get("score", 0)
+            num_comments = disc.get("num_comments", 0)
+            selftext = disc.get("selftext", "") or ""
+            comments = disc.get("comments", [])
+
+            substantive_comments = [
+                c
+                for c in comments
+                if len(c.get("body", "").strip()) >= 30
+                and not c.get("body", "").startswith("Welcome to")
+            ]
+
+            comment_lines = []
+            for c in substantive_comments[:6]:
+                comment_lines.append(
+                    f'  • {c.get("author", "Viewer")} (Score: {c.get("score", 0)}): "{c.get("body", "").strip()}"'
+                )
+
+            comments_block = (
+                "\n".join(comment_lines)
+                if comment_lines
+                else "No top community comments recorded."
+            )
+            selftext_block = f"\nOriginal Post:\n{selftext}\n" if selftext else ""
+
+            body = (
+                f"r/TheAmazingRace Community Discussion: {title}\n"
+                f"Category: {thread_type.replace('_', ' ').title()} | Season: {s_num or 'N/A'} | Episode: {ep_num or 'N/A'}\n"
+                f"Posted by u/{author} | Upvotes: {score} | Total Comments: {num_comments}\n"
+                f"{selftext_block}\n"
+                f"Key Fan Reactions & Community Insights:\n"
+                f"{comments_block}"
+            )
+
+            corpus.append(
+                {
+                    "id": f"reddit_{pid}",
+                    "title": f"r/TheAmazingRace: {title}",
+                    "text": body,
+                    "metadata": {
+                        "type": "reddit_discussion",
+                        "thread_type": thread_type,
+                        "season": s_num,
+                        "episode": ep_num,
+                        "post_id": pid,
+                        "score": score,
+                    },
+                }
+            )
 
         return corpus
 

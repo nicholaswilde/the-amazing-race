@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from tar_dataset.importers.sheets import SheetsImporter, google_sheet_to_csv_url
 from tar_dataset.processors.builder import DatasetBuilder
 from tar_dataset.processors.validator import DatasetValidator
-from tar_dataset.schemas import Episode, Season, Team
+from tar_dataset.schemas import Episode, RedditDiscussion, Season, Team
 from tar_dataset.scrapers.reddit import RedditScraper
 from tar_dataset.scrapers.wikipedia import (
     WikipediaScraper,
@@ -161,6 +161,70 @@ def test_reddit_extract_season_episode():
     assert reddit.extract_season_episode("TAR S36E01 Live Discussion") == (36, 1)
     assert reddit.extract_season_episode("Post-Episode Discussion: S34E09") == (34, 9)
     assert reddit.extract_season_episode("General Discussion Thread") == (None, None)
+
+
+def test_reddit_classification_and_corpus(tmp_path):
+    """Verify Reddit thread classification, saving, and AI corpus export integration."""
+    reddit = RedditScraper(raw_dir=tmp_path / "reddit")
+    assert reddit.classify_thread_type("S36E01 Live Discussion") == "live_discussion"
+    assert (
+        reddit.classify_thread_type("Post-Episode Discussion: S34E09") == "post_episode"
+    )
+    assert (
+        reddit.classify_thread_type("I am Colin from TAR 5 & 31 - Ask Me Anything!")
+        == "ama"
+    )
+    assert (
+        reddit.classify_thread_type("The Amazing Race 35 Episode 4 Discussion Thread")
+        == "episode_discussion"
+    )
+
+    # Test saving sample discussions
+    sample_discs = [
+        RedditDiscussion(
+            post_id="test123",
+            season=36,
+            episode=1,
+            thread_type="live_discussion",
+            title="S36E01 Live Discussion Thread",
+            author="fan1",
+            score=45,
+            num_comments=10,
+            created_utc="1710000000",
+            url="https://reddit.com/r/TheAmazingRace/comments/test123",
+            selftext="Welcome to the live discussion!",
+            comments=[
+                {
+                    "id": "c1",
+                    "author": "viewer1",
+                    "body": "What a thrilling premiere in Mexico!",
+                    "score": 15,
+                }
+            ],
+        )
+    ]
+    out_file = reddit._save_and_merge_discussions(sample_discs, query="Live Discussion")
+    assert out_file.exists()
+
+    # Test AIExportBuilder integration
+    from tar_dataset.exports.ai_formats import AIExportBuilder
+
+    ai_builder = AIExportBuilder(ai_dir=tmp_path / "ai")
+    ai_builder.load_reddit_discussions = lambda: [d.model_dump() for d in sample_discs]
+
+    qa_pairs = ai_builder.generate_qa_pairs()
+    reddit_qa = [
+        q for q in qa_pairs if "reddit" in q.get("metadata", {}).get("category", "")
+    ]
+    assert len(reddit_qa) >= 1
+    assert "Season 36 Episode 1" in reddit_qa[0]["messages"][1]["content"]
+
+    corpus = ai_builder.generate_knowledge_corpus()
+    reddit_chunks = [
+        c for c in corpus if c.get("metadata", {}).get("type") == "reddit_discussion"
+    ]
+    assert len(reddit_chunks) >= 1
+    assert "test123" in reddit_chunks[0]["id"]
 
 
 def test_sheets_importer_local_csv(tmp_path):

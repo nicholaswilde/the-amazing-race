@@ -22,6 +22,15 @@ tasks:
     cmds:
       - uv lock
 
+  pipeline:
+    desc: Rebuild all tidy tables, SQLite, Arrow, HuggingFace datasets, and AI corpora
+    cmds:
+      - task: build
+      - task: export:arrow
+      - task: export:ai
+      - task: eval:benchmark
+      - task: check
+
   # Code Quality & Testing
   test:
     desc: Run pytest test suite
@@ -71,10 +80,30 @@ tasks:
     cmds:
       - uv run tar-dataset stats
 
+  gaps:
+    desc: Audit dataset completeness and identify missing cells and null rates
+    cmds:
+      - uv run tar-dataset gaps {{.CLI_ARGS}}
+
   export:ai:
     desc: Export datasets into AI training formats (JSONL fine-tuning & RAG corpus)
     cmds:
       - uv run tar-dataset export-ai
+
+  export:sqlite:
+    desc: Export processed tables into a unified SQLite database (data/processed/tar.db)
+    cmds:
+      - uv run tar-dataset export-sqlite
+
+  export:arrow:
+    desc: Export tables to Apache Arrow IPC files and HuggingFace Datasets layouts
+    cmds:
+      - uv run tar-dataset export-arrow
+
+  eval:benchmark:
+    desc: Run evaluation on The Amazing Race AI benchmark suite
+    cmds:
+      - uv run tar-dataset eval-benchmark
 
   # Data Ingestion & Scrapers
   scrape:wiki:
@@ -91,6 +120,11 @@ tasks:
     desc: Fetch episode discussion threads from r/TheAmazingRace
     cmds:
       - uv run tar-dataset scrape-reddit {{.CLI_ARGS}}
+
+  scrape:reddit:all:
+    desc: Batch scrape all TAR discussion categories (episodes, live, post-episode, AMAs)
+    cmds:
+      - uv run tar-dataset scrape-reddit --batch {{.CLI_ARGS}}
 
   import:sheet:
     desc: Import community Google Sheet or external CSV table

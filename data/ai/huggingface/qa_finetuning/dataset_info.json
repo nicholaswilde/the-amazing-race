@@ -1,0 +1,15 @@
+{
+  "builder_name": "arrow_dataset",
+  "citation": "The Amazing Race Dataset & AI Training Corpus",
+  "description": "Instruction-tuning Q&A dataset for The Amazing Race trivia, stats, and history.",
+  "homepage": "https://github.com/nicholaswilde/the-amazing-race",
+  "license": "Apache-2.0",
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 240866,
+      "num_examples": 2931,
+      "dataset_name": "qa_finetuning"
+    }
+  }
+}

@@ -41,4 +41,4 @@ build-backend = "hatchling.build"
 packages = ["src/tar_dataset"]
 
 [tool.ruff.lint]
-ignore = ["BLE001"]
+ignore = ["BLE001", "B008"]

@@ -194,6 +194,10 @@ class RedditDiscussion(BaseModel):
     post_id: str
     season: int | None = None
     episode: int | None = None
+    thread_type: str | None = Field(
+        default="episode_discussion",
+        description="Category: episode_discussion, live_discussion, post_episode, ama, general",
+    )
     title: str
     author: str
     score: int
