@@ -128,6 +128,53 @@ tasks:
     cmds:
       - uv run tar-dataset eval-benchmark
 
+  # Release & Distribution Packaging
+  package:
+    desc: Build all release bundles (CSV, Parquet, AI, SQLite, R, Python, and checksums)
+    cmds:
+      - uv run tar-dataset package {{.CLI_ARGS}}
+
+  package:csv:
+    desc: Build tidy CSV release bundle (tar-dataset-csv.zip)
+    cmds:
+      - uv run tar-dataset package --component csv {{.CLI_ARGS}}
+
+  package:parquet:
+    desc: Build columnar Parquet release bundle (tar-dataset-parquet.zip)
+    cmds:
+      - uv run tar-dataset package --component parquet {{.CLI_ARGS}}
+
+  package:ai:
+    desc: Build AI training datasets release bundle (tar-dataset-ai.zip)
+    cmds:
+      - uv run tar-dataset package --component ai {{.CLI_ARGS}}
+
+  package:r:
+    desc: Build R companion source package tarball (theamazingrace_*.tar.gz)
+    cmds:
+      - uv run tar-dataset package --component r {{.CLI_ARGS}}
+
+  package:python:
+    desc: Build Python distribution wheels and source archive
+    cmds:
+      - uv run tar-dataset package --component python {{.CLI_ARGS}}
+
+  package:checksums:
+    desc: Generate SHA-256 checksums file for release assets
+    cmds:
+      - uv run tar-dataset package --component checksums {{.CLI_ARGS}}
+
+  release:
+    desc: Automated release tagging, validation, and version bump (./scripts/release.sh)
+    cmds:
+      - ./scripts/release.sh {{.CLI_ARGS}}
+
+  release:summary:
+    desc: Generate categorized release notes and update draft release (./scripts/release_summary.py)
+    cmds:
+      - ./scripts/release_summary.py {{.CLI_ARGS}}
+
+
   # Data Ingestion & Scrapers
   scrape:wiki:
     desc: Scrape Wikipedia season tables, cast, results matrices, and leg summaries
