@@ -396,7 +396,13 @@ class WikipediaScraper:
                     for li in curr.find_all("li", recursive=False):
                         li_text = clean_text(li.get_text())
                         if li_text.startswith(
-                            ("Episode ", "Eliminated:", "Prize:", "Winners:", "Runners-up:")
+                            (
+                                "Episode ",
+                                "Eliminated:",
+                                "Prize:",
+                                "Winners:",
+                                "Runners-up:",
+                            )
                         ):
                             continue
                         if any(

@@ -209,11 +209,17 @@ class DatasetBuilder:
                             hometown = KNOWN_S33_CONTESTANTS[name]["hometown"]
                     else:
                         for other in s.get("contestants", []):
-                            if other.get("name") == name and other.get("age") is not None:
+                            if (
+                                other.get("name") == name
+                                and other.get("age") is not None
+                            ):
                                 age = other.get("age")
                                 if not rel or rel == "Returned to competition":
                                     rel = other.get("relationship")
-                                if not hometown or hometown == "Returned to competition":
+                                if (
+                                    not hometown
+                                    or hometown == "Returned to competition"
+                                ):
                                     hometown = other.get("hometown")
                                 break
 
@@ -278,7 +284,11 @@ class DatasetBuilder:
                 elif season_num == 29:
                     rel = "Strangers (Paired at Starting Line)"
                     # Match hometown from contestants
-                    parts = [p.strip().strip('"\'') for p in team_name.split("&") if p.strip()]
+                    parts = [
+                        p.strip().strip("\"'")
+                        for p in team_name.split("&")
+                        if p.strip()
+                    ]
                     for c in contestants:
                         c_name = c.get("name", "").replace('"', "").replace("'", "")
                         if any(p.lower() in c_name.lower() for p in parts):
@@ -286,7 +296,11 @@ class DatasetBuilder:
                             break
                 else:
                     # Match returnee/standard teams by nickname or contestant name tokens
-                    parts = [p.strip().strip('"\'') for p in team_name.split("&") if p.strip()]
+                    parts = [
+                        p.strip().strip("\"'")
+                        for p in team_name.split("&")
+                        if p.strip()
+                    ]
                     for c in contestants:
                         c_name = c.get("name", "").replace('"', "").replace("'", "")
                         if any(p.lower() in c_name.lower() for p in parts):
@@ -342,11 +356,15 @@ class DatasetBuilder:
                 narrative_parts = []
                 for item in itinerary:
                     item_str = str(item).strip()
-                    if item_str.startswith(("Episode ", "Eliminated:", "Prize:", "Winners:", "Runners-up:")):
+                    if item_str.startswith(
+                        ("Episode ", "Eliminated:", "Prize:", "Winners:", "Runners-up:")
+                    ):
                         continue
                     if (
                         len(item_str) > 60
-                        and any(item_str.endswith(punct) for punct in [".", "!", '"', "'"])
+                        and any(
+                            item_str.endswith(punct) for punct in [".", "!", '"', "'"]
+                        )
                     ) or (
                         any(
                             item_str.startswith(p)
@@ -371,9 +389,15 @@ class DatasetBuilder:
                     if narrative_parts:
                         narrative = " ".join(narrative_parts)
                     elif tasks:
-                        narrative = " ".join(t["description"] for t in tasks if len(t.get("description", "")) > 40)
+                        narrative = " ".join(
+                            t["description"]
+                            for t in tasks
+                            if len(t.get("description", "")) > 40
+                        )
 
-                itinerary_stops_count = len(route_stops) if route_stops else len(itinerary)
+                itinerary_stops_count = (
+                    len(route_stops) if route_stops else len(itinerary)
+                )
 
                 rows.append(
                     {
@@ -448,7 +472,9 @@ class DatasetBuilder:
                             "season": season_num,
                             "leg_number": leg_num,
                             "team_name": team_name,
-                            "placement": int(placement) if placement is not None else None,
+                            "placement": int(placement)
+                            if placement is not None
+                            else None,
                             "raw_cell": raw_cell,
                             "is_non_elimination": p.get("is_non_elimination", False),
                             "fast_forward": p.get("fast_forward", False),
