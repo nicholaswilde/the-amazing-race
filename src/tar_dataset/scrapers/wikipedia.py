@@ -522,3 +522,5 @@ class WikipediaScraper:
             except Exception as e:
                 logger.error("Error scraping Season %d: %s", s, e)
         return data_list
+
+    scrape_all_seasons = scrape_seasons

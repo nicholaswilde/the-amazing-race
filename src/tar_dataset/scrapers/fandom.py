@@ -37,15 +37,27 @@ class FandomScraper:
 
     BASE_API = "https://amazingrace.fandom.com/api.php"
 
-    def __init__(self, raw_dir: Path | str = "data/raw/fandom") -> None:
+    def __init__(
+        self, raw_dir: Path | str = "data/raw/fandom", version: str = "US"
+    ) -> None:
         self.raw_dir = Path(raw_dir)
         self.raw_dir.mkdir(parents=True, exist_ok=True)
+        self.version = version
         self.client = httpx.Client(
             headers={
                 "User-Agent": "TheAmazingRaceDataset/1.0 (https://github.com/nicholaswilde/the-amazing-race)"
             },
             timeout=30.0,
         )
+
+    def scrape_all(self, start: int = 1, end: int = 36) -> list[dict[str, Any]]:
+        """Scrape range of seasons sequentially."""
+        results = []
+        for s in range(start, end + 1):
+            res = self.scrape_season(s, version=self.version)
+            if res:
+                results.append(res)
+        return results
 
     def fetch_page_wikitext(self, title: str) -> str | None:
         """Fetch raw wikitext of a page using Fandom's MediaWiki API."""
@@ -72,7 +84,9 @@ class FandomScraper:
         """Parse the {{Season ...}} wikitext template into structured key-values."""
         info: dict[str, Any] = {}
         # Find {{Season ... \n}}
-        m = re.search(r"\{\{Season\s*(.*?)\n\}\}", wikitext, re.DOTALL | re.IGNORECASE)
+        m = re.search(
+            r"\{\{Season\s*(.*?)\n\s*\}\}", wikitext, re.DOTALL | re.IGNORECASE
+        )
         if not m:
             return info
 

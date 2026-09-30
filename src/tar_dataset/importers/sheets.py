@@ -53,6 +53,20 @@ class SheetsImporter:
         self.raw_dir.mkdir(parents=True, exist_ok=True)
         self.client = httpx.Client(timeout=60.0, follow_redirects=True)
 
+    def import_public_sheet_csv(
+        self,
+        sheet_id: str,
+        name: str,
+        gid: str = "0",
+        save: bool = True,
+    ) -> pd.DataFrame:
+        """Fetch a public Google Sheet as CSV given a sheet ID or URL."""
+        if not sheet_id.startswith("http"):
+            url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/edit#gid={gid}"
+        else:
+            url = sheet_id
+        return self.import_public_sheet(url, name=name, gid=gid, save=save)
+
     def import_public_sheet(
         self,
         sheet_url: str,

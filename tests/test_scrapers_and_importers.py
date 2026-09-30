@@ -1,0 +1,395 @@
+"""Tests for Fandom, Reddit, Wikipedia scrapers, and Sheets importer."""
+
+from __future__ import annotations
+
+from unittest.mock import MagicMock, patch
+
+import pandas as pd
+import pytest
+from bs4 import BeautifulSoup
+
+from tar_dataset.importers.sheets import (
+    SheetsImporter,
+    google_sheet_to_csv_url,
+    google_sheet_to_xlsx_url,
+)
+from tar_dataset.scrapers.fandom import FandomScraper, clean_wikitext
+from tar_dataset.scrapers.reddit import RedditScraper
+from tar_dataset.scrapers.wikipedia import WikipediaScraper
+
+# --- Fandom Scraper Tests ---
+
+
+def test_clean_wikitext():
+    assert clean_wikitext("") == ""
+    assert clean_wikitext("Hello [[World]]") == "Hello World"
+    assert clean_wikitext("Visit [[Paris, France|Paris]] now") == "Visit Paris now"
+    assert clean_wikitext("Facts <ref name='test'>Source</ref>") == "Facts"
+    assert clean_wikitext("Version {{ver|1.0}} here") == "Version 1.0 here"
+    assert (
+        clean_wikitext("See {{wp|Amazing Race|The Amazing Race}}")
+        == "See The Amazing Race"
+    )
+
+
+def test_fandom_parse_infobox():
+    wikitext = """
+    {{Season
+    | continentsvisited = 4
+    | countriesvisited = 9
+    | citiesvisited = 24
+    | distance = 35,000 mi (56,000 km)
+    | startingline = Central Park, NYC
+    | finishline = Flushing Meadows Park, NYC
+    | filmingdates = March 5 – April 8, 2001
+    | airdates = September 5 – December 13, 2001
+    | winners = Rob & Brennan
+    | runnersup = Frank & Margarita
+    }}
+    """
+    scraper = FandomScraper()
+    info = scraper.parse_season_infobox(wikitext)
+    assert info["continents_visited"] == 4
+    assert info["countries_visited"] == 9
+    assert info["cities_visited"] == 24
+    assert "35,000" in info["distance_str"]
+    assert "Central Park" in info["starting_line"]
+    assert "Rob & Brennan" in info["winners"]
+    assert "Frank & Margarita" in info["runners_up"]
+
+    # When no template is present
+    assert scraper.parse_season_infobox("No infobox here") == {}
+
+
+def test_fandom_fetch_and_scrape(tmp_path):
+    scraper = FandomScraper(raw_dir=tmp_path)
+
+    sample_api_response = {
+        "parse": {
+            "wikitext": {
+                "*": "{{Season\n| continentsvisited = 3\n| winners = Test Winners\n}}"
+            }
+        }
+    }
+
+    mock_resp = MagicMock()
+    mock_resp.json.return_value = sample_api_response
+    mock_resp.raise_for_status.return_value = None
+
+    with patch.object(scraper.client, "get", return_value=mock_resp):
+        wt = scraper.fetch_page_wikitext("The_Amazing_Race_1")
+        assert wt is not None
+        assert "Test Winners" in wt
+
+        data = scraper.scrape_season(1, version="US", save=True)
+        assert data["season"] == 1
+        assert data["infobox"]["winners"] == "Test Winners"
+        assert (tmp_path / "fandom_us_01.json").exists()
+
+    # Test API error response
+    mock_err_resp = MagicMock()
+    mock_err_resp.json.return_value = {"error": {"code": "missingtitle"}}
+    with patch.object(scraper.client, "get", return_value=mock_err_resp):
+        assert scraper.fetch_page_wikitext("Nonexistent") is None
+        assert scraper.scrape_season(99, save=False) == {}
+
+
+# --- Sheets Importer Tests ---
+
+
+def test_google_sheet_url_helpers():
+    url = "https://docs.google.com/spreadsheets/d/abc-123_XYZ/edit#gid=456"
+    assert (
+        google_sheet_to_csv_url(url)
+        == "https://docs.google.com/spreadsheets/d/abc-123_XYZ/export?format=csv&gid=456"
+    )
+    assert (
+        google_sheet_to_xlsx_url(url)
+        == "https://docs.google.com/spreadsheets/d/abc-123_XYZ/export?format=xlsx"
+    )
+
+    with pytest.raises(ValueError, match="Invalid Google Sheets URL"):
+        google_sheet_to_csv_url("https://example.com/not-a-sheet")
+
+    with pytest.raises(ValueError, match="Invalid Google Sheets URL"):
+        google_sheet_to_xlsx_url("https://example.com/not-a-sheet")
+
+
+def test_sheets_importer_csv(tmp_path):
+    importer = SheetsImporter(raw_dir=tmp_path)
+
+    csv_data = (
+        "Team Name,Placement,Legs Won\nRob & Brennan,1,5\nFrank & Margarita,2,2\n"
+    )
+    mock_resp = MagicMock()
+    mock_resp.text = csv_data
+    mock_resp.raise_for_status.return_value = None
+
+    with patch.object(importer.client, "get", return_value=mock_resp):
+        df = importer.import_public_sheet(
+            "https://docs.google.com/spreadsheets/d/test1234/edit",
+            name="test_sheet",
+            save=True,
+        )
+        assert len(df) == 2
+        assert "team_name" in df.columns
+        assert (tmp_path / "test_sheet.csv").exists()
+
+
+def test_sheets_importer_xlsx(tmp_path):
+    importer = SheetsImporter(raw_dir=tmp_path)
+
+    sample_df = pd.DataFrame({"racer": ["Rob", "Brennan"], "age": [27, 29]})
+    mock_resp = MagicMock()
+    mock_resp.content = b"PK..."
+    mock_resp.raise_for_status.return_value = None
+
+    with (
+        patch.object(importer.client, "get", return_value=mock_resp),
+        patch.object(
+            importer, "_parse_and_save_xlsx", return_value=sample_df
+        ) as mock_parse,
+    ):
+        df = importer.import_public_sheet(
+            "https://docs.google.com/spreadsheets/d/test_excel/edit",
+            name="test_excel",
+            prefer_xlsx=True,
+            sheet_name="Racers",
+            save=True,
+        )
+        assert len(df) == 2
+        assert "racer" in df.columns
+        mock_parse.assert_called_once()
+
+
+def test_sheets_importer_parse_and_save_xlsx_internals(tmp_path):
+    importer = SheetsImporter(raw_dir=tmp_path)
+
+    mock_xl = MagicMock()
+    mock_xl.sheet_names = ["welcome page", "SQL_Data", "legs"]
+
+    def mock_read_excel(xl, sheet_name=None):
+        if sheet_name == "SQL_Data":
+            return pd.DataFrame({"Col A": [1, 2]})
+        return pd.DataFrame({"Leg": [1, 2]})
+
+    with (
+        patch("pandas.ExcelFile", return_value=mock_xl),
+        patch("pandas.read_excel", side_effect=mock_read_excel),
+    ):
+        df = importer._parse_and_save_xlsx(
+            content=b"fake_bytes", name="test_workbook", sheet_name=None, save=True
+        )
+        assert "col_a" in df.columns
+        assert (tmp_path / "test_workbook.xlsx").exists()
+        assert (tmp_path / "test_workbook.csv").exists()
+        assert (tmp_path / "test_workbook_legs.csv").exists()
+
+
+def test_sheets_importer_http_400_fallback(tmp_path):
+    import httpx
+
+    importer = SheetsImporter(raw_dir=tmp_path)
+    sample_df = pd.DataFrame({"col": [1]})
+
+    mock_400_resp = MagicMock()
+    mock_400_resp.status_code = 400
+    mock_err = httpx.HTTPStatusError(
+        "400 error", request=MagicMock(), response=mock_400_resp
+    )
+
+    mock_xlsx_resp = MagicMock()
+    mock_xlsx_resp.content = b"fake_bytes"
+    mock_xlsx_resp.raise_for_status.return_value = None
+
+    def mock_get(url):
+        if "format=csv" in url:
+            raise mock_err
+        return mock_xlsx_resp
+
+    with (
+        patch.object(importer.client, "get", side_effect=mock_get),
+        patch.object(
+            importer, "_parse_and_save_xlsx", return_value=sample_df
+        ) as mock_parse,
+    ):
+        df = importer.import_public_sheet(
+            "https://docs.google.com/spreadsheets/d/test_fallback/edit",
+            name="fallback_sheet",
+            save=False,
+        )
+        assert len(df) == 1
+        mock_parse.assert_called_once()
+
+
+def test_sheets_importer_public_sheet_csv_wrapper(tmp_path):
+    importer = SheetsImporter(raw_dir=tmp_path)
+    sample_df = pd.DataFrame({"col": [1]})
+
+    with patch.object(
+        importer, "import_public_sheet", return_value=sample_df
+    ) as mock_import:
+        # Pass ID only
+        df1 = importer.import_public_sheet_csv("1BxiMVs...", name="test1")
+        assert len(df1) == 1
+        assert "spreadsheets/d/1BxiMVs" in mock_import.call_args[0][0]
+
+        # Pass direct CSV URL
+        df2 = importer.import_public_sheet(
+            "https://example.com/raw.csv", name="test2", save=False
+        )
+        assert len(df2) == 1
+
+
+def test_sheets_importer_local_csv(tmp_path):
+    importer = SheetsImporter(raw_dir=tmp_path)
+    csv_file = tmp_path / "local.csv"
+    csv_file.write_text("Column A,Column B\n1,2\n3,4\n", encoding="utf-8")
+
+    df = importer.import_local_csv(csv_file, name="imported_local")
+    assert len(df) == 2
+    assert "column_a" in df.columns
+    assert (tmp_path / "imported_local.csv").exists()
+
+    with pytest.raises(FileNotFoundError):
+        importer.import_local_csv(tmp_path / "nonexistent.csv")
+
+
+# --- Reddit Scraper Tests ---
+
+
+def test_reddit_scraper_flow(tmp_path):
+    scraper = RedditScraper(raw_dir=tmp_path)
+
+    # Classifications
+    assert (
+        scraper.classify_thread_type("Episode 1 Discussion Thread")
+        == "episode_discussion"
+    )
+    assert (
+        scraper.classify_thread_type("Live Discussion TAR S36E01") == "live_discussion"
+    )
+    assert (
+        scraper.classify_thread_type("Post-Episode Discussion: Season 36 Leg 1")
+        == "post_episode"
+    )
+    assert scraper.classify_thread_type("I am Colin Guinn, AMA!") == "ama"
+    assert scraper.classify_thread_type("Random thought about the show") == "general"
+
+    # Search submissions with mocked response
+    mock_posts = [
+        {
+            "id": "post123",
+            "title": "The Amazing Race S35E01 - Episode Discussion",
+            "selftext": "Welcome to season 35!",
+            "author": "TARMod",
+            "score": 100,
+            "num_comments": 2,
+            "created_utc": 1695860000,
+            "permalink": "/r/TheAmazingRace/comments/post123",
+        }
+    ]
+    mock_comments = [
+        {
+            "id": "c1",
+            "author": "fan1",
+            "body": "Great premiere!",
+            "score": 15,
+            "created_utc": 1695860100,
+        },
+        {
+            "id": "c2",
+            "author": "AutoModerator",
+            "body": "Reminder of rules",
+            "score": 1,
+            "created_utc": 1695860101,
+        },
+        {
+            "id": "c3",
+            "author": "[deleted]",
+            "body": "[deleted]",
+            "score": 0,
+            "created_utc": 1695860102,
+        },
+    ]
+
+    def mock_get(url, params=None):
+        resp = MagicMock()
+        resp.raise_for_status.return_value = None
+        if "submission" in url:
+            resp.json.return_value = {"data": mock_posts}
+        elif "comment" in url:
+            resp.json.return_value = {"data": mock_comments}
+        else:
+            resp.json.return_value = {"data": []}
+        return resp
+
+    with patch.object(scraper.client, "get", side_effect=mock_get):
+        discussions = scraper.scrape_discussions(
+            query="Episode Discussion", limit=1, fetch_comments=True, save=True
+        )
+        assert len(discussions) == 1
+        disc = discussions[0]
+        assert disc.post_id == "post123"
+        assert disc.season == 35
+        assert disc.episode == 1
+        # AutoModerator and deleted comments should be filtered out
+        assert len(disc.comments) == 1
+        assert disc.comments[0]["body"] == "Great premiere!"
+
+        # Test scrape_all_categories
+        all_cats = scraper.scrape_all_categories(
+            limits={"episode_discussion": 1}, fetch_comments=False
+        )
+        assert len(all_cats) >= 1
+
+        # Test load_cached_discussions
+        cached = scraper.load_cached_discussions()
+        assert len(cached) >= 1
+
+
+# --- Wikipedia Scraper Extended Tests ---
+
+
+def test_wikipedia_episodes_and_legs_parsing():
+    scraper = WikipediaScraper()
+
+    html_episodes = """
+    <table class="wikitable">
+      <tr><th>No. overall</th><th>No. in season</th><th>Title</th><th>Original air date</th><th>U.S. viewers (millions)</th></tr>
+      <tr><td>1</td><td>1</td><td>"The Race Begins"</td><td>September 5, 2001</td><td>11.83</td></tr>
+      <tr><td>2</td><td>2</td><td>"Divide and Conquer"</td><td>September 19, 2001</td><td>8.60</td></tr>
+    </table>
+    """
+    soup = BeautifulSoup(html_episodes, "html.parser")
+    episodes = scraper.parse_episodes_table(soup.find("table"))
+    assert len(episodes) == 2
+    assert episodes[0]["episode"] == 1
+    assert episodes[0]["title"] == "The Race Begins"
+    assert episodes[0]["air_date"] == "September 5, 2001"
+    assert episodes[0]["viewers_millions"] == 11.83
+
+    html_legs = """
+    <div>
+      <div class="mw-heading mw-heading3">
+        <h3>Leg 1 (United States → South Africa)</h3>
+      </div>
+      <p>Teams departed Central Park in New York City and flew to Johannesburg, South Africa.</p>
+      <ul>
+        <li>Detour: In <b>Physics</b>, teams solved a puzzle. In <b>Chemistry</b>, teams mixed compounds.</li>
+        <li>Roadblock: One team member had to bungee jump off the bridge.</li>
+      </ul>
+      <div class="mw-heading mw-heading3">
+        <h3>Leg 2 (South Africa → France)</h3>
+      </div>
+      <p>Teams flew from Johannesburg to Paris, France.</p>
+    </div>
+    """
+    soup_legs = BeautifulSoup(html_legs, "html.parser")
+    legs = scraper.parse_legs_summary(soup_legs)
+    assert len(legs) == 2
+    assert legs[0]["leg_number"] == 1
+    assert "South Africa" in legs[0]["route_header"]
+    assert len(legs[0]["tasks"]) >= 2
+    assert legs[0]["tasks"][0]["task_type"] == "Detour"
+    assert legs[0]["tasks"][1]["task_type"] == "Roadblock"

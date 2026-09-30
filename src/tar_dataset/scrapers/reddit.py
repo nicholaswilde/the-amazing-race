@@ -274,6 +274,27 @@ class RedditScraper:
 
         return all_results
 
+    def load_cached_discussions(self) -> list[RedditDiscussion]:
+        """Load all unique discussions cached on disk."""
+        existing: dict[str, RedditDiscussion] = {}
+        for f in self.raw_dir.glob("*.json"):
+            try:
+                with open(f, encoding="utf-8") as fp:
+                    items = json.load(fp)
+                    if isinstance(items, list):
+                        for item in items:
+                            try:
+                                disc = RedditDiscussion(**item)
+                                existing[disc.post_id] = disc
+                            except Exception as exc:
+                                logger.debug(
+                                    "Skipping invalid discussion item: %s", exc
+                                )
+            except Exception as exc:
+                logger.debug("Skipping unreadable reddit cache file %s: %s", f, exc)
+                continue
+        return list(existing.values())
+
     def _save_and_merge_discussions(
         self, new_discussions: list[RedditDiscussion], query: str = ""
     ) -> Path:
@@ -283,19 +304,7 @@ class RedditScraper:
         out_file = self.raw_dir / filename
 
         # Load existing discussions from disk for deduplication
-        existing: dict[str, dict[str, Any]] = {}
-        for f in self.raw_dir.glob("*.json"):
-            try:
-                with open(f, encoding="utf-8") as fp:
-                    items = json.load(fp)
-                    if isinstance(items, list):
-                        for item in items:
-                            pid = item.get("post_id")
-                            if pid:
-                                existing[pid] = item
-            except Exception as exc:
-                logger.debug("Skipping unreadable reddit cache file %s: %s", f, exc)
-                continue
+        existing = {d.post_id: d.model_dump() for d in self.load_cached_discussions()}
 
         # Add new items
         for d in new_discussions:
