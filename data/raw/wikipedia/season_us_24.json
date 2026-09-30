@@ -1551,7 +1551,7 @@
     {
       "episode": 1,
       "title": "February 23, 2014",
-      "air_date": null,
+      "air_date": "2014-02-23",
       "viewers_millions": 6.71,
       "raw_row": [
         "1",
@@ -1568,7 +1568,7 @@
     {
       "episode": 2,
       "title": "March 2, 2014",
-      "air_date": null,
+      "air_date": "2014-03-02",
       "viewers_millions": 6.1,
       "raw_row": [
         "2",
@@ -1585,7 +1585,7 @@
     {
       "episode": 3,
       "title": "March 9, 2014",
-      "air_date": null,
+      "air_date": "2014-03-09",
       "viewers_millions": 8.46,
       "raw_row": [
         "3",
@@ -1602,7 +1602,7 @@
     {
       "episode": 4,
       "title": "March 16, 2014",
-      "air_date": null,
+      "air_date": "2014-03-16",
       "viewers_millions": 8.3,
       "raw_row": [
         "4",
@@ -1619,7 +1619,7 @@
     {
       "episode": 5,
       "title": "March 23, 2014",
-      "air_date": null,
+      "air_date": "2014-03-23",
       "viewers_millions": 8.7,
       "raw_row": [
         "5",
@@ -1636,7 +1636,7 @@
     {
       "episode": 6,
       "title": "March 30, 2014",
-      "air_date": null,
+      "air_date": "2014-03-30",
       "viewers_millions": 9.51,
       "raw_row": [
         "6",
@@ -1653,7 +1653,7 @@
     {
       "episode": 7,
       "title": "April 13, 2014",
-      "air_date": null,
+      "air_date": "2014-04-13",
       "viewers_millions": 8.83,
       "raw_row": [
         "7",
@@ -1670,7 +1670,7 @@
     {
       "episode": 8,
       "title": "April 20, 2014",
-      "air_date": null,
+      "air_date": "2014-04-20",
       "viewers_millions": 7.65,
       "raw_row": [
         "8",
@@ -1687,7 +1687,7 @@
     {
       "episode": 9,
       "title": "April 27, 2014",
-      "air_date": null,
+      "air_date": "2014-04-27",
       "viewers_millions": 8.45,
       "raw_row": [
         "9",
@@ -1704,7 +1704,7 @@
     {
       "episode": 10,
       "title": "May 4, 2014",
-      "air_date": null,
+      "air_date": "2014-05-04",
       "viewers_millions": 8.09,
       "raw_row": [
         "10",
@@ -1721,7 +1721,7 @@
     {
       "episode": 11,
       "title": "May 11, 2014",
-      "air_date": null,
+      "air_date": "2014-05-11",
       "viewers_millions": 7.37,
       "raw_row": [
         "11",
@@ -1738,7 +1738,7 @@
     {
       "episode": 12,
       "title": "May 18, 2014",
-      "air_date": null,
+      "air_date": "2014-05-18",
       "viewers_millions": 8.22,
       "raw_row": [
         "12",
@@ -1770,7 +1770,7 @@
         "At Cougar Stadium, teams had to find one of several UCLA Bruin Marching Band members with the Chinese symbols for Guangzhou \u2013 \u5e7f\u5dde \u2013 on their shako, which matched the badges displayed on the shakos of the field commanders, and bring the band member to Phil Keoghan. The first four teams who found a band member with the correct shako received tickets on the first flight to Guangzhou, China. It arrived one hour before the second flight, which carried the remaining seven teams.",
         "After arriving in Guangzhou, teams went to the city's wedding boutique district and searched for one of three boutiques that had their next clue. Each store had only a limited number of clues, which directed teams to find \"the building with the bubbles on top\", giving them a replica \"bubble\", and they had to figure out that it referred to the Canton Tower. There, teams had to select one of the bubble cars of the Ferris wheel located at the top of the tower and search for their clue, which was only revealed when the door to the car closed. Depending on which car they entered, the clue either informed teams to try another car or directed them to their next location: Haixinsha Stadium."
       ],
-      "narrative": "",
+      "narrative": "At Cougar Stadium, teams had to find one of several UCLA Bruin Marching Band members with the Chinese symbols for Guangzhou \u2013 \u5e7f\u5dde \u2013 on their shako, which matched the badges displayed on the shakos of the field commanders, and bring the band member to Phil Keoghan. The first four teams who found a band member with the correct shako received tickets on the first flight to Guangzhou, China. It arrived one hour before the second flight, which carried the remaining seven teams. After arriving in Guangzhou, teams went to the city's wedding boutique district and searched for one of three boutiques that had their next clue. Each store had only a limited number of clues, which directed teams to find \"the building with the bubbles on top\", giving them a replica \"bubble\", and they had to figure out that it referred to the Canton Tower. There, teams had to select one of the bubble cars of the Ferris wheel located at the top of the tower and search for their clue, which was only revealed when the door to the car closed. Depending on which car they entered, the clue either informed teams to try another car or directed them to their next location: Haixinsha Stadium.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1793,7 +1793,7 @@
         "Guangzhou (Shamian Island Promenade)",
         "At the start of this leg, teams went to the Chen Clan Academy, where they had to watch a martial arts demonstration. Afterwards, the master stamped the name of their next destination in Mandarin Chinese on the foreheads of both team members."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams went to the Chen Clan Academy, where they had to watch a martial arts demonstration. Afterwards, the master stamped the name of their next destination in Mandarin Chinese on the foreheads of both team members.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1828,7 +1828,7 @@
         "Kota Kinabalu (Tanjung Aru Water Village)",
         "At the start of this leg, teams were instructed to fly to Kota Kinabalu in Malaysian Borneo. There were only two available flights with limited seats from Guangzhou to Kota Kinabalu, so the first six teams to check in at the airport left three hours before the last three teams. Once there, teams had to travel to the Kiansom Waterfall in Inanam."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Kota Kinabalu in Malaysian Borneo. There were only two available flights with limited seats from Guangzhou to Kota Kinabalu, so the first six teams to check in at the airport left three hours before the last three teams. Once there, teams had to travel to the Kiansom Waterfall in Inanam.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1861,7 +1861,7 @@
         "After pouring the drinks, teams were required to deliver a tray of cocktails before receiving their clue. This element of the task was unaired.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to travel by taxi to the Murut Longhouse in Prince Philip Park, where they found their next clue. Teams were instructed to fly to Kuala Lumpur. Only three flights to Kuala Lumpur were available to the teams. The first three teams to check in at the airport were booked on the first flight, which left 90 minutes before the second flight that carried two teams, which itself was scheduled to leave 45 minutes before the last flight. However, the second flight suffered a 50-minute delay, putting it a few minutes behind the third flight. Once there, teams had to travel to the Jalan Ampang intersection, where they found their next clue beneath the Petronas Towers. After pouring the drinks, teams were required to deliver a tray of cocktails before receiving their clue. This element of the task was unaired.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1895,7 +1895,7 @@
         "At the start of this leg, teams were instructed to fly to Colombo, Sri Lanka. Once there, teams had to travel to the Gangaramaya Temple, where they donned traditional Buddhist robes before receiving a blessing from the head monk and their next clue. Teams were then directed to travel by train to Galle and find their next clue at the king coconut stand in Koggala.",
         "After missing their flight, Margie & Luke fell so far behind that all of the other teams had checked in at the Pit Stop by the time they arrived in Colombo. Though Margie & Luke traveled to all of the locations in Sri Lanka, they did not actually complete any of the tasks."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Colombo, Sri Lanka. Once there, teams had to travel to the Gangaramaya Temple, where they donned traditional Buddhist robes before receiving a blessing from the head monk and their next clue. Teams were then directed to travel by train to Galle and find their next clue at the king coconut stand in Koggala. After missing their flight, Margie & Luke fell so far behind that all of the other teams had checked in at the Pit Stop by the time they arrived in Colombo. Though Margie & Luke traveled to all of the locations in Sri Lanka, they did not actually complete any of the tasks.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1932,7 +1932,7 @@
         "At the start of this leg, teams found their next clue at the Dutch Museum, which directed them to travel by train to Alawwa and search for their next clue at the CEYPETCO Fuel Station.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams found their next clue at the Dutch Museum, which directed them to travel by train to Alawwa and search for their next clue at the CEYPETCO Fuel Station.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1969,7 +1969,7 @@
         "Rome (Piazza del Popolo)",
         "At the start of this leg, teams were instructed to travel to \"The Eternal City\" and find Hadrian's Bridge. Teams had to figure out that they needed to travel to Rome, Italy, and find the Ponte Sant'Angelo, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel to \"The Eternal City\" and find Hadrian's Bridge. Teams had to figure out that they needed to travel to Rome, Italy, and find the Ponte Sant'Angelo, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -2009,7 +2009,7 @@
         "At the start of this leg, teams had to drive themselves to Civita di Bagnoregio in the Italian countryside, where they found their next clue.",
         "This leg featured a Double U-Turn. Brendon & Rachel chose to use the U-Turn on Dave & Connor, while Dave & Connor chose to use the U-Turn on Leo & Jamal."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to drive themselves to Civita di Bagnoregio in the Italian countryside, where they found their next clue. This leg featured a Double U-Turn. Brendon & Rachel chose to use the U-Turn on Dave & Connor, while Dave & Connor chose to use the U-Turn on Leo & Jamal.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2048,7 +2048,7 @@
         "Teams then had to drive to the Swiss Museum of Transport, search the grounds for a marked artifact, and figure out that it was a massive drill bit for a tunnel boring machine. Teams were directed to search the museum for the Ford Mustang exhibit and pick a classic Mustang with their next clue, which instructed them to use the road signs on the museum's exhibit that listed distances to other Swiss cities and a formula included in their clue to calculate the model year of the Mustang they had chosen. Once teams had the correct answer, they received their next clue, which directed them to drive to Oberrickenbach.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by train to Chiasso, Switzerland. Once there, teams had to drive to Altdorf and wait at the Tell Monument for a William Tell impersonator, who had their next clue. Teams were instructed to drive to Lucerne and find their next clue on the oldest wooden bridge in Europe: the Chapel Bridge. Teams then had to travel to the Hotel Schweizerhof, don cleaning staff uniforms, and clean a room so that it matched an example room in order to receive their next clue. Teams then had to drive to the Swiss Museum of Transport, search the grounds for a marked artifact, and figure out that it was a massive drill bit for a tunnel boring machine. Teams were directed to search the museum for the Ford Mustang exhibit and pick a classic Mustang with their next clue, which instructed them to use the road signs on the museum's exhibit that listed distances to other Swiss cities and a formula included in their clue to calculate the model year of the Mustang they had chosen. Once teams had the correct answer, they received their next clue, which directed them to drive to Oberrickenbach.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2081,7 +2081,7 @@
         "This leg featured a Double U-Turn. Leo & Jamal chose to use the U-Turn on Jet & Cord, while Caroline & Jennifer chose to use the U-Turn on Brendon & Rachel. However, Brendon & Rachel had already passed the U-Turn point and were therefore unaffected.",
         "In an unaired segment, teams had to travel by horse-drawn carriage from the Plaza de Am\u00e9rica to the Pit Stop at the Plaza de Espa\u00f1a."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Seville, Spain. Once there, teams had to find a bugler playing \"Reveille\" beneath the statues of Hercules and Julius Caesar at La Alameda, where they received their next clue directing them to Melado Peluqueros. This leg featured a Double U-Turn. Leo & Jamal chose to use the U-Turn on Jet & Cord, while Caroline & Jennifer chose to use the U-Turn on Brendon & Rachel. However, Brendon & Rachel had already passed the U-Turn point and were therefore unaffected. In an unaired segment, teams had to travel by horse-drawn carriage from the Plaza de Am\u00e9rica to the Pit Stop at the Plaza de Espa\u00f1a.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2121,7 +2121,7 @@
         "Peckforton (Peckforton Castle)",
         "At the start of this leg, teams were instructed to travel by train to Madrid and then fly to London, England. Once there, teams had to drive themselves to the Anfield Stadium in Liverpool. There, each team member had to score two penalty kicks against a professional goalkeeper in order to receive their next clue, which directed them to the Pontcysyllte Aqueduct."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by train to Madrid and then fly to London, England. Once there, teams had to drive themselves to the Anfield Stadium in Liverpool. There, each team member had to score two penalty kicks against a professional goalkeeper in order to receive their next clue, which directed them to the Pontcysyllte Aqueduct.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2160,7 +2160,7 @@
         "Las Vegas (Las Vegas Motor Speedway)",
         "At the start of this leg, teams were instructed to fly to Las Vegas, Nevada. Once there, teams had to search outside of the airport for a marked car and were driven to an isolated location in the desert, where their driver simply told them to dig. Teams eventually unearthed a box containing keys that directed them to find David Copperfield at the MGM Grand."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Las Vegas, Nevada. Once there, teams had to search outside of the airport for a marked car and were driven to an isolated location in the desert, where their driver simply told them to dig. Teams eventually unearthed a box containing keys that directed them to find David Copperfield at the MGM Grand.",
       "tasks": [
         {
           "task_type": "Roadblock",

@@ -1570,7 +1570,7 @@
     {
       "episode": 1,
       "title": "September 26, 2010",
-      "air_date": null,
+      "air_date": "2010-09-26",
       "viewers_millions": 11.54,
       "raw_row": [
         "1",
@@ -1589,7 +1589,7 @@
     {
       "episode": 2,
       "title": "October 3, 2010",
-      "air_date": null,
+      "air_date": "2010-10-03",
       "viewers_millions": 10.67,
       "raw_row": [
         "2",
@@ -1608,7 +1608,7 @@
     {
       "episode": 3,
       "title": "October 10, 2010",
-      "air_date": null,
+      "air_date": "2010-10-10",
       "viewers_millions": 11.99,
       "raw_row": [
         "3",
@@ -1627,7 +1627,7 @@
     {
       "episode": 4,
       "title": "October 17, 2010",
-      "air_date": null,
+      "air_date": "2010-10-17",
       "viewers_millions": 10.94,
       "raw_row": [
         "4",
@@ -1646,7 +1646,7 @@
     {
       "episode": 5,
       "title": "October 24, 2010",
-      "air_date": null,
+      "air_date": "2010-10-24",
       "viewers_millions": 11.42,
       "raw_row": [
         "5",
@@ -1665,7 +1665,7 @@
     {
       "episode": 6,
       "title": "October 31, 2010",
-      "air_date": null,
+      "air_date": "2010-10-31",
       "viewers_millions": 9.09,
       "raw_row": [
         "6",
@@ -1684,7 +1684,7 @@
     {
       "episode": 7,
       "title": "November 7, 2010",
-      "air_date": null,
+      "air_date": "2010-11-07",
       "viewers_millions": 11.01,
       "raw_row": [
         "7",
@@ -1703,7 +1703,7 @@
     {
       "episode": 8,
       "title": "November 14, 2010",
-      "air_date": null,
+      "air_date": "2010-11-14",
       "viewers_millions": 10.34,
       "raw_row": [
         "8",
@@ -1722,7 +1722,7 @@
     {
       "episode": 9,
       "title": "November 21, 2010",
-      "air_date": null,
+      "air_date": "2010-11-21",
       "viewers_millions": 10.59,
       "raw_row": [
         "9",
@@ -1741,7 +1741,7 @@
     {
       "episode": 10,
       "title": "November 28, 2010",
-      "air_date": null,
+      "air_date": "2010-11-28",
       "viewers_millions": 11.07,
       "raw_row": [
         "10",
@@ -1760,7 +1760,7 @@
     {
       "episode": 11,
       "title": "December 5, 2010",
-      "air_date": null,
+      "air_date": "2010-12-05",
       "viewers_millions": 10.34,
       "raw_row": [
         "11",
@@ -1779,7 +1779,7 @@
     {
       "episode": 12,
       "title": "December 12, 2010",
-      "air_date": null,
+      "air_date": "2010-12-12",
       "viewers_millions": 12.12,
       "raw_row": [
         "12",
@@ -1811,7 +1811,7 @@
         "Teams set off from the Eastern Point Yacht Club in Gloucester, Massachusetts, and drove to Logan International Airport, where they had to book one of two flights to London, England. The first three teams were booked on one flight, while the other teams were booked on a second flight that departed a half-hour later. Once in London, teams had to drive to Stonehenge in order to find their clue, which was a riddle: \"Find the castle that is the opposite of Nor'easter\". They had to figure out that their next destination was Eastnor Castle.",
         "At Eastnor Castle, teams had to climb a ladder on an exterior wall while peasants atop the wall taunted them and poured dirty water on them. Once teams scaled the wall, they had to retrieve a medieval flag, use a coracle to cross the castle's moat, and bring the flag to a knight, who gave them their next clue."
       ],
-      "narrative": "",
+      "narrative": "Teams set off from the Eastern Point Yacht Club in Gloucester, Massachusetts, and drove to Logan International Airport, where they had to book one of two flights to London, England. The first three teams were booked on one flight, while the other teams were booked on a second flight that departed a half-hour later. Once in London, teams had to drive to Stonehenge in order to find their clue, which was a riddle: \"Find the castle that is the opposite of Nor'easter\". They had to figure out that their next destination was Eastnor Castle. At Eastnor Castle, teams had to climb a ladder on an exterior wall while peasants atop the wall taunted them and poured dirty water on them. Once teams scaled the wall, they had to retrieve a medieval flag, use a coracle to cross the castle's moat, and bring the flag to a knight, who gave them their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1843,7 +1843,7 @@
         "Accra (Kaneshie Market)",
         "At the start of this leg, teams were instructed to fly to Accra, Ghana. Once there, teams had to travel to the Kwame Nkrumah Memorial Park and find their next clue, which directed them to the Makola Market."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Accra, Ghana. Once there, teams had to travel to the Kwame Nkrumah Memorial Park and find their next clue, which directed them to the Makola Market.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1877,7 +1877,7 @@
         "At the start of this leg, teams had to travel to the Akotoku Boxing Academy in Jamestown, where they found their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to travel to the Akotoku Boxing Academy in Jamestown, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1914,7 +1914,7 @@
         "At the start of this leg, teams were instructed to fly to Kiruna, Sweden. Once there, teams had drive to the Icehotel in Jukkasj\u00e4rvi, where they had to pick up a block of ice from the storage room. Teams then had to figure out that their next location was etched on their block of ice: Pietaras J\u00e4rviv\u00e4gen Fjellborgs Vid V\u00e4kk\u00e4r\u00e4j\u00e4rvi (Fjellborg's Lodge in Poikkij\u00e4rvi).",
         "Due to limited availability of flights from Accra, teams were given tickets on a flight to Kiruna via Frankfurt, Germany, but they were under no obligation to use them."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Kiruna, Sweden. Once there, teams had drive to the Icehotel in Jukkasj\u00e4rvi, where they had to pick up a block of ice from the storage room. Teams then had to figure out that their next location was etched on their block of ice: Pietaras J\u00e4rviv\u00e4gen Fjellborgs Vid V\u00e4kk\u00e4r\u00e4j\u00e4rvi (Fjellborg's Lodge in Poikkij\u00e4rvi). Due to limited availability of flights from Accra, teams were given tickets on a flight to Kiruna via Frankfurt, Germany, but they were under no obligation to use them.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -1953,7 +1953,7 @@
         "Ankenesstranda (Ankenes Marina)",
         "At the start of this leg, teams had to drive to Narvik, Norway. Once there, teams had to ride the gondola to the top of the Fagernesfjellet Mountain, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to drive to Narvik, Norway. Once there, teams had to ride the gondola to the top of the Fagernesfjellet Mountain, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Fast Forward",
@@ -1999,7 +1999,7 @@
         "From Palace Square, teams had to travel to the neighborhood store of Alexandrovskaya in order to find their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by train to Stockholm, Sweden, and then fly to Saint Petersburg, Russia. Once there, teams had to travel to the Rostral Columns on Vasilyevsky Island in order to find their next clue. From Palace Square, teams had to travel to the neighborhood store of Alexandrovskaya in order to find their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2027,7 +2027,7 @@
         "Saint Petersburg (Peter and Paul Fortress \u2013 Naryshkin Bastion)",
         "At the start of this leg, teams were instructed to travel to the Avtovo Circus in Saint Petersburg, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel to the Avtovo Circus in Saint Petersburg, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2063,7 +2063,7 @@
         "Muscat (Al Alam Palace)",
         "At the start of this leg, teams were instructed to fly to Muscat, Oman. Once there, teams had to drive to the Burj Al Mubkharah in Riyam Park, where they were given small silver ingots with three separate times that determined when they could climb the fort's watchtower the next morning. The clue at the watchtower instructed teams to drive themselves to the highest point of Oman: Jebel Shams. At the base of the mountain, a safety driver took teams to their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Muscat, Oman. Once there, teams had to drive to the Burj Al Mubkharah in Riyam Park, where they were given small silver ingots with three separate times that determined when they could climb the fort's watchtower the next morning. The clue at the watchtower instructed teams to drive themselves to the highest point of Oman: Jebel Shams. At the base of the mountain, a safety driver took teams to their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2100,7 +2100,7 @@
         "At the start of this leg, teams were instructed to fly to Dhaka, Bangladesh. Once there, teams had to travel to the Sundarban Square Supermarket, where they had to search for a marked sugarcane stall. There, teams had to press sugarcane to collect enough sugarcane juice to fill a glass and one team member had to drink the juice in order to receive their next clue.",
         "This leg featured a Double U-Turn. Nat & Kat chose to use the U-Turn on Chad & Stephanie, while Jill & Thomas chose to use the U-Turn on Brook & Claire."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Dhaka, Bangladesh. Once there, teams had to travel to the Sundarban Square Supermarket, where they had to search for a marked sugarcane stall. There, teams had to press sugarcane to collect enough sugarcane juice to fill a glass and one team member had to drink the juice in order to receive their next clue. This leg featured a Double U-Turn. Nat & Kat chose to use the U-Turn on Chad & Stephanie, while Jill & Thomas chose to use the U-Turn on Brook & Claire.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2135,7 +2135,7 @@
         "At the start of this leg, teams were instructed to fly to Hong Kong. Once there, teams had to travel by bus and ferry to Cheung Chau, where they had to find the Cheung Po Tsai Cave in order to find their next clue. Teams then had to travel by ferry to Kowloon and travel to the Majesty Chinese Restaurant, where they found their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Hong Kong. Once there, teams had to travel by bus and ferry to Cheung Chau, where they had to find the Cheung Po Tsai Cave in order to find their next clue. Teams then had to travel by ferry to Kowloon and travel to the Majesty Chinese Restaurant, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2173,7 +2173,7 @@
         "Seoul (Temple of Heaven)",
         "At the start of this leg, teams were instructed to fly to Seoul, South Korea. Once there, teams had to drive to the Seung-il Bridge in the Korean Demilitarized Zone. There, teams had to whitewater raft down the Hantan River and board a Humvee that took them to Camp Casey in Dongducheon, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Seoul, South Korea. Once there, teams had to drive to the Seung-il Bridge in the Korean Demilitarized Zone. There, teams had to whitewater raft down the Hantan River and board a Humvee that took them to Camp Casey in Dongducheon, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2218,7 +2218,7 @@
         "Beverly Hills (Greystone Mansion)",
         "At the start of this leg, teams were instructed to fly to Los Angeles, California. Once there, teams had to travel to Pier J on the Port of Long Beach, where they had to ride an elevator to the top of one of the pier's gantry cranes before receiving their clue. They were then dropped from the crane on a tandem bungee swing over the water. Once teams were on the pier, they could read their clue, which informed them that they had to ride a helicopter to a surprise destination: the Rose Bowl."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Los Angeles, California. Once there, teams had to travel to Pier J on the Port of Long Beach, where they had to ride an elevator to the top of one of the pier's gantry cranes before receiving their clue. They were then dropped from the crane on a tandem bungee swing over the water. Once teams were on the pier, they could read their clue, which informed them that they had to ride a helicopter to a surprise destination: the Rose Bowl.",
       "tasks": [
         {
           "task_type": "Roadblock",

@@ -1570,7 +1570,7 @@
     {
       "episode": 1,
       "title": "September 25, 2011",
-      "air_date": null,
+      "air_date": "2011-09-25",
       "viewers_millions": 10.18,
       "raw_row": [
         "1",
@@ -1589,7 +1589,7 @@
     {
       "episode": 2,
       "title": "October 2, 2011",
-      "air_date": null,
+      "air_date": "2011-10-02",
       "viewers_millions": 10.87,
       "raw_row": [
         "2",
@@ -1608,7 +1608,7 @@
     {
       "episode": 3,
       "title": "October 9, 2011",
-      "air_date": null,
+      "air_date": "2011-10-09",
       "viewers_millions": 9.62,
       "raw_row": [
         "3",
@@ -1627,7 +1627,7 @@
     {
       "episode": 4,
       "title": "October 16, 2011",
-      "air_date": null,
+      "air_date": "2011-10-16",
       "viewers_millions": 9.21,
       "raw_row": [
         "4",
@@ -1646,7 +1646,7 @@
     {
       "episode": 5,
       "title": "October 23, 2011",
-      "air_date": null,
+      "air_date": "2011-10-23",
       "viewers_millions": 9.6,
       "raw_row": [
         "5",
@@ -1665,7 +1665,7 @@
     {
       "episode": 6,
       "title": "October 30, 2011",
-      "air_date": null,
+      "air_date": "2011-10-30",
       "viewers_millions": 11.01,
       "raw_row": [
         "6",
@@ -1684,7 +1684,7 @@
     {
       "episode": 7,
       "title": "November 6, 2011",
-      "air_date": null,
+      "air_date": "2011-11-06",
       "viewers_millions": 9.73,
       "raw_row": [
         "7",
@@ -1703,7 +1703,7 @@
     {
       "episode": 8,
       "title": "November 13, 2011",
-      "air_date": null,
+      "air_date": "2011-11-13",
       "viewers_millions": 10.27,
       "raw_row": [
         "8",
@@ -1722,7 +1722,7 @@
     {
       "episode": 9,
       "title": "November 20, 2011",
-      "air_date": null,
+      "air_date": "2011-11-20",
       "viewers_millions": 10.24,
       "raw_row": [
         "9",
@@ -1741,7 +1741,7 @@
     {
       "episode": 10,
       "title": "November 27, 2011",
-      "air_date": null,
+      "air_date": "2011-11-27",
       "viewers_millions": 10.15,
       "raw_row": [
         "10",
@@ -1760,7 +1760,7 @@
     {
       "episode": 11,
       "title": "December 4, 2011",
-      "air_date": null,
+      "air_date": "2011-12-04",
       "viewers_millions": 9.59,
       "raw_row": [
         "11",
@@ -1779,7 +1779,7 @@
     {
       "episode": 12,
       "title": "December 11, 2011",
-      "air_date": null,
+      "air_date": "2011-12-11",
       "viewers_millions": 11.72,
       "raw_row": [
         "12",
@@ -1815,7 +1815,7 @@
         "The Hazard required Kaylani & Lisa to travel to the Core Pacific City Mall, where one of them had to perform an indoor bungee jump before they could continue racing.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At Hsi Lai Temple, teams had to search through hundreds of oil-paper umbrellas for one that had the correct set of letters \u2013 TAI \u2013 printed on it. When combined twice with their clue of six other letters \u2013 WANPEI \u2013 it revealed the name of their first destination: Taipei, Taiwan. Once they presented Phil with a correct umbrella, he gave them keys to one of the vehicles parked outside the temple. The last team to complete this task (Kaylani & Lisa) would be penalized with a Hazard later in the leg. The first eight teams to arrive at Los Angeles International Airport were booked on an earlier flight to Taipei via China Airlines with the remaining three teams booked on a second flight via EVA Air that departed twenty minutes later. Once there, teams had to travel to the Ximending Commercial District, where they were told to \"look up\" for their next clue and had to figure out that their clue was displayed on a digital billboard at Jun Plaza: red and yellow balloons that revealed the Chinese characters \u53f0\u5317\u5b54\u5edf (Taipei Confucius Temple). The Hazard required Kaylani & Lisa to travel to the Core Pacific City Mall, where one of them had to perform an indoor bungee jump before they could continue racing.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1846,7 +1846,7 @@
         "In an unaired segment, teams traveled to the Bukit Indah Restaurant & Hotel after arriving in Yogyakarta, where they had to randomly choose a key, which was marked with one of two departure times the next morning.",
         "This was a double-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Jakarta, Indonesia. Once there, teams had to travel by train to Yogyakarta, and then travel to Goa Jomblang, where teams found their next clue. In an unaired segment, teams traveled to the Bukit Indah Restaurant & Hotel after arriving in Yogyakarta, where they had to randomly choose a key, which was marked with one of two departure times the next morning.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1879,7 +1879,7 @@
         "Magelang (Borobudur)",
         "At the start of this leg, teams had to join a series of Dutch colonial-era Bicycle Guard reenactors and ride omafiets with their group from Kraton through the streets of Yogyakarta to Fort Vredeburg, where they received their next clue directing them to the Salakmalang Village."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to join a series of Dutch colonial-era Bicycle Guard reenactors and ride omafiets with their group from Kraton through the streets of Yogyakarta to Fort Vredeburg, where they received their next clue directing them to the Salakmalang Village.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1911,7 +1911,7 @@
         "At the start of this leg, teams were instructed to fly to Phuket, Thailand. Once there, teams had to travel to the Nonthasak Marina and find their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Phuket, Thailand. Once there, teams had to travel to the Nonthasak Marina and find their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1947,7 +1947,7 @@
         "Bangkok (M.R. Kukrit Heritage House)",
         "At the start of this leg, teams had to travel to the Ton Pariwat Wildlife Conservation Area. There, teams had to ride elephants up the Khlong Song Phraek River to their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to travel to the Ton Pariwat Wildlife Conservation Area. There, teams had to ride elephants up the Khlong Song Phraek River to their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1987,7 +1987,7 @@
         "At the start of this leg, teams were instructed to fly to Lilongwe, Malawi. Once there, teams had to travel to Limbe Tobacco Warehouse and find their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Lilongwe, Malawi. Once there, teams had to travel to Limbe Tobacco Warehouse and find their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2022,7 +2022,7 @@
         "At the start of this leg, teams were instructed to travel by bus to Salima.",
         "Laurence & Zac attempted to use the U-Turn on Amani & Marcus. However, Amani & Marcus had already passed the U-Turn by this point and were therefore unaffected."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by bus to Salima. Laurence & Zac attempted to use the U-Turn on Amani & Marcus. However, Amani & Marcus had already passed the U-Turn by this point and were therefore unaffected.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -2059,7 +2059,7 @@
         "At the start of this leg, teams were instructed to fly to Copenhagen, Denmark. Once there, teams had to drive to the Church of Our Saviour, where they had to climb to the top of the church and search for two clues on the top of the tower. The first was a flag on the tower that said Borg Slot and the other was a banner on a nearby building that said Frederiks. These led teams to their next location: Frederiksborg Slot in Hiller\u00f8d.",
         "This leg featured a Double U-Turn. Ernie & Cindy chose to use the U-Turn on Bill & Cathi, while Bill & Cathi chose to use the U-Turn on Laurence & Zac."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Copenhagen, Denmark. Once there, teams had to drive to the Church of Our Saviour, where they had to climb to the top of the church and search for two clues on the top of the tower. The first was a flag on the tower that said Borg Slot and the other was a banner on a nearby building that said Frederiks. These led teams to their next location: Frederiksborg Slot in Hiller\u00f8d. This leg featured a Double U-Turn. Ernie & Cindy chose to use the U-Turn on Bill & Cathi, while Bill & Cathi chose to use the U-Turn on Laurence & Zac.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2097,7 +2097,7 @@
         "Teams had to check in at the Pit Stop: Parc \u00c9lisabeth.",
         "There was no rest period at the end of this leg, and all teams were instead instructed to continue racing."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had locate the Statue of Hans Christian Andersen in Copenhagen, where they found their next clue. At Concert Noble, teams had to compete in a bodybuilding competition in honor of Jean-Claude Van Damme. Racers had to put on bikinis, cover their bodies with posing oil, and then learn a series of bodybuilding poses. Teams had to perform the routine in front of three judges and earn a score of at least twelve points in order to receive their next clue. Teams had to check in at the Pit Stop: Parc \u00c9lisabeth. There was no rest period at the end of this leg, and all teams were instead instructed to continue racing.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2128,7 +2128,7 @@
         "Brussels (Atomium)",
         "At the start of this leg, teams had to drive themselves to the Ford Proving Grounds in Lommel, which had their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to drive themselves to the Ford Proving Grounds in Lommel, which had their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2167,7 +2167,7 @@
         "Panama City (Panam\u00e1 Viejo)",
         "At the start of this leg, teams had to dress up as the two detectives from the Belgian The Adventures of Tintin comic, and had to figure out one of the three names by which the characters are known in Belgium. Then, using a photo given to them with the clue, teams had to find a man dressed as Tintin standing in front of a Tintin mural and tell him any variation of the characters' names in order to receive their next clue. Teams were instructed to travel by train to Amsterdam, Netherlands, and then fly to Panama City, Panama. Once there, teams had to travel by boat to Parara Puru and sign up for one of four times the next morning to receive a temporary tattoo, which revealed their next location: the San Francisco Bay Towers in San Francisco."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to dress up as the two detectives from the Belgian The Adventures of Tintin comic, and had to figure out one of the three names by which the characters are known in Belgium. Then, using a photo given to them with the clue, teams had to find a man dressed as Tintin standing in front of a Tintin mural and tell him any variation of the characters' names in order to receive their next clue. Teams were instructed to travel by train to Amsterdam, Netherlands, and then fly to Panama City, Panama. Once there, teams had to travel by boat to Parara Puru and sign up for one of four times the next morning to receive a temporary tattoo, which revealed their next location: the San Francisco Bay Towers in San Francisco.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2204,7 +2204,7 @@
         "Atlanta (Swan House)",
         "At the start of this leg, teams were instructed to fly to Atlanta, Georgia. Once there, teams had to travel to FlightSafety International and find their next clue. There, teams had to select a flight instructor, who taught them how to operate a Learjet flight simulator, and then successfully complete a simulated landing at Hartsfield\u2013Jackson Atlanta International Airport from an altitude of 2,500 feet (760 m) in order to receive their next clue. Teams were then instructed to find their next clue at \"the former residence known as The Dump\", which they had to figure out was the former home of Margaret Mitchell, author of Gone with the Wind."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Atlanta, Georgia. Once there, teams had to travel to FlightSafety International and find their next clue. There, teams had to select a flight instructor, who taught them how to operate a Learjet flight simulator, and then successfully complete a simulated landing at Hartsfield\u2013Jackson Atlanta International Airport from an altitude of 2,500 feet (760 m) in order to receive their next clue. Teams were then instructed to find their next clue at \"the former residence known as The Dump\", which they had to figure out was the former home of Margaret Mitchell, author of Gone with the Wind.",
       "tasks": [
         {
           "task_type": "Roadblock",

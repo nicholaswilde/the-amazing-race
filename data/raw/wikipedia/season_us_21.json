@@ -1551,7 +1551,7 @@
     {
       "episode": 1,
       "title": "September 30, 2012",
-      "air_date": null,
+      "air_date": "2012-09-30",
       "viewers_millions": 9.4,
       "raw_row": [
         "1",
@@ -1570,7 +1570,7 @@
     {
       "episode": 2,
       "title": "October 7, 2012",
-      "air_date": null,
+      "air_date": "2012-10-07",
       "viewers_millions": 9.66,
       "raw_row": [
         "2",
@@ -1589,7 +1589,7 @@
     {
       "episode": 3,
       "title": "October 14, 2012",
-      "air_date": null,
+      "air_date": "2012-10-14",
       "viewers_millions": 9.11,
       "raw_row": [
         "3",
@@ -1608,7 +1608,7 @@
     {
       "episode": 4,
       "title": "October 21, 2012",
-      "air_date": null,
+      "air_date": "2012-10-21",
       "viewers_millions": 9.54,
       "raw_row": [
         "4",
@@ -1627,7 +1627,7 @@
     {
       "episode": 5,
       "title": "October 28, 2012",
-      "air_date": null,
+      "air_date": "2012-10-28",
       "viewers_millions": 9.41,
       "raw_row": [
         "5",
@@ -1646,7 +1646,7 @@
     {
       "episode": 6,
       "title": "November 4, 2012",
-      "air_date": null,
+      "air_date": "2012-11-04",
       "viewers_millions": 10.2,
       "raw_row": [
         "6",
@@ -1665,7 +1665,7 @@
     {
       "episode": 7,
       "title": "November 11, 2012",
-      "air_date": null,
+      "air_date": "2012-11-11",
       "viewers_millions": 9.18,
       "raw_row": [
         "7",
@@ -1684,7 +1684,7 @@
     {
       "episode": 8,
       "title": "November 18, 2012",
-      "air_date": null,
+      "air_date": "2012-11-18",
       "viewers_millions": 9.59,
       "raw_row": [
         "8",
@@ -1703,7 +1703,7 @@
     {
       "episode": 9,
       "title": "November 25, 2012",
-      "air_date": null,
+      "air_date": "2012-11-25",
       "viewers_millions": 9.58,
       "raw_row": [
         "9",
@@ -1722,7 +1722,7 @@
     {
       "episode": 10,
       "title": "December 2, 2012",
-      "air_date": null,
+      "air_date": "2012-12-02",
       "viewers_millions": 10.02,
       "raw_row": [
         "10",
@@ -1741,7 +1741,7 @@
     {
       "episode": 11,
       "title": "December 9, 2012",
-      "air_date": null,
+      "air_date": "2012-12-09",
       "viewers_millions": 9.35,
       "raw_row": [
         "11",
@@ -1775,7 +1775,7 @@
         "At the Colorado Street Bridge, teams had to rappel 10 stories down the side of the bridge in order to retrieve their first clue, which identified their first destination: Shanghai, China. Teams then drove to Los Angeles International Airport and booked one of two flights to Shanghai, with only seven teams able to make the China Airlines flight and the remaining four teams arriving 75 minutes later via EVA Air. Once there, teams had to travel to the Yuanshen Sports Centre Stadium, where they found their next clue.",
         "Abbie & Ryan received the Double Your Money prize for winning the first leg. Had they won The Amazing Race, the grand prize would have been doubled to US$2 million. Since they did not win, the grand prize at the end remained at US$1 million."
       ],
-      "narrative": "",
+      "narrative": "At the Colorado Street Bridge, teams had to rappel 10 stories down the side of the bridge in order to retrieve their first clue, which identified their first destination: Shanghai, China. Teams then drove to Los Angeles International Airport and booked one of two flights to Shanghai, with only seven teams able to make the China Airlines flight and the remaining four teams arriving 75 minutes later via EVA Air. Once there, teams had to travel to the Yuanshen Sports Centre Stadium, where they found their next clue. Abbie & Ryan received the Double Your Money prize for winning the first leg. Had they won The Amazing Race, the grand prize would have been doubled to US$2 million. Since they did not win, the grand prize at the end remained at US$1 million.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1812,7 +1812,7 @@
         "Surabaya (Pabean Market (in Indonesian))",
         "At the start of this leg, teams were instructed to fly to Surabaya, Indonesia. Once there, teams traveled across the Suramadu Bridge to an alun-alun stadium in Bangkalan on the island of Madura. Teams picked up a numbered bullwhip that reflected their order in a traditional karapan sapi bull race, with the teams riding on motorcycles alongside the bulls before receiving their next clue. Teams were directed to the Genteng Kali Bridge, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Surabaya, Indonesia. Once there, teams traveled across the Suramadu Bridge to an alun-alun stadium in Bangkalan on the island of Madura. Teams picked up a numbered bullwhip that reflected their order in a traditional karapan sapi bull race, with the teams riding on motorcycles alongside the bulls before receiving their next clue. Teams were directed to the Genteng Kali Bridge, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1848,7 +1848,7 @@
         "At the start of this leg, teams had to travel to the Antika Jaya Padang Restaurant in Surabaya, where they found their next clue.",
         "At the Blind Double U-Turn, Rob & Kelley chose to use the U-Turn on Gary & Will. Not knowing which team used the U-Turn on them, Gary & Will chose to use the second U-Turn on Rob & Kelley, who had already passed and were therefore unaffected."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to travel to the Antika Jaya Padang Restaurant in Surabaya, where they found their next clue. At the Blind Double U-Turn, Rob & Kelley chose to use the U-Turn on Gary & Will. Not knowing which team used the U-Turn on them, Gary & Will chose to use the second U-Turn on Rob & Kelley, who had already passed and were therefore unaffected.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1883,7 +1883,7 @@
         "Dhaka (Old Dhaka \u2013 Shyambazar Chan Mia Ghat)",
         "At the start of this leg, teams were instructed to fly to Dhaka, Bangladesh. Once there, teams had to travel to Rubel Model Auto Mobiles, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Dhaka, Bangladesh. Once there, teams had to travel to Rubel Model Auto Mobiles, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1923,7 +1923,7 @@
         "Bangladeshi model Rumana Malik Munmun appeared as the Pit Stop greeter during this leg.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to find a marked taxi stand at Sadarghat and then travel to the Jatrabari Boro Bazar. There, teams had to find the b\u0113guna vendor, which teams had to figure out was the Bengali word for \"eggplant\", who had their next clue directing them to Ferry Ghat Road. Bangladeshi model Rumana Malik Munmun appeared as the Pit Stop greeter during this leg.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1952,7 +1952,7 @@
         "Istanbul (Kuru\u00e7e\u015fme Cemil Topuzlu Park\u0131 \u2013 MV Savarona)",
         "At the start of this leg, teams were instructed to fly to Istanbul, Turkey. Once there, teams had to travel to the Kabata\u015f Ferry Terminal, where their clue stated, \"Welcome to Europe! Now Make Your Way Back to Asia\", and instructed them to travel by ferry to \u00dcsk\u00fcdar on the Asian side of Istanbul in order to find their next clue. Teams were then directed to find Stall No. 14 of the M\u0131s\u0131r \u00c7ar\u015f\u0131s\u0131 (the Spice Bazaar), where they received their next clue along with a box of Turkish delight."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Istanbul, Turkey. Once there, teams had to travel to the Kabata\u015f Ferry Terminal, where their clue stated, \"Welcome to Europe! Now Make Your Way Back to Asia\", and instructed them to travel by ferry to \u00dcsk\u00fcdar on the Asian side of Istanbul in order to find their next clue. Teams were then directed to find Stall No. 14 of the M\u0131s\u0131r \u00c7ar\u015f\u0131s\u0131 (the Spice Bazaar), where they received their next clue along with a box of Turkish delight.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -1989,7 +1989,7 @@
         "Teams had to figure out that they had to head to the location on the reverse of the 100 ruble banknote in order to find the Pit Stop: the Bolshoi Theatre.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Moscow, Russia. Once there, teams had to travel to the Zurab Tsereteli sculpture park, and then to the Moskvoretsky Bridge near the Kremlin, where they had to find two of Ivan the Terrible's guards, who gave them their next clue. Teams had to figure out that they had to head to the location on the reverse of the 100 ruble banknote in order to find the Pit Stop: the Bolshoi Theatre.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2022,7 +2022,7 @@
         "Moscow (Sokolniki Park \u2013 Tantsev Veranda)",
         "At the start of this leg, teams had to travel to the Moscow Timiryazev Agricultural Academy, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to travel to the Moscow Timiryazev Agricultural Academy, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2065,7 +2065,7 @@
         "At the start of this leg, teams were simply given a flag and told to travel to the capital city of the country whose national flag they were given. They had to figure out that it was the flag of the Netherlands and their next destination was Amsterdam. Once there, teams had to take a train to the Amsterdam Centraal railway station, where they found their next clue.",
         "At the Double U-Turn, Jaymes & James chose to use the U-Turn on Abbie & Ryan. Trey & Lexi then used the second U-Turn on Jaymes & James, whom Trey & Lexi knew were ahead of them and were therefore unaffected, thereby preventing other teams from being able to use the second U-Turn."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were simply given a flag and told to travel to the capital city of the country whose national flag they were given. They had to figure out that it was the flag of the Netherlands and their next destination was Amsterdam. Once there, teams had to take a train to the Amsterdam Centraal railway station, where they found their next clue. At the Double U-Turn, Jaymes & James chose to use the U-Turn on Abbie & Ryan. Trey & Lexi then used the second U-Turn on Jaymes & James, whom Trey & Lexi knew were ahead of them and were therefore unaffected, thereby preventing other teams from being able to use the second U-Turn.",
       "tasks": [
         {
           "task_type": "Fast Forward",
@@ -2110,7 +2110,7 @@
         "At the start of this leg, teams were instructed to fly to Barcelona, Spain. Once there, teams had to book an overnight ferry to Palma on the island of Mallorca. After docking in Palma, teams had to travel on foot to the Palma Cathedral, where they had to search amongst a small troupe of actors dressed as demons participating in a performance for La Nit del Foc, a traditional Mallorcan festival, for the one with their next clue. Teams were instructed to drive themselves to the Centro de Alto Rendimiento in order to find their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Barcelona, Spain. Once there, teams had to book an overnight ferry to Palma on the island of Mallorca. After docking in Palma, teams had to travel on foot to the Palma Cathedral, where they had to search amongst a small troupe of actors dressed as demons participating in a performance for La Nit del Foc, a traditional Mallorcan festival, for the one with their next clue. Teams were instructed to drive themselves to the Centro de Alto Rendimiento in order to find their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2147,7 +2147,7 @@
         "Chenonceaux (Ch\u00e2teau de Chenonceau)",
         "At the start of this leg, teams were instructed to fly back to Barcelona, and then travel by train to Saint-Pierre-des-Corps, France. Outside the train station in Saint-Pierre-des-Corps, teams were instructed to load eight empty baskets from a nearby restaurant into their vehicle before heading to the Ch\u00e2teau de Villandry. There, teams had to search the ch\u00e2teau's gardens for the statue of a stone dog, where they found their next clue and were instructed to find Leonardo da Vinci's grave. Teams had to figure out that this was at the chapel of the Ch\u00e2teau d'Amboise, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly back to Barcelona, and then travel by train to Saint-Pierre-des-Corps, France. Outside the train station in Saint-Pierre-des-Corps, teams were instructed to load eight empty baskets from a nearby restaurant into their vehicle before heading to the Ch\u00e2teau de Villandry. There, teams had to search the ch\u00e2teau's gardens for the statue of a stone dog, where they found their next clue and were instructed to find Leonardo da Vinci's grave. Teams had to figure out that this was at the chapel of the Ch\u00e2teau d'Amboise, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -2190,7 +2190,7 @@
         "At the start of this leg, teams were instructed to fly to New York City and were given a postcard depicting a particular view at Coney Island in Brooklyn. There, teams had to find the exact location shown in the postcard, and their next clue was printed on advertisements nearby sending them to the Brooklyn Navy Yard.",
         "Legs 11 and 12 aired back-to-back as a special two-hour episode."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to New York City and were given a postcard depicting a particular view at Coney Island in Brooklyn. There, teams had to find the exact location shown in the postcard, and their next clue was printed on advertisements nearby sending them to the Brooklyn Navy Yard. Legs 11 and 12 aired back-to-back as a special two-hour episode.",
       "tasks": [
         {
           "task_type": "Roadblock",

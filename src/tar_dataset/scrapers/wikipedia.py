@@ -395,7 +395,9 @@ class WikipediaScraper:
                 elif curr.name == "ul":
                     for li in curr.find_all("li", recursive=False):
                         li_text = clean_text(li.get_text())
-                        if not li_text:
+                        if li_text.startswith(
+                            ("Episode ", "Eliminated:", "Prize:", "Winners:", "Runners-up:")
+                        ):
                             continue
                         if any(
                             k in li_text.lower()
@@ -422,9 +424,37 @@ class WikipediaScraper:
                                     "description": li_text,
                                 }
                             )
+                        elif (
+                            len(li_text) > 60
+                            and any(li_text.endswith(p) for p in [".", "!", '"', "'"])
+                        ) or (
+                            any(
+                                li_text.startswith(p)
+                                for p in [
+                                    "Teams ",
+                                    "At ",
+                                    "After ",
+                                    "Once ",
+                                    "When ",
+                                    "In ",
+                                    "The ",
+                                    "Upon ",
+                                ]
+                            )
+                            and len(li_text) > 40
+                        ):
+                            paragraphs.append(li_text)
                         else:
                             itinerary.append(li_text)
                 curr = curr.find_next_sibling()
+
+            # Fallback to task descriptions for narrative if none found
+            if not paragraphs and tasks:
+                paragraphs = [
+                    t["description"]
+                    for t in tasks
+                    if len(t.get("description", "")) > 40
+                ]
 
             # Check for tasks mentioned in paragraphs if none found in lists
             if not tasks:
@@ -453,6 +483,60 @@ class WikipediaScraper:
             )
 
         return legs
+
+    def scrape_all_episodes(self) -> dict[str, Any]:
+        """Scrape episode tables across all seasons from master episode list articles."""
+        urls = [
+            "https://en.wikipedia.org/wiki/List_of_The_Amazing_Race_(American_TV_series)_episodes_(seasons_1%E2%80%9320)",
+            "https://en.wikipedia.org/wiki/List_of_The_Amazing_Race_(American_TV_series)_episodes",
+        ]
+        master_episodes: dict[str, Any] = {}
+        for url in urls:
+            try:
+                resp = self.client.get(url)
+                if resp.status_code != 200:
+                    continue
+                soup = BeautifulSoup(resp.text, "html.parser")
+            except Exception as e:
+                logger.error("Failed to fetch episode list %s: %s", url, e)
+                continue
+
+            for table in soup.find_all("table", class_="wikiepisodetable"):
+                h = table.find_previous(["h2", "h3"])
+                h_text = h.get_text() if h else ""
+                m = re.search(r"Season\s+(\d+)", h_text)
+                if not m:
+                    continue
+                s_num = int(m.group(1))
+                for row in table.find_all("tr", class_="vevent"):
+                    tds = row.find_all(["td", "th"])
+                    if len(tds) < 4:
+                        continue
+                    cells = [c.get_text(separator=" ").strip() for c in tds]
+                    m_ep = re.search(r"\d+", cells[1])
+                    if not m_ep:
+                        continue
+                    ep_num = int(m_ep.group(0))
+                    title = cells[2].strip("\"'")
+                    m_date = re.search(r"(\d{4}-\d{2}-\d{2})", cells[3])
+                    air_date = m_date.group(1) if m_date else None
+                    viewers = None
+                    if len(cells) > 4:
+                        m_v = re.search(r"(\d+\.\d+)", cells[4])
+                        if m_v:
+                            try:
+                                viewers = float(m_v.group(1))
+                            except ValueError:
+                                pass
+                    key = f"{s_num}_{ep_num}"
+                    master_episodes[key] = {
+                        "season": s_num,
+                        "episode": ep_num,
+                        "title": title,
+                        "air_date": air_date,
+                        "viewers_millions": viewers,
+                    }
+        return master_episodes
 
     def scrape_season(
         self, season: int, version: str = "US", save: bool = True

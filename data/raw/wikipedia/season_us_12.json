@@ -1441,7 +1441,7 @@
     {
       "episode": 1,
       "title": "Donkeys Have Souls, Too",
-      "air_date": null,
+      "air_date": "2007-11-04",
       "viewers_millions": 13.72,
       "raw_row": [
         "1",
@@ -1452,7 +1452,7 @@
     {
       "episode": 2,
       "title": "I've Become the Archie Bunker of the Home",
-      "air_date": null,
+      "air_date": "2007-11-11",
       "viewers_millions": 10.48,
       "raw_row": [
         "2",
@@ -1463,7 +1463,7 @@
     {
       "episode": 3,
       "title": "Please, Lord, Give Me Milk",
-      "air_date": null,
+      "air_date": "2007-11-18",
       "viewers_millions": 11.86,
       "raw_row": [
         "3",
@@ -1474,7 +1474,7 @@
     {
       "episode": 4,
       "title": "Let's Name Our Chicken Phil",
-      "air_date": null,
+      "air_date": "2007-11-25",
       "viewers_millions": 11.8,
       "raw_row": [
         "4",
@@ -1485,7 +1485,7 @@
     {
       "episode": 5,
       "title": "We Really Burned Bridges, For Sure",
-      "air_date": null,
+      "air_date": "2007-12-02",
       "viewers_millions": 11.26,
       "raw_row": [
         "5",
@@ -1496,7 +1496,7 @@
     {
       "episode": 6,
       "title": "Cherry on Top of the Sundae That's Already Melted",
-      "air_date": null,
+      "air_date": "2007-12-09",
       "viewers_millions": 11.95,
       "raw_row": [
         "6",
@@ -1507,7 +1507,7 @@
     {
       "episode": 7,
       "title": "This is Forever, Now",
-      "air_date": null,
+      "air_date": "2007-12-23",
       "viewers_millions": 8.97,
       "raw_row": [
         "7",
@@ -1518,7 +1518,7 @@
     {
       "episode": 8,
       "title": "Honestly, They Have Witch Powers or Something",
-      "air_date": null,
+      "air_date": "2007-12-30",
       "viewers_millions": 9.69,
       "raw_row": [
         "8",
@@ -1529,7 +1529,7 @@
     {
       "episode": 9,
       "title": "I Just Hope He Doesn't Croak On Us",
-      "air_date": null,
+      "air_date": "2008-01-06",
       "viewers_millions": 11.99,
       "raw_row": [
         "9",
@@ -1540,7 +1540,7 @@
     {
       "episode": 10,
       "title": "Sorry, Guys, I'm Not Happy to See You",
-      "air_date": null,
+      "air_date": "2008-01-13",
       "viewers_millions": 11.65,
       "raw_row": [
         "10",
@@ -1551,7 +1551,7 @@
     {
       "episode": 11,
       "title": "The Final Push",
-      "air_date": null,
+      "air_date": "2008-01-20",
       "viewers_millions": 9.75,
       "raw_row": [
         "11",
@@ -1578,7 +1578,7 @@
         "Teams set off from the Playboy Mansion in Los Angeles, California, and drove to Los Angeles International Airport, where they had to book one of two flights to Shannon, Ireland. Five teams were booked on a British Airways flight scheduled to arrive 45 minutes earlier than an Aer Lingus flight that carried the remaining six teams. However, the British Airways flight was delayed during its connection in London, allowing the Aer Lingus flight to arrive in Shannon first. Once there, teams had to travel by ferry to the island of Inishmore and find the Teampall Bhean\u00e1in. At the church, teams had to sign up for one of three ferries departing the next morning.",
         "After returning to the Irish mainland, teams found a marked car with their next clue and had to drive themselves to Cleggan Farm. There, teams had to pedal a tandem bicycle along a dirt path to their next clue."
       ],
-      "narrative": "",
+      "narrative": "Teams set off from the Playboy Mansion in Los Angeles, California, and drove to Los Angeles International Airport, where they had to book one of two flights to Shannon, Ireland. Five teams were booked on a British Airways flight scheduled to arrive 45 minutes earlier than an Aer Lingus flight that carried the remaining six teams. However, the British Airways flight was delayed during its connection in London, allowing the Aer Lingus flight to arrive in Shannon first. Once there, teams had to travel by ferry to the island of Inishmore and find the Teampall Bhean\u00e1in. At the church, teams had to sign up for one of three ferries departing the next morning. After returning to the Irish mainland, teams found a marked car with their next clue and had to drive themselves to Cleggan Farm. There, teams had to pedal a tandem bicycle along a dirt path to their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1607,7 +1607,7 @@
         "At the start of this leg, teams were instructed to fly to Amsterdam, Netherlands. Once there, teams had to travel by train to the Amsterdam Centraal Station and then search for their next clue on the Melkmeisjesbrug.",
         "The fierljeppen task was later revisited in season 21 as a Switchback."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Amsterdam, Netherlands. Once there, teams had to travel by train to the Amsterdam Centraal Station and then search for their next clue on the Melkmeisjesbrug. The fierljeppen task was later revisited in season 21 as a Switchback.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1641,7 +1641,7 @@
         "Bingo (Village Outskirts)",
         "At the start of this leg, teams were only told to fly to Ouagadougou, which they had to figure out was the capital of Burkina Faso. Once there, teams had to travel by taxi to the train station, where they found their next clue. Teams were directed to travel by train to Bingo and listen for their stop, as the town of Bingo did not have a physical station. After disembarking, teams had to search nearby for their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were only told to fly to Ouagadougou, which they had to figure out was the capital of Burkina Faso. Once there, teams had to travel by taxi to the train station, where they found their next clue. Teams were directed to travel by train to Bingo and listen for their stop, as the town of Bingo did not have a physical station. After disembarking, teams had to search nearby for their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1677,7 +1677,7 @@
         "At the start of this leg, teams had to follow a marked path to a tribal chief, who gave them their next clue, as well as a chicken that they had to carry with them throughout the entire leg. Teams then had to travel to a field in Yako, where they found their next clue.",
         "Shana and Jennifer chose to use the U-Turn on Lorena and Jason."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to follow a marked path to a tribal chief, who gave them their next clue, as well as a chicken that they had to carry with them throughout the entire leg. Teams then had to travel to a field in Yako, where they found their next clue. Shana and Jennifer chose to use the U-Turn on Lorena and Jason.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1712,7 +1712,7 @@
         "Teams had to book tickets at an official airline ticketing office before being allowed to enter Ouagadougou Airport.",
         "After arriving in Vilnius, teams actually had to drive themselves to Trakai Island Castle in order to find their next clue, which directed them to St. Anne's Church. This task was unaired, and teams were shown driving to St. Anne's Church directly after arriving in Vilnius."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Vilnius, Lithuania. Once there, teams had to drive to St. Anne's Church to find their next clue. Teams had to book tickets at an official airline ticketing office before being allowed to enter Ouagadougou Airport. After arriving in Vilnius, teams actually had to drive themselves to Trakai Island Castle in order to find their next clue, which directed them to St. Anne's Church. This task was unaired, and teams were shown driving to St. Anne's Church directly after arriving in Vilnius.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1747,7 +1747,7 @@
         "Dubrovnik (Fort Imperial \u2013 Stone Cross)",
         "At the start of this leg, teams were instructed to fly to Dubrovnik, Croatia. Once there, teams had to travel to the base of the Fort of St. Lawrence to find their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Dubrovnik, Croatia. Once there, teams had to travel to the base of the Fort of St. Lawrence to find their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1784,7 +1784,7 @@
         "At the start of this leg, teams were instructed to travel by bus to Split, and then by ferry to Ancona, Italy, where they found their next clue. Teams then had to drive to the Campo di Volo Silvano Poli in Empoli, where they found their next clue. Teams also received a BlackBerry, which gave them a message from their loved ones at home.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by bus to Split, and then by ferry to Ancona, Italy, where they found their next clue. Teams then had to drive to the Campo di Volo Silvano Poli in Empoli, where they found their next clue. Teams also received a BlackBerry, which gave them a message from their loved ones at home.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1827,7 +1827,7 @@
         "At the start of this leg, teams were instructed to fly to Mumbai, India. Once there, teams had to find the M.R. Naik Newspaper Stall and then had search for an advertisement in The Times of India, which instructed them to travel by auto rickshaw to Chauhan Alteration Tailors to receive their next clue.",
         "Kynt and Vyxsin attempted to use the U-Turn on Nicolas and Donald; however, Nicolas and Donald had already passed the U-Turn by this point and were therefore unaffected."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Mumbai, India. Once there, teams had to find the M.R. Naik Newspaper Stall and then had search for an advertisement in The Times of India, which instructed them to travel by auto rickshaw to Chauhan Alteration Tailors to receive their next clue. Kynt and Vyxsin attempted to use the U-Turn on Nicolas and Donald; however, Nicolas and Donald had already passed the U-Turn by this point and were therefore unaffected.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -1863,7 +1863,7 @@
         "At the start of this leg, teams were instructed to fly to Osaka, Japan. Once there, teams had to travel to Kishiwada Castle and search the grounds for their next clue, which directed teams to the Noda Station. There, teams had to locate a janitor inside the terminal, who handed them their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Osaka, Japan. Once there, teams had to travel to Kishiwada Castle and search the grounds for their next clue, which directed teams to the Noda Station. There, teams had to locate a janitor inside the terminal, who handed them their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1904,7 +1904,7 @@
         "Taipei (Chiang Kai-shek Memorial Hall)",
         "At the start of this leg, teams were instructed to travel to the Umeda Sky Building, take an elevator to the Floating Garden, and search for their next clue. They were then instructed to fly to Taipei, Taiwan. Once there, teams had to travel to Taipei Main Station to search outside the station for their next clue, which instructed them to travel by train to Taichung and then taxi to Acrobatics Jeep in Jiji. There, they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel to the Umeda Sky Building, take an elevator to the Floating Garden, and search for their next clue. They were then instructed to fly to Taipei, Taiwan. Once there, teams had to travel to Taipei Main Station to search outside the station for their next clue, which instructed them to travel by train to Taichung and then taxi to Acrobatics Jeep in Jiji. There, they found their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1949,7 +1949,7 @@
         "Girdwood (Girdwood Airport)",
         "At the start of this leg, teams were instructed to fly to Anchorage, Alaska. Once there, teams had to find 6th Avenue Outfitters, where they picked up the gear they would need for this leg along with their next clue. They then traveled to the Ship Creek Boat Launch, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Anchorage, Alaska. Once there, teams had to find 6th Avenue Outfitters, where they picked up the gear they would need for this leg along with their next clue. They then traveled to the Ship Creek Boat Launch, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Detour",

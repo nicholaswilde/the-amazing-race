@@ -1,5 +1,5 @@
 version,season,team_id,team_name,relationship,hometown,result,status,legs_won,legs_completed
-US,1,US-S01-rob-brennan,Rob & Brennan,Lawyers & Best Friends,"Minneapolis, Minnesota",1,Winner,5,13
+US,1,US-S01-rob-brennan,Rob & Brennan,Married,"Simsbury, Connecticut",1,Winner,5,13
 US,1,US-S01-frank-margarita,Frank & Margarita,Separated Parents,"Queens, New York",2,Runner-up,3,13
 US,1,US-S01-joe-bill,Joe & Bill,Life Partners,"Laguna Niguel, California",3,Runner-up,1,13
 US,1,US-S01-kevin-drew,Kevin & Drew,Fraternity Brothers,"Bayonne, New Jersey",4,Eliminated,3,11
@@ -22,11 +22,11 @@ US,2,US-S02-peggy-claire,Peggy & Claire,Grandmothers,"Truckee, California",9,Eli
 US,2,US-S02-hope-norm,Hope & Norm,Married Parents,"Clinton, Tennessee",10,Eliminated,0,2
 US,2,US-S02-deidre-hillary,Deidre & Hillary,Mother & Daughter,"Miami, Florida",11,Eliminated,0,1
 US,3,US-S03-flo-zach,Flo & Zach,Friends,"New York City, New York",1,Winner,2,13
-US,3,US-S03-teri-ian,Teri & Ian,Married Parents,"Palm City, Florida",2,Runner-up,3,13
+US,3,US-S03-teri-ian,Teri & Ian,Lifelong Friends,"New York City, New York",2,Runner-up,3,13
 US,3,US-S03-ken-gerard,Ken & Gerard,Brothers,"New York City, New York",3,Runner-up,3,13
-US,3,US-S03-derek-drew,Derek & Drew,Twins & Models,"Los Angeles, California",4,Eliminated,4,11
+US,3,US-S03-derek-drew,Derek & Drew,Father & Son,"Lexington, Kentucky",4,Eliminated,4,11
 US,3,US-S03-john-vito-jill,John Vito & Jill,Dating,"Staten Island, New York",5,Eliminated,1,10
-US,3,US-S03-andre-damon,Andre & Damon,Cop & Fireman,"Los Angeles, California",6,Eliminated,0,7
+US,3,US-S03-andre-damon,Andre & Damon,Father & Son,"Lexington, Kentucky",6,Eliminated,0,7
 US,3,US-S03-aaron-arianne,Aaron & Arianne,Lifelong Friends,"New York City, New York",7,Eliminated,0,6
 US,3,US-S03-michael-kathy,Michael & Kathy,Long-Distance Dating,"San Diego, California",8,Eliminated,0,5
 US,3,US-S03-heather-eve,Heather & Eve,Law School Roommates,"Boston, Massachusetts",9,Eliminated,0,4
@@ -34,7 +34,7 @@ US,3,US-S03-dennis-andrew,Dennis & Andrew,Father & Son,"Lexington, Kentucky",10,
 US,3,US-S03-tramel-talicia,Tramel & Talicia,Brother & Sister,"Gary, Indiana",11,Eliminated,0,2
 US,3,US-S03-gina-sylvia,Gina & Sylvia,Soccer Moms,"Hilton Head Island, South Carolina",12,Eliminated,0,1
 US,4,US-S04-reichen-chip,Reichen & Chip,Married,"Los Angeles, California",1,Winner,2,13
-US,4,US-S04-kelly-jon,Kelly & Jon,Engaged,"Miami, Florida",2,Runner-up,1,13
+US,4,US-S04-kelly-jon,Kelly & Jon,Best Friends & Clowns,"Long Island, New York",2,Runner-up,1,13
 US,4,US-S04-david-jeff,David & Jeff,Best Friends,"Los Angeles, California",3,Runner-up,4,13
 US,4,US-S04-jon-al,Jon & Al,Best Friends & Clowns,"Long Island, New York",4,Eliminated,1,11
 US,4,US-S04-millie-chuck,Millie & Chuck,Dating 12 Years & Virgins,"Chattanooga, Tennessee",5,Eliminated,2,9
@@ -57,7 +57,7 @@ US,5,US-S05-jim-marsha,Jim & Marsha,Military Father & Daughter,"Jacksonville, Fl
 US,5,US-S05-alison-donny,Alison & Donny,Dating,"Meadville, Pennsylvania",10,Eliminated,1,2
 US,5,US-S05-dennis-erika,Dennis & Erika,Once Engaged,"West Nyack, New York",11,Eliminated,0,1
 US,6,US-S06-freddy-kendra,Freddy & Kendra,Engaged Models,"Miami, Florida",1,Winner,3,13
-US,6,US-S06-kris-jon,Kris & Jon,Dating Long Distance,"Long Beach, California",2,Runner-up,4,13
+US,6,US-S06-kris-jon,Kris & Jon,Sisters,"Pleasant Grove, Utah",2,Runner-up,4,13
 US,6,US-S06-adam-rebecca,Adam & Rebecca,Formerly Dating,"Los Angeles, California",3,Runner-up,1,13
 US,6,US-S06-hayden-aaron,Hayden & Aaron,Dating Actors,"Chicago, Illinois",4,Eliminated,4,12
 US,6,US-S06-lori-bolo,Lori & Bolo,Married Pro Wrestlers,"Molino, Florida",5,Eliminated,1,10
@@ -78,16 +78,16 @@ US,7,US-S07-susan-patrick,Susan & Patrick,Mother & Son,"Hamilton, Ohio",8,Elimin
 US,7,US-S07-debbie-bianca,Debbie & Bianca,Lifelong Friends,"Woodbridge, Virginia",9,Eliminated,1,3
 US,7,US-S07-megan-heidi,Megan & Heidi,Roommates,"Oak Park, California",10,Eliminated,0,2
 US,7,US-S07-ryan-chuck,Ryan & Chuck,Best Friends,"Landrum, South Carolina",11,Eliminated,0,1
-US,8,US-S08-linz-family,Linz Family,,,1,Winner,2,13
-US,8,US-S08-bransen-family,Bransen Family,,,2,Runner-up,5,13
-US,8,US-S08-weaver-family,Weaver Family,,,3,Runner-up,1,13
-US,8,US-S08-godlewski-family,Godlewski Family,,,4,Eliminated,3,11
-US,8,US-S08-paolo-family,Paolo Family,,,5,Eliminated,2,8
-US,8,US-S08-gaghan-family,Gaghan Family,,,6,Eliminated,0,6
-US,8,US-S08-schroeder-family,Schroeder Family,,,7,Eliminated,0,4
-US,8,US-S08-aiello-family,Aiello Family,,,8,Eliminated,0,3
-US,8,US-S08-rogers-family,Rogers Family,,,9,Eliminated,0,2
-US,8,US-S08-black-family,Black Family,,,10,Eliminated,0,1
+US,8,US-S08-linz-family,Linz Family,Family Team (4 members),"Cincinnati, Ohio",1,Winner,2,13
+US,8,US-S08-bransen-family,Bransen Family,Family Team (4 members),"Park Ridge, Illinois",2,Runner-up,5,13
+US,8,US-S08-weaver-family,Weaver Family,Family Team (4 members),"Ormond Beach, Florida",3,Runner-up,1,13
+US,8,US-S08-godlewski-family,Godlewski Family,Family Team (4 members),"Des Plaines, Illinois",4,Eliminated,3,11
+US,8,US-S08-paolo-family,Paolo Family,Family Team (4 members),"Carmel, New York",5,Eliminated,2,8
+US,8,US-S08-gaghan-family,Gaghan Family,Family Team (4 members),"Glastonbury, Connecticut",6,Eliminated,0,6
+US,8,US-S08-schroeder-family,Schroeder Family,Family Team (4 members),"New Orleans, Louisiana",7,Eliminated,0,4
+US,8,US-S08-aiello-family,Aiello Family,Family Team (4 members),"Mansfield, Massachusetts",8,Eliminated,0,3
+US,8,US-S08-rogers-family,Rogers Family,Family Team (4 members),"Shreveport, Louisiana",9,Eliminated,0,2
+US,8,US-S08-black-family,Black Family,Family Team (4 members),"Woodbridge, Virginia",10,Eliminated,0,1
 US,9,US-S09-bj-tyler,BJ & Tyler,Best Friends,"Los Angeles, California",1,Winner,5,13
 US,9,US-S09-eric-jeremy,Eric & Jeremy,Friends,"Deerfield Beach, Florida",2,Runner-up,6,13
 US,9,US-S09-ray-yolanda,Ray & Yolanda,Dating,"Chicago, Illinois",3,Runner-up,1,13
@@ -117,7 +117,7 @@ US,11,US-S11-charla-mirna,Charla & Mirna,Cousins The Amazing Race 5,"Towson, Mar
 US,11,US-S11-oswald-danny,Oswald & Danny,Best Friends The Amazing Race 2,"New York City, New York",4,Eliminated,3,12
 US,11,US-S11-uchenna-joyce,Uchenna & Joyce,Married The Amazing Race 7,"Houston, Texas",5,Eliminated,1,9
 US,11,US-S11-joe-bill,Joe & Bill,Life Partners The Amazing Race 1,"Laguna Niguel, California",6,Eliminated,0,8
-US,11,US-S11-teri-ian,Teri & Ian,Married Parents The Amazing Race 3,"Palm City, Florida",7,Eliminated,0,6
+US,11,US-S11-teri-ian,Teri & Ian,Newlyweds The Amazing Race 7,"Pensacola, Florida",7,Eliminated,0,6
 US,11,US-S11-rob-amber,Rob & Amber,Newlyweds The Amazing Race 7,"Pensacola, Florida",8,Eliminated,3,4
 US,11,US-S11-david-mary,David & Mary,Coal Miner & Wife The Amazing Race 10,"Stone, Kentucky",9,Eliminated,0,3
 US,11,US-S11-kevin-drew,Kevin & Drew,Lifelong Friends The Amazing Race 1,"Bayonne, New Jersey",10,Eliminated,0,2
@@ -125,7 +125,7 @@ US,11,US-S11-john-vito-jill,John Vito & Jill,Formerly Dating The Amazing Race 3,
 US,12,US-S12-tk-rachel,TK & Rachel,Newly Dating,"Huntington Beach, California",1,Winner,3,11
 US,12,US-S12-ronald-christina,Ronald & Christina,Father & Daughter,"Tacoma, Washington",2,Runner-up,3,11
 US,12,US-S12-nicolas-donald,Nicolas & Donald,Grandson & Grandfather,"Chicago, Illinois",3,Runner-up,1,11
-US,12,US-S12-nathan-jennifer,Nathan & Jennifer,Dating,"Fountain Valley, California",4,Eliminated,0,10
+US,12,US-S12-nathan-jennifer,Nathan & Jennifer,Friends,"Los Angeles, California",4,Eliminated,0,10
 US,12,US-S12-kynt-vyxsin,Kynt & Vyxsin,Dating Goths,"Louisville, Kentucky",5,Eliminated,0,8
 US,12,US-S12-azaria-hendekea,Azaria & Hendekea,Brother & Sister,"New Orleans, Louisiana",6,Eliminated,3,6
 US,12,US-S12-shana-jennifer,Shana & Jennifer,Friends,"Los Angeles, California",7,Eliminated,0,5
@@ -144,10 +144,10 @@ US,13,US-S13-marisa-brooke,Marisa & Brooke,Southern Belles,"Spartanburg, South C
 US,13,US-S13-mark-bill,Mark & Bill,Best Friends,"San Diego, California",9,Eliminated,0,3
 US,13,US-S13-anthony-stephanie,Anthony & Stephanie,Dating,"Los Angeles, California",10,Eliminated,0,2
 US,13,US-S13-anita-arthur,Anita & Arthur,Married Beekeepers,"Eugene, Oregon",11,Eliminated,0,1
-US,14,US-S14-tammy-victor,Tammy & Victor,Siblings & Lawyers,"San Francisco, California",1,Winner,5,12
+US,14,US-S14-tammy-victor,Tammy & Victor,Married,"Columbus, Ohio",1,Winner,5,12
 US,14,US-S14-jaime-cara,Jaime & Cara,Former NFL Cheerleaders,"Fort Lauderdale, Florida",2,Runner-up,1,12
 US,14,US-S14-margie-luke,Margie & Luke,Mother & Son,"Denver, Colorado",3,Runner-up,3,12
-US,14,US-S14-kisha-jen,Kisha & Jen,Sisters,"The Bronx, New York",4,Eliminated,1,11
+US,14,US-S14-kisha-jen,Kisha & Jen,Dating,"Columbia, South Carolina",4,Eliminated,1,11
 US,14,US-S14-mark-michael,Mark & Michael,Brothers & Stuntmen,"Los Angeles, California",5,Eliminated,0,9
 US,14,US-S14-mel-mike,Mel & Mike,Father & Son,"Lynchburg, Virginia",6,Eliminated,1,7
 US,14,US-S14-christie-jodi,Christie & Jodi,Flight Attendants,"Choctaw, Oklahoma",7,Eliminated,1,6
@@ -158,7 +158,7 @@ US,14,US-S14-preston-jennifer,Preston & Jennifer,Dating,"Columbia, South Carolin
 US,15,US-S15-meghan-cheyne,Meghan & Cheyne,Dating,"San Diego, California",1,Winner,7,12
 US,15,US-S15-sam-dan,Sam & Dan,Brothers,"Liberty, Missouri",2,Runner-up,2,12
 US,15,US-S15-brian-ericka,Brian & Ericka,Married,"Nashville, Tennessee",3,Runner-up,0,12
-US,15,US-S15-flight-time-big-easy,Flight Time & Big Easy,,,4,Eliminated,2,11
+US,15,US-S15-flight-time-big-easy,Flight Time & Big Easy,Harlem Globetrotters,"Brinkley, Arkansas",4,Eliminated,2,11
 US,15,US-S15-gary-matt,Gary & Matt,Father & Son,"Laurel, Montana",5,Eliminated,1,9
 US,15,US-S15-maria-tiffany,Maria & Tiffany,Professional Poker Players,"Arcadia, California",6,Eliminated,0,7
 US,15,US-S15-mika-canaan,Mika & Canaan,Newly Dating,"Nashville, Tennessee",7,Eliminated,0,6
@@ -167,7 +167,7 @@ US,15,US-S15-zev-justin,Zev & Justin,Friends,"Sherman Oaks, California",9,Elimin
 US,15,US-S15-marcy-ron,Marcy & Ron,Dating,"San Francisco, California",10,Eliminated,0,3
 US,15,US-S15-garrett-jessica,Garrett & Jessica,Dating On & Off,"Santa Cruz, California",11,Eliminated,0,2
 US,15,US-S15-eric-lisa,Eric & Lisa,Married Yoga Teachers,"Encino, California",12,Eliminated,0,1
-US,16,US-S16-dan-jordan,Dan & Jordan,Brothers,"Barrington, Rhode Island",1,Winner,2,12
+US,16,US-S16-dan-jordan,Dan & Jordan,High School Sweethearts,"Arlington, Texas",1,Winner,2,12
 US,16,US-S16-jet-cord,Jet & Cord,Brothers & Cowboys,"Ada, Oklahoma",2,Runner-up,4,12
 US,16,US-S16-brent-caite,Brent & Caite,Dating Models,"Columbia, South Carolina",3,Runner-up,1,12
 US,16,US-S16-louie-michael,Louie & Michael,Detectives,"Providence, Rhode Island",4,Eliminated,3,11
@@ -178,7 +178,7 @@ US,16,US-S16-joe-heidi,Joe & Heidi,Married,"El Segundo, California",8,Eliminated
 US,16,US-S16-monique-shawne,Monique & Shawne,Moms & Attorneys,"West Orange, New Jersey",9,Eliminated,0,3
 US,16,US-S16-jody-shannon,Jody & Shannon,Grandmother & Granddaughter,"Round Rock, Texas",10,Eliminated,0,2
 US,16,US-S16-dana-adrian,Dana & Adrian,High School Sweethearts,"Arlington, Texas",11,Eliminated,0,1
-US,17,US-S17-nat-kat,Nat & Kat,Doctors,"Newport Beach, California",1,Winner,5,12
+US,17,US-S17-nat-kat,Nat & Kat,Ivy League A Cappella Singers,"Cranford, New Jersey",1,Winner,5,12
 US,17,US-S17-brook-claire,Brook & Claire,Home Shopping Hosts,"San Diego, California",2,Runner-up,1,12
 US,17,US-S17-jill-thomas,Jill & Thomas,Dating,"Marina Del Rey, California",3,Runner-up,4,12
 US,17,US-S17-nick-vicki,Nick & Vicki,Dating,"Henderson, Nevada",4,Eliminated,0,11
@@ -190,7 +190,7 @@ US,17,US-S17-connor-jonathan,Connor & Jonathan,Ivy League A Cappella Singers,"Ch
 US,17,US-S17-andie-jenna,Andie & Jenna,Birth Mom & Daughter,"Atlanta, Georgia",10,Eliminated,0,2
 US,17,US-S17-ron-tony,Ron & Tony,Best Friends,"Los Angeles, California",11,Eliminated,0,1
 US,18,US-S18-kisha-jen,Kisha & Jen,Sisters The Amazing Race 14,"The Bronx, New York",1,Winner,1,12
-US,18,US-S18-flight-time-big-easy,Flight Time & Big Easy,,,2,Runner-up,2,12
+US,18,US-S18-flight-time-big-easy,Flight Time & Big Easy,Harlem Globetrotters The Amazing Race 15,"Brinkley, Arkansas",2,Runner-up,2,12
 US,18,US-S18-gary-mallory,Gary & Mallory,Father & Daughter The Amazing Race 17,"Morganfield, Kentucky",3,Runner-up,3,12
 US,18,US-S18-zev-justin,Zev & Justin,Best Friends The Amazing Race 15,"Sherman Oaks, California",4,Eliminated,4,11
 US,18,US-S18-kent-vyxsin,Kent & Vyxsin,Dating Goths The Amazing Race 12,"Los Angeles, California",5,Eliminated,0,10
@@ -211,19 +211,19 @@ US,19,US-S19-liz-marie,Liz & Marie,Twins,"Deerfield, Illinois",8,Eliminated,0,5
 US,19,US-S19-kaylani-lisa,Kaylani & Lisa,Former Vegas Showgirls,"Las Vegas, Nevada",9,Eliminated,0,3
 US,19,US-S19-ethan-jenna,Ethan & Jenna,Dating,"New York City, New York",10,Eliminated,0,2
 US,19,US-S19-ron-bill,Ron & Bill,Domestic Partners,"Laguna Niguel, California",11,Eliminated,0,2
-US,20,US-S20-rachel-dave,Rachel & Dave,PhD Student & Event Hostess,"Westwood, California",1,Winner,8,12
+US,20,US-S20-rachel-dave,Rachel & Dave,Married Clowns,"New Port Richey, Florida",1,Winner,8,12
 US,20,US-S20-art-jj,Art & J.J.,Border Patrol Agents,"Temecula, California",2,Runner-up,3,12
 US,20,US-S20-brendon-rachel,Brendon & Rachel,PhD Student & Event Hostess,"Westwood, California",3,Runner-up,0,12
 US,20,US-S20-vanessa-ralph,Vanessa & Ralph,Dating Divorcés,"San Antonio, Texas",4,Eliminated,0,11
 US,20,US-S20-bopper-mark,Bopper & Mark,Best Friends,"Manchester, Kentucky",5,Eliminated,1,10
 US,20,US-S20-nary-jamie,Nary & Jamie,Federal Agents,"Los Angeles, California",6,Eliminated,0,8
-US,20,US-S20-joey-fitness-danny,"Joey ""Fitness"" & Danny",Trainer & Club Promoter,"Whitestone, New York",7,Eliminated,0,6
+US,20,US-S20-joey-fitness-danny,"Joey ""Fitness"" & Danny",Trainer & Club Promoter,"Holbrook, New York",7,Eliminated,0,6
 US,20,US-S20-kerri-stacy,Kerri & Stacy,Cousins,"Gulfport, Mississippi",8,Eliminated,0,5
 US,20,US-S20-elliot-andrew,Elliot & Andrew,Twins,"Scottsdale, Arizona",9,Eliminated,0,3
 US,20,US-S20-dave-cherie,Dave & Cherie,Married Clowns,"New Port Richey, Florida",10,Eliminated,0,2
 US,20,US-S20-misa-maiya,Misa & Maiya,Sisters,"San Diego, California",11,Eliminated,0,1
 US,21,US-S21-josh-brent,Josh & Brent,Goat Farmers,"Sharon Springs, New York",1,Winner,1,12
-US,21,US-S21-jaymes-james,Jaymes & James,Chippendales,"Las Vegas, Nevada",2,Runner-up,2,12
+US,21,US-S21-jaymes-james,Jaymes & James,Rock Star & Lawyer,"Burbank, California",2,Runner-up,2,12
 US,21,US-S21-trey-lexi,Trey & Lexi,Dating,"Austin, Texas",3,Runner-up,3,12
 US,21,US-S21-natalie-nadiya,Natalie & Nadiya,Twins,"Edgewater, New Jersey",4,Eliminated,2,11
 US,21,US-S21-abbie-ryan,Abbie & Ryan,Dating Divorcés,"Encinitas, California",5,Eliminated,2,9
@@ -260,7 +260,7 @@ US,24,US-S24-caroline-jennifer,Caroline & Jennifer,Country Singers The Amazing R
 US,24,US-S24-brendon-rachel,Brendon & Rachel,Newlyweds The Amazing Race 20,"Los Angeles, California",3,Runner-up,3,12
 US,24,US-S24-leo-jamal,Leo & Jamal,Cousins The Amazing Race 23,"Torrance, California",4,Eliminated,1,11
 US,24,US-S24-jet-cord,Jet & Cord,Cowboys The Amazing Race 16 & The Amazing Race 18,"Ada, Oklahoma",5,Eliminated,2,10
-US,24,US-S24-flight-time-big-easy,Flight Time & Big Easy,,,6,Eliminated,0,8
+US,24,US-S24-flight-time-big-easy,Flight Time & Big Easy,Harlem Globetrotters The Amazing Race 15 & The Amazing Race 18,"Brinkley, Arkansas",6,Eliminated,0,8
 US,24,US-S24-jessica-john,Jessica & John,Engaged The Amazing Race 22,"Eden Prairie, Minnesota",7,Eliminated,0,7
 US,24,US-S24-margie-luke,Margie & Luke,Mother & Son The Amazing Race 14 & The Amazing Race 18,"Colorado Springs, Colorado",8,Eliminated,0,5
 US,24,US-S24-joey-meghan,Joey & Meghan,YouTube Hosts The Amazing Race 22,"Los Angeles, California",9,Eliminated,0,3
@@ -268,7 +268,7 @@ US,24,US-S24-mark-mallory,Mark & Mallory,Team Kentucky The Amazing Race 20 (Mark
 US,24,US-S24-natalie-nadiya,Natalie & Nadiya,Twins The Amazing Race 21,"Edgewater, New Jersey",11,Eliminated,0,1
 US,25,US-S25-amy-maya,Amy & Maya,Food Scientists (Sweet Scientists),"Madison, Wisconsin",1,Winner,1,12
 US,25,US-S25-misti-jim,Misti & Jim,Married Dentists (The Dentists),"Columbia, South Carolina",2,Runner-up,5,12
-US,25,US-S25-adam-bethany,Adam & Bethany,Married Surfers (Soul Surfers),"Princeville, Hawaii",3,Runner-up,3,12
+US,25,US-S25-adam-bethany,Adam & Bethany,Dating Pro Wrestlers (The Wrestlers),"Houston, Texas",3,Runner-up,3,12
 US,25,US-S25-brooke-robbie,Brooke & Robbie,Dating Pro Wrestlers (The Wrestlers),"Houston, Texas",4,Eliminated,1,12
 US,25,US-S25-kym-alli,Kym & Alli,Urban Bike Racers (The Cyclists),"Brooklyn, New York",5,Eliminated,2,9
 US,25,US-S25-tim-te-jay,Tim & Te Jay,College Sweethearts (College Sweethearts),"Pasadena, California",6,Eliminated,0,8
@@ -310,17 +310,17 @@ US,28,US-S28-erin-joslyn,Erin & Joslyn,Best Friends,"Los Angeles, California",8,
 US,28,US-S28-brittany-jessica,Brittany & Jessica,Instagram Models,"Fort Lauderdale, Florida",9,Eliminated,0,4
 US,28,US-S28-darius-cameron,Darius & Cameron,Brothers,"Tuscaloosa, Alabama",10,Eliminated,0,3
 US,28,US-S28-marty-hagan,Marty & Hagan,Mother & Daughter,"McKinney, Texas",11,Eliminated,0,2
-US,29,US-S29-brooke-scott,Brooke & Scott,,"Lynbrook, New York",1,Winner,2,12
-US,29,US-S29-tara-joey,Tara & Joey,,"Alexandria, Virginia",2,Runner-up,3,12
-US,29,US-S29-london-logan,London & Logan,,"New York City, New York",3,Runner-up,0,12
-US,29,US-S29-matt-redmond,Matt & Redmond,,"Steamboat Springs, Colorado",4,Eliminated,2,11
-US,29,US-S29-becca-floyd,Becca & Floyd,,"Pittsburgh, Pennsylvania",5,Eliminated,2,10
-US,29,US-S29-liz-michael,Liz & Michael,,"Maryville, Missouri",6,Eliminated,2,8
-US,29,US-S29-vanck-ashton,Vanck & Ashton,,"Saint Paul, Minnesota",7,Eliminated,0,6
-US,29,US-S29-shamir-sara,Shamir & Sara,,"Bronx, New York",8,Eliminated,0,4
-US,29,US-S29-seth-olive,Seth & Olive,,"Seattle, Washington",9,Eliminated,1,3
-US,29,US-S29-jessie-francesca,Jessie & Francesca,,"Howland, Ohio",10,Eliminated,0,2
-US,29,US-S29-kevin-jenn,Kevin & Jenn,,"San Diego, California",11,Eliminated,0,1
+US,29,US-S29-brooke-scott,Brooke & Scott,Strangers (Paired at Starting Line),"Lynbrook, New York",1,Winner,2,12
+US,29,US-S29-tara-joey,Tara & Joey,Strangers (Paired at Starting Line),"Alexandria, Virginia",2,Runner-up,3,12
+US,29,US-S29-london-logan,London & Logan,Strangers (Paired at Starting Line),"New York City, New York",3,Runner-up,0,12
+US,29,US-S29-matt-redmond,Matt & Redmond,Strangers (Paired at Starting Line),"Steamboat Springs, Colorado",4,Eliminated,2,11
+US,29,US-S29-becca-floyd,Becca & Floyd,Strangers (Paired at Starting Line),"Pittsburgh, Pennsylvania",5,Eliminated,2,10
+US,29,US-S29-liz-michael,Liz & Michael,Strangers (Paired at Starting Line),"Maryville, Missouri",6,Eliminated,2,8
+US,29,US-S29-vanck-ashton,Vanck & Ashton,Strangers (Paired at Starting Line),"Saint Paul, Minnesota",7,Eliminated,0,6
+US,29,US-S29-shamir-sara,Shamir & Sara,Strangers (Paired at Starting Line),"Bronx, New York",8,Eliminated,0,4
+US,29,US-S29-seth-olive,Seth & Olive,Strangers (Paired at Starting Line),"Seattle, Washington",9,Eliminated,1,3
+US,29,US-S29-jessie-francesca,Jessie & Francesca,Strangers (Paired at Starting Line),"Howland, Ohio",10,Eliminated,0,2
+US,29,US-S29-kevin-jenn,Kevin & Jenn,Strangers (Paired at Starting Line),"San Diego, California",11,Eliminated,0,1
 US,30,US-S30-cody-jessica,Cody & Jessica,Dating Reality Stars (Team Big Brother ),"Plano, Texas",1,Winner,2,12
 US,30,US-S30-henry-evan,Henry & Evan,Dating Debaters (Team Yale ),"Los Angeles, California",2,Runner-up,2,12
 US,30,US-S30-kristi-jen,Kristi & Jen,Professional Skiers (Team Extreme),"Scottsdale, Arizona",3,Runner-up,2,12
@@ -343,7 +343,7 @@ US,31,US-S31-janelle-britney,Janelle & Britney,Friends (Big Brother),"Lakeville,
 US,31,US-S31-corinne-eliza,Corinne & Eliza,Friends (Survivor),"Denver, Colorado",9,Eliminated,0,4
 US,31,US-S31-rupert-laura,Rupert & Laura,Married (Survivor),"Indianapolis, Indiana",10,Eliminated,0,2
 US,31,US-S31-art-jj,Art & J.J.,Best Friends (The Amazing Race),"Temecula, California",11,Eliminated,0,1
-US,32,US-S32-will-james,Will & James,Boyfriends,"Nederland, Texas",1,Winner,4,12
+US,32,US-S32-will-james,Will & James,Sisters,"Bluffton, South Carolina",1,Winner,4,12
 US,32,US-S32-hung-chee,Hung & Chee,Married Parents,"Houston, Texas",2,Runner-up,2,12
 US,32,US-S32-riley-maddison,Riley & Maddison,Pro Volleyball Brothers,"Honolulu, Hawaii",3,Runner-up,5,12
 US,32,US-S32-deangelo-gary,DeAngelo & Gary,Former NFL Stars,"Charlotte, North Carolina",4,Eliminated,1,11
@@ -379,14 +379,14 @@ US,34,US-S34-tim-rex,Tim & Rex,Golf Buddies,"Brentwood, Tennessee",11,Eliminated
 US,34,US-S34-aastha-nina,Aastha & Nina,Engaged,"Marina del Rey, California",12,Eliminated,0,1
 US,35,US-S35-greg-john,Greg & John,Brothers & Computer Scientists,"New York City, New York",1,Winner,5,12
 US,35,US-S35-joel-garrett,Joel & Garrett,Best Friends,"Kuna, Idaho",2,Runner-up,1,12
-US,35,US-S35-rob-corey,Rob & Corey,Father & Son,"Riverside, California",3,Runner-up,1,12
+US,35,US-S35-rob-corey,Rob & Corey,Childhood Friends,"Kirkland, Washington",3,Runner-up,1,12
 US,35,US-S35-steve-anna-leigh,Steve & Anna Leigh,Father & Daughter,"Petty, Texas",4,Eliminated,2,11
-US,35,US-S35-todd-ashlie,Todd & Ashlie,Married High School Sweethearts,"Chino, California",5,Eliminated,0,10
+US,35,US-S35-todd-ashlie,Todd & Ashlie,Engaged,"New York City, New York",5,Eliminated,0,10
 US,35,US-S35-robbin-chelsea,Robbin & Chelsea,Childhood Friends,"Kirkland, Washington",6,Eliminated,1,9
 US,35,US-S35-morgan-lena,Morgan & Lena,Sisters,"Brooklyn, New York",7,Eliminated,0,8
 US,35,US-S35-andrea-malaina,Andrea & Malaina,College Friends,"Philadelphia, Pennsylvania",8,Eliminated,0,7
 US,35,US-S35-liam-yeremi,Liam & Yeremi,Brothers,"Cheyenne, Wyoming",9,Eliminated,0,6
-US,35,US-S35-joe-ian,Joe & Ian,Engaged,"New York City, New York",10,Eliminated,0,5
+US,35,US-S35-joe-ian,Joe & Ian,Mother & Daughter,"Tampa, Florida",10,Eliminated,0,5
 US,35,US-S35-jocelyn-victor,Jocelyn & Victor,Married Entrepreneurs,"Albuquerque, New Mexico",11,Eliminated,2,4
 US,35,US-S35-elizabeth-iliana,Elizabeth & Iliana,Mother & Daughter,"Tampa, Florida",12,Eliminated,0,2
 US,35,US-S35-alexandra-sheridan,Alexandra & Sheridan,Siblings & Roommates,"Chicago, Illinois",13,Eliminated,0,1

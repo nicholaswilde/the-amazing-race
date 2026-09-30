@@ -1551,7 +1551,7 @@
     {
       "episode": 1,
       "title": "February 14, 2010",
-      "air_date": null,
+      "air_date": "2010-02-14",
       "viewers_millions": 9.07,
       "raw_row": [
         "1",
@@ -1568,7 +1568,7 @@
     {
       "episode": 2,
       "title": "February 21, 2010",
-      "air_date": null,
+      "air_date": "2010-02-21",
       "viewers_millions": 9.11,
       "raw_row": [
         "2",
@@ -1585,7 +1585,7 @@
     {
       "episode": 3,
       "title": "February 28, 2010",
-      "air_date": null,
+      "air_date": "2010-02-28",
       "viewers_millions": 10.24,
       "raw_row": [
         "3",
@@ -1602,7 +1602,7 @@
     {
       "episode": 4,
       "title": "March 7, 2010",
-      "air_date": null,
+      "air_date": "2010-03-07",
       "viewers_millions": 8.05,
       "raw_row": [
         "4",
@@ -1619,7 +1619,7 @@
     {
       "episode": 5,
       "title": "March 14, 2010",
-      "air_date": null,
+      "air_date": "2010-03-14",
       "viewers_millions": 10.1,
       "raw_row": [
         "5",
@@ -1636,7 +1636,7 @@
     {
       "episode": 6,
       "title": "March 21, 2010",
-      "air_date": null,
+      "air_date": "2010-03-21",
       "viewers_millions": 11.99,
       "raw_row": [
         "6",
@@ -1653,7 +1653,7 @@
     {
       "episode": 7,
       "title": "March 28, 2010",
-      "air_date": null,
+      "air_date": "2010-03-28",
       "viewers_millions": 12.73,
       "raw_row": [
         "7",
@@ -1670,7 +1670,7 @@
     {
       "episode": 8,
       "title": "April 4, 2010",
-      "air_date": null,
+      "air_date": "2010-04-04",
       "viewers_millions": 9.14,
       "raw_row": [
         "8",
@@ -1687,7 +1687,7 @@
     {
       "episode": 9,
       "title": "April 11, 2010",
-      "air_date": null,
+      "air_date": "2010-04-11",
       "viewers_millions": 11.88,
       "raw_row": [
         "9",
@@ -1704,7 +1704,7 @@
     {
       "episode": 10,
       "title": "April 25, 2010",
-      "air_date": null,
+      "air_date": "2010-04-25",
       "viewers_millions": 10.69,
       "raw_row": [
         "10",
@@ -1721,7 +1721,7 @@
     {
       "episode": 11,
       "title": "May 2, 2010",
-      "air_date": null,
+      "air_date": "2010-05-02",
       "viewers_millions": 10.29,
       "raw_row": [
         "11",
@@ -1738,7 +1738,7 @@
     {
       "episode": 12,
       "title": "May 9, 2010",
-      "air_date": null,
+      "air_date": "2010-05-09",
       "viewers_millions": 10.63,
       "raw_row": [
         "12",
@@ -1772,7 +1772,7 @@
         "Teams set off from Vista Hermosa Natural Park in Los Angeles, California, and had to travel by public transportation to Los Angeles International Airport, where they booked one of two American Airlines flights to Santiago, Chile. The first three teams received tickets on a flight that would have departed one hour ahead of the second flight, but due to a mechanical failure on the first flight, those three teams were re-booked on the second flight with the other eight teams. After arriving in Santiago, teams had to travel by bus to Valpara\u00edso.",
         "Once in Valpara\u00edso, teams had to travel to Wulff Castle in Vi\u00f1a del Mar and find their next clue, which sent them to Ascensor Villaseca. This task was unaired."
       ],
-      "narrative": "",
+      "narrative": "Teams set off from Vista Hermosa Natural Park in Los Angeles, California, and had to travel by public transportation to Los Angeles International Airport, where they booked one of two American Airlines flights to Santiago, Chile. The first three teams received tickets on a flight that would have departed one hour ahead of the second flight, but due to a mechanical failure on the first flight, those three teams were re-booked on the second flight with the other eight teams. After arriving in Santiago, teams had to travel by bus to Valpara\u00edso. Once in Valpara\u00edso, teams had to travel to Wulff Castle in Vi\u00f1a del Mar and find their next clue, which sent them to Ascensor Villaseca. This task was unaired.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1803,7 +1803,7 @@
         "Puerto Varas (Iglesia del Sagrado Coraz\u00f3n de Jes\u00fas (in Spanish) \u2013 Gruta de la Virgen)",
         "At the start of this leg, teams had to travel by bus back to Santiago before boarding another bus to Puerto Varas. Once there, teams had to drive themselves to the Hotel Petrohu\u00e9 and then take a boat to Isla Margarita on Todos los Santos Lake in order to find their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to travel by bus back to Santiago before boarding another bus to Puerto Varas. Once there, teams had to drive themselves to the Hotel Petrohu\u00e9 and then take a boat to Isla Margarita on Todos los Santos Lake in order to find their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1834,7 +1834,7 @@
         "Neuqu\u00e9n Province (Estancia Fortin Chacabuco)",
         "At the start of this leg, teams were instructed to travel by bus to San Carlos de Bariloche, Argentina. Once there, teams had to drive to El Boliche Viejo in Nahuel Huapi. Teams had to win a game of five-card stud against a Travelocity Roaming Gnome in order to receive the gnome with their next clue on its base, which directed them to the Pe\u00f1a Gaucha. Teams had to keep their gnome with them for the remainder of the leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by bus to San Carlos de Bariloche, Argentina. Once there, teams had to drive to El Boliche Viejo in Nahuel Huapi. Teams had to win a game of five-card stud against a Travelocity Roaming Gnome in order to receive the gnome with their next clue on its base, which directed them to the Pe\u00f1a Gaucha. Teams had to keep their gnome with them for the remainder of the leg.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1874,7 +1874,7 @@
         "After arriving in Hamburg, teams had to travel to the Jungfernstieg. There, teams encountered an Intersection, which required two teams to mutually join together to complete the following task. The teams were paired up thusly: Dan & Jordan and Carol & Brandy, Jet & Cord and Louie & Michael, Brent & Caite and Jordan & Jeff, and Steve & Allie and Joe & Heidi.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Frankfurt, Germany, and then travel by train to Hamburg. After arriving in Hamburg, teams had to travel to the Jungfernstieg. There, teams encountered an Intersection, which required two teams to mutually join together to complete the following task. The teams were paired up thusly: Dan & Jordan and Carol & Brandy, Jet & Cord and Louie & Michael, Brent & Caite and Jordan & Jeff, and Steve & Allie and Joe & Heidi.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1908,7 +1908,7 @@
         "During the Pit Stop, all teams boarded a bus and traveled from Hamburg to an unknown destination (Les Monthairons, France). Teams began the leg at the Ch\u00e2teau des Monthairons and were instructed to purchase a fresh baguette at the Boulangerie Defontaine. Their next clue was baked into the baguette and directed them to La Main de Massiges.",
         "Louie & Michael chose to use the Blind U-Turn on Joe & Heidi."
       ],
-      "narrative": "",
+      "narrative": "During the Pit Stop, all teams boarded a bus and traveled from Hamburg to an unknown destination (Les Monthairons, France). Teams began the leg at the Ch\u00e2teau des Monthairons and were instructed to purchase a fresh baguette at the Boulangerie Defontaine. Their next clue was baked into the baguette and directed them to La Main de Massiges. Louie & Michael chose to use the Blind U-Turn on Joe & Heidi.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -1942,7 +1942,7 @@
         "\u00c9pernay (l'ORCCA \u2013 La Maison Gallice)",
         "At the start of this leg, teams had to drive to the Reims Cathedral and find a woman playing a musical saw, who had their next clue: a cork from a bottle of Leclerc Briant, whose winery was their next destination."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to drive to the Reims Cathedral and find a woman playing a musical saw, who had their next clue: a cork from a bottle of Leclerc Briant, whose winery was their next destination.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1979,7 +1979,7 @@
         "Due to limited availability of flights, teams were provided tickets on the same flight to the Seychelles.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly from Paris to the Seychelles. After arriving in Victoria, teams had to find a marked kiosk in the airport and take a number. The first three teams could then board one of three helicopters leaving at the same time to the island of La Digue, where they found their next clue. The last three teams departed one hour later. Due to limited availability of flights, teams were provided tickets on the same flight to the Seychelles.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2016,7 +2016,7 @@
         "George Town (Pinang Peranakan Mansion)",
         "At the start of this leg, teams were instructed to travel by boat to Victoria, and then fly to George Town, Malaysia. Once there, teams had to travel to the Snake Temple, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by boat to Victoria, and then fly to George Town, Malaysia. Once there, teams had to travel to the Snake Temple, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2056,7 +2056,7 @@
         "At the start of this leg, teams were instructed to travel by bus to Kuala Lumpur and then by train to Singapore. Once there, teams had to travel to the Victoria Theatre and Concert Hall and find Allan Wu, the host of The Amazing Race Asia, who gave them their next clue.",
         "Brent & Caite chose to use the U-Turn on Carol & Brandy."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by bus to Kuala Lumpur and then by train to Singapore. Once there, teams had to travel to the Victoria Theatre and Concert Hall and find Allan Wu, the host of The Amazing Race Asia, who gave them their next clue.",
       "tasks": [
         {
           "task_type": "Fast Forward",
@@ -2096,7 +2096,7 @@
         "He Pingping died about three months after the episode was filmed and one month before it aired. The episode concluded with the message in his memory.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Shanghai, China. Once there, teams had to travel to Zhujiajiao and travel on foot to a boat dock, where they rode a boat to their next clue. He Pingping died about three months after the episode was filmed and one month before it aired. The episode concluded with the message in his memory.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2132,7 +2132,7 @@
         "At the start of this leg, teams were instructed to travel to the Garden Bridge and find their next clue.",
         "Bao Xishun, the world's tallest man at the time, was the Pit Stop greeter in this leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel to the Garden Bridge and find their next clue. Bao Xishun, the world's tallest man at the time, was the Pit Stop greeter in this leg.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -2177,7 +2177,7 @@
         "Teams had to carry a trunk from the Tonga Room to their next location: the Great American Music Hall. Once there, teams opened their trunk, which contained eight psychedelic posters of the eliminated teams and three posters for the non-elimination legs. Teams had to arrange the posters in chronological order in order to receive their final clue.",
         "The final clue was a portion of the \"Jack Be Nimble\" nursery rhyme; teams had to figure out that the missing word \"candlestick\" referred to the location of the finish line: Candlestick Park."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to San Francisco, California. Once there, teams had to travel to Battery Godfrey in Fort Point in order to receive their next clue, which was a riddle: \"I was built in 1933. I'm 210 feet tall. My insides are lined with mural from 26 different artists. What am I?\". Teams had to figure out that their next destination was Coit Tower. Teams had to carry a trunk from the Tonga Room to their next location: the Great American Music Hall. Once there, teams opened their trunk, which contained eight psychedelic posters of the eliminated teams and three posters for the non-elimination legs. Teams had to arrange the posters in chronological order in order to receive their final clue. The final clue was a portion of the \"Jack Be Nimble\" nursery rhyme; teams had to figure out that the missing word \"candlestick\" referred to the location of the finish line: Candlestick Park.",
       "tasks": [
         {
           "task_type": "Roadblock",

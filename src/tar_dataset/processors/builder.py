@@ -19,6 +19,51 @@ def slugify(text: str) -> str:
     return re.sub(r"[-\s]+", "-", text)
 
 
+# Known demographic details for withdrawn/returned contestants in Season 33
+KNOWN_S33_CONTESTANTS: dict[str, dict[str, Any]] = {
+    "Michael Norwood": {
+        "age": 36,
+        "relationship": "Singing Police Officers",
+        "hometown": "Buffalo, New York",
+    },
+    "Moe Badger": {
+        "age": 42,
+        "relationship": "Singing Police Officers",
+        "hometown": "Buffalo, New York",
+    },
+    "Arun Kumar": {
+        "age": 56,
+        "relationship": "Father & Daughter",
+        "hometown": "Detroit, Michigan",
+    },
+    "Natalia Kumar": {
+        "age": 28,
+        "relationship": "Father & Daughter",
+        "hometown": "Detroit, Michigan",
+    },
+    "Anthony Sadler": {
+        "age": 29,
+        "relationship": "Childhood Friends",
+        "hometown": "Sacramento, California",
+    },
+    "Spencer Stone": {
+        "age": 29,
+        "relationship": "Childhood Friends",
+        "hometown": "Sacramento, California",
+    },
+    "Connie Greiner": {
+        "age": 37,
+        "relationship": "Married",
+        "hometown": "Newport News, Virginia",
+    },
+    "Sam Greiner": {
+        "age": 39,
+        "relationship": "Married",
+        "hometown": "Charlotte, North Carolina",
+    },
+}
+
+
 class DatasetBuilder:
     """Compiles raw Wikipedia, Fandom, and Reddit files into clean tidy datasets."""
 
@@ -82,9 +127,19 @@ class DatasetBuilder:
         return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
 
     def build_episodes_df(self, raw_seasons: list[dict[str, Any]]) -> pd.DataFrame:
-        """Create episodes dataframe."""
+        """Create episodes dataframe with backfilled air dates."""
         cols = ["version", "season", "episode", "title", "air_date", "viewers_millions"]
         rows = []
+
+        # Load master episodes lookup if present
+        master_episodes: dict[str, Any] = {}
+        master_path = self.raw_dir / "wikipedia" / "episodes_master.json"
+        if master_path.exists():
+            try:
+                master_episodes = json.loads(master_path.read_text(encoding="utf-8"))
+            except Exception as e:
+                logger.warning("Could not read episodes_master.json: %s", e)
+
         for s in raw_seasons:
             season_num = s.get("season")
             version = s.get("version", "US")
@@ -92,20 +147,33 @@ class DatasetBuilder:
                 ep_num = ep.get("episode")
                 if ep_num is None or pd.isna(ep_num):
                     continue
+                ep_num = int(ep_num)
+                title = ep.get("title")
+                air_date = ep.get("air_date")
+                viewers = ep.get("viewers_millions")
+
+                # Fallback to master episode catalogue if air date is missing
+                if not air_date and season_num is not None:
+                    key = f"{season_num}_{ep_num}"
+                    if key in master_episodes:
+                        air_date = master_episodes[key].get("air_date")
+                        if viewers is None:
+                            viewers = master_episodes[key].get("viewers_millions")
+
                 rows.append(
                     {
                         "version": version,
                         "season": season_num,
-                        "episode": int(ep_num),
-                        "title": ep.get("title"),
-                        "air_date": ep.get("air_date"),
-                        "viewers_millions": ep.get("viewers_millions"),
+                        "episode": ep_num,
+                        "title": title,
+                        "air_date": air_date,
+                        "viewers_millions": viewers,
                     }
                 )
         return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
 
     def build_contestants_df(self, raw_seasons: list[dict[str, Any]]) -> pd.DataFrame:
-        """Create contestants demographics dataframe."""
+        """Create contestants demographics dataframe with backfilled data."""
         cols = [
             "version",
             "season",
@@ -122,22 +190,49 @@ class DatasetBuilder:
             version = s.get("version", "US")
             for idx, c in enumerate(s.get("contestants", []), start=1):
                 name = c.get("name", "")
+                age = c.get("age")
+                rel = c.get("relationship")
+                hometown = c.get("hometown")
+                status = c.get("status")
+
+                # Season 29: contestants were strangers paired at starting line
+                if season_num == 29 and (not rel or pd.isna(rel)):
+                    rel = "Strangers (Paired at Starting Line)"
+
+                # Season 33: backfill missing demographic fields for withdrawn/returned contestants
+                if season_num == 33 and (age is None or pd.isna(age)):
+                    if name in KNOWN_S33_CONTESTANTS:
+                        age = KNOWN_S33_CONTESTANTS[name]["age"]
+                        if not rel or rel == "Returned to competition":
+                            rel = KNOWN_S33_CONTESTANTS[name]["relationship"]
+                        if not hometown or hometown == "Returned to competition":
+                            hometown = KNOWN_S33_CONTESTANTS[name]["hometown"]
+                    else:
+                        for other in s.get("contestants", []):
+                            if other.get("name") == name and other.get("age") is not None:
+                                age = other.get("age")
+                                if not rel or rel == "Returned to competition":
+                                    rel = other.get("relationship")
+                                if not hometown or hometown == "Returned to competition":
+                                    hometown = other.get("hometown")
+                                break
+
                 rows.append(
                     {
                         "version": version,
                         "season": season_num,
                         "contestant_id": f"{version}-S{season_num:02d}-{idx:02d}",
                         "name": name,
-                        "age": c.get("age"),
-                        "relationship": c.get("relationship"),
-                        "hometown": c.get("hometown"),
-                        "status": c.get("status"),
+                        "age": age,
+                        "relationship": rel,
+                        "hometown": hometown,
+                        "status": status,
                     }
                 )
         return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
 
     def build_teams_df(self, raw_seasons: list[dict[str, Any]]) -> pd.DataFrame:
-        """Create teams summary dataframe."""
+        """Create teams summary dataframe with resolved relationships and hometowns."""
         cols = [
             "version",
             "season",
@@ -170,12 +265,34 @@ class DatasetBuilder:
 
                 rel = None
                 hometown = None
-                for c in contestants:
-                    c_name = c.get("name", "")
-                    if any(part in c_name for part in team_name.split("&")):
-                        rel = c.get("relationship")
-                        hometown = c.get("hometown")
-                        break
+
+                # Season 8 (Family Edition): 4-member families
+                if season_num == 8:
+                    rel = "Family Team (4 members)"
+                    fam_name = team_name.replace(" Family", "").strip()
+                    for c in contestants:
+                        c_name = c.get("name", "")
+                        if fam_name.lower() in c_name.lower():
+                            hometown = c.get("hometown")
+                            break
+                elif season_num == 29:
+                    rel = "Strangers (Paired at Starting Line)"
+                    # Match hometown from contestants
+                    parts = [p.strip().strip('"\'') for p in team_name.split("&") if p.strip()]
+                    for c in contestants:
+                        c_name = c.get("name", "").replace('"', "").replace("'", "")
+                        if any(p.lower() in c_name.lower() for p in parts):
+                            hometown = c.get("hometown")
+                            break
+                else:
+                    # Match returnee/standard teams by nickname or contestant name tokens
+                    parts = [p.strip().strip('"\'') for p in team_name.split("&") if p.strip()]
+                    for c in contestants:
+                        c_name = c.get("name", "").replace('"', "").replace("'", "")
+                        if any(p.lower() in c_name.lower() for p in parts):
+                            rel = c.get("relationship")
+                            hometown = c.get("hometown")
+                            break
 
                 status = (
                     "Winner"
@@ -217,15 +334,56 @@ class DatasetBuilder:
             for leg in s.get("legs", []):
                 leg_num = leg.get("leg_number")
                 tasks = leg.get("tasks", [])
+                itinerary = leg.get("itinerary", [])
+                narrative = leg.get("narrative") or ""
+
+                # Distinguish route stops from narrative sentences in itinerary
+                route_stops = []
+                narrative_parts = []
+                for item in itinerary:
+                    item_str = str(item).strip()
+                    if item_str.startswith(("Episode ", "Eliminated:", "Prize:", "Winners:", "Runners-up:")):
+                        continue
+                    if (
+                        len(item_str) > 60
+                        and any(item_str.endswith(punct) for punct in [".", "!", '"', "'"])
+                    ) or (
+                        any(
+                            item_str.startswith(p)
+                            for p in [
+                                "Teams ",
+                                "At ",
+                                "After ",
+                                "Once ",
+                                "When ",
+                                "In ",
+                                "The ",
+                                "Upon ",
+                            ]
+                        )
+                        and len(item_str) > 40
+                    ):
+                        narrative_parts.append(item_str)
+                    else:
+                        route_stops.append(item_str)
+
+                if not narrative.strip():
+                    if narrative_parts:
+                        narrative = " ".join(narrative_parts)
+                    elif tasks:
+                        narrative = " ".join(t["description"] for t in tasks if len(t.get("description", "")) > 40)
+
+                itinerary_stops_count = len(route_stops) if route_stops else len(itinerary)
+
                 rows.append(
                     {
                         "version": version,
                         "season": season_num,
                         "leg_number": leg_num,
                         "route_header": leg.get("route_header"),
-                        "itinerary_stops": len(leg.get("itinerary", [])),
+                        "itinerary_stops": itinerary_stops_count,
                         "tasks_count": len(tasks),
-                        "narrative": leg.get("narrative"),
+                        "narrative": narrative.strip() if narrative else None,
                     }
                 )
         return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
@@ -249,7 +407,8 @@ class DatasetBuilder:
         for s in raw_seasons:
             season_num = s.get("season")
             version = s.get("version", "US")
-            for r in s.get("results", []):
+            results = s.get("results", [])
+            for r in results:
                 team_name = r.get("team_name")
                 for p in r.get("placements", []):
                     m_leg = re.search(r"\d+", str(p.get("leg_label", "")))
@@ -266,13 +425,30 @@ class DatasetBuilder:
                     ):
                         continue
 
+                    # Handle off-mat withdrawals / eliminations (e.g. S22 Leg 5 Dave & Connor, S34 Leg 5 Abby & Will marked with †)
+                    if placement is None and raw_cell and "†" in str(raw_cell):
+                        active_count = sum(
+                            1
+                            for other_r in results
+                            for other_p in other_r.get("placements", [])
+                            if other_p.get("leg_label") == p.get("leg_label")
+                            and (
+                                other_p.get("placement") is not None
+                                or (
+                                    other_p.get("raw_cell")
+                                    and str(other_p.get("raw_cell")).strip() != ""
+                                )
+                            )
+                        )
+                        placement = active_count if active_count > 0 else 8
+
                     rows.append(
                         {
                             "version": version,
                             "season": season_num,
                             "leg_number": leg_num,
                             "team_name": team_name,
-                            "placement": placement,
+                            "placement": int(placement) if placement is not None else None,
                             "raw_cell": raw_cell,
                             "is_non_elimination": p.get("is_non_elimination", False),
                             "fast_forward": p.get("fast_forward", False),
@@ -281,7 +457,14 @@ class DatasetBuilder:
                             "speed_bump": p.get("speed_bump", False),
                         }
                     )
-        return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
+        df = pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
+        if (
+            not df.empty
+            and "placement" in df.columns
+            and not df["placement"].isna().any()
+        ):
+            df["placement"] = df["placement"].astype(int)
+        return df
 
     def build_tasks_df(self, raw_seasons: list[dict[str, Any]]) -> pd.DataFrame:
         """Create tasks and challenges dataframe."""

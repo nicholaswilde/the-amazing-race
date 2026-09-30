@@ -1551,7 +1551,7 @@
     {
       "episode": 1,
       "title": "February 17, 2013",
-      "air_date": null,
+      "air_date": "2013-02-17",
       "viewers_millions": 9.57,
       "raw_row": [
         "1",
@@ -1570,7 +1570,7 @@
     {
       "episode": 2,
       "title": "February 24, 2013",
-      "air_date": null,
+      "air_date": "2013-02-24",
       "viewers_millions": 6.95,
       "raw_row": [
         "2",
@@ -1589,7 +1589,7 @@
     {
       "episode": 3,
       "title": "March 3, 2013",
-      "air_date": null,
+      "air_date": "2013-03-03",
       "viewers_millions": 9.24,
       "raw_row": [
         "3",
@@ -1608,7 +1608,7 @@
     {
       "episode": 4,
       "title": "March 10, 2013",
-      "air_date": null,
+      "air_date": "2013-03-10",
       "viewers_millions": 9.27,
       "raw_row": [
         "4",
@@ -1627,7 +1627,7 @@
     {
       "episode": 5,
       "title": "March 17, 2013",
-      "air_date": null,
+      "air_date": "2013-03-17",
       "viewers_millions": 8.91,
       "raw_row": [
         "5",
@@ -1646,7 +1646,7 @@
     {
       "episode": 6,
       "title": "March 24, 2013",
-      "air_date": null,
+      "air_date": "2013-03-24",
       "viewers_millions": 9.33,
       "raw_row": [
         "6",
@@ -1665,7 +1665,7 @@
     {
       "episode": 7,
       "title": "March 31, 2013",
-      "air_date": null,
+      "air_date": "2013-03-31",
       "viewers_millions": 9.24,
       "raw_row": [
         "7",
@@ -1684,7 +1684,7 @@
     {
       "episode": 8,
       "title": "April 14, 2013",
-      "air_date": null,
+      "air_date": "2013-04-14",
       "viewers_millions": 9.76,
       "raw_row": [
         "8",
@@ -1703,7 +1703,7 @@
     {
       "episode": 9,
       "title": "April 21, 2013",
-      "air_date": null,
+      "air_date": "2013-04-21",
       "viewers_millions": 9.16,
       "raw_row": [
         "9",
@@ -1722,7 +1722,7 @@
     {
       "episode": 10,
       "title": "April 28, 2013",
-      "air_date": null,
+      "air_date": "2013-04-28",
       "viewers_millions": 9.32,
       "raw_row": [
         "10",
@@ -1741,7 +1741,7 @@
     {
       "episode": 11,
       "title": "May 5, 2013",
-      "air_date": null,
+      "air_date": "2013-05-05",
       "viewers_millions": 9.1,
       "raw_row": [
         "11",
@@ -1772,7 +1772,7 @@
         "Motu Piti A'au (Motu Caf\u00e9)",
         "Teams set off from the Griffith Observatory and drove to Los Angeles International Airport, where they had to book one of two flights to the island of Bora Bora in French Polynesia. The first five teams arrived on the first flight one hour before the remaining six teams on the second flight. Once there, teams found their next clue outside the Bora Bora Airport."
       ],
-      "narrative": "",
+      "narrative": "Teams set off from the Griffith Observatory and drove to Los Angeles International Airport, where they had to book one of two flights to the island of Bora Bora in French Polynesia. The first five teams arrived on the first flight one hour before the remaining six teams on the second flight. Once there, teams found their next clue outside the Bora Bora Airport.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1810,7 +1810,7 @@
         "At the start of this leg, teams had to board a water taxi and travel to the Hilton Bora Bora Nui, where teams had to search for a wedding chapel and find a Polynesian priest, who gave them a traditional blessing and their next clue.",
         "Dave tore his Achilles tendon near the end of this leg while running to the Pit Stop."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to board a water taxi and travel to the Hilton Bora Bora Nui, where teams had to search for a wedding chapel and find a Polynesian priest, who gave them a traditional blessing and their next clue. Dave tore his Achilles tendon near the end of this leg while running to the Pit Stop.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1842,7 +1842,7 @@
         "All teams had to connect through Papeete, Tahiti, on their way to New Zealand. After arriving in Tahiti, Dave & Connor went to a local hospital, where Dave discovered that he had torn both his Achilles tendon and the connecting muscle. Dave & Connor purchased a boot for Dave's leg and they then returned to the airport to continue the race.",
         "No team was eliminated at the end of this leg; all teams were instead instructed to continue racing."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by water taxi back to Motu Mute and then fly to Christchurch, New Zealand. Once there, teams had to drive to the Rakaia River Gorge, where they had to choose a departure time the next day and then set up a camp for the night. At their designated time, teams had to choose a boat and navigate the river to find their next clue. All teams had to connect through Papeete, Tahiti, on their way to New Zealand. After arriving in Tahiti, Dave & Connor went to a local hospital, where Dave discovered that he had torn both his Achilles tendon and the connecting muscle. Dave & Connor purchased a boot for Dave's leg and they then returned to the airport to continue the race. No team was eliminated at the end of this leg; all teams were instead instructed to continue racing.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1873,7 +1873,7 @@
         "Pecatu (Pura Luhur Uluwatu Cliff)",
         "At the start of this leg, teams were instructed to fly to Denpasar, Indonesia, on the island of Bali. Once there, teams had to travel to the Ubud Monkey Forest and leave a coconut, which contained a canister with their next clue inside, for a monkey to open."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Denpasar, Indonesia, on the island of Bali. Once there, teams had to travel to the Ubud Monkey Forest and leave a coconut, which contained a canister with their next clue inside, for a monkey to open.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1907,7 +1907,7 @@
         "Dave & Connor chose to withdraw from the race at the start of the leg and went directly to the Pit Stop after arriving in Hanoi. There was no additional elimination at the end of this leg.",
         "This leg featured a Double U-Turn. Pam & Winnie chose to use the U-Turn on Joey & Meghan, while Joey & Meghan chose to use the U-Turn on Chuck & Wynona."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Hanoi, Vietnam. Once there, teams had to travel to the R\u1ea1p C\u00f4ng Nh\u00e2n Theater Gallery 42 in order to find their next clue. Dave & Connor chose to withdraw from the race at the start of the leg and went directly to the Pit Stop after arriving in Hanoi. There was no additional elimination at the end of this leg. This leg featured a Double U-Turn. Pam & Winnie chose to use the U-Turn on Joey & Meghan, while Joey & Meghan chose to use the U-Turn on Chuck & Wynona.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1945,7 +1945,7 @@
         "Before leaving Vietnam, teams had to travel to the Hair of the Dog bar, where they received their next clue from a dancer. This task was unaired.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were simply instructed to travel to Maun, and they had to figure out that the city was in Botswana. They had to identify the country to a security guard at Hapro Travel before they could enter to purchase their tickets. Once in Maun, teams had to find the Mack Air office, sign up for one of four charter flights to the Makgadikgadi Pans National Park, and retrieve their next clue at the Xhumaga Airstrip. Teams then had to drive down Old Xhumaga Road to their next clue. Before leaving Vietnam, teams had to travel to the Hair of the Dog bar, where they received their next clue from a dancer. This task was unaired.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1978,7 +1978,7 @@
         "At the start of this leg, teams had to return to Maun and find the Makoro Polling Station.",
         "Max and Jennifer were both issued speeding tickets by the Botswana Police Service. Botswanan law required that tickets be paid before the end of the day, so both teams had to pay their fines before they could continue racing."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to return to Maun and find the Makoro Polling Station. Max and Jennifer were both issued speeding tickets by the Botswana Police Service. Botswanan law required that tickets be paid before the end of the day, so both teams had to pay their fines before they could continue racing.",
       "tasks": [
         {
           "task_type": "Fast Forward",
@@ -2028,7 +2028,7 @@
         "Grindelwald (Bodmi Snowboard and Ski School)",
         "At the start of this leg, teams were instructed to fly to Z\u00fcrich, Switzerland. At the Z\u00fcrich Airport, teams had to search for a conductor in a red hat, who handed them their next clue, which directed teams to travel by train to Grindelwald. Once there, teams had to wait at Kirche Grindelwald for an Alpine shepherd, who delivered them their next clue. Teams were instructed to travel by train to Kleine Scheidegg. At the Hotel Bellevue des Alpes, teams had to pick up a \"Swiss rescue companion\": a St. Bernard. Teams then had to travel with the dog to the Jungfraujoch and deliver the dog to a mountain rescue guide. They were then allowed to search the Sphinx Observatory for their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Z\u00fcrich, Switzerland. At the Z\u00fcrich Airport, teams had to search for a conductor in a red hat, who handed them their next clue, which directed teams to travel by train to Grindelwald. Once there, teams had to wait at Kirche Grindelwald for an Alpine shepherd, who delivered them their next clue. Teams were instructed to travel by train to Kleine Scheidegg. At the Hotel Bellevue des Alpes, teams had to pick up a \"Swiss rescue companion\": a St. Bernard. Teams then had to travel with the dog to the Jungfraujoch and deliver the dog to a mountain rescue guide. They were then allowed to search the Sphinx Observatory for their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2058,7 +2058,7 @@
         "At the start of this leg, teams were instructed to travel by train to Basel and then fly to Dresden, Germany. At the Saxon State Ministry of Finance in Dresden, teams had to answer three questions in order to receive their next destination: 1) Who said \"Tear down this wall!\"? (Ronald Reagan); 2) Who did he say it to? (Mikhail Gorbachev); and 3) Where did President Reagan say it? (the Brandenburg Gate in Berlin). After finding their next clue at the Brandenburg Gate, teams were directed to the Park Inn Berlin, where both teams members had to perform a BASE jump from the roof in order to receive their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by train to Basel and then fly to Dresden, Germany. At the Saxon State Ministry of Finance in Dresden, teams had to answer three questions in order to receive their next destination: 1) Who said \"Tear down this wall!\"? (Ronald Reagan); 2) Who did he say it to? (Mikhail Gorbachev); and 3) Where did President Reagan say it? (the Brandenburg Gate in Berlin). After finding their next clue at the Brandenburg Gate, teams were directed to the Park Inn Berlin, where both teams members had to perform a BASE jump from the roof in order to receive their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2092,7 +2092,7 @@
         "At the start of this leg, teams were instructed to fly to Edinburgh, Scotland. Once there, teams had to drive themselves to Gosford House in Longniddry, where they found their next clue.",
         "This leg featured a Double U-Turn. Bates & Anthony chose to use the U-Turn on Joey & Meghan, while Max & Katie chose to use the U-Turn on Mona & Beth."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Edinburgh, Scotland. Once there, teams had to drive themselves to Gosford House in Longniddry, where they found their next clue. This leg featured a Double U-Turn. Bates & Anthony chose to use the U-Turn on Joey & Meghan, while Max & Katie chose to use the U-Turn on Mona & Beth.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2133,7 +2133,7 @@
         "Belfast (Ulster Hall)",
         "At the start of this leg, teams were instructed to travel by train to Stranraer and then by ferry to Belfast, Northern Ireland. Once there, teams had to travel on foot to the All-Route Shipping Warehouse and then drive to Peatlands Park in order to find their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by train to Stranraer and then by ferry to Belfast, Northern Ireland. Once there, teams had to travel on foot to the All-Route Shipping Warehouse and then drive to Peatlands Park in order to find their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2178,7 +2178,7 @@
         "At Nationals Park, after the team member on the ground caught the ball, they had to toss the ball to a pitcher, who pitched it to a batter, who then hit it into the outfield. The team member on the ground had to retrieve the ball before reuniting with their partner. This aspect of the task was unaired.",
         "Legs 11 and 12 aired back-to-back as a special two-hour episode."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by ferry to Birkenhead, England, and then by train to London. Once there, teams had to travel to the Euston Tap, where they each had to order a pint of beer before they were given their next clue, which instructed them to fly to Washington, D.C. After arriving in Washington, D.C., teams had to find the location where Martin Luther King Jr. gave his \"I Have a Dream\" speech: the steps of the Lincoln Memorial. Teams were directed to 1100 Pennsylvania Avenue, where they were escorted by \"Secret Service agents\" who told them that they were to have their photograph taken with President Barack Obama. They were taken to a souvenir photography studio where they posed for a photograph in which their face was superimposed meeting President Obama with their next clue printed on the back. Teams then traveled to the Tidal Basin, where they had to search for a marked car near the paddleboat docks. After knocking on the rear window, the car's occupant gave them a briefcase along with their next clue. At Nationals Park, after the team member on the ground caught the ball, they had to toss the ball to a pitcher, who pitched it to a batter, who then hit it into the outfield. The team member on the ground had to retrieve the ball before reuniting with their partner. This aspect of the task was unaired. Legs 11 and 12 aired back-to-back as a special two-hour episode.",
       "tasks": [
         {
           "task_type": "Roadblock",

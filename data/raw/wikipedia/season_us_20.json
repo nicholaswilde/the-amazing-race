@@ -1570,7 +1570,7 @@
     {
       "episode": 1,
       "title": "February 19, 2012",
-      "air_date": null,
+      "air_date": "2012-02-19",
       "viewers_millions": 10.34,
       "raw_row": [
         "1",
@@ -1589,7 +1589,7 @@
     {
       "episode": 2,
       "title": "February 26, 2012",
-      "air_date": null,
+      "air_date": "2012-02-26",
       "viewers_millions": 7.71,
       "raw_row": [
         "2",
@@ -1608,7 +1608,7 @@
     {
       "episode": 3,
       "title": "March 4, 2012",
-      "air_date": null,
+      "air_date": "2012-03-04",
       "viewers_millions": 10.3,
       "raw_row": [
         "3",
@@ -1627,7 +1627,7 @@
     {
       "episode": 4,
       "title": "March 11, 2012",
-      "air_date": null,
+      "air_date": "2012-03-11",
       "viewers_millions": 9.65,
       "raw_row": [
         "4",
@@ -1646,7 +1646,7 @@
     {
       "episode": 5,
       "title": "March 18, 2012",
-      "air_date": null,
+      "air_date": "2012-03-18",
       "viewers_millions": 9.54,
       "raw_row": [
         "5",
@@ -1665,7 +1665,7 @@
     {
       "episode": 6,
       "title": "March 25, 2012",
-      "air_date": null,
+      "air_date": "2012-03-25",
       "viewers_millions": 9.35,
       "raw_row": [
         "6",
@@ -1684,7 +1684,7 @@
     {
       "episode": 7,
       "title": "April 8, 2012",
-      "air_date": null,
+      "air_date": "2012-04-08",
       "viewers_millions": 9.18,
       "raw_row": [
         "7",
@@ -1703,7 +1703,7 @@
     {
       "episode": 8,
       "title": "April 15, 2012",
-      "air_date": null,
+      "air_date": "2012-04-15",
       "viewers_millions": 9.12,
       "raw_row": [
         "8",
@@ -1722,7 +1722,7 @@
     {
       "episode": 9,
       "title": "April 22, 2012",
-      "air_date": null,
+      "air_date": "2012-04-22",
       "viewers_millions": 9.14,
       "raw_row": [
         "9",
@@ -1741,7 +1741,7 @@
     {
       "episode": 10,
       "title": "April 29, 2012",
-      "air_date": null,
+      "air_date": "2012-04-29",
       "viewers_millions": 8.6,
       "raw_row": [
         "10",
@@ -1760,7 +1760,7 @@
     {
       "episode": 11,
       "title": "May 6, 2012",
-      "air_date": null,
+      "air_date": "2012-05-06",
       "viewers_millions": 9.4,
       "raw_row": [
         "11",
@@ -1792,7 +1792,7 @@
         "Cafayate (Patios de Cafayate)",
         "At the Bridlewood Estate Winery in Santa Ynez, California, teams had to search through 100 balloons with baskets for one of eleven balloons which contained their first clue, instructing them to fly to Salta, Argentina. Teams drove to Los Angeles International Airport and had to book tickets on one of two flights to Salta. Once there, teams had to drive to Santa B\u00e1rbara in order to find their next clue, which directed them to Aerodromo Gilberto Lavaque."
       ],
-      "narrative": "",
+      "narrative": "At the Bridlewood Estate Winery in Santa Ynez, California, teams had to search through 100 balloons with baskets for one of eleven balloons which contained their first clue, instructing them to fly to Salta, Argentina. Teams drove to Los Angeles International Airport and had to book tickets on one of two flights to Salta. Once there, teams had to drive to Santa B\u00e1rbara in order to find their next clue, which directed them to Aerodromo Gilberto Lavaque.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1818,7 +1818,7 @@
         "Buenos Aires (Plaza Intendente Alvear \u2013 El Gomero)",
         "At the start of this leg, teams had to drive to the Cafayate Town Square, where they had to wait for a chasqui, who gave them their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to drive to the Cafayate Town Square, where they had to wait for a chasqui, who gave them their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1854,7 +1854,7 @@
         "At the start of this leg, teams were instructed to fly to Asunci\u00f3n, Paraguay. Once there, teams had to travel to Metal\u00fargica Punta de Rieles, where they had to search the metal equipment yard for their next clue.",
         "Paraguayan beauty queen Fiorella Migliore appeared as the Pit Stop greeter on this leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Asunci\u00f3n, Paraguay. Once there, teams had to travel to Metal\u00fargica Punta de Rieles, where they had to search the metal equipment yard for their next clue. Paraguayan beauty queen Fiorella Migliore appeared as the Pit Stop greeter on this leg.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1895,7 +1895,7 @@
         "Art & J.J. chose to split their $10,000 prize with Bopper & Mark.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Turin, Italy. Once there, teams had to drive to Lingotto in order to find their next clue. Art & J.J. chose to split their $10,000 prize with Bopper & Mark.",
       "tasks": [
         {
           "task_type": "Fast Forward",
@@ -1935,7 +1935,7 @@
         "Schwangau-Horn (Landhannes Farm)",
         "At the start of this leg, teams were instructed to travel by train to Ehrwald, Austria, and then drive to Garmisch-Partenkirchen, Germany. Teams had to search the Gasthof zum Rassen for a Travelocity Roaming Gnome, which had their next clue on its base, and they had to carry for the remainder of the leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by train to Ehrwald, Austria, and then drive to Garmisch-Partenkirchen, Germany. Teams had to search the Gasthof zum Rassen for a Travelocity Roaming Gnome, which had their next clue on its base, and they had to carry for the remainder of the leg.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -1972,7 +1972,7 @@
         "Baku (Boulevard Esplanade Estakada)",
         "At the start of this leg, teams were instructed to fly to Baku, Azerbaijan. Once there, teams had to travel to the Temple Ateshgah, where they found their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Baku, Azerbaijan. Once there, teams had to travel to the Temple Ateshgah, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Fast Forward",
@@ -2015,7 +2015,7 @@
         "At the start of this leg, teams were instructed to fly to Kilimanjaro, Tanzania. Once there, teams had to go to the airstrip in Arusha and sign up for one of three charter flights the next morning to the Ngorongoro Crater. After landing at the Ngorongoro Airstrip, teams found their next clue instructing them to choose a driver and safari vehicle and then travel to the western edge of the Ngorongoro Crater, where a Maasai warrior gave them their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Kilimanjaro, Tanzania. Once there, teams had to go to the airstrip in Arusha and sign up for one of three charter flights the next morning to the Ngorongoro Crater. After landing at the Ngorongoro Airstrip, teams found their next clue instructing them to choose a driver and safari vehicle and then travel to the western edge of the Ngorongoro Crater, where a Maasai warrior gave them their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2045,7 +2045,7 @@
         "From The Gem Gallery & Arts, teams had to travel to Margaret's Farm in Mto wa Mbu in order to find their next clue.",
         "This leg featured a Double U-Turn. Art & J.J. chose to use the U-Turn on Brendon & Rachel, while Brendon & Rachel chose to use the U-Turn on Vanessa & Ralph."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were driven down from the Ngorongoro Crater to Karatu, where they had to find their next clue at a roadside stand called \"Hillary Clington\". From The Gem Gallery & Arts, teams had to travel to Margaret's Farm in Mto wa Mbu in order to find their next clue. This leg featured a Double U-Turn. Art & J.J. chose to use the U-Turn on Brendon & Rachel, while Brendon & Rachel chose to use the U-Turn on Vanessa & Ralph.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2080,7 +2080,7 @@
         "At the start of this leg, teams were instructed to fly to Kochi, India. Once there, teams had to travel by bus to Sacred Heart College in Thevara, where they found their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Kochi, India. Once there, teams had to travel by bus to Sacred Heart College in Thevara, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2115,7 +2115,7 @@
         "Vypin (Cheena Vala Fishing Nets)",
         "At the start of this leg, teams had to travel to Daiva Vili Bhagvathi Kshetram in Chandiroor, where the head priest blessed them before giving them their next clue, which directed them to Pattanacaud Coir Mats and Matting in Pattanakkad."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to travel to Daiva Vili Bhagvathi Kshetram in Chandiroor, where the head priest blessed them before giving them their next clue, which directed them to Pattanacaud Coir Mats and Matting in Pattanakkad.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -2165,7 +2165,7 @@
         "Osaka (Osaka Castle)",
         "At the start of this leg, teams were instructed to fly to Hiroshima, Japan. Once there, teams traveled to the Itsukushima Shrine in Miyajima and had to wait at the torii for their next clue, which was given to them by a farmer at sunrise the next day. Teams then traveled to the Hiroshima Peace Memorial, where they observed a memorial service honoring the victims of the atomic bombing of Hiroshima before they were given their next clue. Teams then had to travel by bullet train to Osaka and find their next clue at the TV 8 Studio."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Hiroshima, Japan. Once there, teams traveled to the Itsukushima Shrine in Miyajima and had to wait at the torii for their next clue, which was given to them by a farmer at sunrise the next day. Teams then traveled to the Hiroshima Peace Memorial, where they observed a memorial service honoring the victims of the atomic bombing of Hiroshima before they were given their next clue. Teams then had to travel by bullet train to Osaka and find their next clue at the TV 8 Studio.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2204,7 +2204,7 @@
         "At the start of this leg, teams were instructed to fly to Honolulu, Hawaii. Once there, teams were only told to find the twins known as \"Mauka\" and \"Makai\", which they had to figure out were the twin One Waterfront Towers, in order to find their next clue. Teams had to use mechanical ascenders to get to the top of the Makai Tower and search for a large Amazing Race flag from the top of the tower. They then had to rappel face-first down the other side of the tower to the ground and travel to the flag on Sand Island in order to find their next clue.",
         "Legs 11 and 12 aired back-to-back as a special two-hour episode."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Honolulu, Hawaii. Once there, teams were only told to find the twins known as \"Mauka\" and \"Makai\", which they had to figure out were the twin One Waterfront Towers, in order to find their next clue. Teams had to use mechanical ascenders to get to the top of the Makai Tower and search for a large Amazing Race flag from the top of the tower. They then had to rappel face-first down the other side of the tower to the ground and travel to the flag on Sand Island in order to find their next clue. Legs 11 and 12 aired back-to-back as a special two-hour episode.",
       "tasks": [
         {
           "task_type": "Roadblock",

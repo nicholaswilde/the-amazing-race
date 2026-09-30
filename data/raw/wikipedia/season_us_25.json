@@ -1551,7 +1551,7 @@
     {
       "episode": 1,
       "title": "Go Big or Go Home",
-      "air_date": null,
+      "air_date": "2014-09-26",
       "viewers_millions": 5.48,
       "raw_row": [
         "1",
@@ -1570,7 +1570,7 @@
     {
       "episode": 2,
       "title": "When You Gotta Go, You Gotta Go",
-      "air_date": null,
+      "air_date": "2014-10-03",
       "viewers_millions": 6.08,
       "raw_row": [
         "2",
@@ -1589,7 +1589,7 @@
     {
       "episode": 3,
       "title": "Get Your Sheep Together",
-      "air_date": null,
+      "air_date": "2014-10-10",
       "viewers_millions": 5.89,
       "raw_row": [
         "3",
@@ -1608,7 +1608,7 @@
     {
       "episode": 4,
       "title": "Thinly Sliced Anchovies",
-      "air_date": null,
+      "air_date": "2014-10-17",
       "viewers_millions": 6.57,
       "raw_row": [
         "4",
@@ -1627,7 +1627,7 @@
     {
       "episode": 5,
       "title": "Morocc'and Roll",
-      "air_date": null,
+      "air_date": "2014-10-24",
       "viewers_millions": 5.51,
       "raw_row": [
         "5",
@@ -1646,7 +1646,7 @@
     {
       "episode": 6,
       "title": "I Feel Like I Just Kissed a Goat",
-      "air_date": null,
+      "air_date": "2014-10-31",
       "viewers_millions": 5.89,
       "raw_row": [
         "6",
@@ -1665,7 +1665,7 @@
     {
       "episode": 7,
       "title": "Pretty Fly For a Food Scientist",
-      "air_date": null,
+      "air_date": "2014-11-07",
       "viewers_millions": 6.05,
       "raw_row": [
         "7",
@@ -1684,7 +1684,7 @@
     {
       "episode": 8,
       "title": "Hot Sexy Knights",
-      "air_date": null,
+      "air_date": "2014-11-21",
       "viewers_millions": 5.95,
       "raw_row": [
         "8",
@@ -1703,7 +1703,7 @@
     {
       "episode": 9,
       "title": "You're Taking My Tan Off",
-      "air_date": null,
+      "air_date": "2014-11-28",
       "viewers_millions": 5.42,
       "raw_row": [
         "9",
@@ -1722,7 +1722,7 @@
     {
       "episode": 10,
       "title": "Smells Like Dirty Tube Socks",
-      "air_date": null,
+      "air_date": "2014-12-05",
       "viewers_millions": 6.22,
       "raw_row": [
         "10",
@@ -1741,7 +1741,7 @@
     {
       "episode": 11,
       "title": "Hooping It Up",
-      "air_date": null,
+      "air_date": "2014-12-12",
       "viewers_millions": 5.99,
       "raw_row": [
         "11",
@@ -1760,7 +1760,7 @@
     {
       "episode": 12,
       "title": "All or Nothing",
-      "air_date": null,
+      "air_date": "2014-12-19",
       "viewers_millions": 6.59,
       "raw_row": [
         "12",
@@ -1799,7 +1799,7 @@
         "After landing on Lovango Cay, teams found their next clue, which instructed them to travel by boat to Carval Rock and climb up and along its length. At the end of the islet, teams jumped into the Caribbean Sea and then swam to a series of floating bottles that held their next clue. Teams then traveled by boat to Hans Lollik Island, where they boarded Blackbeard's Revenge. Teams were greeted by a Blackbeard impersonator, who gave them their next clue directing them to pull themselves to shore in a rowboat.",
         "Frank Mesa, who had competed in season 1, appeared at the starting line, where he directed teams to the Unisphere when they asked the audience for help in finding the location of their next clue."
       ],
-      "narrative": "",
+      "narrative": "At Duffy Square, teams were told to travel to the location of the finish line from the first season of The Amazing Race, which they had to figure out was the Unisphere at Flushing Meadows\u2013Corona Park. There, they found their next clue, which instructed them to book one of two flight to the island of Saint Thomas in the U.S. Virgin Islands. Once there, teams had to travel to Vendor's Plaza in Charlotte Amalie and sign up for one of six chartered seaplane flights to Lovango Cay. After landing on Lovango Cay, teams found their next clue, which instructed them to travel by boat to Carval Rock and climb up and along its length. At the end of the islet, teams jumped into the Caribbean Sea and then swam to a series of floating bottles that held their next clue. Teams then traveled by boat to Hans Lollik Island, where they boarded Blackbeard's Revenge. Teams were greeted by a Blackbeard impersonator, who gave them their next clue directing them to pull themselves to shore in a rowboat. Frank Mesa, who had competed in season 1, appeared at the starting line, where he directed teams to the Unisphere when they asked the audience for help in finding the location of their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1834,7 +1834,7 @@
         "At the start of this leg, teams were instructed to fly to London, England. Once there, teams had to travel to Tower Bridge and find the Pearly King and Queen, who gave them their next clue.",
         "The clue also instructed teams to open their umbrellas for a chance at finding the Express Pass by searching for the oldest pub in Oxford \u2013 the Bear Inn \u2013 rather than heading directly to the Pit Stop. Adam & Bethany obtained the Express Pass."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to London, England. Once there, teams had to travel to Tower Bridge and find the Pearly King and Queen, who gave them their next clue. The clue also instructed teams to open their umbrellas for a chance at finding the Express Pass by searching for the oldest pub in Oxford \u2013 the Bear Inn \u2013 rather than heading directly to the Pit Stop. Adam & Bethany obtained the Express Pass.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1864,7 +1864,7 @@
         "St Ninian's Isle (Tombolo)",
         "At the start of this leg, teams were instructed to travel by train to Aberdeen, Scotland, drive to the ferry terminal, and then travel by ferry to the Shetland Islands. After docking, teams had to drive to the Royal National Lifeboat Station and search for a puffin mascot, who gave them their next clue. Teams then drove to Scalloway Castle, where they had to search the castle grounds for a knight and a Scottish Deerhound guarding a room that held their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by train to Aberdeen, Scotland, drive to the ferry terminal, and then travel by ferry to the Shetland Islands. After docking, teams had to drive to the Royal National Lifeboat Station and search for a puffin mascot, who gave them their next clue. Teams then drove to Scalloway Castle, where they had to search the castle grounds for a knight and a Scottish Deerhound guarding a room that held their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1892,7 +1892,7 @@
         "At the start of this leg, teams had to return by ferry to Aberdeen and then fly to Copenhagen, Denmark. Once there, teams had to search the airport for a marked car with their next clue, which instructed them to drive across the \u00d8resund Bridge to Malm\u00f6, Sweden. If teams used less than 0.10 US gallons (0.38 L) of gasoline, they were automatically given their next clue. If teams used more than 0.10 US gallons (0.38 L), they had to answer a Scandinavian geography question before receiving their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to return by ferry to Aberdeen and then fly to Copenhagen, Denmark. Once there, teams had to search the airport for a marked car with their next clue, which instructed them to drive across the \u00d8resund Bridge to Malm\u00f6, Sweden. If teams used less than 0.10 US gallons (0.38 L) of gasoline, they were automatically given their next clue. If teams used more than 0.10 US gallons (0.38 L), they had to answer a Scandinavian geography question before receiving their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -1927,7 +1927,7 @@
         "At the start of this leg, teams were instructed to fly to Marrakesh, Morocco. Once there, teams had to travel to Jemaa el-Fnaa, find the food cart garage, bring a cart to the marketplace, and set up the cart to the satisfaction of the cart owner before receiving their next clue, which directed them to the Bab Debbagh Tannery.",
         "Shelley & Nici chose to use the U-Turn on Keith & Whitney. In an unaired scene, Keith & Whitney chose to use the U-Turn on Amy & Maya; however, they had already passed the U-Turn and were therefore unaffected."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Marrakesh, Morocco. Once there, teams had to travel to Jemaa el-Fnaa, find the food cart garage, bring a cart to the marketplace, and set up the cart to the satisfaction of the cart owner before receiving their next clue, which directed them to the Bab Debbagh Tannery. Shelley & Nici chose to use the U-Turn on Keith & Whitney. In an unaired scene, Keith & Whitney chose to use the U-Turn on Amy & Maya; however, they had already passed the U-Turn and were therefore unaffected.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -1967,7 +1967,7 @@
         "Hajar (Casbah d'If)",
         "At the start of this leg, teams were instructed to search for a feed station at El Massi, pick up two bags of hay, and then deliver them to a horse stable across town. They then picked a horse-drawn carriage that took them back into the center of Marrakesh and had to feed their horses an apple before they were given their next clue. Then, from the Koutoubia Mosque, teams had to drive to the Abdessadek Boufoulouss pottery stand in Amizmiz and search for their next clue hidden amongst the pots."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to search for a feed station at El Massi, pick up two bags of hay, and then deliver them to a horse stable across town. They then picked a horse-drawn carriage that took them back into the center of Marrakesh and had to feed their horses an apple before they were given their next clue. Then, from the Koutoubia Mosque, teams had to drive to the Abdessadek Boufoulouss pottery stand in Amizmiz and search for their next clue hidden amongst the pots.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2005,7 +2005,7 @@
         "Palermo mayor Leoluca Orlando appeared as the Pit Stop greeter outside the mayoral headquarters at Villa Niscemi.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Palermo on the island of Sicily. Once there, teams found a series of tambourines marked with one of three departure times the next morning at the Teatro di Verdura. Teams then had to travel to Villa Costanza, which had their next clue. Phil Keoghan announced that this was The Amazing Race's 300th leg. Palermo mayor Leoluca Orlando appeared as the Pit Stop greeter outside the mayoral headquarters at Villa Niscemi.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2039,7 +2039,7 @@
         "G\u017cira (Manoel Island \u2013 Fort Manoel)",
         "At the start of this leg, teams were instructed to travel by ferry to Valletta, Malta. Once there, teams were given a drink order at the Bridge Bar and had to carry the order on a tray up Saint Ursula Street's staircase to a group of the Knights of Malta at the Upper Barrakka Gardens in exchange for receive their next clue. If racers dropped anything along the way, they had to clean up the mess before the bartender replaced their broken items. Teams were then directed to the boathouse at the \u017burrieq Valley Sea Inlet, where they found a series of Maltese cross necklaces with departure times the next morning."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to travel by ferry to Valletta, Malta. Once there, teams were given a drink order at the Bridge Bar and had to carry the order on a tray up Saint Ursula Street's staircase to a group of the Knights of Malta at the Upper Barrakka Gardens in exchange for receive their next clue. If racers dropped anything along the way, they had to clean up the mess before the bartender replaced their broken items. Teams were then directed to the boathouse at the \u017burrieq Valley Sea Inlet, where they found a series of Maltese cross necklaces with departure times the next morning.",
       "tasks": [
         {
           "task_type": "Roadblock",
@@ -2084,7 +2084,7 @@
         "Teams were given tickets on a pre-arranged flight to Paris, France, but were under no obligation to use them.",
         "Melody Chen from The Amazing Race Asia 1 was the Pit Stop greeter on this leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Singapore. Once there, teams took a bumboat to Pulau Ubin, where they had to find a coconut stand and drink the coconut water before receiving their next clue. Teams were given tickets on a pre-arranged flight to Paris, France, but were under no obligation to use them. Melody Chen from The Amazing Race Asia 1 was the Pit Stop greeter on this leg.",
       "tasks": [
         {
           "task_type": "Fast Forward",
@@ -2130,7 +2130,7 @@
         "At the start of this leg, teams were instructed to fly to Manila, Philippines. Once there, teams had to pick up their clue from the flower vendor at Baclaran Church the next morning. This clue instructed teams to then travel by jeepney to Salinas Specials at Rosario Municipal Plaza, where they found their next clue.",
         "This was a non-elimination leg."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams were instructed to fly to Manila, Philippines. Once there, teams had to pick up their clue from the flower vendor at Baclaran Church the next morning. This clue instructed teams to then travel by jeepney to Salinas Specials at Rosario Municipal Plaza, where they found their next clue.",
       "tasks": [
         {
           "task_type": "Detour",
@@ -2156,7 +2156,7 @@
         "At the start of this leg, teams had to travel by jeepney to Rajah Sulayman Park in Manila, which had their next clue.",
         "There was no elimination at the end of this leg; all teams were instead instructed to continue racing."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, teams had to travel by jeepney to Rajah Sulayman Park in Manila, which had their next clue. There was no elimination at the end of this leg; all teams were instead instructed to continue racing.",
       "tasks": [
         {
           "task_type": "Speed Bump",
@@ -2194,7 +2194,7 @@
         "Rancho Palos Verdes (Point Vicente Lighthouse)",
         "At the start of this leg, Phil Keoghan gave teams a manila envelope along with their clue, which instructed them to travel to the \"City of Angels\": Los Angeles. At the airport, teams had to find a marked vehicle and use its voice control feature to listen to their next clue, which directed them to drive to Los Angeles City Hall. There, teams met the city's film clerk, who stamped the filming permit in their manila envelope and directed them to the Southwest Marine Warehouse, where they had to hand the permit to an assistant director in exchange for their next clue."
       ],
-      "narrative": "",
+      "narrative": "At the start of this leg, Phil Keoghan gave teams a manila envelope along with their clue, which instructed them to travel to the \"City of Angels\": Los Angeles. At the airport, teams had to find a marked vehicle and use its voice control feature to listen to their next clue, which directed them to drive to Los Angeles City Hall. There, teams met the city's film clerk, who stamped the filming permit in their manila envelope and directed them to the Southwest Marine Warehouse, where they had to hand the permit to an assistant director in exchange for their next clue.",
       "tasks": [
         {
           "task_type": "Roadblock",
