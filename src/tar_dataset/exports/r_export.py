@@ -6,7 +6,9 @@ and maintains the companion R data package structure in r/.
 
 from __future__ import annotations
 
+import gzip
 import logging
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -155,6 +157,34 @@ TABLE_DOCUMENTATION = {
 }
 
 
+def _write_deterministic_rds(path: Path, df: pd.DataFrame) -> None:
+    """Write an RDS file with deterministic gzip compression (mtime=0)."""
+    with tempfile.NamedTemporaryFile(suffix=".rds", delete=False) as tmp:
+        tmp_path = Path(tmp.name)
+    try:
+        pyreadr.write_rds(tmp_path, df)
+        raw_bytes = tmp_path.read_bytes()
+        compressed = gzip.compress(raw_bytes, compresslevel=9, mtime=0)
+        path.write_bytes(compressed)
+    finally:
+        if tmp_path.exists():
+            tmp_path.unlink()
+
+
+def _write_deterministic_rdata(path: Path, df: pd.DataFrame, df_name: str) -> None:
+    """Write an RDA file with deterministic gzip compression (mtime=0)."""
+    with tempfile.NamedTemporaryFile(suffix=".rda", delete=False) as tmp:
+        tmp_path = Path(tmp.name)
+    try:
+        pyreadr.write_rdata(tmp_path, df, df_name=df_name)
+        raw_bytes = tmp_path.read_bytes()
+        compressed = gzip.compress(raw_bytes, compresslevel=9, mtime=0)
+        path.write_bytes(compressed)
+    finally:
+        if tmp_path.exists():
+            tmp_path.unlink()
+
+
 class RExporter:
     """Exports processed TAR datasets into .rds and .rda files and maintains companion R package."""
 
@@ -217,7 +247,7 @@ class RExporter:
         for table_name in TABLES:
             df = self.load_table(table_name)
             out_path = self.r_output_dir / f"{table_name}.rds"
-            pyreadr.write_rds(out_path, df, compress="gzip", compresslevel=9)
+            _write_deterministic_rds(out_path, df)
             results[table_name] = out_path
             logger.info("Exported RDS table: %s (%d rows)", out_path, len(df))
 
@@ -236,15 +266,11 @@ class RExporter:
 
             # Export to R package data directory
             pkg_out = pkg_data_dir / f"{table_name}.rda"
-            pyreadr.write_rdata(
-                pkg_out, df, df_name=table_name, compress="gzip", compresslevel=9
-            )
+            _write_deterministic_rdata(pkg_out, df, df_name=table_name)
 
             # Also mirror into data/processed/r/
             mirror_out = self.r_output_dir / f"{table_name}.rda"
-            pyreadr.write_rdata(
-                mirror_out, df, df_name=table_name, compress="gzip", compresslevel=9
-            )
+            _write_deterministic_rdata(mirror_out, df, df_name=table_name)
 
             results[table_name] = pkg_out
             logger.info("Exported RDA table: %s (%d rows)", pkg_out, len(df))
