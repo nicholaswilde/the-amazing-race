@@ -10,6 +10,11 @@ on:
         description: 'Release version tag (e.g. v0.1.0; leave blank to use pyproject.toml)'
         required: false
         type: string
+      draft:
+        description: 'Create as draft release'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   release:
@@ -63,8 +68,13 @@ jobs:
             VERSION=$(python3 -c "import re, pathlib; print(re.search(r'version\s*=\s*\"([^\"]+)\"', pathlib.Path('pyproject.toml').read_text()).group(1))")
             TAG="v${VERSION}"
           fi
+          DRAFT="${{ github.event.inputs.draft }}"
+          if [ -z "$DRAFT" ]; then
+            DRAFT="true"
+          fi
           echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
           echo "version=${TAG#v}" >> "$GITHUB_OUTPUT"
+          echo "draft=${DRAFT}" >> "$GITHUB_OUTPUT"
 
       - name: Build Segmented Release Packages
         run: |
@@ -81,7 +91,8 @@ jobs:
             dist/release/*.whl
             dist/release/checksums.txt
           generate_release_notes: true
-          draft: false
+          draft: ${{ steps.vars.outputs.draft == 'true' }}
           prerelease: ${{ contains(steps.vars.outputs.tag, '-rc') || contains(steps.vars.outputs.tag, '-beta') || contains(steps.vars.outputs.tag, '-alpha') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
