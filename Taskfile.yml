@@ -29,6 +29,7 @@ tasks:
     cmds:
       - task: build
       - task: export:arrow
+      - task: export:r
       - task: export:ai
       - task: eval:benchmark
       - task: check
@@ -116,6 +117,11 @@ tasks:
     desc: Export tables to Apache Arrow IPC files and HuggingFace Datasets layouts
     cmds:
       - uv run tar-dataset export-arrow
+
+  export:r:
+    desc: Export datasets to native R formats (.rds, .rda) and companion R package (r/)
+    cmds:
+      - uv run tar-dataset export-r
 
   eval:benchmark:
     desc: Run evaluation on The Amazing Race AI benchmark suite

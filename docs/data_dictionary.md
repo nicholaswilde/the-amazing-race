@@ -277,3 +277,23 @@ ra = (
 )
 print(ra.head(10))
 ```
+
+#### R Query Example
+```r
+library(theamazingrace)
+library(dplyr)
+
+data(leg_results)
+
+ra <- leg_results |>
+  group_by(version, season, team_name) |>
+  summarize(
+    legs_raced = n(),
+    racing_average = round(mean(placement, na.rm = TRUE), 2),
+    .groups = "drop"
+  ) |>
+  filter(legs_raced >= 10) |>
+  arrange(racing_average)
+
+print(head(ra, 10))
+```
