@@ -7,6 +7,9 @@ A comprehensive tidy dataset and AI training corpus for the CBS reality competit
 
 Inspired by [doehm/alone](https://github.com/doehm/alone), this repository provides structured, relational datasets in tidy format (available in both **CSV** and **Apache Parquet**) alongside JSONL corpora designed for **LLM fine-tuning, RAG (Retrieval-Augmented Generation), and pre-training**.
 
+> [!WARNING]
+> This project is currently in a `v0.X.X` development stage. Features and configurations are subject to change, and breaking changes may be introduced at any time.
+
 ---
 
 ## :card_index_dividers: Architecture & Dataset Schema
@@ -303,6 +306,30 @@ task test
 # Run all quality checks (lint, format-check, tests, and dataset validation)
 task check
 ```
+
+---
+
+## :books: Sources & References
+
+This dataset synthesizes information from encyclopedic records, fan community databases, and discussion forums:
+
+### 1. Primary Encyclopedic Records
+- **[Wikipedia - The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series))**: Primary source for official season broadcast dates, episode titles, Nielsen television viewership ratings, contestant demographics, route itineraries, and elimination results matrices across US and international editions.
+- **[The Amazing Race Fandom Wiki](https://amazingrace.fandom.com/)**: Detailed challenge descriptions, clue transcriptions, route marker locations, Detour options, Roadblock performers, Speed Bumps, Fast Forwards, and racer background trivia.
+
+### 2. Fan Discussions & Commentary
+- **[r/TheAmazingRace Subreddit](https://www.reddit.com/r/TheAmazingRace/)**: Source for episodic reaction threads, live discussions, post-episode analysis, and contestant AMA archives used in AI conversational training datasets.
+
+### 3. Community Spreadsheets & Tracking Databases
+- **[wavesei Comprehensive TAR Spreadsheet](https://docs.google.com/spreadsheets/d/1fiPwfl9fVSzrZbYn8IwbRWpV_5OUPl2A/edit)**: Challenge-by-challenge breakdowns, detour selections, roadblock tracking, finishing positions, leg-by-leg outcomes, and COVID-era season mechanics.
+- **[TAR Statistics](https://docs.google.com/spreadsheets/d/1UEZRVYLCDnWjBhrDWxRar_dvUrkgcsqP1CREOkHHSc4/edit)**: Historical statistics covering US and international franchises, age gap vs. placement, gender performance metrics, returning racer records, top-3 relative ranks, and racing averages.
+- **[The Amazing Race Placement Database](https://docs.google.com/spreadsheets/d/1jjp3mq4uTThVx3IArUE-wOktGKO_zsr3KWfefGPLM8Q/edit)**: Relational tables of seasons, teams, racers, legs, and placements across global franchises.
+
+### 4. Architectural & Schema Inspiration
+- **[doehm/alone](https://github.com/doehm/alone)**: Reference package architecture for tidy TV survival and reality show datasets in R and Parquet.
+- **[doehm/survivoR](https://github.com/doehm/survivoR)**: Design principles for game show statistics and survival analytics.
+
+---
 
 ## :balance_scale: License
 
