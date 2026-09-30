@@ -95,6 +95,10 @@ class ReleasePackager:
             if data_dict.exists():
                 zf.write(data_dict, arcname="data_dictionary.md")
 
+            gaps_file = self.docs_dir / "dataset_gaps.md"
+            if gaps_file.exists():
+                zf.write(gaps_file, arcname="dataset_gaps.md")
+
             license_file = self.repo_root / "LICENSE"
             if license_file.exists():
                 zf.write(license_file, arcname="LICENSE")
@@ -121,9 +125,17 @@ class ReleasePackager:
             if data_dict.exists():
                 zf.write(data_dict, arcname="data_dictionary.md")
 
+            gaps_file = self.docs_dir / "dataset_gaps.md"
+            if gaps_file.exists():
+                zf.write(gaps_file, arcname="dataset_gaps.md")
+
             license_file = self.repo_root / "LICENSE"
             if license_file.exists():
                 zf.write(license_file, arcname="LICENSE")
+
+            readme_file = self.repo_root / "README.md"
+            if readme_file.exists():
+                zf.write(readme_file, arcname="README.md")
 
         return target_path
 
@@ -144,6 +156,18 @@ class ReleasePackager:
                 if f_path.exists():
                     zf.write(f_path, arcname=f"ai/{file_name}")
 
+            ai_readme = self.ai_dir / "README.md"
+            if ai_readme.exists():
+                zf.write(ai_readme, arcname="README.md")
+            else:
+                readme_file = self.repo_root / "README.md"
+                if readme_file.exists():
+                    zf.write(readme_file, arcname="README.md")
+
+            data_dict = self.docs_dir / "data_dictionary.md"
+            if data_dict.exists():
+                zf.write(data_dict, arcname="data_dictionary.md")
+
             license_file = self.repo_root / "LICENSE"
             if license_file.exists():
                 zf.write(license_file, arcname="LICENSE")
@@ -162,9 +186,18 @@ class ReleasePackager:
 
         with zipfile.ZipFile(target_path, "w", zipfile.ZIP_DEFLATED) as zf:
             zf.write(db_path, arcname="tar.db")
+
+            data_dict = self.docs_dir / "data_dictionary.md"
+            if data_dict.exists():
+                zf.write(data_dict, arcname="data_dictionary.md")
+
             license_file = self.repo_root / "LICENSE"
             if license_file.exists():
                 zf.write(license_file, arcname="LICENSE")
+
+            readme_file = self.repo_root / "README.md"
+            if readme_file.exists():
+                zf.write(readme_file, arcname="README.md")
 
         return target_path
 
@@ -224,6 +257,11 @@ class ReleasePackager:
                     arcname = Path(pkg_name) / rel_root / file
                     tf.add(file_path, arcname=str(arcname))
 
+            # Ensure LICENSE is included in the package root
+            license_file = self.repo_root / "LICENSE"
+            if license_file.exists() and not (self.r_dir / "LICENSE").exists():
+                tf.add(license_file, arcname=f"{pkg_name}/LICENSE")
+
         return target_path
 
     def package_python(self) -> list[Path]:
@@ -248,6 +286,46 @@ class ReleasePackager:
             logger.warning("uv build failed: %s", e)
 
         return built_files
+
+    def generate_manifest(self) -> Path:
+        """Generate manifest.json with asset metadata, sizes, and SHA-256 hashes."""
+        import json
+        from datetime import UTC, datetime
+
+        manifest_file = self.output_dir / "manifest.json"
+        files = sorted(
+            [
+                f
+                for f in self.output_dir.iterdir()
+                if f.is_file()
+                and f.name not in ["checksums.txt", "manifest.json"]
+                and not f.name.startswith(".")
+            ]
+        )
+        assets = []
+        for file_path in files:
+            hasher = hashlib.sha256()
+            with open(file_path, "rb") as f:
+                while chunk := f.read(65536):
+                    hasher.update(chunk)
+            assets.append(
+                {
+                    "name": file_path.name,
+                    "size_bytes": file_path.stat().st_size,
+                    "sha256": hasher.hexdigest(),
+                }
+            )
+
+        data = {
+            "version": self.clean_version,
+            "tag": self.tag_version,
+            "generated_at": datetime.now(UTC).isoformat(),
+            "asset_count": len(assets),
+            "assets": assets,
+        }
+        manifest_file.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+        logger.info("Generated release manifest: %s", manifest_file)
+        return manifest_file
 
     def generate_checksums(self) -> Path:
         """Generate SHA-256 checksums file for all release assets in output_dir."""
@@ -277,7 +355,7 @@ class ReleasePackager:
         return checksum_file
 
     def package_all(self) -> dict[str, Any]:
-        """Package all release assets and generate checksums."""
+        """Package all release assets, manifest, and checksums."""
         results: dict[str, Any] = {}
         results["csv"] = self.package_csv()
         results["parquet"] = self.package_parquet()
@@ -287,6 +365,7 @@ class ReleasePackager:
             results["sqlite"] = sqlite_pkg
         results["r"] = self.package_r()
         results["python"] = self.package_python()
+        results["manifest"] = self.generate_manifest()
         results["checksums"] = self.generate_checksums()
         return results
 

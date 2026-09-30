@@ -90,6 +90,7 @@ jobs:
             dist/release/*.tar.gz
             dist/release/*.whl
             dist/release/checksums.txt
+            dist/release/manifest.json
           generate_release_notes: true
           draft: ${{ steps.vars.outputs.draft == 'true' }}
           prerelease: ${{ contains(steps.vars.outputs.tag, '-rc') || contains(steps.vars.outputs.tag, '-beta') || contains(steps.vars.outputs.tag, '-alpha') }}

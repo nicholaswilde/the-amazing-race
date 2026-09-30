@@ -57,6 +57,7 @@ def test_release_packager_all(tmp_path: Path) -> None:
         assert "csv/seasons.csv" in names
         assert "data_dictionary.md" in names
         assert "LICENSE" in names
+        assert "README.md" in names
 
     # Check Parquet bundle
     assert "parquet" in results
@@ -65,6 +66,9 @@ def test_release_packager_all(tmp_path: Path) -> None:
     with zipfile.ZipFile(parquet_zip, "r") as zf:
         names = zf.namelist()
         assert "parquet/seasons.parquet" in names
+        assert "data_dictionary.md" in names
+        assert "LICENSE" in names
+        assert "README.md" in names
 
     # Check AI bundle
     assert "ai" in results
@@ -73,17 +77,43 @@ def test_release_packager_all(tmp_path: Path) -> None:
     with zipfile.ZipFile(ai_zip, "r") as zf:
         names = zf.namelist()
         assert "ai/tar_qa_finetuning.jsonl" in names
+        assert "README.md" in names
+        assert "data_dictionary.md" in names
+        assert "LICENSE" in names
 
     # Check SQLite bundle
     if (Path("data/processed") / "tar.db").exists():
         assert "sqlite" in results
         assert results["sqlite"].exists()
+        with zipfile.ZipFile(results["sqlite"], "r") as zf:
+            names = zf.namelist()
+            assert "tar.db" in names
+            assert "data_dictionary.md" in names
+            assert "LICENSE" in names
+            assert "README.md" in names
 
     # Check R bundle
     assert "r" in results
     r_pkg = results["r"]
     assert r_pkg.exists()
     assert r_pkg.name == "theamazingrace_0.2.0.tar.gz"
+    import tarfile
+
+    with tarfile.open(r_pkg, "r:gz") as tf:
+        r_names = tf.getnames()
+        assert any(n.endswith("LICENSE") for n in r_names)
+        assert any(n.endswith("README.md") for n in r_names)
+
+    # Check Manifest
+    assert "manifest" in results
+    manifest_file = results["manifest"]
+    assert manifest_file.exists()
+    import json
+
+    manifest_data = json.loads(manifest_file.read_text(encoding="utf-8"))
+    assert manifest_data["version"] == "0.2.0"
+    assert manifest_data["tag"] == "v0.2.0"
+    assert len(manifest_data["assets"]) > 0
 
     # Check Checksums
     assert "checksums" in results
@@ -92,6 +122,7 @@ def test_release_packager_all(tmp_path: Path) -> None:
     chk_content = chk_file.read_text(encoding="utf-8")
     assert "tar-dataset-csv-v0.2.0.zip" in chk_content
     assert "theamazingrace_0.2.0.tar.gz" in chk_content
+    assert "manifest.json" in chk_content
 
     # Verify checksum matches
     hasher = hashlib.sha256()
