@@ -18,17 +18,17 @@ The dataset is partitioned into clean relational tables adhering to tidy data pr
 > **Comprehensive Documentation**: See the [Data Dictionary & Schema Reference](docs/data_dictionary.md) for complete column descriptions, primary/foreign keys, and Entity-Relationship diagrams across all 7 tables.  
 > **Interactive Notebook**: Check out [`notebooks/tar_exploration.ipynb`](notebooks/tar_exploration.ipynb) for a reference starter guide covering racing averages, route maps, and data analysis.
 
-All processed tables are provided in **CSV**, **Apache Parquet**, and **Apache Arrow IPC** (`data/processed/arrow/`), alongside a unified **SQLite** relational database (`data/processed/tar.db`) for zero-dependency SQL querying.
+All processed tables are provided in **CSV**, **Apache Parquet**, **Apache Arrow IPC** (`data/processed/arrow/`), and native **R** formats (`.rds` and `.rda` in `data/processed/r/`), alongside a unified **SQLite** relational database (`data/processed/tar.db`) for zero-dependency SQL querying.
 
 | Dataset | Formats | Description |
 | :--- | :--- | :--- |
-| **`seasons`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Season-level summary: franchise country (`version`), season number, winner names, total legs, teams count, route distance (miles & km), filming dates, and broadcast dates. |
-| **`episodes`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Episode broadcast metadata, titles (racer quotes), air dates, and Nielsen television viewership ratings (millions). |
-| **`contestants`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Individual racer demographics: unique `contestant_id`, full name, age, relationship, hometown, and final finish status. |
-| **`teams`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Team-level profiles: `team_id`, member pairing, relationship type, final standing/placement, legs won, and total legs completed. |
-| **`legs`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Leg itineraries: origin and destination countries/cities, number of route stops, challenge count, and full narrative summary. |
-| **`leg_results`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Granular leg finish placements for every team: placement rank (1st, 2nd, etc.), Non-Elimination Leg (NEL) saves, Fast Forward usage, U-Turns, and Speed Bumps. |
-| **`tasks`** | `.csv`, `.parquet`, `.arrow`, `tar.db` | Detailed challenges: Detours, Roadblocks, Route Info, Speed Bumps, and Fast Forwards with full task descriptions. |
+| **`seasons`** | `.csv`, `.parquet`, `.arrow`, `.rds`, `.rda`, `tar.db` | Season-level summary: franchise country (`version`), season number, winner names, total legs, teams count, route distance (miles & km), filming dates, and broadcast dates. |
+| **`episodes`** | `.csv`, `.parquet`, `.arrow`, `.rds`, `.rda`, `tar.db` | Episode broadcast metadata, titles (racer quotes), air dates, and Nielsen television viewership ratings (millions). |
+| **`contestants`** | `.csv`, `.parquet`, `.arrow`, `.rds`, `.rda`, `tar.db` | Individual racer demographics: unique `contestant_id`, full name, age, relationship, hometown, and final finish status. |
+| **`teams`** | `.csv`, `.parquet`, `.arrow`, `.rds`, `.rda`, `tar.db` | Team-level profiles: `team_id`, member pairing, relationship type, final standing/placement, legs won, and total legs completed. |
+| **`legs`** | `.csv`, `.parquet`, `.arrow`, `.rds`, `.rda`, `tar.db` | Leg itineraries: origin and destination countries/cities, number of route stops, challenge count, and full narrative summary. |
+| **`leg_results`** | `.csv`, `.parquet`, `.arrow`, `.rds`, `.rda`, `tar.db` | Granular leg finish placements for every team: placement rank (1st, 2nd, etc.), Non-Elimination Leg (NEL) saves, Fast Forward usage, U-Turns, and Speed Bumps. |
+| **`tasks`** | `.csv`, `.parquet`, `.arrow`, `.rds`, `.rda`, `tar.db` | Detailed challenges: Detours, Roadblocks, Route Info, Speed Bumps, and Fast Forwards with full task descriptions. |
 
 ### AI Training Corpora & Benchmarks (`data/ai/`)
 
@@ -38,6 +38,26 @@ All processed tables are provided in **CSV**, **Apache Parquet**, and **Apache A
 | **`tar_knowledge_corpus.jsonl`** | JSONL | RAG / Embeddings / Pre-training | Structured narrative documents with metadata (season, leg, route) suitable for vector database retrieval and context injection. |
 | **`tar_benchmark_suite.jsonl`** | JSONL | Evaluation & Benchmarking | 45 curated evaluation benchmark questions with rubrics, scoring trivia, rules comprehension, and route accuracy. |
 | **`huggingface/`** | Arrow Datasets | HF `datasets` Direct Loading | Ready-to-load HuggingFace Datasets disk bundles for high-throughput training. |
+
+### Companion R Data Package (`r/`)
+
+A companion R package, **`theamazingrace`**, is located in the [`r/`](r/) directory, providing instant access to all 7 tidy datasets following the conventions of reality TV data packages (`alone`, `survivoR`, `bakeoff`):
+
+```r
+# Install development version directly from GitHub:
+remotes::install_github("nicholaswilde/the-amazing-race/r")
+
+# Load library and datasets:
+library(theamazingrace)
+data(seasons)
+data(episodes)
+```
+
+Direct high-performance columnar reading in R without loading package `.rda` objects is also supported via `{arrow}`:
+```r
+library(arrow)
+seasons <- read_parquet("data/processed/seasons.parquet")
+```
 
 ---
 
@@ -84,6 +104,7 @@ task pipeline         # Full end-to-end rebuild: build, export all formats, eval
 task build            # Compile raw data into tidy CSV + Parquet + SQLite tables
 task export:sqlite    # Export unified SQLite bundle (tar.db)
 task export:arrow     # Export Apache Arrow IPC files and HuggingFace datasets
+task export:r         # Export native R datasets (.rds, .rda) and companion package (r/)
 task export:ai        # Export fine-tuning and RAG JSONL corpora
 task eval:benchmark   # Evaluate 45 curated AI benchmark questions
 task validate         # Verify dataset schema and relational integrity
@@ -183,7 +204,15 @@ uv run tar-dataset export-arrow
 task export:arrow
 ```
 
-### 10. Evaluate AI Benchmark Suite
+### 10. Export Native R Datasets & Companion Package (.rds, .rda)
+Exports compressed `.rds` files to `data/processed/r/`, `.rda` objects to `r/data/`, and generates roxygen2 documentation:
+```bash
+uv run tar-dataset export-r
+# or via task:
+task export:r
+```
+
+### 11. Evaluate AI Benchmark Suite
 Scores LLM trivia, rules comprehension, and route accuracy against 45 curated prompts:
 ```bash
 uv run tar-dataset eval-benchmark
@@ -191,7 +220,7 @@ uv run tar-dataset eval-benchmark
 task eval:benchmark
 ```
 
-### 11. Inspect Seasons, Teams, and Racers in the Terminal
+### 12. Inspect Seasons, Teams, and Racers in the Terminal
 Interactively inspect details, routes, and statistics with Rich terminal formatting:
 ```bash
 # Inspect Season overview, legs itinerary, and leaderboard
@@ -207,12 +236,12 @@ uv run tar-dataset show racer "Rob Frisbee"
 uv run tar-dataset show leg 1 --season 1
 ```
 
-### 12. View Dataset Statistics
+### 13. View Dataset Statistics
 ```bash
 uv run tar-dataset stats
 ```
 
-### 13. Audit Dataset Gaps & Missingness
+### 14. Audit Dataset Gaps & Missingness
 Identifies null cells, season-level missingness, and column completeness rates:
 ```bash
 # Run full completeness audit across all 7 tables

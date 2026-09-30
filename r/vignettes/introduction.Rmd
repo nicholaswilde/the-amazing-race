@@ -1,0 +1,86 @@
+---
+title: "Introduction to theamazingrace"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to theamazingrace}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Overview
+
+The `theamazingrace` package provides tidy datasets for the multi-Emmy award-winning television series **The Amazing Race** (US Franchise, Seasons 1–36).
+
+The data is structured into seven relational tables:
+1. `seasons`: Season summaries, dates, distance traveled, and winners.
+2. `episodes`: Episode titles, premiere air dates, and Nielsen television ratings.
+3. `contestants`: Individual contestant demographics, ages, hometowns, and relationships.
+4. `teams`: Team configurations, relationships, final finish placements, and legs won.
+5. `legs`: Leg-level routing, countries visited, itinerary stops, and detailed narratives.
+6. `leg_results`: Team finishing order on each leg, non-eliminations, Fast Forwards, and U-Turns.
+7. `tasks`: Challenge descriptions across Roadblocks, Detours, Route Info, and Speed Bumps.
+
+## Setup and Data Inspection
+
+```{r setup, eval = FALSE}
+library(theamazingrace)
+library(dplyr)
+library(ggplot2)
+
+data(seasons)
+data(episodes)
+data(leg_results)
+data(tasks)
+```
+
+## Analysis 1: Season Distance Trends
+
+How has total race distance changed across the 36 seasons?
+
+```{r distance-trend, eval = FALSE}
+ggplot(seasons, aes(x = season, y = distance_miles)) +
+  geom_line(color = "#1f77b4", size = 1) +
+  geom_point(color = "#d62728", size = 2) +
+  theme_minimal() +
+  labs(
+    title = "Total Race Distance per Season",
+    x = "Season",
+    y = "Distance (Miles)"
+  )
+```
+
+## Analysis 2: Task Types Breakdown
+
+What types of challenges appear most frequently across all legs?
+
+```{r task-types, eval = FALSE}
+tasks |>
+  count(task_type, sort = TRUE)
+```
+
+## Analysis 3: Team Placement Trajectories
+
+Trace the path of the winning team through the race:
+
+```{r winner-trajectory, eval = FALSE}
+s1_winners <- leg_results |>
+  filter(season == 1, team_name == "Rob & Brennan")
+
+ggplot(s1_winners, aes(x = leg_number, y = placement)) +
+  geom_line() +
+  geom_point(size = 3) +
+  scale_y_reverse(breaks = 1:11) +
+  theme_minimal() +
+  labs(
+    title = "Rob & Brennan's Leg Placements (Season 1)",
+    x = "Leg Number",
+    y = "Placement (1st = Top)"
+  )
+```

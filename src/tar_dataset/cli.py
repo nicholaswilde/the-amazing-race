@@ -14,6 +14,7 @@ from rich.table import Table
 from tar_dataset.exports.ai_formats import AIExportBuilder
 from tar_dataset.exports.arrow_export import export_arrow_and_hf
 from tar_dataset.exports.benchmark import BenchmarkSuite
+from tar_dataset.exports.r_export import export_to_r
 from tar_dataset.exports.sqlite_export import export_to_sqlite
 from tar_dataset.importers.sheets import SheetsImporter
 from tar_dataset.processors.builder import DatasetBuilder
@@ -299,6 +300,47 @@ def export_arrow_cmd(
     )
     console.print(
         f"[green]✓ Exported {len(hf_datasets)} HuggingFace Datasets to data/ai/huggingface/[/green]"
+    )
+
+
+@app.command("export-r")
+def export_r_cmd(
+    processed_dir: Path = typer.Option(
+        "data/processed",
+        "--processed-dir",
+        "-p",
+        help="Processed tables directory",
+    ),
+    r_dir: Path = typer.Option(
+        "data/processed/r",
+        "--r-dir",
+        "-r",
+        help="Directory to output .rds and .rda files",
+    ),
+    pkg_dir: Path = typer.Option(
+        "r",
+        "--pkg-dir",
+        help="Companion R package directory",
+    ),
+) -> None:
+    """Export processed tables to native R formats (.rds, .rda) and scaffold companion R package."""
+    console.print(
+        "[bold blue]Exporting The Amazing Race datasets to R formats and package...[/bold blue]"
+    )
+    results = export_to_r(
+        processed_dir=processed_dir,
+        r_output_dir=r_dir,
+        r_pkg_dir=pkg_dir,
+    )
+    rds_tables = results.get("rds", {})
+    rda_tables = results.get("rda", {})
+
+    console.print(f"[green]✓ Exported {len(rds_tables)} RDS tables to {r_dir}[/green]")
+    console.print(
+        f"[green]✓ Exported {len(rda_tables)} RDA package tables to {Path(pkg_dir) / 'data'}[/green]"
+    )
+    console.print(
+        f"[green]✓ Scaffolding and roxygen2 docs complete in {pkg_dir}/[/green]"
     )
 
 
