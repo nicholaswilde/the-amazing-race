@@ -120,7 +120,7 @@ def test_release_packager_all(tmp_path: Path) -> None:
     chk_file = results["checksums"]
     assert chk_file.exists()
     chk_content = chk_file.read_text(encoding="utf-8")
-    assert "tar-dataset-csv-v0.2.0.zip" in chk_content
+    assert "tar-dataset-csv-0.2.0.zip" in chk_content
     assert "theamazingrace_0.2.0.tar.gz" in chk_content
     assert "manifest.json" in chk_content
 
@@ -136,7 +136,7 @@ def test_package_release_function(tmp_path: Path) -> None:
     res = package_release(output_dir=out_dir, version="v1.0.0")
     assert "csv" in res
     assert "checksums" in res
-    assert (out_dir / "tar-dataset-csv-v1.0.0.zip").exists()
+    assert (out_dir / "tar-dataset-csv-1.0.0.zip").exists()
     assert (out_dir / "checksums.txt").exists()
 
 
@@ -157,7 +157,7 @@ def test_cli_package_command(tmp_path: Path) -> None:
         ],
     )
     assert result.exit_code == 0
-    assert (out_dir / "tar-dataset-csv-v0.5.0.zip").exists()
+    assert (out_dir / "tar-dataset-csv-0.5.0.zip").exists()
     assert (out_dir / "checksums.txt").exists()
 
     # Test invalid component

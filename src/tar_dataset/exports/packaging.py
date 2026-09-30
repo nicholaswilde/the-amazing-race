@@ -79,7 +79,7 @@ class ReleasePackager:
 
     def package_csv(self) -> Path:
         """Package all tidy CSV tables and documentation into a zip bundle."""
-        archive_name = f"tar-dataset-csv-{self.tag_version}.zip"
+        archive_name = f"tar-dataset-csv-{self.clean_version}.zip"
         target_path = self.output_dir / archive_name
         logger.info("Building CSV bundle: %s", target_path)
 
@@ -111,7 +111,7 @@ class ReleasePackager:
 
     def package_parquet(self) -> Path:
         """Package all Parquet tables and documentation into a zip bundle."""
-        archive_name = f"tar-dataset-parquet-{self.tag_version}.zip"
+        archive_name = f"tar-dataset-parquet-{self.clean_version}.zip"
         target_path = self.output_dir / archive_name
         logger.info("Building Parquet bundle: %s", target_path)
 
@@ -141,7 +141,7 @@ class ReleasePackager:
 
     def package_ai(self) -> Path:
         """Package AI fine-tuning datasets and knowledge corpora into a zip bundle."""
-        archive_name = f"tar-dataset-ai-{self.tag_version}.zip"
+        archive_name = f"tar-dataset-ai-{self.clean_version}.zip"
         target_path = self.output_dir / archive_name
         logger.info("Building AI bundle: %s", target_path)
 
@@ -180,7 +180,7 @@ class ReleasePackager:
         if not db_path.exists():
             return None
 
-        archive_name = f"tar-dataset-sqlite-{self.tag_version}.zip"
+        archive_name = f"tar-dataset-sqlite-{self.clean_version}.zip"
         target_path = self.output_dir / archive_name
         logger.info("Building SQLite bundle: %s", target_path)
 
