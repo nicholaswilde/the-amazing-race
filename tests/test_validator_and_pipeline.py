@@ -241,3 +241,43 @@ def test_builder_skips_in_progress_seasons(tmp_path):
     )
     seasons_all = builder_include.load_wikipedia_seasons()
     assert len(seasons_all) == 2
+
+
+def test_validator_gender_and_composition_checks(tmp_path):
+    """Verify validator flags missing or invalid gender and gender_composition values."""
+    pd.DataFrame({"season": [1]}).to_csv(tmp_path / "seasons.csv", index=False)
+    pd.DataFrame({"season": [1], "episode": [1]}).to_csv(
+        tmp_path / "episodes.csv", index=False
+    )
+    # Contestant with invalid and null gender
+    pd.DataFrame(
+        {
+            "season": [1, 1],
+            "contestant_id": ["c1", "c2"],
+            "gender": [None, "INVALID"],
+        }
+    ).to_csv(tmp_path / "contestants.csv", index=False)
+    # Team with invalid and null gender_composition
+    pd.DataFrame(
+        {
+            "season": [1],
+            "team_id": ["t1"],
+            "gender_composition": [None],
+        }
+    ).to_csv(tmp_path / "teams.csv", index=False)
+    pd.DataFrame({"season": [1], "leg_number": [1]}).to_csv(
+        tmp_path / "legs.csv", index=False
+    )
+    pd.DataFrame({"season": [1], "leg_number": [1], "placement": [1]}).to_csv(
+        tmp_path / "leg_results.csv", index=False
+    )
+    pd.DataFrame({"season": [1], "task_type": ["Detour"]}).to_csv(
+        tmp_path / "tasks.csv", index=False
+    )
+
+    validator = DatasetValidator(processed_dir=tmp_path)
+    report = validator.validate()
+
+    assert any("missing gender values" in i for i in report["issues"])
+    assert any("invalid gender values" in i for i in report["issues"])
+    assert any("missing gender_composition values" in i for i in report["issues"])

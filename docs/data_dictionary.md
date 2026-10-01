@@ -53,6 +53,7 @@ erDiagram
         string status "Finishing status description"
         int legs_won "Total leg victories across season"
         int legs_completed "Total legs raced before elimination/finish"
+        string gender_composition "Team gender composition (MM, FF, MF)"
     }
 
     CONTESTANTS {
@@ -61,6 +62,7 @@ erDiagram
         int season FK "Season number"
         string name "Full contestant name"
         float age "Age during race filming"
+        string gender "Contestant gender (M, F, NB)"
         string relationship "Occupation or team relationship"
         string hometown "City and state / province of residence"
         string status "Elimination or victory status"
@@ -159,6 +161,7 @@ erDiagram
 | `status` | `VARCHAR(255)` | Yes | Text description of finishing status. | `"Winner"` |
 | `legs_won` | `INTEGER` | No | Count of legs where team checked in 1st at Pit Stop. | `5` |
 | `legs_completed`| `INTEGER` | No | Total legs raced before elimination or finale check-in. | `13` |
+| `gender_composition` | `VARCHAR(10)` | No | Team gender composition (`MM`, `FF`, `MF`). | `"MM"` |
 
 ---
 
@@ -175,6 +178,7 @@ erDiagram
 | `contestant_id` | `VARCHAR(32)` | No | Unique alphanumeric racer identifier. | `"US-S01-21"` |
 | `name` | `VARCHAR(255)` | No | Full legal/stage name of the contestant. | `"Rob Frisbee"` |
 | `age` | `DOUBLE` | Yes | Age of contestant at time of filming. | `27.0` |
+| `gender` | `VARCHAR(10)` | No | Individual racer gender (`M`, `F`, `NB`). | `"M"` |
 | `relationship` | `VARCHAR(255)` | Yes | Occupation or relationship status. | `"Lawyers & Best Friends"` |
 | `hometown` | `VARCHAR(255)` | Yes | Contestant home city and state. | `"Minneapolis, Minnesota"` |
 | `status` | `VARCHAR(255)` | Yes | Elimination or winner status description. | `"Winners"` |

@@ -52,6 +52,7 @@ def test_gap_auditor_detection_with_synthetic_gaps(tmp_path):
                 "contestant_id": f"US-S29-{i:02d}",
                 "name": f"Contestant {i}",
                 "age": 30,
+                "gender": "M" if i % 2 == 0 else "F",
                 "relationship": None if i <= 22 else "Married",
                 "hometown": "City, State",
                 "status": "Eliminated",

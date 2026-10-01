@@ -93,6 +93,7 @@ TABLE_DOCUMENTATION = {
             "contestant_id": "Unique alphanumeric contestant identifier",
             "name": "Full name of the contestant",
             "age": "Age of the contestant during filming (integer)",
+            "gender": "Gender of the contestant (M, F, NB)",
             "relationship": "Stated relationship to race teammate",
             "hometown": "City and state of permanent residence",
             "status": "Finishing status (e.g. Winners, Runners-up, Eliminated)",
@@ -112,6 +113,7 @@ TABLE_DOCUMENTATION = {
             "status": "Finishing status description",
             "legs_won": "Count of first-place leg finishes won by the team (integer)",
             "legs_completed": "Total number of legs completed before elimination or victory (integer)",
+            "gender_composition": "Team gender composition (MM, FF, MF)",
         },
     },
     "legs": {

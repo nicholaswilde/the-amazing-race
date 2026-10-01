@@ -42,13 +42,14 @@
 #'
 #' Individual contestant demographics, ages, relationship categories, and hometown residences.
 #'
-#' @format A data frame with 886 rows and 8 variables:
+#' @format A data frame with 886 rows and 9 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
 #'   \item{contestant_id}{Unique alphanumeric contestant identifier}
 #'   \item{name}{Full name of the contestant}
 #'   \item{age}{Age of the contestant during filming (integer)}
+#'   \item{gender}{Gender of the contestant (M, F, NB)}
 #'   \item{relationship}{Stated relationship to race teammate}
 #'   \item{hometown}{City and state of permanent residence}
 #'   \item{status}{Finishing status (e.g. Winners, Runners-up, Eliminated)}
@@ -60,7 +61,7 @@
 #'
 #' Two-person team statistics, relationship classifications, final finish placement, and total leg victories.
 #'
-#' @format A data frame with 431 rows and 10 variables:
+#' @format A data frame with 431 rows and 11 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -72,6 +73,7 @@
 #'   \item{status}{Finishing status description}
 #'   \item{legs_won}{Count of first-place leg finishes won by the team (integer)}
 #'   \item{legs_completed}{Total number of legs completed before elimination or victory (integer)}
+#'   \item{gender_composition}{Team gender composition (MM, FF, MF)}
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series)}
 "teams"

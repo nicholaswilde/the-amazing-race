@@ -85,6 +85,37 @@ class DatasetValidator:
                         f"Season {s}: fewer contestants ({n_c}) than teams ({n_t})"
                     )
 
+        # 4. Gender checks
+        if "contestants" in dfs:
+            c_df = dfs["contestants"]
+            if "gender" in c_df.columns:
+                null_gender = c_df["gender"].isna().sum()
+                if null_gender > 0:
+                    report["issues"].append(
+                        f"Found {null_gender} missing gender values in contestants.csv"
+                    )
+                invalid_gender = (~c_df["gender"].dropna().isin(["M", "F", "NB"])).sum()
+                if invalid_gender > 0:
+                    report["issues"].append(
+                        f"Found {invalid_gender} invalid gender values in contestants.csv"
+                    )
+
+        if "teams" in dfs:
+            t_df = dfs["teams"]
+            if "gender_composition" in t_df.columns:
+                null_comp = t_df["gender_composition"].isna().sum()
+                if null_comp > 0:
+                    report["issues"].append(
+                        f"Found {null_comp} missing gender_composition values in teams.csv"
+                    )
+                invalid_comp = (
+                    ~t_df["gender_composition"].dropna().isin(["MM", "FF", "MF"])
+                ).sum()
+                if invalid_comp > 0:
+                    report["issues"].append(
+                        f"Found {invalid_comp} invalid gender_composition values in teams.csv"
+                    )
+
         if report["issues"]:
             report["status"] = (
                 "WARNING"

@@ -118,6 +118,10 @@ class Team(BaseModel):
     eliminated_leg: int | None = Field(
         default=None, description="Leg number eliminated on"
     )
+    gender_composition: str | None = Field(
+        default=None,
+        description="Team gender composition (MM, FF, MF)",
+    )
 
 
 class Leg(BaseModel):

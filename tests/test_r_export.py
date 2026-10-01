@@ -61,6 +61,7 @@ def mock_processed_dir(tmp_path: Path) -> Path:
                 "contestant_id": "US-S01-rob",
                 "name": "Rob",
                 "age": 27,
+                "gender": "M",
                 "relationship": "Lawyers/Best Friends",
                 "hometown": "San Francisco, CA",
                 "status": "Winners",
@@ -80,6 +81,7 @@ def mock_processed_dir(tmp_path: Path) -> Path:
                 "status": "Winners",
                 "legs_won": 5,
                 "legs_completed": 13,
+                "gender_composition": "MM",
             }
         ]
     )

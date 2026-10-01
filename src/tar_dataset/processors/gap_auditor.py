@@ -50,6 +50,12 @@ DIAGNOSIS_HINTS: dict[tuple[str, str], str] = {
     ("episodes", "viewers_millions"): (
         "Recent broadcast episodes where Nielsen ratings or DVR metrics are pending (TBD)."
     ),
+    ("contestants", "gender"): (
+        "Contestant gender (M, F, NB) backfilled from placement database and relationship heuristics."
+    ),
+    ("teams", "gender_composition"): (
+        "Team gender composition (MM, FF, MF) inferred from contestant pairings or season team records."
+    ),
 }
 
 

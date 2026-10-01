@@ -64,6 +64,94 @@ KNOWN_S33_CONTESTANTS: dict[str, dict[str, Any]] = {
 }
 
 
+# Canonical overrides for racer names where Wikipedia common names diverge from legal names
+KNOWN_CONTESTANT_GENDERS: dict[tuple[int, str], str] = {
+    (2, "Deidre Washington"): "F",
+    (6, "Don St. Claire"): "M",
+    (7, "Ron Young, Jr."): "M",
+    (8, "Billy Gaghan, Jr."): "M",
+    (8, "Rolly Weaver IV"): "M",
+    (20, "Dave Brown, Jr."): "M",
+    (27, "Jin Lao Greer"): "M",
+    (30, "Tim Janus"): "M",
+    (32, "Hung Nguyen"): "F",
+    (32, "Chee Lee"): "M",
+    (34, 'Latrice "Lumumba" Roberts'): "M",
+    (34, 'Madison "Mattie" Lynch'): "F",
+}
+
+# Season 39 (in-progress) racer demographics
+KNOWN_S39_GENDERS: dict[str, str] = {
+    "Zach Johnson": "M",
+    "Nate Johnson": "M",
+    "Ali Krieger": "F",
+    "Joanna Lohman": "F",
+    "Ann-Marie Tejcek": "F",
+    "Riley Tejcek": "F",
+    "Anuar Tager": "M",
+    "Andrea Tager Ballesca": "F",
+    "Cody Langlois": "M",
+    "Jaime Tribo": "F",
+    "Conner Wilson": "M",
+    "Garrett McGuire": "M",
+    "Dafina Dunmore": "F",
+    "Saran Dunmore": "F",
+    "Daisha Wilks": "F",
+    "Dalton Hamby": "M",
+    "Doug Matter": "M",
+    "Dylan Matter": "M",
+    "Erin Taylor": "F",
+    "Javi Vintimilla": "M",
+    "Jody Rebhun": "F",
+    "Jenn Naso": "F",
+    "Katie Schultz": "F",
+    "Charlotte Schultz": "F",
+    "Michelle Rozalski Patterson": "F",
+    "Matthew Patterson": "M",
+}
+
+KNOWN_TEAM_GENDER_COMPS: dict[tuple[int, str], str] = {
+    (2, "Deidre & Hillary"): "FF",
+}
+
+KNOWN_S39_TEAM_COMPS: dict[str, str] = {
+    "Zach & Nate": "MM",
+    "Ali & Joanna": "FF",
+    "Ann-Marie & Riley": "FF",
+    "Anuar & Andrea": "MF",
+    "Cody & Jaime": "MF",
+    "Conner & Garrett": "MM",
+    "Dafina & Saran": "FF",
+    "Daisha & Dalton": "MF",
+    "Doug & Dylan": "MM",
+    "Erin & Javi": "MF",
+    "Jody & Jenn": "FF",
+    "Katie & Charlotte": "FF",
+    "Michelle & Matthew": "MF",
+}
+
+
+def _clean_name(n: str) -> str:
+    n = re.sub(r'".*?"', "", str(n))
+    n = re.sub(r"\(.*?\)", "", n)
+    n = re.sub(r"Big Brother.*", "", n, flags=re.IGNORECASE)
+    n = re.sub(r"The Amazing Race.*", "", n, flags=re.IGNORECASE)
+    n = re.sub(r"Survivor.*", "", n, flags=re.IGNORECASE)
+    return re.sub(r"[^a-z0-9]", "", n.lower())
+
+
+def _clean_with_nickname(n: str) -> str:
+    match = re.search(r'"(.*?)"', str(n))
+    nick = match.group(1) if match else ""
+    parts = str(n).split()
+    last = parts[-1] if parts else ""
+    return re.sub(r"[^a-z0-9]", "", f"{nick} {last}".lower())
+
+
+def _clean_team(n: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", str(n).lower())
+
+
 class DatasetBuilder:
     """Compiles raw Wikipedia, Fandom, and Reddit files into clean tidy datasets."""
 
@@ -77,6 +165,181 @@ class DatasetBuilder:
         self.processed_dir = Path(processed_dir)
         self.processed_dir.mkdir(parents=True, exist_ok=True)
         self.include_in_progress = include_in_progress
+        self._contestant_gender_lookup: dict[tuple[int, str], str] = {}
+        self._team_comp_lookup: dict[tuple[int, str], str] = {}
+        self._season_contestants_df: pd.DataFrame | None = None
+        self._season_teams_df: pd.DataFrame | None = None
+        self._load_gender_lookups()
+
+    def _load_gender_lookups(self) -> None:
+        """Load placement database sheets to build gender and team composition lookup indices."""
+        sheets_dir = self.raw_dir / "sheets"
+        if not (sheets_dir / "placement_database_seasoncontestants.csv").exists():
+            sheets_dir = Path("data/raw/sheets")
+
+        c_file = sheets_dir / "placement_database_seasoncontestants.csv"
+        if c_file.exists():
+            try:
+                sc = pd.read_csv(c_file)
+                usa_sc = sc[sc["season"].str.startswith("USA")].copy()
+                usa_sc["season_num"] = (
+                    usa_sc["season"].str.replace("USA", "").astype(int)
+                )
+                self._season_contestants_df = usa_sc
+
+                for _, r in usa_sc.iterrows():
+                    s = r["season_num"]
+                    g = (
+                        "M"
+                        if r["gender"] == "Male"
+                        else ("F" if r["gender"] == "Female" else str(r["gender"]))
+                    )
+                    self._contestant_gender_lookup[(s, r["name"])] = g
+                    self._contestant_gender_lookup[(s, _clean_name(r["name"]))] = g
+                    if pd.notna(r.get("short_name")):
+                        parts = str(r["name"]).split()
+                        last = parts[-1] if parts else ""
+                        self._contestant_gender_lookup[
+                            (s, _clean_name(f"{r['short_name']} {last}"))
+                        ] = g
+            except Exception as e:
+                logger.debug(
+                    "Could not load placement_database_seasoncontestants.csv: %s", e
+                )
+
+        t_file = sheets_dir / "placement_database_seasonteams.csv"
+        if t_file.exists():
+            try:
+                st = pd.read_csv(t_file)
+                usa_st = st[st["season"].str.startswith("USA")].copy()
+                usa_st["season_num"] = (
+                    usa_st["season"].str.replace("USA", "").astype(int)
+                )
+                class_map = {"All-Male": "MM", "All-Female": "FF", "Co-Ed": "MF"}
+                usa_st["gender_comp"] = usa_st["class"].map(class_map)
+                self._season_teams_df = usa_st
+
+                for _, r in usa_st.iterrows():
+                    s = r["season_num"]
+                    comp = r["gender_comp"]
+                    if pd.notna(comp):
+                        self._team_comp_lookup[(s, _clean_team(r["names"]))] = str(comp)
+            except Exception as e:
+                logger.debug("Could not load placement_database_seasonteams.csv: %s", e)
+
+    def resolve_contestant_gender(
+        self,
+        season: int,
+        name: str,
+        rel: str | None = None,
+        raw_gender: str | None = None,
+    ) -> str:
+        """Resolve contestant gender to 'M', 'F', or 'NB'."""
+        if raw_gender and str(raw_gender).strip():
+            rg = str(raw_gender).strip().upper()
+            if rg in ("M", "MALE"):
+                return "M"
+            if rg in ("F", "FEMALE"):
+                return "F"
+            if rg in ("NB", "NON-BINARY", "NONBINARY"):
+                return "NB"
+
+        if (season, name) in KNOWN_CONTESTANT_GENDERS:
+            return KNOWN_CONTESTANT_GENDERS[(season, name)]
+
+        if season == 39 and name in KNOWN_S39_GENDERS:
+            return KNOWN_S39_GENDERS[name]
+
+        if (season, name) in self._contestant_gender_lookup:
+            return self._contestant_gender_lookup[(season, name)]
+
+        cn = _clean_name(name)
+        if (season, cn) in self._contestant_gender_lookup:
+            return self._contestant_gender_lookup[(season, cn)]
+
+        c_nick = _clean_with_nickname(name)
+        if (season, c_nick) in self._contestant_gender_lookup:
+            return self._contestant_gender_lookup[(season, c_nick)]
+
+        if self._season_contestants_df is not None:
+            s_sc = self._season_contestants_df[
+                self._season_contestants_df["season_num"] == season
+            ]
+            for _, r in s_sc.iterrows():
+                rcn = _clean_name(r["name"])
+                if cn and rcn and (cn in rcn or rcn in cn):
+                    return "M" if r["gender"] == "Male" else "F"
+
+        if rel:
+            rl = rel.lower()
+            if (
+                "brother" in rl
+                or "father" in rl
+                or "dad" in rl
+                or "son" in rl
+                or "husband" in rl
+            ):
+                return "M"
+            if (
+                "sister" in rl
+                or "mother" in rl
+                or "mom" in rl
+                or "daughter" in rl
+                or "wife" in rl
+            ):
+                return "F"
+
+        first = name.split()[0].lower() if name else ""
+        if first in (
+            "alice",
+            "mary",
+            "emily",
+            "leslie",
+            "brenda",
+            "amie",
+            "margaretta",
+        ):
+            return "F"
+        return "M"
+
+    def resolve_team_gender_comp(
+        self,
+        season: int,
+        team_name: str,
+        member_genders: list[str] | None = None,
+    ) -> str:
+        """Resolve team gender composition to 'MM', 'FF', or 'MF'."""
+        if (season, team_name) in KNOWN_TEAM_GENDER_COMPS:
+            return KNOWN_TEAM_GENDER_COMPS[(season, team_name)]
+
+        if season == 39 and team_name in KNOWN_S39_TEAM_COMPS:
+            return KNOWN_S39_TEAM_COMPS[team_name]
+
+        ct = _clean_team(team_name)
+        if (season, ct) in self._team_comp_lookup:
+            return self._team_comp_lookup[(season, ct)]
+
+        if self._season_teams_df is not None:
+            s_teams = self._season_teams_df[
+                self._season_teams_df["season_num"] == season
+            ]
+            for _, tr in s_teams.iterrows():
+                ctr = _clean_team(tr["names"])
+                if ct in ctr or ctr in ct:
+                    val = tr["gender_comp"]
+                    if pd.notna(val):
+                        return str(val)
+
+        if member_genders:
+            valid = [g for g in member_genders if g in ("M", "F", "NB")]
+            if valid:
+                if all(g == "M" for g in valid):
+                    return "MM"
+                if all(g == "F" for g in valid):
+                    return "FF"
+                return "MF"
+
+        return "MF"
 
     def load_wikipedia_seasons(self) -> list[dict[str, Any]]:
         """Load all raw Wikipedia season files."""
@@ -206,6 +469,7 @@ class DatasetBuilder:
             "contestant_id",
             "name",
             "age",
+            "gender",
             "relationship",
             "hometown",
             "status",
@@ -249,6 +513,10 @@ class DatasetBuilder:
                                     hometown = other.get("hometown")
                                 break
 
+                gender = self.resolve_contestant_gender(
+                    season_num, name, rel, c.get("gender")
+                )
+
                 rows.append(
                     {
                         "version": version,
@@ -256,6 +524,7 @@ class DatasetBuilder:
                         "contestant_id": f"{version}-S{season_num:02d}-{idx:02d}",
                         "name": name,
                         "age": age,
+                        "gender": gender,
                         "relationship": rel,
                         "hometown": hometown,
                         "status": status,
@@ -276,6 +545,7 @@ class DatasetBuilder:
             "status",
             "legs_won",
             "legs_completed",
+            "gender_composition",
         ]
         rows = []
         for s in raw_seasons:
@@ -297,6 +567,7 @@ class DatasetBuilder:
 
                 rel = None
                 hometown = None
+                matched_genders: list[str] = []
 
                 # Season 8 (Family Edition): 4-member families
                 if season_num == 8:
@@ -306,7 +577,14 @@ class DatasetBuilder:
                         c_name = c.get("name", "")
                         if fam_name.lower() in c_name.lower():
                             hometown = c.get("hometown")
-                            break
+                            matched_genders.append(
+                                self.resolve_contestant_gender(
+                                    season_num,
+                                    c_name,
+                                    c.get("relationship"),
+                                    c.get("gender"),
+                                )
+                            )
                 elif season_num == 29:
                     rel = "Strangers (Paired at Starting Line)"
                     # Match hometown from contestants
@@ -315,11 +593,20 @@ class DatasetBuilder:
                         for p in team_name.split("&")
                         if p.strip()
                     ]
-                    for c in contestants:
-                        c_name = c.get("name", "").replace('"', "").replace("'", "")
-                        if any(p.lower() in c_name.lower() for p in parts):
-                            hometown = c.get("hometown")
-                            break
+                    for p in parts:
+                        for c in contestants:
+                            c_name = c.get("name", "").replace('"', "").replace("'", "")
+                            if any(p.lower() in c_name.lower() for p in parts):
+                                hometown = c.get("hometown")
+                                matched_genders.append(
+                                    self.resolve_contestant_gender(
+                                        season_num,
+                                        c_name,
+                                        c.get("relationship"),
+                                        c.get("gender"),
+                                    )
+                                )
+                                break
                 else:
                     # Match returnee/standard teams by nickname or contestant name tokens
                     parts = [
@@ -327,17 +614,30 @@ class DatasetBuilder:
                         for p in team_name.split("&")
                         if p.strip()
                     ]
-                    for c in contestants:
-                        c_name = c.get("name", "").replace('"', "").replace("'", "")
-                        if any(p.lower() in c_name.lower() for p in parts):
-                            rel = c.get("relationship")
-                            hometown = c.get("hometown")
-                            break
+                    for p in parts:
+                        for c in contestants:
+                            c_name = c.get("name", "").replace('"', "").replace("'", "")
+                            if any(p.lower() in c_name.lower() for p in parts):
+                                rel = c.get("relationship")
+                                hometown = c.get("hometown")
+                                matched_genders.append(
+                                    self.resolve_contestant_gender(
+                                        season_num,
+                                        c_name,
+                                        c.get("relationship"),
+                                        c.get("gender"),
+                                    )
+                                )
+                                break
 
                 status = (
                     "Winner"
                     if rank == 1
                     else ("Runner-up" if rank in [2, 3] else "Eliminated")
+                )
+
+                gender_comp = self.resolve_team_gender_comp(
+                    season_num, team_name, matched_genders
                 )
 
                 rows.append(
@@ -352,6 +652,7 @@ class DatasetBuilder:
                         "status": status,
                         "legs_won": legs_won,
                         "legs_completed": legs_completed,
+                        "gender_composition": gender_comp,
                     }
                 )
         return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
