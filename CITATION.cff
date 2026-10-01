@@ -3,7 +3,7 @@ message: "If you use this dataset, companion R package, or AI corpus in your res
 title: "The Amazing Race Dataset & AI Training Corpus"
 abstract: "A comprehensive tidy dataset and AI training corpus for the CBS reality competition television series The Amazing Race, covering 36 seasons across relational tables, SQLite database, and multi-turn instruction-tuning corpora."
 type: dataset
-version: 0.1.1
+version: 0.2.0
 doi: 10.5281/zenodo.23074891
 date-released: "2026-09-30"
 license: Apache-2.0

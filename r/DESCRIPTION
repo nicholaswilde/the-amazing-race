@@ -1,6 +1,6 @@
 Package: theamazingrace
 Title: The Amazing Race Tidy Datasets
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("Nicholas", "Wilde", email = "nicholas@nicholaswilde.io", role = c("aut", "cre"))
 Description: Comprehensive tidy datasets for the television series The
     Amazing Race. Contains clean tabular data on seasons, episodes,
