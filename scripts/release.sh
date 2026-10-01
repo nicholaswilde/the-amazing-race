@@ -85,8 +85,8 @@ if cff.exists():
     import datetime
     today = datetime.date.today().isoformat()
     content = cff.read_text(encoding="utf-8")
-    content = re.sub(r'version:\s*[^\n\r]+', f'version: {ver}', content, count=1)
-    content = re.sub(r'date-released:\s*[^\n\r]+', f'date-released: "{today}"', content, count=1)
+    content = re.sub(r'^version:\s*[^\n\r]+', f'version: {ver}', content, count=1, flags=re.MULTILINE)
+    content = re.sub(r'^date-released:\s*[^\n\r]+', f'date-released: "{today}"', content, count=1, flags=re.MULTILINE)
     cff.write_text(content, encoding="utf-8")
 EOF
 
