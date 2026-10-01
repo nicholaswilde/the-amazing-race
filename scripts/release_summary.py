@@ -46,6 +46,7 @@ def main() -> None:
         "data": [],
         "fix": [],
         "improve": [],
+        "maintenance": [],
         "docs": [],
     }
 
@@ -80,6 +81,8 @@ def main() -> None:
             sections["fix"].append(entry)
         elif type_str in ["refactor", "perf", "style"]:
             sections["improve"].append(entry)
+        elif type_str in ["chore", "ci", "build"]:
+            sections["maintenance"].append(entry)
         elif type_str == "docs":
             sections["docs"].append(entry)
 
@@ -99,6 +102,12 @@ def main() -> None:
     if sections["improve"]:
         summary.append(
             "### ✨ **Improvements**\n\n" + "\n".join(sections["improve"]) + "\n"
+        )
+    if sections["maintenance"]:
+        summary.append(
+            "### 🔧 **Maintenance & Automation**\n\n"
+            + "\n".join(sections["maintenance"])
+            + "\n"
         )
     if sections["docs"]:
         summary.append(
