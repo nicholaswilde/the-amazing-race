@@ -64,6 +64,243 @@ seasons <- read_parquet("data/processed/seasons.parquet")
 
 ---
 
+## :package: Release Asset Packages
+
+Pre-built distribution bundles are published with every [GitHub Release](https://github.com/nicholaswilde/the-amazing-race/releases). You can download and use these standalone assets immediately without cloning the repository or setting up the development environment.
+
+| Package | Asset Pattern | Format | Primary Use Case |
+| :--- | :--- | :--- | :--- |
+| **Tidy CSV Bundle** | `tar-dataset-csv-<version>.zip` | CSV + Markdown | Universal data analysis (Python, R, Excel, Google Sheets, BI tools) |
+| **Apache Parquet Bundle** | `tar-dataset-parquet-<version>.zip` | Apache Parquet | High-performance analytics (DuckDB, Polars, PyArrow, Pandas) |
+| **SQLite Database** | `tar-dataset-sqlite-<version>.zip` | SQLite (`tar.db`) | Relational SQL querying, database browsers, local apps |
+| **AI Training Corpus** | `tar-dataset-ai-<version>.zip` | JSONL | LLM fine-tuning, RAG vector search, benchmark evaluation |
+| **R Data Package** | `theamazingrace_<version>.tar.gz` | R Source Tarball | Native R data package (`library(theamazingrace)`) |
+| **Python Package** | `the_amazing_race-<version>-py3-none-any.whl`<br>`the_amazing_race-<version>.tar.gz` | Wheel / Sdist | Standalone `tar-dataset` CLI and Python schemas library |
+| **Integrity & Metadata** | `checksums.txt`<br>`manifest.json` | Text / JSON | SHA-256 verification and dataset build metadata |
+
+---
+
+### 1. Tidy CSV Bundle (`tar-dataset-csv-<version>.zip`)
+
+Contains all 7 relational tidy datasets (`seasons.csv`, `episodes.csv`, `contestants.csv`, `teams.csv`, `legs.csv`, `leg_results.csv`, `tasks.csv`) alongside the data dictionary.
+
+```bash
+# Extract archive
+unzip tar-dataset-csv-*.zip
+```
+
+- **Python (Pandas)**:
+  ```python
+  import pandas as pd
+
+  seasons = pd.read_csv("seasons.csv")
+  teams = pd.read_csv("teams.csv")
+  winners = teams[teams["winner"] == 1]
+  ```
+
+- **R (`readr` / `tidyverse`)**:
+  ```r
+  library(readr)
+  library(dplyr)
+
+  seasons <- read_csv("seasons.csv")
+  teams <- read_csv("teams.csv")
+  ```
+
+- **Spreadsheets / BI**: Import directly into Microsoft Excel, Google Sheets, Tableau, or Power BI.
+
+---
+
+### 2. Apache Parquet Bundle (`tar-dataset-parquet-<version>.zip`)
+
+Contains columnar Apache Parquet files preserving strict data types, nested fields, and columnar compression for zero-copy high-throughput analysis.
+
+```bash
+# Extract archive
+unzip tar-dataset-parquet-*.zip
+```
+
+- **DuckDB (Direct SQL)**:
+  ```python
+  import duckdb
+
+  # Query parquet files directly with SQL without loading into memory:
+  duckdb.sql("""
+      SELECT season, winner, legs, countries_visited
+      FROM 'seasons.parquet'
+      ORDER BY season ASC
+  """).show()
+  ```
+
+- **Polars / Pandas**:
+  ```python
+  import polars as pl
+  seasons = pl.read_parquet("seasons.parquet")
+
+  import pandas as pd
+  teams = pd.read_parquet("teams.parquet")
+  ```
+
+- **R (`arrow`)**:
+  ```r
+  library(arrow)
+  seasons <- read_parquet("seasons.parquet")
+  ```
+
+---
+
+### 3. SQLite Database Bundle (`tar-dataset-sqlite-<version>.zip`)
+
+Contains a ready-to-query, indexed SQLite relational database (`tar.db`) with primary/foreign keys configured across all 7 tables.
+
+```bash
+# Extract archive
+unzip tar-dataset-sqlite-*.zip
+```
+
+- **Command Line (`sqlite3`)**:
+  ```bash
+  sqlite3 -header -column tar.db "
+    SELECT season, winner, destination_summary
+    FROM seasons
+    LIMIT 5;
+  "
+  ```
+
+- **Python (`sqlite3`)**:
+  ```python
+  import sqlite3
+  import pandas as pd
+
+  conn = sqlite3.connect("tar.db")
+  query = """
+    SELECT t.team_name, t.season, t.racing_average, s.winner
+    FROM teams t
+    JOIN seasons s ON t.season = s.season
+    WHERE t.winner = 1
+    ORDER BY t.racing_average ASC
+  """
+  winning_teams = pd.read_sql_query(query, conn)
+  conn.close()
+  ```
+
+- **GUI Clients**: Open directly with [DB Browser for SQLite](https://sqlitebrowser.org/), DBeaver, or Datasette (`datasette tar.db`).
+
+---
+
+### 4. AI Training & Fine-Tuning Corpus (`tar-dataset-ai-<version>.zip`)
+
+Contains JSONL corpora optimized for training, fine-tuning, and evaluating Large Language Models:
+
+- **`tar_qa_finetuning.jsonl`**: Supervised fine-tuning (SFT) conversation pairs formatted with multi-turn messages (system, user, assistant) for OpenAI, Gemini, Claude, or local model tuning (Unsloth, Axolotl).
+- **`tar_knowledge_corpus.jsonl`**: Curated reference knowledge documents with rich metadata (`season`, `leg`, `route`) for semantic search, vector indexing, and RAG pipelines (LangChain, LlamaIndex, ChromaDB, Qdrant).
+- **`tar_benchmark_suite.jsonl`**: 45 evaluation questions with verified ground truths and rubrics covering game rules, racing statistics, route itineraries, and trivia.
+
+```bash
+# Extract archive
+unzip tar-dataset-ai-*.zip
+```
+
+- **Inspect Fine-Tuning Pairs**:
+  ```bash
+  head -n 2 tar_qa_finetuning.jsonl
+  ```
+
+- **Load Knowledge Corpus in Python**:
+  ```python
+  import json
+
+  # Load documents for RAG vector embedding:
+  with open("tar_knowledge_corpus.jsonl", "r", encoding="utf-8") as f:
+      corpus = [json.loads(line) for line in f]
+
+  print(f"Loaded {len(corpus)} knowledge documents.")
+  print("Sample document:", corpus[0]["text"][:200])
+  ```
+
+---
+
+### 5. Companion R Package Source (`theamazingrace_<version>.tar.gz`)
+
+A CRAN-compliant R source package archive containing all 7 datasets pre-loaded as native `.rda` objects with comprehensive Roxygen documentation and dataset schemas.
+
+- **Install from Downloaded Release Asset**:
+  ```r
+  install.packages("theamazingrace_0.1.0.tar.gz", repos = NULL, type = "source")
+  ```
+
+- **Install Direct from GitHub (Development)**:
+  ```r
+  remotes::install_github("nicholaswilde/the-amazing-race/r")
+  ```
+
+- **Usage in R**:
+  ```r
+  library(theamazingrace)
+
+  # Load datasets
+  data(seasons)
+  data(teams)
+  data(leg_results)
+
+  # View help pages and schema definitions
+  ?seasons
+  ?teams
+  ```
+
+---
+
+### 6. Python Distribution Wheel & Sdist (`.whl` and `.tar.gz`)
+
+Pre-compiled Python packages that allow installing the `tar_dataset` library and `tar-dataset` CLI directly via `pip` or `uv` without cloning the repository.
+
+- **Installation**:
+  ```bash
+  # Using uv:
+  uv pip install the_amazing_race-0.1.0-py3-none-any.whl
+
+  # Or using pip:
+  pip install the_amazing_race-0.1.0-py3-none-any.whl
+  ```
+
+- **Use the CLI**:
+  ```bash
+  # Inspect seasons, teams, and challenges:
+  tar-dataset inspect season 1
+  tar-dataset inspect team "Rob & Amber"
+
+  # Display dataset statistics:
+  tar-dataset stats
+
+  # Audit dataset completeness:
+  tar-dataset audit
+  ```
+
+- **Use the Python Library**:
+  ```python
+  from tar_dataset.schemas import Season, Team, LegResult
+  ```
+
+---
+
+### 7. Integrity Checksums & Manifest (`checksums.txt`, `manifest.json`)
+
+Every release includes cryptographic hashes and build metadata to verify package authenticity and inspect schema versions.
+
+- **Verify Asset Integrity**:
+  ```bash
+  # Verify all downloaded files against SHA-256 checksums:
+  sha256sum --check checksums.txt
+  ```
+
+- **Inspect Manifest Metadata**:
+  ```bash
+  # Inspect table row counts, file sizes, and release metadata:
+  jq . manifest.json
+  ```
+
+---
+
 ## :runner: Quick Start with `uv` & `task`
 
 This repository uses [`uv`](https://docs.astral.sh/uv/) for Python packaging and [`go-task`](https://taskfile.dev/) (`task`) as the task runner.
