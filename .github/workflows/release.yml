@@ -70,7 +70,11 @@ jobs:
           fi
           DRAFT="${{ github.event.inputs.draft }}"
           if [ -z "$DRAFT" ]; then
-            DRAFT="true"
+            if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+              DRAFT="false"
+            else
+              DRAFT="true"
+            fi
           fi
           echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
           echo "version=${TAG#v}" >> "$GITHUB_OUTPUT"
