@@ -346,6 +346,19 @@ class HuggingFacePublisher:
                     commit_message=msg,
                 )
 
+        # Tag version release on Hugging Face Hub
+        if self.version:
+            try:
+                api.create_tag(
+                    repo_id=target_repo,
+                    repo_type="dataset",
+                    tag=f"v{self.version}",
+                    tag_message=f"Release v{self.version}",
+                    exist_ok=True,
+                )
+            except Exception as e:
+                logger.debug("Could not create tag on Hugging Face Hub: %s", e)
+
         dataset_url = f"https://huggingface.co/datasets/{target_repo}"
         logger.info("Successfully published dataset to %s", dataset_url)
 
