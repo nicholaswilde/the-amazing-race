@@ -78,9 +78,19 @@ if desc.exists():
     content = desc.read_text(encoding="utf-8")
     new_content = re.sub(r'Version:\s*[^\n\r]+', f'Version: {ver}', content, count=1)
     desc.write_text(new_content, encoding="utf-8")
+
+# Update CITATION.cff
+cff = Path("CITATION.cff")
+if cff.exists():
+    import datetime
+    today = datetime.date.today().isoformat()
+    content = cff.read_text(encoding="utf-8")
+    content = re.sub(r'version:\s*[^\n\r]+', f'version: {ver}', content, count=1)
+    content = re.sub(r'date-released:\s*[^\n\r]+', f'date-released: "{today}"', content, count=1)
+    cff.write_text(content, encoding="utf-8")
 EOF
 
-git add pyproject.toml r/DESCRIPTION
+git add pyproject.toml r/DESCRIPTION CITATION.cff
 if ! git diff --cached --quiet; then
     git commit -m "chore(release): bump version to $NEW_TAG"
 fi
