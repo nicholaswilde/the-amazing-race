@@ -79,6 +79,7 @@ tasks:
     desc: Run lint, format-check, test suite, and dataset validation
     cmds:
       - task: lint
+      - task: format:check
       - task: test
       - task: validate
 

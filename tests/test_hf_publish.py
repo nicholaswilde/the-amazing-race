@@ -48,7 +48,9 @@ def test_prepare_staging_directory(tmp_path: Path) -> None:
     # Create dummy processed files
     (processed_dir / "seasons.parquet").write_text("dummy seasons", encoding="utf-8")
     (processed_dir / "teams.parquet").write_text("dummy teams", encoding="utf-8")
-    (ai_dir / "tar_qa_finetuning.jsonl").write_text('{"messages": []}', encoding="utf-8")
+    (ai_dir / "tar_qa_finetuning.jsonl").write_text(
+        '{"messages": []}', encoding="utf-8"
+    )
     (docs_dir / "data_dictionary.md").write_text("# Dictionary", encoding="utf-8")
     (tmp_path / "LICENSE").write_text("Apache License", encoding="utf-8")
     (tmp_path / "CITATION.cff").write_text("cff-version: 1.2.0", encoding="utf-8")
@@ -130,7 +132,13 @@ def test_cli_publish_hf(mock_pub_cls: MagicMock) -> None:
 
     result = runner.invoke(
         app,
-        ["publish-hf", "--token", "hf_test_123", "--repo-id", "nicholascwilde/the-amazing-race"],
+        [
+            "publish-hf",
+            "--token",
+            "hf_test_123",
+            "--repo-id",
+            "nicholascwilde/the-amazing-race",
+        ],
     )
     assert result.exit_code == 0
     assert "Successfully published" in result.stdout

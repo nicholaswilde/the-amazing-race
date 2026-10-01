@@ -278,7 +278,11 @@ class HuggingFacePublisher:
             ) from err
 
         # Resolve authentication token
-        auth_token = token or os.environ.get("HF_TOKEN") or os.environ.get("HUGGING_FACE_HUB_TOKEN")
+        auth_token = (
+            token
+            or os.environ.get("HF_TOKEN")
+            or os.environ.get("HUGGING_FACE_HUB_TOKEN")
+        )
         if not auth_token:
             # Fall back to huggingface-cli logged-in token
             try:
