@@ -54,6 +54,8 @@ erDiagram
         int legs_won "Total leg victories across season"
         int legs_completed "Total legs raced before elimination/finish"
         string gender_composition "Team gender composition (MM, FF, MF)"
+        string roadblock_split "Roadblock distribution between partners"
+        float roadblock_equity_score "Partner parity score (1.0 = equal)"
     }
 
     CONTESTANTS {
@@ -66,6 +68,7 @@ erDiagram
         string relationship "Occupation or team relationship"
         string hometown "City and state / province of residence"
         string status "Elimination or victory status"
+        int roadblocks_completed "Total Roadblocks completed by contestant"
     }
 
     LEGS {
@@ -85,6 +88,7 @@ erDiagram
         string team_name PK, FK "Team display name"
         float placement "Finishing position at Pit Stop mat"
         string raw_cell "Raw scraped table cell text"
+        string roadblock_performer "Team member who performed the leg Roadblock"
         boolean is_non_elimination "True if non-elimination leg (NEL)"
         boolean fast_forward "True if team claimed Fast Forward"
         boolean uturn "True if team used or was affected by U-Turn"
@@ -97,6 +101,7 @@ erDiagram
         int season FK "Season number"
         int leg_number FK "Leg sequence number"
         string task_type "Task type (Detour, Roadblock, Fast Forward, Route Info)"
+        string performed_by "Racer(s) who executed challenge"
         string description "Full text description of challenge"
     }
 ```
@@ -166,6 +171,8 @@ erDiagram
 | `podium_count` | `INTEGER` | No | Total count of Top-3 leg finishes. | `10` |
 | `podium_rate` | `DOUBLE` | Yes | Proportion of completed legs finishing in Top-3. | `0.83` |
 | `gender_composition` | `VARCHAR(10)` | No | Team gender composition (`MM`, `FF`, `MF`). | `"MM"` |
+| `roadblock_split` | `VARCHAR(32)` | Yes | Final Roadblock distribution split across team members (e.g. `'6-6'`, `'11-1'`, `'5-4-2-4'`). | `"6-6"` |
+| `roadblock_equity_score` | `DOUBLE` | Yes | Normalized partner task balance ratio ($1.0 - \frac{|a-b|}{a+b}$, where $1.0$ is perfect parity). | `0.83` |
 
 ---
 
@@ -188,6 +195,7 @@ erDiagram
 | `hometown_state` | `VARCHAR(10)` | Yes | Parsed US two-letter state postal code or region. | `"MN"` |
 | `hometown_country` | `VARCHAR(10)` | Yes | Hometown country code or name. | `"USA"` |
 | `status` | `VARCHAR(255)` | Yes | Elimination or winner status description. | `"Winners"` |
+| `roadblocks_completed` | `INTEGER` | No | Total number of Roadblocks performed by the racer across the season. | `6` |
 
 ---
 
@@ -229,6 +237,7 @@ erDiagram
 | `team_name` | `VARCHAR(255)` | No | Name of competing team. | `"Rob & Brennan"` |
 | `placement` | `DOUBLE` | Yes | Numeric placement at the Pit Stop (1 = 1st place). | `1.0` |
 | `raw_cell` | `VARCHAR(64)` | Yes | Raw text from results matrix (including footnote tags). | `"1st ƒ"` |
+| `roadblock_performer` | `VARCHAR(255)` | Yes | Name of team member who performed the leg Roadblock. | `"Brennan"` |
 | `is_non_elimination` | `BOOLEAN` | No | `True` if leg was a designated non-elimination leg (NEL). | `False` |
 | `fast_forward` | `BOOLEAN` | No | `True` if team successfully claimed the Fast Forward. | `True` |
 | `uturn` | `BOOLEAN` | No | `True` if team used or was victimized by a U-Turn. | `False` |
@@ -248,6 +257,7 @@ erDiagram
 | `season` | `INTEGER` | No | Season number. | `1` |
 | `leg_number` | `INTEGER` | No | Leg number where the challenge took place. | `1` |
 | `task_type` | `VARCHAR(64)` | Yes | Task category (`Detour`, `Roadblock`, `Fast Forward`, `Speed Bump`, `Route Info`). | `"Fast Forward"` |
+| `performed_by` | `TEXT` | Yes | Comma-separated list of individual racers recorded performing the task. | `"Margaretta, Frank, Joe"` |
 | `description` | `TEXT` | Yes | Descriptive text explaining the challenge mechanics and location. | `"One team member had to hike down a canyon to the Boiling Pot..."` |
 
 ---
@@ -310,4 +320,29 @@ ra <- leg_results |>
   arrange(racing_average)
 
 print(head(ra, 10))
+```
+
+---
+
+### Roadblock Equity Score Formula
+The Roadblock Equity Score evaluates how evenly tasks were divided between partners. In modern TAR rules, each racer may perform a maximum of 6 or 7 Roadblocks per season. Extreme imbalance often creates late-game bottlenecks where one racer is forced into unfamiliar tasks.
+
+For 2-person teams with split $a$-$b$:
+$$\text{Equity Score} = 1.0 - \frac{|a - b|}{a + b}$$
+
+- **1.00**: Perfect parity (e.g. 6-6, 5-5).
+- **0.50**: Heavy imbalance (e.g. 9-3).
+- **0.00**: Complete monopoly (e.g. 11-0).
+
+#### SQL Query Example (Most Balanced Winners)
+```sql
+SELECT
+    version,
+    season,
+    team_name,
+    roadblock_split,
+    roadblock_equity_score
+FROM teams
+WHERE result = 1 AND roadblock_equity_score IS NOT NULL
+ORDER BY roadblock_equity_score DESC, season ASC;
 ```

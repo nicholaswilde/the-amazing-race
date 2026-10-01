@@ -58,6 +58,14 @@ DIAGNOSIS_HINTS: dict[tuple[str, str], str] = {
     ),
 }
 
+# Columns that are conditionally populated by design and should not be counted as missing data gaps
+CONDITIONAL_COLUMNS: set[tuple[str, str]] = {
+    ("tasks", "performed_by"),
+    ("leg_results", "roadblock_performer"),
+    ("teams", "roadblock_split"),
+    ("teams", "roadblock_equity_score"),
+}
+
 
 class ColumnGap:
     """Represents missing data metrics for a single column."""
@@ -180,7 +188,11 @@ class DatasetGapAuditor:
         if df.empty:
             return []
 
-        return [self.audit_column(table_name, col, df) for col in df.columns]
+        return [
+            self.audit_column(table_name, col, df)
+            for col in df.columns
+            if (table_name, col) not in CONDITIONAL_COLUMNS
+        ]
 
     def audit_all(self) -> dict[str, Any]:
         """Run complete dataset completeness and gap audit."""
@@ -231,8 +243,16 @@ class DatasetGapAuditor:
             mask = series.isna() | (series.astype(str).str.strip() == "")
             df_missing = df[mask]
         else:
-            # Any column is missing
-            mask = df.isna().any(axis=1) | (df.astype(str) == "").any(axis=1)
+            # Any non-conditional column is missing
+            cols_to_check = [
+                c for c in df.columns if (table_name, c) not in CONDITIONAL_COLUMNS
+            ]
+            mask = df[cols_to_check].isna().any(axis=1) | (
+                df[cols_to_check]
+                .astype(str)
+                .apply(lambda s: s.str.strip() == "")
+                .any(axis=1)
+            )
             df_missing = df[mask]
 
         if season is not None and "season" in df_missing.columns:

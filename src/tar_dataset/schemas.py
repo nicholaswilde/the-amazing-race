@@ -93,6 +93,9 @@ class Contestant(BaseModel):
     hometown_country: str | None = Field(
         default=None, description="Hometown country (ISO-3 code or name)"
     )
+    roadblocks_completed: int = Field(
+        default=0, description="Total Roadblocks performed by this racer"
+    )
 
 
 class Team(BaseModel):
@@ -144,6 +147,14 @@ class Team(BaseModel):
     podium_rate: float | None = Field(
         default=None,
         description="Percentage of legs finishing in Top-3",
+    )
+    roadblock_split: str | None = Field(
+        default=None,
+        description="Team Roadblock split across members (e.g. '6-6')",
+    )
+    roadblock_equity_score: float | None = Field(
+        default=None,
+        description="Normalized ratio measuring partner challenge balance (0.0 to 1.0)",
     )
 
 
@@ -225,6 +236,10 @@ class Task(BaseModel):
     )
     detour_option_a: str | None = None
     detour_option_b: str | None = None
+    performed_by: str | None = Field(
+        default=None,
+        description="Name(s) of racer(s) who completed the Roadblock, or None for non-Roadblock tasks",
+    )
 
 
 class RedditDiscussion(BaseModel):

@@ -15,10 +15,13 @@ from tar_dataset.schemas import (
     Contestant,
     Episode,
     Leg,
+    LegResult,
     RedditDiscussion,
     Season,
+    Task,
     Team,
 )
+from tar_dataset.scrapers.fandom import compute_roadblock_equity
 from tar_dataset.scrapers.reddit import RedditScraper
 from tar_dataset.scrapers.wikipedia import (
     WikipediaScraper,
@@ -451,3 +454,77 @@ def test_derived_racing_metrics():
     assert ee["placement_std"] == 0.0
     assert ee["podium_count"] == 0
     assert ee["podium_rate"] == 0.0
+
+
+def test_compute_roadblock_equity():
+    """Verify equity score computation for 2-person and multi-person teams."""
+    # Parity
+    assert compute_roadblock_equity("6-6") == 1.00
+    assert compute_roadblock_equity("5-5") == 1.00
+
+    # Imbalance
+    assert compute_roadblock_equity("9-3") == 0.50
+    assert compute_roadblock_equity("11-1") == 0.17
+    assert compute_roadblock_equity("1-0") == 0.00
+
+    # Family Edition (4 racers)
+    fe_score = compute_roadblock_equity("5-4-2-4")
+    assert fe_score is not None
+    assert 0.70 < fe_score < 0.90
+
+    # Edge cases
+    assert compute_roadblock_equity("") is None
+    assert compute_roadblock_equity("TBD") is None
+    assert compute_roadblock_equity("0-0") is None
+    assert compute_roadblock_equity(None) is None
+
+
+def test_roadblock_schemas_and_lookups():
+    """Verify schemas accept roadblock tracking fields and builder resolves them."""
+    team = Team(
+        version="US",
+        season=1,
+        team_id="US-S01-rob-brennan",
+        team_name="Rob & Brennan",
+        member_1_name="Rob Frisbee",
+        roadblock_split="5-7",
+        roadblock_equity_score=0.83,
+    )
+    assert team.roadblock_split == "5-7"
+    assert team.roadblock_equity_score == 0.83
+
+    contestant = Contestant(
+        version="US",
+        season=1,
+        contestant_id="US-S01-01",
+        team_id="US-S01-rob-brennan",
+        name="Rob Frisbee",
+        roadblocks_completed=5,
+    )
+    assert contestant.roadblocks_completed == 5
+
+    task = Task(
+        version="US",
+        season=1,
+        leg_number=1,
+        task_type="Roadblock",
+        performed_by="Rob",
+        description="A challenging roadblock task",
+    )
+    assert task.performed_by == "Rob"
+
+    res = LegResult(
+        version="US",
+        season=1,
+        leg_number=1,
+        team_id="US-S01-rob-brennan",
+        placement=1,
+        roadblock_performer="Rob",
+    )
+    assert res.roadblock_performer == "Rob"
+
+    # Test builder lookup loader
+    builder = DatasetBuilder()
+    assert len(builder._roadblock_splits) > 0
+    assert len(builder._roadblock_leg_performers) > 0
+    assert len(builder._roadblock_contestant_counts) > 0

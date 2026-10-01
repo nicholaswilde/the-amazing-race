@@ -1888,7 +1888,7 @@
         "Vancouver, Canada (Jack Poole Plaza) (Starting Line)",
         "Vancouver (BC Place)",
         "Vancouver (Plaza of Nations \u2192 Vancouver Maritime Museum)",
-        "Vancouver (Vanier Park or Teatotaler Beach & False Creek)",
+        "Vancouver (Elsje Point or Teatotaler Beach & False Creek)",
         "Vancouver (VanDusen Botanical Garden)"
       ],
       "narrative": "Teams began the race at Jack Poole Plaza, where each team received an Express Pass that they could use up through the sixth leg. Once a team redeemed an Express Pass at a task, no other team could use their Express Pass at that task. From the starting line, teams had to find their next clue outside BC Place. Before the race began, teams experienced a welcoming ceremony at the starting line by representatives of the Squamish Nation. Squamish hereditary chief Ian Campbell appeared as the Pit Stop greeter during this leg.",
@@ -1903,7 +1903,7 @@
         },
         {
           "task_type": "Detour",
-          "description": "This season's first Detour was a choice between Run It Up or Paddle It Out. In Run It Up, teams had to memorize the single-flag signals of 25 maritime flags and travel to a boat on a nearby dock, where the captain would randomly shout five signals and teams had to raise the correct flags within two minutes to receive their next clue. Dafina & Saran used their Express Pass to bypass this task. In Paddle It Out, teams had to paddle a va'a outrigger canoe along False Creek to one of six buoys with their next clue. Dylan & Doug used their Express Pass to bypass this task."
+          "description": "This season's first Detour was a choice between Run It Up or Paddle It Out. In Run It Up, teams had to memorize the single-flag signals of 25 maritime flags and find a boat on a nearby dock, where the captain would randomly shout five signals and teams had to raise the correct flags within two minutes to receive their next clue. Dafina & Saran used their Express Pass to bypass this task. In Paddle It Out, teams had to paddle a va'a outrigger canoe along False Creek to one of six buoys with their next clue. Dylan & Doug used their Express Pass to bypass this task."
         },
         {
           "task_type": "Detour",

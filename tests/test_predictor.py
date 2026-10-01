@@ -171,3 +171,55 @@ def test_cli_predict(tmp_path: Path):
         data = json.load(f)
     assert data["season"] == 39
     assert len(data["rankings"]) >= 10
+
+
+def test_score_team_roadblock_equity():
+    """Verify that roadblock equity score affects predictor scoring, strengths, and risks."""
+    predictor = SeasonPredictor()
+    racers = [{"name": "Rob", "age": 28}, {"name": "Brennan", "age": 28}]
+    placements = [{"placement": 2}]
+
+    # Neutral baseline
+    base = predictor.score_team(
+        team_name="Rob & Brennan",
+        relationship="Lawyers",
+        racers=racers,
+        placements=placements,
+    )
+    assert base["roadblock_equity_score"] is None
+
+    # Balanced team (equity >= 0.85)
+    balanced = predictor.score_team(
+        team_name="Rob & Brennan",
+        relationship="Lawyers",
+        racers=racers,
+        placements=placements,
+        roadblock_equity_score=0.92,
+    )
+    assert balanced["roadblock_equity_score"] == 0.92
+    assert balanced["raw_score"] > base["raw_score"]
+    assert any("Balanced Roadblock distribution" in s for s in balanced["strengths"])
+
+    # Imbalanced team (equity < 0.60)
+    imbalanced = predictor.score_team(
+        team_name="Rob & Brennan",
+        relationship="Lawyers",
+        racers=racers,
+        placements=placements,
+        roadblock_equity_score=0.45,
+    )
+    assert imbalanced["roadblock_equity_score"] == 0.45
+    assert imbalanced["raw_score"] < base["raw_score"]
+    assert any("Severe Roadblock imbalance" in r for r in imbalanced["risks"])
+
+    # Eliminated team
+    elim = predictor.score_team(
+        team_name="Rob & Brennan",
+        relationship="Lawyers",
+        racers=racers,
+        placements=placements,
+        is_eliminated=True,
+        roadblock_equity_score=0.50,
+    )
+    assert elim["is_eliminated"] is True
+    assert elim["roadblock_equity_score"] == 0.50

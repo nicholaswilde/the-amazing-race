@@ -472,7 +472,159 @@ class DatasetBuilder:
         self._team_comp_lookup: dict[tuple[int, str], str] = {}
         self._season_contestants_df: pd.DataFrame | None = None
         self._season_teams_df: pd.DataFrame | None = None
+        self._roadblock_splits: dict[tuple[str, int, str], dict[str, Any]] = {}
+        self._roadblock_leg_performers: dict[tuple[int, int, str], str] = {}
+        self._roadblock_leg_tasks: dict[tuple[int, int], list[str]] = {}
+        self._roadblock_contestant_counts: dict[tuple[int, str], int] = {}
         self._load_gender_lookups()
+        self._load_roadblock_lookups()
+
+    def _load_roadblock_lookups(self) -> None:
+        """Load Fandom master roadblocks dataset."""
+        rb_path = self.raw_dir / "fandom" / "roadblocks_master.json"
+        if not rb_path.exists():
+            rb_path = Path("data/raw/fandom/roadblocks_master.json")
+        if not rb_path.exists():
+            return
+        try:
+            data = json.loads(rb_path.read_text(encoding="utf-8"))
+            for key, val in data.get("team_splits", {}).items():
+                parts = key.split("_", 2)
+                if len(parts) == 3:
+                    ver, s_str, team = parts
+                    s = int(s_str)
+                    self._roadblock_splits[(ver, s, team)] = val
+                    self._roadblock_splits[(ver, s, _clean_team(team))] = val
+
+            for key, val in data.get("leg_performers", {}).items():
+                parts = key.split("_", 2)
+                if len(parts) == 3:
+                    s_str, leg_str, team = parts
+                    self._roadblock_leg_performers[(int(s_str), int(leg_str), team)] = (
+                        val
+                    )
+
+            for key, val in data.get("leg_task_performers", {}).items():
+                parts = key.split("_", 1)
+                if len(parts) == 2:
+                    self._roadblock_leg_tasks[(int(parts[0]), int(parts[1]))] = val
+
+            for key, val in data.get("contestant_counts", {}).items():
+                parts = key.split("_", 1)
+                if len(parts) == 2:
+                    self._roadblock_contestant_counts[(int(parts[0]), parts[1])] = val
+        except Exception as e:
+            logger.debug("Could not load roadblocks_master.json: %s", e)
+
+    def resolve_team_roadblock_split(
+        self, version: str, season: int, team_name: str
+    ) -> tuple[str | None, float | None]:
+        """Resolve team roadblock split and equity score."""
+        ct = _clean_team(re.sub(r'".*?"', "", str(team_name)))
+        ct_norm = ct.replace("ronald", "ron")
+
+        for cand in [team_name, ct, ct_norm]:
+            if (version, season, cand) in self._roadblock_splits:
+                d = self._roadblock_splits[(version, season, cand)]
+                return d.get("split"), d.get("equity_score")
+
+        for (v, s, cand_t), d in self._roadblock_splits.items():
+            if (
+                v == version
+                and s == season
+                and (ct in cand_t or cand_t in ct or ct_norm in cand_t)
+            ):
+                return d.get("split"), d.get("equity_score")
+
+        return None, None
+
+    def resolve_leg_roadblock_performer(
+        self, season: int, leg_number: int, team_name: str
+    ) -> str | None:
+        """Resolve racer who completed the Roadblock for a specific team on a leg."""
+        ct = _clean_team(re.sub(r'".*?"', "", str(team_name)))
+        ct_norm = ct.replace("ronald", "ron")
+
+        for cand in [ct, ct_norm]:
+            if (season, leg_number, cand) in self._roadblock_leg_performers:
+                return self._roadblock_leg_performers[(season, leg_number, cand)]
+
+        for (s, leg, cand_t), perf in self._roadblock_leg_performers.items():
+            if (
+                s == season
+                and leg == leg_number
+                and (ct in cand_t or cand_t in ct or ct_norm in cand_t)
+            ):
+                return perf
+
+        return None
+
+    def resolve_contestant_roadblocks(
+        self,
+        season: int,
+        name: str,
+        group_names: list[str],
+        member_idx: int,
+        results: list[dict[str, Any]],
+        version: str = "US",
+    ) -> int:
+        """Resolve roadblocks completed by a contestant."""
+        cn = _clean_name(name)
+        first = name.split()[0].lower() if name else ""
+        c_nick = _clean_with_nickname(name)
+
+        matched_split: list[int] | None = None
+        for r in results:
+            t_name = r.get("team_name", "")
+            if season == 8:
+                fam = t_name.replace(" Family", "").lower()
+                if any(fam in gn.lower() for gn in group_names):
+                    sp_str, _ = self.resolve_team_roadblock_split(
+                        version, season, t_name
+                    )
+                    if sp_str:
+                        matched_split = [int(x) for x in sp_str.split("-")]
+                        break
+            else:
+                parts = [p.strip().lower() for p in t_name.split("&")]
+                if len(parts) == 2:
+                    first_names = [gn.split()[0].lower() for gn in group_names if gn]
+                    nick_names = [
+                        _clean_with_nickname(gn).split()[0]
+                        for gn in group_names
+                        if _clean_with_nickname(gn)
+                    ]
+                    all_cand = set(first_names + nick_names)
+                    if "flight time" in t_name.lower():
+                        all_cand.add("flight time")
+                    if "big easy" in t_name.lower():
+                        all_cand.add("big easy")
+
+                    p0_match = any(
+                        parts[0] == c or parts[0] in c or c in parts[0]
+                        for c in all_cand
+                    )
+                    p1_match = any(
+                        parts[1] == c or parts[1] in c or c in parts[1]
+                        for c in all_cand
+                    )
+
+                    if p0_match and p1_match:
+                        sp_str, _ = self.resolve_team_roadblock_split(
+                            version, season, t_name
+                        )
+                        if sp_str:
+                            matched_split = [int(x) for x in sp_str.split("-")]
+                            break
+
+        if matched_split and member_idx < len(matched_split):
+            return matched_split[member_idx]
+
+        for cand in [cn, first, c_nick]:
+            if (season, cand) in self._roadblock_contestant_counts:
+                return self._roadblock_contestant_counts[(season, cand)]
+
+        return 0
 
     def _load_gender_lookups(self) -> None:
         """Load placement database sheets to build gender and team composition lookup indices."""
@@ -778,12 +930,17 @@ class DatasetBuilder:
             "hometown_state",
             "hometown_country",
             "status",
+            "roadblocks_completed",
         ]
         rows = []
         for s in raw_seasons:
             season_num = s.get("season")
             version = s.get("version", "US")
-            for idx, c in enumerate(s.get("contestants", []), start=1):
+            contestants = s.get("contestants", [])
+            results = s.get("results", [])
+            group_size = 4 if season_num == 8 else 2
+
+            for idx, c in enumerate(contestants, start=1):
                 name = c.get("name", "")
                 age = c.get("age")
                 rel = c.get("relationship")
@@ -823,6 +980,14 @@ class DatasetBuilder:
                 )
                 hometown_state, hometown_country = parse_hometown(hometown)
 
+                group_start = ((idx - 1) // group_size) * group_size
+                group = contestants[group_start : group_start + group_size]
+                group_names = [x.get("name", "") for x in group]
+                member_idx = (idx - 1) % group_size
+                rb_completed = self.resolve_contestant_roadblocks(
+                    season_num, name, group_names, member_idx, results, version=version
+                )
+
                 rows.append(
                     {
                         "version": version,
@@ -836,6 +1001,7 @@ class DatasetBuilder:
                         "hometown_state": hometown_state,
                         "hometown_country": hometown_country,
                         "status": status,
+                        "roadblocks_completed": rb_completed,
                     }
                 )
         return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
@@ -858,6 +1024,8 @@ class DatasetBuilder:
             "podium_count",
             "podium_rate",
             "gender_composition",
+            "roadblock_split",
+            "roadblock_equity_score",
         ]
         rows = []
         for s in raw_seasons:
@@ -972,6 +1140,10 @@ class DatasetBuilder:
                     season_num, team_name, matched_genders
                 )
 
+                rb_split, rb_equity = self.resolve_team_roadblock_split(
+                    version, season_num, team_name
+                )
+
                 rows.append(
                     {
                         "version": version,
@@ -989,6 +1161,8 @@ class DatasetBuilder:
                         "podium_count": podium_count,
                         "podium_rate": podium_rate,
                         "gender_composition": gender_comp,
+                        "roadblock_split": rb_split,
+                        "roadblock_equity_score": rb_equity,
                     }
                 )
         return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
@@ -1104,6 +1278,7 @@ class DatasetBuilder:
             "uturn",
             "yield",
             "speed_bump",
+            "roadblock_performer",
         ]
         rows = []
         for s in raw_seasons:
@@ -1144,6 +1319,10 @@ class DatasetBuilder:
                         )
                         placement = active_count if active_count > 0 else 8
 
+                    rb_perf = self.resolve_leg_roadblock_performer(
+                        season_num, leg_num, team_name
+                    )
+
                     rows.append(
                         {
                             "version": version,
@@ -1159,6 +1338,7 @@ class DatasetBuilder:
                             "uturn": p.get("uturn", False),
                             "yield": p.get("yield", False),
                             "speed_bump": p.get("speed_bump", False),
+                            "roadblock_performer": rb_perf,
                         }
                     )
         df = pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)
@@ -1172,21 +1352,37 @@ class DatasetBuilder:
 
     def build_tasks_df(self, raw_seasons: list[dict[str, Any]]) -> pd.DataFrame:
         """Create tasks and challenges dataframe."""
-        cols = ["version", "season", "leg_number", "task_type", "description"]
+        cols = [
+            "version",
+            "season",
+            "leg_number",
+            "task_type",
+            "description",
+            "performed_by",
+        ]
         rows = []
         for s in raw_seasons:
             season_num = s.get("season")
             version = s.get("version", "US")
             for leg in s.get("legs", []):
                 leg_num = leg.get("leg_number")
+                leg_performers_list = self._roadblock_leg_tasks.get(
+                    (season_num, leg_num), []
+                )
                 for t in leg.get("tasks", []):
+                    task_type = t.get("task_type")
+                    performed_by = None
+                    if task_type == "Roadblock" and leg_performers_list:
+                        performed_by = ", ".join(dict.fromkeys(leg_performers_list))
+
                     rows.append(
                         {
                             "version": version,
                             "season": season_num,
                             "leg_number": leg_num,
-                            "task_type": t.get("task_type"),
+                            "task_type": task_type,
                             "description": t.get("description"),
+                            "performed_by": performed_by,
                         }
                     )
         return pd.DataFrame(rows, columns=cols) if not rows else pd.DataFrame(rows)

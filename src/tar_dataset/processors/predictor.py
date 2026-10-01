@@ -146,6 +146,7 @@ class SeasonPredictor:
         has_express_pass: bool = False,
         used_express_pass: bool = False,
         is_eliminated: bool = False,
+        roadblock_equity_score: float | None = None,
     ) -> dict[str, Any]:
         """Score an individual team based on demographic, historical, and performance features."""
         if is_eliminated:
@@ -158,6 +159,7 @@ class SeasonPredictor:
                 "avg_placement": None,
                 "is_eliminated": True,
                 "express_pass_status": "Eliminated",
+                "roadblock_equity_score": roadblock_equity_score,
                 "win_probability": 0.0,
                 "top3_probability": 0.0,
                 "raw_score": -999.0,
@@ -269,13 +271,28 @@ class SeasonPredictor:
                 "Parent/child archetype historically produces only 2.6% of winners"
             )
 
-        # 5. Composite Log-odds Score
+        # 5. Roadblock Equity Factor
+        roadblock_factor = 1.0
+        if roadblock_equity_score is not None:
+            if roadblock_equity_score >= 0.85:
+                roadblock_factor = 1.20
+                strengths.append(
+                    f"Balanced Roadblock distribution ({roadblock_equity_score:.2f} equity) minimizes late-race cap bottlenecks"
+                )
+            elif roadblock_equity_score < 0.60:
+                roadblock_factor = 0.70
+                risks.append(
+                    f"Severe Roadblock imbalance ({roadblock_equity_score:.2f} equity) risks hitting Roadblock cap limits"
+                )
+
+        # 6. Composite Log-odds Score
         # Weighting: Performance (0.45), Age (0.25), Relationship (0.20), Tactical (0.10)
         log_score = (
             0.45 * math.log(max(perf_score, 0.001))
             + 0.25 * math.log(max(age_score, 0.001))
             + 0.20 * math.log(max(rel_weight, 0.001))
             + 0.10 * math.log(max(tactical_score, 0.001))
+            + 0.15 * math.log(max(roadblock_factor, 0.001))
         )
 
         return {
@@ -288,6 +305,7 @@ class SeasonPredictor:
             "avg_placement": round(avg_placement, 2) if valid_placements else None,
             "is_eliminated": False,
             "express_pass_status": express_status,
+            "roadblock_equity_score": roadblock_equity_score,
             "raw_score": log_score,
             "strengths": strengths,
             "risks": risks,
@@ -393,9 +411,30 @@ class SeasonPredictor:
                     }
                 )
 
+        # Lookup roadblock equity from processed teams if available
+        teams_equity: dict[str, float] = {}
+        teams_path = self.processed_dir / "teams.parquet"
+        if teams_path.exists():
+            try:
+                tdf = pd.read_parquet(teams_path)
+                s_teams = tdf[(tdf["version"] == "US") & (tdf["season"] == season)]
+                for _, row in s_teams.iterrows():
+                    eq = row.get("roadblock_equity_score")
+                    if pd.notna(eq):
+                        teams_equity[str(row["team_name"]).lower()] = float(eq)
+            except Exception as exc:
+                logger.debug("Could not load roadblock equity scores: %s", exc)
+
         # Score all teams
         scored_teams: list[dict[str, Any]] = []
         for t in teams_list:
+            rb_equity = None
+            t_name_lower = t["team_name"].lower()
+            for eq_name, eq_val in teams_equity.items():
+                if eq_name in t_name_lower or t_name_lower in eq_name:
+                    rb_equity = eq_val
+                    break
+
             score_data = self.score_team(
                 team_name=t["team_name"],
                 relationship=t["relationship"],
@@ -404,6 +443,7 @@ class SeasonPredictor:
                 has_express_pass=t["has_express_pass"],
                 used_express_pass=t["used_express_pass"],
                 is_eliminated=t["is_eliminated"],
+                roadblock_equity_score=rb_equity,
             )
             scored_teams.append(score_data)
 
