@@ -52,6 +52,11 @@ else
 fi
 NEW_TAG="v$NEW_VER"
 
+if git rev-parse "$NEW_TAG" >/dev/null 2>&1; then
+    echo "Error: Git tag $NEW_TAG already exists. Release must bump the version tag."
+    exit 1
+fi
+
 echo "Current version: ${LATEST_TAG:-none (base in pyproject: $CURRENT_VER)}"
 echo "Target version:  $NEW_TAG"
 

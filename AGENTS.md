@@ -61,6 +61,9 @@ Agents can invoke the following skills located in `.agents/skills/`:
 ## Viewership & Ratings Auditing
 - When auditing or backfilling broadcast viewership (`viewers_millions`) or ratings where Wikipedia or Fandom tables list `TBD` or pending data, cross-reference industry television ratings databases such as **The TV Ratings Guide** (`thetvratingsguide.com`) and **USTVDB** (`ustvdb.com`).
 
+## Release Guidelines
+- When performing the release skill (`release`), **always ensure to bump the git version tag** (incrementing patch, minor, or major according to SemVer) and create a distinct new git tag, never re-tagging, force-moving, or reusing an existing release tag.
+
 ## Reference Repositories
 - **`doehm/alone`**: When inspecting or searching the reference `doehm/alone` repository for schema patterns, tidy data structures, or package conventions, **always look locally first** at `/home/nicholas/git/doehm/alone` before searching the web or GitHub.
 

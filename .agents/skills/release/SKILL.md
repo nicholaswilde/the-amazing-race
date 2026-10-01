@@ -16,16 +16,20 @@ This skill handles the release process by executing the `scripts/release.sh` uti
 6. Atomically push commit and tag to the remote repository (`git push --atomic origin <branch> vX.Y.Z`).
 7. Trigger the tag-based GitHub Actions release workflow (`.github/workflows/release.yml`) to compile segmented dataset bundles (CSV, Parquet, AI, SQLite, R, Python) and create a release draft.
 
+## Rules & Version Bumping
+- **Always bump the git version tag**: Every release invocation must increment the version tag (`vX.Y.Z`). Never reuse, overwrite, force-move, or re-tag an existing release tag.
+- By default, executing `./scripts/release.sh` or `task release` automatically bumps to the next patch version (`vX.Y.(Z+1)`). Use `minor` for features or newly ingested seasons, and `major` for breaking schema changes.
+
 ## Protocol
 
 1. Run the release script or Taskfile command:
    ```bash
-   # Release next patch version (e.g. 0.1.0 -> 0.1.1)
+   # Release next patch version (e.g. 0.2.0 -> 0.2.1)
    ./scripts/release.sh
    # or
    task release
 
-   # Release minor version (e.g. 0.1.0 -> 0.2.0)
+   # Release minor version (e.g. 0.2.0 -> 0.3.0)
    ./scripts/release.sh minor
    # or
    task release -- minor
@@ -34,4 +38,4 @@ This skill handles the release process by executing the `scripts/release.sh` uti
    ./scripts/release.sh major
    ./scripts/release.sh 1.0.0
    ```
-2. Once pushed, verify the GitHub Actions release workflow completes and generates the draft release.
+2. Once pushed, verify the GitHub Actions release workflow completes and generates the release assets and notes.
