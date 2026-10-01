@@ -22,7 +22,7 @@ def test_gap_auditor_completeness():
 
     assert report["overall_completeness_pct"] >= 99.0
     assert report["total_cells"] > 50000
-    assert report["total_missing"] <= 5
+    assert report["total_missing"] == 0
     assert isinstance(report["gaps"], list)
 
 

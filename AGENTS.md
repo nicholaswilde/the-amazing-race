@@ -58,6 +58,9 @@ Agents can invoke the following skills located in `.agents/skills/`:
   rtk gh issue comment 4 --body "Imported Season <N> (<version>)" | cat
   ```
 
+## Viewership & Ratings Auditing
+- When auditing or backfilling broadcast viewership (`viewers_millions`) or ratings where Wikipedia or Fandom tables list `TBD` or pending data, cross-reference industry television ratings databases such as **The TV Ratings Guide** (`thetvratingsguide.com`) and **USTVDB** (`ustvdb.com`).
+
 ## Reference Repositories
 - **`doehm/alone`**: When inspecting or searching the reference `doehm/alone` repository for schema patterns, tidy data structures, or package conventions, **always look locally first** at `/home/nicholas/git/doehm/alone` before searching the web or GitHub.
 

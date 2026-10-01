@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import gzip
 import logging
+import re
 import tempfile
 from pathlib import Path
 from typing import Any
@@ -335,9 +336,24 @@ class RExporter:
 
         # 1. DESCRIPTION
         desc_path = self.r_pkg_dir / "DESCRIPTION"
-        desc_content = """Package: theamazingrace
+        version = "0.1.0"
+        pyproject = Path("pyproject.toml")
+        if pyproject.exists():
+            m_ver = re.search(
+                r'version\s*=\s*"([^"]+)"', pyproject.read_text(encoding="utf-8")
+            )
+            if m_ver:
+                version = m_ver.group(1)
+        elif desc_path.exists():
+            m_ver = re.search(
+                r"Version:\s*([^\n\r]+)", desc_path.read_text(encoding="utf-8")
+            )
+            if m_ver:
+                version = m_ver.group(1).strip()
+
+        desc_content = f"""Package: theamazingrace
 Title: The Amazing Race Tidy Datasets
-Version: 0.1.0
+Version: {version}
 Authors@R: person("Nicholas", "Wilde", email = "nicholas@nicholaswilde.io", role = c("aut", "cre"))
 Description: Comprehensive tidy datasets for the television series The
     Amazing Race. Contains clean tabular data on seasons, episodes,

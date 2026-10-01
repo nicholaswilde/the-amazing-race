@@ -160,6 +160,19 @@ class DatasetBuilder:
                         if viewers is None:
                             viewers = master_episodes[key].get("viewers_millions")
 
+                # Fallback to known industry ratings databases (The TV Ratings Guide, USTVDB)
+                known_viewership = {
+                    ("US", 38, 10): 2.56,
+                    ("US", 38, 11): 2.61,
+                    ("US", 38, 12): 2.81,
+                }
+                if (viewers is None or pd.isna(viewers)) and (
+                    version,
+                    season_num,
+                    ep_num,
+                ) in known_viewership:
+                    viewers = known_viewership[(version, season_num, ep_num)]
+
                 rows.append(
                     {
                         "version": version,

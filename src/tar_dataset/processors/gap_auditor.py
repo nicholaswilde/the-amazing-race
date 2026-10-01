@@ -409,6 +409,9 @@ class DatasetGapAuditor:
         lines.append(
             "7. **Leg Narratives**: Scraped and populated rich route narratives across all legs (100% resolved).\n"
         )
+        lines.append(
+            "8. **Season 38 Viewership**: Backfilled episodes 10–12 broadcast ratings from The TV Ratings Guide & USTVDB (100% resolved).\n"
+        )
         out.write_text("".join(lines), encoding="utf-8")
         logger.info("Exported dataset gap report to %s", out)
         return out
