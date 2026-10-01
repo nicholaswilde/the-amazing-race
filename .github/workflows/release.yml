@@ -17,11 +17,45 @@ on:
         default: true
 
 jobs:
-  release:
-    name: Build & Publish Release Assets
+  verify:
+    name: Pre-Release Quality Checks
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install Task
+        uses: arduino/setup-task@v2
+        with:
+          version: 3.x
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install dependencies
+        run: task sync
+
+      - name: Run Quality Checks & Dataset Validation
+        run: task check
+
+      - name: Rebuild Fresh Pipeline Artifacts
+        run: task pipeline
+
+  package:
+    name: Build Release Asset Packages
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.vars.outputs.tag }}
+      version: ${{ steps.vars.outputs.version }}
+      draft: ${{ steps.vars.outputs.draft }}
 
     steps:
       - name: Check out repository
@@ -33,6 +67,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
+          cache-dependency-glob: "uv.lock"
 
       - name: Set up Python
         run: uv python install
@@ -50,12 +85,6 @@ jobs:
 
       - name: Install dependencies
         run: task sync
-
-      - name: Run Quality Checks & Dataset Validation
-        run: task check
-
-      - name: Rebuild Fresh Pipeline Artifacts
-        run: task pipeline
 
       - name: Determine Release Version & Tag
         id: vars
@@ -84,11 +113,58 @@ jobs:
         run: |
           task package -- --version "${{ steps.vars.outputs.tag }}"
 
+      - name: Upload Built Release Assets Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-assets
+          path: |
+            dist/release/*.zip
+            dist/release/*.tar.gz
+            dist/release/*.whl
+            dist/release/checksums.txt
+            dist/release/manifest.json
+          retention-days: 1
+
+  publish:
+    name: Publish Release & Sync Hub
+    needs: [verify, package]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install Task
+        uses: arduino/setup-task@v2
+        with:
+          version: 3.x
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install dependencies
+        run: task sync
+
+      - name: Download Built Release Assets
+        uses: actions/download-artifact@v4
+        with:
+          name: release-assets
+          path: dist/release
+
       - name: Create GitHub Release and Upload Assets
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.vars.outputs.tag }}
-          name: Release ${{ steps.vars.outputs.tag }}
+          tag_name: ${{ needs.package.outputs.tag }}
+          name: Release ${{ needs.package.outputs.tag }}
           files: |
             dist/release/*.zip
             dist/release/*.tar.gz
@@ -96,15 +172,14 @@ jobs:
             dist/release/checksums.txt
             dist/release/manifest.json
           generate_release_notes: true
-          draft: ${{ steps.vars.outputs.draft == 'true' }}
-          prerelease: ${{ contains(steps.vars.outputs.tag, '-rc') || contains(steps.vars.outputs.tag, '-beta') || contains(steps.vars.outputs.tag, '-alpha') }}
+          draft: ${{ needs.package.outputs.draft == 'true' }}
+          prerelease: ${{ contains(needs.package.outputs.tag, '-rc') || contains(needs.package.outputs.tag, '-beta') || contains(needs.package.outputs.tag, '-alpha') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish Dataset to Hugging Face Hub
-        if: env.HF_TOKEN != '' && steps.vars.outputs.draft != 'true'
+        if: env.HF_TOKEN != '' && needs.package.outputs.draft != 'true'
         run: |
           task publish:hf
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-
