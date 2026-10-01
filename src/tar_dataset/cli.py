@@ -225,12 +225,18 @@ def import_sheet(
 
 
 @app.command("build")
-def build() -> None:
+def build(
+    include_in_progress: bool = typer.Option(
+        False,
+        "--include-in-progress",
+        help="Include in-progress seasons (with unfinalized winners/results) in tidy build.",
+    ),
+) -> None:
     """Build tidy datasets (CSV + Parquet + SQLite) from all cached raw sources."""
     console.print(
         "[bold blue]Building tidy datasets from raw scraped data...[/bold blue]"
     )
-    builder = DatasetBuilder()
+    builder = DatasetBuilder(include_in_progress=include_in_progress)
     dfs = builder.build_all()
 
     if not dfs:

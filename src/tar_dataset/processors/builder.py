@@ -71,10 +71,12 @@ class DatasetBuilder:
         self,
         raw_dir: Path | str = "data/raw",
         processed_dir: Path | str = "data/processed",
+        include_in_progress: bool = False,
     ) -> None:
         self.raw_dir = Path(raw_dir)
         self.processed_dir = Path(processed_dir)
         self.processed_dir.mkdir(parents=True, exist_ok=True)
+        self.include_in_progress = include_in_progress
 
     def load_wikipedia_seasons(self) -> list[dict[str, Any]]:
         """Load all raw Wikipedia season files."""
@@ -86,6 +88,17 @@ class DatasetBuilder:
         for file in sorted(wiki_dir.glob("season_*.json")):
             try:
                 data = json.loads(file.read_text(encoding="utf-8"))
+                # Filter out in-progress seasons (where winners are not yet decided)
+                # unless explicitly requested, so official tidy datasets remain complete
+                if not self.include_in_progress:
+                    info = data.get("infobox", {})
+                    winners = info.get("winners")
+                    if not winners or "TBD" in str(winners):
+                        logger.info(
+                            "Skipping in-progress Season %s from official tidy build (winners pending)",
+                            data.get("season"),
+                        )
+                        continue
                 seasons.append(data)
             except Exception as e:
                 logger.error("Failed to load %s: %s", file, e)

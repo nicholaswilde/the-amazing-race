@@ -198,3 +198,46 @@ def test_ai_formats_export_all_and_reddit(tmp_path):
     assert "corpus_chunks" in counts
     assert (tmp_path / "ai" / "tar_qa_finetuning.jsonl").exists()
     assert (tmp_path / "ai" / "tar_knowledge_corpus.jsonl").exists()
+
+
+def test_builder_skips_in_progress_seasons(tmp_path):
+    """Verify DatasetBuilder excludes in-progress seasons by default."""
+    from tar_dataset.processors.builder import DatasetBuilder
+
+    raw_wiki = tmp_path / "raw" / "wikipedia"
+    raw_wiki.mkdir(parents=True)
+
+    completed_season = {
+        "version": "US",
+        "season": 1,
+        "infobox": {"winners": "Rob & Brennan", "n_teams": 11, "n_legs": 13},
+    }
+    in_progress_season = {
+        "version": "US",
+        "season": 99,
+        "infobox": {"winners": None, "n_teams": 12, "n_legs": 12},
+    }
+
+    (raw_wiki / "season_us_01.json").write_text(
+        json.dumps(completed_season), encoding="utf-8"
+    )
+    (raw_wiki / "season_us_99.json").write_text(
+        json.dumps(in_progress_season), encoding="utf-8"
+    )
+
+    # Default: skip in-progress
+    builder_default = DatasetBuilder(
+        raw_dir=tmp_path / "raw", processed_dir=tmp_path / "processed"
+    )
+    seasons = builder_default.load_wikipedia_seasons()
+    assert len(seasons) == 1
+    assert seasons[0]["season"] == 1
+
+    # Explicit: include in-progress
+    builder_include = DatasetBuilder(
+        raw_dir=tmp_path / "raw",
+        processed_dir=tmp_path / "processed",
+        include_in_progress=True,
+    )
+    seasons_all = builder_include.load_wikipedia_seasons()
+    assert len(seasons_all) == 2
