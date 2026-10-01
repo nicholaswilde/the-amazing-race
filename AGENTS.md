@@ -105,4 +105,9 @@ Serena (`serena-agent`) provides symbol-level semantic code navigation, refactor
   2. Initialize project configuration: `serena project create . --ls python`
   3. Index symbols: `serena project index .`
   4. Verify setup: `serena project health-check .`
+- **Troubleshooting**:
+  - **MCP Reload Warning (`signal: terminated`)**:
+    - *Symptom*: `Failed to reload MCP config: failed to stop existing instances for reload: failed to stop mcp instance: serena: signal: terminated`.
+    - *Cause*: `agy` terminates running MCP instances with `SIGTERM` when reloading. Serena exits cleanly on signal 15, but Go's `cmd.Wait()` treats signal termination as an error string (`signal: terminated`), causing `agy` to report a reload error.
+    - *Resolution*: Benign. Serena restarts immediately on the next tool invocation or post-reload cycle. Verify status via `serena project health-check .` or by calling any Serena MCP tool.
 
