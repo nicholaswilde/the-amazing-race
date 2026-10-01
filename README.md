@@ -1,4 +1,4 @@
-# :card_index_dividers: The Amazing Race Dataset & AI Training Corpus :checkered_flag:
+# :card_index_dividers: The Amazing Race Dataset & AI Training Corpus :checkered_flag: <img src="dev/images/theamazingrace hex.png" align="right" height="240" alt="theamazingrace hex sticker" />
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-amazing-race/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-amazing-race/actions/workflows/ci.yml)
 [![task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Coverage](https://img.shields.io/coveralls/github/nicholaswilde/the-amazing-race/main?style=for-the-badge&logo=coveralls)](https://coveralls.io/github/nicholaswilde/the-amazing-race?branch=main)
@@ -80,6 +80,39 @@ Direct high-performance columnar reading in R without loading package `.rda` obj
 library(arrow)
 seasons <- read_parquet("data/processed/seasons.parquet")
 ```
+
+---
+
+## :bar_chart: Data Visualizations & Exploratory Analysis
+
+Inspired by [`doehm/alone`](https://github.com/doehm/alone), the repository includes publication-quality visualizations and exploratory analyses generated from the historical tidy tables. All figures are rendered at 300 DPI and stored in [`dev/images/`](dev/images/):
+
+### Team Survival Curves Across Legs
+
+Step-down team survival curves across Legs 0–12 by relationship archetype (Dating, Siblings, Married, Friends, Parent/Child) alongside an inset distribution of total legs completed:
+
+<p align="center">
+  <img src="dev/images/survival.png" width="95%" alt="Team Survival Curves Across Legs" />
+</p>
+
+### Most Visited Destination Countries
+
+Total leg appearances across all 453 race legs spanning 38 US seasons:
+
+<p align="center">
+  <img src="dev/images/items.png" width="70%" alt="Most Visited Destination Countries" />
+</p>
+
+### Racer Age Distributions by Finish Placement
+
+Boxplot distributions and jittered racer data comparing championship winners and podium finalists against mid-pack and early elimination tiers:
+
+<p align="center">
+  <img src="dev/images/boxplots.png" width="95%" alt="Racer Age Distributions by Finish Placement" />
+</p>
+
+> [!TIP]
+> All figures and branding assets can be generated or customized via `task images` (or `python dev/scripts/generate_images.py`).
 
 ---
 
@@ -375,6 +408,8 @@ task release:summary  # Generate categorized release notes and update draft rele
 task eval:benchmark   # Evaluate 45 curated AI benchmark questions
 task validate         # Verify dataset schema and relational integrity
 task stats            # Show table row counts and summary stats
+task predict          # Predict upcoming/in-progress season outcomes (e.g. -- --season 39)
+task images           # Generate publication-quality figures and branding assets (dev/images/)
 task scrape:wiki      # Scrape Wikipedia seasons (pass args via --, e.g. -- --season 1)
 task scrape:fandom    # Scrape Fandom Wiki infoboxes
 task scrape:reddit    # Scrape Reddit discussion threads
