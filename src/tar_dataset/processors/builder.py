@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+import statistics
 from pathlib import Path
 from typing import Any
 
@@ -150,6 +151,308 @@ def _clean_with_nickname(n: str) -> str:
 
 def _clean_team(n: str) -> str:
     return re.sub(r"[^a-z0-9]", "", str(n).lower())
+
+
+US_STATES: dict[str, str] = {
+    "Alabama": "AL",
+    "Alaska": "AK",
+    "Arizona": "AZ",
+    "Arkansas": "AR",
+    "California": "CA",
+    "Colorado": "CO",
+    "Connecticut": "CT",
+    "Delaware": "DE",
+    "Florida": "FL",
+    "Georgia": "GA",
+    "Hawaii": "HI",
+    "Idaho": "ID",
+    "Illinois": "IL",
+    "Indiana": "IN",
+    "Iowa": "IA",
+    "Kansas": "KS",
+    "Kentucky": "KY",
+    "Louisiana": "LA",
+    "Maine": "ME",
+    "Maryland": "MD",
+    "Massachusetts": "MA",
+    "Michigan": "MI",
+    "Minnesota": "MN",
+    "Mississippi": "MS",
+    "Missouri": "MO",
+    "Montana": "MT",
+    "Nebraska": "NE",
+    "Nevada": "NV",
+    "New Hampshire": "NH",
+    "New Jersey": "NJ",
+    "New Mexico": "NM",
+    "New York": "NY",
+    "North Carolina": "NC",
+    "North Dakota": "ND",
+    "Ohio": "OH",
+    "Oklahoma": "OK",
+    "Oregon": "OR",
+    "Pennsylvania": "PA",
+    "Rhode Island": "RI",
+    "South Carolina": "SC",
+    "South Dakota": "SD",
+    "Tennessee": "TN",
+    "Texas": "TX",
+    "Utah": "UT",
+    "Vermont": "VT",
+    "Virginia": "VA",
+    "Washington": "WA",
+    "West Virginia": "WV",
+    "Wisconsin": "WI",
+    "Wyoming": "WY",
+    "D.C.": "DC",
+    "District of Columbia": "DC",
+    "Washington, D.C.": "DC",
+}
+
+COUNTRY_INFO: dict[str, tuple[str, str]] = {
+    "Argentina": ("ARG", "South America"),
+    "Armenia": ("ARM", "Asia"),
+    "Australia": ("AUS", "Oceania"),
+    "Austria": ("AUT", "Europe"),
+    "Azerbaijan": ("AZE", "Asia"),
+    "Bahrain": ("BHR", "Asia"),
+    "Bangladesh": ("BGD", "Asia"),
+    "Barbados": ("BRB", "North America"),
+    "Belgium": ("BEL", "Europe"),
+    "Bolivia": ("BOL", "South America"),
+    "Botswana": ("BWA", "Africa"),
+    "Brazil": ("BRA", "South America"),
+    "Bulgaria": ("BGR", "Europe"),
+    "Burkina Faso": ("BFA", "Africa"),
+    "Cambodia": ("KHM", "Asia"),
+    "Canada": ("CAN", "North America"),
+    "Chile": ("CHL", "South America"),
+    "China": ("CHN", "Asia"),
+    "Colombia": ("COL", "South America"),
+    "Costa Rica": ("CRI", "North America"),
+    "Croatia": ("HRV", "Europe"),
+    "Czech Republic": ("CZE", "Europe"),
+    "Czechia": ("CZE", "Europe"),
+    "Denmark": ("DNK", "Europe"),
+    "Denmark & Sweden": ("SWE", "Europe"),
+    "Dominican Republic": ("DOM", "North America"),
+    "Ecuador": ("ECU", "South America"),
+    "Egypt": ("EGY", "Africa"),
+    "England": ("GBR", "Europe"),
+    "England & Wales": ("GBR", "Europe"),
+    "Estonia": ("EST", "Europe"),
+    "Ethiopia": ("ETH", "Africa"),
+    "Finland": ("FIN", "Europe"),
+    "France": ("FRA", "Europe"),
+    "France & Monaco": ("FRA", "Europe"),
+    "French Polynesia": ("PYF", "Oceania"),
+    "Georgia": ("GEO", "Asia"),
+    "Germany": ("DEU", "Europe"),
+    "Germany & Austria": ("DEU", "Europe"),
+    "Ghana": ("GHA", "Africa"),
+    "Greece": ("GRC", "Europe"),
+    "Guam": ("GUM", "Oceania"),
+    "Hong Kong": ("HKG", "Asia"),
+    "Hungary": ("HUN", "Europe"),
+    "Iceland": ("ISL", "Europe"),
+    "India": ("IND", "Asia"),
+    "Indonesia": ("IDN", "Asia"),
+    "Ireland": ("IRL", "Europe"),
+    "Italy": ("ITA", "Europe"),
+    "Jamaica": ("JAM", "North America"),
+    "Japan": ("JPN", "Asia"),
+    "Jordan": ("JOR", "Asia"),
+    "Kazakhstan": ("KAZ", "Asia"),
+    "Kenya": ("KEN", "Africa"),
+    "Kuwait": ("KWT", "Asia"),
+    "Laos": ("LAO", "Asia"),
+    "Liechtenstein": ("LIE", "Europe"),
+    "Lithuania": ("LTU", "Europe"),
+    "Macau": ("MAC", "Asia"),
+    "Madagascar": ("MDG", "Africa"),
+    "Malawi": ("MWI", "Africa"),
+    "Malaysia": ("MYS", "Asia"),
+    "Malta": ("MLT", "Europe"),
+    "Mauritius": ("MUS", "Africa"),
+    "Mexico": ("MEX", "North America"),
+    "Monaco": ("MCO", "Europe"),
+    "Mongolia": ("MNG", "Asia"),
+    "Morocco": ("MAR", "Africa"),
+    "Mozambique": ("MOZ", "Africa"),
+    "Namibia": ("NAM", "Africa"),
+    "Netherlands": ("NLD", "Europe"),
+    "New Zealand": ("NZL", "Oceania"),
+    "Northern Ireland": ("GBR", "Europe"),
+    "Norway": ("NOR", "Europe"),
+    "Oman": ("OMN", "Asia"),
+    "Panama": ("PAN", "North America"),
+    "Paraguay": ("PRY", "South America"),
+    "Peru": ("PER", "South America"),
+    "Philippines": ("PHL", "Asia"),
+    "Poland": ("POL", "Europe"),
+    "Portugal": ("PRT", "Europe"),
+    "Puerto Rico": ("PRI", "North America"),
+    "Romania": ("ROU", "Europe"),
+    "Russia": ("RUS", "Europe"),
+    "Scotland": ("GBR", "Europe"),
+    "Senegal": ("SEN", "Africa"),
+    "Seychelles": ("SYC", "Africa"),
+    "Singapore": ("SGP", "Asia"),
+    "Slovenia": ("SVN", "Europe"),
+    "South Africa": ("ZAF", "Africa"),
+    "South Korea": ("KOR", "Asia"),
+    "Spain": ("ESP", "Europe"),
+    "Sri Lanka": ("LKA", "Asia"),
+    "Sweden": ("SWE", "Europe"),
+    "Switzerland": ("CHE", "Europe"),
+    "Taiwan": ("TWN", "Asia"),
+    "Tanzania": ("TZA", "Africa"),
+    "Thailand": ("THA", "Asia"),
+    "Trinidad and Tobago": ("TTO", "North America"),
+    "Tunisia": ("TUN", "Africa"),
+    "Turkey": ("TUR", "Europe"),
+    "U.S. Virgin Islands": ("VIR", "North America"),
+    "Uganda": ("UGA", "Africa"),
+    "Ukraine": ("UKR", "Europe"),
+    "United Arab Emirates": ("ARE", "Asia"),
+    "United Kingdom": ("GBR", "Europe"),
+    "United States": ("USA", "North America"),
+    "USA": ("USA", "North America"),
+    "Uruguay": ("URY", "South America"),
+    "Vietnam": ("VNM", "Asia"),
+    "Wales": ("GBR", "Europe"),
+    "Zambia": ("ZMB", "Africa"),
+    "Zimbabwe": ("ZWE", "Africa"),
+}
+
+for _state, _code in US_STATES.items():
+    COUNTRY_INFO[_state] = ("USA", "North America")
+    COUNTRY_INFO[_code] = ("USA", "North America")
+COUNTRY_INFO["Pennsylvania & New Jersey"] = ("USA", "North America")
+
+# Reverse lookup for ISO codes
+for _k, _v in list(COUNTRY_INFO.items()):
+    _iso, _cont = _v
+    if _iso not in COUNTRY_INFO:
+        COUNTRY_INFO[_iso] = (_iso, _cont)
+
+
+def resolve_country_and_continent(name: str | None) -> tuple[str | None, str | None]:
+    """Resolve country name, state, or ISO code to (ISO-3, continent)."""
+    if not name:
+        return None, None
+    clean = name.strip()
+    if clean in COUNTRY_INFO:
+        return COUNTRY_INFO[clean]
+    if "," in clean:
+        cand = clean.rsplit(",", 1)[1].strip()
+        if cand in COUNTRY_INFO:
+            return COUNTRY_INFO[cand]
+    return None, None
+
+
+def extract_city_from_itinerary(itinerary: list[Any] | None) -> str | None:
+    """Extract destination city from leg itinerary stops (pit stop / final route stop)."""
+    if not itinerary:
+        return None
+    for it in reversed(itinerary):
+        it_str = str(it).strip()
+        if len(it_str) > 100:
+            continue
+        if any(
+            it_str.startswith(x)
+            for x in (
+                "Episode",
+                "Eliminated:",
+                "Prize:",
+                "Winners:",
+                "Runners-up:",
+                "Teams ",
+                "Due to",
+            )
+        ):
+            continue
+        # City, Country or City, State
+        m = re.match(r"^([^,()]+?),\s*([^()]+)", it_str)
+        if m:
+            c = m.group(1).strip()
+            if not any(
+                w in c.lower()
+                for w in ("this was", "leg", "episode", "teams", "due to", "note")
+            ):
+                return c
+        # City (Location)
+        m = re.match(r"^([^()]+?)\s*\(", it_str)
+        if m:
+            c = m.group(1).strip()
+            if not any(
+                w in c.lower()
+                for w in ("this was", "leg", "episode", "teams", "due to", "note")
+            ):
+                return c
+    return None
+
+
+def parse_route_header(
+    route_header: str | None, itinerary: list[Any] | None = None
+) -> tuple[str | None, str | None, str | None, str | None]:
+    """Parse route_header and itinerary into (origin_country, destination_country, destination_city, destination_continent)."""
+    if not route_header:
+        city = extract_city_from_itinerary(itinerary)
+        return None, None, city, None
+
+    parts = [p.strip() for p in re.split(r"→|->", route_header) if p.strip()]
+    if not parts:
+        city = extract_city_from_itinerary(itinerary)
+        return None, None, city, None
+
+    orig_part = parts[0]
+    dest_part = parts[-1]
+
+    orig_iso, _ = resolve_country_and_continent(orig_part)
+    city = None
+
+    if "," in dest_part:
+        city_cand, country_cand = dest_part.rsplit(",", 1)
+        city = city_cand.strip()
+        dest_iso, dest_cont = resolve_country_and_continent(country_cand)
+    else:
+        dest_iso, dest_cont = resolve_country_and_continent(dest_part)
+
+    if not city:
+        city = extract_city_from_itinerary(itinerary)
+
+    return orig_iso, dest_iso, city, dest_cont
+
+
+def parse_hometown(hometown: str | None) -> tuple[str | None, str | None]:
+    """Parse hometown string into (hometown_state, hometown_country)."""
+    if not hometown or pd.isna(hometown):
+        return None, None
+    h_str = str(hometown).strip()
+    if not h_str:
+        return None, None
+    parts = [p.strip() for p in h_str.split(",")]
+    if len(parts) >= 2:
+        state_candidate = parts[-1]
+        if state_candidate in US_STATES:
+            return US_STATES[state_candidate], "USA"
+        if state_candidate in US_STATES.values():
+            return state_candidate, "USA"
+        iso, _ = resolve_country_and_continent(state_candidate)
+        if iso:
+            return None, iso
+        return state_candidate, "USA"
+    elif len(parts) == 1:
+        if parts[0] in US_STATES:
+            return US_STATES[parts[0]], "USA"
+        if parts[0] in US_STATES.values():
+            return parts[0], "USA"
+        iso, _ = resolve_country_and_continent(parts[0])
+        if iso:
+            return None, iso
+        return None, "USA"
+    return None, None
 
 
 class DatasetBuilder:
@@ -472,6 +775,8 @@ class DatasetBuilder:
             "gender",
             "relationship",
             "hometown",
+            "hometown_state",
+            "hometown_country",
             "status",
         ]
         rows = []
@@ -516,6 +821,7 @@ class DatasetBuilder:
                 gender = self.resolve_contestant_gender(
                     season_num, name, rel, c.get("gender")
                 )
+                hometown_state, hometown_country = parse_hometown(hometown)
 
                 rows.append(
                     {
@@ -527,6 +833,8 @@ class DatasetBuilder:
                         "gender": gender,
                         "relationship": rel,
                         "hometown": hometown,
+                        "hometown_state": hometown_state,
+                        "hometown_country": hometown_country,
                         "status": status,
                     }
                 )
@@ -545,6 +853,10 @@ class DatasetBuilder:
             "status",
             "legs_won",
             "legs_completed",
+            "racing_average",
+            "placement_std",
+            "podium_count",
+            "podium_rate",
             "gender_composition",
         ]
         rows = []
@@ -559,11 +871,31 @@ class DatasetBuilder:
                 team_id = f"{version}-S{season_num:02d}-{slugify(team_name)}"
                 placements = r.get("placements", [])
 
-                legs_won = sum(1 for p in placements if p.get("placement") == 1)
                 active_placements = [
-                    p for p in placements if p.get("placement") is not None
+                    p.get("placement")
+                    for p in placements
+                    if p.get("placement") is not None
+                    and isinstance(p.get("placement"), (int, float))
                 ]
                 legs_completed = len(active_placements)
+                legs_won = sum(1 for p in active_placements if p == 1)
+
+                if active_placements:
+                    racing_average = round(
+                        float(sum(active_placements)) / len(active_placements), 2
+                    )
+                    placement_std = (
+                        round(float(statistics.stdev(active_placements)), 2)
+                        if len(active_placements) > 1
+                        else 0.0
+                    )
+                    podium_count = sum(1 for p in active_placements if p <= 3)
+                    podium_rate = round(float(podium_count) / len(active_placements), 2)
+                else:
+                    racing_average = None
+                    placement_std = None
+                    podium_count = 0
+                    podium_rate = None
 
                 rel = None
                 hometown = None
@@ -652,6 +984,10 @@ class DatasetBuilder:
                         "status": status,
                         "legs_won": legs_won,
                         "legs_completed": legs_completed,
+                        "racing_average": racing_average,
+                        "placement_std": placement_std,
+                        "podium_count": podium_count,
+                        "podium_rate": podium_rate,
                         "gender_composition": gender_comp,
                     }
                 )
@@ -664,6 +1000,10 @@ class DatasetBuilder:
             "season",
             "leg_number",
             "route_header",
+            "origin_country",
+            "destination_country",
+            "destination_city",
+            "destination_continent",
             "itinerary_stops",
             "tasks_count",
             "narrative",
@@ -677,6 +1017,13 @@ class DatasetBuilder:
                 tasks = leg.get("tasks", [])
                 itinerary = leg.get("itinerary", [])
                 narrative = leg.get("narrative") or ""
+
+                (
+                    orig_country,
+                    dest_country,
+                    dest_city,
+                    dest_continent,
+                ) = parse_route_header(leg.get("route_header"), itinerary)
 
                 # Distinguish route stops from narrative sentences in itinerary
                 route_stops = []
@@ -732,6 +1079,10 @@ class DatasetBuilder:
                         "season": season_num,
                         "leg_number": leg_num,
                         "route_header": leg.get("route_header"),
+                        "origin_country": orig_country,
+                        "destination_country": dest_country,
+                        "destination_city": dest_city,
+                        "destination_continent": dest_continent,
                         "itinerary_stops": itinerary_stops_count,
                         "tasks_count": len(tasks),
                         "narrative": narrative.strip() if narrative else None,

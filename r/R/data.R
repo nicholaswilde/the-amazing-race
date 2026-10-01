@@ -42,7 +42,7 @@
 #'
 #' Individual contestant demographics, ages, relationship categories, and hometown residences.
 #'
-#' @format A data frame with 886 rows and 9 variables:
+#' @format A data frame with 886 rows and 11 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -52,6 +52,8 @@
 #'   \item{gender}{Gender of the contestant (M, F, NB)}
 #'   \item{relationship}{Stated relationship to race teammate}
 #'   \item{hometown}{City and state of permanent residence}
+#'   \item{hometown_state}{Parsed US state two-letter postal code or region}
+#'   \item{hometown_country}{Hometown country code (e.g. USA)}
 #'   \item{status}{Finishing status (e.g. Winners, Runners-up, Eliminated)}
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series)}
@@ -61,7 +63,7 @@
 #'
 #' Two-person team statistics, relationship classifications, final finish placement, and total leg victories.
 #'
-#' @format A data frame with 431 rows and 11 variables:
+#' @format A data frame with 431 rows and 15 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -73,6 +75,10 @@
 #'   \item{status}{Finishing status description}
 #'   \item{legs_won}{Count of first-place leg finishes won by the team (integer)}
 #'   \item{legs_completed}{Total number of legs completed before elimination or victory (integer)}
+#'   \item{racing_average}{Average leg finish placement across all completed legs (numeric)}
+#'   \item{placement_std}{Standard deviation of leg finish placements (numeric)}
+#'   \item{podium_count}{Total count of Top-3 leg finishes (integer)}
+#'   \item{podium_rate}{Proportion of completed legs finishing in Top-3 (numeric)}
 #'   \item{gender_composition}{Team gender composition (MM, FF, MF)}
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series)}
@@ -82,12 +88,16 @@
 #'
 #' Leg-level travel route summaries, itinerary waypoints count, task counts, and route narratives.
 #'
-#' @format A data frame with 453 rows and 7 variables:
+#' @format A data frame with 453 rows and 11 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
 #'   \item{leg_number}{Leg number within the season (integer)}
 #'   \item{route_header}{Locations and countries traversed during the leg}
+#'   \item{origin_country}{Origin country three-letter ISO code (e.g. USA, FRA)}
+#'   \item{destination_country}{Destination country three-letter ISO code (e.g. ZMB, JPN)}
+#'   \item{destination_city}{Primary destination city or region of the leg}
+#'   \item{destination_continent}{Destination continent name (e.g. Africa, Europe, Asia)}
 #'   \item{itinerary_stops}{Count of distinct route waypoints and stops (integer)}
 #'   \item{tasks_count}{Count of challenge checkpoints on the leg (integer)}
 #'   \item{narrative}{Comprehensive narrative detailing route travel, navigation challenges, and leg storyline}

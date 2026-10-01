@@ -5,9 +5,20 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 from tar_dataset.importers.sheets import SheetsImporter, google_sheet_to_csv_url
-from tar_dataset.processors.builder import DatasetBuilder
+from tar_dataset.processors.builder import (
+    DatasetBuilder,
+    parse_hometown,
+    parse_route_header,
+)
 from tar_dataset.processors.validator import DatasetValidator
-from tar_dataset.schemas import Episode, RedditDiscussion, Season, Team
+from tar_dataset.schemas import (
+    Contestant,
+    Episode,
+    Leg,
+    RedditDiscussion,
+    Season,
+    Team,
+)
 from tar_dataset.scrapers.reddit import RedditScraper
 from tar_dataset.scrapers.wikipedia import (
     WikipediaScraper,
@@ -38,9 +49,45 @@ def test_schemas():
         member_2_name="Brennan Swain",
         relationship="Best Friends & Lawyers",
         result=1,
+        racing_average=1.83,
+        placement_std=1.59,
+        podium_count=10,
+        podium_rate=0.83,
     )
     assert team.result == 1
     assert team.member_1_name == "Rob Frisbee"
+    assert team.racing_average == 1.83
+    assert team.placement_std == 1.59
+    assert team.podium_count == 10
+    assert team.podium_rate == 0.83
+
+    contestant = Contestant(
+        version="US",
+        season=1,
+        contestant_id="US-S01-01",
+        team_id="US-S01-rob-brennan",
+        name="Rob Frisbee",
+        hometown="Minneapolis, Minnesota",
+        hometown_state="MN",
+        hometown_country="USA",
+    )
+    assert contestant.hometown_state == "MN"
+    assert contestant.hometown_country == "USA"
+
+    leg = Leg(
+        version="US",
+        season=1,
+        leg_number=1,
+        route_header="United States → South Africa → Zambia",
+        origin_country="USA",
+        destination_country="ZMB",
+        destination_city="Livingstone District",
+        destination_continent="Africa",
+    )
+    assert leg.origin_country == "USA"
+    assert leg.destination_country == "ZMB"
+    assert leg.destination_city == "Livingstone District"
+    assert leg.destination_continent == "Africa"
 
     episode = Episode(
         version="US",
@@ -308,3 +355,99 @@ def test_builder_with_cached_raw_seasons(tmp_path):
         validator = DatasetValidator(processed_dir=tmp_path / "processed")
         report = validator.validate()
         assert report["status"] in ["PASS", "WARNING"]
+
+
+def test_parse_route_header_and_hometown():
+    """Verify route_header and hometown parsing functions."""
+    # Standard multi-country leg
+    orig, dest, city, cont = parse_route_header(
+        "United States → South Africa → Zambia",
+        ["Livingstone District (Songwe Village)"],
+    )
+    assert orig == "USA"
+    assert dest == "ZMB"
+    assert city == "Livingstone District"
+    assert cont == "Africa"
+
+    # City in header
+    orig, dest, city, cont = parse_route_header(
+        "Singapore → Mueang Nonthaburi, Thailand"
+    )
+    assert orig == "SGP"
+    assert dest == "THA"
+    assert city == "Mueang Nonthaburi"
+    assert cont == "Asia"
+
+    # US Domestic leg
+    orig, dest, city, cont = parse_route_header("Alabama → Mississippi → Louisiana")
+    assert orig == "USA"
+    assert dest == "USA"
+    assert cont == "North America"
+
+    # Single country leg
+    orig, dest, city, cont = parse_route_header("Argentina")
+    assert orig == "ARG"
+    assert dest == "ARG"
+    assert cont == "South America"
+
+    # Hometown parsing
+    st, co = parse_hometown("San Francisco, California")
+    assert st == "CA"
+    assert co == "USA"
+
+    st, co = parse_hometown("Washington, D.C.")
+    assert st == "DC"
+    assert co == "USA"
+
+    st, co = parse_hometown("London, England")
+    assert st is None
+    assert co == "GBR"
+
+
+def test_derived_racing_metrics():
+    """Verify calculation of racing_average, placement_std, podium_count, and podium_rate."""
+    builder = DatasetBuilder()
+    mock_season = {
+        "version": "US",
+        "season": 98,
+        "results": [
+            {
+                "team_name": "Rachel & Dave",
+                "placements": [
+                    {"placement": 1},
+                    {"placement": 1},
+                    {"placement": 6},
+                    {"placement": 2},
+                    {"placement": 4},
+                    {"placement": 1},
+                    {"placement": 1},
+                    {"placement": 2},
+                    {"placement": 1},
+                    {"placement": 1},
+                    {"placement": 1},
+                    {"placement": 1},
+                ],
+            },
+            {
+                "team_name": "Early Exit",
+                "placements": [
+                    {"placement": 11},
+                ],
+            },
+        ],
+        "contestants": [],
+    }
+    teams_df = builder.build_teams_df([mock_season])
+    assert len(teams_df) == 2
+
+    rd = teams_df[teams_df["team_name"] == "Rachel & Dave"].iloc[0]
+    assert rd["racing_average"] == 1.83
+    assert rd["placement_std"] == 1.59
+    assert rd["podium_count"] == 10
+    assert rd["podium_rate"] == 0.83
+
+    ee = teams_df[teams_df["team_name"] == "Early Exit"].iloc[0]
+    assert ee["racing_average"] == 11.0
+    assert ee["placement_std"] == 0.0
+    assert ee["podium_count"] == 0
+    assert ee["podium_rate"] == 0.0

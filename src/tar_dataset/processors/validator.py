@@ -116,6 +116,76 @@ class DatasetValidator:
                         f"Found {invalid_comp} invalid gender_composition values in teams.csv"
                     )
 
+            # 5. Racing metrics checks on teams
+            if "racing_average" in t_df.columns and "legs_completed" in t_df.columns:
+                completed_teams = t_df[t_df["legs_completed"] > 0]
+                null_ra = completed_teams["racing_average"].isna().sum()
+                if null_ra > 0:
+                    report["issues"].append(
+                        f"Found {null_ra} teams with completed legs missing racing_average in teams.csv"
+                    )
+                invalid_ra = (completed_teams["racing_average"] < 1.0).sum()
+                if invalid_ra > 0:
+                    report["issues"].append(
+                        f"Found {invalid_ra} teams with invalid racing_average (< 1.0) in teams.csv"
+                    )
+
+            if "podium_rate" in t_df.columns and "legs_completed" in t_df.columns:
+                completed_teams = t_df[t_df["legs_completed"] > 0]
+                invalid_pr = (
+                    (completed_teams["podium_rate"] < 0.0)
+                    | (completed_teams["podium_rate"] > 1.0)
+                ).sum()
+                if invalid_pr > 0:
+                    report["issues"].append(
+                        f"Found {invalid_pr} teams with invalid podium_rate outside [0, 1] in teams.csv"
+                    )
+
+        # 6. Geography checks on legs
+        if "legs" in dfs:
+            l_df = dfs["legs"]
+            if (
+                "origin_country" in l_df.columns
+                and "destination_country" in l_df.columns
+            ):
+                null_orig = l_df["origin_country"].isna().sum()
+                null_dest = l_df["destination_country"].isna().sum()
+                if null_orig > 0:
+                    report["issues"].append(
+                        f"Found {null_orig} legs with missing origin_country in legs.csv"
+                    )
+                if null_dest > 0:
+                    report["issues"].append(
+                        f"Found {null_dest} legs with missing destination_country in legs.csv"
+                    )
+            if "destination_continent" in l_df.columns:
+                valid_continents = {
+                    "Africa",
+                    "Asia",
+                    "Europe",
+                    "North America",
+                    "Oceania",
+                    "South America",
+                    "Antarctica",
+                }
+                invalid_cont = (
+                    ~l_df["destination_continent"].dropna().isin(valid_continents)
+                ).sum()
+                if invalid_cont > 0:
+                    report["issues"].append(
+                        f"Found {invalid_cont} invalid destination_continent values in legs.csv"
+                    )
+
+        # 7. Geography checks on contestants
+        if "contestants" in dfs:
+            c_df = dfs["contestants"]
+            if "hometown_country" in c_df.columns:
+                null_hc = c_df["hometown_country"].isna().sum()
+                if null_hc > 0:
+                    report["issues"].append(
+                        f"Found {null_hc} contestants with missing hometown_country in contestants.csv"
+                    )
+
         if report["issues"]:
             report["status"] = (
                 "WARNING"

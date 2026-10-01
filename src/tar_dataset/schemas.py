@@ -86,6 +86,13 @@ class Contestant(BaseModel):
     gender: str | None = Field(default=None, description="Gender (M/F/Non-binary)")
     occupation: str | None = Field(default=None, description="Profession or job")
     hometown: str | None = Field(default=None, description="Hometown city/state")
+    hometown_state: str | None = Field(
+        default=None,
+        description="Parsed US state code / name for geographic racer representation",
+    )
+    hometown_country: str | None = Field(
+        default=None, description="Hometown country (ISO-3 code or name)"
+    )
 
 
 class Team(BaseModel):
@@ -122,6 +129,22 @@ class Team(BaseModel):
         default=None,
         description="Team gender composition (MM, FF, MF)",
     )
+    racing_average: float | None = Field(
+        default=None,
+        description="Average leg placement across all completed legs",
+    )
+    placement_std: float | None = Field(
+        default=None,
+        description="Standard deviation of leg placements",
+    )
+    podium_count: int | None = Field(
+        default=0,
+        description="Total count of Top-3 finishes",
+    )
+    podium_rate: float | None = Field(
+        default=None,
+        description="Percentage of legs finishing in Top-3",
+    )
 
 
 class Leg(BaseModel):
@@ -133,10 +156,22 @@ class Leg(BaseModel):
     episode: int | None = Field(
         default=None, description="Episode number corresponding to leg"
     )
+    route_header: str | None = Field(
+        default=None, description="Locations and countries traversed during the leg"
+    )
     origin_city: str | None = None
-    origin_country: str | None = None
-    destination_city: str | None = None
-    destination_country: str | None = None
+    origin_country: str | None = Field(
+        default=None, description="Origin country (ISO-3 code)"
+    )
+    destination_city: str | None = Field(
+        default=None, description="Destination city name"
+    )
+    destination_country: str | None = Field(
+        default=None, description="Destination country (ISO-3 code)"
+    )
+    destination_continent: str | None = Field(
+        default=None, description="Destination continent"
+    )
     pit_stop_location: str | None = None
     leg_type: str = Field(
         default="Standard",

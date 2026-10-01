@@ -161,6 +161,10 @@ erDiagram
 | `status` | `VARCHAR(255)` | Yes | Text description of finishing status. | `"Winner"` |
 | `legs_won` | `INTEGER` | No | Count of legs where team checked in 1st at Pit Stop. | `5` |
 | `legs_completed`| `INTEGER` | No | Total legs raced before elimination or finale check-in. | `13` |
+| `racing_average` | `DOUBLE` | Yes | Average leg finish placement across all completed legs. | `1.83` |
+| `placement_std` | `DOUBLE` | Yes | Standard deviation of leg finish placements. | `1.59` |
+| `podium_count` | `INTEGER` | No | Total count of Top-3 leg finishes. | `10` |
+| `podium_rate` | `DOUBLE` | Yes | Proportion of completed legs finishing in Top-3. | `0.83` |
 | `gender_composition` | `VARCHAR(10)` | No | Team gender composition (`MM`, `FF`, `MF`). | `"MM"` |
 
 ---
@@ -181,6 +185,8 @@ erDiagram
 | `gender` | `VARCHAR(10)` | No | Individual racer gender (`M`, `F`, `NB`). | `"M"` |
 | `relationship` | `VARCHAR(255)` | Yes | Occupation or relationship status. | `"Lawyers & Best Friends"` |
 | `hometown` | `VARCHAR(255)` | Yes | Contestant home city and state. | `"Minneapolis, Minnesota"` |
+| `hometown_state` | `VARCHAR(10)` | Yes | Parsed US two-letter state postal code or region. | `"MN"` |
+| `hometown_country` | `VARCHAR(10)` | Yes | Hometown country code or name. | `"USA"` |
 | `status` | `VARCHAR(255)` | Yes | Elimination or winner status description. | `"Winners"` |
 
 ---
@@ -197,6 +203,10 @@ erDiagram
 | `season` | `INTEGER` | No | Season number. Foreign key to `seasons`. | `1` |
 | `leg_number` | `INTEGER` | No | Sequential leg index within the season (1-indexed). | `1` |
 | `route_header` | `TEXT` | Yes | International or domestic itinerary summary. | `"United States → South Africa → Zambia"` |
+| `origin_country` | `VARCHAR(10)` | Yes | Origin country three-letter ISO code. | `"USA"` |
+| `destination_country` | `VARCHAR(10)` | Yes | Destination country three-letter ISO code. | `"ZMB"` |
+| `destination_city` | `VARCHAR(255)` | Yes | Destination city or primary region of the leg. | `"Livingstone District"` |
+| `destination_continent` | `VARCHAR(64)` | Yes | Destination continent name. | `"Africa"` |
 | `itinerary_stops`| `INTEGER` | No | Count of discrete route stops and clues visited. | `11` |
 | `tasks_count` | `INTEGER` | No | Count of recorded challenges in this leg. | `5` |
 | `narrative` | `TEXT` | Yes | Full text leg summary from production notes. | `"Teams departed Central Park in New York..."` |

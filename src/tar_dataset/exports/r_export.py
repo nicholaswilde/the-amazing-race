@@ -33,7 +33,7 @@ INTEGER_COLUMNS = {
     "seasons": ["season", "n_teams", "n_legs", "n_episodes"],
     "episodes": ["season", "episode"],
     "contestants": ["season", "age"],
-    "teams": ["season", "result", "legs_won", "legs_completed"],
+    "teams": ["season", "result", "legs_won", "legs_completed", "podium_count"],
     "legs": ["season", "leg_number", "itinerary_stops", "tasks_count"],
     "leg_results": ["season", "leg_number", "placement"],
     "tasks": ["season", "leg_number"],
@@ -52,6 +52,7 @@ BOOLEAN_COLUMNS = {
 FLOAT_COLUMNS = {
     "seasons": ["distance_miles", "distance_km"],
     "episodes": ["viewers_millions"],
+    "teams": ["racing_average", "placement_std", "podium_rate"],
 }
 
 TABLE_DOCUMENTATION = {
@@ -96,6 +97,8 @@ TABLE_DOCUMENTATION = {
             "gender": "Gender of the contestant (M, F, NB)",
             "relationship": "Stated relationship to race teammate",
             "hometown": "City and state of permanent residence",
+            "hometown_state": "Parsed US state two-letter postal code or region",
+            "hometown_country": "Hometown country code (e.g. USA)",
             "status": "Finishing status (e.g. Winners, Runners-up, Eliminated)",
         },
     },
@@ -113,6 +116,10 @@ TABLE_DOCUMENTATION = {
             "status": "Finishing status description",
             "legs_won": "Count of first-place leg finishes won by the team (integer)",
             "legs_completed": "Total number of legs completed before elimination or victory (integer)",
+            "racing_average": "Average leg finish placement across all completed legs (numeric)",
+            "placement_std": "Standard deviation of leg finish placements (numeric)",
+            "podium_count": "Total count of Top-3 leg finishes (integer)",
+            "podium_rate": "Proportion of completed legs finishing in Top-3 (numeric)",
             "gender_composition": "Team gender composition (MM, FF, MF)",
         },
     },
@@ -124,6 +131,10 @@ TABLE_DOCUMENTATION = {
             "season": "Season number (integer)",
             "leg_number": "Leg number within the season (integer)",
             "route_header": "Locations and countries traversed during the leg",
+            "origin_country": "Origin country three-letter ISO code (e.g. USA, FRA)",
+            "destination_country": "Destination country three-letter ISO code (e.g. ZMB, JPN)",
+            "destination_city": "Primary destination city or region of the leg",
+            "destination_continent": "Destination continent name (e.g. Africa, Europe, Asia)",
             "itinerary_stops": "Count of distinct route waypoints and stops (integer)",
             "tasks_count": "Count of challenge checkpoints on the leg (integer)",
             "narrative": "Comprehensive narrative detailing route travel, navigation challenges, and leg storyline",
