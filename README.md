@@ -45,6 +45,22 @@ All processed tables are provided in **CSV**, **Apache Parquet**, **Apache Arrow
 | **[`llms.txt`](llms.txt)** | Text / Markdown | LLM Context Index | Standardized compact index and link manifest conforming to the [`/llms.txt`](https://llmstxt.org) standard for fast agent context ingestion. |
 | **[`llms-full.txt`](llms-full.txt)** | Text / Markdown | Zero-Hop LLM Context | Standalone, complete repository reference, data dictionary, CLI guide, and analytical formulas for LLM context windows. |
 
+#### Direct Loading with Hugging Face `datasets`
+
+The dataset is published to the Hugging Face Hub at [nicholascwilde/the-amazing-race](https://huggingface.co/datasets/nicholascwilde/the-amazing-race) and can be loaded directly in Python without manual downloads:
+
+```python
+from datasets import load_dataset
+
+# Load any tidy relational table:
+seasons = load_dataset("nicholascwilde/the-amazing-race", "seasons", split="train")
+teams = load_dataset("nicholascwilde/the-amazing-race", "teams", split="train")
+
+# Load instruction-tuning conversational pairs (SFT) & RAG knowledge documents:
+qa = load_dataset("nicholascwilde/the-amazing-race", "qa_finetuning", split="train")
+knowledge = load_dataset("nicholascwilde/the-amazing-race", "knowledge_corpus", split="train")
+```
+
 ### Companion R Data Package (`r/`)
 
 A companion R package, **`theamazingrace`**, is located in the [`r/`](r/) directory, providing instant access to all 7 tidy datasets following the conventions of reality TV data packages (`alone`, `survivoR`, `bakeoff`):
@@ -519,6 +535,21 @@ uv run tar-dataset package --component parquet
 uv run tar-dataset package --component ai
 uv run tar-dataset package --component r
 uv run tar-dataset package --component python
+```
+
+### 16. Publish & Synchronize to Hugging Face Hub
+Publishes and syncs all tidy Parquet tables, AI training JSONL corpora, and generated dataset card to the Hugging Face Hub:
+```bash
+# Publish using HF_TOKEN environment variable (or .env):
+uv run tar-dataset publish-hf
+# or via task runner:
+task publish:hf
+
+# Publish to custom repository or private dataset:
+uv run tar-dataset publish-hf --repo-id nicholascwilde/the-amazing-race --private
+
+# Stage files locally to inspect generated dataset card and layout:
+uv run tar-dataset publish-hf --stage-only dist/hf_staging
 ```
 
 ---

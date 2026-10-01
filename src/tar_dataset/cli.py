@@ -14,6 +14,7 @@ from rich.table import Table
 from tar_dataset.exports.ai_formats import AIExportBuilder
 from tar_dataset.exports.arrow_export import export_arrow_and_hf
 from tar_dataset.exports.benchmark import BenchmarkSuite
+from tar_dataset.exports.hf_publish import HuggingFacePublisher
 from tar_dataset.exports.packaging import ReleasePackager
 from tar_dataset.exports.r_export import export_to_r
 from tar_dataset.exports.sqlite_export import export_to_sqlite
@@ -539,6 +540,65 @@ def audit_gaps(
     if export_md:
         out = auditor.export_markdown_report(export_md)
         console.print(f"[green]✓ Exported gap report to {out}[/green]")
+
+
+@app.command("publish-hf")
+def publish_hf(
+    repo_id: str | None = typer.Option(
+        None,
+        "--repo-id",
+        "-r",
+        help="Target Hugging Face repository ID (default: <username>/the-amazing-race or HF_REPO_ID)",
+    ),
+    token: str | None = typer.Option(
+        None,
+        "--token",
+        "-t",
+        help="Hugging Face API token with write permissions (or set HF_TOKEN)",
+    ),
+    private: bool = typer.Option(
+        False,
+        "--private",
+        help="Create dataset repository as private on Hugging Face Hub",
+    ),
+    message: str | None = typer.Option(
+        None,
+        "--message",
+        "-m",
+        help="Custom commit message for Hub upload",
+    ),
+    stage_only: Path | None = typer.Option(
+        None,
+        "--stage-only",
+        help="Only prepare dataset staging directory locally without uploading",
+    ),
+) -> None:
+    """Publish and synchronize tidy datasets and AI corpora to Hugging Face Hub."""
+    console.print(
+        "[bold blue]Preparing The Amazing Race dataset for Hugging Face Hub...[/bold blue]"
+    )
+    publisher = HuggingFacePublisher()
+
+    if stage_only:
+        staged = publisher.prepare_staging_directory(stage_only)
+        console.print(f"[green]✓ Dataset staged locally at {staged}[/green]")
+        return
+
+    try:
+        result = publisher.publish(
+            repo_id=repo_id,
+            token=token,
+            private=private,
+            commit_message=message,
+        )
+        console.print(
+            "[bold green]✓ Successfully published to Hugging Face Hub![/bold green]"
+        )
+        console.print(f"Repository: [cyan]{result['repo_id']}[/cyan]")
+        console.print(f"URL: [link={result['url']}]{result['url']}[/link]")
+    except Exception as e:
+        console.print(f"[bold red]Error publishing to Hugging Face Hub:[/bold red] {e}")
+        raise typer.Exit(1) from e
 
 
 # ==============================================================================

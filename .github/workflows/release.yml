@@ -97,3 +97,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Publish Dataset to Hugging Face Hub
+        if: env.HF_TOKEN != '' && steps.vars.outputs.draft != 'true'
+        run: |
+          task publish:hf
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
