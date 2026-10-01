@@ -1657,7 +1657,99 @@
       ]
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "season": 6,
+      "episode": 1,
+      "title": "The Game's Afoot",
+      "air_date": "2004-11-16",
+      "viewers_millions": 11.79
+    },
+    {
+      "season": 6,
+      "episode": 2,
+      "title": "I'm Not His Wife, He Doesn't Need to Scream at Me",
+      "air_date": "2004-11-23",
+      "viewers_millions": 11.46
+    },
+    {
+      "season": 6,
+      "episode": 3,
+      "title": "Counting Bears Is Not Rocket Science",
+      "air_date": "2004-11-30",
+      "viewers_millions": 11.84
+    },
+    {
+      "season": 6,
+      "episode": 4,
+      "title": "What If It Isn't Sanitary",
+      "air_date": "2004-12-07",
+      "viewers_millions": 11.72
+    },
+    {
+      "season": 6,
+      "episode": 5,
+      "title": "Quit Following Us",
+      "air_date": "2004-12-14",
+      "viewers_millions": 10.73
+    },
+    {
+      "season": 6,
+      "episode": 6,
+      "title": "They Should Probably Have Some Counseling",
+      "air_date": "2004-12-21",
+      "viewers_millions": 10.72
+    },
+    {
+      "season": 6,
+      "episode": 7,
+      "title": "Phil Is a Choo-Choo Charlie",
+      "air_date": "2004-12-28",
+      "viewers_millions": 10.14
+    },
+    {
+      "season": 6,
+      "episode": 8,
+      "title": "One of You, I'm Gonna Break in Half",
+      "air_date": "2005-01-04",
+      "viewers_millions": 10.66
+    },
+    {
+      "season": 6,
+      "episode": 9,
+      "title": "Tell My Mom I Love Her",
+      "air_date": "2005-01-11",
+      "viewers_millions": 11.07
+    },
+    {
+      "season": 6,
+      "episode": 10,
+      "title": "Are There Instructions on Donkey Handling?",
+      "air_date": "2005-01-18",
+      "viewers_millions": 10.61
+    },
+    {
+      "season": 6,
+      "episode": 11,
+      "title": "It Always Comes Down to Details",
+      "air_date": "2005-01-25",
+      "viewers_millions": 12.03
+    },
+    {
+      "season": 6,
+      "episode": 12,
+      "title": "You Deal with This Before I Hyperventilate",
+      "air_date": "2005-02-01",
+      "viewers_millions": 12.01
+    },
+    {
+      "season": 6,
+      "episode": 13,
+      "title": "4 Continents, 24 Cities and 40,000 Miles",
+      "air_date": "2005-02-08",
+      "viewers_millions": 12.62
+    }
+  ],
   "legs": [
     {
       "leg_number": 1,

@@ -1657,7 +1657,92 @@
       ]
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "season": 9,
+      "episode": 1,
+      "title": "Here We Go, Baby, Off to Win a Million Bucks!",
+      "air_date": "2006-02-28",
+      "viewers_millions": 10.4
+    },
+    {
+      "season": 9,
+      "episode": 2,
+      "title": "I'm Filthy, and I Love It",
+      "air_date": "2006-03-07",
+      "viewers_millions": 9.46
+    },
+    {
+      "season": 9,
+      "episode": 3,
+      "title": "I'm in Russia Playing with Dolls",
+      "air_date": "2006-03-14",
+      "viewers_millions": 9.67
+    },
+    {
+      "season": 9,
+      "episode": 4,
+      "title": "It's Not Over Until the Phil Sings",
+      "air_date": "2006-03-21",
+      "viewers_millions": 9.4
+    },
+    {
+      "season": 9,
+      "episode": 5,
+      "title": "Good Thing I Took That Human Anatomy Class in High School",
+      "air_date": "2006-03-28",
+      "viewers_millions": 9.2
+    },
+    {
+      "season": 9,
+      "episode": 6,
+      "title": "Sleep Deprivation Is Really Starting to Irritate Me",
+      "air_date": "2006-04-05",
+      "viewers_millions": 8.15
+    },
+    {
+      "season": 9,
+      "episode": 7,
+      "title": "Herculean Effort for Some Herculean Dudes",
+      "air_date": "2006-04-12",
+      "viewers_millions": 7.54
+    },
+    {
+      "season": 9,
+      "episode": 8,
+      "title": "Here Comes the Bedouin",
+      "air_date": "2006-04-19",
+      "viewers_millions": 8.75
+    },
+    {
+      "season": 9,
+      "episode": 9,
+      "title": "Do You Know How Much Running I Did Today, Phil?",
+      "air_date": "2006-04-26",
+      "viewers_millions": 8.55
+    },
+    {
+      "season": 9,
+      "episode": 10,
+      "title": "Man, They Should Have Used Fake Names",
+      "air_date": "2006-05-03",
+      "viewers_millions": 7.7
+    },
+    {
+      "season": 9,
+      "episode": 11,
+      "title": "I Think This Monkey Likes Me",
+      "air_date": "2006-05-10",
+      "viewers_millions": 8.41
+    },
+    {
+      "season": 9,
+      "episode": 12,
+      "title": "5 Continents, 9 Countries, More Than 59,000 Miles",
+      "air_date": "2006-05-17",
+      "viewers_millions": 8.99
+    }
+  ],
   "legs": [
     {
       "leg_number": 1,

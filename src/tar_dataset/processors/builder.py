@@ -874,7 +874,20 @@ class DatasetBuilder:
         for s in raw_seasons:
             season_num = s.get("season")
             version = s.get("version", "US")
-            for ep in s.get("episodes", []):
+            episodes_list = list(s.get("episodes", []))
+
+            # If season has no episodes in raw scraped data, pull all matching episodes from master catalogue
+            if not episodes_list and season_num is not None:
+                prefix = f"{season_num}_"
+                matching_master = [
+                    v
+                    for k, v in master_episodes.items()
+                    if k.startswith(prefix) and isinstance(v, dict)
+                ]
+                matching_master.sort(key=lambda x: int(x.get("episode", 0)))
+                episodes_list = matching_master
+
+            for ep in episodes_list:
                 ep_num = ep.get("episode")
                 if ep_num is None or pd.isna(ep_num):
                     continue

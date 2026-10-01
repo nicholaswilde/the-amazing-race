@@ -334,3 +334,11 @@ def test_validator_racing_metrics_and_geography_checks(tmp_path):
     assert any("missing origin_country" in i for i in report["issues"])
     assert any("invalid destination_continent" in i for i in report["issues"])
     assert any("missing hometown_country" in i for i in report["issues"])
+
+
+def test_processed_episodes_coverage_across_seasons():
+    """Ensure all seasons in seasons table are represented in episodes table."""
+    seasons_df = pd.read_parquet("data/processed/seasons.parquet")
+    episodes_df = pd.read_parquet("data/processed/episodes.parquet")
+    missing = set(seasons_df["season"]) - set(episodes_df["season"])
+    assert not missing, f"Episodes table is missing seasons: {sorted(missing)}"

@@ -1657,7 +1657,92 @@
       ]
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "season": 7,
+      "episode": 1,
+      "title": "Courteous? This Is a Race!",
+      "air_date": "2005-03-01",
+      "viewers_millions": 11.76
+    },
+    {
+      "season": 7,
+      "episode": 2,
+      "title": "The Whole Country Hates Me",
+      "air_date": "2005-03-08",
+      "viewers_millions": 11.69
+    },
+    {
+      "season": 7,
+      "episode": 3,
+      "title": "Do You Need Some Mouth-to-Mouth Resuscitation?",
+      "air_date": "2005-03-15",
+      "viewers_millions": 12.71
+    },
+    {
+      "season": 7,
+      "episode": 4,
+      "title": "What a Gaucho You Are",
+      "air_date": "2005-03-22",
+      "viewers_millions": 12.43
+    },
+    {
+      "season": 7,
+      "episode": 5,
+      "title": "I've Been Wanting a Facelift for a Long Time [ b ] ",
+      "air_date": "2005-03-29",
+      "viewers_millions": 13.18
+    },
+    {
+      "season": 7,
+      "episode": 6,
+      "title": "Houston, We Have an Elephant!",
+      "air_date": "2005-04-05",
+      "viewers_millions": 12.28
+    },
+    {
+      "season": 7,
+      "episode": 7,
+      "title": "They Saved the Eyeball",
+      "air_date": "2005-04-06",
+      "viewers_millions": 5.16
+    },
+    {
+      "season": 7,
+      "episode": 8,
+      "title": "Mow'em Down Like Grass",
+      "air_date": "2005-04-12",
+      "viewers_millions": 12.97
+    },
+    {
+      "season": 7,
+      "episode": 9,
+      "title": "We Have a Bad Elephant!",
+      "air_date": "2005-04-19",
+      "viewers_millions": 12.34
+    },
+    {
+      "season": 7,
+      "episode": 10,
+      "title": "We've Got a Gnome! We've Got a Gnome!",
+      "air_date": "2005-04-26",
+      "viewers_millions": 13.27
+    },
+    {
+      "season": 7,
+      "episode": 11,
+      "title": "The Devil Made Me Do It",
+      "air_date": "2005-05-03",
+      "viewers_millions": 12.84
+    },
+    {
+      "season": 7,
+      "episode": 12,
+      "title": "Five Continents, 25 Cities and More Than 40,000 Miles",
+      "air_date": "2005-05-10",
+      "viewers_millions": 16.01
+    }
+  ],
   "legs": [
     {
       "leg_number": 1,

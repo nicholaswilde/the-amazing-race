@@ -1657,7 +1657,92 @@
       ]
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "season": 5,
+      "episode": 1,
+      "title": "Clearly, I'm More Intelligent than You",
+      "air_date": "2004-07-06",
+      "viewers_millions": 10.3
+    },
+    {
+      "season": 5,
+      "episode": 2,
+      "title": "It Turned Ugly Just Now",
+      "air_date": "2004-07-13",
+      "viewers_millions": 10.5
+    },
+    {
+      "season": 5,
+      "episode": 3,
+      "title": "I Got Electrocuted",
+      "air_date": "2004-07-20",
+      "viewers_millions": 11.1
+    },
+    {
+      "season": 5,
+      "episode": 4,
+      "title": "Who Says Pageant Girls Don't Eat?",
+      "air_date": "2004-07-27",
+      "viewers_millions": 10.05
+    },
+    {
+      "season": 5,
+      "episode": 5,
+      "title": "Are You Good at Puzzles?",
+      "air_date": "2004-08-03",
+      "viewers_millions": 10.55
+    },
+    {
+      "season": 5,
+      "episode": 6,
+      "title": "Why Can't We Get a Camel?",
+      "air_date": "2004-08-10",
+      "viewers_millions": 10.39
+    },
+    {
+      "season": 5,
+      "episode": 7,
+      "title": "Are You Sure This Is Safe?",
+      "air_date": "2004-08-17",
+      "viewers_millions": 8.73
+    },
+    {
+      "season": 5,
+      "episode": 8,
+      "title": "I'm Going to Jail",
+      "air_date": "2004-08-24",
+      "viewers_millions": 10.49
+    },
+    {
+      "season": 5,
+      "episode": 9,
+      "title": "If You're Going to Whine, Just Shut Up!",
+      "air_date": "2004-08-31",
+      "viewers_millions": 9.98
+    },
+    {
+      "season": 5,
+      "episode": 10,
+      "title": "If They're Screwing the Helmet to My Head, It Can't Be Good!",
+      "air_date": "2004-09-07",
+      "viewers_millions": 10.85
+    },
+    {
+      "season": 5,
+      "episode": 11,
+      "title": "It's Okay, Run Them Over!",
+      "air_date": "2004-09-14",
+      "viewers_millions": 10.3
+    },
+    {
+      "season": 5,
+      "episode": 12,
+      "title": "You've Just Made Me a Millionaire",
+      "air_date": "2004-09-21",
+      "viewers_millions": 12.85
+    }
+  ],
   "legs": [
     {
       "leg_number": 1,

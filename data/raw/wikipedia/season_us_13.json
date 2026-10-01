@@ -1437,7 +1437,85 @@
       ]
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "season": 13,
+      "episode": 1,
+      "title": "Bees are Much Calmer Than All This",
+      "air_date": "2008-09-28",
+      "viewers_millions": 10.04
+    },
+    {
+      "season": 13,
+      "episode": 2,
+      "title": "Do You Like American Candy?",
+      "air_date": "2008-10-05",
+      "viewers_millions": 11.0
+    },
+    {
+      "season": 13,
+      "episode": 3,
+      "title": "Did You Push My Sports Bra Off the Ledge?",
+      "air_date": "2008-10-12",
+      "viewers_millions": 9.01
+    },
+    {
+      "season": 13,
+      "episode": 4,
+      "title": "I Wonder if They Like Blondes in New Zealand",
+      "air_date": "2008-10-19",
+      "viewers_millions": 10.29
+    },
+    {
+      "season": 13,
+      "episode": 5,
+      "title": "Do It Like a Madman",
+      "air_date": "2008-10-26",
+      "viewers_millions": 9.7
+    },
+    {
+      "season": 13,
+      "episode": 6,
+      "title": "Please Hold While I Singe My Skull",
+      "air_date": "2008-11-02",
+      "viewers_millions": 9.72
+    },
+    {
+      "season": 13,
+      "episode": 7,
+      "title": "My Nose is on Fire",
+      "air_date": "2008-11-09",
+      "viewers_millions": 11.71
+    },
+    {
+      "season": 13,
+      "episode": 8,
+      "title": "I'm Like an Angry Cow",
+      "air_date": "2008-11-16",
+      "viewers_millions": 12.13
+    },
+    {
+      "season": 13,
+      "episode": 9,
+      "title": "That is Studly",
+      "air_date": "2008-11-23",
+      "viewers_millions": 9.87
+    },
+    {
+      "season": 13,
+      "episode": 10,
+      "title": "You're Gonna Get Me Killed",
+      "air_date": "2008-11-30",
+      "viewers_millions": 11.83
+    },
+    {
+      "season": 13,
+      "episode": 11,
+      "title": "You Look Like Peter Pan",
+      "air_date": "2008-12-07",
+      "viewers_millions": 10.5
+    }
+  ],
   "legs": [
     {
       "leg_number": 1,
