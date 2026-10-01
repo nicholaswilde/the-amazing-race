@@ -172,6 +172,11 @@ class ReleasePackager:
             if license_file.exists():
                 zf.write(license_file, arcname="LICENSE")
 
+            for llm_file in ["llms.txt", "llms-full.txt"]:
+                llm_path = self.repo_root / llm_file
+                if llm_path.exists():
+                    zf.write(llm_path, arcname=llm_file)
+
         return target_path
 
     def package_sqlite(self) -> Path | None:

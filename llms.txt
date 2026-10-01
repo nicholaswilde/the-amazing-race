@@ -1,0 +1,93 @@
+# The Amazing Race Dataset & AI Training Corpus
+
+> A comprehensive tidy relational dataset and AI training corpus for the CBS reality competition television series The Amazing Race.
+
+The Amazing Race (TAR) dataset provides structured, relational tables adhering to tidy data principles across 36 US seasons. The dataset is exported in CSV, Apache Parquet, SQLite (`tar.db`), Apache Arrow IPC, and native R (`.rds`, `.rda`) formats, alongside fine-tuning and retrieval-augmented generation (RAG) JSONL corpora.
+
+For complete documentation in a single prompt-ready file, see [llms-full.txt](https://raw.githubusercontent.com/nicholaswilde/the-amazing-race/main/llms-full.txt).
+
+## Core Relational Tables
+
+The dataset consists of 7 normalized relational tables linked by explicit foreign keys:
+
+- [seasons](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/data_dictionary.md#1-seasons): Season-level summaries including winner, runner-up, premiere/finale dates, legs count, total distance in miles/km, and destination summary. Primary key: `season`.
+- [episodes](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/data_dictionary.md#2-episodes): Episode-level metadata including episode title, air dates, rating, and viewership. Composite key: `(season, episode_order)`. Foreign key: `season -> seasons.season`.
+- [teams](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/data_dictionary.md#3-teams): Team profiles including racer names, pre-existing relationship, finish placement, legs racing average, and elimination leg. Primary key: `team_id`. Foreign key: `season -> seasons.season`.
+- [contestants](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/data_dictionary.md#4-contestants): Individual racer demographics, age, occupation, hometown, and biological gender. Primary key: `contestant_id`. Foreign key: `team_id -> teams.team_id`.
+- [legs](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/data_dictionary.md#5-legs): Leg itineraries, starting/ending locations, pit stop locations, countries visited, distance, and leg type (regular, non-elimination, keep racing, double length). Primary key: `leg_id`. Foreign key: `season -> seasons.season`.
+- [leg_results](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/data_dictionary.md#6-leg_results): Team placements per leg, arrival order, departure order, time deltas, yield/u-turn usage, and leg status (eliminated, saved). Composite key: `(leg_id, team_id)`. Foreign keys: `leg_id -> legs.leg_id`, `team_id -> teams.team_id`.
+- [tasks](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/data_dictionary.md#7-tasks): Detailed challenge records for each leg including task type (roadblock, detour, fast forward, hazard, speed bump), task description, location, and assigned racer. Foreign keys: `leg_id -> legs.leg_id`, `team_id -> teams.team_id`.
+
+## AI Training Corpora (`data/ai/`)
+
+- [tar_qa_finetuning.jsonl](https://github.com/nicholaswilde/the-amazing-race/blob/main/data/ai/tar_qa_finetuning.jsonl): High-quality multi-turn question-answer pairs formatted for OpenAI, Gemini, and Claude supervised fine-tuning (SFT). Covers trivia, game rules, penalties, route facts, and elimination mechanics.
+- [tar_knowledge_corpus.jsonl](https://github.com/nicholaswilde/the-amazing-race/blob/main/data/ai/tar_knowledge_corpus.jsonl): Structured narrative documents with metadata (`season`, `leg`, `route`) for semantic search, vector database retrieval (RAG), and embedding generation.
+- [tar_benchmark_suite.jsonl](https://github.com/nicholaswilde/the-amazing-race/blob/main/data/ai/tar_benchmark_suite.jsonl): 45 curated evaluation benchmark questions with verified ground truths and rubrics covering rules comprehension, route accuracy, and trivia.
+
+## Published Release Packages
+
+Assets available on [GitHub Releases](https://github.com/nicholaswilde/the-amazing-race/releases):
+
+- **Tidy CSV (`tar-dataset-csv-<v>.zip`)**: All 7 CSV tables with markdown documentation.
+- **Apache Parquet (`tar-dataset-parquet-<v>.zip`)**: Type-strict columnar files for zero-copy queries with DuckDB, Polars, and Arrow.
+- **SQLite Database (`tar-dataset-sqlite-<v>.zip`)**: Pre-built relational database `tar.db` with indexed foreign keys.
+- **AI Corpora (`tar-dataset-ai-<v>.zip`)**: JSONL fine-tuning, RAG knowledge corpus, and benchmark suite.
+- **R Package (`theamazingrace_<v>.tar.gz`)**: CRAN-compliant source package for R (`library(theamazingrace)`).
+- **Python Distribution (`.whl`, `.tar.gz`)**: Standalone `tar-dataset` CLI and schemas package.
+
+## Quick Code Examples
+
+### Querying Parquet with DuckDB (Python)
+```python
+import duckdb
+
+# Compute top 5 teams by lowest racing average
+duckdb.sql("""
+    SELECT team_name, season, placement, racing_average
+    FROM 'teams.parquet'
+    WHERE winner = 1
+    ORDER BY racing_average ASC
+    LIMIT 5;
+""").show()
+```
+
+### Loading in R via Companion Package
+```r
+# Install from GitHub
+remotes::install_github("nicholaswilde/the-amazing-race/r")
+
+library(theamazingrace)
+library(dplyr)
+
+data(teams)
+data(leg_results)
+
+# Analyze winner trajectory
+winner_legs <- leg_results %>%
+  inner_join(teams, by = "team_id") %>%
+  filter(winner == 1)
+```
+
+### Querying SQLite Database
+```bash
+sqlite3 tar.db "SELECT season, winner, destination_summary FROM seasons LIMIT 5;"
+```
+
+### CLI Tool
+```bash
+# Inspect a season or team
+tar-dataset inspect season 1
+tar-dataset inspect team "Rob & Amber"
+
+# Validate data integrity and schema
+tar-dataset validate
+tar-dataset stats
+```
+
+## Documentation & Repository Links
+
+- [Repository Root](https://github.com/nicholaswilde/the-amazing-race): Source code, Taskfile, scrapers, and pipeline.
+- [Data Dictionary](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/data_dictionary.md): Comprehensive column definitions, types, foreign keys, and ER diagram.
+- [Dataset Completeness Audit](https://github.com/nicholaswilde/the-amazing-race/blob/main/docs/dataset_gaps.md): Coverage and data gap audit across seasons 1-36.
+- [Pydantic Schemas](https://github.com/nicholaswilde/the-amazing-race/blob/main/src/tar_dataset/schemas.py): Python type definitions for Season, Episode, Contestant, Team, Leg, LegResult, and Task.
+- [R Package Documentation](https://github.com/nicholaswilde/the-amazing-race/tree/main/r): R package source, documentation, and vignette.

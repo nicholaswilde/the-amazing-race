@@ -1,0 +1,359 @@
+# The Amazing Race Dataset & AI Training Corpus: Full Reference (llms-full.txt)
+
+> A comprehensive, unified reference guide for The Amazing Race (TAR) tidy dataset, AI training corpora, relational database schema, CLI tooling, and developer workflows.
+
+---
+
+## 1. Project Overview & Architecture
+
+**The Amazing Race (TAR)** dataset is a multi-format, tidy relational database and AI instruction-tuning corpus covering 36 seasons of the American CBS reality competition television series *The Amazing Race*.
+
+Inspired by tidy data packages like `alone`, `survivoR`, and `bakeoff`, the repository structures every season, episode, team, contestant, leg itinerary, leg outcome, and challenge into 7 normalized relational tables.
+
+### Data Storage & Distribution Formats
+- **CSV (`data/processed/*.csv`)**: Universal comma-separated tables with header rows.
+- **Apache Parquet (`data/processed/*.parquet`)**: High-performance columnar files preserving strict data types and dictionary encodings.
+- **Apache Arrow IPC (`data/processed/arrow/*.arrow`)**: Zero-copy in-memory format for high-throughput batching.
+- **SQLite Database (`data/processed/tar.db`)**: Self-contained single-file relational database with indexing and foreign keys.
+- **R Data Package (`r/` and `data/processed/r/`)**: Native R data objects (`.rds` and `.rda`) packaged into the `theamazingrace` CRAN-style package.
+- **AI Training Corpora (`data/ai/*.jsonl`)**: Multi-turn conversation datasets for Supervised Fine-Tuning (SFT), RAG context chunks, and benchmarking suites.
+
+---
+
+## 2. Relational Entity-Relationship Diagram
+
+The schema consists of 7 normalized tables linked via explicit keys:
+
+```text
+seasons (season PK)
+  ├── episodes (season FK, episode_order PK composite)
+  ├── teams (season FK, team_id PK)
+  │     ├── contestants (team_id FK, contestant_id PK)
+  │     ├── leg_results (team_id FK, leg_id FK PK composite)
+  │     └── tasks (team_id FK, leg_id FK)
+  └── legs (season FK, leg_id PK)
+        ├── leg_results (leg_id FK, team_id FK PK composite)
+        └── tasks (leg_id FK, task_id PK)
+```
+
+### Foreign Key Constraints
+- `episodes.season` -> `seasons.season`
+- `teams.season` -> `seasons.season`
+- `contestants.team_id` -> `teams.team_id`
+- `legs.season` -> `seasons.season`
+- `leg_results.leg_id` -> `legs.leg_id`
+- `leg_results.team_id` -> `teams.team_id`
+- `tasks.leg_id` -> `legs.leg_id`
+- `tasks.team_id` -> `teams.team_id` (nullable for unassigned tasks)
+
+---
+
+## 3. Complete Data Dictionary & Table Schemas
+
+### 3.1. `seasons`
+One row per season. Primary Key: `season`.
+
+| Column | Type | Nullable | Description |
+| :--- | :--- | :--- | :--- |
+| `season` | INTEGER | No | Season number (1 to 36). Primary key. |
+| `episodes` | INTEGER | No | Total number of broadcast episodes in the season. |
+| `teams_count` | INTEGER | No | Total number of competing teams (typically 11 or 12). |
+| `winner` | TEXT | No | Team name of the winning team (e.g. "Rob & Brennan", "Colin & Christie"). |
+| `runner_up` | TEXT | Yes | Team name of the second-place finishing team. |
+| `third_place` | TEXT | Yes | Team name of the third-place finishing team. |
+| `premiere_date` | TEXT | Yes | Original broadcast premiere date (YYYY-MM-DD). |
+| `finale_date` | TEXT | Yes | Original broadcast finale date (YYYY-MM-DD). |
+| `legs_count` | INTEGER | No | Total number of race legs in the season (typically 11-13). |
+| `distance_miles` | REAL | Yes | Total official race distance traveled in miles. |
+| `distance_km` | REAL | Yes | Total official race distance traveled in kilometers. |
+| `countries_visited` | INTEGER | Yes | Number of distinct sovereign countries visited during the race. |
+| `destination_summary` | TEXT | Yes | Summary of continental/country itinerary path. |
+
+### 3.2. `episodes`
+One row per broadcast episode. Composite Key: `(season, episode_order)`.
+
+| Column | Type | Nullable | Description |
+| :--- | :--- | :--- | :--- |
+| `season` | INTEGER | No | Season number. Foreign key to `seasons.season`. |
+| `episode_order` | INTEGER | No | Chronological episode order within the season (1-indexed). |
+| `episode_number` | TEXT | No | Broadcaster episode identifier (e.g., "TAR-01x01", "S01E01"). |
+| `episode_title` | TEXT | No | Official episode title / quotation. |
+| `air_date` | TEXT | Yes | Date the episode originally aired in the US (YYYY-MM-DD). |
+| `rating_18_49` | REAL | Yes | Nielsen television rating in the 18–49 demographic. |
+| `viewers_millions` | REAL | Yes | Total live/same-day US viewers in millions. |
+
+### 3.3. `teams`
+One row per competing team. Primary Key: `team_id`.
+
+| Column | Type | Nullable | Description |
+| :--- | :--- | :--- | :--- |
+| `team_id` | TEXT | No | Unique team slug formatted as `s{season}_t{order}` (e.g., `s01_t01`). |
+| `season` | INTEGER | No | Season number. Foreign key to `seasons.season`. |
+| `team_name` | TEXT | No | Official billing team name (e.g., "Rob & Brennan", "Chip & Kim"). |
+| `relationship` | TEXT | Yes | Relationship category (e.g., "Married", "Best Friends", "Dating"). |
+| `placement` | INTEGER | No | Final finishing placement (1 = Winner, 2 = Runner-up, etc.). |
+| `racing_average` | REAL | Yes | Average placement across all completed legs throughout the race. |
+| `eliminated_leg` | INTEGER | Yes | Leg number on which the team was eliminated (NULL if finalists). |
+| `winner` | INTEGER | No | Binary flag: 1 if winning team, 0 otherwise. |
+
+### 3.4. `contestants`
+One row per individual racer. Primary Key: `contestant_id`.
+
+| Column | Type | Nullable | Description |
+| :--- | :--- | :--- | :--- |
+| `contestant_id` | TEXT | No | Unique contestant slug `s{season}_c{order}` (e.g., `s01_c01`). |
+| `team_id` | TEXT | No | Foreign key to `teams.team_id`. |
+| `first_name` | TEXT | No | Racer's first name. |
+| `last_name` | TEXT | Yes | Racer's last name or surname. |
+| `age` | INTEGER | Yes | Age of contestant at time of racing. |
+| `occupation` | TEXT | Yes | Contestant profession / career. |
+| `hometown` | TEXT | Yes | Hometown city/state (e.g., "Atlanta, GA"). |
+| `gender` | TEXT | Yes | Gender identifier ("M", "F", "Non-binary"). |
+
+### 3.5. `legs`
+One row per race leg. Primary Key: `leg_id`.
+
+| Column | Type | Nullable | Description |
+| :--- | :--- | :--- | :--- |
+| `leg_id` | TEXT | No | Unique leg slug `s{season}_l{leg_number}` (e.g., `s01_l01`). |
+| `season` | INTEGER | No | Season number. Foreign key to `seasons.season`. |
+| `leg_number` | INTEGER | No | Sequential leg number within the season (1-indexed). |
+| `starting_location` | TEXT | Yes | Starting point or Pit Stop departure city/country. |
+| `destination_city` | TEXT | Yes | Destination city of the leg. |
+| `destination_country` | TEXT | Yes | Sovereign destination country. |
+| `pit_stop_location` | TEXT | Yes | Specific landmark or location of the Pit Stop mat. |
+| `is_non_elimination`| INTEGER | No | Binary flag: 1 if non-elimination leg (NEL), 0 if elimination leg. |
+| `leg_type` | TEXT | No | Leg structure ("regular", "non_elimination", "keep_racing", "double_length", "finale"). |
+| `distance_miles` | REAL | Yes | Distance traveled on this leg in miles. |
+
+### 3.6. `leg_results`
+One row per team per leg. Composite Primary Key: `(leg_id, team_id)`.
+
+| Column | Type | Nullable | Description |
+| :--- | :--- | :--- | :--- |
+| `leg_id` | TEXT | No | Foreign key to `legs.leg_id`. |
+| `team_id` | TEXT | No | Foreign key to `teams.team_id`. |
+| `placement` | INTEGER | No | Team's finishing placement on this specific leg. |
+| `arrival_order` | INTEGER | Yes | Physical mat arrival order before penalties were applied. |
+| `departure_order` | INTEGER | Yes | Pit Start departure order from previous leg. |
+| `time_delta_hours`| REAL | Yes | Time behind 1st place arrival in hours. |
+| `yield_used` | INTEGER | No | Binary flag: 1 if team used a Yield on this leg. |
+| `uturn_used` | INTEGER | No | Binary flag: 1 if team used a U-Turn on this leg. |
+| `status` | TEXT | No | Outcome status ("completed", "eliminated", "saved", "withdrawn", "disqualified"). |
+
+### 3.7. `tasks`
+One row per challenge task on a leg. Primary Key: `task_id`.
+
+| Column | Type | Nullable | Description |
+| :--- | :--- | :--- | :--- |
+| `task_id` | TEXT | No | Unique task slug `s{season}_l{leg}_t{order}`. |
+| `leg_id` | TEXT | No | Foreign key to `legs.leg_id`. |
+| `team_id` | TEXT | Yes | Specific team assigned/performing (nullable for general leg tasks). |
+| `task_type` | TEXT | No | Challenge type ("roadblock", "detour", "fast_forward", "speed_bump", "hazard", "route_info"). |
+| `task_name` | TEXT | Yes | Name or title of the challenge. |
+| `task_description` | TEXT | Yes | Detailed description of instructions, physical task, and criteria. |
+| `task_location` | TEXT | Yes | Physical location, town, or venue of the task. |
+| `racer_name` | TEXT | Yes | Contestant who performed the task (primarily for Roadblocks). |
+
+---
+
+## 4. Analytical Metrics & SQL Formulas
+
+### Racing Average
+The standard metric used by race statisticians is the **Racing Average** (mean leg placement):
+$$\text{Racing Average} = \frac{\sum_{i=1}^{N} \text{Placement}_i}{N}$$
+where $N$ is the total number of legs completed by the team.
+
+```sql
+-- Compute top 10 racing averages across all 36 seasons
+SELECT 
+    t.team_name,
+    t.season,
+    t.placement AS final_placement,
+    t.winner,
+    ROUND(AVG(lr.placement), 2) AS calculated_racing_average,
+    COUNT(lr.leg_id) AS legs_raced
+FROM teams t
+JOIN leg_results lr ON t.team_id = lr.team_id
+GROUP BY t.team_id
+HAVING COUNT(lr.leg_id) >= 10
+ORDER BY calculated_racing_average ASC
+LIMIT 10;
+```
+
+### Winner Trajectory Query
+```sql
+-- Track season winners and their placement trajectory
+SELECT 
+    s.season,
+    s.winner,
+    l.leg_number,
+    l.destination_country,
+    lr.placement AS leg_placement
+FROM seasons s
+JOIN teams t ON s.season = t.season AND t.winner = 1
+JOIN leg_results lr ON t.team_id = lr.team_id
+JOIN legs l ON lr.leg_id = l.leg_id
+ORDER BY s.season, l.leg_number;
+```
+
+---
+
+## 5. AI Training Corpora (`data/ai/`)
+
+The repository builds machine-learning-ready JSONL files designed for LLM instruction tuning, semantic search, and evaluation:
+
+### 5.1. `tar_qa_finetuning.jsonl`
+Formatted following OpenAI / Gemini chat message standards:
+```json
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an expert encyclopedia and analytical assistant for the television series The Amazing Race."
+    },
+    {
+      "role": "user",
+      "content": "Who won Season 7 of The Amazing Race and what was their relationship?"
+    },
+    {
+      "role": "assistant",
+      "content": "Season 7 was won by Uchenna & Joyce Agu, a married couple from Houston, Texas. They defeated Rob & Amber in a dramatic final leg sprint to the finish line in Miami, Florida."
+    }
+  ],
+  "metadata": {
+    "season": 7,
+    "category": "winners",
+    "difficulty": "medium"
+  }
+}
+```
+
+### 5.2. `tar_knowledge_corpus.jsonl`
+Structured narrative passages for vector embeddings and RAG:
+```json
+{
+  "id": "doc_s07_l12_miami",
+  "title": "Season 7 Finale: Leg 12 Miami Route & Finish",
+  "text": "In the final leg of Season 7, the remaining three teams traveled from London, England to Miami, Florida, USA. Teams navigated through Sunshine Marketplace, Fort Lauderdale, and Biscayne Bay. At the final Roadblock, Uchenna and Joyce fell behind Rob and Amber after having to beg for taxi fare, but recovered when Rob and Amber's taxi driver took a slower route to the Finish Line at Historic Virginia Key Beach Park.",
+  "metadata": {
+    "season": 7,
+    "leg_number": 12,
+    "destination_country": "United States",
+    "destination_city": "Miami",
+    "teams_involved": ["Rob & Amber", "Uchenna & Joyce", "Ron & Kelly"]
+  }
+}
+```
+
+### 5.3. `tar_benchmark_suite.jsonl`
+45 curated questions for scoring LLM accuracy:
+```json
+{
+  "id": "bench_001",
+  "question": "Which team holds the record for the most leg wins in a single season of The Amazing Race US?",
+  "ground_truth": "Dave & Rachel (Season 20) with 8 leg wins.",
+  "acceptable_alternatives": ["Dave and Rachel", "Season 20 Dave & Rachel"],
+  "evaluation_criteria": "Must correctly identify Dave & Rachel and the record count of 8 leg wins."
+}
+```
+
+---
+
+## 6. Release Asset Packages
+
+Assets published at: `https://github.com/nicholaswilde/the-amazing-race/releases`
+
+| Asset Pattern | Format | Contents & Usage |
+| :--- | :--- | :--- |
+| `tar-dataset-csv-<v>.zip` | CSV + Markdown | All 7 tables in CSV + data dictionary. Load in Excel, Pandas (`pd.read_csv`), or R (`readr::read_csv`). |
+| `tar-dataset-parquet-<v>.zip` | Apache Parquet | Type-strict columnar files for DuckDB (`duckdb.sql(...)`), Polars (`pl.read_parquet`), or Arrow. |
+| `tar-dataset-sqlite-<v>.zip` | SQLite (`tar.db`) | Complete SQLite database with primary/foreign keys and index coverage. |
+| `tar-dataset-ai-<v>.zip` | JSONL | Q&A tuning pairs, RAG knowledge chunks, and benchmark suites. |
+| `theamazingrace_<v>.tar.gz` | R Source Tarball | CRAN-compliant package. Install via `install.packages(..., repos = NULL, type = "source")`. |
+| `.whl` / `.tar.gz` | Python Wheel | Standalone package. Install with `uv pip install ...` or `pip install ...`. |
+| `checksums.txt` | Text | SHA-256 integrity checksums (`sha256sum --check checksums.txt`). |
+| `manifest.json` | JSON | Machine-readable build metadata, row counts, and checksum hashes. |
+
+---
+
+## 7. CLI Reference (`tar-dataset`)
+
+The CLI is powered by Typer and can be executed with `uv run tar-dataset <command>`:
+
+| Command | Subcommands / Flags | Description |
+| :--- | :--- | :--- |
+| `inspect season <N>` | `--verbose`, `--summary` | Displays season overview, leg itinerary, and final placements. |
+| `inspect team <NAME>` | `--season <N>` | Displays team members, relationships, racing average, and leg finishes. |
+| `inspect contestant <NAME>` | `--details` | Displays age, occupation, hometown, and season raced. |
+| `inspect leg <SEASON> <LEG>`| `--tasks` | Displays leg cities, pit stops, distance, and task narratives. |
+| `stats` | `--json` | Outputs total row counts and status across all 7 tables. |
+| `validate` | `--strict` | Validates relational integrity, foreign key consistency, and schema rules. |
+| `gaps` | `--export-md <PATH>` | Audits missingness across tables and exports completeness markdown report. |
+| `build` | `--raw-dir <DIR>`, `--out-dir <DIR>` | Rebuilds all CSV, Parquet, and relational tables from raw scrapes. |
+| `export-ai` | `--format [sft\|rag\|all]` | Generates instruction-tuning and RAG JSONL corpora. |
+| `export-sqlite` | `--output <PATH>` | Builds unified `tar.db` SQLite database with indexes. |
+| `export-r` | `--out-dir <DIR>` | Exports `.rds` and `.rda` files into companion R package structure. |
+| `package` | `--version <VER>`, `--component <NAME>` | Builds release archive bundles (csv, parquet, sqlite, ai, r, python). |
+| `scrape-wiki` | `--season <N>`, `--all-us` | Scrapes Wikipedia season tables and route summaries. |
+| `scrape-fandom` | `--season <N>` | Scrapes Fandom Wiki for task details and contestant demographics. |
+| `scrape-reddit` | `--batch`, `--category <CAT>` | Extracts episode discussion threads and AMA archives from r/TheAmazingRace. |
+| `import-sheets` | `--sheet <NAME>`, `--csv <PATH>` | Ingests community spreadsheets and roadblock trackers. |
+
+---
+
+## 8. Code Recipes
+
+### Python (DuckDB + Parquet)
+```python
+import duckdb
+
+# Find all seasons where the winning team had a racing average under 2.0
+query = """
+    SELECT 
+        s.season,
+        s.winner,
+        t.racing_average,
+        s.destination_summary
+    FROM 'seasons.parquet' s
+    JOIN 'teams.parquet' t ON s.season = t.season AND t.winner = 1
+    WHERE t.racing_average < 2.0
+    ORDER BY t.racing_average ASC;
+"""
+duckdb.sql(query).show()
+```
+
+### Python (Polars)
+```python
+import polars as pl
+
+teams = pl.read_parquet("teams.parquet")
+results = pl.read_parquet("leg_results.parquet")
+
+# Calculate win count per team
+team_leg_wins = (
+    results.filter(pl.col("placement") == 1)
+    .group_by("team_id")
+    .agg(pl.len().alias("leg_wins"))
+    .join(teams, on="team_id")
+    .sort("leg_wins", descending=True)
+)
+print(team_leg_wins.select(["team_name", "season", "leg_wins", "winner"]).head(10))
+```
+
+### R (Tidyverse)
+```r
+library(theamazingrace)
+library(dplyr)
+library(ggplot2)
+
+data(teams)
+data(leg_results)
+
+# Compare racing averages of winners vs runner-ups
+teams %>%
+  filter(placement %in% c(1, 2, 3)) %>%
+  ggplot(aes(x = factor(placement), y = racing_average, fill = factor(placement))) +
+  geom_boxplot() +
+  labs(title = "Racing Average by Podium Placement", x = "Placement", y = "Racing Average")
+```
