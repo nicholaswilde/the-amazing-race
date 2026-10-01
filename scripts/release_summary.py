@@ -128,10 +128,13 @@ def main() -> None:
         f.write(notes)
         tmp_name = f.name
 
-    print(f"Updating draft release for {latest}...")
+    print(f"Updating release notes for {latest}...")
     try:
-        url = run_cmd(f"gh release edit {latest} --draft -F {tmp_name}")
-        print(f"Draft release updated successfully: {url}")
+        rel_info = run_cmd(f"gh release view {latest} --json isDraft")
+        is_draft = '"isDraft":true' in rel_info.replace(" ", "")
+        draft_flag = "--draft" if is_draft else ""
+        url = run_cmd(f"gh release edit {latest} {draft_flag} -F {tmp_name}".strip())
+        print(f"Release updated successfully: {url}")
     except Exception as e:
         print(f"Failed to update release with gh: {e}")
     finally:
