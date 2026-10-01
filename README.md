@@ -2,6 +2,7 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-amazing-race/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-amazing-race/actions/workflows/ci.yml)
 [![task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Coverage](https://img.shields.io/coveralls/github/nicholaswilde/the-amazing-race/main?style=for-the-badge&logo=coveralls)](https://coveralls.io/github/nicholaswilde/the-amazing-race?branch=main)
+[![DOI](https://zenodo.org/badge/1394466925.svg)](https://zenodo.org/badge/latestdoi/1394466925)
 
 A comprehensive tidy dataset and AI training corpus for the CBS reality competition television series **[The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series))**.
 
@@ -567,6 +568,27 @@ This dataset synthesizes information from encyclopedic records, fan community da
 ### 4. Architectural & Schema Inspiration
 - **[doehm/alone](https://github.com/doehm/alone)**: Reference package architecture for tidy TV survival and reality show datasets in R and Parquet.
 - **[doehm/survivoR](https://github.com/doehm/survivoR)**: Design principles for game show statistics and survival analytics.
+
+---
+
+## :bookmark: Citation
+
+If you use this dataset, companion R package, or AI training corpus in your research, visualizations, or educational coursework, please cite it as:
+
+```bibtex
+@misc{wilde_amazing_race_2026,
+  author       = {Nicholas Wilde},
+  title        = {The Amazing Race Dataset & AI Training Corpus},
+  year         = {2026},
+  version      = {0.1.0},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.1394466925},
+  url          = {https://github.com/nicholaswilde/the-amazing-race}
+}
+```
+
+Or in APA format:
+> Wilde, N. (2026). *The Amazing Race Dataset & AI Training Corpus* (Version 0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.1394466925
 
 ---
 

@@ -5,6 +5,9 @@ description = "A comprehensive tidy dataset and AI training corpus for the TV sh
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Apache-2.0" }
+authors = [
+    { name = "Nicholas Wilde", email = "nicholas@nicholaswilde.io" },
+]
 dependencies = [
     "beautifulsoup4>=4.12.3",
     "httpx>=0.27.0",

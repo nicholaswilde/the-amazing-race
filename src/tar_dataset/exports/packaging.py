@@ -103,6 +103,10 @@ class ReleasePackager:
             if license_file.exists():
                 zf.write(license_file, arcname="LICENSE")
 
+            citation_file = self.repo_root / "CITATION.cff"
+            if citation_file.exists():
+                zf.write(citation_file, arcname="CITATION.cff")
+
             readme_file = self.repo_root / "README.md"
             if readme_file.exists():
                 zf.write(readme_file, arcname="README.md")
@@ -132,6 +136,10 @@ class ReleasePackager:
             license_file = self.repo_root / "LICENSE"
             if license_file.exists():
                 zf.write(license_file, arcname="LICENSE")
+
+            citation_file = self.repo_root / "CITATION.cff"
+            if citation_file.exists():
+                zf.write(citation_file, arcname="CITATION.cff")
 
             readme_file = self.repo_root / "README.md"
             if readme_file.exists():
@@ -171,6 +179,10 @@ class ReleasePackager:
             license_file = self.repo_root / "LICENSE"
             if license_file.exists():
                 zf.write(license_file, arcname="LICENSE")
+
+            citation_file = self.repo_root / "CITATION.cff"
+            if citation_file.exists():
+                zf.write(citation_file, arcname="CITATION.cff")
 
             for llm_file in ["llms.txt", "llms-full.txt"]:
                 llm_path = self.repo_root / llm_file
