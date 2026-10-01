@@ -93,6 +93,11 @@ def test_sqlite_exporter_basic(tmp_path):
     assert res[1] == 2.0
     conn.close()
 
+    # Verify header version normalization
+    with open(db_path, "rb") as f:
+        f.seek(96)
+        assert f.read(4) == b"\x00\x2e\x8a\x14"
+
 
 def test_arrow_and_hf_exporter(tmp_path):
     """Test exporting to Arrow IPC and HuggingFace disk layouts."""

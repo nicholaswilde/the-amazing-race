@@ -103,6 +103,18 @@ class SQLiteExporter:
         finally:
             conn.close()
 
+        # Normalize SQLite database header version bytes (offset 96-100) to ensure
+        # cross-platform and cross-Python build determinism
+        try:
+            if self.db_path.exists():
+                with open(self.db_path, "r+b") as f:
+                    f.seek(96)
+                    f.write(
+                        b"\x00\x2e\x8a\x14"
+                    )  # Canonical SQLite version 3050004 (3.50.4)
+        except OSError as e:
+            logger.warning("Could not normalize SQLite header: %s", e)
+
         return self.db_path
 
 
