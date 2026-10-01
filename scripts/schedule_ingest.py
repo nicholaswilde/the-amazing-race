@@ -124,8 +124,8 @@ def run_pipeline() -> bool:
 
         validator = DatasetValidator()
         report = validator.validate()
-        if not report.get("valid", False):
-            logger.warning("Validation warnings detected: %s", report.get("errors"))
+        if report.get("status") != "PASS":
+            logger.warning("Validation warnings detected: %s", report.get("issues"))
 
         AIExportBuilder().export_all()
         export_arrow_and_hf()

@@ -47,6 +47,9 @@ DIAGNOSIS_HINTS: dict[tuple[str, str], str] = {
     ("leg_results", "placement"): (
         "Off-mat eliminations, disqualifications, or unaired leg outcomes."
     ),
+    ("episodes", "viewers_millions"): (
+        "Recent broadcast episodes where Nielsen ratings or DVR metrics are pending (TBD)."
+    ),
 }
 
 

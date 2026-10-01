@@ -3000,3 +3000,191 @@ US,36,3,Anthony & Bailey,11,11th †,False,False,False,False,False
 US,36,1,Chris & Mary,11,11th,False,False,False,False,False
 US,36,2,Chris & Mary,12,12th †,False,False,False,False,False
 US,36,1,Maya & Rohan,13,13th †,False,False,False,False,False
+US,37,1,Carson & Jack,1,1st,False,False,False,False,False
+US,37,2,Carson & Jack,4,4th,False,False,False,False,False
+US,37,3,Carson & Jack,2,2nd,False,False,False,False,False
+US,37,4,Carson & Jack,2,2nd,False,False,False,False,False
+US,37,5,Carson & Jack,2,2nd,False,False,False,False,False
+US,37,6,Carson & Jack,1,1st ƒ,False,True,False,False,False
+US,37,7,Carson & Jack,6,6th,False,False,False,False,False
+US,37,8,Carson & Jack,4,4th,False,False,False,False,False
+US,37,9,Carson & Jack,4,4th,False,False,False,False,False
+US,37,10,Carson & Jack,1,1st,False,False,False,False,False
+US,37,11,Carson & Jack,1,1st,False,False,False,False,False
+US,37,12,Carson & Jack,1,1st,False,False,False,False,False
+US,37,1,Han & Holden,5,5th,False,False,False,False,False
+US,37,2,Han & Holden,11,11th,False,False,False,False,False
+US,37,3,Han & Holden,9,9th,False,False,False,False,False
+US,37,4,Han & Holden,6,6th,False,False,False,False,False
+US,37,5,Han & Holden,5,5th,False,False,False,False,False
+US,37,6,Han & Holden,2,2nd,False,False,False,False,False
+US,37,7,Han & Holden,4,4th ⊂,False,False,False,False,False
+US,37,8,Han & Holden,5,5th,False,False,False,False,False
+US,37,9,Han & Holden,5,5th ‡,False,False,False,False,False
+US,37,10,Han & Holden,4,4th,False,False,False,False,False
+US,37,11,Han & Holden,2,2nd,False,False,False,False,False
+US,37,12,Han & Holden,2,2nd,False,False,False,False,False
+US,37,1,Jonathan & Ana,2,2nd,False,False,False,False,False
+US,37,2,Jonathan & Ana,1,1st,False,False,False,False,False
+US,37,3,Jonathan & Ana,3,3rd,False,False,False,False,False
+US,37,4,Jonathan & Ana,1,1st ε,False,False,False,False,False
+US,37,5,Jonathan & Ana,8,8th ⊂,False,False,False,False,False
+US,37,6,Jonathan & Ana,5,5th,False,False,False,False,False
+US,37,7,Jonathan & Ana,3,3rd,False,False,False,False,False
+US,37,8,Jonathan & Ana,3,3rd,False,False,False,False,False
+US,37,9,Jonathan & Ana,1,1st,False,False,False,False,False
+US,37,10,Jonathan & Ana,3,3rd,False,False,False,False,False
+US,37,11,Jonathan & Ana,3,3rd,False,False,False,False,False
+US,37,12,Jonathan & Ana,3,3rd,False,False,False,False,False
+US,37,1,Alyssa & Josiah,1,1st,False,False,False,False,False
+US,37,2,Alyssa & Josiah,3,3rd,False,False,False,False,False
+US,37,3,Alyssa & Josiah,7,7th,False,False,False,False,False
+US,37,4,Alyssa & Josiah,5,5th,False,False,False,False,False
+US,37,5,Alyssa & Josiah,3,3rd,False,False,False,False,False
+US,37,6,Alyssa & Josiah,3,3rd,False,False,False,False,False
+US,37,7,Alyssa & Josiah,1,1st,False,False,False,False,False
+US,37,8,Alyssa & Josiah,2,2nd,False,False,False,False,False
+US,37,9,Alyssa & Josiah,3,3rd,False,False,False,False,False
+US,37,10,Alyssa & Josiah,2,2nd ε,False,False,False,False,False
+US,37,11,Alyssa & Josiah,4,4th †,False,False,False,False,False
+US,37,1,Brett & Mark,2,2nd,False,False,False,False,False
+US,37,2,Brett & Mark,9,9th,False,False,False,False,False
+US,37,3,Brett & Mark,5,5th,False,False,False,False,False
+US,37,4,Brett & Mark,7,7th,False,False,False,False,False
+US,37,5,Brett & Mark,1,1st,False,False,False,False,False
+US,37,6,Brett & Mark,4,4th,False,False,False,False,False
+US,37,7,Brett & Mark,2,2nd,False,False,False,False,False
+US,37,8,Brett & Mark,1,1st,False,False,False,False,False
+US,37,9,Brett & Mark,2,2nd,False,False,False,False,False
+US,37,10,Brett & Mark,5,5th †,False,False,False,False,False
+US,37,1,Melinda & Erika,6,6th,False,False,False,False,False
+US,37,2,Melinda & Erika,5,5th,False,False,False,False,False
+US,37,3,Melinda & Erika,4,4th,False,False,False,False,False
+US,37,4,Melinda & Erika,4,4th,False,False,False,False,False
+US,37,5,Melinda & Erika,6,6th,False,False,False,False,False
+US,37,6,Melinda & Erika,6,6th,False,False,False,False,False
+US,37,7,Melinda & Erika,5,5th ⊃,False,False,False,False,False
+US,37,8,Melinda & Erika,6,6th †,False,False,False,False,False
+US,37,1,Nick & Mike,5,5th,False,False,False,False,False
+US,37,2,Nick & Mike,10,10th,False,False,False,False,False
+US,37,3,Nick & Mike,8,8th,False,False,False,False,False
+US,37,4,Nick & Mike,8,8th,False,False,False,False,False
+US,37,5,Nick & Mike,7,7th,False,False,False,False,False
+US,37,6,Nick & Mike,7,7th,False,False,False,False,False
+US,37,7,Nick & Mike,7,7th † ⊂ ⊃,False,False,False,False,False
+US,37,1,Pops & Jeff,4,4th,False,False,False,False,False
+US,37,2,Pops & Jeff,7,7th,False,False,False,False,False
+US,37,3,Pops & Jeff,6,6th,False,False,False,False,False
+US,37,4,Pops & Jeff,9,9th,False,False,False,False,False
+US,37,5,Pops & Jeff,4,4th,False,False,False,False,False
+US,37,6,Pops & Jeff,8,8th †,False,False,False,False,False
+US,37,1,Scott & Lori,3,3rd,False,False,False,False,False
+US,37,2,Scott & Lori,2,2nd,False,False,False,False,False
+US,37,3,Scott & Lori,1,1st,False,False,False,False,False
+US,37,4,Scott & Lori,3,3rd,False,False,False,False,False
+US,37,5,Scott & Lori,9,9th † ⊂,False,False,False,False,False
+US,37,1,Bernie & Carrigain,4,4th,False,False,False,False,False
+US,37,2,Bernie & Carrigain,8,8th,False,False,False,False,False
+US,37,3,Bernie & Carrigain,10,10th,False,False,False,False,False
+US,37,4,Bernie & Carrigain,10,10th †,False,False,False,False,False
+US,37,1,Courtney & Jasmin,6,6th,False,False,False,False,False
+US,37,2,Courtney & Jasmin,6,6th,False,False,False,False,False
+US,37,3,Courtney & Jasmin,11,11th †,False,False,False,False,False
+US,37,1,Ernest & Bridget,3,3rd,False,False,False,False,False
+US,37,2,Ernest & Bridget,12,12th †,False,False,False,False,False
+US,37,1,Mark & Larry,7,7th †,False,False,False,False,False
+US,37,1,Jackye & Lauren,7,7th †,False,False,False,False,False
+US,38,1,Jas & Jag,1,1st,False,False,False,False,False
+US,38,2,Jas & Jag,1,1st,False,False,False,False,False
+US,38,3,Jas & Jag,2,2nd,False,False,False,False,False
+US,38,4,Jas & Jag,5,5th,False,False,False,False,False
+US,38,5,Jas & Jag,3,3rd ⊃,False,False,False,False,False
+US,38,6,Jas & Jag,2,2nd,False,False,False,False,False
+US,38,7,Jas & Jag,2,2nd,False,False,False,False,False
+US,38,8,Jas & Jag,1,1st ε,False,False,False,False,False
+US,38,9,Jas & Jag,1,1st ⊂,False,False,False,False,False
+US,38,10,Jas & Jag,1,1st,False,False,False,False,False
+US,38,11,Jas & Jag,1,1st,False,False,False,False,False
+US,38,12,Jas & Jag,1,1st,False,False,False,False,False
+US,38,1,Kyland & Taylor,9,9th,False,False,False,False,False
+US,38,2,Kyland & Taylor,9,9th,False,False,False,False,False
+US,38,3,Kyland & Taylor,9,9th,False,False,False,False,False
+US,38,4,Kyland & Taylor,4,4th,False,False,False,False,False
+US,38,5,Kyland & Taylor,2,2nd,False,False,False,False,False
+US,38,6,Kyland & Taylor,3,3rd,False,False,False,False,False
+US,38,7,Kyland & Taylor,4,4th,False,False,False,False,False
+US,38,8,Kyland & Taylor,3,3rd ε,False,False,False,False,False
+US,38,9,Kyland & Taylor,5,5th ⊂,False,False,False,False,False
+US,38,10,Kyland & Taylor,4,4th,False,False,False,False,False
+US,38,11,Kyland & Taylor,2,2nd,False,False,False,False,False
+US,38,12,Kyland & Taylor,2,2nd,False,False,False,False,False
+US,38,1,Joseph & Adam,8,8th,False,False,False,False,False
+US,38,2,Joseph & Adam,2,2nd,False,False,False,False,False
+US,38,3,Joseph & Adam,4,4th,False,False,False,False,False
+US,38,4,Joseph & Adam,7,7th,False,False,False,False,False
+US,38,5,Joseph & Adam,4,4th ⊃,False,False,False,False,False
+US,38,6,Joseph & Adam,5,5th,False,False,False,False,False
+US,38,7,Joseph & Adam,3,3rd,False,False,False,False,False
+US,38,8,Joseph & Adam,6,6th ‡,False,False,False,False,False
+US,38,9,Joseph & Adam,3,3rd,False,False,False,False,False
+US,38,10,Joseph & Adam,3,3rd,False,False,False,False,False
+US,38,11,Joseph & Adam,3,3rd,False,False,False,False,False
+US,38,12,Joseph & Adam,3,3rd,False,False,False,False,False
+US,38,1,Izzy & Paige,3,3rd,False,False,False,False,False
+US,38,2,Izzy & Paige,6,6th,False,False,False,False,False
+US,38,3,Izzy & Paige,6,6th,False,False,False,False,False
+US,38,4,Izzy & Paige,3,3rd,False,False,False,False,False
+US,38,5,Izzy & Paige,7,7th ⊂,False,False,False,False,False
+US,38,6,Izzy & Paige,7,7th,False,False,False,False,False
+US,38,7,Izzy & Paige,6,6th,False,False,False,False,False
+US,38,8,Izzy & Paige,4,4th,False,False,False,False,False
+US,38,9,Izzy & Paige,4,4th,False,False,False,False,False
+US,38,10,Izzy & Paige,2,2nd,False,False,False,False,False
+US,38,11,Izzy & Paige,4,4th †,False,False,False,False,False
+US,38,1,Jack & Chelsie,6,6th,False,False,False,False,False
+US,38,2,Jack & Chelsie,7,7th,False,False,False,False,False
+US,38,3,Jack & Chelsie,8,8th,False,False,False,False,False
+US,38,4,Jack & Chelsie,9,9th,False,False,False,False,False
+US,38,5,Jack & Chelsie,6,6th,False,False,False,False,False
+US,38,6,Jack & Chelsie,6,6th,False,False,False,False,False
+US,38,7,Jack & Chelsie,5,5th,False,False,False,False,False
+US,38,8,Jack & Chelsie,5,5th,False,False,False,False,False
+US,38,9,Jack & Chelsie,2,2nd,False,False,False,False,False
+US,38,10,Jack & Chelsie,5,5th †,False,False,False,False,False
+US,38,1,Tucker & Eric,2,2nd,False,False,False,False,False
+US,38,2,Tucker & Eric,4,4th,False,False,False,False,False
+US,38,3,Tucker & Eric,3,3rd,False,False,False,False,False
+US,38,4,Tucker & Eric,1,1st ƒ,False,True,False,False,False
+US,38,5,Tucker & Eric,1,1st,False,False,False,False,False
+US,38,6,Tucker & Eric,1,1st,False,False,False,False,False
+US,38,7,Tucker & Eric,1,1st,False,False,False,False,False
+US,38,8,Tucker & Eric,2,2nd,False,False,False,False,False
+US,38,9,Tucker & Eric,6,6th † ⊂,False,False,False,False,False
+US,38,1,Natalie & Stephanie,5,5th,False,False,False,False,False
+US,38,2,Natalie & Stephanie,3,3rd,False,False,False,False,False
+US,38,3,Natalie & Stephanie,1,1st,False,False,False,False,False
+US,38,4,Natalie & Stephanie,2,2nd,False,False,False,False,False
+US,38,5,Natalie & Stephanie,5,5th,False,False,False,False,False
+US,38,6,Natalie & Stephanie,4,4th,False,False,False,False,False
+US,38,7,Natalie & Stephanie,7,7th †,False,False,False,False,False
+US,38,1,Kristine & Rubina,4,4th,False,False,False,False,False
+US,38,2,Kristine & Rubina,8,8th,False,False,False,False,False
+US,38,3,Kristine & Rubina,7,7th,False,False,False,False,False
+US,38,4,Kristine & Rubina,8,8th,False,False,False,False,False
+US,38,5,Kristine & Rubina,8,8th ⊂,False,False,False,False,False
+US,38,6,Kristine & Rubina,8,8th †,False,False,False,False,False
+US,38,1,Hannah & Simone,7,7th,False,False,False,False,False
+US,38,2,Hannah & Simone,5,5th,False,False,False,False,False
+US,38,3,Hannah & Simone,5,5th,False,False,False,False,False
+US,38,4,Hannah & Simone,6,6th,False,False,False,False,False
+US,38,5,Hannah & Simone,9,9th †,False,False,False,False,False
+US,38,1,Kat & Alex,11,11th,False,False,False,False,False
+US,38,2,Kat & Alex,10,10th,False,False,False,False,False
+US,38,3,Kat & Alex,10,10th,False,False,False,False,False
+US,38,4,Kat & Alex,10,10th †,False,False,False,False,False
+US,38,1,Megan & Matt,12,12th,False,False,False,False,False
+US,38,2,Megan & Matt,11,11th,False,False,False,False,False
+US,38,3,Megan & Matt,11,11th †,False,False,False,False,False
+US,38,1,Angela & Lexi,10,10th,False,False,False,False,False
+US,38,2,Angela & Lexi,12,12th †,False,False,False,False,False
+US,38,1,Jack & Enzo,13,13th †,False,False,False,False,False
