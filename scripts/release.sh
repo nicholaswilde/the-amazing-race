@@ -95,7 +95,8 @@ if cff.exists():
     cff.write_text(content, encoding="utf-8")
 EOF
 
-git add pyproject.toml r/DESCRIPTION CITATION.cff
+uv lock
+git add pyproject.toml r/DESCRIPTION CITATION.cff uv.lock
 if ! git diff --cached --quiet; then
     git commit -m "chore(release): bump version to $NEW_TAG"
 fi
