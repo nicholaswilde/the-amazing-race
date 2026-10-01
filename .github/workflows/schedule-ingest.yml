@@ -1,0 +1,89 @@
+name: Scheduled Ingestion & Season Tracking
+
+on:
+  schedule:
+    # Run every Monday at 06:00 UTC during active broadcast seasons
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    inputs:
+      season:
+        description: 'Specific season number to ingest (leave blank to auto-detect next season)'
+        type: string
+        default: ''
+      version:
+        description: 'Franchise version code (US, CAN, AUS)'
+        type: string
+        default: 'US'
+      force:
+        description: 'Force re-scraping and pipeline rebuild even if season exists'
+        type: boolean
+        default: false
+      open_pr:
+        description: 'Open a Pull Request if new data is ingested'
+        type: boolean
+        default: true
+      post_comment:
+        description: 'Post update comment to tracking Issue #4'
+        type: boolean
+        default: true
+
+jobs:
+  ingest:
+    name: Check & Ingest New Broadcast Data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'release'
+
+      - name: Install Task
+        uses: arduino/setup-task@v2
+        with:
+          version: 3.x
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install dependencies
+        run: task sync
+
+      - name: Run Scheduled Ingestion & Tracking
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.post_comment }}" = "true" ]; then
+            ARGS="${ARGS} --post-comment"
+          fi
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.open_pr }}" = "true" ]; then
+            ARGS="${ARGS} --open-pr"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="${ARGS} --force"
+          fi
+          if [ -n "${{ github.event.inputs.season }}" ]; then
+            ARGS="${ARGS} --season ${{ github.event.inputs.season }}"
+          fi
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            ARGS="${ARGS} --version ${{ github.event.inputs.version }}"
+          fi
+
+          ./scripts/schedule_ingest.py ${ARGS}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

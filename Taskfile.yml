@@ -207,6 +207,17 @@ tasks:
     cmds:
       - uv run tar-dataset import-sheet {{.CLI_ARGS}}
 
+  # Automated Ingestion & Scheduled Tracking
+  ingest:check:
+    desc: Check if new broadcast seasons or episodes are available on Wikipedia
+    cmds:
+      - ./scripts/schedule_ingest.py --check-only {{.CLI_ARGS}}
+
+  ingest:run:
+    desc: Ingest new seasons, recompile data pipeline, and update Issue #4
+    cmds:
+      - ./scripts/schedule_ingest.py {{.CLI_ARGS}}
+
   # CodeGraph Intelligence
   codegraph:sync:
     desc: Sync changes to the codegraph code intelligence index
