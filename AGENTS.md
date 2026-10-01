@@ -68,3 +68,41 @@ Agents can invoke the following skills located in `.agents/skills/`:
 ## Reference Repositories
 - **`doehm/alone`**: When inspecting or searching the reference `doehm/alone` repository for schema patterns, tidy data structures, or package conventions, **always look locally first** at `/home/nicholas/git/doehm/alone` before searching the web or GitHub.
 
+## Serena Semantic Code Navigation
+Serena (`serena-agent`) provides symbol-level semantic code navigation, refactoring, and AST indexing via LSP (Pyright).
+- **Project Configuration**: Stored in `.serena/project.yml`.
+- **Health Check**: Run `serena project health-check` to verify language server connectivity and symbol lookup.
+- **Index Codebase**: Run `serena project index` to rebuild the symbol cache.
+- **MCP Server Registration**:
+  - Registered in `~/.gemini/config/mcp_config.json` (for Antigravity):
+    ```json
+    "serena": {
+      "command": "serena",
+      "args": [
+        "start-mcp-server",
+        "--context=antigravity",
+        "--project-from-cwd",
+        "--open-web-dashboard",
+        "false"
+      ]
+    }
+    ```
+  - Registered in `~/.claude.json` (for Claude Code):
+    ```json
+    "serena": {
+      "command": "serena",
+      "args": [
+        "start-mcp-server",
+        "--context=claude-code",
+        "--project-from-cwd",
+        "--open-web-dashboard",
+        "false"
+      ]
+    }
+    ```
+- **New Workspace Setup**:
+  1. Ensure `serena-agent` is installed: `uv tool install -p 3.13 serena-agent`
+  2. Initialize project configuration: `serena project create . --ls python`
+  3. Index symbols: `serena project index .`
+  4. Verify setup: `serena project health-check .`
+

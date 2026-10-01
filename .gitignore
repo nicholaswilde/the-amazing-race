@@ -223,3 +223,9 @@ __marimo__/
 .pytest_cache/
 
 .codegraph
+
+# Serena
+.serena/cache/
+.serena/logs/
+.serena/project.local.yml
+
