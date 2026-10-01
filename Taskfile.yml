@@ -99,6 +99,11 @@ tasks:
     cmds:
       - uv run tar-dataset stats
 
+  predict:
+    desc: Run empirical predictive engine on an upcoming or in-progress season
+    cmds:
+      - uv run tar-dataset predict {{.CLI_ARGS}}
+
   gaps:
     desc: Audit dataset completeness and identify missing cells and null rates
     cmds:

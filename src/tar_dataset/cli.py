@@ -21,6 +21,7 @@ from tar_dataset.exports.sqlite_export import export_to_sqlite
 from tar_dataset.importers.sheets import SheetsImporter
 from tar_dataset.processors.builder import DatasetBuilder
 from tar_dataset.processors.gap_auditor import DatasetGapAuditor
+from tar_dataset.processors.predictor import SeasonPredictor
 from tar_dataset.processors.validator import DatasetValidator
 from tar_dataset.scrapers.fandom import FandomScraper
 from tar_dataset.scrapers.reddit import RedditScraper
@@ -1020,6 +1021,123 @@ def show_leg(
                     str(t.get("task_type", "Task")), str(t.get("description", ""))
                 )
             console.print(tasks_table)
+
+
+@app.command("predict")
+def predict_cmd(
+    season: int = typer.Option(
+        39, "--season", "-s", help="Season number to predict (e.g. 39)."
+    ),
+    top: int = typer.Option(10, "--top", "-t", help="Number of top teams to display."),
+    detail: bool = typer.Option(
+        False, "--detail", "-d", help="Display detailed factor analysis."
+    ),
+    output_json: Path | None = typer.Option(
+        None, "--output", "-o", help="Optional path to export predictions JSON."
+    ),
+) -> None:
+    """Predict winners, finale contenders, and elimination risks using historical empirical data."""
+    console.print(
+        f"[bold cyan]Running TAR predictive engine for Season {season}...[/bold cyan]"
+    )
+
+    predictor = SeasonPredictor()
+    try:
+        results = predictor.predict_season(season=season)
+    except Exception as exc:
+        console.print(f"[bold red]Prediction error:[/bold red] {exc}")
+        raise typer.Exit(1) from exc
+
+    current_leg = results["current_leg"]
+    active_count = results["active_teams_count"]
+    total_count = results["total_teams"]
+
+    console.print(
+        Panel(
+            f"[bold white]Season {season} Prediction Model (After Leg {current_leg})[/bold white]\n"
+            f"[bold]Active Teams:[/bold] {active_count}/{total_count}  |  "
+            f"[bold]Historical Baseline Sample:[/bold] 38 US Seasons (78 winners, 400+ teams)",
+            title="The Amazing Race Win & Finale Predictor",
+            expand=False,
+        )
+    )
+
+    table = Table(title=f"Season {season} Contender Rankings (Top {top})")
+    table.add_column("Rank", style="bold cyan", justify="right")
+    table.add_column("Team", style="bold white")
+    table.add_column("Relationship", style="yellow")
+    table.add_column("Avg Age", justify="center")
+    table.add_column("Avg Place", justify="center")
+    table.add_column("Express Pass", justify="center")
+    table.add_column("Win Prob", style="bold green", justify="right")
+    table.add_column("Finale Prob", style="bold magenta", justify="right")
+
+    rankings = results["rankings"][:top]
+    for idx, team in enumerate(rankings, 1):
+        if team["is_eliminated"]:
+            table.add_row(
+                str(idx),
+                f"[dim strikethrough]{team['team_name']}[/dim strikethrough]",
+                f"[dim]{team['relationship']}[/dim]",
+                "-",
+                "-",
+                "[dim]Eliminated[/dim]",
+                "[dim]0.0%[/dim]",
+                "[dim]0.0%[/dim]",
+            )
+        else:
+            win_str = f"{team['win_probability']:.1f}%"
+            top3_str = f"{team['top3_probability']:.1f}%"
+            avg_place_str = (
+                f"{team['avg_placement']:.1f}" if team["avg_placement"] else "N/A"
+            )
+            avg_age_str = f"{team['avg_age']:.0f}" if team["avg_age"] else "N/A"
+
+            ep_status = team["express_pass_status"]
+            if ep_status == "Active / Intact":
+                ep_display = "[bold green]Held[/bold green]"
+            elif ep_status == "Used":
+                ep_display = "[yellow]Used[/yellow]"
+            else:
+                ep_display = "[dim]None[/dim]"
+
+            table.add_row(
+                str(idx),
+                team["team_name"],
+                team["relationship"],
+                avg_age_str,
+                avg_place_str,
+                ep_display,
+                win_str,
+                top3_str,
+            )
+
+    console.print(table)
+
+    if detail:
+        console.print(
+            "\n[bold cyan]Detailed Team Diagnostics & Analytical Profiles:[/bold cyan]"
+        )
+        for idx, team in enumerate(rankings, 1):
+            if team["is_eliminated"]:
+                continue
+            console.print(
+                f"\n[bold underline]{idx}. {team['team_name']}[/bold underline] ({team['relationship']}, Avg Age {team['avg_age']})"
+            )
+            if team.get("strengths"):
+                for s in team["strengths"]:
+                    console.print(f"  [green]+[/green] {s}")
+            if team.get("risks"):
+                for r in team["risks"]:
+                    console.print(f"  [red]-[/red] {r}")
+
+    if output_json:
+        output_json.parent.mkdir(parents=True, exist_ok=True)
+        import json
+
+        with open(output_json, "w", encoding="utf-8") as f:
+            json.dump(results, f, indent=2)
+        console.print(f"\n[green]Saved prediction export to {output_json}[/green]")
 
 
 if __name__ == "__main__":
