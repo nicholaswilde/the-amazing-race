@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from unittest.mock import MagicMock, patch
+from unittest.mock import AsyncMock, MagicMock, patch
 
 import pandas as pd
 import pytest
@@ -13,7 +13,11 @@ from tar_dataset.importers.sheets import (
     google_sheet_to_csv_url,
     google_sheet_to_xlsx_url,
 )
-from tar_dataset.scrapers.fandom import FandomScraper, clean_wikitext
+from tar_dataset.scrapers.fandom import (
+    FandomScraper,
+    clean_wikitext,
+    compute_roadblock_equity,
+)
 from tar_dataset.scrapers.reddit import RedditScraper
 from tar_dataset.scrapers.wikipedia import WikipediaScraper
 
@@ -393,3 +397,130 @@ def test_wikipedia_episodes_and_legs_parsing():
     assert len(legs[0]["tasks"]) >= 2
     assert legs[0]["tasks"][0]["task_type"] == "Detour"
     assert legs[0]["tasks"][1]["task_type"] == "Roadblock"
+
+
+def test_compute_roadblock_equity():
+    assert compute_roadblock_equity(None) is None
+    assert compute_roadblock_equity("") is None
+    assert compute_roadblock_equity("not-a-split") is None
+    assert compute_roadblock_equity("0-0") is None
+    assert compute_roadblock_equity("6-6") == 1.0
+    assert compute_roadblock_equity("7-5") == 0.83
+    assert compute_roadblock_equity("3-3-3-3") == 1.0
+    assert compute_roadblock_equity("0-0-0-0") is None
+    # 4 person with variance
+    assert isinstance(compute_roadblock_equity("4-4-2-2"), float)
+
+
+def test_fandom_scrape_all(tmp_path):
+    scraper = FandomScraper(raw_dir=tmp_path)
+    with patch.object(
+        scraper, "scrape_season", side_effect=[{"season": 1}, None]
+    ) as mock_s:
+        res = scraper.scrape_all(start=1, end=2)
+        assert len(res) == 1
+        assert res[0]["season"] == 1
+        assert mock_s.call_count == 2
+
+
+def test_fandom_scrape_roadblocks(tmp_path):
+    scraper = FandomScraper(raw_dir=tmp_path)
+
+    template_wt = """
+    | 0101 = [[The_Amazing_Race_1/Episode_1]]
+    """
+    season_wt = """
+    ==Leaderboard==
+    {| class="wikitable"
+    |-
+    | [[Rob & Brennan]] || 6-6
+    |}
+    """
+    ep_wt = """
+    * [[Rob & Brennan|Rob & <u>Brennan</u>]]
+    """
+
+    async def mock_get(url, params=None, timeout=None):
+        page = params.get("page", "") if params else ""
+        resp = MagicMock()
+        if page == "Template:Ep":
+            resp.json.return_value = {"parse": {"wikitext": {"*": template_wt}}}
+        elif "The_Amazing_Race_1" in page and "Episode" not in page:
+            resp.json.return_value = {"parse": {"wikitext": {"*": season_wt}}}
+        elif "Episode_1" in page:
+            resp.json.return_value = {"parse": {"wikitext": {"*": ep_wt}}}
+        else:
+            resp.json.return_value = {}
+        return resp
+
+    mock_client = MagicMock()
+    mock_client.get = mock_get
+    mock_client.__aenter__ = AsyncMock(return_value=mock_client)
+    mock_client.__aexit__ = AsyncMock(return_value=None)
+
+    with patch("httpx.AsyncClient", return_value=mock_client):
+        res = scraper.scrape_roadblocks(start=1, end=1, save=True)
+        assert "team_splits" in res
+        assert "leg_performers" in res
+        assert (tmp_path / "roadblocks_master.json").exists()
+
+
+def test_wikipedia_fetch_page_html_errors():
+    scraper = WikipediaScraper()
+    mock_resp = MagicMock()
+    mock_resp.json.return_value = {"error": "Missing page"}
+    mock_resp.raise_for_status.return_value = None
+
+    with patch.object(scraper.client, "get", return_value=mock_resp):
+        assert scraper.fetch_page_html("Missing_Page") is None
+
+    with patch.object(scraper.client, "get", side_effect=Exception("Network error")):
+        assert scraper.fetch_page_html("Error_Page") is None
+
+
+def test_wikipedia_scrape_all_episodes():
+    scraper = WikipediaScraper()
+    html_page = """
+    <div>
+      <h2>Season 1</h2>
+      <table class="wikiepisodetable">
+        <tr class="vevent">
+          <td>1</td><td>1</td><td>"The Race Begins"</td><td>2001-09-05</td><td>11.83</td>
+        </tr>
+      </table>
+    </div>
+    """
+    mock_resp = MagicMock()
+    mock_resp.status_code = 200
+    mock_resp.text = html_page
+
+    with patch.object(scraper.client, "get", return_value=mock_resp):
+        episodes = scraper.scrape_all_episodes()
+        assert "1_1" in episodes
+        assert episodes["1_1"]["title"] == "The Race Begins"
+        assert episodes["1_1"]["viewers_millions"] == 11.83
+
+
+def test_wikipedia_leg_narratives_extended():
+    scraper = WikipediaScraper()
+    html_legs = """
+    <div>
+      <div class="mw-heading mw-heading3">
+        <h3>Leg 1 (USA → France)</h3>
+      </div>
+      <p>Teams departed New York and flew to Paris.</p>
+      <ul>
+        <li>Fast Forward: Teams had to find a hidden key.</li>
+        <li>Speed Bump: A team had to wash dirty cars.</li>
+        <li>Teams must drive across the desert to reach the pit stop before sundown.</li>
+        <li>Short note</li>
+      </ul>
+    </div>
+    """
+    soup = BeautifulSoup(html_legs, "html.parser")
+    legs = scraper.parse_legs_summary(soup)
+    assert len(legs) == 1
+    task_types = [t["task_type"] for t in legs[0]["tasks"]]
+    assert "Fast Forward" in task_types
+    assert "Speed Bump" in task_types
+    assert len(legs[0]["itinerary"]) >= 1

@@ -148,3 +148,65 @@ def test_cli_publish_hf(mock_pub_cls: MagicMock) -> None:
         private=False,
         commit_message=None,
     )
+
+
+def test_prepare_staging_directory_corrupt_jsonl(tmp_path: Path) -> None:
+    ai_dir = tmp_path / "data" / "ai"
+    ai_dir.mkdir(parents=True)
+    # Write invalid JSON into qa_finetuning.jsonl
+    (ai_dir / "tar_qa_finetuning.jsonl").write_text(
+        "NOT VALID JSON {{{", encoding="utf-8"
+    )
+
+    publisher = HuggingFacePublisher(
+        repo_root=tmp_path,
+        processed_dir="data/processed",
+        ai_dir="data/ai",
+        docs_dir="docs",
+    )
+    stage_dir = tmp_path / "staged"
+    # Should not raise exception even when jsonl conversion to parquet fails
+    publisher.prepare_staging_directory(stage_dir)
+    assert (stage_dir / "data" / "tar_qa_finetuning.jsonl").exists()
+
+
+@patch("huggingface_hub.HfApi")
+def test_publish_repo_id_and_token_fallbacks(
+    mock_api_cls: MagicMock, tmp_path: Path
+) -> None:
+    mock_api = MagicMock()
+    mock_api_cls.return_value = mock_api
+    mock_api.whoami.return_value = {"name": "autouser"}
+    mock_api.create_tag.side_effect = Exception("Tagging failed")
+
+    custom_stage = tmp_path / "my_custom_stage"
+    custom_stage.mkdir()
+    (tmp_path / "pyproject.toml").write_text(
+        '[project]\nversion = "1.0.0"\n', encoding="utf-8"
+    )
+
+    publisher = HuggingFacePublisher(
+        repo_root=tmp_path,
+        processed_dir="data/processed",
+        ai_dir="data/ai",
+        docs_dir="docs",
+    )
+
+    with (
+        patch("huggingface_hub.get_token", return_value="stored_token"),
+        patch.dict("os.environ", {}, clear=True),
+    ):
+        # 1. No repo_id -> resolves to autouser/the-amazing-race
+        res = publisher.publish(
+            repo_id=None,
+            token=None,
+            staging_dir=custom_stage,
+        )
+        assert res["repo_id"] == "autouser/the-amazing-race"
+
+        # 2. repo_id without slash -> resolves to autouser/custom-name
+        res2 = publisher.publish(
+            repo_id="custom-name",
+            token="direct_token",
+        )
+        assert res2["repo_id"] == "autouser/custom-name"

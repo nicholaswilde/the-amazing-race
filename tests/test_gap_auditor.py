@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from unittest.mock import patch
+
 import pandas as pd
 import pytest
 from typer.testing import CliRunner
@@ -100,3 +102,65 @@ def test_gap_auditor_markdown_export(tmp_path):
     assert "Overall Completeness" in content
     assert "100.0%" in content
     assert "Season 29 Contestants & Teams" in content
+
+
+def test_column_gap_severity_and_to_dict():
+    from tar_dataset.processors.gap_auditor import ColumnGap
+
+    g_ok = ColumnGap("tbl", "col", 100, 0, {}, [], "hint")
+    assert g_ok.severity == "OK"
+    d_ok = g_ok.to_dict()
+    assert d_ok["severity"] == "OK"
+    assert d_ok["missing_pct"] == 0.0
+
+    g_low = ColumnGap("tbl", "col", 100, 3, {1: 3}, ["key1"], "hint")
+    assert g_low.severity == "LOW"
+
+    g_med = ColumnGap("tbl", "col", 100, 15, {1: 15}, ["key1"], "hint")
+    assert g_med.severity == "MEDIUM"
+
+    g_high = ColumnGap("tbl", "col", 100, 35, {1: 35}, ["key1"], "hint")
+    assert g_high.severity == "HIGH"
+
+
+def test_gap_auditor_load_table_fallback(tmp_path):
+    auditor = DatasetGapAuditor(processed_dir=tmp_path)
+    # Non-existent
+    assert auditor.load_table("missing").empty
+
+    # CSV fallback
+    csv_file = tmp_path / "seasons.csv"
+    csv_file.write_text("season,year\n1,2001\n", encoding="utf-8")
+    loaded = auditor.load_table("seasons")
+    assert len(loaded) == 1
+    assert loaded.iloc[0]["season"] == 1
+
+
+def test_gap_auditor_render_report_and_markdown_with_gaps(tmp_path):
+    from tar_dataset.processors.gap_auditor import ColumnGap
+
+    auditor = DatasetGapAuditor(processed_dir=tmp_path)
+    # Create fake audit with gaps
+    fake_gaps = [
+        ColumnGap("contestants", "relationship", 100, 25, {29: 25}, ["C1"], "Test hint")
+    ]
+    with patch.object(
+        auditor,
+        "audit_all",
+        return_value={
+            "overall_completeness_pct": 75.0,
+            "total_cells": 100,
+            "total_missing": 25,
+            "gaps": fake_gaps,
+        },
+    ):
+        # Test render_report with detail and season filter
+        auditor.render_report(show_detail=True, season_filter=29)
+
+        # Test export markdown report with gaps
+        out_file = tmp_path / "report_with_gaps.md"
+        auditor.export_markdown_report(out_file)
+        assert out_file.exists()
+        txt = out_file.read_text(encoding="utf-8")
+        assert "contestants" in txt
+        assert "Test hint" in txt
