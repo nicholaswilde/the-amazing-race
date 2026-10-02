@@ -179,7 +179,15 @@ def test_rexporter_basic(tmp_path: Path, mock_processed_dir: Path) -> None:
     content = roxygen_file.read_text(encoding="utf-8")
     assert "Seasons in The Amazing Race" in content
     assert '"seasons"' in content
-    assert '"tasks"' in content
+
+    # Check Rd manual documentation files
+    assert len(results["rd"]) == 7
+    for t in TABLES:
+        rd_file = r_pkg / "man" / f"{t}.Rd"
+        assert rd_file.exists()
+        rd_content = rd_file.read_text(encoding="utf-8")
+        assert f"\\name{{{t}}}" in rd_content
+        assert "\\docType{data}" in rd_content
 
     # Check package scaffolding files
     scaffold = results["scaffold"]
