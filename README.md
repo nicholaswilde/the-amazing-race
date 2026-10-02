@@ -111,6 +111,30 @@ Boxplot distributions and jittered racer data comparing championship winners and
   <img src="dev/images/boxplots.png" width="95%" alt="Racer Age Distributions by Finish Placement" />
 </p>
 
+### Team Gender Dynamics & Performance
+
+Empirical distributions of racing averages, podium conversion rates, and championship win shares comparing All-Male (MM), Co-Ed (MF), and All-Female (FF) teams across 431 teams:
+
+<p align="center">
+  <img src="dev/images/gender_performance.png" width="95%" alt="Team Gender Dynamics & Performance" />
+</p>
+
+### Roadblock Task Balance & Equity Evolution
+
+Historical trajectory of partner task equity before and after the landmark Season 6 Roadblock Rule change, highlighting the elimination of single-partner task dominance and the resulting gender workload parity:
+
+<p align="center">
+  <img src="dev/images/roadblock_equity.png" width="95%" alt="Roadblock Task Balance & Equity Evolution" />
+</p>
+
+### Global Race Footprint by Continent
+
+All-time leg destinations across 6 continents and the historical evolution of race routing from early global dispersal to modern and post-COVID charter flight routing:
+
+<p align="center">
+  <img src="dev/images/continents.png" width="95%" alt="Global Race Footprint by Continent" />
+</p>
+
 > [!TIP]
 > All figures and branding assets can be generated or customized via `task images` (or `python dev/scripts/generate_images.py`).
 

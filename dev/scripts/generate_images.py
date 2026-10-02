@@ -4,6 +4,9 @@ Mirrors the structure and aesthetic of doehm/alone/dev/images:
 - survival.png: Kaplan-Meier style team survival curves by archetype with inset boxplots
 - items.png: Horizontal bar chart of top visited destination countries
 - boxplots.png: Racer age distributions across finish placement tiers
+- gender_performance.png: Team gender dynamics (racing averages, podium rates, win shares)
+- roadblock_equity.png: Roadblock equity score evolution and gender workload parity
+- continents.png: Continental leg destinations and historical era routing shifts
 - theamazingrace hex.png: R package hexagonal sticker badge (3600x3600 RGBA)
 - bg.png, bg white.png: Dark and light square social cards
 - bg hex.png, bg white hex.png: Hexagon silhouette masks
@@ -404,6 +407,393 @@ def generate_boxplots_chart(output_dir: Path) -> None:
     print(f"Saved {out_file}")
 
 
+def generate_gender_performance_chart(output_dir: Path) -> None:
+    """Generate gender_performance.png: Team gender dynamics across racing averages and wins."""
+    print("Generating gender_performance.png...")
+    teams_df = pd.read_parquet("data/processed/teams.parquet")
+    us_teams = teams_df[teams_df["version"] == "US"].copy()
+    us_teams = us_teams[us_teams["gender_composition"].isin(["MM", "MF", "FF"])]
+
+    fig = plt.figure(figsize=(12, 8), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left: Racing average boxplot & scatter
+    ax_box = fig.add_axes([0.14, 0.16, 0.36, 0.65])
+    ax_box.set_facecolor(PALETTE["bg_white"])
+
+    groups = ["FF", "MF", "MM"]
+    labels = ["All-Female (FF)\n(n=97)", "Co-Ed (MF)\n(n=210)", "All-Male (MM)\n(n=124)"]
+    colors = [PALETTE["coral"], PALETTE["teal"], PALETTE["navy"]]
+
+    box_data = [us_teams[us_teams["gender_composition"] == g]["racing_average"].dropna().tolist() for g in groups]
+
+    bplot = ax_box.boxplot(
+        box_data,
+        vert=False,
+        patch_artist=True,
+        widths=0.52,
+        medianprops={"color": PALETTE["dark"], "linewidth": 2.2},
+        flierprops={"marker": "o", "markersize": 3, "alpha": 0.3, "markerfacecolor": PALETTE["dark"]},
+    )
+
+    for patch, col in zip(bplot["boxes"], colors):
+        patch.set_facecolor(col)
+        patch.set_alpha(0.70)
+        patch.set_edgecolor(PALETTE["dark"])
+        patch.set_linewidth(1.3)
+
+    for i, (vals, col) in enumerate(zip(box_data, colors)):
+        y_jit = np.random.normal(i + 1, 0.08, size=len(vals))
+        ax_box.scatter(vals, y_jit, color=PALETTE["dark"], alpha=0.28, s=20, edgecolors="none")
+
+    ax_box.set_yticks([1, 2, 3])
+    ax_box.set_yticklabels(labels, fontsize=10.5, fontweight="bold", color=PALETTE["gray_text"])
+    ax_box.set_xlabel("Racing Average (Lower is Better ←)", fontsize=11, fontweight="bold", color=PALETTE["gray_text"], labelpad=10)
+    ax_box.set_xlim(1.0, 13.0)
+    ax_box.tick_params(colors=PALETTE["gray_text"], labelsize=10)
+    ax_box.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.7)
+    ax_box.set_title("Racing Average Distribution", fontsize=13, fontweight="bold", color=PALETTE["dark"], pad=14)
+
+    for spine in ["top", "right"]:
+        ax_box.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_box.spines[spine].set_color(PALETTE["gray_line"])
+        ax_box.spines[spine].set_linewidth(1.1)
+
+    for i, g in enumerate(groups):
+        med = float(np.median(us_teams[us_teams["gender_composition"] == g]["racing_average"].dropna()))
+        ax_box.text(
+            med,
+            i + 1 + 0.33,
+            f"Med: {med:.2f}",
+            ha="center",
+            va="bottom",
+            fontsize=9,
+            fontweight="bold",
+            color=colors[i],
+        )
+
+    # Right: Conversion Rates
+    ax_metrics = fig.add_axes([0.58, 0.16, 0.36, 0.65])
+    ax_metrics.set_facecolor(PALETTE["bg_white"])
+
+    y_indices = np.array([1, 2, 3])
+    bar_h = 0.26
+
+    win_pcts = [3 / 38 * 100, 21 / 38 * 100, 14 / 38 * 100]
+    podium_rates = [18.9, 36.1, 36.8]
+
+    b1 = ax_metrics.barh(y_indices + bar_h / 2, win_pcts, height=bar_h, color=colors, alpha=0.9)
+    b2 = ax_metrics.barh(y_indices - bar_h / 2, podium_rates, height=bar_h, color=colors, alpha=0.5, hatch="//")
+
+    for bar, val in zip(b1, win_pcts):
+        ax_metrics.text(
+            val + 1.4,
+            bar.get_y() + bar.get_height() / 2,
+            f"{val:.1f}% ({round(val * 38 / 100)} wins)",
+            va="center",
+            fontsize=8.5,
+            fontweight="bold",
+            color=PALETTE["gray_text"],
+        )
+
+    for bar, val in zip(b2, podium_rates):
+        ax_metrics.text(
+            val + 1.4,
+            bar.get_y() + bar.get_height() / 2,
+            f"{val:.1f}% podium",
+            va="center",
+            fontsize=8.5,
+            color=PALETTE["gray_text"],
+        )
+
+    ax_metrics.set_yticks([])
+    ax_metrics.set_xlim(0, 100)
+    ax_metrics.set_ylim(0.4, 3.8)
+    ax_metrics.set_xlabel("Conversion Rate (%)", fontsize=11, fontweight="bold", color=PALETTE["gray_text"], labelpad=10)
+    ax_metrics.tick_params(colors=PALETTE["gray_text"], labelsize=10)
+    ax_metrics.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.7)
+    ax_metrics.set_title("Championships & Podium Rates", fontsize=13, fontweight="bold", color=PALETTE["dark"], pad=14)
+
+    for spine in ["top", "right", "left"]:
+        ax_metrics.spines[spine].set_visible(False)
+    ax_metrics.spines["bottom"].set_color(PALETTE["gray_line"])
+    ax_metrics.spines["bottom"].set_linewidth(1.1)
+
+    legend_elements = [
+        patches.Patch(facecolor="#4A5568", alpha=0.9, label="Championship Win Share (38 Seasons)"),
+        patches.Patch(facecolor="#4A5568", alpha=0.5, hatch="//", label="Podium Leg Finish Rate (%)"),
+    ]
+    ax_metrics.legend(handles=legend_elements, loc="upper right", bbox_to_anchor=(1.0, 1.0), frameon=True, facecolor=PALETTE["bg_white"], edgecolor=PALETTE["gray_line"], fontsize=8.5)
+
+    callout_rect = patches.FancyBboxPatch((0.08, 0.042), 0.86, 0.055, boxstyle="round,pad=0.015", facecolor=PALETTE["bg_card"], edgecolor=PALETTE["yellow"], linewidth=1.5)
+    fig.patches.append(callout_rect)
+    fig.text(
+        0.51,
+        0.068,
+        "Historic Milestone: Nat & Kat (S17) became the first all-female team to win in TAR history (16-season drought), followed by Kisha & Jen (S18) and Amy & Maya (S25).",
+        fontsize=9,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(0.08, 0.94, "Team gender dynamics & performance", fontsize=22, fontweight="bold", color=PALETTE["dark"])
+    fig.text(
+        0.08,
+        0.89,
+        "Comparison of racing averages, podium conversion rates, and championship titles across 431 teams",
+        fontsize=11.5,
+        color=PALETTE["gray_text"],
+    )
+    fig.text(0.08, 0.012, "Data: 431 teams across 38 US Seasons | the-amazing-race package", fontsize=8.5, color="#8E9AA7")
+
+    out_file = output_dir / "gender_performance.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
+def generate_roadblock_equity_chart(output_dir: Path) -> None:
+    """Generate roadblock_equity.png: Evolution of task balance before/after Season 6 rule."""
+    print("Generating roadblock_equity.png...")
+    contestants_df = pd.read_parquet("data/processed/contestants.parquet")
+    teams_df = pd.read_parquet("data/processed/teams.parquet")
+
+    fig = plt.figure(figsize=(12, 8), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Top: Historical Roadblock Equity Score
+    ax_top = fig.add_axes([0.16, 0.54, 0.78, 0.32])
+    ax_top.set_facecolor(PALETTE["bg_white"])
+
+    season_eq = teams_df[teams_df["roadblock_equity_score"].notna()].groupby("season")["roadblock_equity_score"].agg(["mean", "std", "count"]).reset_index()
+
+    ax_top.axvspan(0.5, 5.5, color=PALETTE["coral"], alpha=0.12, label="Uncapped Era (S1–S5, Mean = 0.50)")
+    ax_top.axvspan(5.5, 36.5, color=PALETTE["teal"], alpha=0.12, label="Roadblock Rule Era (S6–S36, Mean = 0.79)")
+
+    ax_top.axvline(5.5, color=PALETTE["red"], linestyle="--", linewidth=1.8, alpha=0.85)
+    ax_top.text(5.7, 0.37, "S6 Rule Instituted:\nMax limits per racer", color=PALETTE["red"], fontsize=8.5, fontweight="bold", va="center")
+
+    ax_top.plot(season_eq["season"], season_eq["mean"], color=PALETTE["navy"], marker="o", markersize=5, linewidth=2.2, label="Season Mean Equity Score")
+    ax_top.scatter(season_eq["season"], season_eq["mean"], color=PALETTE["navy"], s=35, zorder=4)
+
+    ax_top.annotate(
+        "S5: Colin & Christie\n(Colin 9, Christie 1)",
+        xy=(5, 0.55),
+        xytext=(1.8, 0.78),
+        arrowprops={"arrowstyle": "->", "color": PALETTE["gray_text"], "lw": 1.0},
+        fontsize=8,
+        color=PALETTE["gray_text"],
+        fontweight="bold",
+        bbox={"boxstyle": "round,pad=0.2", "facecolor": PALETTE["bg_card"], "edgecolor": PALETTE["gray_line"], "alpha": 0.9},
+    )
+    ax_top.annotate(
+        "S6: Immediate Parity Surge\n(Mean 0.87)",
+        xy=(6, 0.87),
+        xytext=(7.5, 0.94),
+        arrowprops={"arrowstyle": "->", "color": PALETTE["teal"], "lw": 1.0},
+        fontsize=8,
+        color=PALETTE["teal"],
+        fontweight="bold",
+        bbox={"boxstyle": "round,pad=0.2", "facecolor": PALETTE["bg_card"], "edgecolor": PALETTE["teal"], "alpha": 0.9},
+    )
+
+    ax_top.set_xlim(0.5, 37.0)
+    ax_top.set_ylim(0.30, 1.02)
+    ax_top.set_ylabel("Roadblock Equity Score\n(1.0 = Perfect Balance)", fontsize=10, fontweight="bold", color=PALETTE["gray_text"])
+    ax_top.tick_params(colors=PALETTE["gray_text"], labelsize=9.5)
+    ax_top.grid(True, linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_top.legend(loc="lower right", frameon=True, facecolor=PALETTE["bg_white"], edgecolor=PALETTE["gray_line"], fontsize=8.5)
+
+    for spine in ["top", "right"]:
+        ax_top.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_top.spines[spine].set_color(PALETTE["gray_line"])
+        ax_top.spines[spine].set_linewidth(1.0)
+
+    # Bottom: Racer Roadblocks Completed by Gender
+    ax_bot = fig.add_axes([0.16, 0.12, 0.78, 0.30])
+    ax_bot.set_facecolor(PALETTE["bg_white"])
+
+    c = contestants_df[contestants_df["version"] == "US"].copy()
+    s1_5_f = float(c[(c["season"] <= 5) & (c["gender"] == "F")]["roadblocks_completed"].mean())
+    s1_5_m = float(c[(c["season"] <= 5) & (c["gender"] == "M")]["roadblocks_completed"].mean())
+    s6_plus_f = float(c[(c["season"] >= 6) & (c["gender"] == "F")]["roadblocks_completed"].mean())
+    s6_plus_m = float(c[(c["season"] >= 6) & (c["gender"] == "M")]["roadblocks_completed"].mean())
+
+    eras = ["Uncapped Era\n(Seasons 1–5)", "Roadblock Rule Era\n(Seasons 6–36)"]
+    female_vals = [s1_5_f, s6_plus_f]
+    male_vals = [s1_5_m, s6_plus_m]
+
+    y_pos = np.arange(len(eras))
+    h = 0.30
+
+    b_m = ax_bot.barh(y_pos + h / 2, male_vals, height=h, color=PALETTE["navy"], alpha=0.9, label="Male Racers")
+    b_f = ax_bot.barh(y_pos - h / 2, female_vals, height=h, color=PALETTE["coral"], alpha=0.9, label="Female Racers")
+
+    for bar, val in zip(b_m, male_vals):
+        ax_bot.text(val + 0.08, bar.get_y() + bar.get_height() / 2, f"{val:.2f} avg RBs", va="center", fontsize=9.5, fontweight="bold", color=PALETTE["navy"])
+
+    for bar, val in zip(b_f, female_vals):
+        ax_bot.text(val + 0.08, bar.get_y() + bar.get_height() / 2, f"{val:.2f} avg RBs", va="center", fontsize=9.5, fontweight="bold", color=PALETTE["coral"])
+
+    ax_bot.text(5.5, 0 + h / 2, "+131% Male Task Load\n(Heavy Imbalance)", color=PALETTE["coral"], fontsize=9, fontweight="bold", va="center")
+    ax_bot.text(5.5, 1 + h / 2, "+11% Difference\n(Near Balance)", color=PALETTE["teal"], fontsize=9, fontweight="bold", va="center")
+
+    ax_bot.set_yticks(y_pos)
+    ax_bot.set_yticklabels(eras, fontsize=10, fontweight="bold", color=PALETTE["gray_text"])
+    ax_bot.set_xlim(0, 7.2)
+    ax_bot.set_xlabel("Average Roadblocks Completed per Contestant", fontsize=10.5, fontweight="bold", color=PALETTE["gray_text"], labelpad=8)
+    ax_bot.tick_params(colors=PALETTE["gray_text"], labelsize=10)
+    ax_bot.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_bot.legend(loc="lower right", frameon=True, facecolor=PALETTE["bg_white"], edgecolor=PALETTE["gray_line"], fontsize=9)
+
+    for spine in ["top", "right"]:
+        ax_bot.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_bot.spines[spine].set_color(PALETTE["gray_line"])
+        ax_bot.spines[spine].set_linewidth(1.0)
+
+    fig.text(0.08, 0.94, "Roadblock task equity & the Season 6 rule shift", fontsize=22, fontweight="bold", color=PALETTE["dark"])
+    fig.text(
+        0.08,
+        0.89,
+        "Individual roadblock limits enacted in Season 6 closed the massive gender workload gap and enforced partner task parity",
+        fontsize=11.5,
+        color=PALETTE["gray_text"],
+    )
+    fig.text(0.08, 0.02, "Data: 886 racers across 38 US Seasons | the-amazing-race package", fontsize=8.5, color="#8E9AA7")
+
+    out_file = output_dir / "roadblock_equity.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
+def generate_continents_chart(output_dir: Path) -> None:
+    """Generate continents.png: Destination continents and routing shifts over eras."""
+    print("Generating continents.png...")
+    legs_df = pd.read_parquet("data/processed/legs.parquet")
+    us_legs = legs_df[legs_df["version"] == "US"].copy()
+
+    def get_era(season: int) -> str:
+        if season <= 10:
+            return "Classic Era\n(S1–S10)"
+        elif season <= 20:
+            return "Golden Era\n(S11–S20)"
+        elif season <= 30:
+            return "Modern Era\n(S21–S30)"
+        else:
+            return "Post-COVID\n(S31–S38)"
+
+    us_legs["era"] = us_legs["season"].apply(get_era)
+
+    eras = ["Classic Era\n(S1–S10)", "Golden Era\n(S11–S20)", "Modern Era\n(S21–S30)", "Post-COVID\n(S31–S38)"]
+    continents = ["Europe", "Asia", "North America", "South America", "Africa", "Oceania"]
+
+    cont_colors = {
+        "Europe": PALETTE["navy"],
+        "Asia": PALETTE["teal"],
+        "North America": PALETTE["slate"],
+        "South America": PALETTE["coral"],
+        "Africa": PALETTE["yellow"],
+        "Oceania": "#8338EC",
+    }
+
+    fig = plt.figure(figsize=(12, 8), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left: Total visits
+    ax_left = fig.add_axes([0.14, 0.16, 0.33, 0.65])
+    ax_left.set_facecolor(PALETTE["bg_white"])
+
+    tot_counts = us_legs["destination_continent"].value_counts()[continents]
+    y_pos = np.arange(len(continents))
+
+    bars = ax_left.barh(y_pos, tot_counts.values, height=0.62, color=[cont_colors[c] for c in continents], alpha=0.90)
+
+    for bar, val in zip(bars, tot_counts.values):
+        pct = val / len(us_legs) * 100
+        ax_left.text(val + 3.0, bar.get_y() + bar.get_height() / 2, f"{val} ({pct:.1f}%)", va="center", fontsize=9, fontweight="bold", color=PALETTE["gray_text"])
+
+    ax_left.set_yticks(y_pos)
+    ax_left.set_yticklabels(continents, fontsize=10.5, fontweight="bold", color=PALETTE["gray_text"])
+    ax_left.set_xlim(0, 195)
+    ax_left.set_xlabel("Total Legs Visited", fontsize=11, fontweight="bold", color=PALETTE["gray_text"], labelpad=10)
+    ax_left.tick_params(colors=PALETTE["gray_text"], labelsize=10)
+    ax_left.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.7)
+    ax_left.set_title("All-Time Continental Visits", fontsize=13, fontweight="bold", color=PALETTE["dark"], pad=14)
+    ax_left.invert_yaxis()
+
+    for spine in ["top", "right"]:
+        ax_left.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_left.spines[spine].set_color(PALETTE["gray_line"])
+        ax_left.spines[spine].set_linewidth(1.1)
+
+    # Right: Stacked percentage composition by Era
+    ax_right = fig.add_axes([0.58, 0.16, 0.38, 0.65])
+    ax_right.set_facecolor(PALETTE["bg_white"])
+
+    ct = pd.crosstab(us_legs["era"], us_legs["destination_continent"]).reindex(index=eras, columns=continents)
+    ct_pct = ct.div(ct.sum(axis=1), axis=0) * 100
+
+    y_era = np.arange(len(eras))
+    left_offset = np.zeros(len(eras))
+
+    for c in continents:
+        vals = ct_pct[c].values
+        ax_right.barh(y_era, vals, left=left_offset, height=0.58, color=cont_colors[c], alpha=0.90, label=c)
+        left_offset += vals
+
+    ax_right.set_yticks(y_era)
+    ax_right.set_yticklabels(eras, fontsize=10.5, fontweight="bold", color=PALETTE["gray_text"])
+    ax_right.set_xlim(0, 100)
+    ax_right.set_xlabel("Share of Legs per Era (%)", fontsize=11, fontweight="bold", color=PALETTE["gray_text"], labelpad=10)
+    ax_right.tick_params(colors=PALETTE["gray_text"], labelsize=10)
+    ax_right.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.7)
+    ax_right.set_title("Geographic Routing Shift by Era", fontsize=13, fontweight="bold", color=PALETTE["dark"], pad=14)
+    ax_right.invert_yaxis()
+
+    for spine in ["top", "right"]:
+        ax_right.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_right.spines[spine].set_color(PALETTE["gray_line"])
+        ax_right.spines[spine].set_linewidth(1.1)
+
+    ax_right.legend(loc="lower right", bbox_to_anchor=(1.0, 0.02), frameon=True, facecolor=PALETTE["bg_white"], edgecolor=PALETTE["gray_line"], fontsize=8, ncol=3)
+
+    callout_rect = patches.FancyBboxPatch((0.08, 0.042), 0.86, 0.055, boxstyle="round,pad=0.015", facecolor=PALETTE["bg_card"], edgecolor=PALETTE["yellow"], linewidth=1.5)
+    fig.patches.append(callout_rect)
+    fig.text(
+        0.51,
+        0.068,
+        "Routing Shift: Early seasons featured broad global dispersal across Africa and Oceania. Post-COVID seasons (S31–S38) heavily concentrated on Europe (47.9%) using chartered aircraft.",
+        fontsize=8.5,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(0.08, 0.94, "Global race footprint by continent", fontsize=22, fontweight="bold", color=PALETTE["dark"])
+    fig.text(
+        0.08,
+        0.89,
+        "Distribution of 453 race destinations and historical evolution of continental routing across 38 seasons",
+        fontsize=11.5,
+        color=PALETTE["gray_text"],
+    )
+    fig.text(0.08, 0.012, "Data: 453 legs across 38 US Seasons | the-amazing-race package", fontsize=8.5, color="#8E9AA7")
+
+    out_file = output_dir / "continents.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
 def generate_hex_badge(output_dir: Path) -> None:
     """Generate the official R package hex sticker badge (theamazingrace hex.png)."""
     print("Generating theamazingrace hex.png...")
@@ -619,6 +1009,9 @@ def main() -> None:
     generate_survival_chart(output_dir)
     generate_items_chart(output_dir)
     generate_boxplots_chart(output_dir)
+    generate_gender_performance_chart(output_dir)
+    generate_roadblock_equity_chart(output_dir)
+    generate_continents_chart(output_dir)
     generate_hex_badge(output_dir)
     generate_square_and_backgrounds(output_dir)
     print("\nAll assets successfully generated in dev/images/")
