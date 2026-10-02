@@ -18,6 +18,7 @@ A data frame with 3189 rows and 12 variables:
   \item{uturn}{Logical flag indicating if the team was targeted by a U-Turn penalty}
   \item{yield}{Logical flag indicating if the team was targeted by a Yield penalty}
   \item{speed_bump}{Logical flag indicating if the team served a Speed Bump penalty}
+  \item{roadblock_performer}{Name of the contestant who performed the Roadblock on this leg, if applicable}
 }
 }
 \source{

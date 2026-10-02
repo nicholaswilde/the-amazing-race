@@ -12,6 +12,7 @@ A data frame with 1699 rows and 6 variables:
   \item{leg_number}{Leg number within the season (integer)}
   \item{task_type}{Task category ('Roadblock', 'Detour', 'Fast Forward', 'Route Info', 'Speed Bump')}
   \item{description}{Full description of task requirements, rules, and location}
+  \item{performed_by}{Name of the contestant who completed the task for Roadblock challenges}
 }
 }
 \source{

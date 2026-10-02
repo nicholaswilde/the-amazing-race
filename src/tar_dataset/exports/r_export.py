@@ -11,6 +11,7 @@ import logging
 import lzma
 import re
 import tempfile
+import unicodedata
 from pathlib import Path
 from typing import Any
 
@@ -33,7 +34,7 @@ TABLES = [
 INTEGER_COLUMNS = {
     "seasons": ["season", "n_teams", "n_legs", "n_episodes"],
     "episodes": ["season", "episode"],
-    "contestants": ["season", "age"],
+    "contestants": ["season", "age", "roadblocks_completed"],
     "teams": ["season", "result", "legs_won", "legs_completed", "podium_count"],
     "legs": ["season", "leg_number", "itinerary_stops", "tasks_count"],
     "leg_results": ["season", "leg_number", "placement"],
@@ -53,7 +54,12 @@ BOOLEAN_COLUMNS = {
 FLOAT_COLUMNS = {
     "seasons": ["distance_miles", "distance_km"],
     "episodes": ["viewers_millions"],
-    "teams": ["racing_average", "placement_std", "podium_rate"],
+    "teams": [
+        "racing_average",
+        "placement_std",
+        "podium_rate",
+        "roadblock_equity_score",
+    ],
 }
 
 TABLE_DOCUMENTATION = {
@@ -101,6 +107,7 @@ TABLE_DOCUMENTATION = {
             "hometown_state": "Parsed US state two-letter postal code or region",
             "hometown_country": "Hometown country code (e.g. USA)",
             "status": "Finishing status (e.g. Winners, Runners-up, Eliminated)",
+            "roadblocks_completed": "Total count of Roadblock challenges completed by this contestant (integer)",
         },
     },
     "teams": {
@@ -122,6 +129,8 @@ TABLE_DOCUMENTATION = {
             "podium_count": "Total count of Top-3 leg finishes (integer)",
             "podium_rate": "Proportion of completed legs finishing in Top-3 (numeric)",
             "gender_composition": "Team gender composition (MM, FF, MF)",
+            "roadblock_split": "Final distribution of Roadblock challenges completed between teammates (e.g. '6-6', '7-5')",
+            "roadblock_equity_score": "Equitability score of Roadblock task distribution from 0.0 (unequal) to 1.0 (perfect parity) (numeric)",
         },
     },
     "legs": {
@@ -156,6 +165,7 @@ TABLE_DOCUMENTATION = {
             "uturn": "Logical flag indicating if the team was targeted by a U-Turn penalty",
             "yield": "Logical flag indicating if the team was targeted by a Yield penalty",
             "speed_bump": "Logical flag indicating if the team served a Speed Bump penalty",
+            "roadblock_performer": "Name of the contestant who performed the Roadblock on this leg, if applicable",
         },
     },
     "tasks": {
@@ -167,9 +177,29 @@ TABLE_DOCUMENTATION = {
             "leg_number": "Leg number within the season (integer)",
             "task_type": "Task category ('Roadblock', 'Detour', 'Fast Forward', 'Route Info', 'Speed Bump')",
             "description": "Full description of task requirements, rules, and location",
+            "performed_by": "Name of the contestant who completed the task for Roadblock challenges",
         },
     },
 }
+
+
+def _to_ascii(text: str) -> str:
+    """Normalize and transliterate text to pure ASCII for CRAN compliance."""
+    if not isinstance(text, str):
+        return text
+    text = (
+        text.replace("\u2013", "-")
+        .replace("\u2014", "-")
+        .replace("\u201c", '"')
+        .replace("\u201d", '"')
+        .replace("\u2018", "'")
+        .replace("\u2019", "'")
+        .replace("\u02bb", "'")
+        .replace("\u2192", "->")
+    )
+    decomposed = unicodedata.normalize("NFKD", text)
+    cleaned = "".join(c for c in decomposed if not unicodedata.combining(c))
+    return cleaned.encode("ascii", "ignore").decode("ascii")
 
 
 def _write_deterministic_rds(path: Path, df: pd.DataFrame) -> None:
@@ -252,10 +282,10 @@ class RExporter:
             if col in df.columns:
                 df[col] = pd.to_numeric(df[col], errors="coerce").astype("float64")
 
-        # Ensure strings
+        # Ensure strings and sanitize to pure ASCII for CRAN portability
         for col in df.columns:
             if col not in int_cols and col not in bool_cols and col not in float_cols:
-                df[col] = df[col].astype(str)
+                df[col] = df[col].astype(str).map(_to_ascii)
 
         return df
 

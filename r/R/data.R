@@ -55,6 +55,7 @@
 #'   \item{hometown_state}{Parsed US state two-letter postal code or region}
 #'   \item{hometown_country}{Hometown country code (e.g. USA)}
 #'   \item{status}{Finishing status (e.g. Winners, Runners-up, Eliminated)}
+#'   \item{roadblocks_completed}{Total count of Roadblock challenges completed by this contestant (integer)}
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series)}
 "contestants"
@@ -80,6 +81,8 @@
 #'   \item{podium_count}{Total count of Top-3 leg finishes (integer)}
 #'   \item{podium_rate}{Proportion of completed legs finishing in Top-3 (numeric)}
 #'   \item{gender_composition}{Team gender composition (MM, FF, MF)}
+#'   \item{roadblock_split}{Final distribution of Roadblock challenges completed between teammates (e.g. '6-6', '7-5')}
+#'   \item{roadblock_equity_score}{Equitability score of Roadblock task distribution from 0.0 (unequal) to 1.0 (perfect parity) (numeric)}
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series)}
 "teams"
@@ -122,6 +125,7 @@
 #'   \item{uturn}{Logical flag indicating if the team was targeted by a U-Turn penalty}
 #'   \item{yield}{Logical flag indicating if the team was targeted by a Yield penalty}
 #'   \item{speed_bump}{Logical flag indicating if the team served a Speed Bump penalty}
+#'   \item{roadblock_performer}{Name of the contestant who performed the Roadblock on this leg, if applicable}
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series)}
 "leg_results"
@@ -137,6 +141,7 @@
 #'   \item{leg_number}{Leg number within the season (integer)}
 #'   \item{task_type}{Task category ('Roadblock', 'Detour', 'Fast Forward', 'Route Info', 'Speed Bump')}
 #'   \item{description}{Full description of task requirements, rules, and location}
+#'   \item{performed_by}{Name of the contestant who completed the task for Roadblock challenges}
 #' }
 #' @source \url{https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series)}
 "tasks"

@@ -22,6 +22,8 @@ A data frame with 431 rows and 17 variables:
   \item{podium_count}{Total count of Top-3 leg finishes (integer)}
   \item{podium_rate}{Proportion of completed legs finishing in Top-3 (numeric)}
   \item{gender_composition}{Team gender composition (MM, FF, MF)}
+  \item{roadblock_split}{Final distribution of Roadblock challenges completed between teammates (e.g. '6-6', '7-5')}
+  \item{roadblock_equity_score}{Equitability score of Roadblock task distribution from 0.0 (unequal) to 1.0 (perfect parity) (numeric)}
 }
 }
 \source{

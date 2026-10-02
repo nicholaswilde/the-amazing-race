@@ -18,6 +18,7 @@ A data frame with 886 rows and 12 variables:
   \item{hometown_state}{Parsed US state two-letter postal code or region}
   \item{hometown_country}{Hometown country code (e.g. USA)}
   \item{status}{Finishing status (e.g. Winners, Runners-up, Eliminated)}
+  \item{roadblocks_completed}{Total count of Roadblock challenges completed by this contestant (integer)}
 }
 }
 \source{
