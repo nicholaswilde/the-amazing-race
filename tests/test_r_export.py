@@ -192,6 +192,7 @@ def test_rexporter_basic(tmp_path: Path, mock_processed_dir: Path) -> None:
     desc_content = (r_pkg / "DESCRIPTION").read_text(encoding="utf-8")
     assert "Package: theamazingrace" in desc_content
     assert "LazyData: true" in desc_content
+    assert "LazyDataCompression: xz" in desc_content
 
 
 def test_export_to_r_helper(tmp_path: Path, mock_processed_dir: Path) -> None:

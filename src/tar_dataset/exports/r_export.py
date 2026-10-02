@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import gzip
 import logging
+import lzma
 import re
 import tempfile
 from pathlib import Path
@@ -185,14 +186,19 @@ def _write_deterministic_rds(path: Path, df: pd.DataFrame) -> None:
             tmp_path.unlink()
 
 
-def _write_deterministic_rdata(path: Path, df: pd.DataFrame, df_name: str) -> None:
-    """Write an RDA file with deterministic gzip compression (mtime=0)."""
+def _write_deterministic_rdata(
+    path: Path, df: pd.DataFrame, df_name: str, compress: str = "xz"
+) -> None:
+    """Write an RDA file with deterministic xz (or gzip) compression."""
     with tempfile.NamedTemporaryFile(suffix=".rda", delete=False) as tmp:
         tmp_path = Path(tmp.name)
     try:
         pyreadr.write_rdata(tmp_path, df, df_name=df_name)
         raw_bytes = tmp_path.read_bytes()
-        compressed = gzip.compress(raw_bytes, compresslevel=9, mtime=0)
+        if compress == "xz":
+            compressed = lzma.compress(raw_bytes, preset=9)
+        else:
+            compressed = gzip.compress(raw_bytes, compresslevel=9, mtime=0)
         path.write_bytes(compressed)
     finally:
         if tmp_path.exists():
@@ -379,7 +385,7 @@ BugReports: https://github.com/nicholaswilde/the-amazing-race/issues
 Depends:
     R (>= 3.5.0)
 LazyData: true
-LazyDataCompression: gzip
+LazyDataCompression: xz
 ByteCompile: true
 RoxygenNote: 7.3.1
 Suggests:
@@ -416,6 +422,7 @@ export(teams)
         buildignore_content = """^.*\\.Rproj$
 ^\\.Rproj\\.user$
 ^tests/testthat/_snaps$
+^LICENSE$
 """
         buildignore_path.write_text(buildignore_content, encoding="utf-8")
         created_files[".Rbuildignore"] = buildignore_path

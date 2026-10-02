@@ -13,7 +13,7 @@ BugReports: https://github.com/nicholaswilde/the-amazing-race/issues
 Depends:
     R (>= 3.5.0)
 LazyData: true
-LazyDataCompression: gzip
+LazyDataCompression: xz
 ByteCompile: true
 RoxygenNote: 7.3.1
 Suggests:
