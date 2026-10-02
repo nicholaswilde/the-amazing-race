@@ -2,7 +2,7 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-amazing-race/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-amazing-race/actions/workflows/ci.yml)
 [![task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Coverage](https://img.shields.io/coveralls/github/nicholaswilde/the-amazing-race/main?style=for-the-badge&logo=coveralls)](https://coveralls.io/github/nicholaswilde/the-amazing-race?branch=main)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23090022-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://zenodo.org/records/23090022)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23074890-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23074890)
 
 A comprehensive tidy dataset and AI training corpus for the CBS reality competition television series **[The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series))**.
 
@@ -679,6 +679,9 @@ If you use this dataset, companion R package, or AI training corpus in your rese
 
 Or in APA format:
 > Wilde, N. (2026). *The Amazing Race Dataset & AI Training Corpus* (Version 0.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23090022
+
+> [!TIP]
+> **Permanent Concept DOI**: Use [`10.5281/zenodo.23074890`](https://doi.org/10.5281/zenodo.23074890) to cite all versions of this dataset or link to the latest release automatically. For citing a specific version for reproducibility, use that release's version DOI (e.g. `10.5281/zenodo.23090022` for v0.3.0).
 
 ---
 

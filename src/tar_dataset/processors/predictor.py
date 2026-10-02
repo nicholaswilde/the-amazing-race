@@ -320,6 +320,10 @@ class SeasonPredictor:
     ) -> dict[str, Any]:
         """Generate full season prediction rankings for the requested season."""
         raw_path = Path(raw_dir) / f"season_{season}.json"
+        if not raw_path.exists():
+            candidate = Path(raw_dir) / f"season_us_{season}.json"
+            if candidate.exists():
+                raw_path = candidate
         season_data: dict[str, Any] = {}
 
         if raw_path.exists():
