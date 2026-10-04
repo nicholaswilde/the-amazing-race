@@ -2,7 +2,7 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-amazing-race/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-amazing-race/actions/workflows/ci.yml)
 [![task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Coverage](https://img.shields.io/coveralls/github/nicholaswilde/the-amazing-race/main?style=for-the-badge&logo=coveralls)](https://coveralls.io/github/nicholaswilde/the-amazing-race?branch=main)
-[![R-universe](https://nicholaswilde.r-universe.dev/badges/theamazingrace?style=for-the-badge)](https://nicholaswilde.r-universe.dev/theamazingrace)
+[![R-universe](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fnicholaswilde.r-universe.dev%2Fapi%2Fpackages%2Ftheamazingrace&query=%24.Version&label=r-universe&style=for-the-badge&logo=r&logoColor=white&color=blue)](https://nicholaswilde.r-universe.dev/theamazingrace)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23074890-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23074890)
 
 A comprehensive tidy dataset and AI training corpus for the CBS reality competition television series **[The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race_(American_TV_series))**.

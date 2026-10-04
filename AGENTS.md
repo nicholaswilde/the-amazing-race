@@ -69,6 +69,14 @@ Agents can invoke the following skills located in `.agents/skills/`:
 - **`doehm/alone`**: When inspecting or searching the reference `doehm/alone` repository for schema patterns, tidy data structures, or package conventions, **always look locally first** at `/home/nicholas/git/doehm/alone` before searching the web or GitHub.
 
 ## Serena Semantic Code Navigation
+This project uses Serena for development.
+Make sure that you read the project's `critical_info` memory before working on it.
+* When using Serena, the memory is provided either
+  - along with the result of the `initial_instructions` tool, or
+  - upon activating the project with `activate_project`.
+  Be sure to always call the `initial_instructions` tool!
+* When not using Serena, read `./.serena/memories/critical_info.md` manually.
+
 Serena (`serena-agent`) provides symbol-level semantic code navigation, refactoring, and AST indexing via LSP (Pyright).
 - **Project Configuration**: Stored in `.serena/project.yml`.
 - **Health Check**: Run `serena project health-check` to verify language server connectivity and symbol lookup.
