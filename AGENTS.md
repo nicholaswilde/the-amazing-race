@@ -31,6 +31,9 @@ Agents can invoke the following skills located in `.agents/skills/`:
 - `tar-import-sheets`: Imports community Google Sheets and CSVs.
 - `tar-dataset-builder`: Compiles raw data into tidy tables (`alone` format) and exports AI training JSONL.
 - `tar-predict`: Predicts race outcomes, finale contenders, and elimination risks using multi-factor empirical modeling.
+- `tar-ingest`: Automates broadcast season checking, Wikipedia revision detection, pipeline build, and Issue #4 progress tracking.
+- `tar-tidytuesday`: Packages, validates, and manages R4DS TidyTuesday intake bundles and submission issues.
+- `tar-gap-audit`: Audits dataset completeness, null rates, and guides viewership/rating backfilling.
 - `release`: Automates versioning, validation (`task check`), tagging, and atomic push to trigger GitHub release workflow (`./scripts/release.sh`).
 - `release-summary`: Generates categorized release notes from git logs and updates GitHub draft release (`./scripts/release_summary.py`).
 
