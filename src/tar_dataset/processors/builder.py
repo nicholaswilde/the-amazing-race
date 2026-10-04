@@ -11,6 +11,8 @@ from typing import Any
 
 import pandas as pd
 
+from tar_dataset.processors.geocoding import LEG_CITY_OVERRIDES, get_city_coordinates
+
 logger = logging.getLogger(__name__)
 
 
@@ -246,7 +248,7 @@ COUNTRY_INFO: dict[str, tuple[str, str]] = {
     "France": ("FRA", "Europe"),
     "France & Monaco": ("FRA", "Europe"),
     "French Polynesia": ("PYF", "Oceania"),
-    "Georgia": ("GEO", "Asia"),
+    "Georgia": ("GEO", "Europe"),
     "Germany": ("DEU", "Europe"),
     "Germany & Austria": ("DEU", "Europe"),
     "Ghana": ("GHA", "Africa"),
@@ -326,7 +328,8 @@ COUNTRY_INFO: dict[str, tuple[str, str]] = {
 }
 
 for _state, _code in US_STATES.items():
-    COUNTRY_INFO[_state] = ("USA", "North America")
+    if _state != "Georgia":
+        COUNTRY_INFO[_state] = ("USA", "North America")
     COUNTRY_INFO[_code] = ("USA", "North America")
 COUNTRY_INFO["Pennsylvania & New Jersey"] = ("USA", "North America")
 
@@ -1191,6 +1194,8 @@ class DatasetBuilder:
             "destination_country",
             "destination_city",
             "destination_continent",
+            "destination_lat",
+            "destination_lon",
             "itinerary_stops",
             "tasks_count",
             "narrative",
@@ -1211,6 +1216,15 @@ class DatasetBuilder:
                     dest_city,
                     dest_continent,
                 ) = parse_route_header(leg.get("route_header"), itinerary)
+
+                if (season_num, leg_num) in LEG_CITY_OVERRIDES:
+                    dest_city = LEG_CITY_OVERRIDES[(season_num, leg_num)]
+
+                coords = get_city_coordinates(
+                    dest_city, dest_country, season=season_num, leg_number=leg_num
+                )
+                dest_lat = coords[0] if coords else None
+                dest_lon = coords[1] if coords else None
 
                 # Distinguish route stops from narrative sentences in itinerary
                 route_stops = []
@@ -1270,6 +1284,8 @@ class DatasetBuilder:
                         "destination_country": dest_country,
                         "destination_city": dest_city,
                         "destination_continent": dest_continent,
+                        "destination_lat": dest_lat,
+                        "destination_lon": dest_lon,
                         "itinerary_stops": itinerary_stops_count,
                         "tasks_count": len(tasks),
                         "narrative": narrative.strip() if narrative else None,
@@ -1430,5 +1446,12 @@ class DatasetBuilder:
             export_to_sqlite(processed_dir=self.processed_dir)
         except Exception as e:
             logger.warning("Could not automatically update SQLite database: %s", e)
+
+        try:
+            from tar_dataset.exports.geojson_export import export_to_geojson
+
+            export_to_geojson(processed_dir=self.processed_dir)
+        except Exception as e:
+            logger.warning("Could not automatically update GeoJSON route export: %s", e)
 
         return dfs

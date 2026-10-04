@@ -215,6 +215,8 @@ erDiagram
 | `destination_country` | `VARCHAR(10)` | Yes | Destination country three-letter ISO code. | `"ZMB"` |
 | `destination_city` | `VARCHAR(255)` | Yes | Destination city or primary region of the leg. | `"Livingstone District"` |
 | `destination_continent` | `VARCHAR(64)` | Yes | Destination continent name. | `"Africa"` |
+| `destination_lat` | `DOUBLE` | Yes | Destination city / pit stop latitude (WGS84). | `-17.8074` |
+| `destination_lon` | `DOUBLE` | Yes | Destination city / pit stop longitude (WGS84). | `25.7861` |
 | `itinerary_stops`| `INTEGER` | No | Count of discrete route stops and clues visited. | `11` |
 | `tasks_count` | `INTEGER` | No | Count of recorded challenges in this leg. | `5` |
 | `narrative` | `TEXT` | Yes | Full text leg summary from production notes. | `"Teams departed Central Park in New York..."` |
@@ -346,3 +348,61 @@ FROM teams
 WHERE result = 1 AND roadblock_equity_score IS NOT NULL
 ORDER BY roadblock_equity_score DESC, season ASC;
 ```
+
+---
+
+## Geographic Coordinates & GeoJSON Route Data
+
+The dataset includes WGS84 geographic coordinates for all 453 leg destination pit stops, and an integrated GeoJSON export (`data/processed/tar_routes.geojson`) containing both LineString race flight paths and Point waypoint markers.
+
+### File: `data/processed/tar_routes.geojson`
+- **Specification**: RFC 7946 Standard GeoJSON (`CRS84`, coordinates in `[longitude, latitude]` order).
+- **Features**:
+  - `LineString`: Complete global travel trajectory for each season (Seasons 1–38).
+  - `Point`: Individual Pit Stop and destination waypoints with season metadata, task counts, and city/country info.
+
+### Sample Map Visualizations
+
+#### R (`sf` + `leaflet`)
+```r
+library(sf)
+library(leaflet)
+library(dplyr)
+
+# Read GeoJSON
+tar_geojson <- st_read("data/processed/tar_routes.geojson")
+
+# Filter Season 1
+s1_route <- tar_geojson %>% filter(season == 1, feature_type == "route")
+s1_points <- tar_geojson %>% filter(season == 1, feature_type == "waypoint")
+
+# Interactive Leaflet Map
+leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addPolylines(data = s1_route, color = "#e41a1c", weight = 2.5, opacity = 0.8) %>%
+  addCircleMarkers(
+    data = s1_points,
+    radius = 5,
+    color = "#377eb8",
+    fillOpacity = 0.9,
+    popup = ~paste0("<b>Leg ", leg_number, ":</b> ", city, ", ", country)
+  )
+```
+
+#### Python (`geopandas` / `folium`)
+```python
+import geopandas as gpd
+import folium
+
+gdf = gpd.read_file("data/processed/tar_routes.geojson")
+s1 = gdf[gdf["season"] == 1]
+
+m = folium.Map(location=[20, 0], zoom_start=2, tiles="CartoDB positron")
+folium.GeoJson(
+    s1,
+    style_function=lambda x: {"color": "#e41a1c", "weight": 2.5},
+    tooltip=folium.GeoJsonTooltip(fields=["city", "country", "leg_number"])
+).add_to(m)
+m.save("tar_season1_map.html")
+```
+

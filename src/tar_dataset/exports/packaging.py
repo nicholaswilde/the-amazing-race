@@ -90,6 +90,10 @@ class ReleasePackager:
                 if csv_file.exists():
                     zf.write(csv_file, arcname=f"csv/{csv_file.name}")
 
+            geojson_file = self.processed_dir / "tar_routes.geojson"
+            if geojson_file.exists():
+                zf.write(geojson_file, arcname="tar_routes.geojson")
+
             # Add documentation and license
             data_dict = self.docs_dir / "data_dictionary.md"
             if data_dict.exists():
@@ -124,6 +128,10 @@ class ReleasePackager:
                 parquet_file = self.processed_dir / f"{table}.parquet"
                 if parquet_file.exists():
                     zf.write(parquet_file, arcname=f"parquet/{parquet_file.name}")
+
+            geojson_file = self.processed_dir / "tar_routes.geojson"
+            if geojson_file.exists():
+                zf.write(geojson_file, arcname="tar_routes.geojson")
 
             data_dict = self.docs_dir / "data_dictionary.md"
             if data_dict.exists():

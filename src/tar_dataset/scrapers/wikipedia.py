@@ -579,6 +579,21 @@ class WikipediaScraper:
                 episodes = self.parse_episodes_table(table)
 
         legs = self.parse_legs_summary(soup)
+        if legs:
+            try:
+                from tar_dataset.processors.geocoding import ensure_legs_geocoded
+
+                new_geocoded = ensure_legs_geocoded(legs)
+                if new_geocoded > 0:
+                    logger.info(
+                        "Geocoded %d new destination(s) for season %d",
+                        new_geocoded,
+                        season,
+                    )
+            except Exception as e:
+                logger.warning(
+                    "Could not auto-geocode legs for season %d: %s", season, e
+                )
 
         season_data = {
             "version": version,

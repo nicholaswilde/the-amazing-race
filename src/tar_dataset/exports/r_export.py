@@ -60,6 +60,7 @@ FLOAT_COLUMNS = {
         "podium_rate",
         "roadblock_equity_score",
     ],
+    "legs": ["destination_lat", "destination_lon"],
 }
 
 TABLE_DOCUMENTATION = {
@@ -145,6 +146,8 @@ TABLE_DOCUMENTATION = {
             "destination_country": "Destination country three-letter ISO code (e.g. ZMB, JPN)",
             "destination_city": "Primary destination city or region of the leg",
             "destination_continent": "Destination continent name (e.g. Africa, Europe, Asia)",
+            "destination_lat": "Destination latitude coordinate (WGS84) (numeric)",
+            "destination_lon": "Destination longitude coordinate (WGS84) (numeric)",
             "itinerary_stops": "Count of distinct route waypoints and stops (integer)",
             "tasks_count": "Count of challenge checkpoints on the leg (integer)",
             "narrative": "Comprehensive narrative detailing route travel, navigation challenges, and leg storyline",

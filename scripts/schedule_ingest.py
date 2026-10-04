@@ -131,6 +131,9 @@ def run_pipeline() -> bool:
         export_arrow_and_hf()
         export_to_r()
         export_to_sqlite()
+        from tar_dataset.exports.geojson_export import export_to_geojson
+
+        export_to_geojson()
         return True
     except Exception as e:
         logger.error("Error running pipeline: %s", e)

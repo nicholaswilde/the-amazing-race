@@ -31,6 +31,7 @@ tasks:
       - task: export:arrow
       - task: export:r
       - task: export:ai
+      - task: export:geojson
       - task: eval:benchmark
       - task: check
 
@@ -133,6 +134,11 @@ tasks:
     desc: Export datasets to native R formats (.rds, .rda) and companion R package (r/)
     cmds:
       - uv run tar-dataset export-r
+
+  export:geojson:
+    desc: Export race routes and pit stop coordinates to GeoJSON (data/processed/tar_routes.geojson)
+    cmds:
+      - uv run tar-dataset export-geojson {{.CLI_ARGS}}
 
   eval:benchmark:
     desc: Run evaluation on The Amazing Race AI benchmark suite

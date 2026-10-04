@@ -14,6 +14,7 @@ from rich.table import Table
 from tar_dataset.exports.ai_formats import AIExportBuilder
 from tar_dataset.exports.arrow_export import export_arrow_and_hf
 from tar_dataset.exports.benchmark import BenchmarkSuite
+from tar_dataset.exports.geojson_export import export_to_geojson
 from tar_dataset.exports.hf_publish import HuggingFacePublisher
 from tar_dataset.exports.packaging import ReleasePackager
 from tar_dataset.exports.r_export import export_to_r
@@ -351,6 +352,44 @@ def export_r_cmd(
     console.print(
         f"[green]✓ Scaffolding and roxygen2 docs complete in {pkg_dir}/[/green]"
     )
+
+
+@app.command("export-geojson")
+def export_geojson_cmd(
+    processed_dir: Path = typer.Option(
+        "data/processed",
+        "--processed-dir",
+        "-p",
+        help="Processed tables directory",
+    ),
+    output_file: Path = typer.Option(
+        "data/processed/tar_routes.geojson",
+        "--output",
+        "-o",
+        help="Path to output GeoJSON file",
+    ),
+    include_routes: bool = typer.Option(
+        True,
+        "--routes/--no-routes",
+        help="Include LineString season routes",
+    ),
+    include_waypoints: bool = typer.Option(
+        True,
+        "--waypoints/--no-waypoints",
+        help="Include Point pit stop waypoints",
+    ),
+) -> None:
+    """Export race routes and leg pit stops to GeoJSON format."""
+    console.print(
+        "[bold blue]Exporting The Amazing Race routes and waypoints to GeoJSON...[/bold blue]"
+    )
+    out = export_to_geojson(
+        processed_dir=processed_dir,
+        output_file=output_file,
+        include_routes=include_routes,
+        include_waypoints=include_waypoints,
+    )
+    console.print(f"[green]✓ Exported GeoJSON dataset to {out}[/green]")
 
 
 @app.command("export-ai")

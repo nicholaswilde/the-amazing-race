@@ -91,7 +91,7 @@
 #'
 #' Leg-level travel route summaries, itinerary waypoints count, task counts, and route narratives.
 #'
-#' @format A data frame with 453 rows and 11 variables:
+#' @format A data frame with 453 rows and 13 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -101,6 +101,8 @@
 #'   \item{destination_country}{Destination country three-letter ISO code (e.g. ZMB, JPN)}
 #'   \item{destination_city}{Primary destination city or region of the leg}
 #'   \item{destination_continent}{Destination continent name (e.g. Africa, Europe, Asia)}
+#'   \item{destination_lat}{Destination latitude coordinate (WGS84) (numeric)}
+#'   \item{destination_lon}{Destination longitude coordinate (WGS84) (numeric)}
 #'   \item{itinerary_stops}{Count of distinct route waypoints and stops (integer)}
 #'   \item{tasks_count}{Count of challenge checkpoints on the leg (integer)}
 #'   \item{narrative}{Comprehensive narrative detailing route travel, navigation challenges, and leg storyline}

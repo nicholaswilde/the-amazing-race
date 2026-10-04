@@ -129,6 +129,7 @@ jobs:
           task export:arrow
           task export:r
           task export:ai
+          task export:geojson
           task eval:benchmark
           task validate
           git diff --exit-code data/ docs/

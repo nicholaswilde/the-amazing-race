@@ -183,6 +183,12 @@ class Leg(BaseModel):
     destination_continent: str | None = Field(
         default=None, description="Destination continent"
     )
+    destination_lat: float | None = Field(
+        default=None, description="Destination latitude coordinate (WGS84)"
+    )
+    destination_lon: float | None = Field(
+        default=None, description="Destination longitude coordinate (WGS84)"
+    )
     pit_stop_location: str | None = None
     leg_type: str = Field(
         default="Standard",

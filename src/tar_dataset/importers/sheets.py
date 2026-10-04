@@ -118,6 +118,13 @@ class SheetsImporter:
             df.to_csv(out_file, index=False)
             logger.info("Saved imported sheet to %s (%d rows)", out_file, len(df))
 
+        try:
+            from tar_dataset.processors.geocoding import ensure_legs_geocoded
+
+            ensure_legs_geocoded(df)
+        except Exception as e:
+            logger.debug("Auto-geocoding skipped for sheet '%s': %s", name, e)
+
         return df
 
     def _parse_and_save_xlsx(
@@ -205,4 +212,12 @@ class SheetsImporter:
         ]
         out_file = self.raw_dir / f"{name}.csv"
         df.to_csv(out_file, index=False)
+
+        try:
+            from tar_dataset.processors.geocoding import ensure_legs_geocoded
+
+            ensure_legs_geocoded(df)
+        except Exception as e:
+            logger.debug("Auto-geocoding skipped for csv '%s': %s", name, e)
+
         return df
