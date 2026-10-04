@@ -1,0 +1,46 @@
+# Docker Compose file for The Amazing Race Analytics Dashboard
+#
+# This file provides a standard configuration for deploying The Amazing Race
+# interactive Streamlit dashboard.
+# It defaults to using the official container image from GHCR.
+
+services:
+  the-amazing-race:
+    # 1. Primary Image
+    # Uses the official image from GitHub Container Registry (or Docker Hub)
+    image: ghcr.io/nicholaswilde/the-amazing-race:latest
+    # Alternative: Docker Hub
+    # image: nicholaswilde/the-amazing-race:latest
+
+    # Option: Build from Source
+    # Uncomment the following lines to build the image locally from the project root.
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+
+    container_name: the-amazing-race
+
+    # 2. Port Mapping
+    # Maps host port 8501 to the Streamlit container port
+    ports:
+      - "8501:8501"
+
+    # 3. Environment Variables
+    environment:
+      # Timezone for accurate logging timestamps
+      - TZ=UTC
+      # Streamlit telemetry disable and headless runtime
+      - STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+      - STREAMLIT_SERVER_HEADLESS=true
+
+    # Option: Restart Policy
+    # Automatically restart the container unless it is explicitly stopped.
+    restart: unless-stopped
+
+    # Option: Log Management
+    # Limit the size of logs to prevent disk exhaustion.
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

@@ -264,3 +264,29 @@ tasks:
     desc: Show codegraph index status
     cmds:
       - codegraph status
+
+  # Docker Container Operations
+  docker:build:
+    desc: Build the Amazing Race dashboard Docker container image
+    cmds:
+      - docker build -t the-amazing-race:latest .
+
+  docker:run:
+    desc: Run the Amazing Race dashboard Docker container image
+    cmds:
+      - docker run --rm -p 8501:8501 the-amazing-race:latest
+
+  docker:up:
+    desc: Start the Amazing Race dashboard using Docker Compose
+    cmds:
+      - docker compose up -d
+
+  docker:down:
+    desc: Stop the Amazing Race dashboard using Docker Compose
+    cmds:
+      - docker compose down
+
+  docker:logs:
+    desc: View the Amazing Race dashboard logs using Docker Compose
+    cmds:
+      - docker compose logs -f

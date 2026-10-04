@@ -505,3 +505,44 @@ def test_dashboard_in_progress_loading(tmp_path):
     assert 39 in loaded["seasons"]["season"].values
     assert 1 in loaded["seasons"]["season"].values
     assert len(loaded["contestants"][loaded["contestants"]["season"] == 39]) == 2
+
+
+def test_docker_and_compose_configs() -> None:
+    """Verify Dockerfile, compose.yaml, and GitHub Actions docker workflow exist and are valid."""
+    from pathlib import Path
+
+    repo_root = Path(__file__).resolve().parent.parent
+
+    # Dockerfile assertions
+    dockerfile = repo_root / "Dockerfile"
+    assert dockerfile.exists(), "Dockerfile must exist at repo root"
+    content = dockerfile.read_text(encoding="utf-8")
+    assert "FROM python:3.12-slim" in content
+    assert "HEALTHCHECK" in content
+    assert "8501" in content
+    assert "ENTRYPOINT" in content
+    assert "appuser" in content
+
+    # compose.yaml assertions
+    compose = repo_root / "compose.yaml"
+    assert compose.exists(), "compose.yaml must exist at repo root"
+    compose_content = compose.read_text(encoding="utf-8")
+    assert "the-amazing-race" in compose_content
+    assert "8501:8501" in compose_content
+    assert "ghcr.io/nicholaswilde/the-amazing-race" in compose_content
+
+    # .dockerignore assertions
+    dockerignore = repo_root / ".dockerignore"
+    assert dockerignore.exists(), ".dockerignore must exist at repo root"
+    ignore_content = dockerignore.read_text(encoding="utf-8")
+    assert ".git/" in ignore_content
+    assert ".venv/" in ignore_content
+
+    # .github/workflows/docker.yml assertions
+    workflow = repo_root / ".github" / "workflows" / "docker.yml"
+    assert workflow.exists(), "docker.yml workflow must exist"
+    wf_content = workflow.read_text(encoding="utf-8")
+    assert "DOCKERHUB_USERNAME" in wf_content
+    assert "DOCKERHUB_TOKEN" in wf_content
+    assert "ghcr.io" in wf_content
+    assert "nicholaswilde/the-amazing-race" in wf_content

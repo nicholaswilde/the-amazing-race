@@ -654,6 +654,24 @@ uv run --extra dashboard tar-dataset dashboard
 uv run --extra dashboard tar-dataset dashboard --port 8502 --no-browser
 ```
 
+#### Docker & Docker Compose Deployment
+
+The dashboard is packaged as a multi-arch container image (`linux/amd64`, `linux/arm64`) published to GitHub Container Registry (`ghcr.io/nicholaswilde/the-amazing-race`) and Docker Hub (`nicholaswilde/the-amazing-race`):
+
+```bash
+# Run with Docker Compose:
+docker compose up -d
+# or via task runner:
+task docker:up
+
+# Run official container directly from GHCR:
+docker run -d --name the-amazing-race -p 8501:8501 ghcr.io/nicholaswilde/the-amazing-race:latest
+
+# Build and run locally via task runner:
+task docker:build
+task docker:run
+```
+
 Features included in the dashboard:
 - **Catppuccin Mocha Theme**: Custom dark theme with Base (`#1e1e2e`), Mantle (`#181825`), Mauve (`#cba6f7`) accents, and coordinated Altair visualization palettes.
 - **In-Progress Season Support**: Automatically detects and loads active, airing seasons (including Season 39) alongside historical seasons 1–38, displaying broadcast legs, current placements, and newly aired challenges.
