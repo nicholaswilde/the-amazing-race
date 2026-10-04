@@ -162,7 +162,7 @@ Pre-built distribution bundles are published with every [GitHub Release](https:/
 
 ### 1. Tidy CSV Bundle (`tar-dataset-csv-<version>.zip`)
 
-Contains all 7 relational tidy datasets (`seasons.csv`, `episodes.csv`, `contestants.csv`, `teams.csv`, `legs.csv`, `leg_results.csv`, `tasks.csv`) alongside the data dictionary.
+Contains all 7 relational tidy datasets (`seasons.csv`, `episodes.csv`, `contestants.csv`, `teams.csv`, `legs.csv`, `leg_results.csv`, `tasks.csv`), the data dictionary, and global route GIS features (`tar_routes.geojson`).
 
 ```bash
 # Extract archive
@@ -193,7 +193,7 @@ unzip tar-dataset-csv-*.zip
 
 ### 2. Apache Parquet Bundle (`tar-dataset-parquet-<version>.zip`)
 
-Contains columnar Apache Parquet files preserving strict data types, nested fields, and columnar compression for zero-copy high-throughput analysis.
+Contains columnar Apache Parquet files preserving strict data types, nested fields, columnar compression, and `tar_routes.geojson` for zero-copy high-throughput and GIS analysis.
 
 ```bash
 # Extract archive
@@ -219,6 +219,16 @@ unzip tar-dataset-parquet-*.zip
 
   import pandas as pd
   teams = pd.read_parquet("teams.parquet")
+  ```
+
+- **GIS Mapping (GeoPandas / Folium / QGIS)**:
+  ```python
+  import geopandas as gpd
+
+  # Load all 38 flight routes and 453 waypoint coordinates:
+  gdf = gpd.read_file("tar_routes.geojson")
+  routes = gdf[gdf["feature_type"] == "route"]
+  waypoints = gdf[gdf["feature_type"] == "waypoint"]
   ```
 
 - **R (`arrow`)**:
@@ -426,6 +436,7 @@ task export:sqlite    # Export unified SQLite bundle (tar.db)
 task export:arrow     # Export Apache Arrow IPC files and HuggingFace datasets
 task export:r         # Export native R datasets (.rds, .rda) and companion package (r/)
 task export:ai        # Export fine-tuning and RAG JSONL corpora
+task export:geojson   # Export GeoJSON routes and pit stop coordinates (tar_routes.geojson)
 task package          # Build all segmented release bundles and checksums
 task package:csv      # Build tidy CSV release bundle
 task package:parquet  # Build Parquet columnar release bundle
@@ -541,7 +552,15 @@ uv run tar-dataset export-r
 task export:r
 ```
 
-### 11. Evaluate AI Benchmark Suite
+### 11. Export GeoJSON Route Dataset
+Exports global flight paths and pit stop coordinates to RFC 7946 GeoJSON:
+```bash
+uv run tar-dataset export-geojson
+# or via task:
+task export:geojson
+```
+
+### 12. Evaluate AI Benchmark Suite
 Scores LLM trivia, rules comprehension, and route accuracy against 45 curated prompts:
 ```bash
 uv run tar-dataset eval-benchmark
@@ -549,7 +568,7 @@ uv run tar-dataset eval-benchmark
 task eval:benchmark
 ```
 
-### 12. Inspect Seasons, Teams, and Racers in the Terminal
+### 13. Inspect Seasons, Teams, and Racers in the Terminal
 Interactively inspect details, routes, and statistics with Rich terminal formatting:
 ```bash
 # Inspect Season overview, legs itinerary, and leaderboard
@@ -565,12 +584,12 @@ uv run tar-dataset show racer "Rob Frisbee"
 uv run tar-dataset show leg 1 --season 1
 ```
 
-### 13. View Dataset Statistics
+### 14. View Dataset Statistics
 ```bash
 uv run tar-dataset stats
 ```
 
-### 14. Audit Dataset Gaps & Missingness
+### 15. Audit Dataset Gaps & Missingness
 Identifies null cells, season-level missingness, and column completeness rates:
 ```bash
 # Run full completeness audit across all 7 tables
@@ -586,7 +605,7 @@ uv run tar-dataset gaps --season 29 --detail
 uv run tar-dataset gaps --export-md docs/dataset_gaps.md
 ```
 
-### 15. Package Release Distribution Bundles
+### 16. Package Release Distribution Bundles
 Generates targeted asset packages for CSV, Parquet, AI corpora, R, and Python distributions with SHA-256 checksums:
 ```bash
 # Package all distribution bundles
@@ -600,7 +619,7 @@ uv run tar-dataset package --component r
 uv run tar-dataset package --component python
 ```
 
-### 16. Publish & Synchronize to Hugging Face Hub
+### 17. Publish & Synchronize to Hugging Face Hub
 Publishes and syncs all tidy Parquet tables, AI training JSONL corpora, and generated dataset card to the Hugging Face Hub:
 ```bash
 # Publish using HF_TOKEN environment variable (or .env):
