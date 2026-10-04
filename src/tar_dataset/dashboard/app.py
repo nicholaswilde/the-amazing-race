@@ -2,7 +2,15 @@
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
 import streamlit as st
+
+# Allow running this file directly (e.g. Streamlit Cloud) without installing the package.
+_SRC_DIR = str(Path(__file__).resolve().parents[2])
+if _SRC_DIR not in sys.path:
+    sys.path.insert(0, _SRC_DIR)
 
 from tar_dataset.dashboard.data import load_all_datasets
 from tar_dataset.dashboard.views.challenge_browser import render_challenge_browser
