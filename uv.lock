@@ -2169,6 +2169,7 @@ name = "the-amazing-race"
 version = "0.5.0"
 source = { editable = "." }
 dependencies = [
+    { name = "altair" },
     { name = "beautifulsoup4" },
     { name = "httpx" },
     { name = "lxml" },
@@ -2177,6 +2178,7 @@ dependencies = [
     { name = "pydantic" },
     { name = "pyreadr" },
     { name = "rich" },
+    { name = "streamlit" },
     { name = "tqdm" },
     { name = "typer" },
 ]
@@ -2212,6 +2214,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "altair", specifier = ">=5.0.0" },
     { name = "beautifulsoup4", specifier = ">=4.12.3" },
     { name = "coveralls", marker = "extra == 'dev'", specifier = ">=4.1.0" },
     { name = "gspread", marker = "extra == 'sheets'", specifier = ">=6.1.0" },
@@ -2229,6 +2232,7 @@ requires-dist = [
     { name = "pytest-cov", marker = "extra == 'dev'", specifier = ">=7.1.0" },
     { name = "rich", specifier = ">=13.7.0" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.4.0" },
+    { name = "streamlit", specifier = ">=1.35.0" },
     { name = "streamlit", marker = "extra == 'dashboard'", specifier = ">=1.35.0" },
     { name = "tqdm", specifier = ">=4.66.0" },
     { name = "typer", specifier = ">=0.12.0" },
