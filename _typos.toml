@@ -1,0 +1,69 @@
+[files]
+extend-exclude = [
+  ".git/",
+  ".venv/",
+  ".pytest_cache/",
+  ".ruff_cache/",
+  ".codegraph/",
+  ".serena/cache/",
+  "data/**",
+  "htmlcov/",
+  "uv.lock",
+  "*.parquet",
+  "*.db",
+  "*.rds",
+  "*.rda",
+  "*.tar.gz",
+  "*.zip",
+  "*.geojson",
+  "dev/images/**",
+  "r/NAMESPACE",
+]
+
+[default.extend-words]
+# TAR domain terms and cast names
+"fastforward" = "fastforward"
+"Fastforward" = "Fastforward"
+"roadblock" = "roadblock"
+"Roadblock" = "Roadblock"
+"uturn" = "uturn"
+"speedbump" = "speedbump"
+"Speedbump" = "Speedbump"
+"Leary" = "Leary"
+"O'Leary" = "O'Leary"
+"revid" = "revid"
+"infobox" = "infobox"
+"infoboxes" = "infoboxes"
+
+# Abbreviations and country codes
+"nd" = "nd"
+"ND" = "ND"
+"NAM" = "NAM"
+"THA" = "THA"
+"TTO" = "TTO"
+"NEL" = "NEL"
+"USTVDB" = "USTVDB"
+
+# Tech stack, tools, libraries, and users
+"catppuccin" = "catppuccin"
+"Catppuccin" = "Catppuccin"
+"codegraph" = "codegraph"
+"CodeGraph" = "CodeGraph"
+"doehm" = "doehm"
+"duckdb" = "duckdb"
+"DuckDB" = "DuckDB"
+"geojson" = "geojson"
+"GeoJSON" = "GeoJSON"
+"parquet" = "parquet"
+"Parquet" = "Parquet"
+"pydantic" = "pydantic"
+"Pydantic" = "Pydantic"
+"pyreadr" = "pyreadr"
+"pytest" = "pytest"
+"Pytest" = "Pytest"
+"serena" = "serena"
+"Serena" = "Serena"
+"tidytuesday" = "tidytuesday"
+"TidyTuesday" = "TidyTuesday"
+"zensical" = "zensical"
+"Zensical" = "Zensical"

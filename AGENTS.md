@@ -4,7 +4,7 @@ This repository creates a comprehensive tidy dataset and AI training corpus for 
 
 ## Environment & Dependency Management
 - **Tooling**: Use [`uv`](https://docs.astral.sh/uv/) and [`go-task`](https://taskfile.dev/) (`task`) to manage dependencies, run pipeline workflows, and execute commands.
-  - Run tasks: `task <command>` (e.g., `task test`, `task check`, `task build`, `task package`, `task sync`)
+  - Run tasks: `task <command>` (e.g., `task test`, `task check`, `task spellcheck`, `task spellcheck-file FILE=path/to/file`, `task build`, `task package`, `task sync`)
   - Run scripts and CLI: `uv run tar-dataset <command>`
   - Run tests: `task test` or `uv run --extra dev pytest`
   - Manage packages: `uv add <package>`, `uv lock`, or `task sync`

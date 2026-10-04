@@ -76,11 +76,27 @@ tasks:
     cmds:
       - uv run ruff format --check {{.PYTHON_FILES}}
 
+  spellcheck:
+    desc: Check spelling with typos across the repository
+    cmds:
+      - typos {{.CLI_ARGS}}
+
+  spellcheck:fix:
+    desc: Fix spelling errors with typos automatically
+    cmds:
+      - typos --write-changes {{.CLI_ARGS}}
+
+  spellcheck-file:
+    desc: Check spelling with typos on a single file (FILE=path/to/file)
+    cmds:
+      - typos {{.FILE}}
+
   check:
-    desc: Run lint, format-check, test suite, and dataset validation
+    desc: Run lint, format-check, spellcheck, test suite, and dataset validation
     cmds:
       - task: lint
       - task: format:check
+      - task: spellcheck
       - task: test
       - task: validate
 
