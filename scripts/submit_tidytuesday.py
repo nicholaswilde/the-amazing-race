@@ -98,7 +98,23 @@ def submit_issue(dry_run: bool = True) -> int:
     logger.info("Submitting issue to %s...", TARGET_REPO)
     res = subprocess.run(cmd, capture_output=True, text=True, check=False)
     if res.returncode != 0:
-        logger.error("Failed to submit issue: %s", res.stderr)
+        logger.error("Failed to submit issue: %s", res.stderr.strip())
+        if "Resource not accessible by personal access token" in res.stderr:
+            logger.warning(
+                "\nNote: Your GitHub CLI token is a fine-grained PAT without write permissions on external repo '%s'.",
+                TARGET_REPO,
+            )
+            logger.info(
+                "You can:\n"
+                "  1. Submit directly via browser at:\n"
+                "     https://github.com/%s/issues/new?template=dataset_template.md\n"
+                "     (Title: '%s'; paste content from %s)\n\n"
+                "  2. Or refresh GitHub CLI credentials with public repo scope:\n"
+                "     gh auth refresh -s public_repo\n",
+                TARGET_REPO,
+                ISSUE_TITLE,
+                issue_body_file,
+            )
         return res.returncode
 
     issue_url = res.stdout.strip()
