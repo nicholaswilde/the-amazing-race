@@ -448,6 +448,7 @@ task eval:benchmark   # Evaluate 45 curated AI benchmark questions
 task validate         # Verify dataset schema and relational integrity
 task stats            # Show table row counts and summary stats
 task predict          # Predict upcoming/in-progress season outcomes (e.g. -- --season 39)
+task dashboard        # Launch interactive web dashboard for race exploration & predictions
 task images           # Generate publication-quality figures and branding assets (dev/images/)
 task scrape:wiki      # Scrape Wikipedia seasons (pass args via --, e.g. -- --season 1)
 task scrape:fandom    # Scrape Fandom Wiki infoboxes
@@ -633,6 +634,23 @@ uv run tar-dataset publish-hf --repo-id nicholascwilde/the-amazing-race --privat
 # Stage files locally to inspect generated dataset card and layout:
 uv run tar-dataset publish-hf --stage-only dist/hf_staging
 ```
+
+### 18. Interactive Web Dashboard
+Launches a local Streamlit web application for interactive race data exploration, empirical predictions, and challenge browsing:
+```bash
+# Launch dashboard (default: http://localhost:8501)
+task dashboard
+# or via CLI:
+uv run --extra dashboard tar-dataset dashboard
+
+# Customize port and host, or run headless
+uv run --extra dashboard tar-dataset dashboard --port 8502 --no-browser
+```
+
+Features included in the dashboard:
+- **Season Explorer**: Select seasons (1–38) to view interactive leg routes and destination maps, placement trajectory line charts, full season standings, and roadblock trackers with equity scores.
+- **Interactive Predictor**: Contender rankings, win and finale probabilities, multi-factor breakdowns (momentum, age peak, relationship archetype, power items), diagnostic strengths/risks, and a custom "What-If" team simulator.
+- **Challenge Browser**: Search, filter, and analyze 1,699 challenges across Roadblocks, Detours, Fast Forwards, and Speed Bumps, with cross-season trend analytics and all-time top performer leaderboards.
 
 ---
 

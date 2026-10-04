@@ -1198,5 +1198,53 @@ def predict_cmd(
         console.print(f"\n[green]Saved prediction export to {output_json}[/green]")
 
 
+@app.command("dashboard")
+def dashboard(
+    port: int = typer.Option(8501, "--port", "-p", help="Port to run Streamlit on"),
+    host: str = typer.Option(
+        "localhost", "--host", "-h", help="Host interface to bind"
+    ),
+    browser: bool = typer.Option(
+        True, "--browser/--no-browser", help="Open browser on launch"
+    ),
+) -> None:
+    """Launch interactive web dashboard for race exploration and predictions."""
+    import subprocess
+    import sys
+
+    try:
+        import streamlit  # noqa: F401
+    except ImportError:
+        console.print(
+            "[bold red]Streamlit is not installed.[/bold red]\n"
+            "Please install the dashboard dependencies via:\n"
+            "  [cyan]uv sync --extra dashboard[/cyan]"
+        )
+        raise typer.Exit(code=1)
+
+    app_path = Path(__file__).resolve().parent / "dashboard" / "app.py"
+    cmd = [
+        sys.executable,
+        "-m",
+        "streamlit",
+        "run",
+        str(app_path),
+        "--server.port",
+        str(port),
+        "--server.address",
+        host,
+    ]
+    if not browser:
+        cmd.extend(["--server.headless", "true"])
+
+    console.print(
+        f"[bold green]Starting The Amazing Race Dashboard on http://{host}:{port}...[/bold green]"
+    )
+    try:
+        subprocess.run(cmd, check=True)
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Dashboard stopped.[/yellow]")
+
+
 if __name__ == "__main__":
     app()
