@@ -82,9 +82,12 @@ class WikipediaScraper:
 
     BASE_API = "https://en.wikipedia.org/w/api.php"
 
-    def __init__(self, raw_dir: Path | str = "data/raw/wikipedia") -> None:
+    def __init__(
+        self, raw_dir: Path | str = "data/raw/wikipedia", version: str = "US"
+    ) -> None:
         self.raw_dir = Path(raw_dir)
         self.raw_dir.mkdir(parents=True, exist_ok=True)
+        self.version = version
         self.client = httpx.Client(
             headers={
                 "User-Agent": "TheAmazingRaceDataset/1.0 (https://github.com/nicholaswilde/the-amazing-race)"

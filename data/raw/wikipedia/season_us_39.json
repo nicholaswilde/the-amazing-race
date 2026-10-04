@@ -9,7 +9,7 @@
     "distance_raw": "25,000 mi (40,000 km)",
     "distance_miles": 25000.0,
     "distance_km": 40000.0,
-    "n_episodes": 1,
+    "n_episodes": 2,
     "air_dates": "September 30, 2026 (2026-09-30) \u2013present",
     "filming_dates": "September 22 (2025-09-22) \u2013October 17, 2025 (2025-10-17)"
   },
@@ -29,44 +29,58 @@
       "status": "Eliminated 1st (in Vancouver, Canada)"
     },
     {
+      "name": "Katie Schultz",
+      "age": 26,
+      "relationship": "Sisters",
+      "hometown": "Murray, Kentucky",
+      "status": "Eliminated 2nd (in Madrid, Spain)"
+    },
+    {
+      "name": "Charlotte Schultz",
+      "age": 20,
+      "relationship": "Sisters",
+      "hometown": "Murray, Kentucky",
+      "status": "Eliminated 2nd (in Madrid, Spain)"
+    },
+    {
       "name": "Ali Krieger",
       "age": 42,
-      "relationship": "Pro Athletes & Moms",
+      "relationship": "Pro athletes, moms",
       "hometown": "Montclair, New Jersey",
       "status": "Participating"
     },
     {
       "name": "Joanna Lohman",
       "age": 44,
-      "relationship": "Pro Athletes & Moms",
+      "relationship": "Pro athletes, moms",
       "hometown": "Silver Spring, Maryland",
       "status": "Participating"
     },
     {
       "name": "Ann-Marie Tejcek",
       "age": 56,
-      "relationship": "Mother & Daughter",
+      "relationship": "Mother and daughter",
       "hometown": "Carmel, Indiana",
       "status": "Participating"
     },
     {
       "name": "Riley Tejcek",
       "age": 29,
-      "relationship": "Mother & Daughter",
+      "relationship": "Mother and daughter",
       "hometown": "San Diego, California",
       "status": "Participating"
     },
     {
       "name": "Anuar Tager",
       "age": 58,
-      "relationship": "Father & Daughter",
+      "relationship": "Father and daughter",
       "hometown": "Houston, Texas",
       "status": "Participating"
     },
     {
       "name": "Andrea Tager Ballesca",
       "age": 25,
-      "relationship": "Father & Daughter",
+      "relationship": "Father and daughter",
       "hometown": "Houston, Texas",
       "status": "Participating"
     },
@@ -87,28 +101,28 @@
     {
       "name": "Conner Wilson",
       "age": 27,
-      "relationship": "Childhood Friends",
+      "relationship": "Childhood friends",
       "hometown": "Loomis, California",
       "status": "Participating"
     },
     {
       "name": "Garrett McGuire",
       "age": 27,
-      "relationship": "Childhood Friends",
+      "relationship": "Childhood friends",
       "hometown": "Rocklin, California",
       "status": "Participating"
     },
     {
       "name": "Dafina Dunmore",
       "age": 52,
-      "relationship": "Sisters & Best Friends",
+      "relationship": "Sisters, best friends",
       "hometown": "Chicago, Illinois",
       "status": "Participating"
     },
     {
       "name": "Saran Dunmore",
       "age": 51,
-      "relationship": "Sisters & Best Friends",
+      "relationship": "Sisters, best friends",
       "hometown": "Chicago, Illinois",
       "status": "Participating"
     },
@@ -129,14 +143,14 @@
     {
       "name": "Doug Matter",
       "age": 73,
-      "relationship": "Grandfather & Grandson",
+      "relationship": "Grandfather and grandson",
       "hometown": "San Diego, California",
       "status": "Participating"
     },
     {
       "name": "Dylan Matter",
       "age": 19,
-      "relationship": "Grandfather & Grandson",
+      "relationship": "Grandfather and grandson",
       "hometown": "San Diego, California",
       "status": "Participating"
     },
@@ -157,1172 +171,33 @@
     {
       "name": "Jody Rebhun",
       "age": 44,
-      "relationship": "Best Friends & Moms",
+      "relationship": "Best friends, moms",
       "hometown": "Branford, Connecticut",
       "status": "Participating"
     },
     {
       "name": "Jenn Naso",
       "age": 44,
-      "relationship": "Best Friends & Moms",
+      "relationship": "Best friends, moms",
       "hometown": "Larchmont, New York",
-      "status": "Participating"
-    },
-    {
-      "name": "Katie Schultz",
-      "age": 26,
-      "relationship": "Sisters",
-      "hometown": "Murray, Kentucky",
-      "status": "Participating"
-    },
-    {
-      "name": "Charlotte Schultz",
-      "age": 20,
-      "relationship": "Sisters",
-      "hometown": "Murray, Kentucky",
       "status": "Participating"
     },
     {
       "name": "Michelle Rozalski Patterson",
       "age": 31,
-      "relationship": "Married & Parents",
+      "relationship": "Married parents",
       "hometown": "Rutherford, New Jersey",
       "status": "Participating"
     },
     {
-      "name": "Matthew Patterson",
+      "name": "Matt Patterson",
       "age": 36,
-      "relationship": "Married & Parents",
+      "relationship": "Married parents",
       "hometown": "Rutherford, New Jersey",
       "status": "Participating"
     }
   ],
   "results": [
-    {
-      "team_name": "Erin & Javi",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "1st \u025b",
-          "placement": 1,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Conner & Garrett",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "2nd",
-          "placement": 2,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Michelle & Matthew",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "3rd",
-          "placement": 3,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Doug & Dylan",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "4th \u025b",
-          "placement": 4,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Katie & Charlotte",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "5th",
-          "placement": 5,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Anuar & Andrea",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "6th",
-          "placement": 6,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Ann-Marie & Riley",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "7th",
-          "placement": 7,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Jody & Jenn",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "8th",
-          "placement": 8,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Dafina & Saran",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "9th \u025b",
-          "placement": 9,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
     {
       "team_name": "Ali & Joanna",
       "placements": [
@@ -1338,8 +213,133 @@
         },
         {
           "leg_label": "2",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
           "raw_cell": "",
           "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Michelle & Matt",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "2nd",
+          "placement": 2,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -1463,8 +463,258 @@
         },
         {
           "leg_label": "2",
+          "raw_cell": "3rd \u025b",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
           "raw_cell": "",
           "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Ann-Marie & Riley",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Jody & Jenn",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "5th \u025b",
+          "placement": 5,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -1588,8 +838,758 @@
         },
         {
           "leg_label": "2",
+          "raw_cell": "6th \u025b",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
           "raw_cell": "",
           "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Erin & Javi",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "1st \u025b",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Anuar & Andrea",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Conner & Garrett",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Doug & Dylan",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "4th \u025b",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "10th",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Dafina & Saran",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "9th \u025b",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "11th",
+          "placement": 11,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Katie & Charlotte",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "12th \u2020",
+          "placement": 12,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -1915,10 +1915,33 @@
       "leg_number": 2,
       "route_header": "Canada \u2192 Spain",
       "itinerary": [
-        "Madrid, Spain"
+        "Richmond (Aberdeen Centre \u2013 Silkway Travel)",
+        "Vancouver (Vancouver International Airport) \u2192 Madrid, Spain (Madrid\u2013Barajas Airport)",
+        "Madrid (Aeropuerto T1-T2-T3 Metro Station \u2192 Bat\u00e1n Metro Station)",
+        "Madrid (Plaza de Toros El Bat\u00e1n)",
+        "Madrid (Puerta del Sol)",
+        "Madrid (Extrem Puro Extremadura & Perro Paco Restaurant or Museo del Prado)",
+        "Madrid (Plaza de Espa\u00f1a)"
       ],
-      "narrative": "",
-      "tasks": []
+      "narrative": "At the start of this leg, teams were instructed to fly to Madrid, Spain, with teams required to book their plane tickets at Silkway Travel. Once there, teams had to travel by Madrid Metro to Plaza de Toros El Bat\u00e1n to find their next clue.",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, which was a Switchback from season 10, one team member had to participate in a La Tomatina festival and search through a pile of tomatoes for one with a miniature clue \u2013 a capsule containing an image of Puerta del Sol \u2013 inside it while locals pelted them with tomatoes. Daisha & Dalton used their Express Pass to bypass this task."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to find their next clue at Puerta del Sol."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Slice of Ham or Slice of History. In Slice of Ham, teams had to deliver a jam\u00f3n ib\u00e9rico to a restaurant, where they had to properly slice 50 grams of ham and prepare a charcuterie board to receive their next clue. Cody & Jaime used their Express Pass to bypass this task. In Slice of History, teams had to find 12 Spanish historical impersonators, who would each say a fact about themselves but not their names, and then match portraits to their names to receive their next clue. Jody & Jenn used their Express Pass to bypass this task."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to check in at the Pit Stop: Plaza de Espa\u00f1a."
+        }
+      ]
     },
     {
       "leg_number": 3,
