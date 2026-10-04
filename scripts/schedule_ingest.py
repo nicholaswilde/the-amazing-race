@@ -88,6 +88,10 @@ def check_wikipedia_season_exists(season: int, version: str = "US") -> bool:
         from tar_dataset.scrapers.wikipedia import WikipediaScraper
 
         scraper = WikipediaScraper()
+        rev = scraper.get_latest_revision(season, version=version)
+        if not rev:
+            return False
+
         title = scraper.get_page_title(season, version=version)
         html = scraper.fetch_page_html(title)
         if not html:

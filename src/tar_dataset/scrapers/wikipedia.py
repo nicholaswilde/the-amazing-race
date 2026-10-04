@@ -105,6 +105,39 @@ class WikipediaScraper:
             return f"The_Amazing_Race_Australia_{season}"
         return f"The_Amazing_Race_{season}"
 
+    def get_latest_revision(
+        self, season: int, version: str = "US"
+    ) -> dict[str, Any] | None:
+        """Fetch latest revision metadata (revid, timestamp) for a season page without fetching HTML."""
+        title = self.get_page_title(season, version)
+        params = {
+            "action": "query",
+            "prop": "revisions",
+            "titles": title,
+            "rvprop": "ids|timestamp",
+            "format": "json",
+            "redirects": "1",
+        }
+        try:
+            resp = self.client.get(self.BASE_API, params=params)
+            resp.raise_for_status()
+            data = resp.json()
+            pages = data.get("query", {}).get("pages", {})
+            for page in pages.values():
+                if "missing" in page:
+                    return None
+                revs = page.get("revisions", [])
+                if revs:
+                    return {
+                        "revid": revs[0].get("revid"),
+                        "parentid": revs[0].get("parentid"),
+                        "timestamp": revs[0].get("timestamp"),
+                    }
+            return None
+        except Exception as exc:
+            logger.debug("Failed to fetch revision info for %s: %s", title, exc)
+            return None
+
     def fetch_page_html(self, title: str) -> str | None:
         """Fetch parsed page HTML from Wikipedia MediaWiki API."""
         params = {
@@ -548,16 +581,48 @@ class WikipediaScraper:
         return master_episodes
 
     def scrape_season(
-        self, season: int, version: str = "US", save: bool = True
+        self,
+        season: int,
+        version: str = "US",
+        save: bool = True,
+        force: bool = False,
     ) -> dict[str, Any]:
         """Scrape full season data from Wikipedia and return structured dictionary."""
+        out_path = self.raw_dir / f"season_{version.lower()}_{season:02d}.json"
+        cached_data = None
+        if out_path.exists():
+            try:
+                cached_data = json.loads(out_path.read_text(encoding="utf-8"))
+            except Exception:
+                cached_data = None
+
         title = self.get_page_title(season, version)
-        logger.info("Scraping Wikipedia: %s (Season %d, %s)", title, season, version)
+        latest_rev = self.get_latest_revision(season, version)
+
+        # Skip scraping if cached version matches Wikipedia revision
+        if not force and cached_data and latest_rev:
+            cached_revid = cached_data.get("wiki_revid")
+            if cached_revid and cached_revid == latest_rev.get("revid"):
+                logger.info(
+                    "Wikipedia page for Season %d (%s) is unchanged (revid: %s); using cached data.",
+                    season,
+                    version,
+                    cached_revid,
+                )
+                return cached_data
+
+        logger.info(
+            "Scraping Wikipedia: %s (Season %d, %s, revid: %s)",
+            title,
+            season,
+            version,
+            latest_rev.get("revid") if latest_rev else "unknown",
+        )
 
         html = self.fetch_page_html(title)
         if not html:
             logger.warning("Could not fetch page for %s", title)
-            return {}
+            return cached_data if cached_data else {}
 
         soup = BeautifulSoup(html, "lxml")
         infobox = self.parse_infobox(soup)
@@ -603,6 +668,8 @@ class WikipediaScraper:
             "season": season,
             "wiki_title": title,
             "wiki_url": f"https://en.wikipedia.org/wiki/{title}",
+            "wiki_revid": latest_rev.get("revid") if latest_rev else None,
+            "wiki_timestamp": latest_rev.get("timestamp") if latest_rev else None,
             "infobox": infobox,
             "contestants": contestants,
             "results": results,
@@ -611,20 +678,23 @@ class WikipediaScraper:
         }
 
         if save:
-            out_path = self.raw_dir / f"season_{version.lower()}_{season:02d}.json"
             out_path.write_text(json.dumps(season_data, indent=2), encoding="utf-8")
             logger.info("Saved season %d data to %s", season, out_path)
 
         return season_data
 
     def scrape_seasons(
-        self, start: int = 1, end: int = 36, version: str = "US"
+        self,
+        start: int = 1,
+        end: int = 38,
+        version: str = "US",
+        force: bool = False,
     ) -> list[dict[str, Any]]:
         """Scrape range of seasons sequentially."""
         data_list = []
         for s in range(start, end + 1):
             try:
-                data = self.scrape_season(s, version=version, save=True)
+                data = self.scrape_season(s, version=version, save=True, force=force)
                 if data:
                     data_list.append(data)
             except Exception as e:

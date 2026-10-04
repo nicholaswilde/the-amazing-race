@@ -65,9 +65,15 @@ def scrape_wiki(
         None, "--season", "-s", help="Specific season number to scrape"
     ),
     start: int = typer.Option(1, "--start", help="Start season range"),
-    end: int = typer.Option(36, "--end", help="End season range"),
+    end: int = typer.Option(38, "--end", help="End season range"),
     version: str = typer.Option(
         "US", "--version", "-v", help="Franchise version (US, CAN, AUS, etc.)"
+    ),
+    force: bool = typer.Option(
+        False,
+        "--force",
+        "-f",
+        help="Force re-scrape even if Wikipedia revision is unchanged",
     ),
 ) -> None:
     """Scrape Wikipedia season tables, contestants, and results matrices."""
@@ -77,7 +83,7 @@ def scrape_wiki(
         console.print(
             f"[bold blue]Scraping Wikipedia for {version} Season {season}...[/bold blue]"
         )
-        data = scraper.scrape_season(season)
+        data = scraper.scrape_season(season, version=version, force=force)
         if data:
             console.print(
                 f"[green]✓ Successfully scraped and cached Season {season}[/green]"
@@ -89,7 +95,9 @@ def scrape_wiki(
     console.print(
         f"[bold blue]Scraping Wikipedia for {version} Seasons {start} to {end}...[/bold blue]"
     )
-    results = scraper.scrape_all_seasons(start=start, end=end)
+    results = scraper.scrape_all_seasons(
+        start=start, end=end, version=version, force=force
+    )
     console.print(
         f"[green]✓ Successfully scraped {len(results)} seasons for {version}[/green]"
     )

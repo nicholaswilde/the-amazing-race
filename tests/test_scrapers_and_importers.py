@@ -524,3 +524,93 @@ def test_wikipedia_leg_narratives_extended():
     assert "Fast Forward" in task_types
     assert "Speed Bump" in task_types
     assert len(legs[0]["itinerary"]) >= 1
+
+
+def test_wikipedia_get_latest_revision():
+    scraper = WikipediaScraper()
+    mock_resp = MagicMock()
+    mock_resp.json.return_value = {
+        "query": {
+            "pages": {
+                "123": {
+                    "pageid": 123,
+                    "revisions": [
+                        {
+                            "revid": 999999,
+                            "parentid": 888888,
+                            "timestamp": "2026-10-01T12:00:00Z",
+                        }
+                    ],
+                }
+            }
+        }
+    }
+    mock_resp.raise_for_status.return_value = None
+
+    with patch.object(scraper.client, "get", return_value=mock_resp):
+        rev = scraper.get_latest_revision(1, version="US")
+        assert rev is not None
+        assert rev["revid"] == 999999
+        assert rev["timestamp"] == "2026-10-01T12:00:00Z"
+
+    # Test missing page
+    mock_resp.json.return_value = {"query": {"pages": {"-1": {"missing": ""}}}}
+    with patch.object(scraper.client, "get", return_value=mock_resp):
+        assert scraper.get_latest_revision(999, version="US") is None
+
+
+def test_wikipedia_scrape_season_revision_caching(tmp_path):
+    import json
+
+    scraper = WikipediaScraper(raw_dir=tmp_path)
+    cached_file = tmp_path / "season_us_01.json"
+    cached_file.write_text(
+        json.dumps({"season": 1, "wiki_revid": 12345, "cached": True}),
+        encoding="utf-8",
+    )
+
+    # 1. Unchanged revision -> should return cached data without fetching HTML
+    with (
+        patch.object(
+            scraper,
+            "get_latest_revision",
+            return_value={"revid": 12345, "timestamp": "2026-10-01T00:00:00Z"},
+        ),
+        patch.object(scraper, "fetch_page_html") as mock_fetch,
+    ):
+        res = scraper.scrape_season(1, version="US")
+        assert res.get("cached") is True
+        mock_fetch.assert_not_called()
+
+    # 2. Changed revision -> should fetch HTML and update revid
+    sample_html = """
+    <div>
+      <table class="infobox"><tr><th>Winners</th><td>Test Winners</td></tr></table>
+    </div>
+    """
+    with (
+        patch.object(
+            scraper,
+            "get_latest_revision",
+            return_value={"revid": 67890, "timestamp": "2026-10-02T00:00:00Z"},
+        ),
+        patch.object(scraper, "fetch_page_html", return_value=sample_html),
+    ):
+        res = scraper.scrape_season(1, version="US")
+        assert res.get("wiki_revid") == 67890
+        assert res.get("wiki_timestamp") == "2026-10-02T00:00:00Z"
+
+    # 3. Force flag -> should fetch HTML even if revid matches
+    with (
+        patch.object(
+            scraper,
+            "get_latest_revision",
+            return_value={"revid": 67890, "timestamp": "2026-10-02T00:00:00Z"},
+        ),
+        patch.object(
+            scraper, "fetch_page_html", return_value=sample_html
+        ) as mock_fetch,
+    ):
+        res = scraper.scrape_season(1, version="US", force=True)
+        assert res.get("wiki_revid") == 67890
+        mock_fetch.assert_called_once()
