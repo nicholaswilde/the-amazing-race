@@ -10,6 +10,60 @@ from tar_dataset.dashboard.views.predictor_view import render_predictor_view
 from tar_dataset.dashboard.views.season_explorer import render_season_explorer
 
 
+def _inject_catppuccin_theme() -> None:
+    """Inject custom Catppuccin Mocha styling enhancements."""
+    st.markdown(
+        """
+        <style>
+        /* Catppuccin Mocha Global Palette */
+        :root {
+            --catppuccin-mauve: #cba6f7;
+            --catppuccin-blue: #89b4fa;
+            --catppuccin-green: #a6e3a1;
+            --catppuccin-peach: #fab387;
+            --catppuccin-red: #f38ba8;
+            --catppuccin-text: #cdd6f4;
+            --catppuccin-subtext: #bac2de;
+            --catppuccin-surface0: #313244;
+            --catppuccin-base: #1e1e2e;
+            --catppuccin-mantle: #181825;
+            --catppuccin-crust: #11111b;
+        }
+
+        /* Metric cards */
+        [data-testid="stMetric"] {
+            background-color: #181825;
+            border: 1px solid #313244;
+            border-radius: 8px;
+            padding: 12px 16px;
+        }
+        [data-testid="stMetricLabel"] {
+            color: #bac2de !important;
+        }
+        [data-testid="stMetricValue"] {
+            color: #cba6f7 !important;
+        }
+
+        /* Tabs styling */
+        button[data-baseweb="tab"] {
+            color: #a6adc8;
+        }
+        button[data-baseweb="tab"][aria-selected="true"] {
+            color: #cba6f7 !important;
+            border-bottom-color: #cba6f7 !important;
+        }
+
+        /* Expander headers */
+        .streamlit-expanderHeader {
+            background-color: #181825;
+            border-radius: 6px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def main() -> None:
     """Run the Streamlit web application."""
     st.set_page_config(
@@ -18,6 +72,8 @@ def main() -> None:
         layout="wide",
         initial_sidebar_state="expanded",
     )
+
+    _inject_catppuccin_theme()
 
     datasets = load_all_datasets()
 

@@ -110,7 +110,13 @@ def _render_season_forecast(datasets: dict[str, pd.DataFrame]) -> None:
             .encode(
                 x=alt.X("Probability:Q", title="Probability (%)"),
                 y=alt.Y("Team Name:N", sort="-x", title="Team"),
-                color=alt.Color("Metric:N", scale=alt.Scale(scheme="set2")),
+                color=alt.Color(
+                    "Metric:N",
+                    scale=alt.Scale(
+                        domain=["Win Prob (%)", "Top 3 Prob (%)"],
+                        range=["#cba6f7", "#89b4fa"],
+                    ),
+                ),
                 tooltip=["Team Name", "Metric", "Probability"],
             )
             .properties(height=350)

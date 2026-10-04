@@ -115,7 +115,7 @@ def render_challenge_browser(datasets: dict[str, pd.DataFrame]) -> None:
                 color=alt.Color(
                     "task_type:N",
                     title="Task Type",
-                    scale=alt.Scale(scheme="category10"),
+                    scale=alt.Scale(range=["#cba6f7", "#89b4fa", "#a6e3a1", "#fab387"]),
                 ),
                 tooltip=["season", "task_type", "count"],
             )
