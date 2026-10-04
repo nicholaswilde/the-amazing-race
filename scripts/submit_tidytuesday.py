@@ -28,7 +28,7 @@ REQUIRED_FILES = [
 ]
 
 TARGET_REPO = "rfordatascience/tidytuesday"
-ISSUE_TITLE = "The Amazing Race (US Seasons 1–36)"
+ISSUE_TITLE = "The Amazing Race (US Seasons 1–38)"
 
 
 def validate_intake_package() -> bool:

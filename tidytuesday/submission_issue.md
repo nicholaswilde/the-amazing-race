@@ -2,7 +2,7 @@
 - [x] The dataset will (probably) be less than 20MB when saved as a tidy CSV.
 - [x] I can imagine a data visualization related to this dataset.
 
-- [x] **title:** The Amazing Race (US Seasons 1–36)
+- [x] **title:** The Amazing Race (US Seasons 1–38)
 - [x] **article:** An example of the dataset being used, such as a blog post or a README about the dataset.
   - [x] **title:** The Amazing Race Tidy Dataset & R Package Repository
   - [x] **url:** https://github.com/nicholaswilde/the-amazing-race
@@ -105,7 +105,7 @@ tasks <- read_csv(paste0(base_url, "tasks.csv"), show_col_types = FALSE) |>
 | variable | class | description |
 | :--- | :--- | :--- |
 | `version` | character | Franchise country code (`US`) |
-| `season` | integer | Season number (1 to 36) |
+| `season` | integer | Season number (1 to 38) |
 | `n_teams` | integer | Total competing teams at season start |
 | `n_legs` | integer | Total race legs in the season |
 | `n_episodes` | integer | Total broadcast television episodes |

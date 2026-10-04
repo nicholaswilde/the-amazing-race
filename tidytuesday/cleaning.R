@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# TidyTuesday: The Amazing Race (US Seasons 1–36)
+# TidyTuesday: The Amazing Race (US Seasons 1–38)
 # Data Cleaning & Preparation Script
 # ------------------------------------------------------------------------------
 # This script loads, validates, and cleans the relational tables comprising

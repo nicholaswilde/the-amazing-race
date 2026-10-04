@@ -1,5 +1,5 @@
 # ==============================================================================
-# TidyTuesday Starter Exploration: The Amazing Race (US Seasons 1–36)
+# TidyTuesday Starter Exploration: The Amazing Race (US Seasons 1–38)
 # ==============================================================================
 # Visualizing Team Survival Curves, Race Route Networks, Placement Trajectories,
 # and Roadblock Task Balance.
@@ -84,7 +84,7 @@ p1_survival <- ggplot(survival_df, aes(x = leg_number, y = survival_rate, color 
   scale_color_brewer(palette = "Set1") +
   labs(
     title = "The Amazing Race: Team Survival Curves by Relationship Archetype",
-    subtitle = "Proportion of teams remaining active across race legs (US Seasons 1–36)",
+    subtitle = "Proportion of teams remaining active across race legs (US Seasons 1–38)",
     x = "Leg Number",
     y = "Survival Probability",
     color = "Relationship",
@@ -226,7 +226,7 @@ p4_trajectories <- ggplot(champions_trajectories, aes(x = leg_number, y = placem
 print(p4_trajectories)
 
 # ------------------------------------------------------------------------------
-# 6. Exploration 5: Television Viewership Across 36 Seasons
+# 6. Exploration 5: Television Viewership Across 38 Seasons
 # ------------------------------------------------------------------------------
 season_ratings <- episodes |>
   filter(!is.na(viewers_millions)) |>
@@ -242,10 +242,10 @@ p5_ratings <- ggplot(season_ratings, aes(x = season, y = avg_viewers)) +
   geom_area(fill = "#457B9D", alpha = 0.25) +
   geom_line(color = "#1D3557", linewidth = 1.2) +
   geom_point(color = "#D90429", size = 2.5) +
-  scale_x_continuous(breaks = seq(1, 36, 4)) +
+  scale_x_continuous(breaks = seq(1, 38, 4)) +
   scale_y_continuous(labels = label_number(suffix = "M")) +
   labs(
-    title = "The Amazing Race: US Television Viewership (Seasons 1–36)",
+    title = "The Amazing Race: US Television Viewership (Seasons 1–38)",
     subtitle = "Average live Nielsen broadcast viewership in millions per season",
     x = "Season",
     y = "Average Viewers",

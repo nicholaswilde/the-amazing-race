@@ -1,10 +1,10 @@
-# The Amazing Race (US Seasons 1–36)
+# The Amazing Race (US Seasons 1–38)
 
 Welcome to **The Amazing Race** dataset curated for the [R for Data Science (R4DS) TidyTuesday](https://github.com/rfordatascience/tidytuesday) community!
 
 The Amazing Race is a multi-Emmy award-winning reality competition television franchise created by Bertram van Munster and Elise Doganieri, and hosted by Phil Keoghan. In each season, teams of two individuals who possess a pre-existing personal relationship (e.g. married couples, siblings, best friends, parent/child) race around the world across multiple continents and countries. Teams decipher cryptic clues, navigate foreign public transit and self-drive routes, perform demanding physical and cultural tasks, and race to a Pit Stop mat. The last team to arrive at a Pit Stop is typically eliminated, until three teams remain to race in the finale for a US $1,000,000 grand prize.
 
-This dataset provides a tidy, relational representation of the first 36 seasons of the flagship US franchise, spanning 2001 through 2024.
+This dataset provides a tidy, relational representation of the first 38 seasons of the flagship US franchise.
 
 ---
 
@@ -89,7 +89,7 @@ Here are some starting questions to explore:
 | Variable | Class | Description |
 | :--- | :--- | :--- |
 | `version` | character | Franchise country code (`US`) |
-| `season` | integer | Season number (1 to 36) |
+| `season` | integer | Season number (1 to 38) |
 | `n_teams` | integer | Total competing teams at season start |
 | `n_legs` | integer | Total race legs in the season |
 | `n_episodes` | integer | Total broadcast television episodes |
