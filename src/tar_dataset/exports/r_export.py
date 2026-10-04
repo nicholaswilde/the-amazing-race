@@ -476,7 +476,6 @@ LazyDataCompression: xz
 ByteCompile: true
 RoxygenNote: 7.3.1
 Suggests:
-    arrow,
     dplyr,
     ggplot2,
     knitr,

@@ -16,6 +16,10 @@ on:
         type: boolean
         default: true
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   verify:
     name: Pre-Release Quality Checks
@@ -43,10 +47,7 @@ jobs:
       - name: Install dependencies
         run: task sync
 
-      - name: Run Quality Checks & Dataset Validation
-        run: task check
-
-      - name: Rebuild Fresh Pipeline Artifacts
+      - name: Rebuild Fresh Pipeline Artifacts & Run Quality Checks
         run: task pipeline
 
   package:
@@ -136,24 +137,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
-        with:
-          enable-cache: true
-          cache-dependency-glob: "uv.lock"
-
-      - name: Set up Python
-        run: uv python install
-
-      - name: Install Task
-        uses: arduino/setup-task@v2
-        with:
-          version: 3.x
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install dependencies
-        run: task sync
-
       - name: Download Built Release Assets
         uses: actions/download-artifact@v4
         with:
@@ -176,6 +159,36 @@ jobs:
           prerelease: ${{ contains(needs.package.outputs.tag, '-rc') || contains(needs.package.outputs.tag, '-beta') || contains(needs.package.outputs.tag, '-alpha') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install uv
+        if: env.HF_TOKEN != '' && needs.package.outputs.draft != 'true'
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+      - name: Set up Python
+        if: env.HF_TOKEN != '' && needs.package.outputs.draft != 'true'
+        run: uv python install
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+      - name: Install Task
+        if: env.HF_TOKEN != '' && needs.package.outputs.draft != 'true'
+        uses: arduino/setup-task@v2
+        with:
+          version: 3.x
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+      - name: Install dependencies
+        if: env.HF_TOKEN != '' && needs.package.outputs.draft != 'true'
+        run: task sync
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
       - name: Publish Dataset to Hugging Face Hub
         if: env.HF_TOKEN != '' && needs.package.outputs.draft != 'true'
