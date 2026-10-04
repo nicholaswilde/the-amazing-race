@@ -1,6 +1,6 @@
 [project]
 name = "the-amazing-race"
-version = "0.4.1"
+version = "0.5.0"
 description = "A comprehensive tidy dataset and AI training corpus for the TV show The Amazing Race"
 readme = "README.md"
 requires-python = ">=3.11"
