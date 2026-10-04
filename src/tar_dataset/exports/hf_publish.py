@@ -203,9 +203,8 @@ title: {title}
 emoji: 🌍
 colorFrom: purple
 colorTo: indigo
-sdk: streamlit
-sdk_version: "1.45.0"
-app_file: app.py
+sdk: docker
+app_port: 7860
 pinned: false
 license: apache-2.0
 short_description: Interactive tidy analytics & predictive modeling for The Amazing Race
@@ -430,6 +429,22 @@ class HuggingFacePublisher:
             "\n".join(reqs) + "\n", encoding="utf-8"
         )
 
+        # 2.5. Dockerfile
+        dockerfile = (
+            "FROM python:3.11-slim\n\n"
+            "RUN useradd -m -u 1000 user\n"
+            "USER user\n"
+            "ENV HOME=/home/user \\\n"
+            "    PATH=/home/user/.local/bin:$PATH\n\n"
+            "WORKDIR $HOME/app\n\n"
+            "COPY --chown=user requirements.txt .\n"
+            "RUN pip install --no-cache-dir --user -r requirements.txt\n\n"
+            "COPY --chown=user . $HOME/app\n\n"
+            "EXPOSE 7860\n\n"
+            'CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0"]\n'
+        )
+        (stage_path / "Dockerfile").write_text(dockerfile, encoding="utf-8")
+
         # 3. .streamlit/config.toml (Catppuccin Mocha theme)
         dot_streamlit = stage_path / ".streamlit"
         dot_streamlit.mkdir(parents=True, exist_ok=True)
@@ -556,7 +571,7 @@ class HuggingFacePublisher:
         api.create_repo(
             repo_id=target_repo,
             repo_type="space",
-            space_sdk="streamlit",
+            space_sdk="docker",
             exist_ok=True,
             private=private,
         )

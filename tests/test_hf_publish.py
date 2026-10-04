@@ -216,9 +216,9 @@ def test_publish_repo_id_and_token_fallbacks(
 def test_generate_space_card() -> None:
     """Test generating Space card markdown with frontmatter."""
     card = generate_space_card("0.4.1", "The Amazing Race Analytics Dashboard")
-    assert "sdk: streamlit" in card
+    assert "sdk: docker" in card
     assert "emoji: 🌍" in card
-    assert "app_file: app.py" in card
+    assert "app_port: 7860" in card
     assert "v0.4.1" in card
 
 
@@ -246,6 +246,7 @@ def test_prepare_space_staging_directory(tmp_path: Path) -> None:
 
     assert (staged / "README.md").exists()
     assert (staged / "requirements.txt").exists()
+    assert (staged / "Dockerfile").exists()
     assert (staged / ".streamlit" / "config.toml").exists()
     assert (staged / "app.py").exists()
     assert (staged / "src" / "tar_dataset" / "__init__.py").exists()
@@ -273,7 +274,7 @@ def test_publish_space(mock_api_cls: MagicMock, tmp_path: Path) -> None:
     mock_api.create_repo.assert_called_with(
         repo_id="testuser/the-amazing-race-dashboard",
         repo_type="space",
-        space_sdk="streamlit",
+        space_sdk="docker",
         exist_ok=True,
         private=False,
     )
