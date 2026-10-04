@@ -638,7 +638,7 @@ uv run tar-dataset publish-hf --stage-only dist/hf_staging
 ### 18. Interactive Web Dashboard
 Launches a local Streamlit web application for interactive race data exploration, empirical predictions, and challenge browsing:
 ```bash
-# Launch dashboard (default: http://localhost:8501)
+# Launch dashboard (default: http://0.0.0.0:8501)
 task dashboard
 # or via CLI:
 uv run --extra dashboard tar-dataset dashboard

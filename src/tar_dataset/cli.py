@@ -1201,9 +1201,7 @@ def predict_cmd(
 @app.command("dashboard")
 def dashboard(
     port: int = typer.Option(8501, "--port", "-p", help="Port to run Streamlit on"),
-    host: str = typer.Option(
-        "localhost", "--host", "-h", help="Host interface to bind"
-    ),
+    host: str = typer.Option("0.0.0.0", "--host", "-h", help="Host interface to bind"),
     browser: bool = typer.Option(
         True, "--browser/--no-browser", help="Open browser on launch"
     ),
