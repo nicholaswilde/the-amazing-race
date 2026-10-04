@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 import sys
 from unittest.mock import MagicMock, patch
 
@@ -19,6 +20,11 @@ from tar_dataset.dashboard.views.predictor_view import (
 from tar_dataset.dashboard.views.season_explorer import render_season_explorer
 
 runner = CliRunner()
+
+
+def _clean_ansi(text: str) -> str:
+    """Remove ANSI escape sequences from terminal output."""
+    return re.sub(r"\x1b\[[0-9;]*[a-zA-Z]", "", text)
 
 
 def test_dashboard_data_loading(tmp_path):
@@ -340,10 +346,11 @@ def test_cli_dashboard_help():
     """Test tar-dataset dashboard --help."""
     res = runner.invoke(app, ["dashboard", "--help"])
     assert res.exit_code == 0
-    assert "Launch interactive web dashboard" in res.stdout
-    assert "--port" in res.stdout
-    assert "--host" in res.stdout
-    assert "--browser" in res.stdout
+    clean_stdout = _clean_ansi(res.stdout)
+    assert "Launch interactive web dashboard" in clean_stdout
+    assert "--port" in clean_stdout
+    assert "--host" in clean_stdout
+    assert "--browser" in clean_stdout
 
 
 def test_cli_dashboard_missing_streamlit():
@@ -352,8 +359,9 @@ def test_cli_dashboard_missing_streamlit():
         res = runner.invoke(app, ["dashboard"])
         # Should catch ImportError and print guidance
         assert res.exit_code == 1
-        assert "Streamlit is not installed" in res.stdout
-        assert "uv sync --extra dashboard" in res.stdout
+        clean_stdout = _clean_ansi(res.stdout)
+        assert "Streamlit is not installed" in clean_stdout
+        assert "uv sync --extra dashboard" in clean_stdout
 
 
 def test_cli_dashboard_launch():
@@ -446,7 +454,8 @@ def test_cli_dashboard_keyboard_interrupt():
     ):
         res = runner.invoke(app, ["dashboard"])
         assert res.exit_code == 0
-        assert "Dashboard stopped" in res.stdout
+        clean_stdout = _clean_ansi(res.stdout)
+        assert "Dashboard stopped" in clean_stdout
 
 
 def test_dashboard_in_progress_loading(tmp_path):
