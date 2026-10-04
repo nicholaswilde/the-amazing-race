@@ -1,6 +1,7 @@
 # :card_index_dividers: The Amazing Race Dataset & AI Training Corpus :checkered_flag: <img src="dev/images/theamazingrace hex.png" align="right" height="240" alt="theamazingrace hex sticker" />
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-amazing-race/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-amazing-race/actions/workflows/ci.yml)
 [![task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://the-amazing-race.streamlit.app/)
 [![Coverage](https://img.shields.io/coveralls/github/nicholaswilde/the-amazing-race/main?style=for-the-badge&logo=coveralls)](https://coveralls.io/github/nicholaswilde/the-amazing-race?branch=main)
 [![R-universe](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fnicholaswilde.r-universe.dev%2Fapi%2Fpackages%2Ftheamazingrace&query=%24.Version&label=r-universe&style=for-the-badge&logo=r&logoColor=white&color=blue)](https://nicholaswilde.r-universe.dev/theamazingrace)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23074890-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23074890)
@@ -21,7 +22,7 @@ The dataset is partitioned into clean relational tables adhering to tidy data pr
 ### Tidy Datasets (`data/processed/`)
 
 > **Comprehensive Documentation**: See the [Data Dictionary & Schema Reference](docs/data_dictionary.md) for complete column descriptions, primary/foreign keys, and Entity-Relationship diagrams across all 7 tables.  
-> **Interactive Web Dashboard**: Launch the local Streamlit dashboard via `task dashboard` (Catppuccin Mocha theme) to explore seasons 1–39, live empirical predictions, and challenge analytics.  
+> **Interactive Web Dashboard**: Try the live deployment at **[the-amazing-race.streamlit.app](https://the-amazing-race.streamlit.app/)** or launch locally via `task dashboard` (Catppuccin Mocha theme) to explore seasons 1–39, live empirical predictions, and challenge analytics.  
 > **Interactive Notebook**: Check out [`notebooks/tar_exploration.ipynb`](notebooks/tar_exploration.ipynb) for a reference starter guide covering racing averages, route maps, and data analysis.
 
 All processed tables are provided in **CSV**, **Apache Parquet**, **Apache Arrow IPC** (`data/processed/arrow/`), and native **R** formats (`.rds` and `.rda` in `data/processed/r/`), alongside a unified **SQLite** relational database (`data/processed/tar.db`) and an integrated **GeoJSON** geographic dataset (`data/processed/tar_routes.geojson`) with global flight paths and pit stop coordinates.
@@ -639,7 +640,10 @@ uv run tar-dataset publish-hf --stage-only dist/hf_staging
 ```
 
 ### 18. Interactive Web Dashboard
-Launches a local Streamlit web application styled in the **Catppuccin Mocha** theme for interactive race data exploration, empirical predictions, and challenge browsing:
+
+A live deployment is hosted on Streamlit Community Cloud at **[https://the-amazing-race.streamlit.app/](https://the-amazing-race.streamlit.app/)**.
+
+You can also launch a local Streamlit web application styled in the **Catppuccin Mocha** theme for interactive race data exploration, empirical predictions, and challenge browsing:
 ```bash
 # Launch dashboard on http://0.0.0.0:8501
 task dashboard
