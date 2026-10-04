@@ -430,7 +430,10 @@ task test             # Run pytest test suite
 task test:coverage    # Run pytest with branch test coverage reporting
 task coverage:report  # Generate HTML test coverage report (htmlcov/)
 task coverage:upload  # Upload coverage results to Coveralls.io
-task lint             # Lint code with ruff
+task lint             # Lint Python code with ruff and check spelling with typos
+task lint:fix         # Fix ruff issues and typo spelling errors automatically
+task spellcheck       # Check spelling with typos across the repository
+task spellcheck-file FILE=path/to/file # Check spelling on a specific file
 task format           # Format code with ruff
 task pipeline         # Full end-to-end rebuild: build, export all formats, eval, and check
 task build            # Compile raw data into tidy CSV + Parquet + SQLite tables

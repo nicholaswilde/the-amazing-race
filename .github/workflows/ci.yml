@@ -47,7 +47,7 @@ jobs:
         run: task sync
 
       - name: Lint Python Code
-        run: task lint
+        run: task lint:py
 
       - name: Check Code Formatting
         run: task format:check
@@ -134,9 +134,19 @@ jobs:
           task validate
           git diff --exit-code data/ docs/
 
+  typos:
+    name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check spelling
+        uses: crate-ci/typos@v1
+
   ci-status:
     name: CI Status
-    needs: [lint, test, pipeline]
+    needs: [lint, test, pipeline, typos]
     runs-on: ubuntu-latest
     if: always()
     steps:
@@ -144,7 +154,8 @@ jobs:
         run: |
           if [ "${{ needs.lint.result }}" != "success" ] || \
              [ "${{ needs.test.result }}" != "success" ] || \
-             [ "${{ needs.pipeline.result }}" != "success" ]; then
+             [ "${{ needs.pipeline.result }}" != "success" ] || \
+             [ "${{ needs.typos.result }}" != "success" ]; then
             echo "One or more CI jobs failed."
             exit 1
           fi
