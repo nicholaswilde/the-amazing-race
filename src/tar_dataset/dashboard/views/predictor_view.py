@@ -32,17 +32,33 @@ def render_predictor_view(datasets: dict[str, pd.DataFrame]) -> None:
 def _render_season_forecast(datasets: dict[str, pd.DataFrame]) -> None:
     """Render full season forecast interface."""
     seasons_df = datasets.get("seasons", pd.DataFrame())
-    max_season = int(seasons_df["season"].max()) if not seasons_df.empty else 38
+    if not seasons_df.empty and "season" in seasons_df.columns:
+        available_seasons = sorted(
+            seasons_df["season"].dropna().unique().astype(int).tolist()
+        )
+    else:
+        available_seasons = list(range(1, 40))
+
+    def _format_pred_season(s: int) -> str:
+        row = (
+            seasons_df[seasons_df["season"] == s]
+            if not seasons_df.empty
+            else pd.DataFrame()
+        )
+        if not row.empty:
+            w = row.iloc[0].get("winners")
+            if not w or str(w).strip().lower() in ("none", "nan", "tbd", ""):
+                return f"Season {s} 🔴 (In Progress)"
+        return f"Season {s}"
 
     col1, _col2 = st.columns([2, 4])
     with col1:
-        target_season = st.number_input(
+        target_season = st.selectbox(
             "Target Season",
-            min_value=1,
-            max_value=max_season + 5,
-            value=max_season,
-            step=1,
-            key="pred_season_input",
+            options=available_seasons,
+            index=len(available_seasons) - 1,
+            format_func=_format_pred_season,
+            key="pred_season_select",
         )
 
     with st.spinner(f"Computing empirical predictions for Season {target_season}..."):

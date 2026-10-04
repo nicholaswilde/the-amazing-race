@@ -24,12 +24,21 @@ def render_season_explorer(datasets: dict[str, pd.DataFrame]) -> None:
         seasons_df["season"].dropna().unique().astype(int).tolist()
     )
 
+    def _format_season_choice(s: int) -> str:
+        row = seasons_df[seasons_df["season"] == s]
+        if not row.empty:
+            w = row.iloc[0].get("winners")
+            if not w or str(w).strip().lower() in ("none", "nan", "tbd", ""):
+                return f"Season {s} 🔴 (In Progress)"
+        return f"Season {s}"
+
     col_sel, _col_space = st.columns([2, 4])
     with col_sel:
         selected_season = st.selectbox(
             "Select Season",
             options=available_seasons,
             index=len(available_seasons) - 1,
+            format_func=_format_season_choice,
             key="season_selector",
         )
 
@@ -41,19 +50,33 @@ def render_season_explorer(datasets: dict[str, pd.DataFrame]) -> None:
     s_legs = legs_df[legs_df["season"] == selected_season].sort_values("leg_number")
     s_leg_results = leg_results_df[leg_results_df["season"] == selected_season]
 
+    raw_winners = s_row.get("winners")
+    is_in_progress = not raw_winners or str(raw_winners).strip().lower() in (
+        "none",
+        "nan",
+        "tbd",
+        "",
+    )
+
     # Season Summary Metrics
     st.subheader(f"Season {selected_season} Overview")
+    if is_in_progress:
+        st.info(
+            f"ℹ️ **Season {selected_season} is currently in progress / airing.** "
+            f"Displaying data for legs and episodes broadcast to date."
+        )
+
     m1, m2, m3, m4, m5 = st.columns(5)
     with m1:
-        winners = s_row.get("winners") or "TBD"
-        st.metric("Winners", str(winners))
+        winners_str = "Active / In Progress" if is_in_progress else str(raw_winners)
+        st.metric("Winners", winners_str)
     with m2:
         st.metric("Teams", int(s_row.get("n_teams", len(s_teams))))
     with m3:
         st.metric("Legs", int(s_row.get("n_legs", len(s_legs))))
     with m4:
         dist_mi = s_row.get("distance_miles")
-        dist_str = f"{int(dist_mi):,} mi" if pd.notna(dist_mi) else "N/A"
+        dist_str = f"{int(dist_mi):,} mi" if pd.notna(dist_mi) else "In Progress"
         st.metric("Distance", dist_str)
     with m5:
         avg_viewers = (

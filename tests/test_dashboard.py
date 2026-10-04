@@ -295,11 +295,10 @@ def test_predictor_forecast_execution():
     }
 
     with (
-        patch("streamlit.number_input", return_value=38),
         patch(
             "tar_dataset.dashboard.views.predictor_view.SeasonPredictor"
         ) as mock_pred_cls,
-        patch("streamlit.selectbox", return_value="Team A"),
+        patch("streamlit.selectbox", side_effect=[38, "Team A"]),
     ):
         mock_instance = mock_pred_cls.return_value
         mock_instance.predict_season.return_value = mock_prediction
@@ -412,7 +411,7 @@ def test_predictor_forecast_error_and_empty():
 
     # Exception case
     with (
-        patch("streamlit.number_input", return_value=38),
+        patch("streamlit.selectbox", return_value=38),
         patch(
             "tar_dataset.dashboard.views.predictor_view.SeasonPredictor"
         ) as mock_pred_cls,
@@ -426,7 +425,7 @@ def test_predictor_forecast_error_and_empty():
 
     # Empty rankings case
     with (
-        patch("streamlit.number_input", return_value=38),
+        patch("streamlit.selectbox", return_value=38),
         patch(
             "tar_dataset.dashboard.views.predictor_view.SeasonPredictor"
         ) as mock_pred_cls,
@@ -448,3 +447,52 @@ def test_cli_dashboard_keyboard_interrupt():
         res = runner.invoke(app, ["dashboard"])
         assert res.exit_code == 0
         assert "Dashboard stopped" in res.stdout
+
+
+def test_dashboard_in_progress_loading(tmp_path):
+    """Test detecting and appending in-progress raw season files."""
+    import json
+
+    proc_dir = tmp_path / "processed"
+    raw_dir = tmp_path / "raw"
+    wiki_dir = raw_dir / "wikipedia"
+    proc_dir.mkdir(parents=True)
+    wiki_dir.mkdir(parents=True)
+
+    # Base processed tables has Season 1
+    base_seasons = pd.DataFrame(
+        [{"season": 1, "n_teams": 11, "winners": "Rob & Brennan"}]
+    )
+    base_seasons.to_parquet(proc_dir / "seasons.parquet")
+
+    # Raw Wikipedia has in-progress Season 39 (winners pending)
+    s39_raw = {
+        "season": 39,
+        "version": "US",
+        "infobox": {"winners": "TBD"},
+        "contestants": [
+            {
+                "name": "Racer A",
+                "age": 28,
+                "relationship": "Brothers",
+                "status": "Active",
+            },
+            {
+                "name": "Racer B",
+                "age": 26,
+                "relationship": "Brothers",
+                "status": "Active",
+            },
+        ],
+        "results": [],
+        "legs": [],
+        "episodes": [],
+    }
+    (wiki_dir / "season_us_39.json").write_text(json.dumps(s39_raw), encoding="utf-8")
+
+    loaded = load_all_datasets(
+        data_dir=str(proc_dir), raw_dir=str(raw_dir), include_in_progress=True
+    )
+    assert 39 in loaded["seasons"]["season"].values
+    assert 1 in loaded["seasons"]["season"].values
+    assert len(loaded["contestants"][loaded["contestants"]["season"] == 39]) == 2
