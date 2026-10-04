@@ -3,9 +3,9 @@ message: "If you use this dataset, companion R package, or AI corpus in your res
 title: "The Amazing Race Dataset & AI Training Corpus"
 abstract: "A comprehensive tidy dataset and AI training corpus for the CBS reality competition television series The Amazing Race, covering 36 seasons across relational tables, SQLite database, and multi-turn instruction-tuning corpora."
 type: dataset
-version: 0.3.0
+version: 0.3.1
 doi: 10.5281/zenodo.23090022
-date-released: "2026-10-01"
+date-released: "2026-10-03"
 license: Apache-2.0
 repository-code: "https://github.com/nicholaswilde/the-amazing-race"
 url: "https://github.com/nicholaswilde/the-amazing-race"
