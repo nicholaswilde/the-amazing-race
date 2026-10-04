@@ -450,6 +450,8 @@ task validate         # Verify dataset schema and relational integrity
 task stats            # Show table row counts and summary stats
 task predict          # Predict upcoming/in-progress season outcomes (e.g. -- --season 39)
 task dashboard        # Launch interactive web dashboard for race exploration & predictions
+task publish:hf       # Publish and sync tidy datasets & AI corpora to Hugging Face Hub
+task publish:space    # Deploy interactive dashboard to Hugging Face Spaces
 task images           # Generate publication-quality figures and branding assets (dev/images/)
 task scrape:wiki      # Scrape Wikipedia seasons (pass args via --, e.g. -- --season 1)
 task scrape:fandom    # Scrape Fandom Wiki infoboxes
@@ -654,6 +656,21 @@ Features included in the dashboard:
 - **Season Explorer**: Select seasons (1–38 and in-progress 39) to view interactive leg routes and destination maps, team placement trajectory line charts (1st place at top), full standings, and roadblock trackers with equity scores.
 - **Interactive Predictor**: Contender rankings, win and finale probabilities, multi-factor breakdowns (momentum, age peak, relationship archetype, power items), diagnostic strengths/risks, and a custom "What-If" team simulator.
 - **Challenge Browser**: Search, filter, and analyze 1,700+ challenges across Roadblocks, Detours, Fast Forwards, and Speed Bumps, with cross-season trend analytics and all-time top performer leaderboards.
+
+### 19. Deploy Dashboard to Hugging Face Spaces
+Deploys the interactive dashboard and its bundled datasets directly to a public or private Hugging Face Space running Streamlit:
+```bash
+# Deploy to Hugging Face Spaces (defaults to <username>/the-amazing-race-dashboard):
+uv run tar-dataset publish-space
+# or via task runner:
+task publish:space
+
+# Deploy to specific Space or as private:
+uv run tar-dataset publish-space --repo-id nicholascwilde/the-amazing-race-dashboard --private
+
+# Stage Space files locally to inspect Docker/container files without uploading:
+uv run tar-dataset publish-space --stage-only dist/space_staging
+```
 
 ---
 

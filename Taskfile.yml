@@ -155,6 +155,11 @@ tasks:
     cmds:
       - uv run tar-dataset publish-hf {{.CLI_ARGS}}
 
+  publish:space:
+    desc: Publish interactive web dashboard to Hugging Face Spaces
+    cmds:
+      - uv run tar-dataset publish-space {{.CLI_ARGS}}
+
   # Release & Distribution Packaging
   package:
     desc: Build all release bundles (CSV, Parquet, AI, SQLite, R, Python, and checksums)

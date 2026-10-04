@@ -11,6 +11,7 @@ from tar_dataset.cli import app
 from tar_dataset.exports.hf_publish import (
     HuggingFacePublisher,
     generate_dataset_card,
+    generate_space_card,
     get_project_version,
 )
 
@@ -210,3 +211,109 @@ def test_publish_repo_id_and_token_fallbacks(
             token="direct_token",
         )
         assert res2["repo_id"] == "autouser/custom-name"
+
+
+def test_generate_space_card() -> None:
+    """Test generating Space card markdown with frontmatter."""
+    card = generate_space_card("0.4.1", "The Amazing Race Analytics Dashboard")
+    assert "sdk: streamlit" in card
+    assert "emoji: 🌍" in card
+    assert "app_file: app.py" in card
+    assert "v0.4.1" in card
+
+
+def test_prepare_space_staging_directory(tmp_path: Path) -> None:
+    """Test preparing Hugging Face Space staging folder."""
+    processed_dir = tmp_path / "data" / "processed"
+    processed_dir.mkdir(parents=True)
+    wiki_dir = tmp_path / "data" / "raw" / "wikipedia"
+    wiki_dir.mkdir(parents=True)
+    src_dir = tmp_path / "src" / "tar_dataset"
+    src_dir.mkdir(parents=True)
+
+    (processed_dir / "seasons.parquet").write_text("dummy", encoding="utf-8")
+    (wiki_dir / "season_us_39.json").write_text('{"season": 39}', encoding="utf-8")
+    (src_dir / "__init__.py").write_text("", encoding="utf-8")
+    (tmp_path / "LICENSE").write_text("Apache-2.0", encoding="utf-8")
+
+    publisher = HuggingFacePublisher(
+        repo_root=tmp_path,
+        processed_dir="data/processed",
+    )
+
+    stage_dir = tmp_path / "space_staging"
+    staged = publisher.prepare_space_staging_directory(stage_dir)
+
+    assert (staged / "README.md").exists()
+    assert (staged / "requirements.txt").exists()
+    assert (staged / ".streamlit" / "config.toml").exists()
+    assert (staged / "app.py").exists()
+    assert (staged / "src" / "tar_dataset" / "__init__.py").exists()
+    assert (staged / "data" / "processed" / "seasons.parquet").exists()
+    assert (staged / "data" / "raw" / "wikipedia" / "season_us_39.json").exists()
+
+
+@patch("huggingface_hub.HfApi")
+def test_publish_space(mock_api_cls: MagicMock, tmp_path: Path) -> None:
+    """Test publish_space method logic."""
+    mock_api = mock_api_cls.return_value
+    mock_api.whoami.return_value = {"name": "testuser"}
+
+    publisher = HuggingFacePublisher(repo_root=tmp_path)
+
+    # 1. Custom staging directory
+    custom_stage = tmp_path / "space_stage"
+    res = publisher.publish_space(
+        repo_id="testuser/the-amazing-race-dashboard",
+        token="hf_test_token",
+        staging_dir=custom_stage,
+    )
+    assert res["repo_id"] == "testuser/the-amazing-race-dashboard"
+    assert "https://huggingface.co/spaces/" in res["url"]
+    mock_api.create_repo.assert_called_with(
+        repo_id="testuser/the-amazing-race-dashboard",
+        repo_type="space",
+        space_sdk="streamlit",
+        exist_ok=True,
+        private=False,
+    )
+    mock_api.upload_folder.assert_called()
+
+
+def test_cli_publish_space_help() -> None:
+    """Test tar-dataset publish-space --help."""
+    res = runner.invoke(app, ["publish-space", "--help"])
+    assert res.exit_code == 0
+    assert "Publish interactive Streamlit dashboard" in res.stdout
+
+
+def test_cli_publish_space_stage_only(tmp_path: Path) -> None:
+    """Test tar-dataset publish-space --stage-only."""
+    stage_dir = tmp_path / "cli_space_stage"
+    res = runner.invoke(app, ["publish-space", "--stage-only", str(stage_dir)])
+    assert res.exit_code == 0
+    assert "staged locally" in res.stdout
+    assert (stage_dir / "app.py").exists()
+
+
+@patch("tar_dataset.exports.hf_publish.HuggingFacePublisher.publish_space")
+def test_cli_publish_space_success(mock_pub: MagicMock) -> None:
+    """Test successful CLI publish-space invocation."""
+    mock_pub.return_value = {
+        "repo_id": "testuser/the-amazing-race-dashboard",
+        "url": "https://huggingface.co/spaces/testuser/the-amazing-race-dashboard",
+    }
+    res = runner.invoke(
+        app, ["publish-space", "--repo-id", "testuser/the-amazing-race-dashboard"]
+    )
+    assert res.exit_code == 0
+    assert "Successfully deployed dashboard" in res.stdout
+
+
+@patch("tar_dataset.exports.hf_publish.HuggingFacePublisher.publish_space")
+def test_cli_publish_space_failure(mock_pub: MagicMock) -> None:
+    """Test failed CLI publish-space invocation."""
+    mock_pub.side_effect = RuntimeError("Auth failed")
+    res = runner.invoke(app, ["publish-space"])
+    assert res.exit_code == 1
+    assert "Error publishing to Hugging Face Spaces" in res.stdout

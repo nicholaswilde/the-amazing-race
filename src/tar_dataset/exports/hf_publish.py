@@ -193,6 +193,38 @@ If you use this dataset in your research or applications, please cite:
 """
 
 
+def generate_space_card(
+    version: str = "0.1.0",
+    title: str = "The Amazing Race Analytics Dashboard",
+) -> str:
+    """Generate Hugging Face Space Card (README.md) with YAML metadata frontmatter."""
+    return f"""---
+title: {title}
+emoji: 🌍
+colorFrom: purple
+colorTo: indigo
+sdk: streamlit
+sdk_version: "1.45.0"
+app_file: app.py
+pinned: false
+license: apache-2.0
+short_description: Interactive tidy analytics & predictive modeling for The Amazing Race
+---
+
+# 🌍 {title} (v{version})
+
+An interactive exploratory analytics platform and empirical predictive engine for the reality competition television series **The Amazing Race**.
+
+- **Season Explorer**: Interactive leg routes, destination maps, placement trajectory charts (1st place at top), and roadblock trackers across Seasons 1–38 and currently airing Season 39.
+- **Outcome & Risk Predictor**: Empirical multi-factor modeling evaluating win and finale probabilities based on momentum, age dynamics, relationship archetypes, and power items.
+- **Challenge Browser**: Search and filter 1,700+ challenges across Roadblocks, Detours, Fast Forwards, and Speed Bumps.
+- **Theme**: Catppuccin Mocha dark theme.
+
+Dataset source: [nicholascwilde/the-amazing-race](https://huggingface.co/datasets/nicholascwilde/the-amazing-race)  
+GitHub repository: [nicholaswilde/the-amazing-race](https://github.com/nicholaswilde/the-amazing-race)
+"""
+
+
 class HuggingFacePublisher:
     """Manages staging and synchronization of datasets to the Hugging Face Hub."""
 
@@ -365,6 +397,200 @@ class HuggingFacePublisher:
         return {
             "repo_id": target_repo,
             "url": dataset_url,
+            "version": self.version,
+            "private": private,
+        }
+
+    def prepare_space_staging_directory(
+        self,
+        staging_dir: Path | str,
+        title: str = "The Amazing Race Analytics Dashboard",
+    ) -> Path:
+        """Prepare staging directory containing all files required for Hugging Face Spaces deployment."""
+        stage_path = Path(staging_dir).resolve()
+        stage_path.mkdir(parents=True, exist_ok=True)
+
+        # 1. README.md with Space metadata frontmatter
+        space_card = generate_space_card(version=self.version, title=title)
+        (stage_path / "README.md").write_text(space_card, encoding="utf-8")
+
+        # 2. requirements.txt
+        reqs = [
+            "streamlit>=1.35.0",
+            "pandas>=2.2.2",
+            "pyarrow>=16.0.0",
+            "altair>=5.0.0",
+            "pydantic>=2.7.0",
+            "beautifulsoup4>=4.12.3",
+            "httpx>=0.27.0",
+            "lxml>=5.2.0",
+            "rich>=13.7.0",
+        ]
+        (stage_path / "requirements.txt").write_text(
+            "\n".join(reqs) + "\n", encoding="utf-8"
+        )
+
+        # 3. .streamlit/config.toml (Catppuccin Mocha theme)
+        dot_streamlit = stage_path / ".streamlit"
+        dot_streamlit.mkdir(parents=True, exist_ok=True)
+        local_config = self.repo_root / ".streamlit" / "config.toml"
+        if local_config.exists():
+            shutil.copy2(local_config, dot_streamlit / "config.toml")
+        else:
+            catppuccin_toml = (
+                "[theme]\n"
+                'base = "dark"\n'
+                'primaryColor = "#cba6f7"\n'
+                'backgroundColor = "#1e1e2e"\n'
+                'secondaryBackgroundColor = "#181825"\n'
+                'textColor = "#cdd6f4"\n'
+                'font = "sans serif"\n\n'
+                "[client]\n"
+                'toolbarMode = "minimal"\n'
+            )
+            (dot_streamlit / "config.toml").write_text(
+                catppuccin_toml, encoding="utf-8"
+            )
+
+        # 4. Space entrypoint app.py
+        space_app_py = (
+            '"""Hugging Face Space entrypoint for The Amazing Race Analytics Dashboard."""\n\n'
+            "import sys\n"
+            "from pathlib import Path\n\n"
+            'src_dir = Path(__file__).resolve().parent / "src"\n'
+            "if src_dir.exists() and str(src_dir) not in sys.path:\n"
+            "    sys.path.insert(0, str(src_dir))\n\n"
+            "from tar_dataset.dashboard.app import main\n\n"
+            'if __name__ == "__main__":\n'
+            "    main()\n"
+        )
+        (stage_path / "app.py").write_text(space_app_py, encoding="utf-8")
+
+        # 5. Copy src/tar_dataset
+        src_target = stage_path / "src" / "tar_dataset"
+        src_source = self.repo_root / "src" / "tar_dataset"
+        if src_source.exists():
+            if src_target.exists():
+                shutil.rmtree(src_target)
+            shutil.copytree(
+                src_source,
+                src_target,
+                ignore=shutil.ignore_patterns("__pycache__", "*.pyc"),
+            )
+
+        # 6. Copy processed data tables
+        data_proc_target = stage_path / "data" / "processed"
+        data_proc_target.mkdir(parents=True, exist_ok=True)
+        if self.processed_dir.exists():
+            for pq in self.processed_dir.glob("*.parquet"):
+                shutil.copy2(pq, data_proc_target / pq.name)
+            for csv_file in self.processed_dir.glob("*.csv"):
+                shutil.copy2(csv_file, data_proc_target / csv_file.name)
+
+        # 7. Copy in-progress raw wikipedia files
+        data_raw_target = stage_path / "data" / "raw" / "wikipedia"
+        data_raw_target.mkdir(parents=True, exist_ok=True)
+        wiki_raw = self.repo_root / "data" / "raw" / "wikipedia"
+        if wiki_raw.exists():
+            for json_file in wiki_raw.glob("season_*.json"):
+                shutil.copy2(json_file, data_raw_target / json_file.name)
+
+        # 8. Support files
+        if (self.repo_root / "LICENSE").exists():
+            shutil.copy2(self.repo_root / "LICENSE", stage_path / "LICENSE")
+
+        return stage_path
+
+    def publish_space(
+        self,
+        repo_id: str | None = None,
+        token: str | None = None,
+        private: bool = False,
+        commit_message: str | None = None,
+        staging_dir: Path | str | None = None,
+        title: str = "The Amazing Race Analytics Dashboard",
+    ) -> dict[str, Any]:
+        """Publish the dashboard application to Hugging Face Spaces."""
+        try:
+            from huggingface_hub import HfApi
+        except ImportError as err:
+            raise ImportError(
+                "huggingface_hub is required to publish to Hugging Face Spaces. "
+                "Install it with `uv pip install huggingface_hub` or `pip install 'the-amazing-race[hf]'`."
+            ) from err
+
+        auth_token = (
+            token
+            or os.environ.get("HF_TOKEN")
+            or os.environ.get("HUGGING_FACE_HUB_TOKEN")
+        )
+        if not auth_token:
+            try:
+                from huggingface_hub import get_token
+
+                auth_token = get_token()
+            except Exception as e:
+                logger.debug("Could not retrieve stored Hugging Face token: %s", e)
+
+        api = HfApi(token=auth_token)
+
+        target_repo = repo_id or os.environ.get("HF_SPACE_REPO_ID")
+        if not target_repo:
+            try:
+                user_info = api.whoami(token=auth_token)
+                username = user_info.get("name")
+                target_repo = f"{username}/the-amazing-race-dashboard"
+            except Exception as e:
+                logger.warning("Could not auto-determine Hugging Face username: %s", e)
+                target_repo = "nicholascwilde/the-amazing-race-dashboard"
+        elif "/" not in target_repo:
+            try:
+                user_info = api.whoami(token=auth_token)
+                username = user_info.get("name")
+                target_repo = f"{username}/{target_repo}"
+            except Exception as e:
+                logger.debug("Could not prepend username to space repository ID: %s", e)
+
+        logger.info("Target Hugging Face Space repository: %s", target_repo)
+
+        api.create_repo(
+            repo_id=target_repo,
+            repo_type="space",
+            space_sdk="streamlit",
+            exist_ok=True,
+            private=private,
+        )
+
+        msg = commit_message or f"Deploy The Amazing Race dashboard v{self.version}"
+
+        if staging_dir:
+            stage_path = Path(staging_dir)
+            self.prepare_space_staging_directory(stage_path, title=title)
+            api.upload_folder(
+                folder_path=str(stage_path),
+                repo_id=target_repo,
+                repo_type="space",
+                commit_message=msg,
+            )
+        else:
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                stage_path = Path(tmp_dir)
+                self.prepare_space_staging_directory(stage_path, title=title)
+                api.upload_folder(
+                    folder_path=str(stage_path),
+                    repo_id=target_repo,
+                    repo_type="space",
+                    commit_message=msg,
+                )
+
+        space_url = f"https://huggingface.co/spaces/{target_repo}"
+        logger.info(
+            "Successfully deployed dashboard to Hugging Face Spaces: %s", space_url
+        )
+
+        return {
+            "repo_id": target_repo,
+            "url": space_url,
             "version": self.version,
             "private": private,
         }

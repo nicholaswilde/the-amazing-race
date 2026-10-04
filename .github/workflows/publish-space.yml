@@ -1,0 +1,59 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  workflow_dispatch:
+    inputs:
+      private:
+        description: 'Deploy Space as private'
+        type: boolean
+        default: false
+      repo_id:
+        description: 'Target Space repository ID (leave blank for default: <username>/the-amazing-race-dashboard)'
+        type: string
+        default: ''
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy-space:
+    name: Deploy Dashboard to Hugging Face Spaces
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install Task
+        uses: arduino/setup-task@v2
+        with:
+          version: 3.x
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install dependencies
+        run: task sync
+
+      - name: Deploy Dashboard Space
+        run: |
+          FLAGS=""
+          if [ "${{ github.event.inputs.private }}" = "true" ]; then
+            FLAGS="${FLAGS} --private"
+          fi
+          if [ -n "${{ github.event.inputs.repo_id }}" ]; then
+            FLAGS="${FLAGS} --repo-id ${{ github.event.inputs.repo_id }}"
+          fi
+          task publish:space -- ${FLAGS}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}

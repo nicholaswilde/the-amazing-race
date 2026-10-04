@@ -660,6 +660,67 @@ def publish_hf(
         raise typer.Exit(1) from e
 
 
+@app.command("publish-space")
+def publish_space_cmd(
+    repo_id: str | None = typer.Option(
+        None,
+        "--repo-id",
+        "-r",
+        help="Target Hugging Face Space repository ID (e.g. <username>/the-amazing-race-dashboard)",
+    ),
+    token: str | None = typer.Option(
+        None,
+        "--token",
+        "-t",
+        help="Hugging Face API token with write permissions (or set HF_TOKEN)",
+    ),
+    private: bool = typer.Option(
+        False,
+        "--private",
+        help="Create Space repository as private on Hugging Face Hub",
+    ),
+    message: str | None = typer.Option(
+        None,
+        "--message",
+        "-m",
+        help="Custom commit message for Space deployment",
+    ),
+    stage_only: Path | None = typer.Option(
+        None,
+        "--stage-only",
+        help="Only prepare Space staging directory locally without uploading",
+    ),
+) -> None:
+    """Publish interactive Streamlit dashboard to Hugging Face Spaces."""
+    console.print(
+        "[bold blue]Preparing The Amazing Race Dashboard for Hugging Face Spaces...[/bold blue]"
+    )
+    publisher = HuggingFacePublisher()
+
+    if stage_only:
+        staged = publisher.prepare_space_staging_directory(stage_only)
+        console.print(f"[green]✓ Dashboard Space staged locally at {staged}[/green]")
+        return
+
+    try:
+        result = publisher.publish_space(
+            repo_id=repo_id,
+            token=token,
+            private=private,
+            commit_message=message,
+        )
+        console.print(
+            "[bold green]✓ Successfully deployed dashboard to Hugging Face Spaces![/bold green]"
+        )
+        console.print(f"Space Repository: [cyan]{result['repo_id']}[/cyan]")
+        console.print(f"Space URL: [link={result['url']}]{result['url']}[/link]")
+    except Exception as e:
+        console.print(
+            f"[bold red]Error publishing to Hugging Face Spaces:[/bold red] {e}"
+        )
+        raise typer.Exit(1) from e
+
+
 # ==============================================================================
 # CLI Inspection Sub-commands: tar-dataset show ...
 # ==============================================================================
