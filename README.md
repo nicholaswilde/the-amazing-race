@@ -21,6 +21,7 @@ The dataset is partitioned into clean relational tables adhering to tidy data pr
 ### Tidy Datasets (`data/processed/`)
 
 > **Comprehensive Documentation**: See the [Data Dictionary & Schema Reference](docs/data_dictionary.md) for complete column descriptions, primary/foreign keys, and Entity-Relationship diagrams across all 7 tables.  
+> **Interactive Web Dashboard**: Launch the local Streamlit dashboard via `task dashboard` (Catppuccin Mocha theme) to explore seasons 1–39, live empirical predictions, and challenge analytics.  
 > **Interactive Notebook**: Check out [`notebooks/tar_exploration.ipynb`](notebooks/tar_exploration.ipynb) for a reference starter guide covering racing averages, route maps, and data analysis.
 
 All processed tables are provided in **CSV**, **Apache Parquet**, **Apache Arrow IPC** (`data/processed/arrow/`), and native **R** formats (`.rds` and `.rda` in `data/processed/r/`), alongside a unified **SQLite** relational database (`data/processed/tar.db`) and an integrated **GeoJSON** geographic dataset (`data/processed/tar_routes.geojson`) with global flight paths and pit stop coordinates.
@@ -636,9 +637,9 @@ uv run tar-dataset publish-hf --stage-only dist/hf_staging
 ```
 
 ### 18. Interactive Web Dashboard
-Launches a local Streamlit web application for interactive race data exploration, empirical predictions, and challenge browsing:
+Launches a local Streamlit web application styled in the **Catppuccin Mocha** theme for interactive race data exploration, empirical predictions, and challenge browsing:
 ```bash
-# Launch dashboard (default: http://0.0.0.0:8501)
+# Launch dashboard on http://0.0.0.0:8501
 task dashboard
 # or via CLI:
 uv run --extra dashboard tar-dataset dashboard
@@ -648,9 +649,11 @@ uv run --extra dashboard tar-dataset dashboard --port 8502 --no-browser
 ```
 
 Features included in the dashboard:
-- **Season Explorer**: Select seasons (1–38) to view interactive leg routes and destination maps, placement trajectory line charts, full season standings, and roadblock trackers with equity scores.
+- **Catppuccin Mocha Theme**: Custom dark theme with Base (`#1e1e2e`), Mantle (`#181825`), Mauve (`#cba6f7`) accents, and coordinated Altair visualization palettes.
+- **In-Progress Season Support**: Automatically detects and loads active, airing seasons (including Season 39) alongside historical seasons 1–38, displaying broadcast legs, current placements, and newly aired challenges.
+- **Season Explorer**: Select seasons (1–38 and in-progress 39) to view interactive leg routes and destination maps, team placement trajectory line charts (1st place at top), full standings, and roadblock trackers with equity scores.
 - **Interactive Predictor**: Contender rankings, win and finale probabilities, multi-factor breakdowns (momentum, age peak, relationship archetype, power items), diagnostic strengths/risks, and a custom "What-If" team simulator.
-- **Challenge Browser**: Search, filter, and analyze 1,699 challenges across Roadblocks, Detours, Fast Forwards, and Speed Bumps, with cross-season trend analytics and all-time top performer leaderboards.
+- **Challenge Browser**: Search, filter, and analyze 1,700+ challenges across Roadblocks, Detours, Fast Forwards, and Speed Bumps, with cross-season trend analytics and all-time top performer leaderboards.
 
 ---
 
