@@ -181,6 +181,11 @@ tasks:
     cmds:
       - uv run tar-dataset package --component python {{.CLI_ARGS}}
 
+  package:tidytuesday:
+    desc: Build R4DS TidyTuesday intake package bundle (tar-dataset-tidytuesday-*.zip)
+    cmds:
+      - uv run tar-dataset package --component tidytuesday {{.CLI_ARGS}}
+
   package:checksums:
     desc: Generate SHA-256 checksums file for release assets
     cmds:

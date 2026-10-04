@@ -434,7 +434,7 @@ def package_cmd(
         "all",
         "--component",
         "-c",
-        help="Component to package: all, csv, parquet, ai, sqlite, r, python, checksums",
+        help="Component to package: all, csv, parquet, ai, sqlite, r, python, tidytuesday, checksums",
     ),
 ) -> None:
     """Package segmented release archives for CSV, Parquet, AI JSONL, R, Python, and generate checksums."""
@@ -476,6 +476,11 @@ def package_cmd(
             "python": packager.package_python(),
             "checksums": packager.generate_checksums(),
         }
+    elif comp == "tidytuesday":
+        results = {
+            "tidytuesday": packager.package_tidytuesday(),
+            "checksums": packager.generate_checksums(),
+        }
     elif comp == "manifest":
         results = {
             "manifest": packager.generate_manifest(),
@@ -485,7 +490,7 @@ def package_cmd(
         results = {"checksums": packager.generate_checksums()}
     else:
         console.print(
-            f"[bold red]Unknown component '{component}'.[/bold red] Choose from: all, csv, parquet, ai, sqlite, r, python, manifest, checksums."
+            f"[bold red]Unknown component '{component}'.[/bold red] Choose from: all, csv, parquet, ai, sqlite, r, python, tidytuesday, manifest, checksums."
         )
         raise typer.Exit(1)
 

@@ -226,6 +226,43 @@ class ReleasePackager:
 
         return target_path
 
+    def package_tidytuesday(self) -> Path:
+        """Package TidyTuesday submission bundle (CSVs, scripts, and documentation)."""
+        archive_name = f"tar-dataset-tidytuesday-{self.clean_version}.zip"
+        target_path = self.output_dir / archive_name
+        logger.info("Building TidyTuesday bundle: %s", target_path)
+
+        tidytuesday_dir = self.repo_root / "tidytuesday"
+        with zipfile.ZipFile(target_path, "w", zipfile.ZIP_DEFLATED) as zf:
+            for table in TABLE_NAMES:
+                csv_file = self.processed_dir / f"{table}.csv"
+                if csv_file.exists():
+                    zf.write(csv_file, arcname=f"data/{csv_file.name}")
+
+            for tt_file in [
+                "readme.md",
+                "cleaning.R",
+                "exploration.R",
+                "submission_issue.md",
+            ]:
+                p = tidytuesday_dir / tt_file
+                if p.exists():
+                    zf.write(p, arcname=tt_file)
+
+            data_dict = self.docs_dir / "data_dictionary.md"
+            if data_dict.exists():
+                zf.write(data_dict, arcname="data_dictionary.md")
+
+            license_file = self.repo_root / "LICENSE"
+            if license_file.exists():
+                zf.write(license_file, arcname="LICENSE")
+
+            citation_file = self.repo_root / "CITATION.cff"
+            if citation_file.exists():
+                zf.write(citation_file, arcname="CITATION.cff")
+
+        return target_path
+
     def package_r(self) -> Path:
         """Build CRAN-compliant R source package tarball."""
         archive_name = f"theamazingrace_{self.clean_version}.tar.gz"
@@ -389,6 +426,7 @@ class ReleasePackager:
         if sqlite_pkg:
             results["sqlite"] = sqlite_pkg
         results["r"] = self.package_r()
+        results["tidytuesday"] = self.package_tidytuesday()
         results["python"] = self.package_python()
         results["manifest"] = self.generate_manifest()
         results["checksums"] = self.generate_checksums()

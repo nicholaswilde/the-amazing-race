@@ -104,6 +104,19 @@ def test_release_packager_all(tmp_path: Path) -> None:
         assert any(n.endswith("LICENSE") for n in r_names)
         assert any(n.endswith("README.md") for n in r_names)
 
+    # Check TidyTuesday bundle
+    assert "tidytuesday" in results
+    tt_zip = results["tidytuesday"]
+    assert tt_zip.exists()
+    with zipfile.ZipFile(tt_zip, "r") as zf:
+        tt_names = zf.namelist()
+        assert "readme.md" in tt_names
+        assert "cleaning.R" in tt_names
+        assert "exploration.R" in tt_names
+        assert "submission_issue.md" in tt_names
+        assert "data/seasons.csv" in tt_names
+        assert "LICENSE" in tt_names
+
     # Check Manifest
     assert "manifest" in results
     manifest_file = results["manifest"]
@@ -159,6 +172,22 @@ def test_cli_package_command(tmp_path: Path) -> None:
     assert result.exit_code == 0
     assert (out_dir / "tar-dataset-csv-0.5.0.zip").exists()
     assert (out_dir / "checksums.txt").exists()
+
+    # Test tidytuesday component
+    tt_result = runner.invoke(
+        app,
+        [
+            "package",
+            "--output-dir",
+            str(out_dir),
+            "--version",
+            "0.5.0",
+            "--component",
+            "tidytuesday",
+        ],
+    )
+    assert tt_result.exit_code == 0
+    assert (out_dir / "tar-dataset-tidytuesday-0.5.0.zip").exists()
 
     # Test invalid component
     bad_result = runner.invoke(
