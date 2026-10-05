@@ -66,6 +66,11 @@ jobs:
           version: 3.x
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Install typos
+        uses: taiki-e/install-action@v2
+        with:
+          tool: typos
+
       - name: Install dependencies
         run: task sync
 
