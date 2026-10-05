@@ -1,4 +1,418 @@
 version,season,contestant_id,name,age,gender,relationship,hometown,hometown_state,hometown_country,status,roadblocks_completed
+AUS,1,AUS-S01-01,"Ryan ""Ryot"" Wilson",23,M,Brother & Sister,"Sydney , New South Wales",NSW,AUS,"Eliminated 1st (in Huế, Vietnam)",0
+AUS,1,AUS-S01-02,Liberty Wilson,27,M,Brother & Sister,"Sydney , New South Wales",NSW,AUS,"Eliminated 1st (in Huế, Vietnam)",0
+AUS,1,AUS-S01-03,Anne-Marie Brown,53,M,Workmates,"Perth , Western Australia",WA,AUS,Eliminated 2nd (in Macau),0
+AUS,1,AUS-S01-04,Tracy Read,46,M,Workmates,"Perth , Western Australia",WA,AUS,Eliminated 2nd (in Macau),0
+AUS,1,AUS-S01-05,Richard Toutounji,29,M,Married Entrepreneurs,"Sydney , New South Wales",NSW,AUS,"Eliminated 3rd (in Addo, South Africa)",0
+AUS,1,AUS-S01-06,Joey Toutounji,30,M,Married Entrepreneurs,"Sydney , New South Wales",NSW,AUS,"Eliminated 3rd (in Addo, South Africa)",0
+AUS,1,AUS-S01-07,Mo El-Leissy,26,M,Friends,"Melbourne , Victoria",VIC,AUS,"Eliminated 4th (in Cape Town, South Africa)",0
+AUS,1,AUS-S01-08,Mos Haroun,25,M,Friends,"Melbourne , Victoria",VIC,AUS,"Eliminated 4th (in Cape Town, South Africa)",0
+AUS,1,AUS-S01-09,Alana Munday,25,F,Reunited Sisters,"Adelaide , South Australia",SA,AUS,"Eliminated 5th (in Prague, Czech Republic)",0
+AUS,1,AUS-S01-10,Mel Greig,28,F,Reunited Sisters,"Adelaide , South Australia",SA,AUS,"Eliminated 5th (in Prague, Czech Republic)",0
+AUS,1,AUS-S01-11,Chris Pselletes,23,M,Dating,"Sydney , New South Wales",NSW,AUS,"Eliminated 6th (in Niedzica, Poland)",0
+AUS,1,AUS-S01-12,Anastasia Drimousis,21,M,Dating,"Sydney , New South Wales",NSW,AUS,"Eliminated 6th (in Niedzica, Poland)",0
+AUS,1,AUS-S01-13,Dave Miller,52,M,Married Bikers,"Geraldton , Western Australia",WA,AUS,"Eliminated 7th (en route to Masada, Israel)",3
+AUS,1,AUS-S01-14,Kelly Miller,37,M,Married Bikers,"Geraldton , Western Australia",WA,AUS,"Eliminated 7th (en route to Masada, Israel)",0
+AUS,1,AUS-S01-15,Matt Nunn,26,M,Farmers,"Birdsville , Queensland",QLD,AUS,"Eliminated 8th (in Colombo, Sri Lanka)",1
+AUS,1,AUS-S01-16,Tom Warriner,26,M,Farmers,"Newcastle Waters , Northern Territory",NT,AUS,"Eliminated 8th (in Colombo, Sri Lanka)",0
+AUS,1,AUS-S01-17,Jeff Downes,60,M,Father & Son,"Brisbane , Queensland",QLD,AUS,Third place,0
+AUS,1,AUS-S01-18,Luke Downes,32,M,Father & Son,"Brisbane , Queensland",QLD,AUS,Third place,0
+AUS,1,AUS-S01-19,Sam Schoers,22,M,Models,"Perth , Western Australia",WA,AUS,Runners-up,0
+AUS,1,AUS-S01-20,Renae Wauhop,23,M,Models,"Perth , Western Australia",WA,AUS,Runners-up,0
+AUS,1,AUS-S01-21,Tyler Atkins,25,M,Surfers,"Sydney , New South Wales",NSW,AUS,Winners,0
+AUS,1,AUS-S01-22,Nathan Joliffe,25,M,Surfers,"Sydney , New South Wales",NSW,AUS,Winners,0
+AUS,2,AUS-S02-01,Adam Corowa,30,M,Cousins,"Coolangatta, Queensland",QLD,AUS,"Eliminated 1st (in Delhi, India)",0
+AUS,2,AUS-S02-02,Dane Corowa,29,M,Cousins,"Tweed Heads, New South Wales",NSW,AUS,"Eliminated 1st (in Delhi, India)",0
+AUS,2,AUS-S02-03,Sue Bumback,40,M,Hairdressers,"Geraldton, Western Australia",WA,AUS,"Eliminated 2nd (in Jaipur, India)",0
+AUS,2,AUS-S02-04,Teresa Italiano,44,M,Hairdressers,"Geraldton, Western Australia",WA,AUS,"Eliminated 2nd (in Jaipur, India)",0
+AUS,2,AUS-S02-05,Kym Bouckaert,46,M,Engaged,"Brisbane, Queensland",QLD,AUS,"Eliminated 3rd (in Dubai, United Arab Emirates)",0
+AUS,2,AUS-S02-06,Donna Verney,42,M,Engaged,"Brisbane, Queensland",QLD,AUS,"Eliminated 3rd (in Dubai, United Arab Emirates)",0
+AUS,2,AUS-S02-07,Ross Thornton,55,M,Father & Daughter,"Melbourne, Victoria",VIC,AUS,"Eliminated 4th (in Istanbul, Turkey)",0
+AUS,2,AUS-S02-08,Tarryn Thornton,25,M,Father & Daughter,"Melbourne, Victoria",VIC,AUS,"Eliminated 4th (in Istanbul, Turkey)",0
+AUS,2,AUS-S02-09,"Geoff ""Sticky"" Stick",24,M,Flatmates,"Launceston, Tasmania",TAS,AUS,"Eliminated 5th (in Ciénaga de Zapata, Cuba)",0
+AUS,2,AUS-S02-10,Sam Hay,24,M,Flatmates,"Launceston, Tasmania",TAS,AUS,"Eliminated 5th (in Ciénaga de Zapata, Cuba)",0
+AUS,2,AUS-S02-11,James Kingsbury,23,M,Dating,"Melbourne, Victoria",VIC,AUS,"Eliminated 6th (in Vancouver, Canada)",0
+AUS,2,AUS-S02-12,Sarah Roza,32,M,Dating,"Melbourne, Victoria",VIC,AUS,"Eliminated 6th (in Vancouver, Canada)",0
+AUS,2,AUS-S02-13,Lucy Pelosi,36,F,Sisters,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Banff, Canada)",0
+AUS,2,AUS-S02-14,Emilia Pelosi,30,F,Sisters,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Banff, Canada)",0
+AUS,2,AUS-S02-15,Joseph Caristo,22,M,Brother & Sister,"Sydney, New South Wales",NSW,AUS,"Eliminated 8th (in Inner Mongolia, China)",0
+AUS,2,AUS-S02-16,Grace Caristo,21,M,Brother & Sister,"Sydney, New South Wales",NSW,AUS,"Eliminated 8th (in Inner Mongolia, China)",0
+AUS,2,AUS-S02-17,Michelle Troy,26,M,Cheerleader Twins,"Sydney, New South Wales",NSW,AUS,Third place,0
+AUS,2,AUS-S02-18,Jo Troy,26,M,Cheerleader Twins,"Sydney, New South Wales",NSW,AUS,Third place,0
+AUS,2,AUS-S02-19,Paul Montgomery,27,M,Workmates,"Melbourne, Victoria",VIC,AUS,Runners-up,0
+AUS,2,AUS-S02-20,Steve Scale,29,M,Workmates,"Melbourne, Victoria",VIC,AUS,Runners-up,0
+AUS,2,AUS-S02-21,Shane Haw,43,M,Cops,"Melbourne, Victoria",VIC,AUS,Winners,0
+AUS,2,AUS-S02-22,Andrew Thoday,35,M,Cops,"Melbourne, Victoria",VIC,AUS,Winners,0
+AUS,3,AUS-S03-01,Inga Lederhaus,27,M,Pageant Models,"Perth, Western Australia",WA,AUS,"Eliminated 1st (in Mesopotamia, New Zealand)",0
+AUS,3,AUS-S03-02,Tiharna McGregor,26,M,Pageant Models,"Perth, Western Australia",WA,AUS,"Eliminated 1st (in Mesopotamia, New Zealand)",0
+AUS,3,AUS-S03-03,Elizabeth Grant,50,M,Mother & Son,"Adelaide, South Australia",SA,AUS,"Eliminated 2nd (in Siem Reap, Cambodia)",0
+AUS,3,AUS-S03-04,Todd Grant,25,M,Mother & Son,"Adelaide, South Australia",SA,AUS,"Eliminated 2nd (in Siem Reap, Cambodia)",0
+AUS,3,AUS-S03-05,Aston Garratt,32,M,Feisty Friends,"Auckland, New Zealand",,NZL,"Eliminated 3rd (in Koh Poda, Thailand)",0
+AUS,3,AUS-S03-06,Christie Orr,35,M,Feisty Friends,"Auckland, New Zealand",,NZL,"Eliminated 3rd (in Koh Poda, Thailand)",0
+AUS,3,AUS-S03-07,Emily Trenberth,24,F,Siblings,"Christchurch, New Zealand",,NZL,"Eliminated 4th (in Khomas Region, Namibia)",0
+AUS,3,AUS-S03-08,Jono Trenberth,26,M,Siblings,"Christchurch, New Zealand",,NZL,"Eliminated 4th (in Khomas Region, Namibia)",0
+AUS,3,AUS-S03-09,John Charles,35,M,Best Mates,"Christchurch, New Zealand",,NZL,"Eliminated 5th (in Kostroma, Russia)",0
+AUS,3,AUS-S03-10,Murray Roeske,35,M,Best Mates,"Wellington, New Zealand",,NZL,"Eliminated 5th (in Kostroma, Russia)",0
+AUS,3,AUS-S03-11,Cat O'Brien,38,M,Foster Parents,"Hamilton, New Zealand",,NZL,"Eliminated 6th (in Dubrovnik, Croatia)",0
+AUS,3,AUS-S03-12,Jesse O'Brien,36,M,Foster Parents,"Hamilton, New Zealand",,NZL,"Eliminated 6th (in Dubrovnik, Croatia)",0
+AUS,3,AUS-S03-13,Carla Beazley,37,M,Fitness Mums,"Tauranga, New Zealand",,NZL,"Eliminated 7th (in Tigre, Argentina)",0
+AUS,3,AUS-S03-14,Hereni Fulton,42,M,Fitness Mums,"Tauranga, New Zealand",,NZL,"Eliminated 7th (in Tigre, Argentina)",0
+AUS,3,AUS-S03-15,Ashleigh Jende,27,M,Newlyweds,"Melbourne, Victoria",VIC,AUS,Third place,0
+AUS,3,AUS-S03-16,Jarrod Jende,28,M,Newlyweds,"Melbourne, Victoria",VIC,AUS,Third place,0
+AUS,3,AUS-S03-17,Sally Yamamoto,33,M,Dating Bodybuilders (Legs 1–6) Engaged Bodybuilders (Legs 6–10),"Perth, Western Australia",WA,AUS,Runners-up,0
+AUS,3,AUS-S03-18,Tyson Smith,38,M,Dating Bodybuilders (Legs 1–6) Engaged Bodybuilders (Legs 6–10),"Perth, Western Australia",WA,AUS,Runners-up,0
+AUS,3,AUS-S03-19,Daniel Little,28,M,Intensive Care Nurses,"Sydney, New South Wales",NSW,AUS,Winners,0
+AUS,3,AUS-S03-20,Ryan Thomas,32,M,Intensive Care Nurses,"Sydney, New South Wales",NSW,AUS,Winners,0
+AUS,4,AUS-S04-01,Alana Pappas,21,M,Gen Z Siblings,"Adelaide, South Australia",SA,AUS,"Eliminated 1st (in Seoul, South Korea)",0
+AUS,4,AUS-S04-02,Niko Pappas,19,M,Gen Z Siblings,"Adelaide, South Australia",SA,AUS,"Eliminated 1st (in Seoul, South Korea)",0
+AUS,4,AUS-S04-03,Judy Bowe,53,M,Nuns,"Canberra, Australian Capital Territory",ACT,AUS,"Eliminated 2nd (in Cheorwon, South Korea)",0
+AUS,4,AUS-S04-04,Therese Mills,45,M,Nuns,"Canberra, Australian Capital Territory",ACT,AUS,"Eliminated 2nd (in Cheorwon, South Korea)",0
+AUS,4,AUS-S04-05,Rowah Hassan,42,F,Mum & Daughter,"Sydney, New South Wales",NSW,AUS,"Eliminated 3rd (in Gia Viễn, Vietnam)",0
+AUS,4,AUS-S04-06,Amani Mawass,18,F,Mum & Daughter,"Sydney, New South Wales",NSW,AUS,"Eliminated 3rd (in Gia Viễn, Vietnam)",0
+AUS,4,AUS-S04-07,Chris Williams,58,M,Farmer and Firie,"Mount Compass, South Australia",SA,AUS,"Medically removed (in Govi-Altai, Mongolia)",1
+AUS,4,AUS-S04-08,Adrienne Clarke,59,M,Farmer and Firie,"Mount Compass, South Australia",SA,AUS,"Medically removed (in Govi-Altai, Mongolia)",0
+AUS,4,AUS-S04-09,Hayley Foruria,29,F,Sisters,"Townsville, Queensland",QLD,AUS,"Eliminated 5th (in Ulaanbataar, Mongolia)",0
+AUS,4,AUS-S04-10,Mikayla Foruria,24,F,Sisters,"Cairns, Queensland",QLD,AUS,"Eliminated 5th (in Ulaanbataar, Mongolia)",0
+AUS,4,AUS-S04-11,Sid Pierucci,26,M,The Influencers,"Bondi, New South Wales",NSW,AUS,"Eliminated 6th (in Victoria Falls, Zimbabwe)",0
+AUS,4,AUS-S04-12,Ash Ruscoe,30,M,The Influencers,"Bondi, New South Wales",NSW,AUS,"Eliminated 6th (in Victoria Falls, Zimbabwe)",0
+AUS,4,AUS-S04-13,Femi Ogunsiji,23,M,Nurses,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Lilongwe, Malawi)",0
+AUS,4,AUS-S04-14,Nick Evbuomwan,23,M,Nurses,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Lilongwe, Malawi)",0
+AUS,4,AUS-S04-15,Tom Wilkinson,23,M,Footy Mates,"Melbourne, Victoria",VIC,AUS,"Eliminated 8th (in Bangkok, Thailand)",0
+AUS,4,AUS-S04-16,Tyler Roos,23,M,Footy Mates,"Melbourne, Victoria",VIC,AUS,"Eliminated 8th (in Bangkok, Thailand)",0
+AUS,4,AUS-S04-17,Viv Dinh,25,M,Mighty Siblings,"Melbourne, Victoria",VIC,AUS,Third place,0
+AUS,4,AUS-S04-18,Joey Dinh,28,M,Mighty Siblings,"Melbourne, Victoria",VIC,AUS,Third place,0
+AUS,4,AUS-S04-19,Jasmin Onus,30,M,Deadly Duo,"Darwin, Northern Territory",NT,AUS,Runners-up,0
+AUS,4,AUS-S04-20,Jerome Cubillo,30,M,Deadly Duo,"Darwin, Northern Territory",NT,AUS,Runners-up,0
+AUS,4,AUS-S04-21,Tim Sattler-Jones,29,M,Newlyweds,"Newcastle, New South Wales",NSW,AUS,Winners,0
+AUS,4,AUS-S04-22,Rod Sattler-Jones,28,M,Newlyweds,"Newcastle, New South Wales",NSW,AUS,Winners,0
+AUS,5,AUS-S05-01,Dwes Wigann-Dann,32,M,Kimberley Cousins,"Ardyaloon, Western Australia",WA,AUS,"Eliminated 1st (in Mossman, Queensland)",0
+AUS,5,AUS-S05-02,Katherine Dann,31,M,Kimberley Cousins,"Broome, Western Australia",WA,AUS,"Eliminated 1st (in Mossman, Queensland)",0
+AUS,5,AUS-S05-03,Alex Newell,23,M,Twin Models,"Sydney, New South Wales",NSW,AUS,"Quit (in Cairns, Queensland)",0
+AUS,5,AUS-S05-04,Jack Newell,23,M,Twin Models,"Sydney, New South Wales",NSW,AUS,"Quit (in Cairns, Queensland)",0
+AUS,5,AUS-S05-05,Jude Richards,49,M,Mums,"Brisbane, Queensland",QLD,AUS,"Eliminated 3rd (in Longreach, Queensland)",0
+AUS,5,AUS-S05-06,Shannon Nay,45,M,Mums,"Gold Coast, Queensland",QLD,AUS,"Eliminated 3rd (in Longreach, Queensland)",0
+AUS,5,AUS-S05-07,Malaan Ajang,27,M,Childhood Friends,"Melbourne, Victoria",VIC,AUS,"Eliminated 4th (on Palm Island, Queensland)",0
+AUS,5,AUS-S05-08,Tina Kuek,26,M,Childhood Friends,"Melbourne, Victoria",VIC,AUS,"Eliminated 4th (on Palm Island, Queensland)",0
+AUS,5,AUS-S05-09,Shane Wilson,47,M,Parents,"Wollongong, New South Wales",NSW,AUS,"Medically removed (in Horseshoe Bay, Queensland)",0
+AUS,5,AUS-S05-10,Deb Wilson,41,M,Parents,"Wollongong, New South Wales",NSW,AUS,"Medically removed (in Horseshoe Bay, Queensland)",0
+AUS,5,AUS-S05-11,Jobelle Collier,29,M,Daughter & Dad,"Shepparton, Victoria",VIC,AUS,"Eliminated 6th (on Green Island, Queensland)",0
+AUS,5,AUS-S05-12,Rani Alegre,52,M,Daughter & Dad,"Shepparton, Victoria",VIC,AUS,"Eliminated 6th (on Green Island, Queensland)",0
+AUS,5,AUS-S05-13,Sefa Palu,29,M,Besties,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Darwin, Northern Territory)",0
+AUS,5,AUS-S05-14,Jessica Matavao,32,M,Besties,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Darwin, Northern Territory)",0
+AUS,5,AUS-S05-15,Dwes Wigann-Dann,32,M,Kimberley Cousins,"Ardyaloon, Western Australia",WA,AUS,"Eliminated 8th (in Coober Pedy, South Australia)",0
+AUS,5,AUS-S05-16,Katherine Dann,31,M,Kimberley Cousins,"Broome, Western Australia",WA,AUS,"Eliminated 8th (in Coober Pedy, South Australia)",0
+AUS,5,AUS-S05-17,Jordan Saisi,23,M,Dancing Exes,"Melbourne, Victoria",VIC,AUS,"Eliminated 9th (in Lincoln National Park, South Australia)",0
+AUS,5,AUS-S05-18,Violeta Mugica,22,M,Dancing Exes,"Melbourne, Victoria",VIC,AUS,"Eliminated 9th (in Lincoln National Park, South Australia)",0
+AUS,5,AUS-S05-19,Stan Turek,36,M,Bodybuilders,"Richmond, New South Wales",NSW,AUS,"Eliminated 10th (in Brisbane, Queensland)",0
+AUS,5,AUS-S05-20,Wayne Marino,26,M,Bodybuilders,"Richmond, New South Wales",NSW,AUS,"Eliminated 10th (in Brisbane, Queensland)",0
+AUS,5,AUS-S05-21,Holly Edwards,25,M,Power Couple,"Sydney, New South Wales",NSW,AUS,"Eliminated 11th (in Hobart, Tasmania)",0
+AUS,5,AUS-S05-22,Dolor Edosomwan,26,M,Power Couple,"Sydney, New South Wales",NSW,AUS,"Eliminated 11th (in Hobart, Tasmania)",0
+AUS,5,AUS-S05-23,MJ Rajčić,31,M,Footy Mates,"Adelaide, South Australia",SA,AUS,"Eliminated 12th (in Launceston, Tasmania)",0
+AUS,5,AUS-S05-24,Chelsea Randall,29,M,Footy Mates,"Adelaide, South Australia",SA,AUS,"Eliminated 12th (in Launceston, Tasmania)",0
+AUS,5,AUS-S05-25,Skye-Blue Henderson,27,M,Siblings,"Melbourne, Victoria",VIC,AUS,"Eliminated 13th (in Leura, New South Wales)",0
+AUS,5,AUS-S05-26,Jake Henderson,29,M,Siblings,"Melbourne, Victoria",VIC,AUS,"Eliminated 13th (in Leura, New South Wales)",0
+AUS,5,AUS-S05-27,Chris Diloreto,31,M,Geek & Princess,"Brisbane, Queensland",QLD,AUS,"Eliminated 14th (in Silverton, New South Wales)",0
+AUS,5,AUS-S05-28,Aleisha Groth,30,M,Geek & Princess,"Brisbane, Queensland",QLD,AUS,"Eliminated 14th (in Silverton, New South Wales)",0
+AUS,5,AUS-S05-29,Jaskirat Dhingra,29,M,Super Sikhs,"Sydney, New South Wales",NSW,AUS,Third place,0
+AUS,5,AUS-S05-30,Anurag Sobti,29,M,Super Sikhs,"Sydney, New South Wales",NSW,AUS,Third place,0
+AUS,5,AUS-S05-31,Ashleigh Lawrence,32,M,The Gold Coast Girls,"Gold Coast, Queensland",QLD,AUS,Runners-up,0
+AUS,5,AUS-S05-32,Amanda Blanks,29,M,The Gold Coast Girls,"Gold Coast, Queensland",QLD,AUS,Runners-up,0
+AUS,5,AUS-S05-33,Brendon Crawley,25,M,Cowboys,"Yass, New South Wales",NSW,AUS,Winners,0
+AUS,5,AUS-S05-34,Jackson Dening,23,M,Cowboys,"Tamworth, New South Wales",NSW,AUS,Winners,0
+AUS,6,AUS-S06-01,Paul Farrell,67,M,Dad & Daughter Brokers,"Phillip Island, Victoria",VIC,AUS,"Eliminated 1st (in Ksar Aït Benhaddou, Morocco)",0
+AUS,6,AUS-S06-02,Rachel Farrell,33,M,Dad & Daughter Brokers,"Phillip Island, Victoria",VIC,AUS,"Eliminated 1st (in Ksar Aït Benhaddou, Morocco)",0
+AUS,6,AUS-S06-03,Bren Wilkinson,56,M,Vegan Warriors,Western Australia,WA,AUS,"Eliminated 2nd (in Marrakesh, Morocco)",0
+AUS,6,AUS-S06-04,Anja Gramueller-Southon,53,M,Vegan Warriors,Western Australia,WA,AUS,"Eliminated 2nd (in Marrakesh, Morocco)",0
+AUS,6,AUS-S06-05,Jake O'Brien,29,M,Model Couple,"Sydney, New South Wales",NSW,AUS,"Eliminated 3rd (in Chefchaouen, Morocco)",0
+AUS,6,AUS-S06-06,Holly MacAlpine,24,M,Model Couple,"Sydney, New South Wales",NSW,AUS,"Eliminated 3rd (in Chefchaouen, Morocco)",0
+AUS,6,AUS-S06-07,Sam Trenwith,27,M,Flamboyant Friends,"Adelaide, South Australia",SA,AUS,"Eliminated 4th (in Athens, Greece)",0
+AUS,6,AUS-S06-08,Alex Hill,28,M,Flamboyant Friends,"Adelaide, South Australia",SA,AUS,"Eliminated 4th (in Athens, Greece)",0
+AUS,6,AUS-S06-09,Sam Kimberley,23,M,The Mullets,"Perth, Western Australia",WA,AUS,"Eliminated 5th (in Arachova, Greece)",0
+AUS,6,AUS-S06-10,Stu Moorhouse,23,M,The Mullets,"Perth, Western Australia",WA,AUS,"Eliminated 5th (in Arachova, Greece)",0
+AUS,6,AUS-S06-11,Crystal Tawil,27,M,Middle Eastern Mates,New South Wales,NSW,AUS,"Eliminated 6th (in İzmir, Turkey)",0
+AUS,6,AUS-S06-12,Reem Chokr,26,M,Middle Eastern Mates,New South Wales,NSW,AUS,"Eliminated 6th (in İzmir, Turkey)",0
+AUS,6,AUS-S06-13,Tammy Chan,42,M,Scientific Siblings,Victoria,VIC,AUS,"Eliminated 7th (in Kula, Turkey)",0
+AUS,6,AUS-S06-14,Vincent Chan,40,M,Scientific Siblings,Queensland,QLD,AUS,"Eliminated 7th (in Kula, Turkey)",0
+AUS,6,AUS-S06-15,Morgan Trevethan,23,M,Blonde Buddies,"Gold Coast, Queensland",QLD,AUS,"Eliminated 8th (in Alaçatı, Turkey)",0
+AUS,6,AUS-S06-16,Lilli Robbo,23,M,Blonde Buddies,"Gold Coast, Queensland",QLD,AUS,"Eliminated 8th (in Alaçatı, Turkey)",0
+AUS,6,AUS-S06-17,Kathy Alexandra,28,M,Lawyer Cousins,"Sydney, New South Wales",NSW,AUS,"Eliminated 9th (in Bogotá, Colombia)",0
+AUS,6,AUS-S06-18,Chace Tran,27,M,Lawyer Cousins,"Sydney, New South Wales",NSW,AUS,"Eliminated 9th (in Bogotá, Colombia)",0
+AUS,6,AUS-S06-19,Stuart McGrath,31,M,Baru Mates,"Tiwi Islands, Northern Territory",NT,AUS,"Eliminated 10th (in Cartagena, Colombia)",0
+AUS,6,AUS-S06-20,Glennon Babui,23,M,Baru Mates,"Elcho Island, Northern Territory",NT,AUS,"Eliminated 10th (in Cartagena, Colombia)",0
+AUS,6,AUS-S06-21,"Felicity ""Flick"" Mifsud",28,F,Barista Sisters,Melbourne,VIC,AUS,"Eliminated 11th (in Belize City, Belize)",0
+AUS,6,AUS-S06-22,Gabby Mifsud,24,F,Barista Sisters,Melbourne,VIC,AUS,"Eliminated 11th (in Belize City, Belize)",0
+AUS,6,AUS-S06-23,"Felicity ""Fliss"" Naughton",20,M,Country Kids,"Crookwell, New South Wales",NSW,AUS,"Medically removed (in San Ignacio, Belize)",0
+AUS,6,AUS-S06-24,"Josephine ""Tottie"" O'Brienn",20,M,Country Kids,"Crookwell, New South Wales",NSW,AUS,"Medically removed (in San Ignacio, Belize)",0
+AUS,6,AUS-S06-25,Jodie Playford,55,M,Dragon Boat Mums,New South Wales,NSW,AUS,"Eliminated 13th (in Caye Caulker, Belize)",0
+AUS,6,AUS-S06-26,Claire Thomas,48,M,Dragon Boat Mums,New South Wales,NSW,AUS,"Eliminated 13th (in Caye Caulker, Belize)",0
+AUS,6,AUS-S06-27,Chelsea Keen,26,M,Engaged Parents,Queensland,QLD,AUS,"Eliminated 14th (in Mérida, Mexico)",0
+AUS,6,AUS-S06-28,Jamus Maoate,35,M,Engaged Parents,Queensland,QLD,AUS,"Eliminated 14th (in Mérida, Mexico)",0
+AUS,6,AUS-S06-29,Lauren Howells,27,M,Cop Couple,Western Australia,WA,AUS,"Eliminated 15th (in Ekʼ Balam, Mexico)",0
+AUS,6,AUS-S06-30,Steph McGrath,34,M,Cop Couple,Western Australia,WA,AUS,"Eliminated 15th (in Ekʼ Balam, Mexico)",0
+AUS,6,AUS-S06-31,Pako Komira,38,M,Hubbies,"Sydney, New South Wales",NSW,AUS,"Eliminated 16th (in Perth, Australia)",0
+AUS,6,AUS-S06-32,Mori Perez,39,M,Hubbies,"Sydney, New South Wales",NSW,AUS,"Eliminated 16th (in Perth, Australia)",0
+AUS,6,AUS-S06-33,Tiffany Turland,36,M,Aunty & Niece,"Pilbara, Western Australia",WA,AUS,"Eliminated 17th (in Fremantle, Australia)",0
+AUS,6,AUS-S06-34,Cynthia Cameron-Turland,21,M,Aunty & Niece,"Pilbara, Western Australia",WA,AUS,"Eliminated 17th (in Fremantle, Australia)",0
+AUS,6,AUS-S06-35,Kelly Baildon,25,M,Newlywed Teachers,"Brisbane , Queensland",QLD,AUS,Third place,0
+AUS,6,AUS-S06-36,Georgia Baildon,25,M,Newlywed Teachers,"Brisbane , Queensland",QLD,AUS,Third place,0
+AUS,6,AUS-S06-37,Angel Williams,24,M,Church Friends,"Brisbane , Queensland",QLD,AUS,Runners-up,0
+AUS,6,AUS-S06-38,Frankie Vaaua,25,M,Church Friends,"Gold Coast, Queensland",QLD,AUS,Runners-up,0
+AUS,6,AUS-S06-39,Heath Curry,33,M,Enduring Love,Melbourne,VIC,AUS,Winners,0
+AUS,6,AUS-S06-40,Toni Hilland,38,M,Enduring Love,Melbourne,VIC,AUS,Winners,0
+AUS,7,AUS-S07-01,Dane Simpson,40,M,Son & dad,Australia,,AUS,"Eliminated 1st (in Delhi, India)",0
+AUS,7,AUS-S07-02,Bow Simpson,69,M,Son & dad,Australia,,AUS,"Eliminated 1st (in Delhi, India)",0
+AUS,7,AUS-S07-03,Grant Denyer,45,M,Husband & wife,Australia,,AUS,"Eliminated 2nd (in Agra, India)",0
+AUS,7,AUS-S07-04,"Cheryl ""Chezzi"" Denyer",43,M,Husband & wife,Australia,,AUS,"Eliminated 2nd (in Agra, India)",0
+AUS,7,AUS-S07-05,Peter Rowsthorn,60,M,Dad & daughter,Australia,,AUS,"Eliminated 3rd (in Langkawi, Malaysia)",0
+AUS,7,AUS-S07-06,Frankie Rowsthorn,20,M,Dad & daughter,Australia,,AUS,"Eliminated 3rd (in Langkawi, Malaysia)",0
+AUS,7,AUS-S07-07,Ben Gillies,43,M,Husband & wife,Australia,,AUS,"Eliminated 4th (in George Town, Malaysia)",0
+AUS,7,AUS-S07-08,Jackie Gillies,42,M,Husband & wife,Australia,,AUS,"Eliminated 4th (in George Town, Malaysia)",0
+AUS,7,AUS-S07-09,George Mladenov,33,M,Siblings,Australia,,AUS,"Eliminated 5th (in George Town, Malaysia)",0
+AUS,7,AUS-S07-10,Pam Mladenov,24,M,Siblings,Australia,,AUS,"Eliminated 5th (in George Town, Malaysia)",0
+AUS,7,AUS-S07-11,"Rebecca ""Bec"" Judd",40,F,Sisters,Australia,,AUS,"Eliminated 6th (in Siem Reap, Cambodia)",0
+AUS,7,AUS-S07-12,Kate Twigley,38,F,Sisters,Australia,,AUS,"Eliminated 6th (in Siem Reap, Cambodia)",0
+AUS,7,AUS-S07-13,Jana Pittman,40,M,Mum & son,Australia,,AUS,"Eliminated 7th (in Siem Reap, Cambodia)",0
+AUS,7,AUS-S07-14,"Cornelis ""Cor"" Rawlinson",16,M,Mum & son,Australia,,AUS,"Eliminated 7th (in Siem Reap, Cambodia)",0
+AUS,7,AUS-S07-15,Harry Jowsey,26,M,Best mates,Australia,,AUS,"Eliminated 8th (in Siburan, Malaysia)",0
+AUS,7,AUS-S07-16,Teddy Briggs,29,M,Best mates,Australia,,AUS,"Eliminated 8th (in Siburan, Malaysia)",0
+AUS,7,AUS-S07-17,Alli Simpson,25,F,Daughter & mum,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-18,Angie Simpson,52,F,Daughter & mum,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-19,Emma Watkins,33,F,Sisters,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-20,Hayley Watkins,34,F,Sisters,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-21,Darren McMullen,41,M,Uncle & nephew,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-22,Tristan Dougan,26,M,Uncle & nephew,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,8,AUS-S08-01,Luke McGregor,41,M,Son & Mum,Australia,,AUS,"Eliminated 1st (in Buenos Aires, Argentina)",0
+AUS,8,AUS-S08-02,Julie McGregor,63,M,Son & Mum,Australia,,AUS,"Eliminated 1st (in Buenos Aires, Argentina)",0
+AUS,8,AUS-S08-03,"Natalie ""Nat"" Bassingthwaighte",48,F,Sisters,Australia,,AUS,"Eliminated 2nd (in La Caldera, Argentina)",0
+AUS,8,AUS-S08-04,Mel Sheldrick,50,F,Sisters,Australia,,AUS,"Eliminated 2nd (in La Caldera, Argentina)",0
+AUS,8,AUS-S08-05,Cyrell Paule,35,M,Engaged,Australia,,AUS,"Eliminated 3rd (in Tilcara, Argentina)",0
+AUS,8,AUS-S08-06,Eden Dally,31,M,Engaged,Australia,,AUS,"Eliminated 3rd (in Tilcara, Argentina)",0
+AUS,8,AUS-S08-07,Jett Kenny,30,M,Dating,Australia,,AUS,"Eliminated 4th (in Johannesburg, South Africa)",0
+AUS,8,AUS-S08-08,Lily Brown,26,M,Dating,Australia,,AUS,"Eliminated 4th (in Johannesburg, South Africa)",0
+AUS,8,AUS-S08-09,Havana Brown,39,M,Besties,Australia,,AUS,"Eliminated 5th (in Krugersdorp, South Africa)",0
+AUS,8,AUS-S08-10,Steph Dunstan-Wood,38,M,Besties,Australia,,AUS,"Eliminated 5th (in Krugersdorp, South Africa)",0
+AUS,8,AUS-S08-11,Chloe Logarzo,29,M,Matildas Teammates,Australia,,AUS,"Eliminated 6th (in Dorob National Park, Namibia)",0
+AUS,8,AUS-S08-12,Emily Gielnik,32,F,Matildas Teammates,Australia,,AUS,"Eliminated 6th (in Dorob National Park, Namibia)",0
+AUS,8,AUS-S08-13,"Ian ""Thorpie"" Thorpe",41,M,Mates,Australia,,AUS,"Eliminated 7th (in Usakos, Namibia)",0
+AUS,8,AUS-S08-14,Christian Miranda,38,M,Mates,Australia,,AUS,"Eliminated 7th (in Usakos, Namibia)",0
+AUS,8,AUS-S08-15,Pete Helliar,48,M,Married,Australia,,AUS,"Eliminated 8th (in Phuket, Thailand)",0
+AUS,8,AUS-S08-16,Bridget Helliar,44,M,Married,Australia,,AUS,"Eliminated 8th (in Phuket, Thailand)",0
+AUS,8,AUS-S08-17,Brooke McClymont,43,M,Married Country Singers,Australia,,AUS,Third place,0
+AUS,8,AUS-S08-18,Adam Eckersley,42,M,Married Country Singers,Australia,,AUS,Third place,0
+AUS,8,AUS-S08-19,Billy Brownless,57,M,Dad & Son,Australia,,AUS,Runners-up,0
+AUS,8,AUS-S08-20,Oscar Brownless,24,M,Dad & Son,Australia,,AUS,Runners-up,0
+AUS,8,AUS-S08-21,"Tai ""Bam Bam"" Tuivasa",31,M,Brothers,Australia,,AUS,Winners,0
+AUS,8,AUS-S08-22,Logan Tuivasa,35,M,Brothers,Australia,,AUS,Winners,0
+CAN,1,CAN-S01-01,Treena Ley,36,F,Twin Sisters,"Hamilton, Ontario",ON,CAN,"Eliminated 1st (in Westbank, British Columbia)",0
+CAN,1,CAN-S01-02,Tennille Dorrington,36,F,Twin Sisters,"Hamilton, Ontario",ON,CAN,"Eliminated 1st (in Westbank, British Columbia)",0
+CAN,1,CAN-S01-03,Jamie Cumberland,47,M,Best Friends,"Airdrie, Alberta",AB,CAN,"Eliminated 2rd (in Vancouver, British Columbia)",0
+CAN,1,CAN-S01-04,Pierre Cadieux,38,M,Best Friends,"Innisfail, Alberta",AB,CAN,"Eliminated 2rd (in Vancouver, British Columbia)",0
+CAN,1,CAN-S01-05,Kristen Idiens,32,M,Dating,"Fairmont Hot Springs, British Columbia",BC,CAN,"Eliminated 3rd (in Carcross, Yukon)",0
+CAN,1,CAN-S01-06,Darren Trapp,26,M,Dating,"Fairmont Hot Springs, British Columbia",BC,CAN,"Eliminated 3rd (in Carcross, Yukon)",0
+CAN,1,CAN-S01-07,Hal Johnson,57,M,Married Fitness Icons,"Oakville, Ontario",ON,CAN,"Eliminated 4th (in Regina, Saskatchewan)",0
+CAN,1,CAN-S01-08,Joanne McLeod,54,M,Married Fitness Icons,"Oakville, Ontario",ON,CAN,"Eliminated 4th (in Regina, Saskatchewan)",0
+CAN,1,CAN-S01-09,Holly Agostino,33,M,Married Doctors,"Montreal, Quebec",QC,CAN,"Eliminated 5th (in Iqaluit, Nunavut)",0
+CAN,1,CAN-S01-10,Brett Burstein,32,M,Married Doctors,"Montreal, Quebec",QC,CAN,"Eliminated 5th (in Iqaluit, Nunavut)",0
+CAN,1,CAN-S01-11,Jet Black,32,M,Best Friends,"London, Ontario",ON,CAN,"Eliminated 6th (in St. John's, Newfoundland and Labrador)",0
+CAN,1,CAN-S01-12,Dave Schram,28,M,Best Friends,"London, Ontario",ON,CAN,"Eliminated 6th (in St. John's, Newfoundland and Labrador)",3
+CAN,1,CAN-S01-13,Vanessa Morgan,21,F,Sisters,"Ottawa, Ontario",ON,CAN,Third Place,0
+CAN,1,CAN-S01-14,Celina Mziray,30,F,Sisters,"Ottawa, Ontario",ON,CAN,Third Place,0
+CAN,1,CAN-S01-15,Jody Mitic,36,M,Brothers,"Ottawa, Ontario",ON,CAN,Second Place,0
+CAN,1,CAN-S01-16,Cory Mitic,32,M,Brothers,"Edmonton, Alberta",AB,CAN,Second Place,0
+CAN,1,CAN-S01-17,"Tim Hague, Sr.",48,M,Father & Son,"Winnipeg, Manitoba",MB,CAN,Winners,0
+CAN,1,CAN-S01-18,"Tim Hague, Jr.",23,M,Father & Son,"Winnipeg, Manitoba",MB,CAN,Winners,0
+CAN,2,CAN-S02-01,Shahla Kara,29,M,Childhood Friends,"Markham , Ontario",ON,CAN,"Eliminated 1st (in Colwood, British Columbia)",0
+CAN,2,CAN-S02-02,Nabeela Barday,29,M,Childhood Friends,"Markham , Ontario",ON,CAN,"Eliminated 1st (in Colwood, British Columbia)",0
+CAN,2,CAN-S02-03,Jen King,40,M,Married,"Halifax , Nova Scotia",NS,CAN,"Withdrew (in Tofino, British Columbia)",0
+CAN,2,CAN-S02-04,Shawn King,41,M,Married,"Halifax , Nova Scotia",NS,CAN,"Withdrew (in Tofino, British Columbia)",0
+CAN,2,CAN-S02-05,Laura Takahashi,28,M,Married,"Toronto , Ontario",ON,CAN,"Eliminated 3rd (in Kowloon City, Hong Kong)",0
+CAN,2,CAN-S02-06,Jackie Skinner,31,M,Married,"Toronto , Ontario",ON,CAN,"Eliminated 3rd (in Kowloon City, Hong Kong)",0
+CAN,2,CAN-S02-07,Cormac Foster,19,M,Mother & Son,"Winnipeg , Manitoba",MB,CAN,"Eliminated 4th (in Whitehorse, Yukon)",0
+CAN,2,CAN-S02-08,Nicole Foster,39,M,Mother & Son,"Winnipeg , Manitoba",MB,CAN,"Eliminated 4th (in Whitehorse, Yukon)",0
+CAN,2,CAN-S02-09,Rex Harrington,51,M,Engaged,"Ashburn , Ontario",ON,CAN,"Eliminated 5th (in Winnipeg, Manitoba)",0
+CAN,2,CAN-S02-10,Bob Hope,47,M,Engaged,"Ashburn , Ontario",ON,CAN,"Eliminated 5th (in Winnipeg, Manitoba)",0
+CAN,2,CAN-S02-11,Pierre Forget,42,M,Twin Brothers,"Terrebonne , Quebec",QC,CAN,"Eliminated 6th (in Paris, France)",0
+CAN,2,CAN-S02-12,Michel Forget,42,M,Twin Brothers,"Terrebonne , Quebec",QC,CAN,"Eliminated 6th (in Paris, France)",0
+CAN,2,CAN-S02-13,Alain Chanoine,32,M,Dating (Legs 1−8) Engaged (Legs 8−10),"Saint-Hubert , Quebec",QC,CAN,"Eliminated 7th (in North Rustico, Prince Edward Island)",0
+CAN,2,CAN-S02-14,Audrey Tousignant-Maurice,31,M,Dating (Legs 1−8) Engaged (Legs 8−10),"Saint-Hubert , Quebec",QC,CAN,"Eliminated 7th (in North Rustico, Prince Edward Island)",0
+CAN,2,CAN-S02-15,Sukhi Atwal,32,M,Siblings,"Terrace , British Columbia",BC,CAN,"Eliminated 8th (in Cape Enrage, New Brunswick)",0
+CAN,2,CAN-S02-16,Jinder Atwal,26,M,Siblings,"Terrace , British Columbia",BC,CAN,"Eliminated 8th (in Cape Enrage, New Brunswick)",0
+CAN,2,CAN-S02-17,Ryan Steele,36,M,Bartenders/Co-Workers,"Vancouver , British Columbia",BC,CAN,Third place,0
+CAN,2,CAN-S02-18,Rob Goddard,24,M,Bartenders/Co-Workers,"Vancouver , British Columbia",BC,CAN,Third place,0
+CAN,2,CAN-S02-19,Natalie Spooner,23,M,Teammates,"Toronto , Ontario",ON,CAN,Runners-up,0
+CAN,2,CAN-S02-20,Meaghan Mikkelson,29,M,Teammates,"Calgary , Alberta",AB,CAN,Runners-up,0
+CAN,2,CAN-S02-21,Mickey Henry,24,M,Best Friends,"Seguin , Ontario",ON,CAN,Winners,0
+CAN,2,CAN-S02-22,Pete Schmalz,24,M,Best Friends,"Parry Sound , Ontario",ON,CAN,Winners,0
+CAN,3,CAN-S03-01,Max Altamuro,28,M,Dating,"Toronto, Ontario",ON,CAN,"Eliminated 1st (in Toronto, Ontario)",0
+CAN,3,CAN-S03-02,Elias Theodorou,26,M,Dating,"Toronto, Ontario",ON,CAN,"Eliminated 1st (in Toronto, Ontario)",0
+CAN,3,CAN-S03-03,Susan Hayre,38,M,Co-Workers,"Vancouver, British Columbia",BC,CAN,"Eliminated 2nd (in Santiago, Chile)",0
+CAN,3,CAN-S03-04,Sharnjit Gill,39,M,Co-Workers,"Vancouver, British Columbia",BC,CAN,"Eliminated 2nd (in Santiago, Chile)",0
+CAN,3,CAN-S03-05,Dana Hayward,23,M,Co-Workers,"Wabush, Newfoundland and Labrador",NL,CAN,"Eliminated 3rd (in Buenos Aires, Argentina)",0
+CAN,3,CAN-S03-06,Amanda Johnston,23,M,Co-Workers,"Wabush, Newfoundland and Labrador",NL,CAN,"Eliminated 3rd (in Buenos Aires, Argentina)",0
+CAN,3,CAN-S03-07,Hamilton Elliott,19,M,Engaged,"Centreville, Nova Scotia",NS,CAN,"Eliminated 4th (in Halifax, Nova Scotia)",0
+CAN,3,CAN-S03-08,Michaelia Drever,19,M,Engaged,"Centreville, Nova Scotia",NS,CAN,"Eliminated 4th (in Halifax, Nova Scotia)",0
+CAN,3,CAN-S03-09,Nic La Monaca,22,M,Dating,"Montreal, Quebec",QC,CAN,"Eliminated 5th (in Sudbury, Ontario)",0
+CAN,3,CAN-S03-10,Sabrina Mercuri,32,M,Dating,"Montreal, Quebec",QC,CAN,"Eliminated 5th (in Sudbury, Ontario)",0
+CAN,3,CAN-S03-11,Neil Lumsden,62,M,Father & Daughter,"Burlington, Ontario",ON,CAN,"Eliminated 6th (in Bushell Park, Saskatchewan)",0
+CAN,3,CAN-S03-12,Kristin Lumsden,31,M,Father & Daughter,"Toronto, Ontario",ON,CAN,"Eliminated 6th (in Bushell Park, Saskatchewan)",0
+CAN,3,CAN-S03-13,Brian Boyd,46,M,Married,"Winnipeg, Manitoba",MB,CAN,"Eliminated 7th (in Kolkata, India)",0
+CAN,3,CAN-S03-14,Cynthia Boyd,41,M,Married,"Winnipeg, Manitoba",MB,CAN,"Eliminated 7th (in Kolkata, India)",0
+CAN,3,CAN-S03-15,Dujean Williams,25,M,Exes,"Toronto, Ontario",ON,CAN,"Eliminated 8th (in Osoyoos, British Columbia)",0
+CAN,3,CAN-S03-16,Leilani Ross,25,M,Exes,"Toronto, Ontario",ON,CAN,"Eliminated 8th (in Osoyoos, British Columbia)",0
+CAN,3,CAN-S03-17,Simi Fagbongbe,21,M,Father & Daughter,"Burnaby, British Columbia",BC,CAN,"Eliminated 9th (in Edmonton, Alberta)",0
+CAN,3,CAN-S03-18,Ope Fagbongbe,46,M,Father & Daughter,"Burnaby, British Columbia",BC,CAN,"Eliminated 9th (in Edmonton, Alberta)",0
+CAN,3,CAN-S03-19,Brent Sweeney,25,M,Brothers,"Toronto, Ontario",ON,CAN,Third Place,0
+CAN,3,CAN-S03-20,Sean Sweeney,28,M,Brothers,"Toronto, Ontario",ON,CAN,Third Place,0
+CAN,3,CAN-S03-21,Nick Foti,35,M,Wrestling Teammates,"Newmarket, Ontario",ON,CAN,Second Place,0
+CAN,3,CAN-S03-22,Matt Giunta,33,M,Wrestling Teammates,"Stouffville, Ontario",ON,CAN,Second Place,0
+CAN,3,CAN-S03-23,Gino Montani,28,M,Brothers,"Hamilton, Ontario",ON,CAN,Winners,0
+CAN,3,CAN-S03-24,Jesse Montani,25,M,Brothers,"Hamilton, Ontario",ON,CAN,Winners,0
+CAN,4,CAN-S04-01,Anthony Libombe,21,M,Best Friends,"Windsor, Ontario",ON,CAN,"Eliminated 1st (in Jasper National Park, Alberta)",0
+CAN,4,CAN-S04-02,Brandon Campeau,21,M,Best Friends,"Windsor, Ontario",ON,CAN,"Eliminated 1st (in Jasper National Park, Alberta)",0
+CAN,4,CAN-S04-03,Stéphane Tétreault,51,M,Father/Son,"Montreal, Quebec",QC,CAN,"Eliminated 2nd (in Cái Bè, Vietnam)",0
+CAN,4,CAN-S04-04,Antoine Tétreault,25,M,Father/Son,"Montreal, Quebec",QC,CAN,"Eliminated 2nd (in Cái Bè, Vietnam)",0
+CAN,4,CAN-S04-05,Anne Morrone,40,F,Best Friends/Moms,"Toronto, Ontario",ON,CAN,"Eliminated 3rd (in Ho Chi Minh City, Vietnam)",0
+CAN,4,CAN-S04-06,Tanya Muzzatti,40,F,Best Friends/Moms,"Toronto, Ontario",ON,CAN,"Eliminated 3rd (in Ho Chi Minh City, Vietnam)",0
+CAN,4,CAN-S04-07,Kelly Xu,25,M,Best Friends,"Toronto, Ontario",ON,CAN,"Eliminated 4th (in Port Edward, British Columbia)",2
+CAN,4,CAN-S04-08,Kate Pan,25,M,Best Friends,"Toronto, Ontario",ON,CAN,"Eliminated 4th (in Port Edward, British Columbia)",0
+CAN,4,CAN-S04-09,Julie Taylor,33,M,Married,"Lethbridge, Alberta",AB,CAN,"Eliminated 5th (in Kingston, Ontario)",0
+CAN,4,CAN-S04-10,Lowell Taylor,34,M,Married,"Lethbridge, Alberta",AB,CAN,"Eliminated 5th (in Kingston, Ontario)",0
+CAN,4,CAN-S04-11,Rita Yakibonge,23,F,Twin Sisters,"Edmonton, Alberta",AB,CAN,"Eliminated 6th (in Louisbourg, Nova Scotia)",0
+CAN,4,CAN-S04-12,Yvette Yakibonge,23,F,Twin Sisters,"Edmonton, Alberta",AB,CAN,"Eliminated 6th (in Louisbourg, Nova Scotia)",0
+CAN,4,CAN-S04-13,Frankie Gassler,41,F,Mother/Daughter,"Aldergrove, British Columbia",BC,CAN,"Eliminated 7th (in Saint Andrews, New Brunswick)",0
+CAN,4,CAN-S04-14,Amy Gassler,25,F,Mother/Daughter,"Aldergrove, British Columbia",BC,CAN,"Eliminated 7th (in Saint Andrews, New Brunswick)",0
+CAN,4,CAN-S04-15,Joel Ground,42,M,Father/Daughter,"Enoch Cree Nation, Alberta",AB,CAN,Third place,0
+CAN,4,CAN-S04-16,Ashley Callingbull-Burnham,26,M,Father/Daughter,"Enoch Cree Nation, Alberta",AB,CAN,Third place,0
+CAN,4,CAN-S04-17,Jillian McLaughlin,30,M,Exes,"New Glasgow, Nova Scotia",NS,CAN,Runners-up,0
+CAN,4,CAN-S04-18,Emmett Blois,28,M,Exes,"Gore, Nova Scotia",NS,CAN,Runners-up,0
+CAN,4,CAN-S04-19,Steph LeClair,27,M,Dating,"Toronto, Ontario",ON,CAN,Winners,0
+CAN,4,CAN-S04-20,Kristen McKenzie,25,M,Dating,"Toronto, Ontario",ON,CAN,Winners,0
+CAN,5,CAN-S05-01,Aaron Baker,30,M,Mother & Son,"Grand Forks, British Columbia",BC,CAN,"Eliminated 1st (in Vancouver, British Columbia)",0
+CAN,5,CAN-S05-02,Deb Baker,55,M,Mother & Son,"Grand Forks, British Columbia",BC,CAN,"Eliminated 1st (in Vancouver, British Columbia)",0
+CAN,5,CAN-S05-03,Dan Kipnis,23,M,YouTube Creators,"Toronto, Ontario",ON,CAN,"Eliminated 2nd (in Fort McMurray, Alberta)",0
+CAN,5,CAN-S05-04,Riya Malik,23,M,YouTube Creators,"Toronto, Ontario",ON,CAN,"Eliminated 2nd (in Fort McMurray, Alberta)",0
+CAN,5,CAN-S05-05,Megan Burden,23,M,Cousins,"St. John's, Newfoundland and Labrador",NL,CAN,"Eliminated 3rd (in Kokanee Creek Provincial Park, British Columbia)",0
+CAN,5,CAN-S05-06,Courtney Roberts,21,M,Cousins,"St. John's, Newfoundland and Labrador",NL,CAN,"Eliminated 3rd (in Kokanee Creek Provincial Park, British Columbia)",0
+CAN,5,CAN-S05-07,Zed Dhalla,27,M,Father & Son,"Vancouver, British Columbia",BC,CAN,"Eliminated 4th (in Bangkok, Thailand)",0
+CAN,5,CAN-S05-08,Shabbir Dhalla,57,M,Father & Son,"Vancouver, British Columbia",BC,CAN,"Eliminated 4th (in Bangkok, Thailand)",0
+CAN,5,CAN-S05-09,Andrea Croxen,29,M,Business Partners,"Montreal, Quebec",QC,CAN,"Eliminated 5th (in Corner Brook, Newfoundland and Labrador)",0
+CAN,5,CAN-S05-10,Ebonie Finley-Roberge,29,M,Business Partners,"Montreal, Quebec",QC,CAN,"Eliminated 5th (in Corner Brook, Newfoundland and Labrador)",0
+CAN,5,CAN-S05-11,Adam Cavaleri,29,M,Brother & Sister,"Montreal, Quebec",QC,CAN,"Eliminated 6th (in Bushell Park, Saskatchewan)",0
+CAN,5,CAN-S05-12,Andrea Cavaleri,28,M,Brother & Sister,"Montreal, Quebec",QC,CAN,"Eliminated 6th (in Bushell Park, Saskatchewan)",0
+CAN,5,CAN-S05-13,Karen Richards,31,M,Married Couple,"Edmonton, Alberta",AB,CAN,"Eliminated 7th (in Sault Ste. Marie, Ontario)",6
+CAN,5,CAN-S05-14,Bert Richards,36,M,Married Couple,"Edmonton, Alberta",AB,CAN,"Eliminated 7th (in Sault Ste. Marie, Ontario)",0
+CAN,5,CAN-S05-15,Korey Sam,31,M,Personal Trainers/Best Friends,"Toronto, Ontario",ON,CAN,Third place,0
+CAN,5,CAN-S05-16,Ivana Krunić,31,M,Personal Trainers/Best Friends,"Toronto, Ontario",ON,CAN,Third place,0
+CAN,5,CAN-S05-17,Kenneth McAlpine,25,M,Best Friends,"Rossland, British Columbia",BC,CAN,Runners-up,0
+CAN,5,CAN-S05-18,Ryan Lachapelle,25,M,Best Friends,"Rossland, British Columbia",BC,CAN,Runners-up,0
+CAN,5,CAN-S05-19,Sam Lambert,25,M,Dating Couple,"Toronto, Ontario",ON,CAN,Winners,0
+CAN,5,CAN-S05-20,Paul Mitskopoulos,24,M,Dating Couple,"Toronto, Ontario",ON,CAN,Winners,0
+CAN,6,CAN-S06-01,"Corey ""Chewy"" Liddle",47,M,Friends,"Stoney Creek, Ontario",ON,CAN,"Eliminated 1st (in Britannia Beach, British Columbia)",0
+CAN,6,CAN-S06-02,"Mark ""Happy"" LaVerdiere",48,M,Friends,"Orillia, Ontario",ON,CAN,"Eliminated 1st (in Britannia Beach, British Columbia)",0
+CAN,6,CAN-S06-03,Joseph Truong,23,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 2nd (in Shawnigan Lake, British Columbia)",0
+CAN,6,CAN-S06-04,Akash Sidhu,22,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 2nd (in Shawnigan Lake, British Columbia)",0
+CAN,6,CAN-S06-05,Todd Kirk,24,M,Dating,"Edmonton, Alberta",AB,CAN,"Eliminated 3rd (in Jakarta, Indonesia)",0
+CAN,6,CAN-S06-06,Anna Holtby,24,M,Dating,"Edmonton, Alberta",AB,CAN,"Eliminated 3rd (in Jakarta, Indonesia)",0
+CAN,6,CAN-S06-07,Zainab Ansari,32,M,Co-Workers,"Toronto, Ontario",ON,CAN,"Eliminated 4th (in Toronto, Ontario)",0
+CAN,6,CAN-S06-08,Monica Demian,24,M,Co-Workers,"Ajax, Ontario",ON,CAN,"Eliminated 4th (in Toronto, Ontario)",0
+CAN,6,CAN-S06-09,Leanne Larsen,25,M,Teammates,"Toronto, Ontario",ON,CAN,"Eliminated 5th (in Cavendish, Prince Edward Island)",0
+CAN,6,CAN-S06-10,Mar Lyon,26,M,Teammates,"Toronto, Ontario",ON,CAN,"Eliminated 5th (in Cavendish, Prince Edward Island)",0
+CAN,6,CAN-S06-11,Nancy Csabay,49,M,Teammates,"Taber, Alberta",AB,CAN,"Eliminated 6th (in Mexico City, Mexico)",0
+CAN,6,CAN-S06-12,Mellisa Hollingsworth,37,M,Teammates,"Eckville, Alberta",AB,CAN,"Eliminated 6th (in Mexico City, Mexico)",0
+CAN,6,CAN-S06-13,Martina Seo,40,M,Siblings,"North Vancouver, British Columbia",BC,CAN,"Eliminated 7th (in Fredericton, New Brunswick)",0
+CAN,6,CAN-S06-14,Phil Seo,37,M,Siblings,"Burnaby, British Columbia",BC,CAN,"Eliminated 7th (in Fredericton, New Brunswick)",0
+CAN,6,CAN-S06-15,Dylan Elias,28,M,Friends,"Fort McMurray, Alberta",AB,CAN,Third place,0
+CAN,6,CAN-S06-16,Kwame Osei,34,M,Friends,"Fort McMurray, Alberta",AB,CAN,Third place,0
+CAN,6,CAN-S06-17,Taylor Callens,25,M,Siblings,"Williams Lake, British Columbia",BC,CAN,Runners-up,0
+CAN,6,CAN-S06-18,Courtney Callens,27,M,Siblings,"Langley, British Columbia",BC,CAN,Runners-up,0
+CAN,6,CAN-S06-19,Courtney Berglind,28,M,Engaged,"Calgary, Alberta",AB,CAN,Winners,0
+CAN,6,CAN-S06-20,Adam Kovacs,29,M,Engaged,"Calgary, Alberta",AB,CAN,Winners,6
+CAN,7,CAN-S07-01,Jet Black,38,M,Best Friends The Amazing Race Canada 1,"London, Ontario",ON,CAN,"Eliminated 1st (in Kamloops, British Columbia)",0
+CAN,7,CAN-S07-02,Dave Schram,34,M,Best Friends The Amazing Race Canada 1,"London, Ontario",ON,CAN,"Eliminated 1st (in Kamloops, British Columbia)",0
+CAN,7,CAN-S07-03,Nicki Lee,31,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 2nd (in Revelstoke, British Columbia)",0
+CAN,7,CAN-S07-04,Aisha Bentham,31,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 2nd (in Revelstoke, British Columbia)",0
+CAN,7,CAN-S07-05,Gilles Miron,65,M,Grandfather & Grandson,"Sunderland, Ontario",ON,CAN,"Eliminated 3rd (in Spruce Grove, Alberta)",0
+CAN,7,CAN-S07-06,Sean Miron,20,M,Grandfather & Grandson,"Sunderland, Ontario",ON,CAN,"Eliminated 3rd (in Spruce Grove, Alberta)",0
+CAN,7,CAN-S07-07,Meaghan Wright,25,M,Twins,"Halifax, Nova Scotia",NS,CAN,"Eliminated 4th (in Coombs, British Columbia)",0
+CAN,7,CAN-S07-08,Marie Wright,25,M,Twins,"Halifax, Nova Scotia",NS,CAN,"Eliminated 4th (in Coombs, British Columbia)",0
+CAN,7,CAN-S07-09,Trish Omeri,45,F,Friends & Stay-at-Home Moms,"Etobicoke, Ontario",ON,CAN,"Eliminated 5th (in Waterloo, Ontario)",0
+CAN,7,CAN-S07-10,Amy De Domenico,50,F,Friends & Stay-at-Home Moms,"Etobicoke, Ontario",ON,CAN,"Eliminated 5th (in Waterloo, Ontario)",0
+CAN,7,CAN-S07-11,Aarthy Ketheeswaran,25,M,Dating,"Vancouver, British Columbia",BC,CAN,"Eliminated 6th (in Oliver Paipoonge, Ontario)",0
+CAN,7,CAN-S07-12,Thinesh Kumarakulasingam,28,M,Dating,"Vancouver, British Columbia",BC,CAN,"Eliminated 6th (in Oliver Paipoonge, Ontario)",0
+CAN,7,CAN-S07-13,Dave Leduc,27,M,Married,"Gatineau, Quebec",QC,CAN,"Eliminated 7th (in Gaspereau, Nova Scotia)",0
+CAN,7,CAN-S07-14,Irina Terehova,29,M,Married,"Montreal, Quebec",QC,CAN,"Eliminated 7th (in Gaspereau, Nova Scotia)",0
+CAN,7,CAN-S07-15,Lauren Lavoie,27,F,Sisters,"Regina, Saskatchewan",SK,CAN,Third place,0
+CAN,7,CAN-S07-16,Joanne Lavoie,21,F,Sisters,"Regina, Saskatchewan",SK,CAN,Third place,0
+CAN,7,CAN-S07-17,Sarah Wells,29,M,Track Teammates,"Toronto, Ontario",ON,CAN,Runners-up,0
+CAN,7,CAN-S07-18,Sam Effah,30,M,Track Teammates,"Toronto, Ontario",ON,CAN,Runners-up,0
+CAN,7,CAN-S07-19,Anthony Johnson,33,M,Married,"Edmonton, Alberta",AB,CAN,Winners,0
+CAN,7,CAN-S07-20,James Makokis,37,M,Married,"Edmonton, Alberta",AB,CAN,Winners,0
+CAN,8,CAN-S08-01,Jully Black,44,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 1st (in Montreal, Quebec)",0
+CAN,8,CAN-S08-02,Kathy Hunter,41,M,Friends,"Regina, Saskatchewan",SK,CAN,"Eliminated 1st (in Montreal, Quebec)",1
+CAN,8,CAN-S08-03,Cassie Day,31,M,Engaged,"Toronto, Ontario",ON,CAN,"Eliminated 2nd (in Fernie, British Columbia)",0
+CAN,8,CAN-S08-04,Jahmeek Murray,32,M,Engaged,"Toronto, Ontario",ON,CAN,"Eliminated 2nd (in Fernie, British Columbia)",0
+CAN,8,CAN-S08-05,Jully Black,44,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 3rd (in Vernon, British Columbia)",0
+CAN,8,CAN-S08-06,Kathy Hunter,41,M,Friends,"Regina, Saskatchewan",SK,CAN,"Eliminated 3rd (in Vernon, British Columbia)",1
+CAN,8,CAN-S08-07,Dennis Ashe,42,M,Uncle & Nephew,"Halifax, Nova Scotia",NS,CAN,"Eliminated 4th (in London, Ontario)",0
+CAN,8,CAN-S08-08,Durrell Borden,33,M,Uncle & Nephew,"Halifax, Nova Scotia",NS,CAN,"Eliminated 4th (in London, Ontario)",0
+CAN,8,CAN-S08-09,Cedric Newman,50,M,Father & Son,"Montreal, Quebec",QC,CAN,"Eliminated 5th & 6th (in Sandbanks Provincial Park, Ontario)",0
+CAN,8,CAN-S08-10,Tychon Carter-Newman,30,M,Father & Son,"Montreal, Quebec",QC,CAN,"Eliminated 5th & 6th (in Sandbanks Provincial Park, Ontario)",0
+CAN,8,CAN-S08-11,Cassie Day,31,M,Engaged,"Toronto, Ontario",ON,CAN,"Eliminated 5th & 6th (in Sandbanks Provincial Park, Ontario)",0
+CAN,8,CAN-S08-12,Jahmeek Murray,32,M,Engaged,"Toronto, Ontario",ON,CAN,"Eliminated 5th & 6th (in Sandbanks Provincial Park, Ontario)",0
+CAN,8,CAN-S08-13,Court Larabee,39,M,Dating Couple,"Whistler, British Columbia",BC,CAN,"Eliminated 7th (in Pokeshaw, New Brunswick)",0
+CAN,8,CAN-S08-14,Ali Clark,33,M,Dating Couple,"Fernie, British Columbia",BC,CAN,"Eliminated 7th (in Pokeshaw, New Brunswick)",0
+CAN,8,CAN-S08-15,Beverley Cheng,30,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 8th (in Georgian Bluffs, Ontario)",0
+CAN,8,CAN-S08-16,Veronica Skye,32,M,Friends,"Vancouver, British Columbia",BC,CAN,"Eliminated 8th (in Georgian Bluffs, Ontario)",0
+CAN,8,CAN-S08-17,Brendan McDougall,29,M,Brothers,"McDougall, Ontario",ON,CAN,Fourth place,0
+CAN,8,CAN-S08-18,Connor McDougall,26,M,Brothers,"McDougall, Ontario",ON,CAN,Fourth place,0
+CAN,8,CAN-S08-19,Franca Brodett,32,F,Sisters,"Edmonton, Alberta",AB,CAN,Third place,0
+CAN,8,CAN-S08-20,Nella Brodett,30,F,Sisters,"Edmonton, Alberta",AB,CAN,Third place,0
+CAN,8,CAN-S08-21,Jesse Cockney,32,M,Siblings,"Canmore, Alberta",AB,CAN,Runners-up,0
+CAN,8,CAN-S08-22,Marika Sila,29,M,Siblings,"Canmore, Alberta",AB,CAN,Runners-up,0
+CAN,8,CAN-S08-23,Catherine Wreford,42,M,Friends,"Winnipeg, Manitoba",MB,CAN,Winners,0
+CAN,8,CAN-S08-24,Craig Ramsay,45,M,Friends,"Windsor, Ontario",ON,CAN,Winners,0
+CAN,9,CAN-S09-01,Gail Kim,46,M,Friends & Co-Workers,"Toronto, Ontario",ON,CAN,"Eliminated 1st (in Calgary, Alberta)",0
+CAN,9,CAN-S09-02,Gisele Shaw,34,M,Friends & Co-Workers,"Yellowknife, Northwest Territories",NT,CAN,"Eliminated 1st (in Calgary, Alberta)",0
+CAN,9,CAN-S09-03,Allie Seller,48,M,Married,"Courtenay, British Columbia",BC,CAN,"Eliminated 2nd (in Smithers, British Columbia)",0
+CAN,9,CAN-S09-04,Eddie Parinas,52,M,Married,"Richmond, British Columbia",BC,CAN,"Eliminated 2nd (in Smithers, British Columbia)",0
+CAN,9,CAN-S09-05,Shayla Stonechild,29,M,Siblings,"Medicine Hat, Alberta",AB,CAN,"Eliminated 3rd (in Sooke, British Columbia)",0
+CAN,9,CAN-S09-06,Joel Oulette,21,M,Siblings,"Medicine Hat, Alberta",AB,CAN,"Eliminated 3rd (in Sooke, British Columbia)",0
+CAN,9,CAN-S09-07,Gracie Lowes,25,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 4th (in Pacific Rim National Park Reserve, British Columbia)",0
+CAN,9,CAN-S09-08,Lily Bateman,24,M,Friends,"Canning, Nova Scotia",NS,CAN,"Eliminated 4th (in Pacific Rim National Park Reserve, British Columbia)",0
+CAN,9,CAN-S09-09,Derek Gottenbos,28,M,Friends,"Richmond, British Columbia",BC,CAN,"Eliminated 5th (in Point Pelee National Park, Ontario)",0
+CAN,9,CAN-S09-10,Jaspal Sidhu,28,M,Friends,"Richmond, British Columbia",BC,CAN,"Eliminated 5th (in Point Pelee National Park, Ontario)",0
+CAN,9,CAN-S09-11,Jermaine Aranha,41,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 6th (in Saguenay, Quebec)",0
+CAN,9,CAN-S09-12,Justin Baird,36,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 6th (in Saguenay, Quebec)",0
+CAN,9,CAN-S09-13,Deven Condo-Mitchell,33,M,Couple,"Gesgapegiag, Quebec",QC,CAN,"Eliminated 7th (in Toronto, Ontario)",0
+CAN,9,CAN-S09-14,Amanda Larocque,41,M,Couple,"Gesgapegiag, Quebec",QC,CAN,"Eliminated 7th (in Toronto, Ontario)",0
+CAN,9,CAN-S09-15,Ben Chutta,31,M,Friends,"Winnipeg, Manitoba",MB,CAN,Third place,0
+CAN,9,CAN-S09-16,Anwar Ahmed,32,M,Friends,"Winnipeg, Manitoba",MB,CAN,Third place,0
+CAN,9,CAN-S09-17,Tyler Turner,35,M,Dating,"Calgary, Alberta",AB,CAN,Runners-up,5
+CAN,9,CAN-S09-18,Kayleen Vanderee,31,M,Dating,"Comox Valley, British Columbia",BC,CAN,Runners-up,0
+CAN,9,CAN-S09-19,Ty Smith,25,M,Dating,"Hinton, Alberta",AB,CAN,Winners,0
+CAN,9,CAN-S09-20,Kat Kastner,25,M,Dating,"Calgary, Alberta",AB,CAN,Winners,0
+CAN,10,CAN-S10-01,Eva Amo-Mensah,30,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 1st (in Niagara Falls, Ontario)",0
+CAN,10,CAN-S10-02,Trystenne Burey,27,M,Friends,"Toronto, Ontario",ON,CAN,"Eliminated 1st (in Niagara Falls, Ontario)",0
+CAN,10,CAN-S10-03,Dorothy Adeneye,29,M,Married Entrepreneurs,"Calgary, Alberta",AB,CAN,"Eliminated 2nd (in Roberts Creek, British Columbia)",0
+CAN,10,CAN-S10-04,Olus Adeneye,32,M,Married Entrepreneurs,"Calgary, Alberta",AB,CAN,"Eliminated 2nd (in Roberts Creek, British Columbia)",0
+CAN,10,CAN-S10-05,Connor Carroll,26,M,Best Friends,"Pickering, Ontario",ON,CAN,"Eliminated 3rd (in Oliver, British Columbia)",0
+CAN,10,CAN-S10-06,John Ferguson,26,M,Best Friends,"Erin, Ontario",ON,CAN,"Eliminated 3rd (in Oliver, British Columbia)",0
+CAN,10,CAN-S10-07,Brad May,52,M,Father & Daughter,"Toronto, Ontario",ON,CAN,"Eliminated 4th (in Rural Municipality of Riding Mountain West, Manitoba)",0
+CAN,10,CAN-S10-08,Sam May,24,M,Father & Daughter,"Toronto, Ontario",ON,CAN,"Eliminated 4th (in Rural Municipality of Riding Mountain West, Manitoba)",0
+CAN,10,CAN-S10-09,Julia Viola,33,M,Married,"Clearview, Ontario",ON,CAN,"Eliminated 5th (in Guelph, Ontario)",0
+CAN,10,CAN-S10-10,Olivia Curto,33,M,Married,"Clearview, Ontario",ON,CAN,"Eliminated 5th (in Guelph, Ontario)",0
+CAN,10,CAN-S10-11,Michael Linklater,42,M,Father & Son,"Saskatoon, Saskatchewan",SK,CAN,"Eliminated 6th (in South Stormont, Ontario)",0
+CAN,10,CAN-S10-12,Amari Linklater,19,M,Father & Son,"Saskatoon, Saskatchewan",SK,CAN,"Eliminated 6th (in South Stormont, Ontario)",0
+CAN,10,CAN-S10-13,Kevin Martin,31,M,Dating,"Calgary, Alberta",AB,CAN,"Eliminated 7th (in Miramichi, New Brunswick)",0
+CAN,10,CAN-S10-14,Gurleen Maan,35,M,Dating,"Abbotsford, British Columbia",BC,CAN,"Eliminated 7th (in Miramichi, New Brunswick)",0
+CAN,10,CAN-S10-15,Lauren Peters,26,F,Twin Sisters,"Mississauga, Ontario",ON,CAN,Fourth place,1
+CAN,10,CAN-S10-16,Nicole Peters,26,F,Twin Sisters,"Mississauga, Ontario",ON,CAN,Fourth place,0
+CAN,10,CAN-S10-17,Michael Crouse,33,M,Best Friends,"Vancouver, British Columbia",BC,CAN,Third place,0
+CAN,10,CAN-S10-18,Tyson Gillies,35,M,Best Friends,"Vancouver, British Columbia",BC,CAN,Third place,0
+CAN,10,CAN-S10-19,Colin Rose,33,M,Best Friends,"Mount Pearl, Newfoundland and Labrador",NL,CAN,Runners-up,0
+CAN,10,CAN-S10-20,Matt Roberts,31,M,Best Friends,"Mount Pearl, Newfoundland and Labrador",NL,CAN,Runners-up,0
+CAN,10,CAN-S10-21,Taylor McPherson,24,M,Best Friends,"Edmonton, Alberta",AB,CAN,Winners,0
+CAN,10,CAN-S10-22,Katie Mulkay,24,M,Best Friends,"Edmonton, Alberta",AB,CAN,Winners,0
 US,1,US-S01-01,Matt Robar,28,M,Married,"Simsbury, Connecticut",CT,USA,"Eliminated 1st (in Songwe Village, Zambia )",1
 US,1,US-S01-02,Ana Robar,28,F,Married,"Simsbury, Connecticut",CT,USA,"Eliminated 1st (in Songwe Village, Zambia )",0
 US,1,US-S01-03,Kim Smith,28,F,Teachers & Roommates,"Baytown, Texas",TX,USA,"Eliminated 2nd (in Paris, France)",2

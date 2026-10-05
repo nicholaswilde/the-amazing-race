@@ -5,7 +5,7 @@
 #'
 #' Season-level metadata, route summary statistics, and winning teams across all seasons.
 #'
-#' @format A data frame with 38 rows and 11 variables:
+#' @format A data frame with 56 rows and 11 variables:
 #' \describe{
 #'   \item{version}{Franchise country code ('US', 'CAN', 'AUS', etc.)}
 #'   \item{season}{Season number (integer)}
@@ -26,7 +26,7 @@
 #'
 #' Episode-level broadcast metadata, titles, premiere air dates, and Nielsen television viewership ratings.
 #'
-#' @format A data frame with 440 rows and 6 variables:
+#' @format A data frame with 669 rows and 6 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -42,7 +42,7 @@
 #'
 #' Individual contestant demographics, ages, relationship categories, and hometown residences.
 #'
-#' @format A data frame with 886 rows and 12 variables:
+#' @format A data frame with 1300 rows and 12 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -64,7 +64,7 @@
 #'
 #' Two-person team statistics, relationship classifications, final finish placement, and total leg victories.
 #'
-#' @format A data frame with 431 rows and 17 variables:
+#' @format A data frame with 635 rows and 17 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -91,7 +91,7 @@
 #'
 #' Leg-level travel route summaries, itinerary waypoints count, task counts, and route narratives.
 #'
-#' @format A data frame with 453 rows and 13 variables:
+#' @format A data frame with 677 rows and 13 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -114,7 +114,7 @@
 #'
 #' Finish placements, arrival ranks, and game-mechanic penalties/advantages for each team on every leg.
 #'
-#' @format A data frame with 3189 rows and 12 variables:
+#' @format A data frame with 4667 rows and 12 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
@@ -136,7 +136,7 @@
 #'
 #' Detailed breakdowns of all Roadblocks, Detours, Fast Forwards, and Route Info challenges.
 #'
-#' @format A data frame with 1699 rows and 6 variables:
+#' @format A data frame with 2378 rows and 6 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}

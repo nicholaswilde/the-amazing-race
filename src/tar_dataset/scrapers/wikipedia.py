@@ -226,7 +226,10 @@ class WikipediaScraper:
             0,
         )
         age_idx = next((i for i, h in enumerate(header) if "age" in h), None)
-        rel_idx = next((i for i, h in enumerate(header) if "relationship" in h), None)
+        rel_idx = next(
+            (i for i, h in enumerate(header) if "relationship" in h or "subtitle" in h),
+            None,
+        )
         home_idx = next(
             (i for i, h in enumerate(header) if "hometown" in h or "residence" in h),
             None,

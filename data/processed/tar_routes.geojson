@@ -13,6 +13,6601 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          116.0363,
+          -8.3503
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 1,
+        "city": "Gili Trawangan",
+        "country": "IDN",
+        "continent": "Asia",
+        "route_header": "Australia → Indonesia",
+        "itinerary_stops": 10,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5863,
+          16.4639
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 2,
+        "city": "Huế",
+        "country": "VNM",
+        "continent": "Asia",
+        "route_header": "Indonesia → Vietnam",
+        "itinerary_stops": 10,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.54,
+          22.19
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 3,
+        "city": "Macau",
+        "country": "MAC",
+        "continent": "Asia",
+        "route_header": "Vietnam → Hong Kong → Macau",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6941,
+          -33.5548
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 4,
+        "city": "Addo",
+        "country": "ZAF",
+        "continent": "Africa",
+        "route_header": "Macau → South Africa",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4172,
+          -33.9288
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 5,
+        "city": "Cape Town",
+        "country": "ZAF",
+        "continent": "Africa",
+        "route_header": "South Africa",
+        "itinerary_stops": 10,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4214,
+          50.0875
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 6,
+        "city": "Prague",
+        "country": "CZE",
+        "continent": "Europe",
+        "route_header": "South Africa → Netherlands → Czech Republic",
+        "itinerary_stops": 9,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2681,
+          49.9487
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 7,
+        "city": "Kutná Hora",
+        "country": "CZE",
+        "continent": "Europe",
+        "route_header": "Czech Republic",
+        "itinerary_stops": 7,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2998,
+          49.4075
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 8,
+        "city": "Niedzica",
+        "country": "POL",
+        "continent": "Europe",
+        "route_header": "Czech Republic → Poland",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2252,
+          22.2193
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 9,
+        "city": "Southern District",
+        "country": "ISR",
+        "continent": "Asia",
+        "route_header": "Poland → Israel",
+        "itinerary_stops": 8,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2258,
+          31.7788
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 10,
+        "city": "Jerusalem",
+        "country": "ISR",
+        "continent": "Asia",
+        "route_header": "Israel",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8428,
+          6.9344
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 11,
+        "city": "Colombo",
+        "country": "LKA",
+        "continent": "Asia",
+        "route_header": "Israel → Sri Lanka",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8606,
+          -31.9559
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 1,
+        "leg_number": 12,
+        "city": "Perth",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Sri Lanka → Singapore → Australia",
+        "itinerary_stops": 13,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.0363,
+            -8.3503
+          ],
+          [
+            107.5863,
+            16.4639
+          ],
+          [
+            113.54,
+            22.19
+          ],
+          [
+            25.6941,
+            -33.5548
+          ],
+          [
+            18.4172,
+            -33.9288
+          ],
+          [
+            14.4214,
+            50.0875
+          ],
+          [
+            15.2681,
+            49.9487
+          ],
+          [
+            20.2998,
+            49.4075
+          ],
+          [
+            114.2252,
+            22.2193
+          ],
+          [
+            35.2258,
+            31.7788
+          ],
+          [
+            79.8428,
+            6.9344
+          ],
+          [
+            115.8606,
+            -31.9559
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "AUS",
+        "season": 1,
+        "n_legs": 12,
+        "destinations": [
+          "Gili Trawangan",
+          "Huế",
+          "Macau",
+          "Addo",
+          "Cape Town",
+          "Prague",
+          "Kutná Hora",
+          "Niedzica",
+          "Southern District",
+          "Jerusalem",
+          "Colombo",
+          "Perth"
+        ],
+        "countries": [
+          "IDN",
+          "VNM",
+          "MAC",
+          "ZAF",
+          "CZE",
+          "POL",
+          "ISR",
+          "LKA",
+          "AUS"
+        ],
+        "continents": [
+          "Asia",
+          "Africa",
+          "Europe",
+          "Oceania"
+        ],
+        "route_summary": "Gili Trawangan (IDN) → Huế (VNM) → Macau (MAC) → Addo (ZAF) → Cape Town (ZAF) → Prague (CZE) → Kutná Hora (CZE) → Niedzica (POL) → Southern District (ISR) → Jerusalem (ISR) → Colombo (LKA) → Perth (AUS)",
+        "distance_miles": 31000.0,
+        "distance_km": 50000.0,
+        "winners": "Tyler Atkins & Nathan Jolliffe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.7917,
+          13.2925
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 1,
+        "city": "Bacacay",
+        "country": "PHL",
+        "continent": "Asia",
+        "route_header": "Australia → Philippines",
+        "itinerary_stops": 8,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23,
+          28.61
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 2,
+        "city": "Delhi",
+        "country": "IND",
+        "continent": "Asia",
+        "route_header": "Philippines → India",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.82,
+          26.915
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 3,
+        "city": "Jaipur",
+        "country": "IND",
+        "continent": "Asia",
+        "route_header": "India",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1886,
+          25.0743
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 4,
+        "city": "Dubai",
+        "country": "ARE",
+        "continent": "Asia",
+        "route_header": "India → United Arab Emirates",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9759,
+          41.0064
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 5,
+        "city": "Istanbul",
+        "country": "TUR",
+        "continent": "Europe",
+        "route_header": "United Arab Emirates → Turkey",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9759,
+          41.0064
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 6,
+        "city": "Istanbul",
+        "country": "TUR",
+        "continent": "Europe",
+        "route_header": "Turkey",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3589,
+          23.1367
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 7,
+        "city": "Havana",
+        "country": "CUB",
+        "continent": "North America",
+        "route_header": "Turkey → France → Cuba",
+        "itinerary_stops": 10,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2093,
+          -33.8688
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 8,
+        "city": "Sydney",
+        "country": "CUB",
+        "continent": "North America",
+        "route_header": "Cuba",
+        "itinerary_stops": 4,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.114,
+          49.2609
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 9,
+        "city": "Vancouver",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Cuba → Canada",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5736,
+          51.1778
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 10,
+        "city": "Banff",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Canada",
+        "itinerary_stops": 8,
+        "tasks_count": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3913,
+          39.9057
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 11,
+        "city": "Beijing",
+        "country": "CHN",
+        "continent": "Asia",
+        "route_header": "Canada → China",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.15,
+          -25.24
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 2,
+        "leg_number": 12,
+        "city": "Fraser Island",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "China → Australia",
+        "itinerary_stops": 11,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.7917,
+            13.2925
+          ],
+          [
+            77.23,
+            28.61
+          ],
+          [
+            75.82,
+            26.915
+          ],
+          [
+            55.1886,
+            25.0743
+          ],
+          [
+            28.9759,
+            41.0064
+          ],
+          [
+            28.9759,
+            41.0064
+          ],
+          [
+            -82.3589,
+            23.1367
+          ],
+          [
+            151.2093,
+            -33.8688
+          ],
+          [
+            -123.114,
+            49.2609
+          ],
+          [
+            -115.5736,
+            51.1778
+          ],
+          [
+            116.3913,
+            39.9057
+          ],
+          [
+            153.15,
+            -25.24
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "AUS",
+        "season": 2,
+        "n_legs": 12,
+        "destinations": [
+          "Bacacay",
+          "Delhi",
+          "Jaipur",
+          "Dubai",
+          "Istanbul",
+          "Istanbul",
+          "Havana",
+          "Sydney",
+          "Vancouver",
+          "Banff",
+          "Beijing",
+          "Fraser Island"
+        ],
+        "countries": [
+          "PHL",
+          "IND",
+          "ARE",
+          "TUR",
+          "CUB",
+          "CAN",
+          "CHN",
+          "AUS"
+        ],
+        "continents": [
+          "Asia",
+          "Europe",
+          "North America",
+          "Oceania"
+        ],
+        "route_summary": "Bacacay (PHL) → Delhi (IND) → Jaipur (IND) → Dubai (ARE) → Istanbul (TUR) → Istanbul (TUR) → Havana (CUB) → Sydney (CUB) → Vancouver (CAN) → Banff (CAN) → Beijing (CHN) → Fraser Island (AUS)",
+        "distance_miles": 40000.0,
+        "distance_km": 65000.0,
+        "winners": "Shane Haw & Andrew Thoday"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.8967,
+          -43.6407
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 1,
+        "city": "Mesopotamia",
+        "country": "NZL",
+        "continent": "Oceania",
+        "route_header": "Australia → New Zealand",
+        "itinerary_stops": 7,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.859,
+          13.3618
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 2,
+        "city": "Siem Reap",
+        "country": "KHM",
+        "continent": "Asia",
+        "route_header": "New Zealand → Cambodia",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.765,
+          7.6789
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 3,
+        "city": "Hat Noppharat Thara–Mu Ko Phi Phi National Park",
+        "country": "THA",
+        "continent": "Asia",
+        "route_header": "Cambodia → Thailand",
+        "itinerary_stops": 11,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0,
+          -22.8
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 4,
+        "city": "Khomas Region",
+        "country": "NAM",
+        "continent": "Africa",
+        "route_header": "Thailand → Namibia",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1587,
+          59.9607
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 5,
+        "city": "Saint Petersburg",
+        "country": "RUS",
+        "continent": "Europe",
+        "route_header": "Namibia → Russia",
+        "itinerary_stops": 8,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.9269,
+          57.7681
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 6,
+        "city": "Kostroma",
+        "country": "RUS",
+        "continent": "Europe",
+        "route_header": "Russia",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.3522,
+          38.8355
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 7,
+        "city": "Sintra",
+        "country": "PRT",
+        "continent": "Europe",
+        "route_header": "Russia → Portugal",
+        "itinerary_stops": 10,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1083,
+          42.6403
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 8,
+        "city": "Dubrovnik",
+        "country": "HRV",
+        "continent": "Europe",
+        "route_header": "Portugal → Croatia",
+        "itinerary_stops": 10,
+        "tasks_count": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5797,
+          -34.4251
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 9,
+        "city": "Tigre",
+        "country": "ARG",
+        "continent": "South America",
+        "route_header": "Croatia → Argentina",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.852,
+          1.2903
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 3,
+        "leg_number": 10,
+        "city": "Singapore",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Argentina → United States → Australia",
+        "itinerary_stops": 12,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            170.8967,
+            -43.6407
+          ],
+          [
+            103.859,
+            13.3618
+          ],
+          [
+            98.765,
+            7.6789
+          ],
+          [
+            17.0,
+            -22.8
+          ],
+          [
+            30.1587,
+            59.9607
+          ],
+          [
+            40.9269,
+            57.7681
+          ],
+          [
+            -9.3522,
+            38.8355
+          ],
+          [
+            18.1083,
+            42.6403
+          ],
+          [
+            -58.5797,
+            -34.4251
+          ],
+          [
+            103.852,
+            1.2903
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "AUS",
+        "season": 3,
+        "n_legs": 10,
+        "destinations": [
+          "Mesopotamia",
+          "Siem Reap",
+          "Hat Noppharat Thara–Mu Ko Phi Phi National Park",
+          "Khomas Region",
+          "Saint Petersburg",
+          "Kostroma",
+          "Sintra",
+          "Dubrovnik",
+          "Tigre",
+          "Singapore"
+        ],
+        "countries": [
+          "NZL",
+          "KHM",
+          "THA",
+          "NAM",
+          "RUS",
+          "PRT",
+          "HRV",
+          "ARG",
+          "AUS"
+        ],
+        "continents": [
+          "Oceania",
+          "Asia",
+          "Africa",
+          "Europe",
+          "South America"
+        ],
+        "route_summary": "Mesopotamia (NZL) → Siem Reap (KHM) → Hat Noppharat Thara–Mu Ko Phi Phi National Park (THA) → Khomas Region (NAM) → Saint Petersburg (RUS) → Kostroma (RUS) → Sintra (PRT) → Dubrovnik (HRV) → Tigre (ARG) → Singapore (AUS)",
+        "distance_miles": 56000.0,
+        "distance_km": 90000.0,
+        "winners": "Daniel Little & Ryan Thomas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9783,
+          37.5667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 1,
+        "city": "Seoul",
+        "country": "KOR",
+        "continent": "Asia",
+        "route_header": "South Korea",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2175,
+          38.2092
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 2,
+        "city": "Cheorwon",
+        "country": "KOR",
+        "continent": "Asia",
+        "route_header": "South Korea",
+        "itinerary_stops": 5,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9565,
+          20.2498
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 3,
+        "city": "Hoa Lư",
+        "country": "VNM",
+        "continent": "Asia",
+        "route_header": "South Korea → Vietnam",
+        "itinerary_stops": 10,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8653,
+          20.3347
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 4,
+        "city": "Gia Viễn",
+        "country": "VNM",
+        "continent": "Asia",
+        "route_header": "Vietnam",
+        "itinerary_stops": 5,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.5,
+          45.5
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 5,
+        "city": "Govi-Altai",
+        "country": "MNG",
+        "continent": "Asia",
+        "route_header": "Vietnam → Mongolia",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9153,
+          47.9219
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 6,
+        "city": "Ulaanbaatar",
+        "country": "MNG",
+        "continent": "Asia",
+        "route_header": "Mongolia",
+        "itinerary_stops": 4,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8333,
+          -17.8667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 7,
+        "city": "Mosi-oa-Tunya National Park",
+        "country": "ZMB",
+        "continent": "Africa",
+        "route_header": "Mongolia → Zimbabwe → Zambia",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8567,
+          -17.9244
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 8,
+        "city": "Victoria Falls",
+        "country": "ZWE",
+        "continent": "Africa",
+        "route_header": "Zimbabwe",
+        "itinerary_stops": 5,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0,
+          -13.3667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 9,
+        "city": "Mphere",
+        "country": "MWI",
+        "continent": "Africa",
+        "route_header": "Zambia → Malawi",
+        "itinerary_stops": 8,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7681,
+          -13.9864
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 10,
+        "city": "Lilongwe",
+        "country": "MWI",
+        "continent": "Africa",
+        "route_header": "Malawi",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4942,
+          13.7525
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 11,
+        "city": "Bangkok",
+        "country": "THA",
+        "continent": "Asia",
+        "route_header": "Malawi → Thailand",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.4167,
+          -14.3167
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 4,
+        "leg_number": 12,
+        "city": "Nitmiluk National Park",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Thailand → Australia",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9783,
+            37.5667
+          ],
+          [
+            127.2175,
+            38.2092
+          ],
+          [
+            105.9565,
+            20.2498
+          ],
+          [
+            105.8653,
+            20.3347
+          ],
+          [
+            95.5,
+            45.5
+          ],
+          [
+            106.9153,
+            47.9219
+          ],
+          [
+            25.8333,
+            -17.8667
+          ],
+          [
+            25.8567,
+            -17.9244
+          ],
+          [
+            34.0,
+            -13.3667
+          ],
+          [
+            33.7681,
+            -13.9864
+          ],
+          [
+            100.4942,
+            13.7525
+          ],
+          [
+            132.4167,
+            -14.3167
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "AUS",
+        "season": 4,
+        "n_legs": 12,
+        "destinations": [
+          "Seoul",
+          "Cheorwon",
+          "Hoa Lư",
+          "Gia Viễn",
+          "Govi-Altai",
+          "Ulaanbaatar",
+          "Mosi-oa-Tunya National Park",
+          "Victoria Falls",
+          "Mphere",
+          "Lilongwe",
+          "Bangkok",
+          "Nitmiluk National Park"
+        ],
+        "countries": [
+          "KOR",
+          "VNM",
+          "MNG",
+          "ZMB",
+          "ZWE",
+          "MWI",
+          "THA",
+          "AUS"
+        ],
+        "continents": [
+          "Asia",
+          "Africa",
+          "Oceania"
+        ],
+        "route_summary": "Seoul (KOR) → Cheorwon (KOR) → Hoa Lư (VNM) → Gia Viễn (VNM) → Govi-Altai (MNG) → Ulaanbaatar (MNG) → Mosi-oa-Tunya National Park (ZMB) → Victoria Falls (ZWE) → Mphere (MWI) → Lilongwe (MWI) → Bangkok (THA) → Nitmiluk National Park (AUS)",
+        "distance_miles": 28000.0,
+        "distance_km": 45000.0,
+        "winners": "Tim & Rod Sattler-Jones"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3736,
+          -16.4604
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 1,
+        "city": "Mossman",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3344,
+          -27.9983
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 2,
+        "city": "Gold Coast",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2781,
+          -23.4314
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 3,
+        "city": "Longreach",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5483,
+          -18.7063
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 4,
+        "city": "Palm Island",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland",
+        "itinerary_stops": 10,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.838,
+          -19.18
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 5,
+        "city": "Picnic Bay",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland",
+        "itinerary_stops": 10,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9733,
+          -16.76
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 6,
+        "city": "Green Island",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.8411,
+          -12.4381
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 7,
+        "city": "Darwin",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland → Northern Territory",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.3,
+          -12.58
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 8,
+        "city": "Middle Point",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Northern Territory",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.87,
+          -23.7
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 9,
+        "city": "Alice Springs",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Northern Territory",
+        "itinerary_stops": 11,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7556,
+          -29.0111
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 10,
+        "city": "Coober Pedy",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Northern Territory → South Australia",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6,
+          -34.9275
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 11,
+        "city": "Adelaide",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "South Australia",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8716,
+          -34.8657
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 12,
+        "city": "Lincoln National Park",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "South Australia",
+        "itinerary_stops": 8,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1572,
+          -18.6508
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 13,
+        "city": "Ingham",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "South Australia → Queensland",
+        "itinerary_stops": 8,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8513,
+          -26.758
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 14,
+        "city": "Maleny",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0281,
+          -27.4678
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 15,
+        "city": "Brisbane",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland",
+        "itinerary_stops": 7,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.325,
+          -42.8806
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 16,
+        "city": "Hobart",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Queensland → Tasmania",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.95,
+          -29.0333
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 17,
+        "city": "New Norfolk",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Tasmania",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.145,
+          -41.4419
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 18,
+        "city": "West Launceston",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Tasmania",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2844,
+          -32.7983
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 19,
+        "city": "Pokolbin",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Tasmania → New South Wales",
+        "itinerary_stops": 9,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3333,
+          -33.7167
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 20,
+        "city": "Leura",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "New South Wales",
+        "itinerary_stops": 7,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9111,
+          -31.4389
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 21,
+        "city": "Tooraweenah",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "New South Wales",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.2333,
+          -31.8667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 22,
+        "city": "Silverton",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "New South Wales",
+        "itinerary_stops": 9,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2093,
+          -33.8688
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 23,
+        "city": "Sydney",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "New South Wales",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3486,
+          -36.0722
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 5,
+        "leg_number": 24,
+        "city": "Kosciuszko National Park",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "New South Wales → Australian Capital Territory → New South Wales",
+        "itinerary_stops": 10,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.3736,
+            -16.4604
+          ],
+          [
+            153.3344,
+            -27.9983
+          ],
+          [
+            144.2781,
+            -23.4314
+          ],
+          [
+            146.5483,
+            -18.7063
+          ],
+          [
+            146.838,
+            -19.18
+          ],
+          [
+            145.9733,
+            -16.76
+          ],
+          [
+            130.8411,
+            -12.4381
+          ],
+          [
+            131.3,
+            -12.58
+          ],
+          [
+            133.87,
+            -23.7
+          ],
+          [
+            134.7556,
+            -29.0111
+          ],
+          [
+            138.6,
+            -34.9275
+          ],
+          [
+            135.8716,
+            -34.8657
+          ],
+          [
+            146.1572,
+            -18.6508
+          ],
+          [
+            152.8513,
+            -26.758
+          ],
+          [
+            153.0281,
+            -27.4678
+          ],
+          [
+            147.325,
+            -42.8806
+          ],
+          [
+            167.95,
+            -29.0333
+          ],
+          [
+            147.145,
+            -41.4419
+          ],
+          [
+            151.2844,
+            -32.7983
+          ],
+          [
+            150.3333,
+            -33.7167
+          ],
+          [
+            148.9111,
+            -31.4389
+          ],
+          [
+            141.2333,
+            -31.8667
+          ],
+          [
+            151.2093,
+            -33.8688
+          ],
+          [
+            148.3486,
+            -36.0722
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "AUS",
+        "season": 5,
+        "n_legs": 24,
+        "destinations": [
+          "Mossman",
+          "Gold Coast",
+          "Longreach",
+          "Palm Island",
+          "Picnic Bay",
+          "Green Island",
+          "Darwin",
+          "Middle Point",
+          "Alice Springs",
+          "Coober Pedy",
+          "Adelaide",
+          "Lincoln National Park",
+          "Ingham",
+          "Maleny",
+          "Brisbane",
+          "Hobart",
+          "New Norfolk",
+          "West Launceston",
+          "Pokolbin",
+          "Leura",
+          "Tooraweenah",
+          "Silverton",
+          "Sydney",
+          "Kosciuszko National Park"
+        ],
+        "countries": [
+          "AUS"
+        ],
+        "continents": [
+          "Oceania"
+        ],
+        "route_summary": "Mossman (AUS) → Gold Coast (AUS) → Longreach (AUS) → Palm Island (AUS) → Picnic Bay (AUS) → Green Island (AUS) → Darwin (AUS) → Middle Point (AUS) → Alice Springs (AUS) → Coober Pedy (AUS) → Adelaide (AUS) → Lincoln National Park (AUS) → Ingham (AUS) → Maleny (AUS) → Brisbane (AUS) → Hobart (AUS) → New Norfolk (AUS) → West Launceston (AUS) → Pokolbin (AUS) → Leura (AUS) → Tooraweenah (AUS) → Silverton (AUS) → Sydney (AUS) → Kosciuszko National Park (AUS)",
+        "distance_miles": 11000.0,
+        "distance_km": 17000.0,
+        "winners": "Brendon Crawley & Jackson Dening"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1289,
+          31.0472
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 1,
+        "city": "Ksar Aït Benhaddou",
+        "country": "MAR",
+        "continent": "Africa",
+        "route_header": "Australia → Morocco",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0089,
+          31.63
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 2,
+        "city": "Marrakesh",
+        "country": "MAR",
+        "continent": "Africa",
+        "route_header": "Australia → Morocco",
+        "itinerary_stops": 8,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2697,
+          35.1714
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 3,
+        "city": "Chefchaouen",
+        "country": "MAR",
+        "continent": "Africa",
+        "route_header": "Morocco",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7281,
+          37.9842
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 4,
+        "city": "Athens",
+        "country": "GRC",
+        "continent": "Europe",
+        "route_header": "Morocco → Greece",
+        "itinerary_stops": 7,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3667,
+          36.4667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 5,
+        "city": "Oia",
+        "country": "GRC",
+        "continent": "Europe",
+        "route_header": "Greece",
+        "itinerary_stops": 7,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5833,
+          38.4833
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 6,
+        "city": "Arachova",
+        "country": "GRC",
+        "continent": "Europe",
+        "route_header": "Greece",
+        "itinerary_stops": 6,
+        "tasks_count": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1322,
+          38.4244
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 7,
+        "city": "İzmir",
+        "country": "TUR",
+        "continent": "Europe",
+        "route_header": "Greece → Turkey",
+        "itinerary_stops": 7,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6494,
+          38.5458
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 8,
+        "city": "Kula",
+        "country": "TUR",
+        "continent": "Europe",
+        "route_header": "Turkey",
+        "itinerary_stops": 5,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3742,
+          38.2814
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 9,
+        "city": "Alaçatı",
+        "country": "TUR",
+        "continent": "Europe",
+        "route_header": "Turkey",
+        "itinerary_stops": 4,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0722,
+          4.7111
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 10,
+        "city": "Bogotá",
+        "country": "COL",
+        "continent": "South America",
+        "route_header": "Turkey → Colombia",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6026,
+          6.2697
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 11,
+        "city": "Medellín",
+        "country": "COL",
+        "continent": "South America",
+        "route_header": "Colombia",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5,
+          10.4
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 12,
+        "city": "Cartagena",
+        "country": "COL",
+        "continent": "South America",
+        "route_header": "Colombia",
+        "itinerary_stops": 6,
+        "tasks_count": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1886,
+          17.4986
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 13,
+        "city": "Belize City",
+        "country": "BLZ",
+        "continent": "North America",
+        "route_header": "Colombia → Belize",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0,
+          17.0
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 14,
+        "city": "Cayo District",
+        "country": "BLZ",
+        "continent": "North America",
+        "route_header": "Belize",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.025,
+          17.7425
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 15,
+        "city": "Caye Caulker",
+        "country": "BLZ",
+        "continent": "North America",
+        "route_header": "Belize",
+        "itinerary_stops": 8,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.62,
+          20.6867
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 16,
+        "city": "Sotuta de Peón",
+        "country": "MEX",
+        "continent": "North America",
+        "route_header": "Belize → Mexico",
+        "itinerary_stops": 6,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6236,
+          20.9672
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 17,
+        "city": "Mérida",
+        "country": "MEX",
+        "continent": "North America",
+        "route_header": "Mexico",
+        "itinerary_stops": 5,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1364,
+          20.8911
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 18,
+        "city": "Ekʼ Balam",
+        "country": "MEX",
+        "continent": "North America",
+        "route_header": "Mexico",
+        "itinerary_stops": 4,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8606,
+          -31.9559
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 19,
+        "city": "Perth",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Mexico → Australia",
+        "itinerary_stops": 7,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7475,
+          -32.0542
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 20,
+        "city": "Fremantle",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Australia",
+        "itinerary_stops": 9,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2361,
+          -17.9619
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 6,
+        "leg_number": 21,
+        "city": "Broome",
+        "country": "AUS",
+        "continent": "Oceania",
+        "route_header": "Australia",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -7.1289,
+            31.0472
+          ],
+          [
+            -8.0089,
+            31.63
+          ],
+          [
+            -5.2697,
+            35.1714
+          ],
+          [
+            23.7281,
+            37.9842
+          ],
+          [
+            25.3667,
+            36.4667
+          ],
+          [
+            22.5833,
+            38.4833
+          ],
+          [
+            27.1322,
+            38.4244
+          ],
+          [
+            28.6494,
+            38.5458
+          ],
+          [
+            26.3742,
+            38.2814
+          ],
+          [
+            -74.0722,
+            4.7111
+          ],
+          [
+            -75.6026,
+            6.2697
+          ],
+          [
+            -75.5,
+            10.4
+          ],
+          [
+            -88.1886,
+            17.4986
+          ],
+          [
+            -89.0,
+            17.0
+          ],
+          [
+            -88.025,
+            17.7425
+          ],
+          [
+            -89.62,
+            20.6867
+          ],
+          [
+            -89.6236,
+            20.9672
+          ],
+          [
+            -88.1364,
+            20.8911
+          ],
+          [
+            115.8606,
+            -31.9559
+          ],
+          [
+            115.7475,
+            -32.0542
+          ],
+          [
+            122.2361,
+            -17.9619
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "AUS",
+        "season": 6,
+        "n_legs": 21,
+        "destinations": [
+          "Ksar Aït Benhaddou",
+          "Marrakesh",
+          "Chefchaouen",
+          "Athens",
+          "Oia",
+          "Arachova",
+          "İzmir",
+          "Kula",
+          "Alaçatı",
+          "Bogotá",
+          "Medellín",
+          "Cartagena",
+          "Belize City",
+          "Cayo District",
+          "Caye Caulker",
+          "Sotuta de Peón",
+          "Mérida",
+          "Ekʼ Balam",
+          "Perth",
+          "Fremantle",
+          "Broome"
+        ],
+        "countries": [
+          "MAR",
+          "GRC",
+          "TUR",
+          "COL",
+          "BLZ",
+          "MEX",
+          "AUS"
+        ],
+        "continents": [
+          "Africa",
+          "Europe",
+          "South America",
+          "North America",
+          "Oceania"
+        ],
+        "route_summary": "Ksar Aït Benhaddou (MAR) → Marrakesh (MAR) → Chefchaouen (MAR) → Athens (GRC) → Oia (GRC) → Arachova (GRC) → İzmir (TUR) → Kula (TUR) → Alaçatı (TUR) → Bogotá (COL) → Medellín (COL) → Cartagena (COL) → Belize City (BLZ) → Cayo District (BLZ) → Caye Caulker (BLZ) → Sotuta de Peón (MEX) → Mérida (MEX) → Ekʼ Balam (MEX) → Perth (AUS) → Fremantle (AUS) → Broome (AUS)",
+        "distance_miles": 34000.0,
+        "distance_km": 55000.0,
+        "winners": "Heath Curry & Toni Hilland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23,
+          28.61
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 1,
+        "city": "Delhi",
+        "country": "IND",
+        "continent": "Asia",
+        "route_header": "India",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.02,
+          27.18
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 2,
+        "city": "Agra",
+        "country": "IND",
+        "continent": "Asia",
+        "route_header": "India",
+        "itinerary_stops": 5,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.384,
+          9.4893
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 3,
+        "city": "Kainakary South",
+        "country": "IND",
+        "continent": "Asia",
+        "route_header": "India",
+        "itinerary_stops": 10,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.8,
+          6.35
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 4,
+        "city": "Langkawi",
+        "country": "MYS",
+        "continent": "Asia",
+        "route_header": "India → Malaysia",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3292,
+          5.4144
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 5,
+        "city": "George Town",
+        "country": "MYS",
+        "continent": "Asia",
+        "route_header": "Malaysia",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3292,
+          5.4144
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 6,
+        "city": "George Town",
+        "country": "MYS",
+        "continent": "Asia",
+        "route_header": "Malaysia",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.859,
+          13.3618
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 7,
+        "city": "Siem Reap",
+        "country": "KHM",
+        "continent": "Asia",
+        "route_header": "Malaysia → Cambodia",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.859,
+          13.3618
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 8,
+        "city": "Siem Reap",
+        "country": "KHM",
+        "continent": "Asia",
+        "route_header": "Cambodia",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.859,
+          13.3618
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 9,
+        "city": "Siem Reap",
+        "country": "KHM",
+        "continent": "Asia",
+        "route_header": "Cambodia",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0266,
+          6.0187
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 10,
+        "city": "Tunku Abdul Rahman National Park",
+        "country": "MYS",
+        "continent": "Asia",
+        "route_header": "Cambodia → Malaysia",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4526,
+          18.1758
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 11,
+        "city": "Port Antonio",
+        "country": "MYS",
+        "continent": "Asia",
+        "route_header": "Malaysia",
+        "itinerary_stops": 5,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6953,
+          3.1478
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 7,
+        "leg_number": 12,
+        "city": "Kuala Lumpur",
+        "country": "MYS",
+        "continent": "Asia",
+        "route_header": "Malaysia",
+        "itinerary_stops": 8,
+        "tasks_count": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.23,
+            28.61
+          ],
+          [
+            78.02,
+            27.18
+          ],
+          [
+            76.384,
+            9.4893
+          ],
+          [
+            99.8,
+            6.35
+          ],
+          [
+            100.3292,
+            5.4144
+          ],
+          [
+            100.3292,
+            5.4144
+          ],
+          [
+            103.859,
+            13.3618
+          ],
+          [
+            103.859,
+            13.3618
+          ],
+          [
+            103.859,
+            13.3618
+          ],
+          [
+            116.0266,
+            6.0187
+          ],
+          [
+            -76.4526,
+            18.1758
+          ],
+          [
+            101.6953,
+            3.1478
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "AUS",
+        "season": 7,
+        "n_legs": 12,
+        "destinations": [
+          "Delhi",
+          "Agra",
+          "Kainakary South",
+          "Langkawi",
+          "George Town",
+          "George Town",
+          "Siem Reap",
+          "Siem Reap",
+          "Siem Reap",
+          "Tunku Abdul Rahman National Park",
+          "Port Antonio",
+          "Kuala Lumpur"
+        ],
+        "countries": [
+          "IND",
+          "MYS",
+          "KHM"
+        ],
+        "continents": [
+          "Asia"
+        ],
+        "route_summary": "Delhi (IND) → Agra (IND) → Kainakary South (IND) → Langkawi (MYS) → George Town (MYS) → George Town (MYS) → Siem Reap (KHM) → Siem Reap (KHM) → Siem Reap (KHM) → Tunku Abdul Rahman National Park (MYS) → Port Antonio (MYS) → Kuala Lumpur (MYS)",
+        "distance_miles": 6200.0,
+        "distance_km": 10000.0,
+        "winners": "Alli Simpson & Angie SimpsonDarren McMullen & Tristan DouganEmma Watkins & Hayley Watkins"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3888,
+          -34.6096
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 1,
+        "city": "Buenos Aires",
+        "country": "ARG",
+        "continent": "South America",
+        "route_header": "Argentina",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3833,
+          -24.6
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 2,
+        "city": "La Caldera",
+        "country": "ARG",
+        "continent": "South America",
+        "route_header": "Argentina",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3667,
+          -23.5667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 3,
+        "city": "Tilcara",
+        "country": "ARG",
+        "continent": "South America",
+        "route_header": "Argentina",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0456,
+          -26.2044
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 4,
+        "city": "Johannesburg",
+        "country": "ZAF",
+        "continent": "Africa",
+        "route_header": "Argentina → South Africa",
+        "itinerary_stops": 7,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8585,
+          -26.2678
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 5,
+        "city": "Soweto",
+        "country": "ZAF",
+        "continent": "Africa",
+        "route_header": "South Africa",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7667,
+          -26.1
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 6,
+        "city": "Krugersdorp",
+        "country": "ZAF",
+        "continent": "Africa",
+        "route_header": "South Africa",
+        "itinerary_stops": 4,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3894,
+          -22.0278
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 7,
+        "city": "Erongo Region",
+        "country": "NAM",
+        "continent": "Africa",
+        "route_header": "South Africa → Namibia",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5333,
+          -22.6833
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 8,
+        "city": "Swakopmund",
+        "country": "NAM",
+        "continent": "Africa",
+        "route_header": "Namibia",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5874,
+          -21.997
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 9,
+        "city": "Usakos",
+        "country": "NAM",
+        "continent": "Africa",
+        "route_header": "Namibia",
+        "itinerary_stops": 5,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6067,
+          13.9125
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 10,
+        "city": "Thai Mueang",
+        "country": "THA",
+        "continent": "Asia",
+        "route_header": "Namibia → Thailand",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.3529,
+          7.9366
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 11,
+        "city": "Phuket",
+        "country": "THA",
+        "continent": "Asia",
+        "route_header": "Thailand",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4942,
+          13.7525
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "AUS",
+        "season": 8,
+        "leg_number": 12,
+        "city": "Bangkok",
+        "country": "THA",
+        "continent": "Asia",
+        "route_header": "Thailand",
+        "itinerary_stops": 8,
+        "tasks_count": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.3888,
+            -34.6096
+          ],
+          [
+            -65.3833,
+            -24.6
+          ],
+          [
+            -65.3667,
+            -23.5667
+          ],
+          [
+            28.0456,
+            -26.2044
+          ],
+          [
+            27.8585,
+            -26.2678
+          ],
+          [
+            27.7667,
+            -26.1
+          ],
+          [
+            15.3894,
+            -22.0278
+          ],
+          [
+            14.5333,
+            -22.6833
+          ],
+          [
+            15.5874,
+            -21.997
+          ],
+          [
+            100.6067,
+            13.9125
+          ],
+          [
+            98.3529,
+            7.9366
+          ],
+          [
+            100.4942,
+            13.7525
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "AUS",
+        "season": 8,
+        "n_legs": 12,
+        "destinations": [
+          "Buenos Aires",
+          "La Caldera",
+          "Tilcara",
+          "Johannesburg",
+          "Soweto",
+          "Krugersdorp",
+          "Erongo Region",
+          "Swakopmund",
+          "Usakos",
+          "Thai Mueang",
+          "Phuket",
+          "Bangkok"
+        ],
+        "countries": [
+          "ARG",
+          "ZAF",
+          "NAM",
+          "THA"
+        ],
+        "continents": [
+          "South America",
+          "Africa",
+          "Asia"
+        ],
+        "route_summary": "Buenos Aires (ARG) → La Caldera (ARG) → Tilcara (ARG) → Johannesburg (ZAF) → Soweto (ZAF) → Krugersdorp (ZAF) → Erongo Region (NAM) → Swakopmund (NAM) → Usakos (NAM) → Thai Mueang (THA) → Phuket (THA) → Bangkok (THA)",
+        "distance_miles": 16000.0,
+        "distance_km": 25000.0,
+        "winners": "Tai \"Bam Bam\" & Logan Tuivasa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6389,
+          49.8371
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 1,
+        "city": "Westbank",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → British Columbia",
+        "itinerary_stops": 10,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.114,
+          49.2609
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 2,
+        "city": "Vancouver",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.5709,
+          51.6953
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 3,
+        "city": "Starland County",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Alberta",
+        "itinerary_stops": 10,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.7087,
+          60.1668
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 4,
+        "city": "Carcross",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta → Northwest Territories → Yukon",
+        "itinerary_stops": 9,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6159,
+          50.448
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 5,
+        "city": "Regina",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Yukon → Saskatchewan",
+        "itinerary_stops": 10,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2084,
+          46.8137
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 6,
+        "city": "Quebec City",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Saskatchewan → Quebec",
+        "itinerary_stops": 11,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5214,
+          63.7493
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 7,
+        "city": "Iqaluit",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec → Nunavut",
+        "itinerary_stops": 8,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4079,
+          53.2487
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 8,
+        "city": "Lunenburg",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Nunavut → Nova Scotia",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7067,
+          47.5647
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 9,
+        "city": "St. John's",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Nova Scotia → Newfoundland and Labrador",
+        "itinerary_stops": 11,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3839,
+          43.6535
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 1,
+        "leg_number": 10,
+        "city": "Toronto",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Newfoundland and Labrador → Ontario",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.6389,
+            49.8371
+          ],
+          [
+            -123.114,
+            49.2609
+          ],
+          [
+            -112.5709,
+            51.6953
+          ],
+          [
+            -134.7087,
+            60.1668
+          ],
+          [
+            -104.6159,
+            50.448
+          ],
+          [
+            -71.2084,
+            46.8137
+          ],
+          [
+            -68.5214,
+            63.7493
+          ],
+          [
+            10.4079,
+            53.2487
+          ],
+          [
+            -52.7067,
+            47.5647
+          ],
+          [
+            -79.3839,
+            43.6535
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 1,
+        "n_legs": 10,
+        "destinations": [
+          "Westbank",
+          "Vancouver",
+          "Starland County",
+          "Carcross",
+          "Regina",
+          "Quebec City",
+          "Iqaluit",
+          "Lunenburg",
+          "St. John's",
+          "Toronto"
+        ],
+        "countries": [
+          "CAN"
+        ],
+        "continents": [
+          "North America"
+        ],
+        "route_summary": "Westbank (CAN) → Vancouver (CAN) → Starland County (CAN) → Carcross (CAN) → Regina (CAN) → Quebec City (CAN) → Iqaluit (CAN) → Lunenburg (CAN) → St. John's (CAN) → Toronto (CAN)",
+        "distance_miles": 14000.0,
+        "distance_km": 23000.0,
+        "winners": "Tim Hague, Sr. & Tim Hague, Jr."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.494,
+          48.4234
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 1,
+        "city": "Colwood",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta → British Columbia",
+        "itinerary_stops": 10,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.9048,
+          49.1528
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 2,
+        "city": "Tofino",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2,
+          22.3
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 3,
+        "city": "Hong Kong",
+        "country": "HKG",
+        "continent": "Asia",
+        "route_header": "British Columbia → Hong Kong",
+        "itinerary_stops": 12,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.54,
+          22.19
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 4,
+        "city": "Macau",
+        "country": "MAC",
+        "continent": "Asia",
+        "route_header": "Hong Kong → Macau",
+        "itinerary_stops": 11,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.0549,
+          60.7216
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 5,
+        "city": "Whitehorse",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Macau → Hong Kong → Yukon",
+        "itinerary_stops": 9,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1385,
+          49.8955
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 6,
+        "city": "Winnipeg",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Yukon → Manitoba",
+        "itinerary_stops": 9,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4567,
+          49.3299
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 7,
+        "city": "Courseulles-sur-Mer",
+        "country": "FRA",
+        "continent": "Europe",
+        "route_header": "Manitoba → France",
+        "itinerary_stops": 11,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2093,
+          -33.8688
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 8,
+        "city": "Sydney",
+        "country": "FRA",
+        "continent": "Europe",
+        "route_header": "France",
+        "itinerary_stops": 10,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5698,
+          45.5032
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 9,
+        "city": "Montreal",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "France → Quebec",
+        "itinerary_stops": 11,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.3131,
+          46.4583
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 10,
+        "city": "North Rustico",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec → Prince Edward Island",
+        "itinerary_stops": 10,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.007,
+          45.73
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 11,
+        "city": "Harvey",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Prince Edward Island → New Brunswick",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6901,
+          45.4209
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 2,
+        "leg_number": 12,
+        "city": "Ottawa",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "New Brunswick → Ontario",
+        "itinerary_stops": 12,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.494,
+            48.4234
+          ],
+          [
+            -125.9048,
+            49.1528
+          ],
+          [
+            114.2,
+            22.3
+          ],
+          [
+            113.54,
+            22.19
+          ],
+          [
+            -135.0549,
+            60.7216
+          ],
+          [
+            -97.1385,
+            49.8955
+          ],
+          [
+            -0.4567,
+            49.3299
+          ],
+          [
+            151.2093,
+            -33.8688
+          ],
+          [
+            -73.5698,
+            45.5032
+          ],
+          [
+            -63.3131,
+            46.4583
+          ],
+          [
+            -67.007,
+            45.73
+          ],
+          [
+            -75.6901,
+            45.4209
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 2,
+        "n_legs": 12,
+        "destinations": [
+          "Colwood",
+          "Tofino",
+          "Hong Kong",
+          "Macau",
+          "Whitehorse",
+          "Winnipeg",
+          "Courseulles-sur-Mer",
+          "Sydney",
+          "Montreal",
+          "North Rustico",
+          "Harvey",
+          "Ottawa"
+        ],
+        "countries": [
+          "CAN",
+          "HKG",
+          "MAC",
+          "FRA"
+        ],
+        "continents": [
+          "North America",
+          "Asia",
+          "Europe"
+        ],
+        "route_summary": "Colwood (CAN) → Tofino (CAN) → Hong Kong (HKG) → Macau (MAC) → Whitehorse (CAN) → Winnipeg (CAN) → Courseulles-sur-Mer (FRA) → Sydney (FRA) → Montreal (CAN) → North Rustico (CAN) → Harvey (CAN) → Ottawa (CAN)",
+        "distance_miles": 25000.0,
+        "distance_km": 40000.0,
+        "winners": "Mickey Henry & Peter Schmalz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3839,
+          43.6535
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 1,
+        "city": "Toronto",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec → Ontario",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 2,
+        "city": "Santiago",
+        "country": "CHL",
+        "continent": "South America",
+        "route_header": "Ontario → Chile",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3888,
+          -34.6096
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 3,
+        "city": "Buenos Aires",
+        "country": "ARG",
+        "continent": "South America",
+        "route_header": "Chile → Argentina",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5859,
+          44.6486
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 4,
+        "city": "Halifax",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Argentina → Nova Scotia",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.5216,
+          47.6003
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 5,
+        "city": "Grosse-Île",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Nova Scotia → Quebec",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9912,
+          46.4927
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 6,
+        "city": "Sudbury",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec → Ontario",
+        "itinerary_stops": 9,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.669,
+          52.241
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 7,
+        "city": "RM of Corman Park No. 344",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Saskatchewan",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.37,
+          22.5675
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 8,
+        "city": "Kolkata",
+        "country": "IND",
+        "continent": "Asia",
+        "route_header": "Saskatchewan → India",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23,
+          28.61
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 9,
+        "city": "Delhi",
+        "country": "IND",
+        "continent": "Asia",
+        "route_header": "India",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.852,
+          1.2903
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 10,
+        "city": "Singapore",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "India → British Columbia",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4912,
+          53.5462
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 11,
+        "city": "Edmonton",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Alberta",
+        "itinerary_stops": 9,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9543,
+          50.1172
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 3,
+        "leg_number": 12,
+        "city": "Whistler",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta → British Columbia",
+        "itinerary_stops": 11,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.3839,
+            43.6535
+          ],
+          [
+            -70.65,
+            -33.4375
+          ],
+          [
+            -58.3888,
+            -34.6096
+          ],
+          [
+            -63.5859,
+            44.6486
+          ],
+          [
+            -61.5216,
+            47.6003
+          ],
+          [
+            -80.9912,
+            46.4927
+          ],
+          [
+            -106.669,
+            52.241
+          ],
+          [
+            88.37,
+            22.5675
+          ],
+          [
+            77.23,
+            28.61
+          ],
+          [
+            103.852,
+            1.2903
+          ],
+          [
+            -113.4912,
+            53.5462
+          ],
+          [
+            -122.9543,
+            50.1172
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 3,
+        "n_legs": 12,
+        "destinations": [
+          "Toronto",
+          "Santiago",
+          "Buenos Aires",
+          "Halifax",
+          "Grosse-Île",
+          "Sudbury",
+          "RM of Corman Park No. 344",
+          "Kolkata",
+          "Delhi",
+          "Singapore",
+          "Edmonton",
+          "Whistler"
+        ],
+        "countries": [
+          "CAN",
+          "CHL",
+          "ARG",
+          "IND"
+        ],
+        "continents": [
+          "North America",
+          "South America",
+          "Asia"
+        ],
+        "route_summary": "Toronto (CAN) → Santiago (CHL) → Buenos Aires (ARG) → Halifax (CAN) → Grosse-Île (CAN) → Sudbury (CAN) → RM of Corman Park No. 344 (CAN) → Kolkata (IND) → Delhi (IND) → Singapore (CAN) → Edmonton (CAN) → Whistler (CAN)",
+        "distance_miles": 30100.0,
+        "distance_km": 48500.0,
+        "winners": "Gino & Jesse Montani"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8048,
+          52.8041
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 1,
+        "city": "Jasper National Park",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Northwest Territories → Alberta",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0575,
+          51.0456
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 2,
+        "city": "Calgary",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0336,
+          10.3348
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 3,
+        "city": "Cái Bè",
+        "country": "VNM",
+        "continent": "Asia",
+        "route_header": "Alberta → Vietnam",
+        "itinerary_stops": 9,
+        "tasks_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7019,
+          10.7756
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 4,
+        "city": "Ho Chi Minh City",
+        "country": "VNM",
+        "continent": "Asia",
+        "route_header": "Vietnam",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.2921,
+          54.2246
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 5,
+        "city": "Port Edward",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Vietnam → British Columbia",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8729,
+          43.2561
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 6,
+        "city": "Hamilton",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Ontario",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4811,
+          44.2306
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 7,
+        "city": "Kingston",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3589,
+          23.1367
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 8,
+        "city": "Havana",
+        "country": "CUB",
+        "continent": "North America",
+        "route_header": "Ontario → Cuba",
+        "itinerary_stops": 11,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.985,
+          45.8925
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 9,
+        "city": "Louisbourg",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Cuba → Nova Scotia",
+        "itinerary_stops": 8,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0521,
+          45.074
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 10,
+        "city": "Saint Andrews",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Nova Scotia → New Brunswick",
+        "itinerary_stops": 7,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5698,
+          45.5032
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 4,
+        "leg_number": 11,
+        "city": "Montreal",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "New Brunswick → Quebec",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.8048,
+            52.8041
+          ],
+          [
+            -114.0575,
+            51.0456
+          ],
+          [
+            106.0336,
+            10.3348
+          ],
+          [
+            106.7019,
+            10.7756
+          ],
+          [
+            -130.2921,
+            54.2246
+          ],
+          [
+            -79.8729,
+            43.2561
+          ],
+          [
+            -76.4811,
+            44.2306
+          ],
+          [
+            -82.3589,
+            23.1367
+          ],
+          [
+            -59.985,
+            45.8925
+          ],
+          [
+            -67.0521,
+            45.074
+          ],
+          [
+            -73.5698,
+            45.5032
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 4,
+        "n_legs": 11,
+        "destinations": [
+          "Jasper National Park",
+          "Calgary",
+          "Cái Bè",
+          "Ho Chi Minh City",
+          "Port Edward",
+          "Hamilton",
+          "Kingston",
+          "Havana",
+          "Louisbourg",
+          "Saint Andrews",
+          "Montreal"
+        ],
+        "countries": [
+          "CAN",
+          "VNM",
+          "CUB"
+        ],
+        "continents": [
+          "North America",
+          "Asia"
+        ],
+        "route_summary": "Jasper National Park (CAN) → Calgary (CAN) → Cái Bè (VNM) → Ho Chi Minh City (VNM) → Port Edward (CAN) → Hamilton (CAN) → Kingston (CAN) → Havana (CUB) → Louisbourg (CAN) → Saint Andrews (CAN) → Montreal (CAN)",
+        "distance_miles": 16000.0,
+        "distance_km": 25000.0,
+        "winners": "Stephanie LeClair & Kristen McKenzie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.114,
+          49.2609
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 1,
+        "city": "Vancouver",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Newfoundland and Labrador → British Columbia",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3803,
+          56.7264
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 2,
+        "city": "Fort McMurray",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Alberta",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1667,
+          49.7833
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 3,
+        "city": "Kokanee Creek Provincial Park",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta → British Columbia",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3913,
+          39.9057
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 4,
+        "city": "Beijing",
+        "country": "CHN",
+        "continent": "Asia",
+        "route_header": "British Columbia → China",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4942,
+          13.7525
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 5,
+        "city": "Bangkok",
+        "country": "THA",
+        "continent": "Asia",
+        "route_header": "China → Thailand",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.65,
+          45.4833
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 6,
+        "city": "Gatineau",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Thailand → Ontario → Quebec",
+        "itinerary_stops": 10,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.95,
+          48.95
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 7,
+        "city": "Corner Brook",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Newfoundland and Labrador",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5347,
+          8.9711
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 8,
+        "city": "Panama City",
+        "country": "PAN",
+        "continent": "North America",
+        "route_header": "Newfoundland and Labrador → Panama",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.55,
+          50.3333
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 9,
+        "city": "Bushell Park",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Panama → Saskatchewan",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3469,
+          46.5589
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 10,
+        "city": "Sault Ste. Marie",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Saskatchewan → Ontario",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9667,
+          46.9667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 5,
+        "leg_number": 11,
+        "city": "Sainte-Famille-de-l'Île-d'Orléans",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Quebec",
+        "itinerary_stops": 11,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.114,
+            49.2609
+          ],
+          [
+            -111.3803,
+            56.7264
+          ],
+          [
+            -117.1667,
+            49.7833
+          ],
+          [
+            116.3913,
+            39.9057
+          ],
+          [
+            100.4942,
+            13.7525
+          ],
+          [
+            -75.65,
+            45.4833
+          ],
+          [
+            -57.95,
+            48.95
+          ],
+          [
+            -79.5347,
+            8.9711
+          ],
+          [
+            -105.55,
+            50.3333
+          ],
+          [
+            -84.3469,
+            46.5589
+          ],
+          [
+            -70.9667,
+            46.9667
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 5,
+        "n_legs": 11,
+        "destinations": [
+          "Vancouver",
+          "Fort McMurray",
+          "Kokanee Creek Provincial Park",
+          "Beijing",
+          "Bangkok",
+          "Gatineau",
+          "Corner Brook",
+          "Panama City",
+          "Bushell Park",
+          "Sault Ste. Marie",
+          "Sainte-Famille-de-l'Île-d'Orléans"
+        ],
+        "countries": [
+          "CAN",
+          "CHN",
+          "THA",
+          "PAN"
+        ],
+        "continents": [
+          "North America",
+          "Asia"
+        ],
+        "route_summary": "Vancouver (CAN) → Fort McMurray (CAN) → Kokanee Creek Provincial Park (CAN) → Beijing (CHN) → Bangkok (THA) → Gatineau (CAN) → Corner Brook (CAN) → Panama City (PAN) → Bushell Park (CAN) → Sault Ste. Marie (CAN) → Sainte-Famille-de-l'Île-d'Orléans (CAN)",
+        "distance_miles": 31000.0,
+        "distance_km": 50000.0,
+        "winners": "Sam Lambert & Paul Mitskopoulos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2042,
+          49.625
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 1,
+        "city": "Britannia Beach",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 6,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.4319,
+          64.06
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 2,
+        "city": "Dawson City",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Yukon",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.6231,
+          48.6536
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 3,
+        "city": "Shawnigan Lake",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Yukon → British Columbia",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83,
+          -6.18
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 4,
+        "city": "Jakarta",
+        "country": "IDN",
+        "continent": "Asia",
+        "route_header": "British Columbia → Indonesia",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9819,
+          43.3708
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 5,
+        "city": "Stratford",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Indonesia → Ontario",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3839,
+          43.6535
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 6,
+        "city": "Toronto",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1385,
+          49.8955
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 7,
+        "city": "Winnipeg",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Manitoba",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.3833,
+          46.4833
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 8,
+        "city": "Cavendish",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Manitoba → Prince Edward Island",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1333,
+          19.4333
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 9,
+        "city": "Mexico City",
+        "country": "MEX",
+        "continent": "North America",
+        "route_header": "Prince Edward Island → Mexico",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6667,
+          45.9453
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 10,
+        "city": "Fredericton",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Mexico → New Brunswick",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5736,
+          51.1778
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 6,
+        "leg_number": 11,
+        "city": "Banff",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "New Brunswick → Alberta",
+        "itinerary_stops": 10,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.2042,
+            49.625
+          ],
+          [
+            -139.4319,
+            64.06
+          ],
+          [
+            -123.6231,
+            48.6536
+          ],
+          [
+            106.83,
+            -6.18
+          ],
+          [
+            -80.9819,
+            43.3708
+          ],
+          [
+            -79.3839,
+            43.6535
+          ],
+          [
+            -97.1385,
+            49.8955
+          ],
+          [
+            -63.3833,
+            46.4833
+          ],
+          [
+            -99.1333,
+            19.4333
+          ],
+          [
+            -66.6667,
+            45.9453
+          ],
+          [
+            -115.5736,
+            51.1778
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 6,
+        "n_legs": 11,
+        "destinations": [
+          "Britannia Beach",
+          "Dawson City",
+          "Shawnigan Lake",
+          "Jakarta",
+          "Stratford",
+          "Toronto",
+          "Winnipeg",
+          "Cavendish",
+          "Mexico City",
+          "Fredericton",
+          "Banff"
+        ],
+        "countries": [
+          "CAN",
+          "IDN",
+          "MEX"
+        ],
+        "continents": [
+          "North America",
+          "Asia"
+        ],
+        "route_summary": "Britannia Beach (CAN) → Dawson City (CAN) → Shawnigan Lake (CAN) → Jakarta (IDN) → Stratford (CAN) → Toronto (CAN) → Winnipeg (CAN) → Cavendish (CAN) → Mexico City (MEX) → Fredericton (CAN) → Banff (CAN)",
+        "distance_miles": 31000.0,
+        "distance_km": 50000.0,
+        "winners": "Courtney Berglind & Adam Kovacs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.3394,
+          50.6758
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 1,
+        "city": "Kamloops",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → British Columbia",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1956,
+          50.9981
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 2,
+        "city": "Revelstoke",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9008,
+          53.545
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 3,
+        "city": "Spruce Grove",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Alberta",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.37,
+          62.4536
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 4,
+        "city": "Yellowknife",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta → Northwest Territories",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.4,
+          49.3
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 5,
+        "city": "Coombs",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Northwest Territories → British Columbia",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6861,
+          52.1397
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 6,
+        "city": "Saskatoon",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Saskatchewan",
+        "itinerary_stops": 10,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5167,
+          43.4667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 7,
+        "city": "Waterloo",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Saskatchewan → Ontario",
+        "itinerary_stops": 9,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3676,
+          47.4571
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 8,
+        "city": "Saint-Joseph-de-la-Rive",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Quebec",
+        "itinerary_stops": 6,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.52,
+          48.39
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 9,
+        "city": "Oliver Paipoonge",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec → Ontario",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.35,
+          45.0667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 10,
+        "city": "Gaspereau",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Nova Scotia",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4526,
+          18.1758
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 7,
+        "leg_number": 11,
+        "city": "Port Antonio",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Nova Scotia → Ontario",
+        "itinerary_stops": 12,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.3394,
+            50.6758
+          ],
+          [
+            -118.1956,
+            50.9981
+          ],
+          [
+            -113.9008,
+            53.545
+          ],
+          [
+            -114.37,
+            62.4536
+          ],
+          [
+            -124.4,
+            49.3
+          ],
+          [
+            -106.6861,
+            52.1397
+          ],
+          [
+            -80.5167,
+            43.4667
+          ],
+          [
+            -70.3676,
+            47.4571
+          ],
+          [
+            -89.52,
+            48.39
+          ],
+          [
+            -64.35,
+            45.0667
+          ],
+          [
+            -76.4526,
+            18.1758
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 7,
+        "n_legs": 11,
+        "destinations": [
+          "Kamloops",
+          "Revelstoke",
+          "Spruce Grove",
+          "Yellowknife",
+          "Coombs",
+          "Saskatoon",
+          "Waterloo",
+          "Saint-Joseph-de-la-Rive",
+          "Oliver Paipoonge",
+          "Gaspereau",
+          "Port Antonio"
+        ],
+        "countries": [
+          "CAN"
+        ],
+        "continents": [
+          "North America"
+        ],
+        "route_summary": "Kamloops (CAN) → Revelstoke (CAN) → Spruce Grove (CAN) → Yellowknife (CAN) → Coombs (CAN) → Saskatoon (CAN) → Waterloo (CAN) → Saint-Joseph-de-la-Rive (CAN) → Oliver Paipoonge (CAN) → Gaspereau (CAN) → Port Antonio (CAN)",
+        "distance_miles": 11000.0,
+        "distance_km": 17000.0,
+        "winners": "Anthony Johnson & James Makokis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5698,
+          45.5032
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 1,
+        "city": "Montreal",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9142,
+          49.0517
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 2,
+        "city": "Waterton Park",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec → Alberta",
+        "itinerary_stops": 8,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0628,
+          49.5042
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 3,
+        "city": "Fernie",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta → British Columbia",
+        "itinerary_stops": 6,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.3478,
+          51.0883
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 4,
+        "city": "Canmore",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Alberta",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.272,
+          50.267
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 5,
+        "city": "Vernon",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta → British Columbia",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+          51.5072
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 6,
+        "city": "London",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Ontario",
+        "itinerary_stops": 12,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2667,
+          43.9
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 7,
+        "city": "Sandbanks Provincial Park",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario",
+        "itinerary_stops": 9,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9333,
+          45.65
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 8,
+        "city": "Montebello",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario & Quebec",
+        "itinerary_stops": 10,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2586,
+          47.7861
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 9,
+        "city": "Pokeshaw",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → New Brunswick",
+        "itinerary_stops": 8,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0333,
+          44.65
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 10,
+        "city": "Georgian Bluffs",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "New Brunswick → Ontario",
+        "itinerary_stops": 9,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.114,
+          49.2609
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 8,
+        "leg_number": 11,
+        "city": "Vancouver",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → British Columbia",
+        "itinerary_stops": 12,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.5698,
+            45.5032
+          ],
+          [
+            -113.9142,
+            49.0517
+          ],
+          [
+            -115.0628,
+            49.5042
+          ],
+          [
+            -115.3478,
+            51.0883
+          ],
+          [
+            -119.272,
+            50.267
+          ],
+          [
+            -0.1275,
+            51.5072
+          ],
+          [
+            -77.2667,
+            43.9
+          ],
+          [
+            -74.9333,
+            45.65
+          ],
+          [
+            -65.2586,
+            47.7861
+          ],
+          [
+            -81.0333,
+            44.65
+          ],
+          [
+            -123.114,
+            49.2609
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 8,
+        "n_legs": 11,
+        "destinations": [
+          "Montreal",
+          "Waterton Park",
+          "Fernie",
+          "Canmore",
+          "Vernon",
+          "London",
+          "Sandbanks Provincial Park",
+          "Montebello",
+          "Pokeshaw",
+          "Georgian Bluffs",
+          "Vancouver"
+        ],
+        "countries": [
+          "CAN"
+        ],
+        "continents": [
+          "North America"
+        ],
+        "route_summary": "Montreal (CAN) → Waterton Park (CAN) → Fernie (CAN) → Canmore (CAN) → Vernon (CAN) → London (CAN) → Sandbanks Provincial Park (CAN) → Montebello (CAN) → Pokeshaw (CAN) → Georgian Bluffs (CAN) → Vancouver (CAN)",
+        "distance_miles": 12000.0,
+        "distance_km": 20000.0,
+        "winners": "Catherine Wreford & Craig Ramsay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0575,
+          51.0456
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 1,
+        "city": "Calgary",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Manitoba → Alberta",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.1761,
+          54.7792
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 2,
+        "city": "Smithers",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Alberta → British Columbia",
+        "itinerary_stops": 7,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8,
+          50.3167
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 3,
+        "city": "Pemberton",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.7378,
+          48.3761
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 4,
+        "city": "Sooke",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 8,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.7692,
+          48.6361
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 5,
+        "city": "Pacific Rim National Park Reserve",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0717,
+          43.2553
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 6,
+        "city": "Niagara-on-the-Lake",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Ontario",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5178,
+          41.9642
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 7,
+        "city": "Point Pelee National Park",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario",
+        "itinerary_stops": 7,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0667,
+          48.4167
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 8,
+        "city": "Saguenay",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Quebec",
+        "itinerary_stops": 9,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3839,
+          43.6535
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 9,
+        "city": "Toronto",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec → Ontario",
+        "itinerary_stops": 11,
+        "tasks_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5859,
+          44.6486
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 9,
+        "leg_number": 10,
+        "city": "Halifax",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Nova Scotia",
+        "itinerary_stops": 13,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -114.0575,
+            51.0456
+          ],
+          [
+            -127.1761,
+            54.7792
+          ],
+          [
+            -122.8,
+            50.3167
+          ],
+          [
+            -123.7378,
+            48.3761
+          ],
+          [
+            -124.7692,
+            48.6361
+          ],
+          [
+            -79.0717,
+            43.2553
+          ],
+          [
+            -82.5178,
+            41.9642
+          ],
+          [
+            -71.0667,
+            48.4167
+          ],
+          [
+            -79.3839,
+            43.6535
+          ],
+          [
+            -63.5859,
+            44.6486
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 9,
+        "n_legs": 10,
+        "destinations": [
+          "Calgary",
+          "Smithers",
+          "Pemberton",
+          "Sooke",
+          "Pacific Rim National Park Reserve",
+          "Niagara-on-the-Lake",
+          "Point Pelee National Park",
+          "Saguenay",
+          "Toronto",
+          "Halifax"
+        ],
+        "countries": [
+          "CAN"
+        ],
+        "continents": [
+          "North America"
+        ],
+        "route_summary": "Calgary (CAN) → Smithers (CAN) → Pemberton (CAN) → Sooke (CAN) → Pacific Rim National Park Reserve (CAN) → Niagara-on-the-Lake (CAN) → Point Pelee National Park (CAN) → Saguenay (CAN) → Toronto (CAN) → Halifax (CAN)",
+        "distance_miles": 7500.0,
+        "distance_km": 12000.0,
+        "winners": "Ty Smith & Kat Kastner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1067,
+          43.06
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 1,
+        "city": "Niagara Falls",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario",
+        "itinerary_stops": 7,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.6167,
+          49.4167
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 2,
+        "city": "Roberts Creek",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → British Columbia",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1333,
+          49.1667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 3,
+        "city": "Richmond",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 5,
+        "tasks_count": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.55,
+          49.1833
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 4,
+        "city": "Oliver",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia",
+        "itinerary_stops": 7,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.0961,
+          50.8347
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 5,
+        "city": "Rural Municipality of Riding Mountain West",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "British Columbia → Saskatchewan → Manitoba",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2289,
+          43.5358
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 6,
+        "city": "Guelph",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Saskatchewan → Ontario",
+        "itinerary_stops": 9,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.75,
+          46.5667
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 7,
+        "city": "Shawinigan",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Quebec",
+        "itinerary_stops": 8,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9667,
+          45.0833
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 8,
+        "city": "South Stormont",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Quebec → Ontario",
+        "itinerary_stops": 7,
+        "tasks_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5089,
+          47.0225
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 9,
+        "city": "Miramichi",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "Ontario → Quebec → New Brunswick",
+        "itinerary_stops": 8,
+        "tasks_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4912,
+          53.5462
+        ]
+      },
+      "properties": {
+        "feature_type": "waypoint",
+        "version": "CAN",
+        "season": 10,
+        "leg_number": 10,
+        "city": "Edmonton",
+        "country": "CAN",
+        "continent": "North America",
+        "route_header": "New Brunswick → Alberta",
+        "itinerary_stops": 14,
+        "tasks_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.1067,
+            43.06
+          ],
+          [
+            -123.6167,
+            49.4167
+          ],
+          [
+            -123.1333,
+            49.1667
+          ],
+          [
+            -119.55,
+            49.1833
+          ],
+          [
+            -101.0961,
+            50.8347
+          ],
+          [
+            -80.2289,
+            43.5358
+          ],
+          [
+            -72.75,
+            46.5667
+          ],
+          [
+            -74.9667,
+            45.0833
+          ],
+          [
+            -65.5089,
+            47.0225
+          ],
+          [
+            -113.4912,
+            53.5462
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "route",
+        "version": "CAN",
+        "season": 10,
+        "n_legs": 10,
+        "destinations": [
+          "Niagara Falls",
+          "Roberts Creek",
+          "Richmond",
+          "Oliver",
+          "Rural Municipality of Riding Mountain West",
+          "Guelph",
+          "Shawinigan",
+          "South Stormont",
+          "Miramichi",
+          "Edmonton"
+        ],
+        "countries": [
+          "CAN"
+        ],
+        "continents": [
+          "North America"
+        ],
+        "route_summary": "Niagara Falls (CAN) → Roberts Creek (CAN) → Richmond (CAN) → Oliver (CAN) → Rural Municipality of Riding Mountain West (CAN) → Guelph (CAN) → Shawinigan (CAN) → South Stormont (CAN) → Miramichi (CAN) → Edmonton (CAN)",
+        "distance_miles": 9900.0,
+        "distance_km": 16000.0,
+        "winners": "Taylor McPherson & Katie Mulkay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           25.7861,
           -17.8074
         ]

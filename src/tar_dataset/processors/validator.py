@@ -55,15 +55,33 @@ class DatasetValidator:
         # 1. Season checks
         if "seasons" in dfs:
             seasons_df = dfs["seasons"]
-            if seasons_df["season"].duplicated().any():
+            has_version = "version" in seasons_df.columns
+            if (
+                seasons_df.duplicated(subset=["version", "season"]).any()
+                if has_version
+                else seasons_df["season"].duplicated().any()
+            ):
                 report["issues"].append("Duplicate season numbers found in seasons.csv")
 
             # Check that teams exist for each season
             if "teams" in dfs:
-                for s in seasons_df["season"]:
-                    teams_in_s = dfs["teams"][dfs["teams"]["season"] == s]
+                teams_df = dfs["teams"]
+                has_t_version = "version" in teams_df.columns
+                for _, s_row in seasons_df.iterrows():
+                    s = s_row["season"]
+                    v = s_row.get("version", "US") if has_version else "US"
+                    if has_t_version and has_version:
+                        teams_in_s = teams_df[
+                            (teams_df["version"] == v) & (teams_df["season"] == s)
+                        ]
+                    else:
+                        teams_in_s = teams_df[teams_df["season"] == s]
                     if len(teams_in_s) == 0:
-                        report["issues"].append(f"Season {s} has no teams in teams.csv")
+                        report["issues"].append(
+                            f"Season {s} ({v}) has no teams in teams.csv"
+                            if v != "US"
+                            else f"Season {s} has no teams in teams.csv"
+                        )
 
         # 2. Results placement checks
         if "leg_results" in dfs:
@@ -77,13 +95,32 @@ class DatasetValidator:
         # 3. Contestant to Team consistency
         if "contestants" in dfs and "teams" in dfs:
             # Each season should have ~2x contestants as teams (except family edition ~4x)
-            for s in dfs["teams"]["season"].unique():
-                n_t = len(dfs["teams"][dfs["teams"]["season"] == s])
-                n_c = len(dfs["contestants"][dfs["contestants"]["season"] == s])
-                if n_c < n_t:
-                    report["issues"].append(
-                        f"Season {s}: fewer contestants ({n_c}) than teams ({n_t})"
+            teams_df = dfs["teams"]
+            const_df = dfs["contestants"]
+            if "version" in teams_df.columns and "version" in const_df.columns:
+                group_cols = ["version", "season"]
+                unique_seasons = teams_df[group_cols].drop_duplicates().values
+                for v, s in unique_seasons:
+                    n_t = len(
+                        teams_df[(teams_df["version"] == v) & (teams_df["season"] == s)]
                     )
+                    n_c = len(
+                        const_df[(const_df["version"] == v) & (const_df["season"] == s)]
+                    )
+                    if n_c < n_t:
+                        report["issues"].append(
+                            f"Season {s} ({v}): fewer contestants ({n_c}) than teams ({n_t})"
+                            if v != "US"
+                            else f"Season {s}: fewer contestants ({n_c}) than teams ({n_t})"
+                        )
+            else:
+                for s in teams_df["season"].unique():
+                    n_t = len(teams_df[teams_df["season"] == s])
+                    n_c = len(const_df[const_df["season"] == s])
+                    if n_c < n_t:
+                        report["issues"].append(
+                            f"Season {s}: fewer contestants ({n_c}) than teams ({n_t})"
+                        )
 
         # 4. Gender checks
         if "contestants" in dfs:

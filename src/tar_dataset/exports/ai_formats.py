@@ -18,6 +18,16 @@ SYSTEM_PROMPT = (
 )
 
 
+def franchise_title(version: str | None) -> str:
+    """Return franchise title based on version code (US, CAN, AUS)."""
+    ver = (version or "US").upper()
+    if ver == "CAN":
+        return "The Amazing Race Canada"
+    elif ver == "AUS":
+        return "The Amazing Race Australia"
+    return "The Amazing Race"
+
+
 class AIExportBuilder:
     """Builds LLM-ready datasets (fine-tuning JSONL, RAG chunks, and knowledge corpus)."""
 
@@ -52,6 +62,7 @@ class AIExportBuilder:
             assistant_response: str,
             category: str,
             season: int | None = None,
+            version: str = "US",
         ) -> None:
             qa_records.append(
                 {
@@ -63,6 +74,7 @@ class AIExportBuilder:
                     "metadata": {
                         "category": category,
                         "season": season,
+                        "version": version,
                     },
                 }
             )
@@ -71,29 +83,35 @@ class AIExportBuilder:
         if not seasons.empty:
             for _, s in seasons.iterrows():
                 season_num = int(s["season"])
+                ver = s.get("version", "US")
+                fname = franchise_title(ver)
                 winners = s.get("winners")
                 dist_mi = s.get("distance_miles")
                 n_legs = s.get("n_legs")
 
                 if pd.notna(winners):
                     add_qa(
-                        f"Who won Season {season_num} of The Amazing Race?",
-                        f"The winners of The Amazing Race Season {season_num} were {winners}.",
+                        f"Who won Season {season_num} of {fname}?",
+                        f"The winners of {fname} Season {season_num} were {winners}.",
                         "winners",
                         season_num,
+                        version=ver,
                     )
                 if pd.notna(dist_mi) and pd.notna(n_legs):
                     add_qa(
-                        f"What was the total distance and number of legs in The Amazing Race Season {season_num}?",
-                        f"The Amazing Race Season {season_num} covered approximately {dist_mi:,.0f} miles across {int(n_legs)} legs.",
+                        f"What was the total distance and number of legs in {fname} Season {season_num}?",
+                        f"{fname} Season {season_num} covered approximately {dist_mi:,.0f} miles across {int(n_legs)} legs.",
                         "season_stats",
                         season_num,
+                        version=ver,
                     )
 
         # 2. Team Finishes & Outcomes
         if not teams.empty:
             for _, t in teams.iterrows():
                 season_num = int(t["season"])
+                ver = t.get("version", "US")
+                fname = franchise_title(ver)
                 team_name = t["team_name"]
                 status = t.get("status")
                 rank = t.get("result")
@@ -101,24 +119,27 @@ class AIExportBuilder:
 
                 if pd.notna(rank):
                     add_qa(
-                        f"What was the final placement of {team_name} in The Amazing Race Season {season_num}?",
-                        f"In Season {season_num} of The Amazing Race, {team_name} finished in {int(rank)} place ({status}) with {int(legs_won)} leg wins.",
+                        f"What was the final placement of {team_name} in {fname} Season {season_num}?",
+                        f"In Season {season_num} of {fname}, {team_name} finished in {int(rank)} place ({status}) with {int(legs_won)} leg wins.",
                         "team_placement",
                         season_num,
+                        version=ver,
                     )
 
         # 3. Leg Itineraries & Routes
         if not legs.empty:
             for _, l in legs.iterrows():
                 season_num = int(l["season"])
+                ver = l.get("version", "US")
+                fname = franchise_title(ver)
                 leg_num = int(l["leg_number"])
                 route = l.get("route_header")
                 narrative = l.get("narrative")
 
                 if pd.notna(route) and route:
                     add_qa(
-                        f"What was the route for Leg {leg_num} of The Amazing Race Season {season_num}?",
-                        f"Leg {leg_num} of The Amazing Race Season {season_num} traveled along the route: {route}."
+                        f"What was the route for Leg {leg_num} of {fname} Season {season_num}?",
+                        f"Leg {leg_num} of {fname} Season {season_num} traveled along the route: {route}."
                         + (
                             f" Summary: {narrative[:300]}..."
                             if pd.notna(narrative) and len(str(narrative)) > 50
@@ -126,22 +147,26 @@ class AIExportBuilder:
                         ),
                         "leg_route",
                         season_num,
+                        version=ver,
                     )
 
         # 4. Challenge and Tasks
         if not tasks.empty:
             for _, task in tasks.iterrows():
                 season_num = int(task["season"])
+                ver = task.get("version", "US")
+                fname = franchise_title(ver)
                 leg_num = int(task["leg_number"])
                 task_type = task["task_type"]
                 desc = task["description"]
 
                 if pd.notna(desc) and len(str(desc)) > 20:
                     add_qa(
-                        f"What was the {task_type} challenge in Leg {leg_num} of The Amazing Race Season {season_num}?",
-                        f"In Leg {leg_num} of The Amazing Race Season {season_num}, the {task_type} was: {desc}",
+                        f"What was the {task_type} challenge in Leg {leg_num} of {fname} Season {season_num}?",
+                        f"In Leg {leg_num} of {fname} Season {season_num}, the {task_type} was: {desc}",
                         "task_challenge",
                         season_num,
+                        version=ver,
                     )
 
         # 5. Episodes
@@ -150,22 +175,25 @@ class AIExportBuilder:
                 if pd.isna(ep.get("episode")):
                     continue
                 season_num = int(ep["season"])
+                ver = ep.get("version", "US")
+                fname = franchise_title(ver)
                 ep_num = int(ep["episode"])
                 title = ep.get("title")
                 air_date = ep.get("air_date")
                 viewers = ep.get("viewers_millions")
 
                 if pd.notna(title):
-                    resp = f"Episode {ep_num} of The Amazing Race Season {season_num} is titled '{title}'."
+                    resp = f"Episode {ep_num} of {fname} Season {season_num} is titled '{title}'."
                     if pd.notna(air_date):
                         resp += f" It originally aired on {air_date}."
                     if pd.notna(viewers):
                         resp += f" It was watched by approximately {viewers:.2f} million viewers."
                     add_qa(
-                        f"What is the title and broadcast information for Season {season_num}, Episode {ep_num} of The Amazing Race?",
+                        f"What is the title and broadcast information for Season {season_num}, Episode {ep_num} of {fname}?",
                         resp,
                         "episode_info",
                         season_num,
+                        version=ver,
                     )
 
         # 6. Reddit Community Discussions, Live Reactions, & Contestant AMAs
@@ -265,9 +293,15 @@ class AIExportBuilder:
         if not seasons.empty:
             for _, s in seasons.iterrows():
                 season_num = int(s["season"])
-                doc_id = f"tar-s{season_num:02d}-overview"
+                ver = s.get("version", "US")
+                fname = franchise_title(ver)
+                doc_id = (
+                    f"tar-s{season_num:02d}-overview"
+                    if ver == "US"
+                    else f"tar-{ver.lower()}-s{season_num:02d}-overview"
+                )
                 text = (
-                    f"The Amazing Race Season {season_num} Summary:\n"
+                    f"{fname} Season {season_num} Summary:\n"
                     f"- Winners: {s.get('winners', 'Unknown')}\n"
                     f"- Teams: {s.get('n_teams', 'Unknown')}\n"
                     f"- Total Legs: {s.get('n_legs', 'Unknown')}\n"
@@ -279,9 +313,13 @@ class AIExportBuilder:
                 corpus.append(
                     {
                         "id": doc_id,
-                        "title": f"The Amazing Race Season {season_num} Overview",
+                        "title": f"{fname} Season {season_num} Overview",
                         "text": text,
-                        "metadata": {"type": "season_overview", "season": season_num},
+                        "metadata": {
+                            "type": "season_overview",
+                            "season": season_num,
+                            "version": ver,
+                        },
                     }
                 )
 
@@ -289,17 +327,29 @@ class AIExportBuilder:
         if not legs.empty:
             for _, l in legs.iterrows():
                 season_num = int(l["season"])
+                ver = l.get("version", "US")
+                fname = franchise_title(ver)
                 leg_num = int(l["leg_number"])
-                doc_id = f"tar-s{season_num:02d}-leg{leg_num:02d}"
-
-                leg_tasks = (
-                    tasks[
-                        (tasks["season"] == season_num)
-                        & (tasks["leg_number"] == leg_num)
-                    ]
-                    if not tasks.empty
-                    else pd.DataFrame()
+                doc_id = (
+                    f"tar-s{season_num:02d}-leg{leg_num:02d}"
+                    if ver == "US"
+                    else f"tar-{ver.lower()}-s{season_num:02d}-leg{leg_num:02d}"
                 )
+
+                if not tasks.empty:
+                    if "version" in tasks.columns:
+                        leg_tasks = tasks[
+                            (tasks["version"] == ver)
+                            & (tasks["season"] == season_num)
+                            & (tasks["leg_number"] == leg_num)
+                        ]
+                    else:
+                        leg_tasks = tasks[
+                            (tasks["season"] == season_num)
+                            & (tasks["leg_number"] == leg_num)
+                        ]
+                else:
+                    leg_tasks = pd.DataFrame()
 
                 task_texts = []
                 for _, t in leg_tasks.iterrows():
@@ -312,7 +362,7 @@ class AIExportBuilder:
                 )
 
                 text = (
-                    f"The Amazing Race Season {season_num}, Leg {leg_num}\n"
+                    f"{fname} Season {season_num}, Leg {leg_num}\n"
                     f"Route: {l.get('route_header', 'Unknown')}\n\n"
                     f"Challenges & Tasks:\n{tasks_block}\n\n"
                     f"Leg Narrative:\n{l.get('narrative', 'N/A')}"
@@ -320,11 +370,12 @@ class AIExportBuilder:
                 corpus.append(
                     {
                         "id": doc_id,
-                        "title": f"Season {season_num} Leg {leg_num} ({l.get('route_header', '')})",
+                        "title": f"{fname} Season {season_num} Leg {leg_num} ({l.get('route_header', '')})",
                         "text": text,
                         "metadata": {
                             "type": "leg_narrative",
                             "season": season_num,
+                            "version": ver,
                             "leg": leg_num,
                             "route": l.get("route_header"),
                         },

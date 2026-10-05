@@ -211,6 +211,46 @@ US_STATES: dict[str, str] = {
     "Washington, D.C.": "DC",
 }
 
+CANADIAN_PROVINCES: dict[str, str] = {
+    "Alberta": "AB",
+    "British Columbia": "BC",
+    "Manitoba": "MB",
+    "New Brunswick": "NB",
+    "Newfoundland and Labrador": "NL",
+    "Newfoundland": "NL",
+    "Nova Scotia": "NS",
+    "Ontario": "ON",
+    "Prince Edward Island": "PE",
+    "Quebec": "QC",
+    "Saskatchewan": "SK",
+    "Northwest Territories": "NT",
+    "Nunavut": "NU",
+    "Yukon": "YT",
+}
+
+AUSTRALIAN_STATES: dict[str, str] = {
+    "New South Wales": "NSW",
+    "Victoria": "VIC",
+    "Queensland": "QLD",
+    "Western Australia": "WA",
+    "South Australia": "SA",
+    "Tasmania": "TAS",
+    "Australian Capital Territory": "ACT",
+    "Northern Territory": "NT",
+}
+
+AUSTRALIAN_CITIES: dict[str, str] = {
+    "Melbourne": "VIC",
+    "Sydney": "NSW",
+    "Brisbane": "QLD",
+    "Perth": "WA",
+    "Adelaide": "SA",
+    "Hobart": "TAS",
+    "Darwin": "NT",
+    "Canberra": "ACT",
+    "Gold Coast": "QLD",
+}
+
 COUNTRY_INFO: dict[str, tuple[str, str]] = {
     "Argentina": ("ARG", "South America"),
     "Armenia": ("ARM", "Asia"),
@@ -221,6 +261,7 @@ COUNTRY_INFO: dict[str, tuple[str, str]] = {
     "Bangladesh": ("BGD", "Asia"),
     "Barbados": ("BRB", "North America"),
     "Belgium": ("BEL", "Europe"),
+    "Belize": ("BLZ", "North America"),
     "Bolivia": ("BOL", "South America"),
     "Botswana": ("BWA", "Africa"),
     "Brazil": ("BRA", "South America"),
@@ -233,6 +274,7 @@ COUNTRY_INFO: dict[str, tuple[str, str]] = {
     "Colombia": ("COL", "South America"),
     "Costa Rica": ("CRI", "North America"),
     "Croatia": ("HRV", "Europe"),
+    "Cuba": ("CUB", "North America"),
     "Czech Republic": ("CZE", "Europe"),
     "Czechia": ("CZE", "Europe"),
     "Denmark": ("DNK", "Europe"),
@@ -260,6 +302,7 @@ COUNTRY_INFO: dict[str, tuple[str, str]] = {
     "India": ("IND", "Asia"),
     "Indonesia": ("IDN", "Asia"),
     "Ireland": ("IRL", "Europe"),
+    "Israel": ("ISR", "Asia"),
     "Italy": ("ITA", "Europe"),
     "Jamaica": ("JAM", "North America"),
     "Japan": ("JPN", "Asia"),
@@ -287,6 +330,7 @@ COUNTRY_INFO: dict[str, tuple[str, str]] = {
     "Northern Ireland": ("GBR", "Europe"),
     "Norway": ("NOR", "Europe"),
     "Oman": ("OMN", "Asia"),
+    "Ontario & Quebec": ("CAN", "North America"),
     "Panama": ("PAN", "North America"),
     "Paraguay": ("PRY", "South America"),
     "Peru": ("PER", "South America"),
@@ -332,6 +376,14 @@ for _state, _code in US_STATES.items():
         COUNTRY_INFO[_state] = ("USA", "North America")
     COUNTRY_INFO[_code] = ("USA", "North America")
 COUNTRY_INFO["Pennsylvania & New Jersey"] = ("USA", "North America")
+
+for _prov, _code in CANADIAN_PROVINCES.items():
+    COUNTRY_INFO[_prov] = ("CAN", "North America")
+    COUNTRY_INFO[_code] = ("CAN", "North America")
+
+for _state, _code in AUSTRALIAN_STATES.items():
+    COUNTRY_INFO[_state] = ("AUS", "Oceania")
+    COUNTRY_INFO[_code] = ("AUS", "Oceania")
 
 # Reverse lookup for ISO codes
 for _k, _v in list(COUNTRY_INFO.items()):
@@ -428,34 +480,75 @@ def parse_route_header(
     return orig_iso, dest_iso, city, dest_cont
 
 
-def parse_hometown(hometown: str | None) -> tuple[str | None, str | None]:
+def parse_hometown(
+    hometown: str | None, version: str = "US"
+) -> tuple[str | None, str | None]:
     """Parse hometown string into (hometown_state, hometown_country)."""
+    ver = (version or "US").upper()
+    default_country = "CAN" if ver == "CAN" else ("AUS" if ver == "AUS" else "USA")
     if not hometown or pd.isna(hometown):
-        return None, None
+        return None, default_country
     h_str = str(hometown).strip()
     if not h_str:
-        return None, None
+        return None, default_country
     parts = [p.strip() for p in h_str.split(",")]
     if len(parts) >= 2:
         state_candidate = parts[-1]
-        if state_candidate in US_STATES:
-            return US_STATES[state_candidate], "USA"
-        if state_candidate in US_STATES.values():
+        if ver == "CAN":
+            if state_candidate in CANADIAN_PROVINCES:
+                return CANADIAN_PROVINCES[state_candidate], "CAN"
+            if state_candidate in CANADIAN_PROVINCES.values():
+                return state_candidate, "CAN"
+            iso, _ = resolve_country_and_continent(state_candidate)
+            return None, iso or "CAN"
+        elif ver == "AUS":
+            if state_candidate in AUSTRALIAN_STATES:
+                return AUSTRALIAN_STATES[state_candidate], "AUS"
+            if state_candidate in AUSTRALIAN_STATES.values():
+                return state_candidate, "AUS"
+            if state_candidate in AUSTRALIAN_CITIES:
+                return AUSTRALIAN_CITIES[state_candidate], "AUS"
+            if parts[0] in AUSTRALIAN_CITIES:
+                return AUSTRALIAN_CITIES[parts[0]], "AUS"
+            iso, _ = resolve_country_and_continent(state_candidate)
+            return None, iso or "AUS"
+        else:
+            if state_candidate in US_STATES:
+                return US_STATES[state_candidate], "USA"
+            if state_candidate in US_STATES.values():
+                return state_candidate, "USA"
+            iso, _ = resolve_country_and_continent(state_candidate)
+            if iso:
+                return None, iso
             return state_candidate, "USA"
-        iso, _ = resolve_country_and_continent(state_candidate)
-        if iso:
-            return None, iso
-        return state_candidate, "USA"
     elif len(parts) == 1:
-        if parts[0] in US_STATES:
-            return US_STATES[parts[0]], "USA"
-        if parts[0] in US_STATES.values():
-            return parts[0], "USA"
-        iso, _ = resolve_country_and_continent(parts[0])
-        if iso:
-            return None, iso
-        return None, "USA"
-    return None, None
+        cand = parts[0]
+        if ver == "CAN":
+            if cand in CANADIAN_PROVINCES:
+                return CANADIAN_PROVINCES[cand], "CAN"
+            if cand in CANADIAN_PROVINCES.values():
+                return cand, "CAN"
+            iso, _ = resolve_country_and_continent(cand)
+            return None, iso or "CAN"
+        elif ver == "AUS":
+            if cand in AUSTRALIAN_STATES:
+                return AUSTRALIAN_STATES[cand], "AUS"
+            if cand in AUSTRALIAN_STATES.values():
+                return cand, "AUS"
+            if cand in AUSTRALIAN_CITIES:
+                return AUSTRALIAN_CITIES[cand], "AUS"
+            iso, _ = resolve_country_and_continent(cand)
+            return None, iso or "AUS"
+        else:
+            if cand in US_STATES:
+                return US_STATES[cand], "USA"
+            if cand in US_STATES.values():
+                return cand, "USA"
+            iso, _ = resolve_country_and_continent(cand)
+            if iso:
+                return None, iso
+            return None, "USA"
+    return None, default_country
 
 
 class DatasetBuilder:
@@ -907,6 +1000,16 @@ class DatasetBuilder:
                         if viewers is None:
                             viewers = master_episodes[key].get("viewers_millions")
 
+                # If air_date is still missing but title contains a date string, extract date
+                if not air_date and title:
+                    try:
+                        parsed_dt = pd.to_datetime(title, format="mixed")
+                        air_date = parsed_dt.strftime("%Y-%m-%d")
+                    except Exception as e:
+                        logger.debug(
+                            "Could not parse date from episode title %r: %s", title, e
+                        )
+
                 # Fallback to known industry ratings databases (The TV Ratings Guide, USTVDB)
                 known_viewership = {
                     ("US", 38, 10): 2.56,
@@ -967,13 +1070,20 @@ class DatasetBuilder:
                 if season_num == 29 and (not rel or pd.isna(rel)):
                     rel = "Strangers (Paired at Starting Line)"
 
-                # Season 33: backfill missing demographic fields for withdrawn/returned contestants
-                if season_num == 33 and (age is None or pd.isna(age)):
-                    if name in KNOWN_S33_CONTESTANTS:
+                # Backfill missing demographic fields for withdrawn/returned contestants
+                if (
+                    age is None
+                    or pd.isna(age)
+                    or "returned to competition" in str(hometown).lower()
+                ):
+                    if season_num == 33 and name in KNOWN_S33_CONTESTANTS:
                         age = KNOWN_S33_CONTESTANTS[name]["age"]
-                        if not rel or rel == "Returned to competition":
+                        if not rel or "returned to competition" in str(rel).lower():
                             rel = KNOWN_S33_CONTESTANTS[name]["relationship"]
-                        if not hometown or hometown == "Returned to competition":
+                        if (
+                            not hometown
+                            or "returned to competition" in str(hometown).lower()
+                        ):
                             hometown = KNOWN_S33_CONTESTANTS[name]["hometown"]
                     else:
                         for other in s.get("contestants", []):
@@ -982,19 +1092,33 @@ class DatasetBuilder:
                                 and other.get("age") is not None
                             ):
                                 age = other.get("age")
-                                if not rel or rel == "Returned to competition":
+                                if (
+                                    not rel
+                                    or "returned to competition" in str(rel).lower()
+                                ):
                                     rel = other.get("relationship")
                                 if (
                                     not hometown
-                                    or hometown == "Returned to competition"
+                                    or "returned to competition"
+                                    in str(hometown).lower()
                                 ):
                                     hometown = other.get("hometown")
                                 break
 
+                # Celebrity editions without explicit hometown
+                if (
+                    (not hometown or pd.isna(hometown))
+                    and version == "AUS"
+                    and season_num in (7, 8)
+                ):
+                    hometown = "Australia"
+
                 gender = self.resolve_contestant_gender(
                     season_num, name, rel, c.get("gender")
                 )
-                hometown_state, hometown_country = parse_hometown(hometown)
+                hometown_state, hometown_country = parse_hometown(
+                    hometown, version=version
+                )
 
                 group_start = ((idx - 1) // group_size) * group_size
                 group = contestants[group_start : group_start + group_size]
@@ -1130,10 +1254,17 @@ class DatasetBuilder:
                         for p in team_name.split("&")
                         if p.strip()
                     ]
+                    parts_clean = [
+                        re.sub(r"\b(sr|jr)\b\.?", "", p, flags=re.IGNORECASE).strip()
+                        for p in parts
+                    ]
+                    all_parts = [p for p in (parts + parts_clean) if p]
                     for p in parts:
                         for c in contestants:
                             c_name = c.get("name", "").replace('"', "").replace("'", "")
-                            if any(p.lower() in c_name.lower() for p in parts):
+                            if any(
+                                part.lower() in c_name.lower() for part in all_parts
+                            ):
                                 rel = c.get("relationship")
                                 hometown = c.get("hometown")
                                 matched_genders.append(
@@ -1145,6 +1276,13 @@ class DatasetBuilder:
                                     )
                                 )
                                 break
+
+                if (
+                    (not hometown or pd.isna(hometown))
+                    and version == "AUS"
+                    and season_num in (7, 8)
+                ):
+                    hometown = "Australia"
 
                 status = (
                     "Winner"
@@ -1331,22 +1469,35 @@ class DatasetBuilder:
                     ):
                         continue
 
-                    # Handle off-mat withdrawals / eliminations (e.g. S22 Leg 5 Dave & Connor, S34 Leg 5 Abby & Will marked with †)
-                    if placement is None and raw_cell and "†" in str(raw_cell):
-                        active_count = sum(
-                            1
-                            for other_r in results
-                            for other_p in other_r.get("placements", [])
-                            if other_p.get("leg_label") == p.get("leg_label")
-                            and (
-                                other_p.get("placement") is not None
-                                or (
-                                    other_p.get("raw_cell")
-                                    and str(other_p.get("raw_cell")).strip() != ""
+                    # Handle First Class Pass (exempt from leg, advanced to next leg)
+                    if (
+                        placement is None
+                        and raw_cell
+                        and "fcp" in str(raw_cell).lower()
+                    ):
+                        placement = 1
+
+                    # Handle off-mat withdrawals, eliminations, and COVID protocol removals
+                    if placement is None and raw_cell:
+                        cell_str = str(raw_cell).lower()
+                        if (
+                            "†" in str(raw_cell)
+                            or "removed from competition" in cell_str
+                        ):
+                            active_count = sum(
+                                1
+                                for other_r in results
+                                for other_p in other_r.get("placements", [])
+                                if other_p.get("leg_label") == p.get("leg_label")
+                                and (
+                                    other_p.get("placement") is not None
+                                    or (
+                                        other_p.get("raw_cell")
+                                        and str(other_p.get("raw_cell")).strip() != ""
+                                    )
                                 )
                             )
-                        )
-                        placement = active_count if active_count > 0 else 8
+                            placement = active_count if active_count > 0 else 8
 
                     rb_perf = self.resolve_leg_roadblock_performer(
                         season_num, leg_num, team_name

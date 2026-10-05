@@ -1,0 +1,17 @@
+{
+  "version": "CAN",
+  "season": 3,
+  "fandom_title": "The_Amazing_Race_Canada_3",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_Canada_3",
+  "infobox": {
+    "continents_visited": 3,
+    "countries_visited": 4,
+    "cities_visited": 16,
+    "distance_str": "30,100 miles (48,500 km)",
+    "starting_line": "Quebec City,",
+    "finish_line": "Nicklaus North Golf Course, ,",
+    "filming_dates": "May 1, 2015 - May 28, 2015",
+    "runners_up": "Nick & Matt<br />Brent & Sean"
+  },
+  "wikitext_length": 12243
+}

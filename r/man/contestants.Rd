@@ -5,7 +5,7 @@
 \alias{contestants}
 \title{Contestants in The Amazing Race}
 \format{
-A data frame with 886 rows and 12 variables:
+A data frame with 1300 rows and 12 variables:
 \describe{
   \item{version}{Franchise country code}
   \item{season}{Season number (integer)}

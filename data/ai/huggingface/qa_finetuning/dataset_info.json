@@ -7,8 +7,8 @@
   "splits": {
     "train": {
       "name": "train",
-      "num_bytes": 289882,
-      "num_examples": 3148,
+      "num_bytes": 405234,
+      "num_examples": 4520,
       "dataset_name": "qa_finetuning"
     }
   }

@@ -1,0 +1,17 @@
+{
+  "version": "CAN",
+  "season": 1,
+  "fandom_title": "The_Amazing_Race_Canada_1",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_Canada_1",
+  "infobox": {
+    "continents_visited": 1,
+    "countries_visited": 1,
+    "cities_visited": 15,
+    "distance_str": "27,847 miles (44,816 km)",
+    "starting_line": "Oakes Garden Theatre Park, ,",
+    "finish_line": "Olympic Island, Toronto,",
+    "filming_dates": "May 3, 2013 - May 24, 2013",
+    "runners_up": "Jody & Cory<br />Vanessa & Celina"
+  },
+  "wikitext_length": 11246
+}

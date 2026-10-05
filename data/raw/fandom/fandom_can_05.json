@@ -1,0 +1,17 @@
+{
+  "version": "CAN",
+  "season": 5,
+  "fandom_title": "The_Amazing_Race_Canada_5",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_Canada_5",
+  "infobox": {
+    "continents_visited": 2,
+    "countries_visited": 4,
+    "cities_visited": 19,
+    "distance_str": "31,000 miles (50,000 km)",
+    "starting_line": "Signal Hill National Historic Site, ,",
+    "finish_line": "Parc des Anc\u00eatres, Sainte-Famille, Quebec",
+    "filming_dates": "April 26, 2017 \u2013 May 24, 2017",
+    "runners_up": "Kenneth & Ryan<br />Korey & Ivana"
+  },
+  "wikitext_length": 10315
+}

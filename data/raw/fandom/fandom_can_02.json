@@ -1,0 +1,17 @@
+{
+  "version": "CAN",
+  "season": 2,
+  "fandom_title": "The_Amazing_Race_Canada_2",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_Canada_2",
+  "infobox": {
+    "continents_visited": 3,
+    "countries_visited": 3,
+    "cities_visited": 15,
+    "distance_str": "27,847 miles (44,816 km)",
+    "starting_line": ", ,",
+    "finish_line": "Ottawa,",
+    "filming_dates": "April 26, 2014 \u2013 May 22, 2014",
+    "runners_up": "Natalie & Meaghan<br />Ryan & Rob"
+  },
+  "wikitext_length": 10192
+}

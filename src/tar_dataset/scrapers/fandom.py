@@ -72,11 +72,14 @@ class FandomScraper:
             timeout=30.0,
         )
 
-    def scrape_all(self, start: int = 1, end: int = 36) -> list[dict[str, Any]]:
+    def scrape_all(
+        self, start: int = 1, end: int = 36, version: str | None = None
+    ) -> list[dict[str, Any]]:
         """Scrape range of seasons sequentially."""
+        ver = version or self.version
         results = []
         for s in range(start, end + 1):
-            res = self.scrape_season(s, version=self.version)
+            res = self.scrape_season(s, version=ver)
             if res:
                 results.append(res)
         return results
@@ -142,15 +145,23 @@ class FandomScraper:
 
         return info
 
+    def get_page_title(self, season: int, version: str = "US") -> str:
+        """Get Fandom page title for given season and franchise."""
+        ver = version.upper()
+        if ver == "US":
+            return f"The_Amazing_Race_{season}"
+        elif ver == "CAN":
+            return f"The_Amazing_Race_Canada_{season}"
+        elif ver == "AUS":
+            return f"The_Amazing_Race_Australia_{season}"
+        return f"The_Amazing_Race_{season}"
+
     def scrape_season(
         self, season: int, version: str = "US", save: bool = True
     ) -> dict[str, Any]:
         """Scrape season from Fandom wiki."""
-        title = (
-            f"The_Amazing_Race_{season}"
-            if version.upper() == "US"
-            else f"The_Amazing_Race_Canada_{season}"
-        )
+        ver = version or self.version
+        title = self.get_page_title(season, version=ver)
         logger.info("Scraping Fandom: %s", title)
 
         wikitext = self.fetch_page_wikitext(title)
@@ -160,7 +171,7 @@ class FandomScraper:
         infobox = self.parse_season_infobox(wikitext)
 
         season_data = {
-            "version": version,
+            "version": ver,
             "season": season,
             "fandom_title": title,
             "fandom_url": f"https://amazingrace.fandom.com/wiki/{title}",
@@ -169,7 +180,7 @@ class FandomScraper:
         }
 
         if save:
-            out_path = self.raw_dir / f"fandom_{version.lower()}_{season:02d}.json"
+            out_path = self.raw_dir / f"fandom_{ver.lower()}_{season:02d}.json"
             out_path.write_text(json.dumps(season_data, indent=2), encoding="utf-8")
             logger.info("Saved Fandom season %d to %s", season, out_path)
 

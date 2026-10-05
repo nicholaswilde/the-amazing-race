@@ -1,0 +1,2104 @@
+{
+  "version": "AUS",
+  "season": 7,
+  "wiki_title": "The_Amazing_Race_Australia_7",
+  "wiki_url": "https://en.wikipedia.org/wiki/The_Amazing_Race_Australia_7",
+  "wiki_revid": 1374556794,
+  "wiki_timestamp": "2026-09-12T19:45:49Z",
+  "infobox": {
+    "n_teams": 11,
+    "winners": "Alli Simpson & Angie SimpsonDarren McMullen & Tristan DouganEmma Watkins & Hayley Watkins",
+    "n_legs": 12,
+    "distance_raw": "10,000 km (6,200 mi)",
+    "distance_miles": 6200.0,
+    "distance_km": 10000.0,
+    "n_episodes": 12,
+    "air_dates": "4 October (2023-10-04) \u20139 November 2023 (2023-11-09)",
+    "filming_dates": "8 June (2023-06-08) \u20132 July 2023 (2023-07-02)"
+  },
+  "contestants": [
+    {
+      "name": "Dane Simpson",
+      "age": 40,
+      "relationship": "Son & dad",
+      "hometown": null,
+      "status": "Eliminated 1st (in Delhi, India)"
+    },
+    {
+      "name": "Bow Simpson",
+      "age": 69,
+      "relationship": "Son & dad",
+      "hometown": null,
+      "status": "Eliminated 1st (in Delhi, India)"
+    },
+    {
+      "name": "Grant Denyer",
+      "age": 45,
+      "relationship": "Husband & wife",
+      "hometown": null,
+      "status": "Eliminated 2nd (in Agra, India)"
+    },
+    {
+      "name": "Cheryl \"Chezzi\" Denyer",
+      "age": 43,
+      "relationship": "Husband & wife",
+      "hometown": null,
+      "status": "Eliminated 2nd (in Agra, India)"
+    },
+    {
+      "name": "Peter Rowsthorn",
+      "age": 60,
+      "relationship": "Dad & daughter",
+      "hometown": null,
+      "status": "Eliminated 3rd (in Langkawi, Malaysia)"
+    },
+    {
+      "name": "Frankie Rowsthorn",
+      "age": 20,
+      "relationship": "Dad & daughter",
+      "hometown": null,
+      "status": "Eliminated 3rd (in Langkawi, Malaysia)"
+    },
+    {
+      "name": "Ben Gillies",
+      "age": 43,
+      "relationship": "Husband & wife",
+      "hometown": null,
+      "status": "Eliminated 4th (in George Town, Malaysia)"
+    },
+    {
+      "name": "Jackie Gillies",
+      "age": 42,
+      "relationship": "Husband & wife",
+      "hometown": null,
+      "status": "Eliminated 4th (in George Town, Malaysia)"
+    },
+    {
+      "name": "George Mladenov",
+      "age": 33,
+      "relationship": "Siblings",
+      "hometown": null,
+      "status": "Eliminated 5th (in George Town, Malaysia)"
+    },
+    {
+      "name": "Pam Mladenov",
+      "age": 24,
+      "relationship": "Siblings",
+      "hometown": null,
+      "status": "Eliminated 5th (in George Town, Malaysia)"
+    },
+    {
+      "name": "Rebecca \"Bec\" Judd",
+      "age": 40,
+      "relationship": "Sisters",
+      "hometown": null,
+      "status": "Eliminated 6th (in Siem Reap, Cambodia)"
+    },
+    {
+      "name": "Kate Twigley",
+      "age": 38,
+      "relationship": "Sisters",
+      "hometown": null,
+      "status": "Eliminated 6th (in Siem Reap, Cambodia)"
+    },
+    {
+      "name": "Jana Pittman",
+      "age": 40,
+      "relationship": "Mum & son",
+      "hometown": null,
+      "status": "Eliminated 7th (in Siem Reap, Cambodia)"
+    },
+    {
+      "name": "Cornelis \"Cor\" Rawlinson",
+      "age": 16,
+      "relationship": "Mum & son",
+      "hometown": null,
+      "status": "Eliminated 7th (in Siem Reap, Cambodia)"
+    },
+    {
+      "name": "Harry Jowsey",
+      "age": 26,
+      "relationship": "Best mates",
+      "hometown": null,
+      "status": "Eliminated 8th (in Siburan, Malaysia)"
+    },
+    {
+      "name": "Teddy Briggs",
+      "age": 29,
+      "relationship": "Best mates",
+      "hometown": null,
+      "status": "Eliminated 8th (in Siburan, Malaysia)"
+    },
+    {
+      "name": "Alli Simpson",
+      "age": 25,
+      "relationship": "Daughter & mum",
+      "hometown": null,
+      "status": "Winners (in Kuala Lumpur, Malaysia)"
+    },
+    {
+      "name": "Angie Simpson",
+      "age": 52,
+      "relationship": "Daughter & mum",
+      "hometown": null,
+      "status": "Winners (in Kuala Lumpur, Malaysia)"
+    },
+    {
+      "name": "Emma Watkins",
+      "age": 33,
+      "relationship": "Sisters",
+      "hometown": null,
+      "status": "Winners (in Kuala Lumpur, Malaysia)"
+    },
+    {
+      "name": "Hayley Watkins",
+      "age": 34,
+      "relationship": "Sisters",
+      "hometown": null,
+      "status": "Winners (in Kuala Lumpur, Malaysia)"
+    },
+    {
+      "name": "Darren McMullen",
+      "age": 41,
+      "relationship": "Uncle & nephew",
+      "hometown": null,
+      "status": "Winners (in Kuala Lumpur, Malaysia)"
+    },
+    {
+      "name": "Tristan Dougan",
+      "age": 26,
+      "relationship": "Uncle & nephew",
+      "hometown": null,
+      "status": "Winners (in Kuala Lumpur, Malaysia)"
+    }
+  ],
+  "results": [
+    {
+      "team_name": "Darren & Tristan",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "1st \u0192",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": true,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Emma & Hayley",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Alli & Angie",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "4th \u2021",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Harry & Teddy",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "5th \u2021",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "4th \u2020",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Jana & Cor",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "5th \u2020",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Bec & Kate",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "10th",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "6th \u2020",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "George & Pam",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "9th \u2021",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "7th \u2020",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Ben & Jackie",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "8th \u2020",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Peter & Frankie",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "9th \u2020",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Grant & Chezzi",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "10th \u2020",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Dane & Bow",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "11th \u2020",
+          "placement": 11,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "1",
+      "air_date": "4 October 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "1",
+        "1",
+        "4 October 2023",
+        "Wednesday 7:30 pm",
+        "486,000",
+        "8",
+        "104,000",
+        "909,000",
+        "7",
+        ""
+      ]
+    },
+    {
+      "episode": 1,
+      "title": "2",
+      "air_date": "5 October 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "1",
+        "2",
+        "5 October 2023",
+        "Thursday 7:30 pm",
+        "429,000",
+        "10",
+        "112,000",
+        "857,000",
+        "8",
+        ""
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "3",
+      "air_date": "11 October 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "2",
+        "3",
+        "11 October 2023",
+        "Wednesday 7:30 pm",
+        "332,000",
+        "14",
+        "112,000",
+        "692,000",
+        "13",
+        ""
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "4",
+      "air_date": "12 October 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "2",
+        "4",
+        "12 October 2023",
+        "Thursday 7:30 pm",
+        "347,000",
+        "12",
+        "117,000",
+        "734,000",
+        "10",
+        ""
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "5",
+      "air_date": "18 October 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "3",
+        "5",
+        "18 October 2023",
+        "Wednesday 7:30 pm",
+        "353,000",
+        "12",
+        "93,000",
+        "702,000",
+        "12",
+        ""
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "6",
+      "air_date": "19 October 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "3",
+        "6",
+        "19 October 2023",
+        "Thursday 7:30 pm",
+        "355,000",
+        "12",
+        "92,000",
+        "717,000",
+        "9",
+        ""
+      ]
+    },
+    {
+      "episode": 4,
+      "title": "7",
+      "air_date": "25 October 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "4",
+        "7",
+        "25 October 2023",
+        "Wednesday 7:30 pm",
+        "325,000",
+        "14",
+        "79,000",
+        "635,000",
+        "12",
+        ""
+      ]
+    },
+    {
+      "episode": 4,
+      "title": "8",
+      "air_date": "26 October 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "4",
+        "8",
+        "26 October 2023",
+        "Thursday 7:30 pm",
+        "383,000",
+        "12",
+        "69,000",
+        "695,000",
+        "11",
+        ""
+      ]
+    },
+    {
+      "episode": 5,
+      "title": "9",
+      "air_date": "1 November 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "5",
+        "9",
+        "1 November 2023",
+        "Wednesday 7:30 pm",
+        "328,000",
+        "14",
+        "89,000",
+        "661,000",
+        "13",
+        ""
+      ]
+    },
+    {
+      "episode": 5,
+      "title": "10",
+      "air_date": "2 November 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "5",
+        "10",
+        "2 November 2023",
+        "Thursday 7:30 pm",
+        "353,000",
+        "11",
+        "93,000",
+        "704,000",
+        "10",
+        ""
+      ]
+    },
+    {
+      "episode": 6,
+      "title": "11",
+      "air_date": "8 November 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "6",
+        "11",
+        "8 November 2023",
+        "Wednesday 7:30 pm",
+        "447,000",
+        "11",
+        "102,000",
+        "836,000",
+        "7",
+        ""
+      ]
+    },
+    {
+      "episode": 6,
+      "title": "12",
+      "air_date": "9 November 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "6",
+        "12",
+        "9 November 2023",
+        "Thursday 7:30 pm",
+        "404,000",
+        "10",
+        "84,000",
+        "763,000",
+        "9",
+        ""
+      ]
+    },
+    {
+      "episode": 6,
+      "title": "12",
+      "air_date": "9 November 2023",
+      "viewers_millions": null,
+      "raw_row": [
+        "6",
+        "12",
+        "9 November 2023",
+        "Thursday 7:30 pm",
+        "465,000",
+        "8",
+        "65,000",
+        "833,000",
+        "7",
+        ""
+      ]
+    }
+  ],
+  "legs": [
+    {
+      "leg_number": 1,
+      "route_header": "India",
+      "itinerary": [
+        "Delhi, India (Sunder Nursery) (Starting Line)",
+        "Delhi (Chandni Chowk \u2013 Royal Palace Hotel)",
+        "Delhi (Chandni Chowk \u2013 Aslam Chicken or Kinari Bazar)",
+        "Delhi (PVR Priya Vasant) (Unaired)",
+        "Delhi (Defence Colony Club)",
+        "Delhi (Qutub Minar)"
+      ],
+      "narrative": "Teams set off from Sunder Nursery in Delhi and had to travel by auto rickshaw to the Royal Palace Hotel in order to find their next clue. Teams had to travel to the Defence Colony Club and learn a Hindi phrase from children in a pool \u2013 \"Please help me. I need to get to Qutub Minar.\" \u2013 before receiving their next clue instructing them to use the phrase in order to get there and find the Pit Stop.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This season's first Detour was a choice between Chicken Dish or Wedding Wish. In Chicken Dish, teams had to purchase five ingredients for a butter chicken sauce and deliver them to Aslam Chicken in order to receive their next clue. In Wedding Wish, teams had to memorise the outfits for a Hindu wedding on two mannequins and purchase the clothing items. Teams then had to don the outfits and have a photograph taken before receiving their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In an unaired Roadblock, one team member had to prepare 26 paan betel leaves filled with different ingredients and then consume one set on fire before receiving their next clue."
+        }
+      ]
+    },
+    {
+      "leg_number": 2,
+      "route_header": "India",
+      "itinerary": [
+        "Delhi \u2192 Agra (Inter State Bus Terminal)",
+        "Agra (Ruchi Chaiwalla Tea Stall)",
+        "Agra (Blue Flower School or Yamuna River \u2013 Hathi Ghat)",
+        "Agra (Dr. Bhimrao Ambedkar University)",
+        "Agra (Mehtab Bagh)"
+      ],
+      "narrative": "During the Pit Stop, teams travelled by bus to Agra. Once there, teams had to search the bus station for their next clue, which instructed them to travel by auto rickshaw to Ruchi Chaiwalla Tea Stall, deliver a Masala chai order to a business, receive a business card and exchange the card for their next clue. Teams had to check in at the Pit Stop: Mehtab Bagh, overlooking the Taj Mahal. Grant lost consciousness after the Intersection task. After Grant regained consciousness, Beau met him and Chezzi out on the racecourse to inform them of their elimination.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Make It Stick or Make It Slick. In Make It Stick, teams had to make 64 fuel bricks out of cow dung and hay and then stick them to a wall in order to receive their next clue. In Make It Slick, teams had to wash a bundle of dirty laundry, slap out the suds on the banks of the Yamuna River and hang it out to dry in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams travelled to Dr. Bhimrao Ambedkar University and encountered an Intersection, which required two teams to mutually join together to complete the following task. The teams were paired up thusly: Jana & Cor and Harry & Teddy, Alli & Angie and Emma & Hayley, Darren & Tristan and Ben & Jackie, Grant & Chezzi and Peter & Frankie, and George & Pam and Bec & Kate. After pairing up, teams had to perform a Bollywood dance in order to receive their next clue. After this task, teams were no longer joined."
+        }
+      ]
+    },
+    {
+      "leg_number": 3,
+      "route_header": "India",
+      "itinerary": [
+        "Agra \u2192 Delhi",
+        "Delhi \u2192 Kochi",
+        "Kochi (West Coast Canal)",
+        "Kochi (Marine Drive \u2013 Musical Walkway Bridge)",
+        "Kochi (Ernakulam Thirumala Devaswom or Maharaja's College Stadium)",
+        "Kochi (Parakkat Jewels)",
+        "Kochi (Raja Driving School)",
+        "Kainakary (Gopi Sundar House)",
+        "Kainakary South (Meenappally Kayal \u2013 Kettuvallam)",
+        "This was a non-elimination leg."
+      ],
+      "narrative": "During the Pit Stop, teams travelled by bus and plane to Kochi. Once there, teams had to travel by taxi to the Musical Walkway Bridge in order to find their next clue.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Stripe It or Strike It. In Stripe It, teams had to paint a tiger face on a Puli Kali dancer's belly in order to receive their next clue. In Strike It, teams had to play gillidanda, a game similar to cricket, and score 100 points in order to receive their next clue."
+        },
+        {
+          "task_type": "Fast Forward",
+          "description": "For this season's only Fast Forward, one team had to travel to Parakkat Jewels, where both team members had to get a nose piercing. Darren & Tristan won the Fast Forward."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this season's first aired Roadblock, one team member had drive a manual transmission auto rickshaw through a Regional Transport Office driving school course without hitting any obstacles in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to travel by taxi and shikara boat to the Gopi Sundar House. There, teams had to eat through 30 Changalikodan (a local variety of banana) until they found a blue one in order to receive their next clue directing them to the Pit Stop: a houseboat on Meenappally Kayal."
+        }
+      ]
+    },
+    {
+      "leg_number": 4,
+      "route_header": "India \u2192 Malaysia",
+      "itinerary": [
+        "Kochi \u2192 Langkawi, Malaysia (Langkawi International Airport)",
+        "Langkawi (Telaga Harbour)",
+        "Langkawi (Datai Bay or Pulau Rebak Besar)",
+        "Langkawi (Gua Pinang)",
+        "Langkawi (Fruit Farm)",
+        "Langkawi (Tanjung Rhu Beach)"
+      ],
+      "narrative": "During the Pit Stop, teams flew to Langkawi, Malaysia. Teams departed from the airport in the order that they finished the previous leg and had to drive to Telaga Harbour in order to find their next clue. Although the last team to arrive at the Pit Stop was eliminated, there was no rest period at the end of the leg and all remaining teams were instead instructed to continue racing.",
+      "tasks": [
+        {
+          "task_type": "Speed Bump",
+          "description": "For their Speed Bump, George & Pam had to clean up a section of beach and fill two Hessian sacks with trash before they could continue racing."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Eagle Eye or Mai Tai. In Eagle Eye, teams had to drive a personal watercraft to Datai Bay, parasail above the bay and spot a piece of eagle artwork. Teams then had to choose a trinket at a floating shop that matched the artwork in order to receive their next clue. In Mai Tai, teams had to drive a personal watercraft to Pulau Rebak Besar and use a standup paddleboard to deliver a tray of two cocktails to a pair of holiday-makers on a boat in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, team had to travel by boat to Gua Pinang and search inside the cave for their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to replicate a fruit basket in order to receive their next clue directing them to the Pit Stop: Tanjung Rhu Beach."
+        }
+      ]
+    },
+    {
+      "leg_number": 5,
+      "route_header": "Malaysia",
+      "itinerary": [
+        "Langkawi (Crab Farm Langkawi)",
+        "Langkawi (Cenang Beach)",
+        "Langkawi \u2192 George Town, Penang (Penang International Airport)",
+        "George Town (The Dutchie Penang or Hin Bus Depot)",
+        "George Town (Carnarvon Street)",
+        "George Town (Pinang Peranakan Mansion \u2013 Chung Keng Quee Temple)"
+      ],
+      "narrative": "At the start of this leg, teams had to drive to Crab Farm Langkawi and catch five fully-grown mud crabs in order to receive their next clue. Teams then had to drive to Cenang Beach and sell the five crabs that they caught until they earned RM100 (approximately A$32), which they had to exchange for their next clue. Teams were then instructed to fly to George Town, Penang; however, they had to spend the night on the beach in a tent before flying out the next day. Teams departed from the airport in the order that they arrived at the campsite before finding their next clue.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Piles of Tiles or Burn Your Boat. In Piles of Tiles, teams had to sort through a pile of mahjong tiles and prepare a complete game with 144 tiles in order to receive their next clue. In Burn Your Boat, teams had to fold joss paper in order to form five paper boats. Teams then had to burn the boats in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to purchase five bachang on Carnarvon Street and deliver them to Beau at the Pit Stop: the Chung Keng Quee Temple on the grounds of the Pinang Peranakan Mansion."
+        }
+      ]
+    },
+    {
+      "leg_number": 6,
+      "route_header": "Malaysia",
+      "itinerary": [
+        "George Town (St. Giles Wembley)",
+        "George Town (Central Fire Station)",
+        "George Town (Moh Teng Pheow Nyonya Koay or Sup Hameed)",
+        "George Town (Hong Kong Shoe Store & Kimberley Boutique Hotel)",
+        "George Town (Hean Boo Thean Kuan Yin)",
+        "George Town (Penang Hill \u2013 Curtis Crest Treetop Walk)"
+      ],
+      "narrative": "At the start of this leg, teams had to travel by trishaw to the Central Fire Station in order to find their next clue.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Treats or Eats. In Treats, teams had to replicate a kuih dessert platter in order to receive their next clue. In Eats, teams had to eat a bowl of sup torpedo, a soup with bull tongue and bull penis, in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to construct a pair of shoes at the store where Jimmy Choo apprenticed in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to travel by trishaw to Hean Boo Thean Kuan Yin, search through thousands of lanterns for one with an English word and whisper the word to the temple keeper in order to receive their next clue, which directed them to the Pit Stop: the Curtis Crest Treetop Walk on Penang Hill."
+        }
+      ]
+    },
+    {
+      "leg_number": 7,
+      "route_header": "Malaysia \u2192 Cambodia",
+      "itinerary": [
+        "George Town \u2192 Siem Reap, Cambodia (Siem Reap International Airport)",
+        "Siem Reap (Chum Theany Angkor Souvenir Shop)",
+        "Siem Reap (Angkor Wat)",
+        "Siem Reap (Preah Ang Kmao Pagoda or Bayon Temple)",
+        "Siem Reap (Old Market) (Unaired)",
+        "Siem Reap (Asana Old Wooden House)",
+        "Siem Reap (Wat Damnak)"
+      ],
+      "narrative": "During the Pit Stop, teams flew to Siem Reap, Cambodia. Teams departed from the airport in the order that they finished the previous leg and had to travel to the Chum Theany Angkor Souvenir Shop in order to find their next clue. Teams then had to travel to Angkor Wat, collect an offering and give it to the one monk who had their next clue. In an unaired segment, teams had to travel to the Old Market, purchase local produce and deliver them to the Asana Old Wooden House.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Protect Your House or Protect Your Empire. In Protect Your House, teams had to memorise a spirit house, travel to another pagoda and recreate the spirit house in order to receive their next clue. In Protect Your Empire, teams had to perform a sequence of four bokator moves in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to travel to the Asana Old Wooden House in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to fry three tarantulas and then eat an assortment of fried spiders and insects in order to receive their next clue, which instructed them to travel on foot to the Pit Stop: Wat Damnak."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "Bec & Kate did not attempt the Roadblock as Bec suffered from arachnophobia."
+        }
+      ]
+    },
+    {
+      "leg_number": 8,
+      "route_header": "Cambodia",
+      "itinerary": [
+        "Siem Reap (Angkor Century Resort and Spa)",
+        "Siem Reap (Ponloeu Angkor Bookstore)",
+        "Tonl\u00e9 Sap (Chong Khneas \u2013 Floating Primary School)",
+        "Tonl\u00e9 Sap (Fishing Port or Floating Garden)",
+        "Siem Reap (Rice Farm)",
+        "This was a non-elimination leg."
+      ],
+      "narrative": "At the start of this leg, teams had to purchase school supplies at the Ponloeu Angkor Bookstore and then deliver them to the floating primary school on Tonl\u00e9 Sap in order to receive their next clue. Teams then had to sing \"Old MacDonald Had a Farm\" in Khmer in order to receive their next clue.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Fish or Farm. In Fish, teams had to row a boat along a series of fishing traps and collect enough shrimp in order to fill a cup and receive their next clue. In Farm, teams had to plant a garden bed and label the plants in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to use a large stick to separate Jasmine rice from its rice hulls and then sift enough rice until they could fill a cup in order to receive their next clue, which directed them to the nearby Pit Stop."
+        }
+      ]
+    },
+    {
+      "leg_number": 9,
+      "route_header": "Cambodia",
+      "itinerary": [
+        "Siem Reap (Sivutha Boulevard)",
+        "Siem Reap (Royal Independence Gardens)",
+        "Siem Reap (Phare Circus)",
+        "Siem Reap (Cambodian People's Party Building)",
+        "Siem Reap (Phalla Furniture Shop)",
+        "Siem Reap (Lotus Silk Farm)",
+        "Siem Reap (Chamkar House)",
+        "This leg was The Amazing Race Australia's 100th overall leg."
+      ],
+      "narrative": "At the start of this leg, teams had to travel on foot to the Royal Independence Gardens in order to find their next clue. After the broom delivery, teams had to travel to Chong Srok Lotus Pond, where they had to harvest 50 lotus flowers and then craft a six-metre (20 ft) thread of lotus silk at the Lotus Silk Farm in order to receive their next clue, which instructed them to travel on foot to the Pit Stop: Chamkar House.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Stop the Wobbles or Start the Giggles. In Stop the Wobbles, both team member had to stand on an acrobat cylinder for one minute in order to receive their next clue. In Start the Giggles, teams had to perform a slapstick comedy routine in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to load a bicycle with 40 brooms, and then one team member had to pedal the broom-laden bicycle to Phalla Furniture Shop in order to receive their next clue."
+        },
+        {
+          "task_type": "Speed Bump",
+          "description": "For their Speed Bump, Harry & Teddy had to each deliver 40 more brooms by hand to the furniture shop before they could continue racing."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In an unaired Roadblock, one team member had to make a broom using dried palm leaf sheets in order to receive their next clue."
+        }
+      ]
+    },
+    {
+      "leg_number": 10,
+      "route_header": "Cambodia \u2192 Malaysia",
+      "itinerary": [
+        "Siem Reap \u2192 Kota Kinabalu, Malaysia (Kota Kinabalu International Airport)",
+        "Kota Kinabalu (Kota Kinabalu Fish Market)",
+        "Tunku Abdul Rahman National Park (Gaya Island Resort Marine Centre)",
+        "Tunku Abdul Rahman National Park (Padang Point)",
+        "Tunku Abdul Rahman National Park (Sapi Island)",
+        "This was a non-elimination leg."
+      ],
+      "narrative": "During the Pit Stop, teams flew to Kota Kinabalu, Malaysia. Teams departed from the airport in the order that they finished the previous leg and were directed to travel to the Kota Kinabalu Fish Market. There, teams had to clean and gut six fish in order to receive their next clue. Teams then had to travel by Bajau boat to the Gaya Island Resort Marine Centre for their next clue.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This season's final Detour was a choice between Save the Mangroves or Save the Reef. In Save the Mangroves, teams had to kayak into a mangrove forest, collect 36 mangrove seeds and then plant them in a nursery in order to receive their next clue. In Save the Reef, teams had to collect dead coral, glue on living coral nubbins and then place the coral on the ocean floor in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to memorise nine masks on a jungle trek and then place images of the masks in the correct order on a board in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to get a coconut from the shallows and then deliver it by kayak to Beau at the Pit Stop: Sapi Island."
+        }
+      ]
+    },
+    {
+      "leg_number": 11,
+      "route_header": "Malaysia",
+      "itinerary": [
+        "Kota Kinabalu \u2192 Kuching (Kuching International Airport)",
+        "Kuching (Petanak Central Market)",
+        "Siburan (Semenggoh Wildlife Centre)",
+        "Siburan (Kampung Danu)",
+        "Siburan (Sarawak Kanan River)"
+      ],
+      "narrative": "During the Pit Stop, teams flew to Kuching. Teams departed from the airport in the order that they finished the previous leg. Teams had to drive to a fruit market, purchase a list of fruit and then deliver the fruit to the Semenggoh Wildlife Centre in order to find their next clue. Teams encountered a second Intersection and were paired up thusly: Darren & Tristan and Alli & Angie; and Harry & Teddy and Emma & Hayley. After pairing up, one team had to prepare the fruit for the orangutans, while the other team called them down. Teams also had to memorise information about the orangutans said by the guides. After the orangutans were fed, teams received their next clue. Teams then had to arrange a board with the years of birth, favourite fruits and fun facts about the orangutans in order to receive their next clue. After this task, teams were no longer joined. After the Intersection, teams had to drive to Kampung Danu, build a bamboo raft and then travel six kilometres (3.7 mi) down the river in order to find their next clue.",
+      "tasks": [
+        {
+          "task_type": "Speed Bump",
+          "description": "For their Speed Bump, Alli & Angie had to create a climbing rope for the orangutans. They had to use a slingshot to launch a line over a branch, secure a thicker rope and pull the rope over the branch before they could continue racing."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this season's final Roadblock, one team member had to use blowgun and hit three pieces of fruit with darts in order to receive their next clue, which directed them to the nearby Pit Stop."
+        }
+      ]
+    },
+    {
+      "leg_number": 12,
+      "route_header": "Malaysia",
+      "itinerary": [
+        "Prizes: A$100,000 for the team's chosen charity (prize split among Alli & Angie, Darren & Tristan and Emma & Haley)",
+        "Kuching \u2192 Kuala Lumpur",
+        "Kuala Lumpur (Saloma Link)",
+        "Subang Jaya (Fangs by DEK\u00d5RI Premium Caf\u00e9)",
+        "Kuala Lumpur (BookXcess RexKL (in Malay))",
+        "Kuala Lumpur (Masjid Jamek Pedestrian Bridge)",
+        "Kuala Lumpur (Menara TA One)",
+        "Kuala Lumpur (The River of Life Lookout)"
+      ],
+      "narrative": "During the Pit Stop, teams flew to Kuala Lumpur and began the final leg simultaneously at the Saloma Link. Teams had to travel by taxi to Fangs by DEK\u00d5RI Premium Caf\u00e9. With a Burmese python on their neck, one team member had to recreate a dessert described to them by their partner in order to receive their next clue. Teams were instructed to travel by taxi to BookXcess RexKL, find a treasure map in the travel section and then align the map to a matching bookcase in order to find their next clue inside a copy of Around the World in Eighty Days. Teams then had to travel to the Masjid Jamek pedestrian bridge and perform a hip hop routine with the Nasty Boys in order to receive their next clue, which directed them to Menara TA One. There, teams had to arrange ten discs with images from previous legs in chronological order in order to receive their final clue, which instructed them to travel by train to the finish line: The River of Life Lookout. Miss Universe Malaysia 2022 Lesley Cheam Wei Yeng appeared as the finish line greeter for this leg. Darren & Tristan were the first to arrive but waited for the next two teams. The final three teams then chose to step onto the finish line mat simultaneously and equally split the prize, which went to the teams' selected charities.",
+      "tasks": []
+    }
+  ]
+}

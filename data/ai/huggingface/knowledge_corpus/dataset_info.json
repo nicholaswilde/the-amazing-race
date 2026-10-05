@@ -7,8 +7,8 @@
   "splits": {
     "train": {
       "name": "train",
-      "num_bytes": 344490,
-      "num_examples": 546,
+      "num_bytes": 467306,
+      "num_examples": 788,
       "dataset_name": "knowledge_corpus"
     }
   }

@@ -121,7 +121,7 @@ def scrape_fandom(
         console.print(
             f"[bold blue]Scraping Fandom Wiki for {version} Season {season}...[/bold blue]"
         )
-        data = scraper.scrape_season(season)
+        data = scraper.scrape_season(season, version=version)
         if data:
             console.print(
                 f"[green]✓ Successfully scraped and cached Fandom data for Season {season}[/green]"
@@ -135,7 +135,7 @@ def scrape_fandom(
     console.print(
         f"[bold blue]Scraping Fandom Wiki for {version} Seasons {start} to {end}...[/bold blue]"
     )
-    results = scraper.scrape_all(start=start, end=end)
+    results = scraper.scrape_all(start=start, end=end, version=version)
     console.print(
         f"[green]✓ Successfully scraped {len(results)} Fandom season pages[/green]"
     )
@@ -582,6 +582,12 @@ def audit_gaps(
     season: int | None = typer.Option(
         None, "--season", "-s", help="Filter gaps by season number (e.g. 29)"
     ),
+    version: str | None = typer.Option(
+        None,
+        "--version",
+        "-v",
+        help="Filter gaps by franchise version (e.g. 'US', 'CAN', 'AUS')",
+    ),
     detail: bool = typer.Option(
         False,
         "--detail",
@@ -593,7 +599,7 @@ def audit_gaps(
     ),
 ) -> None:
     """Audit the dataset for missing cells, null rates, and season-level data gaps."""
-    auditor = DatasetGapAuditor()
+    auditor = DatasetGapAuditor(version=version)
     auditor.render_report(table_filter=table, season_filter=season, show_detail=detail)
 
     if export_md:

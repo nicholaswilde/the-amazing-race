@@ -5,7 +5,7 @@
 \alias{tasks}
 \title{Tasks and Challenges in The Amazing Race}
 \format{
-A data frame with 1699 rows and 6 variables:
+A data frame with 2378 rows and 6 variables:
 \describe{
   \item{version}{Franchise country code}
   \item{season}{Season number (integer)}

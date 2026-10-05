@@ -19,7 +19,7 @@ def cli_runner() -> CliRunner:
 
 def test_gap_auditor_completeness():
     """Verify gap auditor computes overall dataset completeness metrics on backfilled dataset."""
-    auditor = DatasetGapAuditor()
+    auditor = DatasetGapAuditor(version="US")
     report = auditor.audit_all()
 
     assert report["overall_completeness_pct"] >= 99.0
@@ -92,7 +92,7 @@ def test_gap_auditor_cli(cli_runner):
 
 def test_gap_auditor_markdown_export(tmp_path):
     """Verify exporting gap analysis as markdown documentation."""
-    auditor = DatasetGapAuditor()
+    auditor = DatasetGapAuditor(version="US")
     out_file = tmp_path / "gaps_report.md"
     exported = auditor.export_markdown_report(out_file)
 

@@ -1,0 +1,1497 @@
+{
+  "version": "CAN",
+  "season": 9,
+  "wiki_title": "The_Amazing_Race_Canada_9",
+  "wiki_url": "https://en.wikipedia.org/wiki/The_Amazing_Race_Canada_9",
+  "wiki_revid": 1362945449,
+  "wiki_timestamp": "2026-07-07T02:59:14Z",
+  "infobox": {
+    "n_teams": 10,
+    "winners": "Ty Smith & Kat Kastner",
+    "n_legs": 10,
+    "distance_raw": "12,000 km (7,500 mi)",
+    "distance_miles": 7500.0,
+    "distance_km": 12000.0,
+    "n_episodes": 11,
+    "air_dates": "July 4 (2023-07-04) \u2013September 19, 2023 (2023-09-19)",
+    "filming_dates": "April 21 (2023-04-21) \u2013May 14, 2023 (2023-05-14)"
+  },
+  "contestants": [
+    {
+      "name": "Gail Kim",
+      "age": 46,
+      "relationship": "Friends & Co-Workers",
+      "hometown": "Toronto, Ontario",
+      "status": "Eliminated 1st (in Calgary, Alberta)"
+    },
+    {
+      "name": "Gisele Shaw",
+      "age": 34,
+      "relationship": "Friends & Co-Workers",
+      "hometown": "Yellowknife, Northwest Territories",
+      "status": "Eliminated 1st (in Calgary, Alberta)"
+    },
+    {
+      "name": "Allie Seller",
+      "age": 48,
+      "relationship": "Married",
+      "hometown": "Courtenay, British Columbia",
+      "status": "Eliminated 2nd (in Smithers, British Columbia)"
+    },
+    {
+      "name": "Eddie Parinas",
+      "age": 52,
+      "relationship": "Married",
+      "hometown": "Richmond, British Columbia",
+      "status": "Eliminated 2nd (in Smithers, British Columbia)"
+    },
+    {
+      "name": "Shayla Stonechild",
+      "age": 29,
+      "relationship": "Siblings",
+      "hometown": "Medicine Hat, Alberta",
+      "status": "Eliminated 3rd (in Sooke, British Columbia)"
+    },
+    {
+      "name": "Joel Oulette",
+      "age": 21,
+      "relationship": "Siblings",
+      "hometown": "Medicine Hat, Alberta",
+      "status": "Eliminated 3rd (in Sooke, British Columbia)"
+    },
+    {
+      "name": "Gracie Lowes",
+      "age": 25,
+      "relationship": "Friends",
+      "hometown": "Toronto, Ontario",
+      "status": "Eliminated 4th (in Pacific Rim National Park Reserve, British Columbia)"
+    },
+    {
+      "name": "Lily Bateman",
+      "age": 24,
+      "relationship": "Friends",
+      "hometown": "Canning, Nova Scotia",
+      "status": "Eliminated 4th (in Pacific Rim National Park Reserve, British Columbia)"
+    },
+    {
+      "name": "Derek Gottenbos",
+      "age": 28,
+      "relationship": "Friends",
+      "hometown": "Richmond, British Columbia",
+      "status": "Eliminated 5th (in Point Pelee National Park, Ontario)"
+    },
+    {
+      "name": "Jaspal Sidhu",
+      "age": 28,
+      "relationship": "Friends",
+      "hometown": "Richmond, British Columbia",
+      "status": "Eliminated 5th (in Point Pelee National Park, Ontario)"
+    },
+    {
+      "name": "Jermaine Aranha",
+      "age": 41,
+      "relationship": "Friends",
+      "hometown": "Toronto, Ontario",
+      "status": "Eliminated 6th (in Saguenay, Quebec)"
+    },
+    {
+      "name": "Justin Baird",
+      "age": 36,
+      "relationship": "Friends",
+      "hometown": "Toronto, Ontario",
+      "status": "Eliminated 6th (in Saguenay, Quebec)"
+    },
+    {
+      "name": "Deven Condo-Mitchell",
+      "age": 33,
+      "relationship": "Couple",
+      "hometown": "Gesgapegiag, Quebec",
+      "status": "Eliminated 7th (in Toronto, Ontario)"
+    },
+    {
+      "name": "Amanda Larocque",
+      "age": 41,
+      "relationship": "Couple",
+      "hometown": "Gesgapegiag, Quebec",
+      "status": "Eliminated 7th (in Toronto, Ontario)"
+    },
+    {
+      "name": "Ben Chutta",
+      "age": 31,
+      "relationship": "Friends",
+      "hometown": "Winnipeg, Manitoba",
+      "status": "Third place"
+    },
+    {
+      "name": "Anwar Ahmed",
+      "age": 32,
+      "relationship": "Friends",
+      "hometown": "Winnipeg, Manitoba",
+      "status": "Third place"
+    },
+    {
+      "name": "Tyler Turner",
+      "age": 35,
+      "relationship": "Dating",
+      "hometown": "Calgary, Alberta",
+      "status": "Runners-up"
+    },
+    {
+      "name": "Kayleen Vanderee",
+      "age": 31,
+      "relationship": "Dating",
+      "hometown": "Comox Valley, British Columbia",
+      "status": "Runners-up"
+    },
+    {
+      "name": "Ty Smith",
+      "age": 25,
+      "relationship": "Dating",
+      "hometown": "Hinton, Alberta",
+      "status": "Winners"
+    },
+    {
+      "name": "Kat Kastner",
+      "age": 25,
+      "relationship": "Dating",
+      "hometown": "Calgary, Alberta",
+      "status": "Winners"
+    }
+  ],
+  "results": [
+    {
+      "team_name": "Ty & Kat",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "2nd \u220b",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "1st \u03b5 \u03b1",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Tyler & Kayleen",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "1st \u03b1",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "3rd \u03b5",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Ben & Anwar",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "5th \u2208",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "2nd \u03b5 \u03b1",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Deven & Amanda",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "4th \u03b1",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "4th \u2020",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Jermaine & Justin",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "8th \u2021 \u03b1",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "5th \u2020",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Derek & Jaspal",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "3rd \u2208",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "5th \u03b1",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "6th \u2020",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Gracie & Lily",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "7th \u2020 \u220b \u03b1",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Shayla & Joel",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "8th \u2020",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Allie & Eddie",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "9th \u2020",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Gail & Gisele",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "10th \u2020",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9 x",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    }
+  ],
+  "episodes": [],
+  "legs": [
+    {
+      "leg_number": 1,
+      "route_header": "Manitoba \u2192 Alberta",
+      "itinerary": [
+        "Winnipeg, Manitoba (Esplanade Riel) (Starting Line)",
+        "Winnipeg (Winnipeg Art Gallery \u2013 Qaumajuq Visible Vault)",
+        "Winnipeg (Winnipeg James Armstrong Richardson International Airport) \u2192 Calgary, Alberta (Calgary International Airport)",
+        "Calgary (Calgary Central Library)",
+        "Calgary (The Devenish Building \u2013 Betty Lou's Library)",
+        "Calgary (Stephen Avenue or Olympic Plaza)",
+        "Calgary (Peace Bridge)"
+      ],
+      "narrative": "After running across the Esplanade Riel to their first clue, teams had to travel to the Qaumajuq Visible Vault at the Winnipeg Art Gallery. There, teams had to choose an artwork title and search among 5,000 pieces of Inuit art for their chosen sculpture. They then had to enter the locator number into the museum database to find the name of their sculpture's artist in order to receive their next clue. At the Fast Air Jet Centre of Winnipeg's airport, teams had to sign up for one of two flights, each carrying five teams, to Calgary, Alberta. Once there, teams had to search outside of the airport for their next clue.",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this season's first Roadblock, one team member had to rappel face-first down the exterior of the Calgary Central Library and look for three yellow flags attached to the building with the name of their next destination \u2013 Betty Lou's Library \u2013 in order to receive their next clue. Teams also had the option of searching a section of the library for a book marked with an Amazing Race flag containing three Express Passes. Ty & Kat found the Express Passes."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to say a secret code to enter Betty Lou's Library, a 1920s-themed speakeasy, and use the Nightography feature of a smartphone to photograph their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This season's first Detour was a choice between Batter or Beat. In Batter, one team member had to memorize six Calgary Stampede pancake orders, and the other team member had to make the pancakes. After the order was taken, the guests switched tables and seats, and teams had to serve the correct people and pancakes in order to receive their next clue. In Beat, teams were taught a call and response drumming technique. Teams then joined a drum circle, and team members had to perform the beat sequence in sync with each other in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to check in at the Pit Stop: the Peace Bridge."
+        }
+      ]
+    },
+    {
+      "leg_number": 2,
+      "route_header": "Alberta \u2192 British Columbia",
+      "itinerary": [
+        "Calgary (Stephen Avenue)",
+        "Calgary (Calgary International Airport) \u2192 Smithers, British Columbia (Smithers Airport)",
+        "Smithers (Frontier Experience Lodge \u2013 Bulkley River)",
+        "Smithers (Bulkley Valley Museum)",
+        "Smithers (Coast Mountain GM)",
+        "Smithers (The Sausage Factory & Smithers Brewing Co. or Nature's Pantry & Two Sisters Cafe)",
+        "Smithers (Jollymore Ranch)"
+      ],
+      "narrative": "At the start of this leg, teams were instructed to fly to Smithers, British Columbia. Teams first had to sign up for one of two flights, carrying four and five teams respectively, at Calgary International Airport. After landing, teams had to search for a marked truck at the airport, which contained their next clue, instructing them to drive to the Frontier Experience Lodge. There, teams had to retrieve ten different species of artificial fish in order to receive their next clue. Teams had to listen to CICK-FM to learn that they had to drive to the Bulkley Valley Museum, where they found their next clue. Team members had to write the answers to five questions specific to each team by Jon Montgomery on a smartphone. If teams matched three answers, then Jon gave them their next clue.",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to memorize 20 features of a second generation Chevrolet Trax and then perform a vehicle introduction to a buyer in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Stuff or Fold. In Stuff, teams had to use a hand-operated sausage maker to make 12 sausages links. Then, they had to travel by horse-drawn carriage to Smithers Brewing Co. and deliver the sausages in order to receive their next clue. In Fold, teams had to fold an egg carton based on the design from inventor and Smithers native Joseph Coyle. Then, they had to travel by horse-drawn carriage to Two Sisters Cafe and deliver their eggs intact in order to receive their next clue."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to check in at the Pit Stop: the Jollymore Ranch."
+        }
+      ]
+    },
+    {
+      "leg_number": 3,
+      "route_header": "British Columbia",
+      "itinerary": [
+        "Smithers (Riverside Municipal Campground)",
+        "Smithers \u2192 Vancouver",
+        "Vancouver (Queen Elizabeth Park) \u2192 Whistler (Inuksuk)",
+        "Whistler (Squamish Lil'Wat Cultural Centre or Scandinave Spa)",
+        "Whistler (Whistler Bungee)",
+        "Pemberton (Riverlands Equestrian Facility)",
+        "Pemberton (Big Sky Golf Club)",
+        "This was a non-elimination leg."
+      ],
+      "narrative": "At the start of this leg, teams were instructed to fly to Vancouver. Once there, teams had to travel to Queen Elizabeth Park and sign up for one of two buses, each carrying four teams, to Whistler. In Whistler, teams found their next clue by the village's inuksuk. After driving to Big Sky Golf Club, teams had to search through more than 600 golf balls for two with their team names. After finding the balls, teams could check in at the Pit Stop at the 17th hole. If teams used the Assist, then they only had to find one ball. Jermaine & Justin used their Assist.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Woods or Water. In Woods, teams had to travel to the Squamish Lil'Wat Cultural Centre and memorize ten plaques with words in Squamish and Lil'Wat. Teams then had to place the correct Squamish and Lil'Wat translations beneath the English words on a board in order to receive their next clue. In Water, teams had to travel to Scandinave Spa and choose a coloured tile with partial lettering. They then had to memorize two additional tiles in a cold pool and a hot pool and combine the three tiles to form a spa-related word in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to perform a 160-foot (49 m) bungee jump and record a phrase \u2013 \"Will you marry me?\" \u2013 with a smartphone in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams found their next clue at the Riverlands Equestrian Facility. There, one team member had to memorize a 130-piece wedding table setting and then direct their partner to recreate the table setting in order to receive their next clue."
+        }
+      ]
+    },
+    {
+      "leg_number": 4,
+      "route_header": "British Columbia",
+      "itinerary": [
+        "Whistler (Rebagliati Park)",
+        "West Vancouver \u2192 Nanaimo",
+        "Malahat (Malahat SkyWalk)",
+        "Victoria (Craigdarroch Castle)",
+        "Victoria (Victoria Bug Zoo)",
+        "Esquimalt (Colville Park Sports Field)",
+        "Sooke (Sooke Harbour)",
+        "Sooke (Whiffin Spit)"
+      ],
+      "narrative": "At the start of this leg, teams were instructed to drive to the Cowichan Valley, with an intermediate ferry ride, and find their next clue at the Malahat SkyWalk. There, teams had to book an overnight hotel and tickets to the skywalk for the next morning using a mobile app. Teams then had to use a smartphone to photograph ten driftwood sculptures in order to receive their next clue. Teams had to drive to Craigdarroch Castle in Victoria, British Columbia, and search for ten replica props from Haunted Mansion. Teams then had to pinpoint the props on a floor plan in order to receive their next clue. For this season's first Face Off, two teams had to compete against each other and assemble a bell tent with assistance from the Canadian-Scottish regiment at Colville Park Sports Field. The first team to finish received their next clue, while the losing team had to wait for another team. The last team remaining at the Face Off had to wait out a time penalty before moving on. After the Face Off, teams had to drive to Sooke Harbour, where one team member had to use a standup paddleboard to retrieve three luggage tags associated with a specific vacation while their partner directed them in order to receive their next clue directing them to the Pit Stop: Whiffin Spit in Sooke.",
+      "tasks": [
+        {
+          "task_type": "Speed Bump",
+          "description": "For their Speed Bump, Jermaine & Justin had to drive to the Victoria Bug Zoo and eat a pint of ice cream while tarantulas crawled on their arms before they could continue racing."
+        }
+      ]
+    },
+    {
+      "leg_number": 5,
+      "route_header": "British Columbia",
+      "itinerary": [
+        "Langford (Langford Fountain)",
+        "Victoria \u2192 Ucluelet (Ucluelet Harbour)",
+        "Tofino (Hotel Zed)",
+        "Ucluelet (Ukee Ice Manufacturing Company)",
+        "Ucluelet (Little Beach)",
+        "Tofino (Tacofino)",
+        "Tofino (South Chesterman Beach or Naas Foods & Clayoquot Sound)",
+        "Tofino (North Chesterman Beach)",
+        "Pacific Rim National Park Reserve (Long Beach)"
+      ],
+      "narrative": "At the start of this leg, teams were instructed to sign up for one of two buses to Ucluelet. At the town's harbour, teams found their next clue instructing them to drive to the Hotel Zed, where they received a Tarot card reading before receiving their next clue. Teams had to drive to Ukee Ice Manufacturing Company, where they had to load between 75 and 80 pounds of ice. Teams then had to deliver the ice to one of four locations and return to the ice company in order to receive their next clue frozen in an ice block. Teams had to drive to Little Beach, where one team member had to don a wetsuit and dive into the Pacific Ocean to retrieve three ingredients for an energy drink in order to receive their next clue. Teams then had to drive to Tacofino in order to find their next clue. Teams received a message on a smartwatch to take part in a bonfire on MacKenzie Beach while they waited for the Hotel Zed to open. At the Blind Double Pass, Derek & Jaspal used the Pass on Ty & Kat, and Ben & Anwar used the Pass on Gracie & Lily.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between By Sand or By Sea. In By Sand, teams had to drive to South Chesterman Beach and search more than 300 sandcastles for a marked sand dollar in order to receive their next clue. If a sandcastle didn't have a sand dollar, teams had to rebuild it before they could search another. In By Sea, teams had to drive to Naas Foods and take a boat to Clayoquot Sound, where they had to harvest 20 kilograms of kelp in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to perform an aerial dance consisting of nine poses while hanging from Sitka spruce trees in order to receive their next clue. If racers used the Assist, then they only had to perform the final five poses. Tyler & Kayleen and Gracie & Lily used their Assist."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to check in at the Pit Stop: Long Beach in the Pacific Rim National Park Reserve."
+        }
+      ]
+    },
+    {
+      "leg_number": 6,
+      "route_header": "British Columbia \u2192 Ontario",
+      "itinerary": [
+        "Sidney (Eastview Park)",
+        "Victoria \u2192 Toronto, Ontario (Toronto Pearson International Airport)",
+        "St. Catharines (Salem Chapel)",
+        "St. Catharines (St. Catharines Propulsion Plant)",
+        "Pelham (United Floral Distributors) or Welland (Welland International Flatwater Centre)",
+        "Niagara-on-the-Lake (Ch\u00e2teau des Charmes)",
+        "Niagara-on-the-Lake (124 on Queen Hotel and Spa)",
+        "Niagara-on-the-Lake (Fort Mississauga)"
+      ],
+      "narrative": "At the start of this leg, teams were instructed to fly to Toronto, Ontario. Once there, teams found their next clue on a marked car instructing them to drive themselves to Salem Chapel, where they learned about the history of church member Harriet Tubman before receiving their next clue. After driving to 124 on Queen Hotel and Spa, teams had to smell and match six wines to their flavours in order to receive their next clue directing them to the Pit Stop: Fort Mississauga in Niagara-on-the-Lake. There was no elimination at the end of this leg; all teams were instead instructed to continue racing.",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's first Roadblock, one team member had to assemble and disassemble a V8 engine head within two minutes and ten seconds in order to receive their next clue. Ben & Anwar and Tyler & Kayleen used their Express Passes to bypass this Roadblock."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a Blind Detour, where teams only learned about the task once they reached its location, and was a choice between Here or There. In Here, teams had to recreate three flower bouquets and record a 360\u00b0 video of the bouquets on a smartphone in order to receive their next clue. In There, teams had to row a double scull along a 200-metre (660 ft) course on the Welland Canal within two minutes in order to receive their next clue. Ty & Kat used their Express Pass to bypass this Detour."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's second Roadblock, the team member who did not perform the previous Roadblock had to fill a grape harvester with water, drive the harvester across the winery, and fill two troughs with water. If racers used the Assist, then they only had to fill one trough. Ben & Anwar, Derek & Jaspal, Devin & Amanda, and Ty & Kat used their Assist."
+        }
+      ]
+    },
+    {
+      "leg_number": 7,
+      "route_header": "Ontario",
+      "itinerary": [
+        "Niagara-on-the-Lake \u2192 Toronto",
+        "Toronto \u2192 Windsor (Windsor Station)",
+        "Windsor (Adventure Bay Water Park)",
+        "Windsor (Windsor Sculpture Park or Willistead Manor)",
+        "Windsor (Rock Bottom Bar & Grill)",
+        "Port Alma (Port Alma Wind Farm)",
+        "Point Pelee National Park (Point Pelee)"
+      ],
+      "narrative": "After being informed at the previous Pit Stop that they were still racing, the remaining teams were asked trivia questions related to previous legs by Jon before boarding a bus to Toronto. The last team with a correct answer received the final spot on the earlier of two trains to their next destination: Windsor, Ontario. Once there, teams found their next clue inside a marked vehicle at the train station. At Adventure Bay Water Park, teams had to search in the water slides and around the park for three different coloured rubber ducks, which they could exchange for their next clue. The first team to complete this task won an additional $5,000. Tyler & Kayleen won this prize. For this leg's Face Off, two teams had to compete against each other in a game of No Limit Texas Hold' em. Each team member received two cards, with which they could either raise, call, or fold. The team who won the most chips in ten hands received their next clue, while the losing team had to wait for another team. The last team remaining at the Face Off had to wait out a time penalty before moving on. After the Face Off, teams had to drive to Port Alma Wind Farm. There, one team member had to climb the inside of a wind turbine to find a conversion chart of kilowatt outputs. Using this information, they then had to correctly solve a mathematical formula to determine how many homes a single turbine can power in a 24-hour period in order to receive their next clue directing them to the Pit Stop: Point Pelee National Park.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Sculpt or Swing. In Sculpt, teams had to assemble magnetic pieces in order to form a replica of Windsor Sculpture Park's Salutation sculpture before receiving their next clue. In Swing, teams had to don 1920s period dress and perform a two-minute swing dance routine in order to receive their next clue."
+        }
+      ]
+    },
+    {
+      "leg_number": 8,
+      "route_header": "Ontario \u2192 Quebec",
+      "itinerary": [
+        "Windsor (Dieppe Gardens)",
+        "Windsor \u2192 Montreal, Quebec",
+        "Montreal \u2192 Saguenay (Bagotville Airport)",
+        "Saguenay (Rio Tinto Arvida Research and Development Centre)",
+        "Saguenay (Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi or Centre Amusement SPK)",
+        "Saguenay (Pont d'aluminium d'Arvida (in French))",
+        "Saguenay (La Baie \u2013 Centre Plein Air Bec-Scie)",
+        "Saint-Fulgence (Parc Aventures Cap Jaseux)",
+        "Saguenay (Chicoutimi \u2013 La Pulperie de Chicoutimi (in French))"
+      ],
+      "narrative": "At the start of this leg, teams were instructed to travel to Saguenay, Quebec. Once there, teams had to search a marked truck outside of the airport for their next clue, which directed them to travel to the Rio Tinto Arvida Research and Development Centre. There, teams had to use a digital microscope to find a nano-sized French word engraved on a piece of aluminum in order to receive their next clue.",
+      "tasks": [
+        {
+          "task_type": "Detour",
+          "description": "This season's final Detour was a choice between Snow or Go. In Snow, teams would have entered a walk-in freezer full of snow, where they would have had to recreate a piece of snowmen artwork using stencils and spray paint in order to receive their next clue. In Go, one team member had to drive a go-kart around a track in exactly one minute while being coached by their partner in order to receive their next clue. All teams chose to drive go-karts."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to drive to the Pont d'aluminium d'Arvida in order to find their next clue. Teams then had to drive to the Centre Plein Air Bec-Scie and carry a tourti\u00e8re through an obstacle course in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to navigate a via ferrata above the Saguenay River and memorize the key for an alpha-numeric code. Teams then had to decipher a series of numbers in order to form the name of the next Pit Stop: LA PULPERIE."
+        }
+      ]
+    },
+    {
+      "leg_number": 9,
+      "route_header": "Quebec \u2192 Ontario",
+      "itinerary": [
+        "Saguenay (Vieux-Port de Chicoutimi)",
+        "Saguenay \u2192 Montreal",
+        "Montreal (Montreal Central Station) \u2192 Toronto, Ontario (Union Station)",
+        "Toronto (Toronto Stock Exchange)",
+        "Toronto (OCAD University)",
+        "Toronto (Hotel X Toronto \u2013 10XTO)",
+        "Toronto (Immersion Room)",
+        "Toronto (Kensington Market \u2013 Fika Cafe)",
+        "Toronto (Kensington Market, Parkdale, Koreatown & Chinatown)",
+        "Toronto (Sunnyside Beach)",
+        "Leg 9 was spread out over two episodes."
+      ],
+      "narrative": "At the start of this leg, teams were instructed to travel to Toronto, Ontario. First, teams had to fly to Montreal and find a marked Via Rail counter at the Montreal Central Station in order to obtain tickets for one of two trains to Union Station. Once there, teams had to travel to the Toronto Stock Exchange and then wait to ring the opening bell with Jon the next morning before receiving their next clue. Teams left the stock exchange in the order that they arrived the previous night. For this season's final Face Off, two teams had to compete against each other in a best-of-five games of tennis. The team who won three games received their next clue, while the losing team had to wait for another team. The last team remaining at the Face Off had to wait out a time penalty before moving on. After the Face Off, teams had to travel to the Immersion Room, dress as astronauts, and memorize a script for an alien encounter written in an alien language. Teams then had to perform without error and then take a selfie with the alien in order to receive their next clue. After the alien language task, teams had to travel to the Fika Cafe at Kensington Market in order to find their next clue. Teams then had to find five marked stores in the market and surrounding neighbourhoods and purchase one food item written on a list at each store. After purchasing specified channa dal, kimchi, plantains, white sesame, and cactus leaves, teams had to deliver them to the cafe in order to receive their next clue directing them to the Pit Stop: Sunnyside Beach.",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one team member had to use a mechanical ascender to climb to the top of a 90-foot (27 m) pillar at OCAD University, retrieve their next clue, and rappel back down to their partner."
+        }
+      ]
+    },
+    {
+      "leg_number": 10,
+      "route_header": "Ontario \u2192 Nova Scotia",
+      "itinerary": [
+        "Prizes: CA$250,000, a trip for two around the world, and two Chevrolet Colorado ZR2s",
+        "Third place: Ben & Anwar",
+        "Toronto (Ontario Legislative Building)",
+        "Toronto \u2192 Halifax, Nova Scotia",
+        "Eastern Passage (Fisherman's Cove)",
+        "Shearwater (CFB Shearwater)",
+        "Halifax (Staples)",
+        "Dartmouth (Dartmouth Alderney Ferry Terminal)",
+        "Halifax (Woozles Bookstore)",
+        "Halifax (Grand Parade)",
+        "Halifax (Halifax Waterfront Boardwalk \u2013 Sea Halifax) and Halifax Harbour (Georges Island)",
+        "Halifax (Halifax Waterfront Boardwalk \u2013 Queen's Marque)",
+        "Halifax (Point Pleasant Park \u2013 Bonaventure Anchor)"
+      ],
+      "narrative": "At the start of the leg, teams were instructed to fly to Halifax, Nova Scotia. Once there, teams found their next clue at Fisherman's Cove.",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's first Roadblock, one team member had to board a RCAF CH-148 Cyclone helicopter and direct a pilot to drop a payload onto a target within five minutes in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the first Roadblock, teams had to travel to a Staples store and find a marked kiosk in order to receive a smartphone with a photograph of the location of their next clue: the ferry at the Dartmouth Alderney Ferry Terminal. Teams then had to travel to Woozles Bookstore, memorize three children's books, and arrange photographs from the books in chronological order in order to receive their next clue sending them to the Grand Parade. There, teams took part in a Royal Nova Scotia International Tattoo and had to perform three dances \u2013 a Highland dance, a fancy shawl dance, and a Punjabi banghra \u2013 in order to receive their next clue sending them to Sea Halifax."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this season's final Roadblock, the team member who did not perform the previous Roadblock had to drive a personal watercraft through a slalom course off of Georges Island and retrieve a zebra split swim ring within 75 seconds in order to receive their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the second Roadblock, teams had to travel to Queen's Marque and complete a 25-word crossword puzzle based on previous legs in order to receive their final clue directing them to the finish line: the Bonaventure Anchor."
+        }
+      ]
+    }
+  ]
+}

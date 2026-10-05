@@ -116,18 +116,29 @@ class ColumnGap:
 class DatasetGapAuditor:
     """Audits processed TAR tables for completeness, nulls, and schema gaps."""
 
-    def __init__(self, processed_dir: Path | str = "data/processed") -> None:
+    def __init__(
+        self,
+        processed_dir: Path | str = "data/processed",
+        version: str | None = None,
+    ) -> None:
         self.processed_dir = Path(processed_dir)
+        self.version = version
 
     def load_table(self, name: str) -> pd.DataFrame:
         """Load parquet or csv table."""
         parquet_path = self.processed_dir / f"{name}.parquet"
         if parquet_path.exists():
-            return pd.read_parquet(parquet_path)
-        csv_path = self.processed_dir / f"{name}.csv"
-        if csv_path.exists():
-            return pd.read_csv(csv_path)
-        return pd.DataFrame()
+            df = pd.read_parquet(parquet_path)
+        else:
+            csv_path = self.processed_dir / f"{name}.csv"
+            if csv_path.exists():
+                df = pd.read_csv(csv_path)
+            else:
+                return pd.DataFrame()
+
+        if self.version is not None and "version" in df.columns:
+            df = df[df["version"].astype(str).str.upper() == self.version.upper()]
+        return df
 
     def audit_column(
         self, table_name: str, column_name: str, df: pd.DataFrame

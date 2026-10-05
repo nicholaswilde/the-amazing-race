@@ -5,7 +5,7 @@
 \alias{legs}
 \title{Legs and Travel Routes in The Amazing Race}
 \format{
-A data frame with 453 rows and 13 variables:
+A data frame with 677 rows and 13 variables:
 \describe{
   \item{version}{Franchise country code}
   \item{season}{Season number (integer)}

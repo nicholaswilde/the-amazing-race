@@ -5,7 +5,7 @@
 \alias{seasons}
 \title{Seasons in The Amazing Race}
 \format{
-A data frame with 38 rows and 11 variables:
+A data frame with 56 rows and 11 variables:
 \describe{
   \item{version}{Franchise country code ('US', 'CAN', 'AUS', etc.)}
   \item{season}{Season number (integer)}

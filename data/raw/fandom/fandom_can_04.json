@@ -1,0 +1,17 @@
+{
+  "version": "CAN",
+  "season": 4,
+  "fandom_title": "The_Amazing_Race_Canada_4",
+  "fandom_url": "https://amazingrace.fandom.com/wiki/The_Amazing_Race_Canada_4",
+  "infobox": {
+    "continents_visited": 2,
+    "countries_visited": 3,
+    "cities_visited": 20,
+    "distance_str": "16,000 miles (25,000 km)",
+    "starting_line": "Yellowknife,",
+    "finish_line": "Kondiaronk Belvedere, Montreal,",
+    "filming_dates": "April 28, 2016 - May 24, 2016",
+    "runners_up": "Jillian & Emmett<br />Joel & Ashley"
+  },
+  "wikitext_length": 11435
+}
