@@ -132,6 +132,11 @@ tasks:
     cmds:
       - uv run tar-dataset predict {{.CLI_ARGS}}
 
+  predict:update:
+    desc: Run empirical predictive engine and update documentation ledger (README.md & docs/predictions.md)
+    cmds:
+      - uv run tar-dataset predict --update-docs {{.CLI_ARGS}}
+
   dashboard:
     desc: Launch interactive web dashboard for race exploration and predictions
     cmds:

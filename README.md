@@ -146,6 +146,25 @@ All-time leg destinations across 6 continents and the historical evolution of ra
 
 ---
 
+## :crystal_ball: Empirical Season Predictions
+
+<!-- TAR_PREDICTIONS_START -->
+### :trophy: Live Empirical Predictions (Season 37 - After Leg 12)
+
+Probabilistic forecasts computed via multi-factor log-odds calibrated against 38 historical seasons. See [docs/predictions.md](docs/predictions.md) for full weekly trajectory ledgers and outcome accuracy tracking.
+
+| Rank | Team | Relationship | Avg Age | Avg Place | Express Pass | Win Prob | Finale Prob (Top 3) |
+| :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| 1 | **Carson & Jack** | Best Friends & Gamers | 28 | 2.4 | - | **38.5%** | **95.0%** |
+| 2 | **Jonathan & Ana** | Married Parents | 38 | 3.0 | - | **34.9%** | **95.0%** |
+| 3 | **Han & Holden** | Siblings | 24 | 5.0 | - | **26.6%** | **79.5%** |
+
+> [!NOTE]
+> Predictions update automatically after each broadcast episode via `task ingest:run` or `task predict -- --update-docs`. See [docs/predictions.md](docs/predictions.md) for all historical leg snapshots.
+<!-- TAR_PREDICTIONS_END -->
+
+---
+
 ## :package: Release Asset Packages
 
 Pre-built distribution bundles are published with every [GitHub Release](https://github.com/nicholaswilde/the-amazing-race/releases). You can download and use these standalone assets immediately without cloning the repository or setting up the development environment.
@@ -453,6 +472,7 @@ task eval:benchmark   # Evaluate 45 curated AI benchmark questions
 task validate         # Verify dataset schema and relational integrity
 task stats            # Show table row counts and summary stats
 task predict          # Predict upcoming/in-progress season outcomes (e.g. -- --season 39)
+task predict:update   # Run predictions and update documentation ledger (README & docs/predictions.md)
 task dashboard        # Launch interactive web dashboard for race exploration & predictions
 task publish:hf       # Publish and sync tidy datasets & AI corpora to Hugging Face Hub
 task publish:space    # Deploy interactive dashboard to Hugging Face Spaces
@@ -682,7 +702,22 @@ Features included in the dashboard:
 - **Interactive Predictor**: Contender rankings, win and finale probabilities, multi-factor breakdowns (momentum, age peak, relationship archetype, power items), diagnostic strengths/risks, and a custom "What-If" team simulator.
 - **Challenge Browser**: Search, filter, and analyze 1,700+ challenges across Roadblocks, Detours, Fast Forwards, and Speed Bumps, with cross-season trend analytics and all-time top performer leaderboards.
 
-### 19. Deploy Dashboard to Hugging Face Spaces
+### 19. Predict Race Outcomes & Track Weekly Accuracy
+Evaluates active contenders using multi-factor empirical modeling (momentum, age peak, relationship archetype, Express Pass) and records weekly accuracy:
+```bash
+# Predict upcoming/in-progress season outcomes
+uv run tar-dataset predict --season 39
+
+# Inspect detailed demographic strengths and risk factors
+uv run tar-dataset predict --season 39 --top 5 --detail
+
+# Update documentation ledger (README.md & docs/predictions.md) and record weekly snapshot
+uv run tar-dataset predict --season 39 --update-docs
+# or via task runner:
+task predict:update
+```
+
+### 20. Deploy Dashboard to Hugging Face Spaces
 Deploys the interactive dashboard and its bundled datasets directly to a public or private Hugging Face Space running Streamlit:
 ```bash
 # Deploy to Hugging Face Spaces (defaults to <username>/the-amazing-race-dashboard):

@@ -173,6 +173,64 @@ def test_cli_predict(tmp_path: Path):
     assert len(data["rankings"]) >= 10
 
 
+def test_update_predictions_docs(tmp_path: Path):
+    readme_path = tmp_path / "README.md"
+    docs_path = tmp_path / "docs" / "predictions.md"
+    data_dir = tmp_path / "data" / "predictions"
+    readme_path.write_text(
+        "## :package: Release Asset Packages\nDetails\n", encoding="utf-8"
+    )
+
+    predictor = SeasonPredictor()
+    res = predictor.update_predictions_docs(
+        season=39,
+        readme_path=readme_path,
+        docs_path=docs_path,
+        data_dir=data_dir,
+    )
+    assert res["season"] == 39
+    assert docs_path.exists()
+    assert (data_dir / "season_39" / f"leg_{res['current_leg']}.json").exists()
+
+    docs_text = docs_path.read_text(encoding="utf-8")
+    assert "The Amazing Race Season 39 Empirical Predictions" in docs_text
+    assert "Weekly Win Probability Trajectory" in docs_text
+    assert "Prediction Accuracy vs Actual Leg Outcomes" in docs_text
+
+    readme_text = readme_path.read_text(encoding="utf-8")
+    assert "Live Empirical Predictions (Season 39" in readme_text
+    assert "docs/predictions.md" in readme_text
+
+
+def test_cli_predict_update_docs(tmp_path: Path):
+    mock_readme = tmp_path / "README.md"
+    mock_docs = tmp_path / "docs" / "predictions.md"
+    mock_data = tmp_path / "data" / "predictions"
+    mock_readme.write_text("## :package: Release Asset Packages\n", encoding="utf-8")
+
+    with patch.object(
+        SeasonPredictor,
+        "update_predictions_docs",
+        return_value={
+            "docs_file": str(mock_docs),
+            "readme_file": str(mock_readme),
+            "snapshot_file": str(mock_data / "season_39" / "leg_3.json"),
+        },
+    ) as mock_update:
+        result = runner.invoke(
+            app,
+            [
+                "predict",
+                "--season",
+                "39",
+                "--update-docs",
+            ],
+        )
+        assert result.exit_code == 0
+        assert "Updated prediction documentation" in result.stdout
+        mock_update.assert_called_once_with(season=39)
+
+
 def test_score_team_roadblock_equity():
     """Verify that roadblock equity score affects predictor scoring, strengths, and risks."""
     predictor = SeasonPredictor()

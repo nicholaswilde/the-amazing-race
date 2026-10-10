@@ -1160,6 +1160,11 @@ def predict_cmd(
     output_json: Path | None = typer.Option(
         None, "--output", "-o", help="Optional path to export predictions JSON."
     ),
+    update_docs: bool = typer.Option(
+        False,
+        "--update-docs",
+        help="Update prediction documentation in README.md and docs/predictions.md.",
+    ),
 ) -> None:
     """Predict winners, finale contenders, and elimination risks using historical empirical data."""
     console.print(
@@ -1263,6 +1268,15 @@ def predict_cmd(
         with open(output_json, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=2)
         console.print(f"\n[green]Saved prediction export to {output_json}[/green]")
+
+    if update_docs:
+        doc_res = predictor.update_predictions_docs(season=season)
+        console.print(
+            f"\n[bold green]✓ Updated prediction documentation:[/bold green]\n"
+            f"  - Ledger: [cyan]{doc_res['docs_file']}[/cyan]\n"
+            f"  - Summary: [cyan]{doc_res['readme_file']}[/cyan]\n"
+            f"  - Snapshot: [cyan]{doc_res['snapshot_file']}[/cyan]"
+        )
 
 
 @app.command("dashboard")

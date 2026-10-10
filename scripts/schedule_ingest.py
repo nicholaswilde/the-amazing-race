@@ -323,6 +323,17 @@ def main() -> int:
 
     logger.info("✓ Pipeline re-built successfully with Season %d data!", target_season)
 
+    # Automatically update prediction documentation and history ledger
+    try:
+        from tar_dataset.processors.predictor import SeasonPredictor
+
+        logger.info("Updating empirical prediction documentation for Season %d...", target_season)
+        pred = SeasonPredictor()
+        pred.update_predictions_docs(season=target_season)
+        logger.info("✓ Successfully updated prediction docs in README.md and docs/predictions.md")
+    except Exception as e:
+        logger.warning("Could not auto-update prediction docs: %s", e)
+
     # Post comment to Issue #4
     if args.post_comment:
         post_issue_comment(

@@ -1,0 +1,1490 @@
+{
+  "season": 37,
+  "current_leg": 12,
+  "total_teams": 14,
+  "active_teams_count": 3,
+  "eliminated_teams_count": 11,
+  "rankings": [
+    {
+      "team_name": "Carson & Jack",
+      "relationship": "Best Friends & Gamers",
+      "racers": [
+        {
+          "name": "Carson McCalley",
+          "age": 28,
+          "relationship": "Best Friends & Gamers",
+          "hometown": "Brooklyn, New York",
+          "status": "Winners"
+        },
+        {
+          "name": "Jack Dodge",
+          "age": 27,
+          "relationship": "Best Friends & Gamers",
+          "hometown": "Brooklyn, New York",
+          "status": "Winners"
+        }
+      ],
+      "avg_age": 27.5,
+      "age_gap": 1,
+      "legs_completed": 12,
+      "avg_placement": 2.42,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "1st \u0192",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": true,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": false,
+      "express_pass_status": "None",
+      "roadblock_equity_score": null,
+      "raw_score": -0.5091668252278589,
+      "strengths": [
+        "Top-3 Leg 1 finish (1st) matches 58% of historical winners",
+        "Elite racing average (2.42)",
+        "Optimal physical age bracket (28 yrs, historical mean ~30)"
+      ],
+      "risks": [],
+      "archetype": "friends",
+      "win_probability": 38.5,
+      "top3_probability": 95.0
+    },
+    {
+      "team_name": "Jonathan & Ana",
+      "relationship": "Married Parents",
+      "racers": [
+        {
+          "name": "Jonathan Towns",
+          "age": 42,
+          "relationship": "Married Parents",
+          "hometown": "Pomona, California",
+          "status": "Third place"
+        },
+        {
+          "name": "Ana Towns",
+          "age": 35,
+          "relationship": "Married Parents",
+          "hometown": "Pomona, California",
+          "status": "Third place"
+        }
+      ],
+      "avg_age": 38.5,
+      "age_gap": 7,
+      "legs_completed": 12,
+      "avg_placement": 3.0,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "1st \u03b5",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "8th \u2282",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": false,
+      "express_pass_status": "None",
+      "roadblock_equity_score": null,
+      "raw_score": -0.6059221970561292,
+      "strengths": [
+        "Top-3 Leg 1 finish (2nd) matches 58% of historical winners",
+        "Elite racing average (3.00)",
+        "High-cohesion married archetype"
+      ],
+      "risks": [],
+      "archetype": "married",
+      "win_probability": 34.9,
+      "top3_probability": 95.0
+    },
+    {
+      "team_name": "Han & Holden",
+      "relationship": "Siblings",
+      "racers": [
+        {
+          "name": "Han Nguyen",
+          "age": 26,
+          "relationship": "Siblings",
+          "hometown": "Los Gatos, California",
+          "status": "Runners-up"
+        },
+        {
+          "name": "Holden Nguyen",
+          "age": 22,
+          "relationship": "Siblings",
+          "hometown": "Los Gatos, California",
+          "status": "Runners-up"
+        }
+      ],
+      "avg_age": 24.0,
+      "age_gap": 4,
+      "legs_completed": 12,
+      "avg_placement": 5.0,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "11th",
+          "placement": 11,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "4th \u2282",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "5th \u2021",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": false,
+      "express_pass_status": "None",
+      "roadblock_equity_score": null,
+      "raw_score": -0.878468508723667,
+      "strengths": [
+        "Optimal physical age bracket (24 yrs, historical mean ~30)",
+        "High-cohesion siblings archetype"
+      ],
+      "risks": [],
+      "archetype": "siblings",
+      "win_probability": 26.6,
+      "top3_probability": 79.5
+    },
+    {
+      "team_name": "Jackye & Lauren",
+      "relationship": "Sisters",
+      "racers": [
+        {
+          "name": "Jackye Clayton",
+          "age": 51,
+          "relationship": "Sisters",
+          "hometown": "Waco, Texas",
+          "status": "Eliminated 1st & 2nd (in Hong Kong)"
+        },
+        {
+          "name": "Lauren McKinney",
+          "age": 61,
+          "relationship": "Sisters",
+          "hometown": "Waco, Texas",
+          "status": "Eliminated 1st & 2nd (in Hong Kong)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 1,
+      "avg_placement": 7.0,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "7th \u2020",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "siblings"
+    },
+    {
+      "team_name": "Mark & Larry",
+      "relationship": "Retired Firefighters",
+      "racers": [
+        {
+          "name": "Mark Crawford",
+          "age": 63,
+          "relationship": "Retired Firefighters",
+          "hometown": "Watertown, Tennessee",
+          "status": "Eliminated 1st & 2nd (in Hong Kong)"
+        },
+        {
+          "name": "Larry Graham",
+          "age": 59,
+          "relationship": "Retired Firefighters",
+          "hometown": "Bartlett, Tennessee",
+          "status": "Eliminated 1st & 2nd (in Hong Kong)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 1,
+      "avg_placement": 7.0,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "7th \u2020",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "other"
+    },
+    {
+      "team_name": "Ernest & Bridget",
+      "relationship": "Father & Daughter",
+      "racers": [
+        {
+          "name": "Ernest Cato",
+          "age": 59,
+          "relationship": "Father & Daughter",
+          "hometown": "Chicago, Illinois",
+          "status": "Eliminated 3rd (in Minoh, Japan)"
+        },
+        {
+          "name": "Bridget Cato",
+          "age": 28,
+          "relationship": "Father & Daughter",
+          "hometown": "Somerville, Massachusetts",
+          "status": "Eliminated 3rd (in Minoh, Japan)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 2,
+      "avg_placement": 7.5,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "12th \u2020",
+          "placement": 12,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "parent_child"
+    },
+    {
+      "team_name": "Courtney & Jasmin",
+      "relationship": "Dating Nurses",
+      "racers": [
+        {
+          "name": "Courtney Ramsey",
+          "age": 33,
+          "relationship": "Dating Nurses",
+          "hometown": "Leland, North Carolina",
+          "status": "Eliminated 4th (in Kyoto, Japan)"
+        },
+        {
+          "name": "Jasmin Carey",
+          "age": 34,
+          "relationship": "Dating Nurses",
+          "hometown": "Leland, North Carolina",
+          "status": "Eliminated 4th (in Kyoto, Japan)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 3,
+      "avg_placement": 7.67,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "11th \u2020",
+          "placement": 11,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "dating"
+    },
+    {
+      "team_name": "Bernie & Carrigain",
+      "relationship": "Friends",
+      "racers": [
+        {
+          "name": "Bernie Gutierrez",
+          "age": 31,
+          "relationship": "Friends",
+          "hometown": "Dallas, Texas",
+          "status": "Eliminated 5th (in Kubu, Indonesia)"
+        },
+        {
+          "name": "Carrigain Scadden",
+          "age": 33,
+          "relationship": "Friends",
+          "hometown": "Denver, Colorado",
+          "status": "Eliminated 5th (in Kubu, Indonesia)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 4,
+      "avg_placement": 8.0,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "10th",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "10th \u2020",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "friends"
+    },
+    {
+      "team_name": "Scott & Lori",
+      "relationship": "Married Parents of Eight",
+      "racers": [
+        {
+          "name": "Scott Thompson",
+          "age": 47,
+          "relationship": "Married Parents of Eight",
+          "hometown": "Salt Lake City, Utah",
+          "status": "Eliminated 6th (in Nusa Dua, Indonesia)"
+        },
+        {
+          "name": "Lori Thompson",
+          "age": 49,
+          "relationship": "Married Parents of Eight",
+          "hometown": "Salt Lake City, Utah",
+          "status": "Eliminated 6th (in Nusa Dua, Indonesia)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 5,
+      "avg_placement": 3.6,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "9th \u2020 \u2282",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "married"
+    },
+    {
+      "team_name": "Pops & Jeff",
+      "relationship": "Father & Son Lumberjacks",
+      "racers": [
+        {
+          "name": "Jeff \"Pops\" Bailey",
+          "age": 65,
+          "relationship": "Father & Son Lumberjacks",
+          "hometown": "St. Louis, Missouri",
+          "status": "Eliminated 7th (in Dubai, United Arab Emirates)"
+        },
+        {
+          "name": "Jeff Bailey",
+          "age": 36,
+          "relationship": "Father & Son Lumberjacks",
+          "hometown": "St. Louis, Missouri",
+          "status": "Eliminated 7th (in Dubai, United Arab Emirates)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 6,
+      "avg_placement": 6.33,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "8th \u2020",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "parent_child"
+    },
+    {
+      "team_name": "Nick & Mike",
+      "relationship": "Brothers",
+      "racers": [
+        {
+          "name": "Nick Fiorito",
+          "age": 32,
+          "relationship": "Brothers",
+          "hometown": "Brooklyn, New York",
+          "status": "Eliminated 8th (in Sarantsi, Bulgaria)"
+        },
+        {
+          "name": "Mike Fiorito",
+          "age": 28,
+          "relationship": "Brothers",
+          "hometown": "Brooklyn, New York",
+          "status": "Eliminated 8th (in Sarantsi, Bulgaria)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 7,
+      "avg_placement": 7.43,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "10th",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "7th \u2020 \u2282 \u2283",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "siblings"
+    },
+    {
+      "team_name": "Melinda & Erika",
+      "relationship": "Mother & Daughter",
+      "racers": [
+        {
+          "name": "Melinda Papadeas",
+          "age": 66,
+          "relationship": "Mother & Daughter",
+          "hometown": "Chandler, Arizona",
+          "status": "Eliminated 9th (in Sofia, Bulgaria)"
+        },
+        {
+          "name": "Erika Papadeas",
+          "age": 32,
+          "relationship": "Mother & Daughter",
+          "hometown": "Englewood, Colorado",
+          "status": "Eliminated 9th (in Sofia, Bulgaria)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 8,
+      "avg_placement": 5.25,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "5th \u2283",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "6th \u2020",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "parent_child"
+    },
+    {
+      "team_name": "Brett & Mark",
+      "relationship": "Married Vegas Performers",
+      "racers": [
+        {
+          "name": "Brett Hamby",
+          "age": 36,
+          "relationship": "Married Vegas Performers",
+          "hometown": "Las Vegas, Nevada",
+          "status": "Eliminated 10th (in Scherwiller, France)"
+        },
+        {
+          "name": "Mark Romain",
+          "age": 37,
+          "relationship": "Married Vegas Performers",
+          "hometown": "Las Vegas, Nevada",
+          "status": "Eliminated 10th (in Scherwiller, France)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 10,
+      "avg_placement": 3.8,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "5th \u2020",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "married"
+    },
+    {
+      "team_name": "Alyssa & Josiah",
+      "relationship": "Married Nurses",
+      "racers": [
+        {
+          "name": "Alyssa Borden",
+          "age": 31,
+          "relationship": "Married Nurses",
+          "hometown": "Philadelphia, Pennsylvania",
+          "status": "Eliminated 11th (in Vila Nova de Gaia, Portugal)"
+        },
+        {
+          "name": "Josiah Borden",
+          "age": 32,
+          "relationship": "Married Nurses",
+          "hometown": "Philadelphia, Pennsylvania",
+          "status": "Eliminated 11th (in Vila Nova de Gaia, Portugal)"
+        }
+      ],
+      "avg_age": null,
+      "legs_completed": 11,
+      "avg_placement": 3.09,
+      "placements": [
+        {
+          "leg_label": "1 \u03b3",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2 +",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "2nd \u03b5",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "4th \u2020",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ],
+      "is_eliminated": true,
+      "express_pass_status": "Eliminated",
+      "roadblock_equity_score": null,
+      "win_probability": 0.0,
+      "top3_probability": 0.0,
+      "raw_score": -999.0,
+      "strengths": [],
+      "risks": [
+        "Eliminated from competition"
+      ],
+      "archetype": "married"
+    }
+  ],
+  "historical_baselines": {
+    "winner_mean_age": 29.884615384615383,
+    "winner_std_age": 7.313003485574172,
+    "avg_winning_racing_average": 2.45,
+    "relationship_weights": {
+      "dating": 0.289,
+      "siblings": 0.211,
+      "married": 0.184,
+      "friends": 0.079,
+      "parent_child": 0.026,
+      "strangers": 0.026,
+      "other": 0.185
+    },
+    "leg1_finish_win_rates": {
+      "1": 0.2631578947368421,
+      "2": 0.21052631578947367,
+      "3": 0.10526315789473684,
+      "4": 0.15789473684210525,
+      "5": 0.02,
+      "6": 0.05263157894736842,
+      "7": 0.02631578947368421,
+      "8": 0.13157894736842105,
+      "9": 0.05263157894736842,
+      "10": 0.005,
+      "11": 0.005,
+      "12": 0.001,
+      "13": 0.0
+    }
+  }
+}
