@@ -149,15 +149,22 @@ All-time leg destinations across 6 continents and the historical evolution of ra
 ## :crystal_ball: Empirical Season Predictions
 
 <!-- TAR_PREDICTIONS_START -->
-### :trophy: Live Empirical Predictions (Season 37 - After Leg 12)
+### :trophy: Live Empirical Predictions (Season 39 - After Leg 3)
 
 Probabilistic forecasts computed via multi-factor log-odds calibrated against 38 historical seasons. See [docs/predictions.md](docs/predictions.md) for full weekly trajectory ledgers and outcome accuracy tracking.
 
 | Rank | Team | Relationship | Avg Age | Avg Place | Express Pass | Win Prob | Finale Prob (Top 3) |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Carson & Jack** | Best Friends & Gamers | 28 | 2.4 | - | **38.5%** | **95.0%** |
-| 2 | **Jonathan & Ana** | Married Parents | 38 | 3.0 | - | **34.9%** | **95.0%** |
-| 3 | **Han & Holden** | Siblings | 24 | 5.0 | - | **26.6%** | **79.5%** |
+| 1 | **Michelle & Matt** | Married Parents | 34 | 3.7 | Held | **17.3%** | **53.4%** |
+| 2 | **Erin & Javi** | Married | 29 | 5.3 | Used | **15.8%** | **49.2%** |
+| 3 | **Conner & Garrett** | Childhood Friends | 27 | 5.0 | Held | **13.4%** | **42.5%** |
+| 4 | **Cody & Jaime** | Siblings | 34 | 6.3 | Used | **11.2%** | **36.4%** |
+| 5 | **Ali & Joanna** | Pro Athletes/Moms | 43 | 4.7 | Held | **9.7%** | **32.2%** |
+| 6 | **Daisha & Dalton** | Dating | 28 | 9.0 | Used | **8.7%** | **29.4%** |
+| 7 | **Ann-Marie & Riley** | Mother & Daughter | 42 | 4.0 | Used | **6.5%** | **23.2%** |
+| 8 | **Jody & Jenn** | Best Friends/Moms | 44 | 6.5 | Used | **6.5%** | **23.2%** |
+| 9 | **Anuar & Andrea** | Father & Daughter | 42 | 5.3 | Used | **5.1%** | **19.3%** |
+| 10 | **Dafina & Saran** | Sisters/Best Friends | 52 | 9.0 | Used | **2.9%** | **13.1%** |
 
 > [!NOTE]
 > Predictions update automatically after each broadcast episode via `task ingest:run` or `task predict -- --update-docs`. See [docs/predictions.md](docs/predictions.md) for all historical leg snapshots.

@@ -1,20 +1,27 @@
-# The Amazing Race Season 37 Empirical Predictions & Accuracy Ledger
+# The Amazing Race Season 39 Empirical Predictions & Accuracy Ledger
 
-This document tracks weekly probabilistic forecasts, team trajectory shifts, and empirical model accuracy against actual broadcast outcomes for **The Amazing Race Season 37**.
+This document tracks weekly probabilistic forecasts, team trajectory shifts, and empirical model accuracy against actual broadcast outcomes for **The Amazing Race Season 39**.
 
 Predictions are calculated using a 4-factor empirical modeling framework trained on 38 historical US seasons (78 winners, 400+ teams): **Leg Momentum (45%)**, **Age Peak Gaussian Likelihood (25%)**, **Relationship Archetype (20%)**, and **Tactical Assets / Express Pass (10%)**.
 
 ---
 
-## 🏁 Latest Contender Rankings (After Leg 12)
+## 🏁 Latest Contender Rankings (After Leg 3)
 
-**Model Context**: Active Teams: 3/14 | Historical Baseline: 38 US Seasons
+**Model Context**: Active Teams: 11/13 | Historical Baseline: 38 US Seasons
 
 | Rank | Team | Relationship | Avg Age | Avg Place | Express Pass | Win Prob | Finale Prob (Top 3) |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Carson & Jack** | Best Friends & Gamers | 28 | 2.4 | - | **38.5%** | **95.0%** |
-| 2 | **Jonathan & Ana** | Married Parents | 38 | 3.0 | - | **34.9%** | **95.0%** |
-| 3 | **Han & Holden** | Siblings | 24 | 5.0 | - | **26.6%** | **79.5%** |
+| 1 | **Michelle & Matt** | Married Parents | 34 | 3.7 | Held | **17.3%** | **53.4%** |
+| 2 | **Erin & Javi** | Married | 29 | 5.3 | Used | **15.8%** | **49.2%** |
+| 3 | **Conner & Garrett** | Childhood Friends | 27 | 5.0 | Held | **13.4%** | **42.5%** |
+| 4 | **Cody & Jaime** | Siblings | 34 | 6.3 | Used | **11.2%** | **36.4%** |
+| 5 | **Ali & Joanna** | Pro Athletes/Moms | 43 | 4.7 | Held | **9.7%** | **32.2%** |
+| 6 | **Daisha & Dalton** | Dating | 28 | 9.0 | Used | **8.7%** | **29.4%** |
+| 7 | **Ann-Marie & Riley** | Mother & Daughter | 42 | 4.0 | Used | **6.5%** | **23.2%** |
+| 8 | **Jody & Jenn** | Best Friends/Moms | 44 | 6.5 | Used | **6.5%** | **23.2%** |
+| 9 | **Anuar & Andrea** | Father & Daughter | 42 | 5.3 | Used | **5.1%** | **19.3%** |
+| 10 | **Dafina & Saran** | Sisters/Best Friends | 52 | 9.0 | Used | **2.9%** | **13.1%** |
 
 ---
 
@@ -22,22 +29,21 @@ Predictions are calculated using a 4-factor empirical modeling framework trained
 
 Progression of calibrated win probabilities across broadcast legs:
 
-| Team | Status | Leg 12 |
+| Team | Status | Leg 3 |
 | :--- | :---: | :---: |
-| **Carson & Jack** | Active | 38.5% |
-| **Jonathan & Ana** | Active | 34.9% |
-| **Han & Holden** | Active | 26.6% |
-| **Jackye & Lauren** | Eliminated | 0.0% |
-| **Mark & Larry** | Eliminated | 0.0% |
-| **Ernest & Bridget** | Eliminated | 0.0% |
-| **Courtney & Jasmin** | Eliminated | 0.0% |
-| **Bernie & Carrigain** | Eliminated | 0.0% |
-| **Scott & Lori** | Eliminated | 0.0% |
-| **Pops & Jeff** | Eliminated | 0.0% |
-| **Nick & Mike** | Eliminated | 0.0% |
-| **Melinda & Erika** | Eliminated | 0.0% |
-| **Brett & Mark** | Eliminated | 0.0% |
-| **Alyssa & Josiah** | Eliminated | 0.0% |
+| **Michelle & Matt** | Active | 17.3% |
+| **Erin & Javi** | Active | 15.8% |
+| **Conner & Garrett** | Active | 13.4% |
+| **Cody & Jaime** | Active | 11.2% |
+| **Ali & Joanna** | Active | 9.7% |
+| **Daisha & Dalton** | Active | 8.7% |
+| **Ann-Marie & Riley** | Active | 6.5% |
+| **Jody & Jenn** | Active | 6.5% |
+| **Anuar & Andrea** | Active | 5.1% |
+| **Dafina & Saran** | Active | 2.9% |
+| **Doug & Dylan** | Active | 2.8% |
+| **Zach & Nate** | Eliminated | 0.0% |
+| **Katie & Charlotte** | Eliminated | 0.0% |
 
 ---
 
@@ -45,35 +51,25 @@ Progression of calibrated win probabilities across broadcast legs:
 
 Comparison of actual leg finish placements across broadcast legs:
 
-| Team | Leg 1 | Leg 2 | Leg 3 | Leg 4 | Leg 5 | Leg 6 | Leg 7 | Leg 8 | Leg 9 | Leg 10 | Leg 11 | Leg 12 | Current Racing Avg | Status |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Carson & Jack** | 1 | 4 | 2 | 2 | 2 | 1 | 6 | 4 | 4 | 1 | 1 | 1 | 2.42 | Racing |
-| **Jonathan & Ana** | 2 | 1 | 3 | 1 | 8 | 5 | 3 | 3 | 1 | 3 | 3 | 3 | 3.00 | Racing |
-| **Han & Holden** | 5 | 11 | 9 | 6 | 5 | 2 | 4 | 5 | 5 | 4 | 2 | 2 | 5.00 | Racing |
-| **Jackye & Lauren** | 7 | — | — | — | — | — | — | — | — | — | — | — | 7.00 | Eliminated |
-| **Mark & Larry** | 7 | — | — | — | — | — | — | — | — | — | — | — | 7.00 | Eliminated |
-| **Ernest & Bridget** | 3 | 12 | — | — | — | — | — | — | — | — | — | — | 7.50 | Eliminated |
-| **Courtney & Jasmin** | 6 | 6 | 11 | — | — | — | — | — | — | — | — | — | 7.67 | Eliminated |
-| **Bernie & Carrigain** | 4 | 8 | 10 | 10 | — | — | — | — | — | — | — | — | 8.00 | Eliminated |
-| **Scott & Lori** | 3 | 2 | 1 | 3 | 9 | — | — | — | — | — | — | — | 3.60 | Eliminated |
-| **Pops & Jeff** | 4 | 7 | 6 | 9 | 4 | 8 | — | — | — | — | — | — | 6.33 | Eliminated |
-| **Nick & Mike** | 5 | 10 | 8 | 8 | 7 | 7 | 7 | — | — | — | — | — | 7.43 | Eliminated |
-| **Melinda & Erika** | 6 | 5 | 4 | 4 | 6 | 6 | 5 | 6 | — | — | — | — | 5.25 | Eliminated |
-| **Brett & Mark** | 2 | 9 | 5 | 7 | 1 | 4 | 2 | 1 | 2 | 5 | — | — | 3.80 | Eliminated |
-| **Alyssa & Josiah** | 1 | 3 | 7 | 5 | 3 | 3 | 1 | 2 | 3 | 2 | 4 | — | 3.09 | Eliminated |
+| Team | Leg 1 | Leg 2 | Leg 3 | Current Racing Avg | Status |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Michelle & Matt** | 3 | 2 | 6 | 3.67 | Racing |
+| **Erin & Javi** | 1 | 7 | 8 | 5.33 | Racing |
+| **Conner & Garrett** | 2 | 9 | 4 | 5.00 | Racing |
+| **Cody & Jaime** | 11 | 3 | 5 | 6.33 | Racing |
+| **Ali & Joanna** | 10 | 1 | 3 | 4.67 | Racing |
+| **Daisha & Dalton** | 12 | 6 | 9 | 9.00 | Racing |
+| **Ann-Marie & Riley** | 7 | 4 | 1 | 4.00 | Racing |
+| **Jody & Jenn** | 8 | 5 | — | 6.50 | Racing |
+| **Anuar & Andrea** | 6 | 8 | 2 | 5.33 | Racing |
+| **Dafina & Saran** | 9 | 11 | 7 | 9.00 | Racing |
+| **Doug & Dylan** | 4 | 10 | — | 7.00 | Racing |
+| **Zach & Nate** | 13 | — | — | 13.00 | Eliminated |
+| **Katie & Charlotte** | 5 | 12 | — | 8.50 | Eliminated |
 
 ### Elimination & Contender Verification
-- **Jackye & Lauren** (Sisters): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Mark & Larry** (Retired Firefighters): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Ernest & Bridget** (Father & Daughter): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Courtney & Jasmin** (Dating Nurses): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Bernie & Carrigain** (Friends): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Scott & Lori** (Married Parents of Eight): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Pops & Jeff** (Father & Son Lumberjacks): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Nick & Mike** (Brothers): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Melinda & Erika** (Mother & Daughter): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Brett & Mark** (Married Vegas Performers): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
-- **Alyssa & Josiah** (Married Nurses): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
+- **Zach & Nate** (Brothers): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
+- **Katie & Charlotte** (Sisters): Eliminated. Post-elimination win probability correctly reduced to **0.0%**.
 
 ---
 

@@ -207,6 +207,7 @@ def test_main_not_available(
 @patch(
     "sys.argv", ["schedule_ingest.py", "--season", "37", "--post-comment", "--open-pr"]
 )
+@patch("tar_dataset.processors.predictor.SeasonPredictor.update_predictions_docs")
 @patch("scripts.schedule_ingest.create_pr_or_commit")
 @patch("scripts.schedule_ingest.post_issue_comment")
 @patch("scripts.schedule_ingest.run_pipeline")
@@ -220,6 +221,7 @@ def test_main_full_ingest_flow(
     mock_run_pipeline: MagicMock,
     mock_post_comment: MagicMock,
     mock_create_pr: MagicMock,
+    mock_update_docs: MagicMock,
 ) -> None:
     mock_check_exists.return_value = True
     mock_run_pipeline.return_value = True
@@ -231,5 +233,6 @@ def test_main_full_ingest_flow(
     mock_wiki_scrape.assert_called_once_with(37, version="US", save=True)
     mock_fandom_scrape.assert_called_once_with(37, version="US")
     mock_run_pipeline.assert_called_once()
+    mock_update_docs.assert_called_once_with(season=37)
     mock_post_comment.assert_called_once_with(37, version="US", issue_num=4)
     mock_create_pr.assert_called_once_with(37, version="US", open_pr=True)
