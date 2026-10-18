@@ -7,7 +7,7 @@
     -34.9275,
     138.6
   ],
-  "Alaçatı|TUR": [
+  "Ala\u00e7at\u0131|TUR": [
     38.2814,
     26.3742
   ],
@@ -43,6 +43,10 @@
     -17.9619,
     122.2361
   ],
+  "Bushell Park|CAN": [
+    50.3333,
+    -105.55
+  ],
   "Calgary|CAN": [
     51.0456,
     -114.0575
@@ -58,6 +62,10 @@
   "Carcross|": [
     60.1668,
     -134.7087
+  ],
+  "Cavendish|CAN": [
+    46.4833,
+    -63.3833
   ],
   "Caye Caulker|": [
     17.7425,
@@ -75,7 +83,11 @@
     38.2092,
     127.2175
   ],
-  "Ciénaga de Zapata|": [
+  "Christchurch|NZL": [
+    -43.531,
+    172.6364
+  ],
+  "Ci\u00e9naga de Zapata|": [
     22.28,
     -81.22
   ],
@@ -86,6 +98,14 @@
   "Coober Pedy|AUS": [
     -29.0111,
     134.7556
+  ],
+  "Coombs|CAN": [
+    49.3,
+    -124.4
+  ],
+  "Corner Brook|CAN": [
+    48.95,
+    -57.95
   ],
   "Courseulles-sur-Mer|FRA": [
     49.3299,
@@ -103,7 +123,7 @@
     53.5462,
     -113.4912
   ],
-  "Ekʼ Balam|MEX": [
+  "Ek\u02bc Balam|MEX": [
     20.8911,
     -88.1364
   ],
@@ -135,6 +155,10 @@
     44.65,
     -81.0333
   ],
+  "Gia Vi\u1ec5n|VNM": [
+    20.3347,
+    105.8653
+  ],
   "Gili Trawangan|IDN": [
     -8.3503,
     116.0363
@@ -147,7 +171,11 @@
     45.5,
     95.5
   ],
-  "Grosse-Île|CAN": [
+  "Green Island|AUS": [
+    -16.76,
+    145.9733
+  ],
+  "Grosse-\u00cele|CAN": [
     47.6003,
     -61.5216
   ],
@@ -167,7 +195,7 @@
     45.73,
     -67.007
   ],
-  "Hat Noppharat Thara–Mu Ko Phi Phi National Park|THA": [
+  "Hat Noppharat Thara\u2013Mu Ko Phi Phi National Park|THA": [
     7.6789,
     98.765
   ],
@@ -179,7 +207,11 @@
     -42.8806,
     147.325
   ],
-  "Huế|VNM": [
+  "Honolulu|USA": [
+    21.3045,
+    -157.8557
+  ],
+  "Hu\u1ebf|VNM": [
     16.4639,
     107.5863
   ],
@@ -235,7 +267,7 @@
     -26.1,
     27.7667
   ],
-  "Ksar Aït Benhaddou|MAR": [
+  "Ksar A\u00eft Benhaddou|MAR": [
     31.0472,
     -7.1289
   ],
@@ -243,13 +275,17 @@
     38.5458,
     28.6494
   ],
-  "Kutná Hora|CZE": [
+  "Kutn\u00e1 Hora|CZE": [
     49.9487,
     15.2681
   ],
   "Kyoto|JPN": [
     35.0116,
     135.7681
+  ],
+  "La Caldera|ARG": [
+    -24.6,
+    -65.3833
   ],
   "Langkawi|MYS": [
     6.35,
@@ -283,9 +319,17 @@
     -26.758,
     152.8513
   ],
+  "Melbourne|AUS": [
+    -37.8142,
+    144.9632
+  ],
   "Mesopotamia|NZL": [
     -43.6407,
     170.8967
+  ],
+  "Middle Point|AUS": [
+    -12.58,
+    131.3
   ],
   "Miramichi|CAN": [
     47.0225,
@@ -311,7 +355,7 @@
     -13.3667,
     34.0
   ],
-  "Mérida|MEX": [
+  "M\u00e9rida|MEX": [
     20.9672,
     -89.6236
   ],
@@ -331,6 +375,10 @@
     49.4075,
     20.2998
   ],
+  "Nitmiluk National Park|AUS": [
+    -14.3167,
+    132.4167
+  ],
   "North Rustico|CAN": [
     46.4583,
     -63.3131
@@ -342,6 +390,10 @@
   "Oliver Paipoonge|CAN": [
     48.39,
     -89.52
+  ],
+  "Oliver|CAN": [
+    49.1833,
+    -119.55
   ],
   "Osoyoos|CAN": [
     49.0333,
@@ -358,6 +410,10 @@
   "Palm Island|AUS": [
     -18.7063,
     146.5483
+  ],
+  "Pemberton|CAN": [
+    50.3167,
+    -122.8
   ],
   "Perth|AUS": [
     -31.9559,
@@ -407,6 +463,10 @@
     50.9981,
     -118.1956
   ],
+  "Richmond|CAN": [
+    49.1667,
+    -123.1333
+  ],
   "Roberts Creek|CAN": [
     49.4167,
     -123.6167
@@ -427,7 +487,7 @@
     47.4571,
     -70.3676
   ],
-  "Sainte-Famille-de-l'Île-d'Orléans|CAN": [
+  "Sainte-Famille-de-l'\u00cele-d'Orl\u00e9ans|CAN": [
     46.9667,
     -70.9667
   ],
@@ -462,6 +522,10 @@
   "Sooke|CAN": [
     48.3761,
     -123.7378
+  ],
+  "Sotuta de Pe\u00f3n|MEX": [
+    20.6867,
+    -89.62
   ],
   "South Stormont|CAN": [
     45.0833,
@@ -499,9 +563,17 @@
     13.9125,
     100.6067
   ],
+  "Tigre|ARG": [
+    -34.4251,
+    -58.5797
+  ],
   "Tilcara|ARG": [
     -23.5667,
     -65.3667
+  ],
+  "Tirana|": [
+    41.3281,
+    19.8184
   ],
   "Tofino|CAN": [
     49.1528,
@@ -522,6 +594,10 @@
   "Vernon|CAN": [
     50.267,
     -119.272
+  ],
+  "Vientiane|LAO": [
+    17.9641,
+    102.6134
   ],
   "Waterloo|CAN": [
     43.4667,
@@ -555,64 +631,8 @@
     62.4536,
     -114.37
   ],
-  "İzmir|TUR": [
+  "\u0130zmir|TUR": [
     38.4244,
     27.1322
-  ],
-  "Tigre|ARG": [
-    -34.4251,
-    -58.5797
-  ],
-  "Gia Viễn|VNM": [
-    20.3347,
-    105.8653
-  ],
-  "Nitmiluk National Park|AUS": [
-    -14.3167,
-    132.4167
-  ],
-  "Green Island|AUS": [
-    -16.76,
-    145.9733
-  ],
-  "Middle Point|AUS": [
-    -12.58,
-    131.3
-  ],
-  "Sotuta de Peón|MEX": [
-    20.6867,
-    -89.62
-  ],
-  "La Caldera|ARG": [
-    -24.6,
-    -65.3833
-  ],
-  "Corner Brook|CAN": [
-    48.95,
-    -57.95
-  ],
-  "Bushell Park|CAN": [
-    50.3333,
-    -105.55
-  ],
-  "Cavendish|CAN": [
-    46.4833,
-    -63.3833
-  ],
-  "Coombs|CAN": [
-    49.3,
-    -124.4
-  ],
-  "Pemberton|CAN": [
-    50.3167,
-    -122.8
-  ],
-  "Richmond|CAN": [
-    49.1667,
-    -123.1333
-  ],
-  "Oliver|CAN": [
-    49.1833,
-    -119.55
   ]
 }
