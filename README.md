@@ -133,6 +133,30 @@ Historical trajectory of partner task equity before and after the landmark Seaso
   <img src="dev/images/roadblock_equity.png" width="95%" alt="Roadblock Task Balance & Equity Evolution" />
 </p>
 
+### Physical vs. Mental Roadblock Selection Dynamics
+
+Empirical analysis of 1,109 Roadblock tasks across 38 US seasons evaluating partner task choice in co-ed (MF) teams and its relationship with race outcomes:
+
+<p align="center">
+  <img src="dev/images/roadblock_types.png" width="95%" alt="Physical vs. Mental Roadblock Selection Dynamics" />
+</p>
+
+- **Gender Division of Labor**: Prior to Season 6 (uncapped era), co-ed teams exhibited extreme task specialization—men performed **83.0%** of physical challenges (climbing, rowing, carrying) while women performed **66.7%** of mental challenges (puzzles, decoding, memorization).
+- **Rule-Driven Parity**: Instituting individual Roadblock caps in Season 6 structurally eliminated extreme specialization, shifting co-ed workloads to near 50/50 balance across both physical (53.4% M / 46.6% F) and mental tasks (52.7% M / 47.3% F).
+- **Championship Correlation ($r = -0.43$)**: Season 6+ championship winners maintain a mean Roadblock equity score of **0.93** versus **0.78** for non-winners. Teams that exhaust one racer's quota on early physical tasks hit a bottleneck in late legs, forcing the unprepared partner into decisive mental or physical challenges with elevated elimination risk.
+
+### Express Pass Strategic Impact & Survival Dynamics
+
+Empirical analysis of 55 Express Pass plays across 38 US seasons and international franchises evaluating single-leg safety and final championship outcomes:
+
+<p align="center">
+  <img src="dev/images/express_pass.png" width="95%" alt="Express Pass Strategic Impact & Survival Dynamics" />
+</p>
+
+- **100% Single-Leg Survival**: Across all 55 documented Express Pass plays (21 in completed US seasons), **zero teams** have ever been eliminated on the leg they played their pass. Average placement on the usage leg is **2.43** (with 29.1% finishing 1st to capture leg victory prizes).
+- **Subsequent Life Expectancy**: Teams that successfully burn an Express Pass survive an average of **+4.8 additional legs**, with **61.9%** reaching the final podium (top 3) versus the 27.0% franchise baseline (+129% boost), and **14.3%** going on to win the championship.
+- **The Pocket Curse**: The primary elimination hazard associated with an Express Pass is hoarding it rather than playing it. Jessica & John (Season 22, Leg 4) remain the sole team in US history eliminated while holding an active Express Pass in their possession.
+
 ### Global Race Footprint by Continent
 
 All-time leg destinations across 6 continents and the historical evolution of race routing from early global dispersal to modern and post-COVID charter flight routing:

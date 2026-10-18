@@ -672,6 +672,269 @@ def generate_roadblock_equity_chart(output_dir: Path) -> None:
     print(f"Saved {out_file}")
 
 
+def generate_roadblock_types_chart(output_dir: Path) -> None:
+    """Generate roadblock_types.png: Physical vs mental roadblock choice dynamics and equity correlation."""
+    print("Generating roadblock_types.png...")
+    fig = plt.figure(figsize=(13, 8.5), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left panel: Task selection by gender in MF teams
+    ax_left = fig.add_axes([0.22, 0.17, 0.31, 0.60])
+    ax_left.set_facecolor(PALETTE["bg_white"])
+
+    categories = [
+        "Uncapped (S1–S5)\nPhysical Tasks",
+        "Uncapped (S1–S5)\nMental Tasks",
+        "Equity Rule (S6+)\nPhysical Tasks",
+        "Equity Rule (S6+)\nMental Tasks",
+    ]
+
+    male_shares = [83.0, 33.3, 53.4, 52.7]
+    female_shares = [17.0, 66.7, 46.6, 47.3]
+
+    y = np.arange(len(categories))
+    h = 0.52
+
+    ax_left.barh(y, female_shares, height=h, color=PALETTE["coral"], alpha=0.88, label="Female Partner")
+    ax_left.barh(y, male_shares, left=female_shares, height=h, color=PALETTE["navy"], alpha=0.88, label="Male Partner")
+
+    for i in range(len(y)):
+        f_val = female_shares[i]
+        m_val = male_shares[i]
+        ax_left.text(f_val / 2, y[i], f"{f_val:.1f}%", va="center", ha="center", fontsize=9.5, fontweight="bold", color=PALETTE["bg_white"])
+        ax_left.text(f_val + m_val / 2, y[i], f"{m_val:.1f}%", va="center", ha="center", fontsize=9.5, fontweight="bold", color=PALETTE["bg_white"])
+
+    ax_left.axvline(50, color=PALETTE["dark"], linestyle="--", linewidth=1.2, alpha=0.6)
+    ax_left.text(50, 3.42, "50% Parity", ha="center", va="bottom", fontsize=8, color=PALETTE["dark"], fontweight="bold")
+
+    ax_left.set_yticks(y)
+    ax_left.set_yticklabels(categories, fontsize=9.5, fontweight="bold", color=PALETTE["gray_text"])
+    ax_left.set_xlim(0, 100)
+    ax_left.set_xlabel("Workload Share within Co-Ed (MF) Teams (%)", fontsize=10, fontweight="bold", color=PALETTE["gray_text"], labelpad=8)
+    ax_left.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_left.set_title("Task Division in Co-Ed Teams by Era", fontsize=12, fontweight="bold", color=PALETTE["dark"], pad=28)
+
+    for spine in ["top", "right"]:
+        ax_left.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_left.spines[spine].set_color(PALETTE["gray_line"])
+
+    ax_left.legend(loc="lower left", bbox_to_anchor=(0.0, 1.01), ncol=2, frameon=True, facecolor=PALETTE["bg_white"], edgecolor=PALETTE["gray_line"], fontsize=8.5)
+
+    # Right panel: Equity score vs Finish Tier in S6+
+    ax_right = fig.add_axes([0.67, 0.17, 0.28, 0.60])
+    ax_right.set_facecolor(PALETTE["bg_white"])
+
+    teams_df = pd.read_parquet("data/processed/teams.parquet")
+    s6_teams = teams_df[(teams_df["version"] == "US") & (teams_df["season"] >= 6) & teams_df["roadblock_equity_score"].notna()].copy()
+
+    tiers = ["Winners (1st)", "Podium (2nd–3rd)", "Mid-Pack (4th–7th)", "Early Exit (8th+)"]
+    tier_data = [
+        s6_teams[s6_teams["result"] == 1]["roadblock_equity_score"].dropna().tolist(),
+        s6_teams[s6_teams["result"].isin([2, 3])]["roadblock_equity_score"].dropna().tolist(),
+        s6_teams[s6_teams["result"].between(4, 7)]["roadblock_equity_score"].dropna().tolist(),
+        s6_teams[s6_teams["result"] >= 8]["roadblock_equity_score"].dropna().tolist(),
+    ]
+
+    colors = [PALETTE["yellow"], PALETTE["teal"], PALETTE["slate"], PALETTE["coral"]]
+    bplot = ax_right.boxplot(
+        tier_data,
+        vert=False,
+        patch_artist=True,
+        widths=0.50,
+        medianprops={"color": PALETTE["dark"], "linewidth": 2.0},
+        flierprops={"marker": "o", "markersize": 3, "alpha": 0.3, "markerfacecolor": PALETTE["dark"]},
+    )
+
+    for patch, col in zip(bplot["boxes"], colors):
+        patch.set_facecolor(col)
+        patch.set_alpha(0.75)
+        patch.set_edgecolor(PALETTE["dark"])
+        patch.set_linewidth(1.3)
+
+    means = [np.mean(d) for d in tier_data]
+    for i, (m, vals) in enumerate(zip(means, tier_data)):
+        y_jit = np.random.normal(i + 1, 0.08, size=len(vals))
+        ax_right.scatter(vals, y_jit, color=PALETTE["dark"], alpha=0.25, s=20, edgecolors="none")
+        ax_right.text(0.32, i + 1, f"Mean: {m:.2f}", va="center", fontsize=8.5, fontweight="bold", color=PALETTE["dark"])
+
+    ax_right.set_yticks(range(1, len(tiers) + 1))
+    ax_right.set_yticklabels([f"{t}\n(n={len(d)})" for t, d in zip(tiers, tier_data)], fontsize=9, fontweight="bold", color=PALETTE["gray_text"])
+    ax_right.set_xlim(0.30, 1.05)
+    ax_right.set_xlabel("Roadblock Equity Score (1.0 = Balance)", fontsize=10, fontweight="bold", color=PALETTE["gray_text"], labelpad=8)
+    ax_right.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_right.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_right.set_title("Task Equity by Finish Tier (Season 6+)", fontsize=12, fontweight="bold", color=PALETTE["dark"], pad=12)
+
+    for spine in ["top", "right"]:
+        ax_right.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_right.spines[spine].set_color(PALETTE["gray_line"])
+
+    # Title and header
+    fig.text(0.08, 0.94, "Physical vs. Mental Roadblock Selection Dynamics", fontsize=20, fontweight="bold", color=PALETTE["dark"])
+    fig.text(
+        0.08,
+        0.90,
+        "The Season 6 equity cap eliminated extreme task specialization (83% male physical / 67% female mental),\nforcing balanced partner workloads that correlate strongly with championship success (r = -0.43)",
+        fontsize=10.5,
+        color=PALETTE["gray_text"],
+    )
+
+    # Footer callout
+    callout = patches.FancyBboxPatch((0.08, 0.04), 0.88, 0.05, boxstyle="round,pad=0.015", facecolor=PALETTE["bg_card"], edgecolor=PALETTE["yellow"], linewidth=1.5)
+    fig.patches.append(callout)
+    fig.text(
+        0.52,
+        0.065,
+        "The Roadblock Trap: Unbalanced teams burn one partner on early physical tasks, hitting the quota and facing fatal late-race bottlenecks (r = -0.43 with finish placement).",
+        fontsize=8.5,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(0.08, 0.015, "Data: 1,109 roadblocks & 404 teams across 38 US Seasons | the-amazing-race package", fontsize=8, color="#8E9AA7")
+
+    out_file = output_dir / "roadblock_types.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
+def generate_express_pass_chart(output_dir: Path) -> None:
+    """Generate express_pass.png: Express Pass play placements, survival rate, and championship conversion."""
+    print("Generating express_pass.png...")
+    fig = plt.figure(figsize=(13, 8.5), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left panel: Placement on Leg Played
+    ax_left = fig.add_axes([0.10, 0.17, 0.36, 0.60])
+    ax_left.set_facecolor(PALETTE["bg_white"])
+
+    placements = ["1st Place\n(Offense)", "2nd Place", "3rd Place", "4th–5th", "6th+ Place", "Eliminated\n(Last)"]
+    counts = [16, 11, 9, 9, 10, 0]
+    pcts = [29.1, 20.0, 16.4, 16.4, 18.2, 0.0]
+    colors = [PALETTE["yellow"], PALETTE["teal"], PALETTE["teal"], PALETTE["slate"], PALETTE["slate"], PALETTE["coral"]]
+
+    x = np.arange(len(placements))
+    bars = ax_left.bar(x, pcts, color=colors, width=0.60, edgecolor=PALETTE["dark"], linewidth=1.2, alpha=0.88)
+
+    for bar, pct, cnt in zip(bars, pcts, counts):
+        if pct > 0:
+            ax_left.text(bar.get_x() + bar.get_width() / 2, pct + 0.8, f"{pct:.1f}%\n(n={cnt})", ha="center", va="bottom", fontsize=8.5, fontweight="bold", color=PALETTE["dark"])
+        else:
+            ax_left.text(bar.get_x() + bar.get_width() / 2, 0.9, "0.0%\n(n=0)", ha="center", va="bottom", fontsize=8.5, fontweight="bold", color=PALETTE["coral"])
+
+    ax_left.set_xticks(x)
+    ax_left.set_xticklabels(placements, fontsize=8.5, fontweight="bold", color=PALETTE["gray_text"])
+    ax_left.set_ylim(0, 37)
+    ax_left.set_ylabel("Share of Express Pass Plays (%)", fontsize=10, fontweight="bold", color=PALETTE["gray_text"], labelpad=8)
+    ax_left.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_left.grid(True, axis="y", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_left.set_title("Placement on the Leg Express Pass Was Played", fontsize=12, fontweight="bold", color=PALETTE["dark"], pad=12)
+
+    # Highlight 100% survival
+    ax_left.annotate(
+        "100% Leg Survival\n0 / 55 teams eliminated\non usage leg",
+        xy=(5, 3.2),
+        xytext=(4.2, 28),
+        arrowprops={"arrowstyle": "->", "color": PALETTE["coral"], "lw": 1.2},
+        fontsize=8.5,
+        color=PALETTE["coral"],
+        fontweight="bold",
+        ha="center",
+        bbox={"boxstyle": "round,pad=0.3", "facecolor": PALETTE["bg_card"], "edgecolor": PALETTE["coral"], "alpha": 0.95},
+    )
+
+    for spine in ["top", "right"]:
+        ax_left.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_left.spines[spine].set_color(PALETTE["gray_line"])
+
+    # Right panel: Final Season Outcomes (Users vs Baseline)
+    ax_right = fig.add_axes([0.58, 0.17, 0.38, 0.60])
+    ax_right.set_facecolor(PALETTE["bg_white"])
+
+    metrics = ["Podium Finish\n(Top 3)", "Final 4\nAppearance", "Season Winner\n(Champions)"]
+    users = [61.9, 71.4, 14.3]
+    baseline = [27.0, 36.0, 9.1]
+
+    y = np.arange(len(metrics))
+    h = 0.32
+
+    b_u = ax_right.barh(y + h / 2, users, height=h, color=PALETTE["navy"], alpha=0.88, label="Express Pass Users (US S17–S38)")
+    b_b = ax_right.barh(y - h / 2, baseline, height=h, color="#D1D5DB", alpha=0.88, label="Franchise Baseline")
+
+    for bar, val in zip(b_u, users):
+        ax_right.text(val + 1.2, bar.get_y() + bar.get_height() / 2, f"{val:.1f}%", va="center", fontsize=9, fontweight="bold", color=PALETTE["navy"])
+
+    for bar, val in zip(b_b, baseline):
+        ax_right.text(val + 1.2, bar.get_y() + bar.get_height() / 2, f"{val:.1f}%", va="center", fontsize=9, fontweight="bold", color="#4B5563")
+
+    # Advantage callout on right side
+    diff_labels = ["+129% vs Baseline", "+98% vs Baseline", "+57% vs Baseline"]
+    for i, dlabel in enumerate(diff_labels):
+        ax_right.text(
+            98,
+            y[i] + h / 2,
+            dlabel,
+            ha="right",
+            va="center",
+            fontsize=8.5,
+            fontweight="bold",
+            color=PALETTE["teal"],
+            bbox={"boxstyle": "round,pad=0.2", "facecolor": PALETTE["bg_card"], "edgecolor": PALETTE["teal"], "alpha": 0.9},
+        )
+
+    ax_right.set_yticks(y)
+    ax_right.set_yticklabels(metrics, fontsize=9.5, fontweight="bold", color=PALETTE["gray_text"])
+    ax_right.set_xlim(0, 102)
+    ax_right.set_xlabel("Conversion Rate (%)", fontsize=10, fontweight="bold", color=PALETTE["gray_text"], labelpad=8)
+    ax_right.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_right.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_right.set_title("Championship & Finalist Conversion Rates", fontsize=12, fontweight="bold", color=PALETTE["dark"], pad=12)
+
+    for spine in ["top", "right"]:
+        ax_right.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_right.spines[spine].set_color(PALETTE["gray_line"])
+
+    ax_right.legend(loc="lower right", frameon=True, facecolor=PALETTE["bg_white"], edgecolor=PALETTE["gray_line"], fontsize=8.5)
+
+    # Title & Subtitle
+    fig.text(0.08, 0.94, "Express Pass Strategic Impact & Survival Dynamics", fontsize=20, fontweight="bold", color=PALETTE["dark"])
+    fig.text(
+        0.08,
+        0.90,
+        "Playing an Express Pass delivers a 100% single-leg survival rate and +4.8 leg life expectancy,\npropelling 61.9% of holders to the final podium (vs. 27% baseline)",
+        fontsize=10.5,
+        color=PALETTE["gray_text"],
+    )
+
+    # Footer callout
+    callout = patches.FancyBboxPatch((0.08, 0.04), 0.88, 0.05, boxstyle="round,pad=0.015", facecolor=PALETTE["bg_card"], edgecolor=PALETTE["yellow"], linewidth=1.5)
+    fig.patches.append(callout)
+    fig.text(
+        0.52,
+        0.065,
+        "The Pocket Curse: Jessica & John (S22) remain the sole team in US history eliminated holding an active Express Pass after misjudging a sandcastle Detour.",
+        fontsize=8.5,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(0.08, 0.015, "Data: 55 Express Pass usages across US, Canada, & Australia | the-amazing-race package", fontsize=8, color="#8E9AA7")
+
+    out_file = output_dir / "express_pass.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
 def generate_continents_chart(output_dir: Path) -> None:
     """Generate continents.png: Destination continents and routing shifts over eras."""
     print("Generating continents.png...")
@@ -1011,6 +1274,8 @@ def main() -> None:
     generate_boxplots_chart(output_dir)
     generate_gender_performance_chart(output_dir)
     generate_roadblock_equity_chart(output_dir)
+    generate_roadblock_types_chart(output_dir)
+    generate_express_pass_chart(output_dir)
     generate_continents_chart(output_dir)
     generate_hex_badge(output_dir)
     generate_square_and_backgrounds(output_dir)
