@@ -157,6 +157,20 @@ Empirical analysis of 55 Express Pass plays across 38 US seasons and internation
 - **Subsequent Life Expectancy**: Teams that successfully burn an Express Pass survive an average of **+4.8 additional legs**, with **61.9%** reaching the final podium (top 3) versus the 27.0% franchise baseline (+129% boost), and **14.3%** going on to win the championship.
 - **The Pocket Curse**: The primary elimination hazard associated with an Express Pass is hoarding it rather than playing it. Jessica & John (Season 22, Leg 4) remain the sole team in US history eliminated while holding an active Express Pass in their possession.
 
+### Speed Bump Penalty Efficacy & Post-NEL Survival Lag
+
+Empirical hazard and survival analysis of 44 Speed Bump penalty instances across US Seasons 12–32 evaluating single-leg safety, post-NEL life expectancy, and championship conversion:
+
+<p align="center">
+  <img src="dev/images/speedbump_survival.png" width="95%" alt="Speed Bump Penalty Efficacy & Post-NEL Survival Lag" />
+</p>
+
+- **40.9% Direct Elimination Rate**: Unlike the Express Pass (which guarantees 100% leg survival), the Speed Bump imposes a substantial single-leg hazard: **18 of 44 teams (40.9%)** were eliminated on the exact leg they performed their penalty. Average placement on the penalty leg drops to **4.95** (median: 5.0), with 68.2% of teams finishing 5th or worse.
+- **Survivors' Extended Runway (+3.35 Legs)**: For the 26 teams (59.1%) that clear the Speed Bump leg, the penalty does not mean immediate departure. Surviving teams endure an average of **+3.35 subsequent legs** (overall cohort mean: 1.98 legs), with 10 teams surviving 5 or more additional legs into the penultimate and finale legs.
+- **Podium & Championship Conversion**:
+  - **Final Podium (Top 3)**: **15 of 44 teams (34.1%)** successfully reached the final podium despite incurring an earlier Speed Bump penalty.
+  - **Championship Winners (4.5%)**: Exactly two teams in 38 seasons overcame a Speed Bump to win the $1,000,000 championship: **TK & Rachel** (Season 12, Leg 10 Speed Bump) and **Josh & Brent** (Season 21, Leg 6 Speed Bump).
+
 ### Global Race Footprint by Continent
 
 All-time leg destinations across 6 continents and the historical evolution of race routing from early global dispersal to modern and post-COVID charter flight routing:

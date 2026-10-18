@@ -6,6 +6,9 @@ Mirrors the structure and aesthetic of doehm/alone/dev/images:
 - boxplots.png: Racer age distributions across finish placement tiers
 - gender_performance.png: Team gender dynamics (racing averages, podium rates, win shares)
 - roadblock_equity.png: Roadblock equity score evolution and gender workload parity
+- roadblock_types.png: Performance correlations with physical vs mental roadblocks
+- express_pass.png: Express Pass play placements, survival rate, and championship conversion
+- speedbump_survival.png: Speed Bump penalty efficacy and post-NEL survival trajectory
 - continents.png: Continental leg destinations and historical era routing shifts
 - theamazingrace hex.png: R package hexagonal sticker badge (3600x3600 RGBA)
 - bg.png, bg white.png: Dark and light square social cards
@@ -935,6 +938,264 @@ def generate_express_pass_chart(output_dir: Path) -> None:
     print(f"Saved {out_file}")
 
 
+def generate_speedbump_chart(output_dir: Path) -> None:
+    """Generate speedbump_survival.png: Speed Bump penalty efficacy and post-NEL survival trajectory."""
+    print("Generating speedbump_survival.png...")
+    fig = plt.figure(figsize=(13, 8.5), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left panel: Placement on the Speed Bump Leg
+    ax_left = fig.add_axes([0.10, 0.17, 0.36, 0.60])
+    ax_left.set_facecolor(PALETTE["bg_white"])
+
+    placements = ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "9th"]
+    counts = [3, 3, 3, 9, 7, 10, 6, 3]
+    total_n = sum(counts)
+    pcts = [c / total_n * 100 for c in counts]
+    colors = [
+        PALETTE["teal"],
+        PALETTE["teal"],
+        PALETTE["teal"],
+        PALETTE["slate"],
+        PALETTE["slate"],
+        PALETTE["coral"],
+        PALETTE["coral"],
+        PALETTE["coral"],
+    ]
+
+    x = np.arange(len(placements))
+    bars = ax_left.bar(
+        x,
+        pcts,
+        color=colors,
+        width=0.62,
+        edgecolor=PALETTE["dark"],
+        linewidth=1.2,
+        alpha=0.88,
+    )
+
+    for bar, pct, cnt in zip(bars, pcts, counts):
+        ax_left.text(
+            bar.get_x() + bar.get_width() / 2,
+            pct + 0.7,
+            f"{pct:.1f}%\n(n={cnt})",
+            ha="center",
+            va="bottom",
+            fontsize=8.5,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+
+    ax_left.set_xticks(x)
+    ax_left.set_xticklabels(
+        placements, fontsize=9.5, fontweight="bold", color=PALETTE["gray_text"]
+    )
+    ax_left.set_ylim(0, 32)
+    ax_left.set_ylabel(
+        "Share of Speed Bump Legs (%)",
+        fontsize=10,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+        labelpad=8,
+    )
+    ax_left.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_left.grid(True, axis="y", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_left.set_title(
+        "Placement on Penalty Leg (US Seasons 12–32)",
+        fontsize=12,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=12,
+    )
+
+    # Annotation for 40.9% direct elimination
+    ax_left.annotate(
+        "40.9% Direct Elimination Rate\n18 of 44 teams eliminated\non their Speed Bump leg",
+        xy=(5.0, 16.0),
+        xytext=(4.2, 25.5),
+        arrowprops={"arrowstyle": "->", "color": PALETTE["coral"], "lw": 1.3},
+        fontsize=8.5,
+        color=PALETTE["coral"],
+        fontweight="bold",
+        ha="center",
+        bbox={
+            "boxstyle": "round,pad=0.3",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["coral"],
+            "alpha": 0.95,
+        },
+    )
+
+    # Annotation for Top 3 leg finish
+    ax_left.annotate(
+        "20.5% Podium on Leg\n9 teams cleared penalty\ninto top 3 finish",
+        xy=(1.0, 7.5),
+        xytext=(1.2, 17.5),
+        arrowprops={"arrowstyle": "->", "color": PALETTE["teal"], "lw": 1.3},
+        fontsize=8.5,
+        color=PALETTE["teal"],
+        fontweight="bold",
+        ha="center",
+        bbox={
+            "boxstyle": "round,pad=0.3",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["teal"],
+            "alpha": 0.95,
+        },
+    )
+
+    for spine in ["top", "right"]:
+        ax_left.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_left.spines[spine].set_color(PALETTE["gray_line"])
+
+    # Right panel: Post-Penalty Survival Lag & Final Conversion
+    ax_right = fig.add_axes([0.58, 0.17, 0.38, 0.60])
+    ax_right.set_facecolor(PALETTE["bg_white"])
+
+    categories = [
+        "Eliminated on Leg\n(+0 legs)",
+        "Short Survival\n(+1–2 legs)",
+        "Deep Run\n(+3–4 legs)",
+        "Finale Contenders\n(+5+ legs)",
+    ]
+    lag_counts = [18, 11, 5, 10]
+    lag_pcts = [c / total_n * 100 for c in lag_counts]
+    lag_colors = [
+        PALETTE["coral"],
+        PALETTE["slate"],
+        PALETTE["slate"],
+        PALETTE["teal"],
+    ]
+
+    y = np.arange(len(categories))
+    bars_r = ax_right.barh(
+        y,
+        lag_pcts,
+        height=0.55,
+        color=lag_colors,
+        edgecolor=PALETTE["dark"],
+        linewidth=1.2,
+        alpha=0.88,
+    )
+
+    for bar, pct, cnt in zip(bars_r, lag_pcts, lag_counts):
+        ax_right.text(
+            pct + 1.2,
+            bar.get_y() + bar.get_height() / 2,
+            f"{pct:.1f}% ({cnt} teams)",
+            va="center",
+            fontsize=9,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+
+    ax_right.set_yticks(y)
+    ax_right.set_yticklabels(
+        categories, fontsize=9.5, fontweight="bold", color=PALETTE["gray_text"]
+    )
+    ax_right.set_xlim(0, 55)
+    ax_right.set_xlabel(
+        "Share of Teams (%)",
+        fontsize=10,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+        labelpad=8,
+    )
+    ax_right.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_right.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_right.set_title(
+        "Post-NEL Survival Duration (Hazard Distribution)",
+        fontsize=12,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=12,
+    )
+    ax_right.invert_yaxis()
+
+    # Inset box for Championship & Podium Conversion
+    inset_text = (
+        "Championship Conversion:\n"
+        "• 34.1% reached Final Podium (15 / 44 teams)\n"
+        "• 36.4% reached Finale Leg (16 / 44 teams)\n"
+        "• 4.5% Won Race (TK & Rachel S12, Josh & Brent S21)\n"
+        "• Survivors average +3.35 subsequent legs"
+    )
+    ax_right.text(
+        0.96,
+        0.05,
+        inset_text,
+        transform=ax_right.transAxes,
+        fontsize=8.5,
+        ha="right",
+        va="bottom",
+        color=PALETTE["dark"],
+        bbox={
+            "boxstyle": "round,pad=0.5",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["yellow"],
+            "linewidth": 1.4,
+        },
+    )
+
+    for spine in ["top", "right"]:
+        ax_right.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_right.spines[spine].set_color(PALETTE["gray_line"])
+
+    # Title & Subtitle
+    fig.text(
+        0.08,
+        0.94,
+        "Speed Bump Penalty Efficacy & Post-NEL Survival Lag",
+        fontsize=20,
+        fontweight="bold",
+        color=PALETTE["dark"],
+    )
+    fig.text(
+        0.08,
+        0.90,
+        "Empirical hazard analysis of 44 US Speed Bump penalties (S12–S32): 40.9% direct elimination rate,\nwith surviving teams averaging +3.35 subsequent legs and a 34.1% final podium conversion rate",
+        fontsize=10.5,
+        color=PALETTE["gray_text"],
+    )
+
+    # Callout banner at bottom
+    callout = patches.FancyBboxPatch(
+        (0.08, 0.04),
+        0.88,
+        0.05,
+        boxstyle="round,pad=0.015",
+        facecolor=PALETTE["bg_card"],
+        edgecolor=PALETTE["yellow"],
+        linewidth=1.5,
+    )
+    fig.patches.append(callout)
+    fig.text(
+        0.52,
+        0.065,
+        "Championship Precedent: Only two teams in 38 seasons ever conquered a Speed Bump to win the $1,000,000: TK & Rachel (S12) and Josh & Brent (S21).",
+        fontsize=8.5,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(
+        0.08,
+        0.015,
+        "Data: 44 US Speed Bump instances across S12–S32 | the-amazing-race package",
+        fontsize=8,
+        color="#8E9AA7",
+    )
+
+    out_file = output_dir / "speedbump_survival.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
 def generate_continents_chart(output_dir: Path) -> None:
     """Generate continents.png: Destination continents and routing shifts over eras."""
     print("Generating continents.png...")
@@ -1276,6 +1537,7 @@ def main() -> None:
     generate_roadblock_equity_chart(output_dir)
     generate_roadblock_types_chart(output_dir)
     generate_express_pass_chart(output_dir)
+    generate_speedbump_chart(output_dir)
     generate_continents_chart(output_dir)
     generate_hex_badge(output_dir)
     generate_square_and_backgrounds(output_dir)

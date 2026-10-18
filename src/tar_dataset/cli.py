@@ -23,6 +23,7 @@ from tar_dataset.importers.sheets import SheetsImporter
 from tar_dataset.processors.builder import DatasetBuilder
 from tar_dataset.processors.gap_auditor import DatasetGapAuditor
 from tar_dataset.processors.predictor import SeasonPredictor
+from tar_dataset.processors.speedbump_analysis import SpeedBumpAnalyzer
 from tar_dataset.processors.validator import DatasetValidator
 from tar_dataset.scrapers.fandom import FandomScraper
 from tar_dataset.scrapers.reddit import RedditScraper
@@ -1323,6 +1324,89 @@ def dashboard(
         subprocess.run(cmd, check=True)
     except KeyboardInterrupt:
         console.print("\n[yellow]Dashboard stopped.[/yellow]")
+
+
+@app.command("speedbump")
+def speedbump_cmd(
+    version: str = typer.Option(
+        "US", "--version", "-v", help="Franchise version (US, CAN, AUS, or ALL)"
+    ),
+    instances: bool = typer.Option(
+        False,
+        "--instances",
+        "-i",
+        help="Display full table of all Speed Bump instances",
+    ),
+) -> None:
+    """Analyze Speed Bump penalty efficacy and post-NEL survival trajectory."""
+    analyzer = SpeedBumpAnalyzer()
+    metrics = analyzer.analyze(version=version)
+
+    if metrics.total_instances == 0:
+        console.print(
+            f"[yellow]No Speed Bump instances found for version '{version}'.[/yellow]"
+        )
+        return
+
+    summary_text = (
+        f"[bold cyan]Franchise Version:[/bold cyan] {version}\n"
+        f"[bold]Total Recorded Speed Bumps:[/bold] {metrics.total_instances}\n"
+        f"[bold red]Eliminated on Penalty Leg:[/bold red] {metrics.eliminated_on_leg_count} "
+        f"({metrics.eliminated_on_leg_rate:.1%})\n"
+        f"[bold green]Survived Penalty Leg:[/bold green] {metrics.survived_leg_count} "
+        f"({metrics.survived_leg_rate:.1%})\n\n"
+        f"[bold]Mean Placement on Leg:[/bold] {metrics.mean_placement:.2f} (Median: {metrics.median_placement:.0f})\n"
+        f"[bold]Post-Penalty Survival Lag:[/bold] Mean {metrics.mean_survival_lag:.2f} legs (Median: {metrics.median_survival_lag:.0f})\n"
+        f"[bold yellow]Podium Finishes (Top 3):[/bold yellow] {metrics.podium_count} ({metrics.podium_rate:.1%})\n"
+        f"[bold green]Championship Winners:[/bold green] {metrics.winner_count} ({metrics.winner_rate:.1%})\n"
+        f"[bold cyan]Finale Appearances:[/bold cyan] {metrics.finale_count} ({metrics.finale_rate:.1%})"
+    )
+
+    console.print(
+        Panel(
+            summary_text,
+            title=f"Speed Bump Penalty Efficacy & Post-NEL Survival ({version})",
+            expand=False,
+        )
+    )
+
+    # Show placement distribution
+    p_table = Table(title="Placement Distribution on Penalty Leg")
+    p_table.add_column("Placement", style="bold yellow", justify="right")
+    p_table.add_column("Instances", justify="right")
+    p_table.add_column("Share (%)", justify="right")
+    for pl, cnt in metrics.placement_counts.items():
+        pct = (cnt / metrics.total_instances) * 100
+        p_table.add_row(
+            f"{pl}th" if pl not in (1, 2, 3) else {1: "1st", 2: "2nd", 3: "3rd"}[pl],
+            str(cnt),
+            f"{pct:.1f}%",
+        )
+    console.print(p_table)
+
+    if instances and metrics.instances:
+        inst_table = Table(title=f"All Speed Bump Instances ({version})")
+        inst_table.add_column("Season", justify="right")
+        inst_table.add_column("Leg", justify="right")
+        inst_table.add_column("Team Name", style="bold white")
+        inst_table.add_column("Place", justify="right")
+        inst_table.add_column("Eliminated?", justify="center")
+        inst_table.add_column("Surv Lag", justify="right")
+        inst_table.add_column("Final Res", justify="right")
+        for inst in metrics.instances:
+            elim_str = (
+                "[red]Yes[/red]" if inst.eliminated_on_leg else "[green]No[/green]"
+            )
+            inst_table.add_row(
+                str(inst.season),
+                str(inst.leg_number),
+                inst.team_name,
+                str(inst.placement),
+                elim_str,
+                f"+{inst.legs_survived_after} legs",
+                str(inst.final_result) if inst.final_result is not None else "N/A",
+            )
+        console.print(inst_table)
 
 
 if __name__ == "__main__":
