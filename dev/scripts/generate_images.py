@@ -1463,6 +1463,285 @@ def generate_uturn_chart(output_dir: Path) -> None:
     print(f"Saved {out_file}")
 
 
+def generate_fastforward_chart(output_dir: Path) -> None:
+    """Generate fast_forward_timing.png: Fast Forward timing optimization, prize capture, and championship conversion."""
+    print("Generating fast_forward_timing.png...")
+    fig = plt.figure(figsize=(13, 8.5), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left panel: Grouped bar chart of Conversion by Race Timing Tier (US n=54)
+    ax_left = fig.add_axes([0.07, 0.17, 0.38, 0.58])
+    ax_left.set_facecolor(PALETTE["bg_white"])
+
+    tiers = [
+        "Early Race\n(Legs 1–4, n=16)",
+        "Mid Race\n(Legs 5–6, n=13)",
+        "Late Race\n(Legs 7+, n=25)",
+    ]
+    leg_win = [87.5, 92.3, 84.0]
+    podium = [25.0, 53.8, 72.0]
+    winner = [6.2, 30.8, 36.0]
+
+    x = np.arange(len(tiers))
+    w = 0.25
+
+    b1 = ax_left.bar(
+        x - w,
+        leg_win,
+        width=w,
+        color=PALETTE["teal"],
+        edgecolor=PALETTE["dark"],
+        linewidth=1.1,
+        alpha=0.88,
+        label="1st Place on Leg (Prize)",
+    )
+    b2 = ax_left.bar(
+        x,
+        podium,
+        width=w,
+        color=PALETTE["navy"],
+        edgecolor=PALETTE["dark"],
+        linewidth=1.1,
+        alpha=0.88,
+        label="Final Podium (Top 3)",
+    )
+    b3 = ax_left.bar(
+        x + w,
+        winner,
+        width=w,
+        color=PALETTE["yellow"],
+        edgecolor=PALETTE["dark"],
+        linewidth=1.1,
+        alpha=0.92,
+        label="Championship Winner",
+    )
+
+    for bars in (b1, b2, b3):
+        for bar in bars:
+            val = bar.get_height()
+            ax_left.text(
+                bar.get_x() + bar.get_width() / 2,
+                val + 1.2,
+                f"{val:.1f}%",
+                ha="center",
+                va="bottom",
+                fontsize=7.8,
+                fontweight="bold",
+                color=PALETTE["dark"],
+            )
+
+    ax_left.set_xticks(x)
+    ax_left.set_xticklabels(
+        tiers, fontsize=9, fontweight="bold", color=PALETTE["gray_text"]
+    )
+    ax_left.set_ylim(0, 118)
+    ax_left.set_ylabel(
+        "Conversion Rate (%)",
+        fontsize=10,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+        labelpad=8,
+    )
+    ax_left.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_left.grid(True, axis="y", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_left.set_title(
+        "Conversion Rates by Race Timing Tier (US, n=54)",
+        fontsize=11.5,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=26,
+    )
+    ax_left.legend(
+        loc="lower left",
+        bbox_to_anchor=(0.0, 1.01),
+        ncol=3,
+        frameon=True,
+        facecolor=PALETTE["bg_white"],
+        edgecolor=PALETTE["gray_line"],
+        fontsize=7.8,
+    )
+
+    ax_left.annotate(
+        "5.8x Title Multiplier\n36.0% Late-Race win rate\nvs. 6.2% in Legs 1–4",
+        xy=(2 + w, 40.5),
+        xytext=(1.95, 98.0),
+        arrowprops={"arrowstyle": "->", "color": PALETTE["red"], "lw": 1.3},
+        fontsize=8.2,
+        color=PALETTE["red"],
+        fontweight="bold",
+        ha="center",
+        bbox={
+            "boxstyle": "round,pad=0.3",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["red"],
+            "alpha": 0.95,
+        },
+    )
+
+    for spine in ["top", "right"]:
+        ax_left.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_left.spines[spine].set_color(PALETTE["gray_line"])
+
+    # Right panel: Prize Capture & Classic (S1-S4) vs Modern Scarce (S5+) Era Outcomes
+    ax_right = fig.add_axes([0.60, 0.17, 0.36, 0.58])
+    ax_right.set_facecolor(PALETTE["bg_white"])
+
+    categories = [
+        "Leg Podium (Top 3 Finish)\n(All US Plays, n=54)",
+        "1st Place Prize Capture\n(All US Plays, n=54)",
+        "Final Podium: Modern Era\n(Scarce S5+, n=30)",
+        "Final Podium: Classic Era\n(Every-Leg S1–S4, n=24)",
+        "Season Winner: Modern Era\n(Scarce S5+, n=30)",
+        "Season Winner: Classic Era\n(Every-Leg S1–S4, n=24)",
+        "Eliminated on FF Leg\n(S3L3 & S20L10, n=54)",
+    ]
+    rates = [92.6, 87.0, 60.0, 45.8, 33.3, 16.7, 3.7]
+    counts_lbl = [
+        "50 / 54",
+        "47 / 54",
+        "18 / 30",
+        "11 / 24",
+        "10 / 30",
+        "4 / 24",
+        "2 / 54",
+    ]
+    bar_colors = [
+        PALETTE["teal"],
+        PALETTE["teal"],
+        PALETTE["navy"],
+        PALETTE["slate"],
+        PALETTE["yellow"],
+        PALETTE["slate"],
+        PALETTE["red"],
+    ]
+
+    y = np.arange(len(categories))
+    bars_r = ax_right.barh(
+        y,
+        rates,
+        height=0.56,
+        color=bar_colors,
+        edgecolor=PALETTE["dark"],
+        linewidth=1.2,
+        alpha=0.88,
+    )
+
+    for bar, pct, lbl in zip(bars_r, rates, counts_lbl):
+        ax_right.text(
+            pct + 1.5,
+            bar.get_y() + bar.get_height() / 2,
+            f"{pct:.1f}% ({lbl})",
+            va="center",
+            fontsize=8.2,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+
+    ax_right.set_yticks(y)
+    ax_right.set_yticklabels(
+        categories, fontsize=8.8, fontweight="bold", color=PALETTE["gray_text"]
+    )
+    ax_right.set_xlim(0, 138)
+    ax_right.set_xlabel(
+        "Outcome Rate (%)",
+        fontsize=10,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+        labelpad=8,
+    )
+    ax_right.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_right.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_right.set_title(
+        "Prize Capture & Era Scarcity Shift (S1–S4 vs. S5+)",
+        fontsize=11.5,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=12,
+    )
+    ax_right.invert_yaxis()
+
+    inset_text = (
+        "Historical Benchmarks (US, n=54):\n"
+        "• Mean Leg Placement: 1.44 (Median: 1st)\n"
+        "• Post-FF Survival: +4.30 legs (Median: +4.0)\n"
+        "• 25.9% Overall Champions (14 / 54 plays)\n"
+        "• Only 2 teams eliminated on FF leg:\n"
+        "  Dennis & Andrew (S3) & Bopper & Mark (S20)"
+    )
+    ax_right.text(
+        0.98,
+        0.02,
+        inset_text,
+        transform=ax_right.transAxes,
+        fontsize=7.5,
+        ha="right",
+        va="bottom",
+        color=PALETTE["dark"],
+        bbox={
+            "boxstyle": "round,pad=0.45",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["yellow"],
+            "linewidth": 1.4,
+        },
+    )
+
+    for spine in ["top", "right"]:
+        ax_right.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_right.spines[spine].set_color(PALETTE["gray_line"])
+
+    fig.text(
+        0.08,
+        0.94,
+        "Fast Forward Timing Optimization, Prize Capture & Title Conversion",
+        fontsize=20,
+        fontweight="bold",
+        color=PALETTE["dark"],
+    )
+    fig.text(
+        0.08,
+        0.90,
+        "Empirical analysis of 54 US Fast Forward plays (64 franchise-wide): 87.0% 1st-place prize capture, 53.7% final podium conversion,\nand a 5.8x championship multiplier when saving the Fast Forward for Late Race (Legs 7+: 36.0% vs. Early Legs 1–4: 6.2%)",
+        fontsize=10.2,
+        color=PALETTE["gray_text"],
+    )
+
+    callout = patches.FancyBboxPatch(
+        (0.08, 0.04),
+        0.88,
+        0.05,
+        boxstyle="round,pad=0.015",
+        facecolor=PALETTE["bg_card"],
+        edgecolor=PALETTE["yellow"],
+        linewidth=1.5,
+    )
+    fig.patches.append(callout)
+    fig.text(
+        0.52,
+        0.065,
+        "The Scarcity Shift: After Season 5 cut Fast Forwards from every leg to 1–2 per season, Fast Forward winners doubled their championship conversion rate from 16.7% (S1–S4) to 33.3% (S5+).",
+        fontsize=8.3,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(
+        0.08,
+        0.015,
+        "Data: 54 US Fast Forward plays (64 across US, CAN, & AUS) | the-amazing-race package",
+        fontsize=8,
+        color="#8E9AA7",
+    )
+
+    out_file = output_dir / "fast_forward_timing.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
 def generate_continents_chart(output_dir: Path) -> None:
     """Generate continents.png: Destination continents and routing shifts over eras."""
     print("Generating continents.png...")
@@ -1806,6 +2085,7 @@ def main() -> None:
     generate_express_pass_chart(output_dir)
     generate_speedbump_chart(output_dir)
     generate_uturn_chart(output_dir)
+    generate_fastforward_chart(output_dir)
     generate_continents_chart(output_dir)
     generate_hex_badge(output_dir)
     generate_square_and_backgrounds(output_dir)
@@ -1814,3 +2094,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

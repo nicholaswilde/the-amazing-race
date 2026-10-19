@@ -21,6 +21,7 @@ from tar_dataset.exports.r_export import export_to_r
 from tar_dataset.exports.sqlite_export import export_to_sqlite
 from tar_dataset.importers.sheets import SheetsImporter
 from tar_dataset.processors.builder import DatasetBuilder
+from tar_dataset.processors.fastforward_analysis import FastForwardAnalyzer
 from tar_dataset.processors.gap_auditor import DatasetGapAuditor
 from tar_dataset.processors.predictor import SeasonPredictor
 from tar_dataset.processors.speedbump_analysis import SpeedBumpAnalyzer
@@ -1532,6 +1533,120 @@ def uturn_cmd(
                 mode_str,
                 str(inst.placement),
                 elim_str,
+                f"+{inst.legs_survived_after} legs",
+                str(inst.final_result) if inst.final_result is not None else "N/A",
+            )
+        console.print(inst_table)
+
+
+@app.command("fastforward")
+def fastforward_cmd(
+    version: str = typer.Option(
+        "US", "--version", "-v", help="Franchise version (US, CAN, AUS, or ALL)"
+    ),
+    instances: bool = typer.Option(
+        False,
+        "--instances",
+        "-i",
+        help="Display full table of all Fast Forward instances",
+    ),
+) -> None:
+    """Analyze Fast Forward timing, prize capture, and championship conversion."""
+    analyzer = FastForwardAnalyzer()
+    metrics = analyzer.analyze(version=version)
+
+    if metrics.total_instances == 0:
+        console.print(
+            f"[yellow]No Fast Forward instances found for version '{version}'.[/yellow]"
+        )
+        return
+
+    summary_text = (
+        f"[bold cyan]Franchise Version:[/bold cyan] {version}\n"
+        f"[bold]Total Fast Forward Plays:[/bold] {metrics.total_instances}\n"
+        f"[bold green]Leg Win Rate (1st Place):[/bold green] {metrics.leg_win_count} "
+        f"({metrics.leg_win_rate:.1%})\n"
+        f"[bold yellow]Leg Podium Rate (Top 3):[/bold yellow] {metrics.leg_podium_count} "
+        f"({metrics.leg_podium_rate:.1%})\n"
+        f"[bold red]Eliminated on FF Leg:[/bold red] {metrics.eliminated_on_leg_count} "
+        f"({metrics.eliminated_on_leg_rate:.1%})\n\n"
+        f"[bold]Mean Placement on Leg:[/bold] {metrics.mean_placement:.2f} (Median: {metrics.median_placement:.0f})\n"
+        f"[bold]Post-FF Survival Lag:[/bold] Mean +{metrics.mean_survival_lag:.2f} legs "
+        f"(Median: +{metrics.median_survival_lag:.1f} legs)\n"
+        f"[bold]Timing Championship Conversion:[/bold] Early (1–4): {metrics.early_winner_rate:.1%} | "
+        f"Mid (5–6): {metrics.mid_winner_rate:.1%} | Late (7+): {metrics.late_winner_rate:.1%}\n"
+        f"[bold]Era Championship Conversion:[/bold] Classic (S1–S4): {metrics.classic_era_winner_rate:.1%} "
+        f"(n={metrics.classic_era_count}) vs. Modern Scarce (S5+): {metrics.modern_era_winner_rate:.1%} (n={metrics.modern_era_count})\n"
+        f"[bold yellow]Final Season Podium:[/bold yellow] {metrics.podium_count} ({metrics.podium_rate:.1%})\n"
+        f"[bold green]Championship Winners:[/bold green] {metrics.winner_count} ({metrics.winner_rate:.1%})"
+    )
+
+    console.print(
+        Panel(
+            summary_text,
+            title=f"Fast Forward Timing, Prize Capture & Championship Conversion ({version})",
+            expand=False,
+        )
+    )
+
+    t_table = Table(title="Fast Forward Outcomes by Race Timing Tier")
+    t_table.add_column("Timing Tier", style="bold cyan")
+    t_table.add_column("Plays", justify="right")
+    t_table.add_column("Leg 1st (%)", justify="right")
+    t_table.add_column("Final Podium (%)", justify="right")
+    t_table.add_column("Season Winner (%)", justify="right")
+
+    tiers = [
+        (
+            "Early (Legs 1-4)",
+            metrics.early_count,
+            metrics.early_leg_win_rate,
+            metrics.early_podium_rate,
+            metrics.early_winner_rate,
+        ),
+        (
+            "Mid (Legs 5-6)",
+            metrics.mid_count,
+            metrics.mid_leg_win_rate,
+            metrics.mid_podium_rate,
+            metrics.mid_winner_rate,
+        ),
+        (
+            "Late (Legs 7+)",
+            metrics.late_count,
+            metrics.late_leg_win_rate,
+            metrics.late_podium_rate,
+            metrics.late_winner_rate,
+        ),
+    ]
+    for label, cnt, lw, pod, win in tiers:
+        t_table.add_row(
+            label,
+            str(cnt),
+            f"{lw:.1%}",
+            f"{pod:.1%}",
+            f"{win:.1%}",
+        )
+    console.print(t_table)
+
+    if instances and metrics.instances:
+        inst_table = Table(title=f"All Fast Forward Instances ({version})")
+        inst_table.add_column("Season", justify="right")
+        inst_table.add_column("Leg", justify="right")
+        inst_table.add_column("Team", style="bold white")
+        inst_table.add_column("Era", style="cyan")
+        inst_table.add_column("Timing", justify="center")
+        inst_table.add_column("Place", justify="right")
+        inst_table.add_column("Surv Lag", justify="right")
+        inst_table.add_column("Final Res", justify="right")
+        for inst in metrics.instances:
+            inst_table.add_row(
+                str(inst.season),
+                str(inst.leg_number),
+                inst.team_name,
+                inst.era,
+                inst.timing_bucket,
+                str(inst.placement),
                 f"+{inst.legs_survived_after} legs",
                 str(inst.final_result) if inst.final_result is not None else "N/A",
             )

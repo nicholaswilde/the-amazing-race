@@ -187,6 +187,23 @@ Empirical analysis of 61 US U-Turn victims (91 across US, Canada, and Australia)
   - **Retaliation Hazard**: Teams executing a **Public U-Turn** face an **18.2%** downstream retaliation rate on subsequent U-Turn/Yield boards versus **11.1%** for anonymous **Blind U-Turn** users, while Blind U-Turns prove more lethal to victims (**66.7%** elimination vs. **47.7%** on public boards and **37.5%** on Live Vote boards).
   - **Championship Winners (6.6%)**: Surviving US victims endure an average of **+4.10 subsequent legs**, with **15 of 61 (24.6%)** reaching the final podium and **4 teams (6.6%)** winning the championship: **Dave & Connor** (S24), **Cody & Jessica** (S30), **Colin & Christie** (S31), and **Jas & Jag** (S38).
 
+### Fast Forward Timing Optimization, Prize Capture & Title Conversion
+
+Empirical analysis of 54 US Fast Forward plays (64 across US, Canada, and Australia) evaluating single-leg 1st-place prize capture, timing optimization across Early/Mid/Late race tiers, and the Season 5 scarcity rule shift:
+
+<p align="center">
+  <img src="dev/images/fast_forward_timing.png" width="95%" alt="Fast Forward Timing Optimization, Prize Capture & Title Conversion" />
+</p>
+
+- **87.0% Leg Win (Prize Capture) & 92.6% Leg Podium Rate**: Bypassing all remaining route markers via a Fast Forward propels **47 of 54 US teams (87.0%)** directly to a 1st-place Pit Stop finish and leg prize capture (84.4%, 54 of 64 franchise-wide), with **50 of 54 (92.6%)** finishing in the leg top 3 (mean placement: **1.44**, median: **1.0**). Only **2 teams (3.7%)** in US history were ever eliminated on their Fast Forward leg: **Dennis & Andrew** (S3, Leg 3 — delayed by ferry/train transit to 10th) and **Bopper & Mark** (S20, Leg 10 — finished 5th).
+- **The 5.8x Late-Race Championship Multiplier**:
+  - **Early Race (Legs 1–4, n=16)**: While early Fast Forward plays capture 1st place on the leg **87.5%** of the time, burning the one-per-race advantage early yields only a **25.0% final podium rate** (4 of 16) and a **6.2% championship win rate** (1 of 16: Rob & Brennan, S1 Leg 1).
+  - **Mid Race (Legs 5–6, n=13)**: Mid-season plays achieve a **92.3% leg win rate**, **53.8% final podium rate** (7 of 13), and **30.8% championship win rate** (4 of 13).
+  - **Late Race (Legs 7+, n=25)**: Saving the Fast Forward for high-leverage late-race legs (`7+`) yields a **72.0% final podium rate** (18 of 25) and a **36.0% championship win rate** (9 of 25) — a **5.8x championship multiplier** compared to early-race plays.
+- **The Season 5 Scarcity Shift & 14 US Champions**:
+  - **Classic Era (S1–S4, Every-Leg Availability, n=24)** vs. **Modern Scarce Era (S5+, 1–2 per Season, n=30)**: When production reduced Fast Forwards from every leg (S1–S4) to at most 1–2 per season starting in Season 5, final podium conversion rose from **45.8% to 60.0%** and championship conversion doubled from **16.7% (4 of 24)** to **33.3% (10 of 30)**.
+  - **Overall Championship Conversion (25.9%)**: Fast Forward winners survive an average of **+4.30 subsequent legs** (median: +4.0), with **29 of 54 (53.7%)** reaching the final podium and **14 teams (25.9%)** winning the $1,000,000 championship: **Rob & Brennan** (S1), **Chris & Alex** (S2), **Flo & Zach** (S3), **Reichen & Chip** (S4), **Uchenna & Joyce** (S7), **BJ & Tyler** (S9), **Tyler & James** (S10), **Nick & Starr** (S13), **Meghan & Cheyne** (S15), **Dan & Jordan** (S16), **Nat & Kat** (S17), **Rachel & Dave** (S20), **Bates & Anthony** (S22), and **Carson & Jack** (S37).
+
 ### Global Race Footprint by Continent
 
 All-time leg destinations across 6 continents and the historical evolution of race routing from early global dispersal to modern and post-COVID charter flight routing:
