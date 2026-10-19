@@ -6,6 +6,11 @@ from tar_dataset.processors.fastforward_analysis import (
     FastForwardInstance,
     FastForwardMetrics,
 )
+from tar_dataset.processors.leg1_analysis import (
+    Leg1Analyzer,
+    Leg1Metrics,
+    Leg1WinnerInstance,
+)
 from tar_dataset.processors.speedbump_analysis import (
     SpeedBumpAnalyzer,
     SpeedBumpInstance,
@@ -25,6 +30,9 @@ __all__ = [
     "FastForwardAnalyzer",
     "FastForwardInstance",
     "FastForwardMetrics",
+    "Leg1Analyzer",
+    "Leg1Metrics",
+    "Leg1WinnerInstance",
     "SpeedBumpAnalyzer",
     "SpeedBumpInstance",
     "SpeedBumpMetrics",

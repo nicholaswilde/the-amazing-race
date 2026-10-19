@@ -23,6 +23,7 @@ from tar_dataset.importers.sheets import SheetsImporter
 from tar_dataset.processors.builder import DatasetBuilder
 from tar_dataset.processors.fastforward_analysis import FastForwardAnalyzer
 from tar_dataset.processors.gap_auditor import DatasetGapAuditor
+from tar_dataset.processors.leg1_analysis import Leg1Analyzer
 from tar_dataset.processors.predictor import SeasonPredictor
 from tar_dataset.processors.speedbump_analysis import SpeedBumpAnalyzer
 from tar_dataset.processors.uturn_analysis import UTurnAnalyzer
@@ -1649,6 +1650,111 @@ def fastforward_cmd(
                 str(inst.placement),
                 f"+{inst.legs_survived_after} legs",
                 str(inst.final_result) if inst.final_result is not None else "N/A",
+            )
+        console.print(inst_table)
+
+
+@app.command("leg1")
+def leg1_cmd(
+    version: str = typer.Option(
+        "US", "--version", "-v", help="Franchise version (US, CAN, AUS, or ALL)"
+    ),
+    instances: bool = typer.Option(
+        False,
+        "--instances",
+        "-i",
+        help="Display full table of all Leg 1 winning teams",
+    ),
+) -> None:
+    """Analyze First Leg Winner outcomes, trajectory flows, and the Episode 1 curse."""
+    analyzer = Leg1Analyzer()
+    metrics = analyzer.analyze(version=version)
+
+    if metrics.total_leg1_winners == 0:
+        console.print(
+            f"[yellow]No Leg 1 winner instances found for version '{version}'.[/yellow]"
+        )
+        return
+
+    summary_text = (
+        f"[bold cyan]Franchise Version:[/bold cyan] {version}\n"
+        f"[bold]Completed Teams Analyzed:[/bold] {metrics.total_completed_teams}\n"
+        f"[bold]Leg 1 vs. Final Placement Correlation:[/bold] r = {metrics.pearson_r:.4f} "
+        f"(OLS: final = {metrics.ols_slope:.4f}*leg1 + {metrics.ols_intercept:.4f})\n"
+        f"[bold]Total Leg 1 Winners:[/bold] {metrics.total_leg1_winners}\n"
+        f"[bold green]Championship Winners (1st):[/bold green] {metrics.champion_count} "
+        f"({metrics.champion_rate:.1%})\n"
+        f"[bold yellow]Final Podium (Top 3):[/bold yellow] {metrics.podium_count} "
+        f"({metrics.podium_rate:.1%})\n"
+        f"[bold cyan]Final 4 Appearance:[/bold cyan] {metrics.final_four_count} "
+        f"({metrics.final_four_rate:.1%})\n\n"
+        f"[bold]Mean Final Result:[/bold] {metrics.mean_final_result:.2f} (Median: {metrics.median_final_result:.1f})\n"
+        f"[bold red]Non-Podium Collapse (4th+):[/bold red] {metrics.collapse_count} ({metrics.collapse_rate:.1%})\n"
+        f"  • Mid-Race Collapse (4th–7th): {metrics.mid_collapse_count} ({metrics.mid_collapse_rate:.1%})\n"
+        f"  • Early Flame-Out (8th+): {metrics.early_flameout_count} ({metrics.early_flameout_rate:.1%})\n"
+        f"[bold]U-Turn Targeted Leg 1 Winners:[/bold] {metrics.uturned_winner_count} "
+        f"({metrics.uturned_winner_elim_count} eliminated on U-Turn leg, {metrics.uturned_winner_elim_rate:.1%})"
+    )
+
+    console.print(
+        Panel(
+            summary_text,
+            title=f"First Leg Winner Trajectory & Episode 1 Curse Analysis ({version})",
+            expand=False,
+        )
+    )
+
+    m_table = Table(
+        title=f"Leg 1 Tier to Final Season Outcome Transition Matrix ({version})"
+    )
+    m_table.add_column("Leg 1 Tier", style="bold cyan")
+    m_table.add_column("1st (Champ)", justify="right", style="bold green")
+    m_table.add_column("2nd–3rd (Podium)", justify="right", style="yellow")
+    m_table.add_column("4th–7th (Mid Exit)", justify="right")
+    m_table.add_column("8th+ (Early Exit)", justify="right", style="red")
+    m_table.add_column("Total", justify="right", style="bold white")
+
+    for lt, row_dict in metrics.transition_matrix.items():
+        row_tot = sum(row_dict.values())
+        if row_tot == 0:
+            continue
+        c1 = row_dict.get("1st (Champion)", 0)
+        c2 = row_dict.get("2nd-3rd (Finalist)", 0)
+        c3 = row_dict.get("4th-7th (Mid-Race Exit)", 0)
+        c4 = row_dict.get("8th+ (Early Exit)", 0)
+        m_table.add_row(
+            lt,
+            f"{c1} ({c1 / row_tot:.1%})",
+            f"{c2} ({c2 / row_tot:.1%})",
+            f"{c3} ({c3 / row_tot:.1%})",
+            f"{c4} ({c4 / row_tot:.1%})",
+            str(row_tot),
+        )
+    console.print(m_table)
+
+    if instances and metrics.instances:
+        inst_table = Table(title=f"All Leg 1 Winning Teams ({version})")
+        inst_table.add_column("Season", justify="right")
+        inst_table.add_column("Team", style="bold white")
+        inst_table.add_column("Final Res", justify="right")
+        inst_table.add_column("Outcome Tier", style="cyan")
+        inst_table.add_column("Elim Leg", justify="right")
+        inst_table.add_column("Avg Place", justify="right")
+        inst_table.add_column("U-Turned?", justify="center")
+        for inst in metrics.instances:
+            ut_str = (
+                "[red]Yes (Elim)[/red]"
+                if inst.eliminated_by_uturn
+                else ("[yellow]Yes[/yellow]" if inst.was_uturned else "[dim]No[/dim]")
+            )
+            inst_table.add_row(
+                str(inst.season),
+                inst.team_name,
+                str(inst.final_result),
+                inst.final_tier,
+                str(inst.elimination_leg),
+                f"{inst.racing_average:.2f}",
+                ut_str,
             )
         console.print(inst_table)
 

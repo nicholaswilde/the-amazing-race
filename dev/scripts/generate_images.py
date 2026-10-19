@@ -1742,6 +1742,408 @@ def generate_fastforward_chart(output_dir: Path) -> None:
     print(f"Saved {out_file}")
 
 
+def generate_leg1_trajectory_chart(output_dir: Path) -> None:
+    """Generate leg1_trajectory.png: Alluvial trajectory of Leg 1 placements to Final Outcomes & Episode 1 Curse analysis."""
+    print("Generating leg1_trajectory.png...")
+    fig = plt.figure(figsize=(13, 8.5), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left panel: Alluvial / Sankey Diagram (Leg 1 Tier -> Final Outcome Tier, US n=431)
+    ax_left = fig.add_axes([0.04, 0.16, 0.46, 0.62])
+    ax_left.set_facecolor(PALETTE["bg_white"])
+
+    # Transition counts (rows = Leg 1 tiers from top to bottom, cols = Final tiers from top to bottom)
+    # Totals: Leg 1 = [41, 76, 156, 158] (sum=431), Final = [38, 76, 152, 165] (sum=431)
+    l1_labels = [
+        "1st Place\nLeg 1 Winner\n(n=41)",
+        "2nd–3rd\nLeg 1 Podium\n(n=76)",
+        "4th–7th\nMid-Pack\n(n=156)",
+        "8th–11th+\nBack-Pack\n(n=158)",
+    ]
+    fin_labels = [
+        "1st Place\nChampion\n(n=38)",
+        "2nd–3rd\nFinalist\n(n=76)",
+        "4th–7th\nMid-Race Exit\n(n=152)",
+        "8th–11th+\nEarly Exit\n(n=165)",
+    ]
+    matrix = np.array(
+        [
+            [10, 13, 9, 9],
+            [12, 20, 24, 20],
+            [9, 26, 75, 46],
+            [7, 17, 44, 90],
+        ],
+        dtype=float,
+    )
+
+    node_colors = [
+        PALETTE["yellow"],
+        PALETTE["teal"],
+        PALETTE["slate"],
+        PALETTE["coral"],
+    ]
+
+    total_teams = matrix.sum()
+    gap = 0.045
+    usable_h = 1.0 - gap * 3
+
+    l1_totals = matrix.sum(axis=1)
+    fin_totals = matrix.sum(axis=0)
+
+    # Compute vertical intervals [y_top, y_bot] from top (y=1.0) down to bottom (y=0.0)
+    l1_spans = []
+    curr_y = 1.0
+    for tot in l1_totals:
+        h = (tot / total_teams) * usable_h
+        l1_spans.append((curr_y - h, curr_y))
+        curr_y -= h + gap
+
+    fin_spans = []
+    curr_y = 1.0
+    for tot in fin_totals:
+        h = (tot / total_teams) * usable_h
+        fin_spans.append((curr_y - h, curr_y))
+        curr_y -= h + gap
+
+    x_left_node = (0.18, 0.25)
+    x_right_node = (0.75, 0.82)
+
+    u = np.linspace(0.0, 1.0, 80)
+    s_curve = 0.5 * (1.0 - np.cos(np.pi * u))
+    x_ribbon = x_left_node[1] + u * (x_right_node[0] - x_left_node[1])
+
+    # Draw background ribbons (i > 0) first, then Leg 1 Winner ribbons (i == 0) on top for visual emphasis
+    for i in [3, 2, 1, 0]:
+        for j in range(4):
+            val = matrix[i, j]
+            if val <= 0:
+                continue
+            h_flow = (val / total_teams) * usable_h
+            # Compute exact y positions by pre-calculating offsets
+            y0_top = l1_spans[i][1] - (matrix[i, :j].sum() / total_teams) * usable_h
+            y0_bot = y0_top - h_flow
+
+            y1_top = fin_spans[j][1] - (matrix[:i, j].sum() / total_teams) * usable_h
+            y1_bot = y1_top - h_flow
+
+            curve_top = y0_top + s_curve * (y1_top - y0_top)
+            curve_bot = y0_bot + s_curve * (y1_bot - y0_bot)
+
+            if i == 0:
+                # Highlight Leg 1 Winner trajectories colored by destination tier
+                r_color = node_colors[j]
+                alpha = 0.78
+                lw = 0.9
+                edge = PALETTE["dark"]
+            else:
+                r_color = node_colors[i]
+                alpha = 0.24
+                lw = 0.3
+                edge = "none"
+
+            ax_left.fill_between(
+                x_ribbon,
+                curve_bot,
+                curve_top,
+                color=r_color,
+                alpha=alpha,
+                edgecolor=edge,
+                linewidth=lw,
+            )
+
+    # Draw node bars and labels
+    for i, ((yb, yt), lbl, col) in enumerate(zip(l1_spans, l1_labels, node_colors)):
+        rect = patches.Rectangle(
+            (x_left_node[0], yb),
+            x_left_node[1] - x_left_node[0],
+            yt - yb,
+            facecolor=col,
+            edgecolor=PALETTE["dark"],
+            linewidth=1.3,
+            zorder=4,
+        )
+        ax_left.add_patch(rect)
+        ax_left.text(
+            x_left_node[0] - 0.02,
+            (yb + yt) / 2,
+            lbl,
+            ha="right",
+            va="center",
+            fontsize=8.3,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+
+    for j, ((yb, yt), lbl, col) in enumerate(zip(fin_spans, fin_labels, node_colors)):
+        rect = patches.Rectangle(
+            (x_right_node[0], yb),
+            x_right_node[1] - x_right_node[0],
+            yt - yb,
+            facecolor=col,
+            edgecolor=PALETTE["dark"],
+            linewidth=1.3,
+            zorder=4,
+        )
+        ax_left.add_patch(rect)
+        ax_left.text(
+            x_right_node[1] + 0.02,
+            (yb + yt) / 2,
+            lbl,
+            ha="left",
+            va="center",
+            fontsize=8.3,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+
+    # Add flow labels on the 4 Leg 1 Winner ribbons
+    w1_flow_labels = [
+        ("24.4% Win (10)", 0),
+        ("31.7% 2nd–3rd (13)", 1),
+        ("22.0% Mid Exit (9)", 2),
+        ("22.0% Early Exit (9)", 3),
+    ]
+    for txt, j in w1_flow_labels:
+        y0_mid = (
+            l1_spans[0][1]
+            - ((matrix[0, :j].sum() + 0.5 * matrix[0, j]) / total_teams) * usable_h
+        )
+        y1_mid = (
+            fin_spans[j][1] - (0.5 * matrix[0, j] / total_teams) * usable_h
+        )
+        t_pos = 0.52
+        s_val = 0.5 * (1.0 - np.cos(np.pi * t_pos))
+        xm = x_left_node[1] + t_pos * (x_right_node[0] - x_left_node[1])
+        ym = y0_mid + s_val * (y1_mid - y0_mid)
+        ax_left.text(
+            xm,
+            ym,
+            txt,
+            ha="center",
+            va="center",
+            fontsize=7.3,
+            fontweight="bold",
+            color=PALETTE["dark"],
+            bbox={
+                "boxstyle": "round,pad=0.18",
+                "facecolor": PALETTE["bg_white"],
+                "edgecolor": PALETTE["dark"],
+                "alpha": 0.90,
+                "lw": 0.8,
+            },
+            zorder=6,
+        )
+
+    ax_left.text(
+        sum(x_left_node) / 2,
+        1.03,
+        "Leg 1 Finish",
+        ha="center",
+        va="bottom",
+        fontsize=9.5,
+        fontweight="bold",
+        color=PALETTE["navy"],
+    )
+    ax_left.text(
+        sum(x_right_node) / 2,
+        1.03,
+        "Final Result",
+        ha="center",
+        va="bottom",
+        fontsize=9.5,
+        fontweight="bold",
+        color=PALETTE["navy"],
+    )
+
+    ax_left.set_xlim(-0.05, 1.05)
+    ax_left.set_ylim(-0.02, 1.08)
+    ax_left.axis("off")
+    ax_left.set_title(
+        "Alluvial Trajectory: Leg 1 Tier to Final Result (US, n=431)",
+        fontsize=11.5,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=10,
+    )
+
+    # Right panel: Leg 1 Winner Outcomes vs Baseline & Collapse Breakdown
+    ax_right = fig.add_axes([0.62, 0.17, 0.35, 0.58])
+    ax_right.set_facecolor(PALETTE["bg_white"])
+
+    categories = [
+        "Final 4 Contender\n(Top 4 Finish)",
+        "Final Podium\n(Top 3 Finish)",
+        "Season Champion\n(1st Place Win)",
+        "Mid-Race Collapse\n(4th–7th Place Exit)",
+        "Early Flame-Out\n(8th–11th+ Place Exit)",
+    ]
+    w1_rates = [63.4, 56.1, 24.4, 22.0, 22.0]
+    base_rates = [36.4, 27.3, 9.1, 36.4, 36.4]
+
+    y = np.arange(len(categories))
+    h = 0.34
+
+    b_w1 = ax_right.barh(
+        y - h / 2,
+        w1_rates,
+        height=h,
+        color=[
+            PALETTE["teal"],
+            PALETTE["navy"],
+            PALETTE["yellow"],
+            PALETTE["slate"],
+            PALETTE["coral"],
+        ],
+        edgecolor=PALETTE["dark"],
+        linewidth=1.1,
+        alpha=0.90,
+        label="US Leg 1 Winners (n=41)",
+    )
+    b_base = ax_right.barh(
+        y + h / 2,
+        base_rates,
+        height=h,
+        color="#D1D5DB",
+        edgecolor=PALETTE["gray_text"],
+        linewidth=0.9,
+        alpha=0.85,
+        label="11-Team Baseline",
+    )
+
+    for bar, val in zip(b_w1, w1_rates):
+        ax_right.text(
+            val + 1.2,
+            bar.get_y() + bar.get_height() / 2,
+            f"{val:.1f}%",
+            va="center",
+            fontsize=8.2,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+    for bar, val in zip(b_base, base_rates):
+        ax_right.text(
+            val + 1.2,
+            bar.get_y() + bar.get_height() / 2,
+            f"{val:.1f}%",
+            va="center",
+            fontsize=7.8,
+            color="#4B5563",
+        )
+
+    ax_right.set_yticks(y)
+    ax_right.set_yticklabels(
+        categories, fontsize=8.8, fontweight="bold", color=PALETTE["gray_text"]
+    )
+    ax_right.set_xlim(0, 115)
+    ax_right.set_xlabel(
+        "Outcome Rate (%)",
+        fontsize=10,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+        labelpad=8,
+    )
+    ax_right.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_right.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_right.set_title(
+        "Leg 1 Winners vs. Baseline & Collapse Tiers",
+        fontsize=11.5,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=26,
+    )
+    ax_right.invert_yaxis()
+    ax_right.legend(
+        loc="lower left",
+        bbox_to_anchor=(0.0, 1.01),
+        ncol=2,
+        frameon=True,
+        facecolor=PALETTE["bg_white"],
+        edgecolor=PALETTE["gray_line"],
+        fontsize=8.0,
+    )
+
+    inset_text = (
+        "Regression & Franchise Consistency:\n"
+        "• US (n=431): r = 0.41 (y = 0.41x + 3.68)\n"
+        "• Mean Final Place: 4.22 (Median: 3.0)\n"
+        "• CAN (n=103): r = 0.50 | 50.0% Podium\n"
+        "• AUS (n=89): r = 0.31 | 50.0% Podium\n"
+        "• ALL (n=623): r = 0.41 | 54.2% Podium\n"
+        "• U-Turned Leg 1 Winners: 66.7% elim (4/6)"
+    )
+    ax_right.text(
+        0.98,
+        0.02,
+        inset_text,
+        transform=ax_right.transAxes,
+        fontsize=7.5,
+        ha="right",
+        va="bottom",
+        color=PALETTE["dark"],
+        bbox={
+            "boxstyle": "round,pad=0.45",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["yellow"],
+            "linewidth": 1.4,
+        },
+    )
+
+    for spine in ["top", "right"]:
+        ax_right.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_right.spines[spine].set_color(PALETTE["gray_line"])
+
+    fig.text(
+        0.06,
+        0.94,
+        "First Leg Winner Trajectory & The 'Episode 1 Curse' Myth Debunked",
+        fontsize=20,
+        fontweight="bold",
+        color=PALETTE["dark"],
+    )
+    fig.text(
+        0.06,
+        0.90,
+        "Empirical analysis of 41 US Leg 1 winners across 431 teams (59 winners across 623 global teams): 24.4% championship conversion (2.7x baseline),\n56.1% final podium rate, r = 0.41 correlation with final result, and a 43.9% non-podium split between Mid-Race Collapse and Early Flame-Out",
+        fontsize=10.0,
+        color=PALETTE["gray_text"],
+    )
+
+    callout = patches.FancyBboxPatch(
+        (0.06, 0.04),
+        0.90,
+        0.05,
+        boxstyle="round,pad=0.015",
+        facecolor=PALETTE["bg_card"],
+        edgecolor=PALETTE["yellow"],
+        linewidth=1.5,
+    )
+    fig.patches.append(callout)
+    fig.text(
+        0.51,
+        0.065,
+        "Debunking the Episode 1 Jinx: Winning Leg 1 is the single strongest early-race predictor of championship victory (10 US winners, 2.7x baseline), while memorable early exits (22.0%) fuel survivorship bias.",
+        fontsize=8.2,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(
+        0.06,
+        0.015,
+        "Data: 431 US teams (41 Leg 1 winners) & 623 total completed teams across US, CAN, & AUS | the-amazing-race package",
+        fontsize=8,
+        color="#8E9AA7",
+    )
+
+    out_file = output_dir / "leg1_trajectory.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
 def generate_continents_chart(output_dir: Path) -> None:
     """Generate continents.png: Destination continents and routing shifts over eras."""
     print("Generating continents.png...")
@@ -2086,6 +2488,7 @@ def main() -> None:
     generate_speedbump_chart(output_dir)
     generate_uturn_chart(output_dir)
     generate_fastforward_chart(output_dir)
+    generate_leg1_trajectory_chart(output_dir)
     generate_continents_chart(output_dir)
     generate_hex_badge(output_dir)
     generate_square_and_backgrounds(output_dir)
@@ -2094,4 +2497,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 

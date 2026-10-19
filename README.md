@@ -204,6 +204,24 @@ Empirical analysis of 54 US Fast Forward plays (64 across US, Canada, and Austra
   - **Classic Era (S1–S4, Every-Leg Availability, n=24)** vs. **Modern Scarce Era (S5+, 1–2 per Season, n=30)**: When production reduced Fast Forwards from every leg (S1–S4) to at most 1–2 per season starting in Season 5, final podium conversion rose from **45.8% to 60.0%** and championship conversion doubled from **16.7% (4 of 24)** to **33.3% (10 of 30)**.
   - **Overall Championship Conversion (25.9%)**: Fast Forward winners survive an average of **+4.30 subsequent legs** (median: +4.0), with **29 of 54 (53.7%)** reaching the final podium and **14 teams (25.9%)** winning the $1,000,000 championship: **Rob & Brennan** (S1), **Chris & Alex** (S2), **Flo & Zach** (S3), **Reichen & Chip** (S4), **Uchenna & Joyce** (S7), **BJ & Tyler** (S9), **Tyler & James** (S10), **Nick & Starr** (S13), **Meghan & Cheyne** (S15), **Dan & Jordan** (S16), **Nat & Kat** (S17), **Rachel & Dave** (S20), **Bates & Anthony** (S22), and **Carson & Jack** (S37).
 
+### First Leg Winner Trajectory & The "Episode 1 Curse" Myth
+
+Empirical evaluation of the long-standing fan hypothesis regarding the "First Leg Winner Curse" ("Episode 1 Jinx") across 41 US Leg 1 winners (431 completed US teams) and 59 franchise-wide Leg 1 winners (623 completed teams across US, Canada, and Australia):
+
+<p align="center">
+  <img src="dev/images/leg1_trajectory.png" width="95%" alt="First Leg Winner Trajectory & The Episode 1 Curse Myth Debunked" />
+</p>
+
+- **Curse vs. Signal (2.7x Championship Multiplier)**: Far from a jinx, winning Leg 1 is the single strongest early-race signal of championship superiority. Across 41 US Leg 1 winners (38 seasons, including Season 4's three-way tie and Season 37's dual Fork in the Road winners), **10 teams (24.4%)** went wire-to-wire to win the $1,000,000 championship—**2.68x** the 9.1% (1-in-11) baseline—and **23 teams (56.1%)** reached the final podium (top 3), **2.06x** the 27.3% baseline (mean final placement: **4.22**, median: **3.0**). The 10 US Leg 1 winners who won their season are **Rob & Brennan** (S1), **Tyler & James** (S10), **Nick & Starr** (S13), **Meghan & Cheyne** (S15), **Ernie & Cindy** (S19), **Rachel & Dave** (S20), **Dana & Matt** (S28), **Derek & Claire** (S34), **Carson & Jack** (S37), and **Jas & Jag** (S38).
+- **Anatomy of the "Episode 1 Curse" (Mid-Race Collapse vs. Early Flame-Out)**:
+  - The 18 US Leg 1 winners (**43.9%**) that failed to reach the finale podium split evenly into two distinct collapse tiers:
+    - **Early Flame-Out Tier (8th–11th Place, 22.0%, 9 of 41)**: Teams eliminated between Legs 2 and 4—including **Amanda & Chris** (S4, Leg 2), **Alison & Donny** (S5, Leg 2), **Debbie & Bianca** (S7, Leg 3), **Rob & Amber** (S11 All-Stars, Leg 4), **Jessica & John** (S22, Leg 4 holding an Express Pass), **Seth & Olive** (S29, Leg 3 U-Turn), **Anthony & Spencer** (S33, Leg 3), and **Jocelyn & Victor** (S35, Leg 4). These high-profile early shocks drive cognitive availability bias behind the fan "curse" narrative.
+    - **Mid-Race Collapse Tier (4th–7th Place, 22.0%, 9 of 41)**: Frontrunners eliminated in Legs 6–11 (**Millie & Chuck** S4, **Hayden & Aaron** S6, **Godlewski Family** S8, **Azaria & Hendekea** S12, **Jordan & Jeff** S16, **Abbie & Ryan** S21, **Jet & Cord** S24, **Tanner & Josh** S27, and **Alyssa & Josiah** S37).
+  - **U-Turn Target Hazard (66.7% Lethality)**: Winning Leg 1 paints a visible target on frontrunners when U-Turn boards appear: **6 of 41 US Leg 1 winners (14.6%)** were subsequently U-Turned, and **4 of those 6 (66.7%)** were eliminated on that exact leg (**Abbie & Ryan** S21L9, **Jet & Cord** S24L10, **Tanner & Josh** S27L9, and **Seth & Olive** S29L3), exceeding the 49.2% US baseline U-Turn lethality rate.
+- **Leg 1-to-Final Correlation & International Franchise Consistency**:
+  - **US (`n=431` completed teams)**: Leg 1 placement correlates strongly with final season standing (**Pearson `r = 0.4102`**, OLS regression: `final_result = 0.4149 * leg1_placement + 3.6772`). Teams finishing Leg 1 in the Back-Pack (8th+) win the season only **4.4%** of the time (7 of 158) and suffer an Early Exit (8th+) **57.0%** of the time (90 of 158).
+  - **International Consistency (`ALL`, `n=623` completed teams)**: Across all 623 completed teams (635 total teams), Leg 1 placement maintains **Pearson `r = 0.4055`** (`final_result = 0.4247 * leg1_placement + 3.6425`), with **Canada (`CAN`, `n=103`)** exhibiting `r = 0.4959` (**20.0%** champion, **50.0%** podium among 10 Leg 1 winners) and **Australia (`AUS`, `n=89`)** exhibiting `r = 0.3147` (**12.5%** champion, **50.0%** podium among 8 Leg 1 winners).
+
 ### Global Race Footprint by Continent
 
 All-time leg destinations across 6 continents and the historical evolution of race routing from early global dispersal to modern and post-COVID charter flight routing:
