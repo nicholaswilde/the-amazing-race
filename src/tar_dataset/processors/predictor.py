@@ -42,6 +42,10 @@ DEFAULT_HISTORICAL_BASELINES = {
         12: 0.001,
         13: 0.000,
     },
+    "uturn_elimination_rate": 0.492,
+    "uturn_leg_podium_rate": 0.066,
+    "uturn_win_rate": 0.066,
+    "public_uturn_retaliation_rate": 0.182,
 }
 
 
@@ -148,8 +152,18 @@ class SeasonPredictor:
         used_express_pass: bool = False,
         is_eliminated: bool = False,
         roadblock_equity_score: float | None = None,
+        uturn_targeted_count: int = 0,
+        uturn_used_count: int = 0,
     ) -> dict[str, Any]:
         """Score an individual team based on demographic, historical, and performance features."""
+        # Infer U-Turn symbols from placement cells if not explicitly provided
+        inferred_targeted = sum(
+            1 for p in placements if "⊂" in str(p.get("raw_cell", ""))
+        )
+        inferred_used = sum(1 for p in placements if "⊃" in str(p.get("raw_cell", "")))
+        uturn_targeted = max(uturn_targeted_count, inferred_targeted)
+        uturn_used = max(uturn_used_count, inferred_used)
+
         if is_eliminated:
             valid_p = [
                 p.get("placement") for p in placements if p.get("placement") is not None
@@ -166,6 +180,9 @@ class SeasonPredictor:
                 "is_eliminated": True,
                 "express_pass_status": "Eliminated",
                 "roadblock_equity_score": roadblock_equity_score,
+                "uturn_exposure_risk": "Eliminated",
+                "uturn_targeted_count": uturn_targeted,
+                "uturn_used_count": uturn_used,
                 "win_probability": 0.0,
                 "top3_probability": 0.0,
                 "raw_score": -999.0,
@@ -237,7 +254,7 @@ class SeasonPredictor:
         else:
             perf_score = 0.8  # Pre-season unobserved baseline
 
-        # 4. Tactical Assets (Express Pass)
+        # 4. Tactical Assets (Express Pass & U-Turn Board Exposure Risk)
         tactical_score = 1.0
         express_status = "None"
         if has_express_pass:
@@ -255,6 +272,39 @@ class SeasonPredictor:
             else:
                 tactical_score = 0.90
                 risks.append("Defensive Express Pass burn early to avoid elimination")
+
+        uturn_exposure_risk = "Standard"
+        if uturn_targeted > 0 and uturn_used > 0:
+            uturn_exposure_risk = "High (Chain U-Turn Survivor)"
+            tactical_score *= 0.88
+            strengths.append(
+                "Survived U-Turn via Double U-Turn cascade (77.8% historical survival rate)"
+            )
+            risks.append(
+                "Previously U-Turned; only 6.6% of U-Turn victims convert to championship"
+            )
+        elif uturn_targeted > 0:
+            uturn_exposure_risk = "Elevated (U-Turn Survivor)"
+            tactical_score *= 0.82
+            strengths.append(
+                "Overcame U-Turn leg hazard (49.2% single-leg elimination rate)"
+            )
+            risks.append(
+                "Previously U-Turned; historical championship conversion drops to 6.6%"
+            )
+        elif uturn_used > 0:
+            uturn_exposure_risk = "High (Retaliation Target)"
+            tactical_score *= 0.90
+            risks.append(
+                "Public U-Turn usage increases downstream retaliation exposure (18.2% historical rate)"
+            )
+        elif has_express_pass:
+            uturn_exposure_risk = "Shielded (Express Pass)"
+        elif valid_placements and avg_placement >= 6.5:
+            uturn_exposure_risk = "Elevated (Back-of-Pack Board Hazard)"
+            risks.append(
+                "Back-of-pack pacing exposes team to 49.2% U-Turn elimination hazard"
+            )
 
         # Contextual strengths and risks
         if 24 <= avg_age <= 33:
@@ -313,6 +363,9 @@ class SeasonPredictor:
             "is_eliminated": False,
             "express_pass_status": express_status,
             "roadblock_equity_score": roadblock_equity_score,
+            "uturn_exposure_risk": uturn_exposure_risk,
+            "uturn_targeted_count": uturn_targeted,
+            "uturn_used_count": uturn_used,
             "raw_score": log_score,
             "strengths": strengths,
             "risks": risks,

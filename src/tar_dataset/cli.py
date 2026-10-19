@@ -24,6 +24,7 @@ from tar_dataset.processors.builder import DatasetBuilder
 from tar_dataset.processors.gap_auditor import DatasetGapAuditor
 from tar_dataset.processors.predictor import SeasonPredictor
 from tar_dataset.processors.speedbump_analysis import SpeedBumpAnalyzer
+from tar_dataset.processors.uturn_analysis import UTurnAnalyzer
 from tar_dataset.processors.validator import DatasetValidator
 from tar_dataset.scrapers.fandom import FandomScraper
 from tar_dataset.scrapers.reddit import RedditScraper
@@ -1401,6 +1402,134 @@ def speedbump_cmd(
                 str(inst.season),
                 str(inst.leg_number),
                 inst.team_name,
+                str(inst.placement),
+                elim_str,
+                f"+{inst.legs_survived_after} legs",
+                str(inst.final_result) if inst.final_result is not None else "N/A",
+            )
+        console.print(inst_table)
+
+
+@app.command("uturn")
+def uturn_cmd(
+    version: str = typer.Option(
+        "US", "--version", "-v", help="Franchise version (US, CAN, AUS, or ALL)"
+    ),
+    instances: bool = typer.Option(
+        False,
+        "--instances",
+        "-i",
+        help="Display full table of all U-Turn victim instances",
+    ),
+    burns: bool = typer.Option(
+        False,
+        "--burns",
+        "-b",
+        help="Display table of wasted and defensively burned U-Turn slots",
+    ),
+) -> None:
+    """Analyze U-Turn lethality, placement recovery, defensive burns, and retaliation."""
+    analyzer = UTurnAnalyzer()
+    metrics = analyzer.analyze(version=version)
+
+    if metrics.total_victims == 0:
+        console.print(
+            f"[yellow]No U-Turn instances found for version '{version}'.[/yellow]"
+        )
+        return
+
+    summary_text = (
+        f"[bold cyan]Franchise Version:[/bold cyan] {version}\n"
+        f"[bold]Total U-Turn Victims:[/bold] {metrics.total_victims}\n"
+        f"[bold red]Eliminated on U-Turn Leg:[/bold red] {metrics.eliminated_on_leg_count} "
+        f"({metrics.eliminated_on_leg_rate:.1%})\n"
+        f"[bold green]Survived U-Turn Leg:[/bold green] {metrics.survived_leg_count} "
+        f"({metrics.survived_leg_rate:.1%})\n"
+        f"[bold yellow]Leg Podium Recovery (Top 3):[/bold yellow] {metrics.leg_podium_count} "
+        f"({metrics.leg_podium_rate:.1%})\n\n"
+        f"[bold]Mean Placement on Leg:[/bold] {metrics.mean_placement:.2f} (Median: {metrics.median_placement:.0f})\n"
+        f"[bold]Post-U-Turn Survival Lag:[/bold] Mean {metrics.mean_survival_lag:.2f} legs "
+        f"(Survivors: +{metrics.survivor_mean_survival_lag:.2f} legs)\n"
+        f"[bold]Double U-Turn Chain Survival (⊂ ⊃):[/bold] {metrics.chain_uturn_survived_count}/{metrics.chain_uturn_count} "
+        f"({metrics.chain_uturn_survival_rate:.1%})\n"
+        f"[bold]Intentional Defensive Burns:[/bold] {metrics.intentional_defensive_burn_count} "
+        f"({metrics.intentional_defensive_burn_elim_rate:.1%} target elimination)\n"
+        f"[bold]Retaliation Rate (Public vs Blind):[/bold] {metrics.public_user_retaliation_rate:.1%} vs "
+        f"{metrics.blind_user_retaliation_rate:.1%}\n"
+        f"[bold yellow]Final Season Podium:[/bold yellow] {metrics.podium_count} ({metrics.podium_rate:.1%})\n"
+        f"[bold green]Championship Winners:[/bold green] {metrics.winner_count} ({metrics.winner_rate:.1%})"
+    )
+
+    console.print(
+        Panel(
+            summary_text,
+            title=f"U-Turn Lethality, Retaliation & Defensive Burn Analysis ({version})",
+            expand=False,
+        )
+    )
+
+    p_table = Table(title="Placement Distribution on U-Turn Leg")
+    p_table.add_column("Placement", style="bold yellow", justify="right")
+    p_table.add_column("Victims", justify="right")
+    p_table.add_column("Share (%)", justify="right")
+    for pl, cnt in metrics.placement_counts.items():
+        pct = (cnt / metrics.total_victims) * 100
+        p_table.add_row(
+            f"{pl}th" if pl not in (1, 2, 3) else {1: "1st", 2: "2nd", 3: "3rd"}[pl],
+            str(cnt),
+            f"{pct:.1f}%",
+        )
+    console.print(p_table)
+
+    if burns and metrics.burn_events:
+        b_table = Table(title=f"Burned & Wasted U-Turn Attempts ({version})")
+        b_table.add_column("Season", justify="right")
+        b_table.add_column("Leg", justify="right")
+        b_table.add_column("Burner Team", style="bold white")
+        b_table.add_column("Target (Ahead)", style="cyan")
+        b_table.add_column("Defensive?", justify="center")
+        b_table.add_column("Primary Victim", style="yellow")
+        b_table.add_column("Victim Elim?", justify="center")
+        for b in metrics.burn_events:
+            def_str = (
+                "[green]Yes[/green]" if b.is_intentional_defensive else "[dim]No[/dim]"
+            )
+            elim_str = (
+                "[red]Yes[/red]" if b.primary_victim_eliminated else "[green]No[/green]"
+            )
+            b_table.add_row(
+                str(b.season),
+                str(b.leg_number),
+                b.burner_team,
+                b.target_team,
+                def_str,
+                b.primary_victim or "—",
+                elim_str if b.primary_victim else "—",
+            )
+        console.print(b_table)
+
+    if instances and metrics.instances:
+        inst_table = Table(title=f"All U-Turn Victim Instances ({version})")
+        inst_table.add_column("Season", justify="right")
+        inst_table.add_column("Leg", justify="right")
+        inst_table.add_column("Victim Team", style="bold white")
+        inst_table.add_column("Used By", style="cyan")
+        inst_table.add_column("Type", justify="center")
+        inst_table.add_column("Place", justify="right")
+        inst_table.add_column("Eliminated?", justify="center")
+        inst_table.add_column("Surv Lag", justify="right")
+        inst_table.add_column("Final Res", justify="right")
+        for inst in metrics.instances:
+            elim_str = (
+                "[red]Yes[/red]" if inst.eliminated_on_leg else "[green]No[/green]"
+            )
+            mode_str = "Blind" if inst.is_blind else inst.board_type
+            inst_table.add_row(
+                str(inst.season),
+                str(inst.leg_number),
+                inst.team_name,
+                inst.user_team,
+                mode_str,
                 str(inst.placement),
                 elim_str,
                 f"+{inst.legs_survived_after} legs",

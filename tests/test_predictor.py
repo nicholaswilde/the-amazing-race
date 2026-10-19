@@ -281,3 +281,50 @@ def test_score_team_roadblock_equity():
     )
     assert elim["is_eliminated"] is True
     assert elim["roadblock_equity_score"] == 0.50
+
+
+def test_score_team_uturn_exposure():
+    """Verify U-Turn board exposure risk, victim penalty, and retaliation hazard."""
+    predictor = SeasonPredictor()
+    racers = [{"name": "Alex", "age": 29}, {"name": "Conor", "age": 29}]
+
+    base = predictor.score_team(
+        team_name="Alex & Conor",
+        relationship="Friends",
+        racers=racers,
+        placements=[{"placement": 2, "raw_cell": "2nd"}],
+    )
+    assert base["uturn_exposure_risk"] == "Standard"
+
+    # Public U-Turn user faces retaliation hazard
+    user = predictor.score_team(
+        team_name="Alex & Conor",
+        relationship="Friends",
+        racers=racers,
+        placements=[{"placement": 2, "raw_cell": "2nd ⊃"}],
+    )
+    assert user["uturn_used_count"] == 1
+    assert user["uturn_exposure_risk"] == "High (Retaliation Target)"
+    assert user["raw_score"] < base["raw_score"]
+    assert any("retaliation exposure" in r for r in user["risks"])
+
+    # U-Turn survivor faces reduced championship conversion
+    victim = predictor.score_team(
+        team_name="Alex & Conor",
+        relationship="Friends",
+        racers=racers,
+        placements=[{"placement": 2, "raw_cell": "2nd ⊂"}],
+    )
+    assert victim["uturn_targeted_count"] == 1
+    assert victim["uturn_exposure_risk"] == "Elevated (U-Turn Survivor)"
+    assert victim["raw_score"] < base["raw_score"]
+
+    # Chain U-Turn survivor (⊂ ⊃)
+    chain = predictor.score_team(
+        team_name="Alex & Conor",
+        relationship="Friends",
+        racers=racers,
+        placements=[{"placement": 2, "raw_cell": "2nd ⊂ ⊃"}],
+    )
+    assert chain["uturn_exposure_risk"] == "High (Chain U-Turn Survivor)"
+    assert victim["raw_score"] < chain["raw_score"] < base["raw_score"]

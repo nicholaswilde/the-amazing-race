@@ -171,6 +171,22 @@ Empirical hazard and survival analysis of 44 Speed Bump penalty instances across
   - **Final Podium (Top 3)**: **15 of 44 teams (34.1%)** successfully reached the final podium despite incurring an earlier Speed Bump penalty.
   - **Championship Winners (4.5%)**: Exactly two teams in 38 seasons overcame a Speed Bump to win the $1,000,000 championship: **TK & Rachel** (Season 12, Leg 10 Speed Bump) and **Josh & Brent** (Season 21, Leg 6 Speed Bump).
 
+### U-Turn Lethality, Retaliation Dynamics & Defensive Burn Strategy
+
+Empirical analysis of 61 US U-Turn victims (91 across US, Canada, and Australia) evaluating single-leg elimination rates, placement recovery, Double U-Turn defensive burning vs. cascade chaining, and Blind vs. Public retaliation hazards:
+
+<p align="center">
+  <img src="dev/images/uturn_dynamics.png" width="95%" alt="U-Turn Lethality, Retaliation Dynamics & Defensive Burn Strategy" />
+</p>
+
+- **49.2% Single-Leg Lethality & 6.6% Podium Recovery**: Forcing a team to complete both branches of a Detour eliminates **30 of 61 US victims (49.2%)** on that exact leg (42.9% across all 91 franchise instances). Mean leg placement drops to **5.92** (median: 6.0), and only **4 of 61 victims (6.6%)** ever recover to finish on the leg podium (top 3).
+- **Defensive Burning vs. Chain Cascades in Double U-Turns**:
+  - **Chain U-Turn Cascade (77.8% Survival)**: When the primary victim reaches a Double U-Turn board before the second slot is taken and U-Turns a trailing team behind them (`⊂ ⊃`, 9 US instances), the primary victim survives **77.8% (7 of 9)** of the time (76.9%, 10 of 13 franchise-wide).
+  - **Intentional Defensive Burn (100.0% Lethality)**: When an allied or leading team defensively burns the second slot on a team already ahead of them (5 US instances: Trey & Lexi S21, Caroline & Jennifer S24, Burnie & Ashley S28, Becca & Floyd S29, Riley & Maddison S32), the primary victim is denied the cascade safety valve and is eliminated **100.0% (5 of 5)** of the time (87.5%, 7 of 8 across all burned second-slot boards).
+- **Blind vs. Public Retaliation & Championship Conversion**:
+  - **Retaliation Hazard**: Teams executing a **Public U-Turn** face an **18.2%** downstream retaliation rate on subsequent U-Turn/Yield boards versus **11.1%** for anonymous **Blind U-Turn** users, while Blind U-Turns prove more lethal to victims (**66.7%** elimination vs. **47.7%** on public boards and **37.5%** on Live Vote boards).
+  - **Championship Winners (6.6%)**: Surviving US victims endure an average of **+4.10 subsequent legs**, with **15 of 61 (24.6%)** reaching the final podium and **4 teams (6.6%)** winning the championship: **Dave & Connor** (S24), **Cody & Jessica** (S30), **Colin & Christie** (S31), and **Jas & Jag** (S38).
+
 ### Global Race Footprint by Continent
 
 All-time leg destinations across 6 continents and the historical evolution of race routing from early global dispersal to modern and post-COVID charter flight routing:

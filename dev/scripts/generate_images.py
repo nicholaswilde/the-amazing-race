@@ -9,6 +9,7 @@ Mirrors the structure and aesthetic of doehm/alone/dev/images:
 - roadblock_types.png: Performance correlations with physical vs mental roadblocks
 - express_pass.png: Express Pass play placements, survival rate, and championship conversion
 - speedbump_survival.png: Speed Bump penalty efficacy and post-NEL survival trajectory
+- uturn_dynamics.png: U-Turn lethality, placement recovery, defensive burns, and retaliation dynamics
 - continents.png: Continental leg destinations and historical era routing shifts
 - theamazingrace hex.png: R package hexagonal sticker badge (3600x3600 RGBA)
 - bg.png, bg white.png: Dark and light square social cards
@@ -1196,6 +1197,272 @@ def generate_speedbump_chart(output_dir: Path) -> None:
     print(f"Saved {out_file}")
 
 
+def generate_uturn_chart(output_dir: Path) -> None:
+    """Generate uturn_dynamics.png: U-Turn lethality, recovery, defensive burns, and retaliation."""
+    print("Generating uturn_dynamics.png...")
+    fig = plt.figure(figsize=(13, 8.5), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left panel: Placement on the U-Turn Leg (US n=61)
+    ax_left = fig.add_axes([0.07, 0.17, 0.35, 0.60])
+    ax_left.set_facecolor(PALETTE["bg_white"])
+
+    placements = ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th+"]
+    counts = [1, 1, 2, 12, 12, 10, 8, 9, 6]
+    total_n = sum(counts)
+    pcts = [c / total_n * 100 for c in counts]
+    colors = [
+        PALETTE["teal"],
+        PALETTE["teal"],
+        PALETTE["teal"],
+        PALETTE["slate"],
+        PALETTE["slate"],
+        PALETTE["coral"],
+        PALETTE["coral"],
+        PALETTE["red"],
+        PALETTE["red"],
+    ]
+
+    x = np.arange(len(placements))
+    bars = ax_left.bar(
+        x,
+        pcts,
+        color=colors,
+        width=0.64,
+        edgecolor=PALETTE["dark"],
+        linewidth=1.2,
+        alpha=0.88,
+    )
+
+    for bar, pct, cnt in zip(bars, pcts, counts):
+        ax_left.text(
+            bar.get_x() + bar.get_width() / 2,
+            pct + 0.6,
+            f"{pct:.1f}%\n(n={cnt})",
+            ha="center",
+            va="bottom",
+            fontsize=8,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+
+    ax_left.set_xticks(x)
+    ax_left.set_xticklabels(
+        placements, fontsize=9, fontweight="bold", color=PALETTE["gray_text"]
+    )
+    ax_left.set_ylim(0, 31)
+    ax_left.set_ylabel(
+        "Share of U-Turned Victims (%)",
+        fontsize=10,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+        labelpad=8,
+    )
+    ax_left.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_left.grid(True, axis="y", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_left.set_title(
+        "Victim Placement Distribution (US Seasons 12–38, n=61)",
+        fontsize=11.5,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=12,
+    )
+
+    ax_left.annotate(
+        "49.2% Single-Leg Lethality\n30 of 61 victims eliminated\non their U-Turn leg",
+        xy=(7.0, 17.8),
+        xytext=(6.3, 24.5),
+        arrowprops={"arrowstyle": "->", "color": PALETTE["red"], "lw": 1.3},
+        fontsize=8.2,
+        color=PALETTE["red"],
+        fontweight="bold",
+        ha="center",
+        bbox={
+            "boxstyle": "round,pad=0.3",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["red"],
+            "alpha": 0.95,
+        },
+    )
+
+    ax_left.annotate(
+        "6.6% Podium Recovery\nOnly 4 victims finished\nin the leg Top 3",
+        xy=(1.5, 3.8),
+        xytext=(1.5, 13.5),
+        arrowprops={"arrowstyle": "->", "color": PALETTE["teal"], "lw": 1.3},
+        fontsize=8.2,
+        color=PALETTE["teal"],
+        fontweight="bold",
+        ha="center",
+        bbox={
+            "boxstyle": "round,pad=0.3",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["teal"],
+            "alpha": 0.95,
+        },
+    )
+
+    for spine in ["top", "right"]:
+        ax_left.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_left.spines[spine].set_color(PALETTE["gray_line"])
+
+    # Right panel: Strategic Mechanics, Burn Lethality, & Blind vs Public
+    ax_right = fig.add_axes([0.60, 0.17, 0.36, 0.60])
+    ax_right.set_facecolor(PALETTE["bg_white"])
+
+    categories = [
+        "Intentional Defensive Burn\n(2nd Slot Locked, n=5)",
+        "All Burned 2nd Slot Boards\n(Target Ahead, n=8)",
+        "Blind / Anonymous U-Turn\n(Victim Hazard, n=9)",
+        "Public Board U-Turn\n(Victim Hazard, n=44)",
+        "Live Vote U-Turn\n(Frontrunner Target, n=8)",
+        "Chain U-Turn Cascade\n(Victim Uses 2nd Slot, n=9)",
+    ]
+    elim_rates = [100.0, 87.5, 66.7, 47.7, 37.5, 22.2]
+    counts_lbl = [
+        "5 / 5 elim",
+        "7 / 8 elim",
+        "6 / 9 elim",
+        "21 / 44 elim",
+        "3 / 8 elim",
+        "2 / 9 elim",
+    ]
+    bar_colors = [
+        PALETTE["red"],
+        PALETTE["coral"],
+        PALETTE["coral"],
+        PALETTE["slate"],
+        PALETTE["navy"],
+        PALETTE["teal"],
+    ]
+
+    y = np.arange(len(categories))
+    bars_r = ax_right.barh(
+        y,
+        elim_rates,
+        height=0.55,
+        color=bar_colors,
+        edgecolor=PALETTE["dark"],
+        linewidth=1.2,
+        alpha=0.88,
+    )
+
+    for bar, pct, lbl in zip(bars_r, elim_rates, counts_lbl):
+        ax_right.text(
+            pct + 1.5,
+            bar.get_y() + bar.get_height() / 2,
+            f"{pct:.1f}% ({lbl})",
+            va="center",
+            fontsize=8.3,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+
+    ax_right.set_yticks(y)
+    ax_right.set_yticklabels(
+        categories, fontsize=9, fontweight="bold", color=PALETTE["gray_text"]
+    )
+    ax_right.set_xlim(0, 145)
+    ax_right.set_xlabel(
+        "Single-Leg Victim Elimination Rate (%)",
+        fontsize=10,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+        labelpad=8,
+    )
+    ax_right.tick_params(colors=PALETTE["gray_text"], labelsize=9)
+    ax_right.grid(True, axis="x", linestyle=":", color=PALETTE["gray_line"], alpha=0.6)
+    ax_right.set_title(
+        "Strategic Board Mechanics & Lethality by Mode",
+        fontsize=11.5,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=12,
+    )
+    ax_right.invert_yaxis()
+
+    inset_text = (
+        "Retaliation & Conversion:\n"
+        "• Public vs. Blind Retal: 18.2% vs. 11.1%\n"
+        "• Chain Cascade Survival: 77.8% (7/9)\n"
+        "• Survivors avg +4.10 subsequent legs\n"
+        "• 24.6% Final Podium (15/61 victims)\n"
+        "• 6.6% Won Race (4/61): S24, S30, S31, S38"
+    )
+    ax_right.text(
+        0.98,
+        0.02,
+        inset_text,
+        transform=ax_right.transAxes,
+        fontsize=7.6,
+        ha="right",
+        va="bottom",
+        color=PALETTE["dark"],
+        bbox={
+            "boxstyle": "round,pad=0.45",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["yellow"],
+            "linewidth": 1.4,
+        },
+    )
+
+    for spine in ["top", "right"]:
+        ax_right.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_right.spines[spine].set_color(PALETTE["gray_line"])
+
+    fig.text(
+        0.08,
+        0.94,
+        "U-Turn Lethality, Retaliation Dynamics & Defensive Burn Strategy",
+        fontsize=20,
+        fontweight="bold",
+        color=PALETTE["dark"],
+    )
+    fig.text(
+        0.08,
+        0.90,
+        "Empirical analysis of 61 US U-Turn victims (91 franchise-wide): 49.2% single-leg elimination rate, 6.6% leg podium recovery,\n100% lethality when allies defensively burn the second slot vs. 77.8% survival when victims chain-U-Turn a trailing team",
+        fontsize=10.2,
+        color=PALETTE["gray_text"],
+    )
+
+    callout = patches.FancyBboxPatch(
+        (0.08, 0.04),
+        0.88,
+        0.05,
+        boxstyle="round,pad=0.015",
+        facecolor=PALETTE["bg_card"],
+        edgecolor=PALETTE["yellow"],
+        linewidth=1.5,
+    )
+    fig.patches.append(callout)
+    fig.text(
+        0.52,
+        0.065,
+        "Defensive Burn Mastery: Locking the second Double U-Turn slot on a team ahead (originated by Trey & Lexi, S21) has achieved a 100% (5/5) elimination rate against primary targets.",
+        fontsize=8.3,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(
+        0.08,
+        0.015,
+        "Data: 61 US U-Turn victims (91 across US, CAN, & AUS) | the-amazing-race package",
+        fontsize=8,
+        color="#8E9AA7",
+    )
+
+    out_file = output_dir / "uturn_dynamics.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
 def generate_continents_chart(output_dir: Path) -> None:
     """Generate continents.png: Destination continents and routing shifts over eras."""
     print("Generating continents.png...")
@@ -1538,6 +1805,7 @@ def main() -> None:
     generate_roadblock_types_chart(output_dir)
     generate_express_pass_chart(output_dir)
     generate_speedbump_chart(output_dir)
+    generate_uturn_chart(output_dir)
     generate_continents_chart(output_dir)
     generate_hex_badge(output_dir)
     generate_square_and_backgrounds(output_dir)
