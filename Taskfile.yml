@@ -301,7 +301,7 @@ tasks:
   docker:build:
     desc: Build the Amazing Race dashboard Docker container image
     cmds:
-      - docker build -t the-amazing-race:latest .
+      - docker build --load -t the-amazing-race:latest .
 
   docker:run:
     desc: Run the Amazing Race dashboard Docker container image

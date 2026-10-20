@@ -5,11 +5,17 @@ from __future__ import annotations
 import json
 import logging
 from pathlib import Path
+from typing import Any
 
 import pandas as pd
 import streamlit as st
 
 from tar_dataset.processors.builder import DatasetBuilder
+from tar_dataset.processors.detour_analysis import DetourAnalyzer
+from tar_dataset.processors.fastforward_analysis import FastForwardAnalyzer
+from tar_dataset.processors.leg1_analysis import Leg1Analyzer
+from tar_dataset.processors.speedbump_analysis import SpeedBumpAnalyzer
+from tar_dataset.processors.uturn_analysis import UTurnAnalyzer
 
 logger = logging.getLogger(__name__)
 
@@ -125,3 +131,19 @@ def load_all_datasets(
         logger.warning("Failed appending in-progress seasons: %s", err)
 
     return base_datasets
+
+
+@st.cache_data(show_spinner=False)
+def load_empirical_metrics(
+    version: str = "US", data_dir: str | None = None
+) -> dict[str, Any]:
+    """Load cached empirical analyzer metrics for the specified franchise version."""
+    resolved_dir = Path(data_dir) if data_dir else _get_data_dir()
+    ver = version.upper()
+    return {
+        "speedbump": SpeedBumpAnalyzer(data_dir=resolved_dir).analyze(version=ver),
+        "uturn": UTurnAnalyzer(data_dir=resolved_dir).analyze(version=ver),
+        "fastforward": FastForwardAnalyzer(data_dir=resolved_dir).analyze(version=ver),
+        "leg1": Leg1Analyzer(data_dir=resolved_dir).analyze(version=ver),
+        "detour": DetourAnalyzer(data_dir=resolved_dir).analyze(version=ver),
+    }

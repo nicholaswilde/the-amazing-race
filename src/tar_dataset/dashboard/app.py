@@ -14,6 +14,7 @@ if _SRC_DIR not in sys.path:
 
 from tar_dataset.dashboard.data import load_all_datasets
 from tar_dataset.dashboard.views.challenge_browser import render_challenge_browser
+from tar_dataset.dashboard.views.exploratory_analysis import render_exploratory_analysis
 from tar_dataset.dashboard.views.predictor_view import render_predictor_view
 from tar_dataset.dashboard.views.season_explorer import render_season_explorer
 
@@ -94,6 +95,7 @@ def main() -> None:
             "🗺️ Season Explorer",
             "🔮 Interactive Predictor",
             "🧩 Challenge Browser",
+            "📈 Exploratory Analysis",
         ],
         index=0,
     )
@@ -119,6 +121,8 @@ def main() -> None:
         render_predictor_view(datasets)
     elif nav_selection == "🧩 Challenge Browser":
         render_challenge_browser(datasets)
+    elif nav_selection == "📈 Exploratory Analysis":
+        render_exploratory_analysis(datasets)
 
 
 if __name__ == "__main__":

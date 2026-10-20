@@ -68,7 +68,7 @@ def render_season_explorer(datasets: dict[str, pd.DataFrame]) -> None:
 
     m1, m2, m3, m4, m5 = st.columns(5)
     with m1:
-        winners_str = "Active / In Progress" if is_in_progress else str(raw_winners)
+        winners_str = "In Progress" if is_in_progress else str(raw_winners)
         st.metric("Winners", winners_str)
     with m2:
         st.metric("Teams", int(s_row.get("n_teams", len(s_teams))))
@@ -117,7 +117,11 @@ def render_season_explorer(datasets: dict[str, pd.DataFrame]) -> None:
                 alt.Chart(plot_df)
                 .mark_line(point=True)
                 .encode(
-                    x=alt.X("leg_number:O", title="Leg Number"),
+                    x=alt.X(
+                        "leg_number:O",
+                        title="Leg Number",
+                        axis=alt.Axis(labelAngle=0),
+                    ),
                     y=alt.Y(
                         "placement:Q",
                         title="Placement (1st at Top)",
@@ -257,7 +261,11 @@ def render_season_explorer(datasets: dict[str, pd.DataFrame]) -> None:
                     alt.Chart(s_episodes.dropna(subset=["viewers_millions"]))
                     .mark_line(point=True)
                     .encode(
-                        x=alt.X("episode:O", title="Episode"),
+                        x=alt.X(
+                            "episode:O",
+                            title="Episode",
+                            axis=alt.Axis(labelAngle=0),
+                        ),
                         y=alt.Y("viewers_millions:Q", title="Viewers (Millions)"),
                         tooltip=["episode", "title", "viewers_millions", "air_date"],
                     )

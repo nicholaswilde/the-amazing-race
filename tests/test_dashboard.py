@@ -10,8 +10,14 @@ import pandas as pd
 from typer.testing import CliRunner
 
 from tar_dataset.cli import app
-from tar_dataset.dashboard.data import _get_data_dir, load_all_datasets, load_table
+from tar_dataset.dashboard.data import (
+    _get_data_dir,
+    load_all_datasets,
+    load_empirical_metrics,
+    load_table,
+)
 from tar_dataset.dashboard.views.challenge_browser import render_challenge_browser
+from tar_dataset.dashboard.views.exploratory_analysis import render_exploratory_analysis
 from tar_dataset.dashboard.views.predictor_view import (
     _render_custom_team_simulator,
     _render_season_forecast,
@@ -411,6 +417,50 @@ def test_app_main_navigation_other_views():
     ):
         main()
         mock_browser.assert_called_once()
+
+    with (
+        patch("streamlit.set_page_config"),
+        patch(
+            "tar_dataset.dashboard.app.load_all_datasets",
+            return_value={"seasons": pd.DataFrame([{"season": 1}])},
+        ),
+        patch("streamlit.sidebar.radio", return_value="📈 Exploratory Analysis"),
+        patch("tar_dataset.dashboard.app.render_exploratory_analysis") as mock_exp,
+    ):
+        main()
+        mock_exp.assert_called_once()
+
+
+def test_exploratory_analysis_render_and_empty():
+    """Test Exploratory Analysis view rendering and empty state handling."""
+    with patch("streamlit.warning") as mock_warning:
+        render_exploratory_analysis({})
+        mock_warning.assert_called_once()
+
+    us_metrics = load_empirical_metrics(version="US")
+    assert set(us_metrics.keys()) == {
+        "speedbump",
+        "uturn",
+        "fastforward",
+        "leg1",
+        "detour",
+    }
+    assert us_metrics["speedbump"].total_instances == 44
+    assert us_metrics["uturn"].total_victims == 61
+    assert us_metrics["fastforward"].total_instances == 54
+    assert us_metrics["leg1"].total_leg1_winners == 41
+    assert us_metrics["detour"].total_detours == 379
+
+    datasets = load_all_datasets(include_in_progress=False)
+    mock_tab = MagicMock()
+    mock_tab.__enter__.return_value = mock_tab
+    with (
+        patch("streamlit.selectbox", return_value="US"),
+        patch("streamlit.tabs", return_value=[mock_tab] * 5),
+        patch("streamlit.altair_chart") as mock_chart,
+    ):
+        render_exploratory_analysis(datasets)
+        assert mock_chart.call_count >= 8
 
 
 def test_predictor_forecast_error_and_empty():

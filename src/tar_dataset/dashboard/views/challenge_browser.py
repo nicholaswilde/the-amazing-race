@@ -110,7 +110,7 @@ def render_challenge_browser(datasets: dict[str, pd.DataFrame]) -> None:
             alt.Chart(counts_by_season)
             .mark_bar()
             .encode(
-                x=alt.X("season:O", title="Season"),
+                x=alt.X("season:O", title="Season", axis=alt.Axis(labelAngle=0)),
                 y=alt.Y("count:Q", title="Number of Tasks"),
                 color=alt.Color(
                     "task_type:N",
@@ -138,7 +138,12 @@ def render_challenge_browser(datasets: dict[str, pd.DataFrame]) -> None:
                 .mark_bar()
                 .encode(
                     x=alt.X("roadblocks_completed:Q", title="Roadblocks Completed"),
-                    y=alt.Y("name:N", sort="-x", title="Contestant"),
+                    y=alt.Y(
+                        "name:N",
+                        sort="-x",
+                        title="Contestant",
+                        axis=alt.Axis(labelLimit=180),
+                    ),
                     color=alt.Color(
                         "season:O", title="Season", scale=alt.Scale(scheme="blues")
                     ),
