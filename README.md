@@ -222,6 +222,32 @@ Empirical evaluation of the long-standing fan hypothesis regarding the "First Le
   - **US (`n=431` completed teams)**: Leg 1 placement correlates strongly with final season standing (**Pearson `r = 0.4102`**, OLS regression: `final_result = 0.4149 * leg1_placement + 3.6772`). Teams finishing Leg 1 in the Back-Pack (8th+) win the season only **4.4%** of the time (7 of 158) and suffer an Early Exit (8th+) **57.0%** of the time (90 of 158).
   - **International Consistency (`ALL`, `n=623` completed teams)**: Across all 623 completed teams (635 total teams), Leg 1 placement maintains **Pearson `r = 0.4055`** (`final_result = 0.4247 * leg1_placement + 3.6425`), with **Canada (`CAN`, `n=103`)** exhibiting `r = 0.4959` (**20.0%** champion, **50.0%** podium among 10 Leg 1 winners) and **Australia (`AUS`, `n=89`)** exhibiting `r = 0.3147` (**12.5%** champion, **50.0%** podium among 8 Leg 1 winners).
 
+### Detour Branch Switching Penalties, Task Archetypes & Sunk-Cost Thresholds
+
+Empirical analysis of 1,110 Detour branches across 555 Detours (758 US branches across 379 US Detours) and 3,563 non-finale Detour team-legs (2,499 US) evaluating task archetype selection, 100%-avoided branches, mid-leg branch switching / bottleneck drops, forced dual-branch U-Turn penalties, and the sunk-cost survival curve:
+
+<p align="center">
+  <img src="dev/images/detour_switching.png" width="95%" alt="Detour Branch Switching Penalties, Task Archetypes & Sunk-Cost Thresholds" />
+</p>
+
+- **Task Archetype Distribution & 100%-Avoided Branches (`46` US / `48` Global)**:
+  - **Attention to Detail / Puzzle (`32.7%` US / `34.8%` Global, 248 US / 386 Global branches)**: The most common Detour archetype (assembly, replication, counting, sorting) has a low **3.6%** complete-avoidance rate (9 US branches unchosen; 2.6% globally).
+  - **Physical / Brute Force (`25.5%` US / `23.2%` Global, 193 US / 257 Global branches)**: Heavy hauling, long hikes, and endurance labor exhibit a **7.3%** US complete-avoidance rate (14 US branches where zero teams completed the slow/grueling option when paired against a faster alternative).
+  - **Searching / Needle-in-Haystack (`19.9%` US / `19.1%` Global, 151 US / 212 Global branches)**: High-variance unbounded search tasks exhibit a **7.9%** US complete-avoidance rate (12 US branches unchosen) and represent the primary source of voluntary mid-leg abandonment and sunk-cost traps.
+  - **Judge / Performance (`11.2%` US / `13.2%` Global, 85 US / 147 Global branches)**: Choreography, singing, and memorization tasks lure teams in with the lowest initial avoidance rate (**2.4%** US / **1.4%** Global), but strict subjective judging frequently creates mid-task bottlenecks.
+  - **Skill / Coordination (`7.1%` US, 9.3% avoided)** & **Thrill / Heights (`3.6%` US, 14.8% avoided)**: High-skill navigation/aiming and extreme height drops polarize selection based on racer phobias and technical proficiency.
+- **Single-Branch Execution vs. Mid-Leg Switch / Bottleneck Collapse vs. Forced Dual-Branch (U-Turn)**:
+  - **Clean Single-Branch Execution ($\Delta \le +2$ positions, `n=2,076` US / `2,945` Global)**: Teams completing their chosen branch cleanly improve their leg placement by an average of **-0.77 positions** (`4.57 -> 3.80` US; `-0.80` globally), facing only a **10.1%** last-place arrival rate and **7.4%** direct elimination rate (7.0% globally).
+  - **Mid-Leg Switch / Bottleneck Drop ($\Delta \ge +3$ positions without U-Turn, `n=363` US / `528` Global)**: Front- and mid-pack teams (entering at mean placement **2.52** US) that bog down and switch Detour branches mid-leg collapse to an average finish of **6.67** (**+4.15 positions lost**), tripling last-place mat arrival to **34.7%** and direct elimination to **23.7%** (**3.2x** the clean single-branch baseline; 24.4% globally).
+  - **Forced Dual-Branch Execution (U-Turn Victim, `n=60` US / `90` Global)**: Teams forced to backtrack and complete both Detour branches drop from **4.12 to 5.83** (**+1.72 positions lost**), suffering a **48.3%** US last-place and direct elimination rate (**6.5x** clean single-branch baseline; 42.2% globally).
+- **The Sunk-Cost Survival Threshold Curve (When Does Failing to Switch Become Fatal?)**:
+  - Tracking top/mid-pack contenders entering a Detour leg outside the bottom 2 (`n=1,773` US / `2,525` Global):
+    - **$\Delta \le 0$ (Hold or Gain Position, `n=907` US)**: **0.9%** last-place arrival, **1.2%** direct elimination (0.9% globally).
+    - **$\Delta = +1$ (1 Team Passes — Optimal Early Switch Cutoff, `n=270` US)**: Cutting losses and switching before losing more than 1 pack position preserves a **97.4% US survival rate** (**2.2%** last-place, **2.6%** eliminated; 1.9% globally).
+    - **$\Delta = +2$ (2 Teams Pass — Sunk-Cost Inflection Point, `n=233` US)**: Waiting until 2 trailing teams pass triggers a **6.6x global / 4.6x US elimination hazard surge** (**19.3%** last-place, **12.0%** eliminated US; 12.6% globally).
+    - **$\Delta = +3$ (3 Teams Pass — Switch Danger Zone, `n=160` US)**: **25.6%** last-place arrival, **15.0%** eliminated US (18.5% globally).
+    - **$\Delta = +4$ to $+5+$ (4+ Teams Pass — Fatal Sunk-Cost Trap, `n=203` US)**: Once 4 or more teams pass a bogged-down contender at a Detour, last-place arrival surges to **39.6%–43.9%** and direct elimination reaches **30.2%–30.8%** US (27.5%–29.4% globally).
+
 ### Global Race Footprint by Continent
 
 All-time leg destinations across 6 continents and the historical evolution of race routing from early global dispersal to modern and post-COVID charter flight routing:

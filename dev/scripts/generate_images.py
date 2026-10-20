@@ -2144,6 +2144,290 @@ def generate_leg1_trajectory_chart(output_dir: Path) -> None:
     print(f"Saved {out_file}")
 
 
+def generate_detour_switching_chart(output_dir: Path) -> None:
+    """Generate detour_switching.png: Detour switching penalties, archetypes, and sunk-cost curve."""
+    print("Generating detour_switching.png...")
+    fig = plt.figure(figsize=(13.5, 8.5), dpi=300)
+    fig.patch.set_facecolor(PALETTE["bg_white"])
+
+    # Left Panel: Single-Branch vs. Mid-Leg Switch vs. Forced Dual-Branch Hazard (US n=2,499)
+    ax_left = fig.add_axes([0.06, 0.17, 0.40, 0.61])
+    ax_left.set_facecolor(PALETTE["bg_white"])
+
+    modes = [
+        "Clean Single-Branch\n(Δ ≤ +2)\n[n = 2,076 | Δ = -0.77]",
+        "Mid-Leg Switch /\nBottleneck (Δ ≥ +3)\n[n = 363 | Δ = +4.15]",
+        "Forced Dual-Branch\n(U-Turn Victim)\n[n = 60 | Δ = +1.72]",
+    ]
+    last_place_us = [10.1, 34.7, 48.3]
+    elim_us = [7.4, 23.7, 48.3]
+    elim_all = [7.0, 24.4, 42.2]
+
+    x_m = np.arange(len(modes))
+    width = 0.34
+
+    bars_lp = ax_left.bar(
+        x_m - width / 2,
+        last_place_us,
+        width=width,
+        color=PALETTE["yellow"],
+        alpha=0.92,
+        edgecolor=PALETTE["dark"],
+        linewidth=0.8,
+        label="Last-Place Mat Arrival (US)",
+    )
+    bars_el = ax_left.bar(
+        x_m + width / 2,
+        elim_us,
+        width=width,
+        color=PALETTE["coral"],
+        alpha=0.92,
+        edgecolor=PALETTE["dark"],
+        linewidth=0.8,
+        label="Direct Elimination Rate (US)",
+    )
+
+    for bar, val in zip(bars_lp, last_place_us):
+        ax_left.text(
+            bar.get_x() + bar.get_width() / 2,
+            val + 1.2,
+            f"{val:.1f}%",
+            ha="center",
+            va="bottom",
+            fontsize=9,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+    for bar, val, gl_val in zip(bars_el, elim_us, elim_all):
+        ax_left.text(
+            bar.get_x() + bar.get_width() / 2,
+            val + 1.2,
+            f"{val:.1f}%\n(All: {gl_val:.1f}%)",
+            ha="center",
+            va="bottom",
+            fontsize=8,
+            fontweight="bold",
+            color=PALETTE["coral"],
+        )
+
+    ax_left.set_xticks(x_m)
+    ax_left.set_xticklabels(modes, fontsize=8.8, fontweight="bold", color=PALETTE["dark"])
+    ax_left.set_ylim(0, 76)
+    ax_left.set_ylabel(
+        "Hazard Rate on Detour Leg (%)",
+        fontsize=10.5,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+    )
+    ax_left.set_title(
+        "Single-Branch vs. Switch / Bottleneck & Dual-Branch Penalty",
+        fontsize=12.0,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=12,
+    )
+    ax_left.grid(True, axis="y", linestyle=":", color=PALETTE["gray_line"], alpha=0.7)
+    ax_left.legend(loc="upper left", frameon=True, facecolor=PALETTE["bg_card"], fontsize=8.5)
+
+    arch_box = (
+        "Detour Branch Archetypes (758 US / 1,110 Global):\n"
+        "• Attention to Detail / Puzzle: 32.7% (3.6% 100%-avoided)\n"
+        "• Physical / Brute Force: 25.5% (7.3% 100%-avoided)\n"
+        "• Searching / Needle-in-Haystack: 19.9% (7.9% 100%-avoided)\n"
+        "• Judge / Performance: 11.2% (2.4% 100%-avoided)\n"
+        "• Skill / Coordination (7.1%) & Thrill / Heights (3.6%)"
+    )
+    ax_left.text(
+        0.03,
+        0.59,
+        arch_box,
+        transform=ax_left.transAxes,
+        fontsize=7.6,
+        va="bottom",
+        ha="left",
+        color=PALETTE["dark"],
+        bbox={
+            "boxstyle": "round,pad=0.45",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["teal"],
+            "linewidth": 1.2,
+        },
+    )
+
+    for spine in ["top", "right"]:
+        ax_left.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_left.spines[spine].set_color(PALETTE["gray_line"])
+
+    # Right Panel: Sunk-Cost Survival Threshold Curve by Positions Lost
+    ax_right = fig.add_axes([0.54, 0.17, 0.42, 0.61])
+    ax_right.set_facecolor(PALETTE["bg_white"])
+
+    buckets = [
+        "≤ 0\n(Hold/Gain)",
+        "+1 Spot\n(Early Switch)",
+        "+2 Spots\n(Inflection)",
+        "+3 Spots\n(Switch Zone)",
+        "+4 Spots\n(Late Switch)",
+        "+5+ Spots\n(Sunk Trap)",
+    ]
+    sc_lp_us = [0.9, 2.2, 19.3, 25.6, 39.6, 43.9]
+    sc_el_us = [1.2, 2.6, 12.0, 15.0, 30.2, 30.8]
+    sc_el_all = [0.9, 1.9, 12.6, 18.5, 27.5, 29.4]
+    x_sc = np.arange(len(buckets))
+
+    # Shaded Sunk-Cost Trap zone (from +2 onward)
+    ax_right.axvspan(1.5, 5.3, color=PALETTE["coral"], alpha=0.08, label="Sunk-Cost Escalation Zone (Δ ≥ +2)")
+    ax_right.axvline(1.5, color=PALETTE["coral"], linestyle="--", linewidth=1.4, alpha=0.8)
+
+    ax_right.plot(
+        x_sc,
+        sc_lp_us,
+        marker="o",
+        markersize=7.5,
+        linewidth=2.6,
+        color=PALETTE["yellow"],
+        label="Last-Place Arrival Rate (US Contenders)",
+    )
+    ax_right.plot(
+        x_sc,
+        sc_el_us,
+        marker="s",
+        markersize=7.5,
+        linewidth=2.6,
+        color=PALETTE["coral"],
+        label="Direct Elimination Rate (US Contenders)",
+    )
+    ax_right.plot(
+        x_sc,
+        sc_el_all,
+        marker="^",
+        markersize=6.0,
+        linewidth=1.8,
+        linestyle=":",
+        color=PALETTE["navy"],
+        label="Direct Elimination Rate (All Franchises, n=2,525)",
+    )
+
+    lp_offsets = [3.2, 3.2, 2.0, 2.0, 2.0, 2.0]
+    el_y_positions = [-1.4, -1.4, 8.8, 11.8, 24.3, 25.8]
+    for i, (lp_v, el_v, lp_off, el_pos) in enumerate(
+        zip(sc_lp_us, sc_el_us, lp_offsets, el_y_positions)
+    ):
+        ax_right.text(
+            i,
+            lp_v + lp_off,
+            f"{lp_v:.1f}%",
+            ha="center",
+            va="bottom",
+            fontsize=8.3,
+            fontweight="bold",
+            color=PALETTE["dark"],
+        )
+        ax_right.text(
+            i,
+            el_pos,
+            f"{el_v:.1f}%",
+            ha="center",
+            va="top",
+            fontsize=8.3,
+            fontweight="bold",
+            color=PALETTE["coral"],
+        )
+
+    ax_right.annotate(
+        "Optimal Switch Cutoff (Δ ≤ +1)\n97.4% US Survival Rate\nbefore pack passes",
+        xy=(1.0, 2.8),
+        xytext=(0.12, 27.0),
+        fontsize=8.2,
+        fontweight="bold",
+        color=PALETTE["teal"],
+        arrowprops={"arrowstyle": "->", "color": PALETTE["teal"], "lw": 1.4},
+        bbox={
+            "boxstyle": "round,pad=0.4",
+            "facecolor": PALETTE["bg_card"],
+            "edgecolor": PALETTE["teal"],
+            "linewidth": 1.1,
+        },
+    )
+
+    ax_right.set_xticks(x_sc)
+    ax_right.set_xticklabels(buckets, fontsize=8.5, fontweight="bold", color=PALETTE["dark"])
+    ax_right.set_xlim(-0.35, 5.35)
+    ax_right.set_ylim(-4.5, 53)
+    ax_right.set_ylabel(
+        "Contender Hazard Rate (%)",
+        fontsize=10.5,
+        fontweight="bold",
+        color=PALETTE["gray_text"],
+    )
+    ax_right.set_title(
+        "Sunk-Cost Survival Threshold Curve by Positions Lost (Δ)",
+        fontsize=12.0,
+        fontweight="bold",
+        color=PALETTE["dark"],
+        pad=12,
+    )
+    ax_right.grid(True, linestyle=":", color=PALETTE["gray_line"], alpha=0.7)
+    ax_right.legend(loc="upper left", frameon=True, facecolor=PALETTE["bg_card"], fontsize=8.0)
+
+    for spine in ["top", "right"]:
+        ax_right.spines[spine].set_visible(False)
+    for spine in ["left", "bottom"]:
+        ax_right.spines[spine].set_color(PALETTE["gray_line"])
+
+    # Title & Subtitle
+    fig.text(
+        0.06,
+        0.94,
+        "Detour Branch Switching Penalties, Task Archetypes & Sunk-Cost Thresholds",
+        fontsize=19.5,
+        fontweight="bold",
+        color=PALETTE["dark"],
+    )
+    fig.text(
+        0.06,
+        0.90,
+        "Empirical analysis of 1,110 Detour branches (555 Detours) & 3,563 team-legs (2,499 US): mid-leg bottleneck drops (Δ ≥ +3) triple elimination\nhazard (7.4% → 23.7% US), forced dual-branch U-Turns reach 48.3% lethality, and waiting past Δ = +1 triggers a 6.6x sunk-cost hazard surge",
+        fontsize=10.0,
+        color=PALETTE["gray_text"],
+    )
+
+    callout = patches.FancyBboxPatch(
+        (0.06, 0.04),
+        0.90,
+        0.05,
+        boxstyle="round,pad=0.015",
+        facecolor=PALETTE["bg_card"],
+        edgecolor=PALETTE["yellow"],
+        linewidth=1.5,
+    )
+    fig.patches.append(callout)
+    fig.text(
+        0.51,
+        0.065,
+        "The Sunk-Cost Rule: Contenders who switch out of a failing Detour before losing >1 pack spot survive 97.4% of legs;\nletting 2–4+ teams pass while bogged down in Needle-in-Haystack or Judge tasks spikes elimination risk to 12.0%–30.8%.",
+        fontsize=8.2,
+        ha="center",
+        va="center",
+        color=PALETTE["gray_text"],
+        style="italic",
+    )
+
+    fig.text(
+        0.06,
+        0.015,
+        "Data: 1,110 Detour branches (758 US) & 3,563 Detour team-legs (2,499 US) across US, CAN, & AUS | the-amazing-race package",
+        fontsize=8,
+        color="#8E9AA7",
+    )
+
+    out_file = output_dir / "detour_switching.png"
+    fig.savefig(out_file, dpi=300, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    print(f"Saved {out_file}")
+
+
 def generate_continents_chart(output_dir: Path) -> None:
     """Generate continents.png: Destination continents and routing shifts over eras."""
     print("Generating continents.png...")
@@ -2489,6 +2773,7 @@ def main() -> None:
     generate_uturn_chart(output_dir)
     generate_fastforward_chart(output_dir)
     generate_leg1_trajectory_chart(output_dir)
+    generate_detour_switching_chart(output_dir)
     generate_continents_chart(output_dir)
     generate_hex_badge(output_dir)
     generate_square_and_backgrounds(output_dir)

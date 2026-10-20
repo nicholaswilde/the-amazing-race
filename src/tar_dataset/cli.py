@@ -1759,5 +1759,126 @@ def leg1_cmd(
         console.print(inst_table)
 
 
+@app.command("detour")
+def detour_cmd(
+    version: str = typer.Option(
+        "US",
+        "--version",
+        "-v",
+        help="Franchise version to analyze (e.g., US, CAN, AUS, ALL).",
+    ),
+    events: bool = typer.Option(
+        False,
+        "--events",
+        "-e",
+        help="List individual Detour mid-leg drop and forced dual-branch events.",
+    ),
+) -> None:
+    """Analyze Detour branch archetypes, switching penalties, and sunk-cost curves."""
+    from tar_dataset.processors.detour_analysis import DetourAnalyzer
+
+    version = version.upper()
+    analyzer = DetourAnalyzer()
+    metrics = analyzer.analyze(version=version)
+
+    if metrics.total_detours == 0 and metrics.total_team_legs == 0:
+        console.print(f"[yellow]No Detour data found for version '{version}'.[/yellow]")
+        return
+
+    summary_text = (
+        f"[bold cyan]Franchise Version:[/bold cyan] {version}\n"
+        f"[bold]Parsed Detours (Branches):[/bold] {metrics.total_detours} ({metrics.total_branches} branches)\n"
+        f"[bold yellow]100% Avoided / Unchosen Branches:[/bold yellow] {metrics.unchosen_branch_count} "
+        f"({metrics.unchosen_branch_rate:.1%})\n"
+        f"[bold]Blind Detours:[/bold] {metrics.blind_detour_count}\n"
+        f"[bold]Detour Team-Legs Analyzed:[/bold] {metrics.total_team_legs}\n\n"
+        f"[bold green]Clean Single-Branch (Δ ≤ +2):[/bold green] n={metrics.clean_single_count} | "
+        f"Mean Δ: {metrics.clean_single_mean_delta:+.2f} | "
+        f"Last Place: {metrics.clean_single_last_place_rate:.1%} | "
+        f"Eliminated: {metrics.clean_single_elim_rate:.1%}\n"
+        f"[bold yellow]Mid-Leg Switch / Bottleneck Drop (Δ ≥ +3):[/bold yellow] n={metrics.voluntary_switch_count} | "
+        f"Mean Δ: {metrics.voluntary_switch_mean_delta:+.2f} | "
+        f"Last Place: {metrics.voluntary_switch_last_place_rate:.1%} | "
+        f"Eliminated: {metrics.voluntary_switch_elim_rate:.1%}\n"
+        f"[bold red]Forced Dual-Branch (U-Turn):[/bold red] n={metrics.forced_dual_count} | "
+        f"Mean Δ: {metrics.forced_dual_mean_delta:+.2f} | "
+        f"Last Place: {metrics.forced_dual_last_place_rate:.1%} | "
+        f"Eliminated: {metrics.forced_dual_elim_rate:.1%}"
+    )
+    console.print(
+        Panel(
+            summary_text,
+            title=f"Detour Branch Switching & Sunk-Cost Analysis ({version})",
+            expand=False,
+        )
+    )
+
+    if metrics.archetype_summary:
+        arch_table = Table(title=f"Detour Task Archetype Distribution ({version})")
+        arch_table.add_column("Archetype", style="bold cyan")
+        arch_table.add_column("Branches", justify="right")
+        arch_table.add_column("Share", justify="right")
+        arch_table.add_column("100% Avoided", justify="right", style="yellow")
+        arch_table.add_column("Avoidance Rate", justify="right", style="bold yellow")
+        for arch, stats in metrics.archetype_summary.items():
+            arch_table.add_row(
+                arch,
+                str(stats["branches"]),
+                f"{float(stats['pct_of_all']):.1%}",
+                str(stats["unchosen_count"]),
+                f"{float(stats['unchosen_rate']):.1%}",
+            )
+        console.print(arch_table)
+
+    if metrics.sunk_cost_curve:
+        sc_table = Table(
+            title=f"Sunk-Cost Survival Threshold Curve for Contenders ({version})"
+        )
+        sc_table.add_column("Positions Lost on Detour Leg (Δ)", style="bold white")
+        sc_table.add_column("Team-Legs", justify="right")
+        sc_table.add_column("Last-Place Arrival", justify="right", style="yellow")
+        sc_table.add_column("Elimination Rate", justify="right", style="bold red")
+        for bucket, bstats in metrics.sunk_cost_curve.items():
+            sc_table.add_row(
+                bucket,
+                str(bstats["count"]),
+                f"{float(bstats['last_place_rate']):.1%}",
+                f"{float(bstats['elim_rate']):.1%}",
+            )
+        console.print(sc_table)
+
+    if events and metrics.switch_events:
+        ev_table = Table(
+            title=f"Detour Switch / Bottleneck & Dual-Branch Events ({version}, Top 40)"
+        )
+        ev_table.add_column("Ver", style="cyan")
+        ev_table.add_column("S", justify="right")
+        ev_table.add_column("Leg", justify="right")
+        ev_table.add_column("Team", style="bold white")
+        ev_table.add_column("Mode", style="yellow")
+        ev_table.add_column("Prev→Curr (Δ)", justify="right")
+        ev_table.add_column("Outcome", justify="center")
+        for ev in metrics.switch_events[:40]:
+            out_str = (
+                "[red]Eliminated[/red]"
+                if ev.is_eliminated
+                else (
+                    "[yellow]NEL Saved[/yellow]"
+                    if ev.is_last_place
+                    else "[green]Survived[/green]"
+                )
+            )
+            ev_table.add_row(
+                ev.version,
+                str(ev.season),
+                str(ev.leg_number),
+                ev.team_name,
+                ev.execution_mode,
+                f"{ev.prev_placement}→{ev.placement} ({ev.placement_delta:+d})",
+                out_str,
+            )
+        console.print(ev_table)
+
+
 if __name__ == "__main__":
     app()

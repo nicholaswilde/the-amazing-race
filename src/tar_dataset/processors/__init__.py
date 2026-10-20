@@ -1,6 +1,12 @@
 """Processors module for dataset construction and validation."""
 
 from tar_dataset.processors.builder import DatasetBuilder
+from tar_dataset.processors.detour_analysis import (
+    DetourAnalyzer,
+    DetourBranchInstance,
+    DetourMetrics,
+    DetourSwitchEvent,
+)
 from tar_dataset.processors.fastforward_analysis import (
     FastForwardAnalyzer,
     FastForwardInstance,
@@ -27,6 +33,10 @@ from tar_dataset.processors.validator import DatasetValidator
 __all__ = [
     "DatasetBuilder",
     "DatasetValidator",
+    "DetourAnalyzer",
+    "DetourBranchInstance",
+    "DetourMetrics",
+    "DetourSwitchEvent",
     "FastForwardAnalyzer",
     "FastForwardInstance",
     "FastForwardMetrics",
