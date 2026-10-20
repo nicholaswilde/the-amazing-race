@@ -58,10 +58,13 @@ def test_dashboard_data_loading(tmp_path):
     assert not loaded_csv.empty
     assert loaded_csv["season"].iloc[0] == 2
 
-    # Test load_all_datasets with tmp_path
-    all_dfs = load_all_datasets(data_dir=str(tmp_path))
+    # Test load_all_datasets with tmp_path and version-keyed cache
+    all_dfs = load_all_datasets(data_dir=str(tmp_path), app_version="0.7.0")
     assert "seasons" in all_dfs
     assert "teams" in all_dfs
+
+    all_dfs_v2 = load_all_datasets(data_dir=str(tmp_path), app_version="0.8.0")
+    assert "seasons" in all_dfs_v2
 
 
 def test_get_data_dir_resolution():

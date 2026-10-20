@@ -63,7 +63,7 @@ echo "Target version:  $NEW_TAG"
 echo "Running pre-release validation (task check)..."
 task check
 
-echo "Validation passed. Bumping pyproject.toml and r/DESCRIPTION..."
+echo "Validation passed. Bumping version in package files..."
 python3 - <<EOF
 import re
 from pathlib import Path
@@ -76,6 +76,13 @@ if pyproject.exists():
     content = pyproject.read_text(encoding="utf-8")
     new_content = re.sub(r'version\s*=\s*"[^"]+"', f'version = "{ver}"', content, count=1)
     pyproject.write_text(new_content, encoding="utf-8")
+
+# Update src/tar_dataset/__init__.py
+init_file = Path("src/tar_dataset/__init__.py")
+if init_file.exists():
+    content = init_file.read_text(encoding="utf-8")
+    new_content = re.sub(r'__version__\s*=\s*"[^"]+"', f'__version__ = "{ver}"', content, count=1)
+    init_file.write_text(new_content, encoding="utf-8")
 
 # Update r/DESCRIPTION
 desc = Path("r/DESCRIPTION")
@@ -93,10 +100,25 @@ if cff.exists():
     content = re.sub(r'^version:\s*[^\n\r]+', f'version: {ver}', content, count=1, flags=re.MULTILINE)
     content = re.sub(r'^date-released:\s*[^\n\r]+', f'date-released: "{today}"', content, count=1, flags=re.MULTILINE)
     cff.write_text(content, encoding="utf-8")
+
+# Update requirements.txt to trigger Streamlit Community Cloud rebuild on release
+req = Path("requirements.txt")
+if req.exists():
+    content = req.read_text(encoding="utf-8")
+    if "# Streamlit Community Cloud requirements" in content:
+        new_content = re.sub(
+            r'# Streamlit Community Cloud requirements.*',
+            f'# Streamlit Community Cloud requirements (Release v{ver})',
+            content,
+            count=1,
+        )
+    else:
+        new_content = f'# Streamlit Community Cloud requirements (Release v{ver})\n' + content
+    req.write_text(new_content, encoding="utf-8")
 EOF
 
 uv lock
-git add pyproject.toml r/DESCRIPTION CITATION.cff uv.lock
+git add pyproject.toml src/tar_dataset/__init__.py r/DESCRIPTION CITATION.cff requirements.txt uv.lock
 if ! git diff --cached --quiet; then
     git commit -m "chore(release): bump version to $NEW_TAG"
 fi

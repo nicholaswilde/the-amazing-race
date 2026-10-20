@@ -10,6 +10,7 @@ from typing import Any
 import pandas as pd
 import streamlit as st
 
+from tar_dataset import __version__
 from tar_dataset.processors.builder import DatasetBuilder
 from tar_dataset.processors.detour_analysis import DetourAnalyzer
 from tar_dataset.processors.fastforward_analysis import FastForwardAnalyzer
@@ -58,11 +59,12 @@ def load_table(name: str, data_dir: Path | str | None = None) -> pd.DataFrame:
     return pd.DataFrame()
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(ttl="2h", show_spinner=False)
 def load_all_datasets(
     data_dir: str | None = None,
     raw_dir: str | None = None,
     include_in_progress: bool = True,
+    app_version: str = __version__,
 ) -> dict[str, pd.DataFrame]:
     """Load all processed dataset tables, appending in-progress seasons if found."""
     resolved_dir = Path(data_dir) if data_dir else _get_data_dir()
@@ -133,9 +135,11 @@ def load_all_datasets(
     return base_datasets
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(ttl="2h", show_spinner=False)
 def load_empirical_metrics(
-    version: str = "US", data_dir: str | None = None
+    version: str = "US",
+    data_dir: str | None = None,
+    app_version: str = __version__,
 ) -> dict[str, Any]:
     """Load cached empirical analyzer metrics for the specified franchise version."""
     resolved_dir = Path(data_dir) if data_dir else _get_data_dir()
