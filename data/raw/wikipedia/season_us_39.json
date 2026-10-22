@@ -3,15 +3,15 @@
   "season": 39,
   "wiki_title": "The_Amazing_Race_39",
   "wiki_url": "https://en.wikipedia.org/wiki/The_Amazing_Race_39",
-  "wiki_revid": 1380752825,
-  "wiki_timestamp": "2026-10-17T17:20:02Z",
+  "wiki_revid": 1381399916,
+  "wiki_timestamp": "2026-10-22T05:27:05Z",
   "infobox": {
     "n_teams": 13,
     "n_legs": 12,
     "distance_raw": "25,000 mi (40,000 km)",
     "distance_miles": 25000.0,
     "distance_km": 40000.0,
-    "n_episodes": 4,
+    "n_episodes": 5,
     "air_dates": "September 30, 2026 (2026-09-30) \u2013present",
     "filming_dates": "September 22 (2025-09-22) \u2013October 17, 2025 (2025-10-17)"
   },
@@ -73,6 +73,20 @@
       "status": "Eliminated 4th (in Marrakesh, Morocco)"
     },
     {
+      "name": "Dafina Dunmore",
+      "age": 52,
+      "relationship": "Sisters/Best Friends",
+      "hometown": "Chicago, Illinois",
+      "status": "Eliminated 5th (in Tirana, Albania)"
+    },
+    {
+      "name": "Saran Dunmore",
+      "age": 51,
+      "relationship": "Sisters/Best Friends",
+      "hometown": "Chicago, Illinois",
+      "status": "Eliminated 5th (in Tirana, Albania)"
+    },
+    {
       "name": "Ali Krieger",
       "age": 42,
       "relationship": "Pro Athletes/Moms",
@@ -126,20 +140,6 @@
       "age": 27,
       "relationship": "Childhood Friends",
       "hometown": "Rocklin, California",
-      "status": "Participating"
-    },
-    {
-      "name": "Dafina Dunmore",
-      "age": 52,
-      "relationship": "Sisters/Best Friends",
-      "hometown": "Chicago, Illinois",
-      "status": "Participating"
-    },
-    {
-      "name": "Saran Dunmore",
-      "age": 51,
-      "relationship": "Sisters/Best Friends",
-      "hometown": "Chicago, Illinois",
       "status": "Participating"
     },
     {
@@ -245,217 +245,7 @@
         },
         {
           "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Anuar & Andrea",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "6th",
-          "placement": 6,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "8th",
-          "placement": 8,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "2nd \u025b",
-          "placement": 2,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "2nd",
-          "placement": 2,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Erin & Javi",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "1st \u025b",
+          "raw_cell": "1st",
           "placement": 1,
           "is_non_elimination": false,
           "fast_forward": false,
@@ -464,47 +254,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "2",
-          "raw_cell": "7th",
-          "placement": 7,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "8th",
-          "placement": 8,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "3rd",
-          "placement": 3,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -620,8 +370,8 @@
         },
         {
           "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
+          "raw_cell": "2nd",
+          "placement": 2,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -629,7 +379,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -745,8 +495,8 @@
         },
         {
           "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
+          "raw_cell": "3rd",
+          "placement": 3,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -754,132 +504,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Dafina & Saran",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "9th \u025b",
-          "placement": 9,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "11th",
-          "placement": 11,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "7th",
-          "placement": 7,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "6th \u03b1",
-          "placement": 6,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -995,8 +620,8 @@
         },
         {
           "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
+          "raw_cell": "4th",
+          "placement": 4,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -1004,7 +629,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -1120,8 +745,8 @@
         },
         {
           "leg_label": "5",
-          "raw_cell": "",
-          "placement": null,
+          "raw_cell": "5th \u025b",
+          "placement": 5,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -1129,7 +754,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -1245,6 +870,16 @@
         },
         {
           "leg_label": "5",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -1254,7 +889,372 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Anuar & Andrea",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "2nd \u025b",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "2nd",
+          "placement": 2,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Erin & Javi",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "1st \u025b",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6 +",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Dafina & Saran",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "9th \u025b",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "11th",
+          "placement": 11,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "6th \u03b1",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "9th \u2020",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -1379,7 +1379,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -1504,7 +1504,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -1629,7 +1629,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -1754,7 +1754,7 @@
           "speed_bump": false
         },
         {
-          "leg_label": "6",
+          "leg_label": "6 +",
           "raw_cell": "",
           "placement": null,
           "is_non_elimination": false,
@@ -2069,17 +2069,39 @@
       "leg_number": 5,
       "route_header": "Morocco \u2192 Albania",
       "itinerary": [
-        "Tirana, Albania",
-        ""
+        "Marrakesh (Marrakesh Menara Airport) \u2192 Tirana, Albania (Tirana International Airport N\u00ebn\u00eb Tereza)",
+        "Mullet (Turtle Farm Albania)",
+        "Kashar (Instituti i Artit Kulinar Royal)",
+        "Tirana (Bunk'Art 1)",
+        "Tirana (Downtown One)",
+        "Tirana (Skanderbeg Square)"
       ],
-      "narrative": "",
-      "tasks": []
+      "narrative": "At the start of this leg, teams were instructed to fly to Tirana, Albania. Once there, teams had to search outside of the airport for a marked car with their next clue, which directed them to drive to Turtle Farm Albania.",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's first Roadblock, one team member had to harvest grapes and grind them using a manual grape crusher to produce must, used to make raki, to receive their next clue. Ali & Joanna used their Express Pass to bypass this task. Teams encountered a Driver's Seat at the Roadblock, where the first team to arrive at the board determined how many pounds of must racers had to produce. Michelle & Matt took control of the Driver's Seat and publicly assigned 50 pounds to themselves, Ann-Marie & Riley, and Erin & Javi; 75 pounds to Conner & Garrett, Dafina & Saran, and Daisha & Dalton; and 100 pounds to Ali & Joanna, Anuar & Andrea, and Doug & Dylan."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the first Roadblock, teams had to drive to Instituti i Artit Kulinar Royal to find their next clue."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's second Roadblock, one team member had to roll out dough for byrek breakfast pastries to receive their next clue; teams could have the same person do both Roadblocks. Teams encountered a second Driver's Seat at the Roadblock, where the first team to arrive at the board determined how many pastries racers had to roll. Michelle & Matt took control of the Driver's Seat and publicly assigned eight pastries to themselves; twelve pastries to Ann-Marie & Riley, Dafina & Saran, and Doug & Dylan; and sixteen pastries to Ali & Joanna, Anuar & Andrea, Conner & Garrett, Daisha & Dalton, and Erin & Javi."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the second Roadblock, teams had to drive to Bunk'Art 1 to find their next clue. There, teams had to search the bunker for a marked room, listen to a conversation on a cassette player, transcribe every seventh word, and decode the message to reveal a location \u2013 Downtown One \u2013 by choosing the first letter of each word to receive their next clue. Teams then had to drive to Downtown One to find their next clue, which directed them to travel on foot to the Pit Stop: Skanderbeg Square."
+        }
+      ]
     },
     {
       "leg_number": 6,
       "route_header": "Albania",
       "itinerary": [
-        "Tirana"
+        "Tirana",
+        ""
       ],
       "narrative": "",
       "tasks": []

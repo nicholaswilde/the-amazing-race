@@ -264,21 +264,20 @@ All-time leg destinations across 6 continents and the historical evolution of ra
 ## :crystal_ball: Empirical Season Predictions
 
 <!-- TAR_PREDICTIONS_START -->
-### :trophy: Live Empirical Predictions (Season 39 - After Leg 4)
+### :trophy: Live Empirical Predictions (Season 39 - After Leg 5)
 
 Probabilistic forecasts computed via multi-factor log-odds calibrated against 38 historical seasons. See [docs/predictions.md](docs/predictions.md) for full weekly trajectory ledgers and outcome accuracy tracking.
 
 | Rank | Team | Relationship | Avg Age | Avg Place | Express Pass | Win Prob | Finale Prob (Top 3) |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Michelle & Matt** | Married Parents | 34 | 3.0 | Held | **22.1%** | **66.9%** |
-| 2 | **Erin & Javi** | Married | 29 | 4.8 | Used | **19.9%** | **60.7%** |
-| 3 | **Conner & Garrett** | Childhood Friends | 27 | 5.0 | Held | **15.7%** | **49.0%** |
-| 4 | **Daisha & Dalton** | Dating | 28 | 7.8 | Used | **12.0%** | **38.6%** |
-| 5 | **Ali & Joanna** | Pro Athletes/Moms | 43 | 5.5 | Held | **10.2%** | **33.6%** |
-| 6 | **Ann-Marie & Riley** | Mother & Daughter | 42 | 4.8 | Used | **6.9%** | **24.3%** |
-| 7 | **Anuar & Andrea** | Father & Daughter | 42 | 4.5 | Used | **6.6%** | **23.5%** |
-| 8 | **Dafina & Saran** | Sisters/Best Friends | 52 | 8.2 | Used | **3.8%** | **15.6%** |
-| 9 | **Doug & Dylan** | Grandfather & Grandson | 46 | 8.2 | Used | **2.8%** | **12.8%** |
+| 1 | **Michelle & Matt** | Married Parents | 34 | 2.6 | Held | **23.6%** | **71.1%** |
+| 2 | **Erin & Javi** | Married | 29 | 5.4 | Used | **18.6%** | **57.1%** |
+| 3 | **Conner & Garrett** | Childhood Friends | 27 | 4.6 | Held | **16.9%** | **52.3%** |
+| 4 | **Daisha & Dalton** | Dating | 28 | 6.6 | Used | **14.1%** | **44.5%** |
+| 5 | **Ali & Joanna** | Pro Athletes/Moms | 43 | 5.4 | Used | **10.2%** | **33.6%** |
+| 6 | **Ann-Marie & Riley** | Mother & Daughter | 42 | 4.6 | Used | **7.2%** | **25.2%** |
+| 7 | **Anuar & Andrea** | Father & Daughter | 42 | 5.0 | Used | **6.3%** | **22.6%** |
+| 8 | **Doug & Dylan** | Grandfather & Grandson | 46 | 7.8 | Used | **3.0%** | **13.4%** |
 
 > [!NOTE]
 > Predictions update automatically after each broadcast episode via `task ingest:run` or `task predict -- --update-docs`. See [docs/predictions.md](docs/predictions.md) for all historical leg snapshots.
