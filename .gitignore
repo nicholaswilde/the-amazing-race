@@ -229,3 +229,10 @@ __marimo__/
 .serena/logs/
 .serena/project.local.yml
 
+# Agent hygiene
+.agents/*
+!.agents/skills/
+!.agents/rules/
+!.agents/skills_catalog.md
+
+
