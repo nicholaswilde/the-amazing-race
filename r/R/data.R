@@ -26,7 +26,7 @@
 #'
 #' Episode-level broadcast metadata, titles, premiere air dates, and Nielsen television viewership ratings.
 #'
-#' @format A data frame with 669 rows and 6 variables:
+#' @format A data frame with 644 rows and 6 variables:
 #' \describe{
 #'   \item{version}{Franchise country code}
 #'   \item{season}{Season number (integer)}
