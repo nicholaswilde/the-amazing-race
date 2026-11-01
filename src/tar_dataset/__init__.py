@@ -1,3 +1,3 @@
 """The Amazing Race Dataset and Scraper Package."""
 
-__version__ = "0.7.2"
+__version__ = "0.7.3"
