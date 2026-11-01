@@ -48,7 +48,7 @@ DIAGNOSIS_HINTS: dict[tuple[str, str], str] = {
         "Off-mat eliminations, disqualifications, or unaired leg outcomes."
     ),
     ("episodes", "viewers_millions"): (
-        "Recent broadcast episodes where Nielsen ratings or DVR metrics are pending (TBD)."
+        "Non-competition recap special (CAN S4E08 'Top 20 Moments') aired opposite Rio 2016 Olympics; Numeris rank >30 (unreported)."
     ),
     ("contestants", "gender"): (
         "Contestant gender (M, F, NB) backfilled from placement database and relationship heuristics."
@@ -448,6 +448,12 @@ class DatasetGapAuditor:
         )
         lines.append(
             "8. **Season 38 Viewership**: Backfilled episodes 10–12 broadcast ratings from The TV Ratings Guide & USTVDB (100% resolved).\n"
+        )
+        lines.append(
+            "9. **International Viewership & Demographics**: Resolved Australian (S1–S8) episode numbers, air dates, and million-scaled viewership; mapped NZ regions and Australian celebrity hometowns/states; resolved returned-to-competition team relationships and hometowns across CAN S8, AUS S5, and US S33 (100% resolved).\n"
+        )
+        lines.append(
+            "10. **Canadian Season 4 Recap Special**: Documented lone missing cell as CAN S4E08 ('Top 20 Moments' clip show, aired August 16, 2016). Retained as empirical `NaN` per Option A (Numeris rank >30 cutoff; unrated broadcast).\n"
         )
         out.write_text("".join(lines), encoding="utf-8")
         logger.info("Exported dataset gap report to %s", out)

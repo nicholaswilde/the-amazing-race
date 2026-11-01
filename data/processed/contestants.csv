@@ -47,16 +47,16 @@ AUS,3,AUS-S03-01,Inga Lederhaus,27,M,Pageant Models,"Perth, Western Australia",W
 AUS,3,AUS-S03-02,Tiharna McGregor,26,M,Pageant Models,"Perth, Western Australia",WA,AUS,"Eliminated 1st (in Mesopotamia, New Zealand)",0
 AUS,3,AUS-S03-03,Elizabeth Grant,50,M,Mother & Son,"Adelaide, South Australia",SA,AUS,"Eliminated 2nd (in Siem Reap, Cambodia)",0
 AUS,3,AUS-S03-04,Todd Grant,25,M,Mother & Son,"Adelaide, South Australia",SA,AUS,"Eliminated 2nd (in Siem Reap, Cambodia)",0
-AUS,3,AUS-S03-05,Aston Garratt,32,M,Feisty Friends,"Auckland, New Zealand",,NZL,"Eliminated 3rd (in Koh Poda, Thailand)",0
-AUS,3,AUS-S03-06,Christie Orr,35,M,Feisty Friends,"Auckland, New Zealand",,NZL,"Eliminated 3rd (in Koh Poda, Thailand)",0
-AUS,3,AUS-S03-07,Emily Trenberth,24,F,Siblings,"Christchurch, New Zealand",,NZL,"Eliminated 4th (in Khomas Region, Namibia)",0
-AUS,3,AUS-S03-08,Jono Trenberth,26,M,Siblings,"Christchurch, New Zealand",,NZL,"Eliminated 4th (in Khomas Region, Namibia)",0
-AUS,3,AUS-S03-09,John Charles,35,M,Best Mates,"Christchurch, New Zealand",,NZL,"Eliminated 5th (in Kostroma, Russia)",0
-AUS,3,AUS-S03-10,Murray Roeske,35,M,Best Mates,"Wellington, New Zealand",,NZL,"Eliminated 5th (in Kostroma, Russia)",0
-AUS,3,AUS-S03-11,Cat O'Brien,38,M,Foster Parents,"Hamilton, New Zealand",,NZL,"Eliminated 6th (in Dubrovnik, Croatia)",0
-AUS,3,AUS-S03-12,Jesse O'Brien,36,M,Foster Parents,"Hamilton, New Zealand",,NZL,"Eliminated 6th (in Dubrovnik, Croatia)",0
-AUS,3,AUS-S03-13,Carla Beazley,37,M,Fitness Mums,"Tauranga, New Zealand",,NZL,"Eliminated 7th (in Tigre, Argentina)",0
-AUS,3,AUS-S03-14,Hereni Fulton,42,M,Fitness Mums,"Tauranga, New Zealand",,NZL,"Eliminated 7th (in Tigre, Argentina)",0
+AUS,3,AUS-S03-05,Aston Garratt,32,M,Feisty Friends,"Auckland, New Zealand",AUK,NZL,"Eliminated 3rd (in Koh Poda, Thailand)",0
+AUS,3,AUS-S03-06,Christie Orr,35,M,Feisty Friends,"Auckland, New Zealand",AUK,NZL,"Eliminated 3rd (in Koh Poda, Thailand)",0
+AUS,3,AUS-S03-07,Emily Trenberth,24,F,Siblings,"Christchurch, New Zealand",CAN,NZL,"Eliminated 4th (in Khomas Region, Namibia)",0
+AUS,3,AUS-S03-08,Jono Trenberth,26,M,Siblings,"Christchurch, New Zealand",CAN,NZL,"Eliminated 4th (in Khomas Region, Namibia)",0
+AUS,3,AUS-S03-09,John Charles,35,M,Best Mates,"Christchurch, New Zealand",CAN,NZL,"Eliminated 5th (in Kostroma, Russia)",0
+AUS,3,AUS-S03-10,Murray Roeske,35,M,Best Mates,"Wellington, New Zealand",WGN,NZL,"Eliminated 5th (in Kostroma, Russia)",0
+AUS,3,AUS-S03-11,Cat O'Brien,38,M,Foster Parents,"Hamilton, New Zealand",WKO,NZL,"Eliminated 6th (in Dubrovnik, Croatia)",0
+AUS,3,AUS-S03-12,Jesse O'Brien,36,M,Foster Parents,"Hamilton, New Zealand",WKO,NZL,"Eliminated 6th (in Dubrovnik, Croatia)",0
+AUS,3,AUS-S03-13,Carla Beazley,37,M,Fitness Mums,"Tauranga, New Zealand",BOP,NZL,"Eliminated 7th (in Tigre, Argentina)",0
+AUS,3,AUS-S03-14,Hereni Fulton,42,M,Fitness Mums,"Tauranga, New Zealand",BOP,NZL,"Eliminated 7th (in Tigre, Argentina)",0
 AUS,3,AUS-S03-15,Ashleigh Jende,27,M,Newlyweds,"Melbourne, Victoria",VIC,AUS,Third place,0
 AUS,3,AUS-S03-16,Jarrod Jende,28,M,Newlyweds,"Melbourne, Victoria",VIC,AUS,Third place,0
 AUS,3,AUS-S03-17,Sally Yamamoto,33,M,Dating Bodybuilders (Legs 1–6) Engaged Bodybuilders (Legs 6–10),"Perth, Western Australia",WA,AUS,Runners-up,0
@@ -159,50 +159,50 @@ AUS,6,AUS-S06-37,Angel Williams,24,M,Church Friends,"Brisbane , Queensland",QLD,
 AUS,6,AUS-S06-38,Frankie Vaaua,25,M,Church Friends,"Gold Coast, Queensland",QLD,AUS,Runners-up,0
 AUS,6,AUS-S06-39,Heath Curry,33,M,Enduring Love,Melbourne,VIC,AUS,Winners,0
 AUS,6,AUS-S06-40,Toni Hilland,38,M,Enduring Love,Melbourne,VIC,AUS,Winners,0
-AUS,7,AUS-S07-01,Dane Simpson,40,M,Son & dad,Australia,,AUS,"Eliminated 1st (in Delhi, India)",0
-AUS,7,AUS-S07-02,Bow Simpson,69,M,Son & dad,Australia,,AUS,"Eliminated 1st (in Delhi, India)",0
-AUS,7,AUS-S07-03,Grant Denyer,45,M,Husband & wife,Australia,,AUS,"Eliminated 2nd (in Agra, India)",0
-AUS,7,AUS-S07-04,"Cheryl ""Chezzi"" Denyer",43,M,Husband & wife,Australia,,AUS,"Eliminated 2nd (in Agra, India)",0
-AUS,7,AUS-S07-05,Peter Rowsthorn,60,M,Dad & daughter,Australia,,AUS,"Eliminated 3rd (in Langkawi, Malaysia)",0
-AUS,7,AUS-S07-06,Frankie Rowsthorn,20,M,Dad & daughter,Australia,,AUS,"Eliminated 3rd (in Langkawi, Malaysia)",0
-AUS,7,AUS-S07-07,Ben Gillies,43,M,Husband & wife,Australia,,AUS,"Eliminated 4th (in George Town, Malaysia)",0
-AUS,7,AUS-S07-08,Jackie Gillies,42,M,Husband & wife,Australia,,AUS,"Eliminated 4th (in George Town, Malaysia)",0
-AUS,7,AUS-S07-09,George Mladenov,33,M,Siblings,Australia,,AUS,"Eliminated 5th (in George Town, Malaysia)",0
-AUS,7,AUS-S07-10,Pam Mladenov,24,M,Siblings,Australia,,AUS,"Eliminated 5th (in George Town, Malaysia)",0
-AUS,7,AUS-S07-11,"Rebecca ""Bec"" Judd",40,F,Sisters,Australia,,AUS,"Eliminated 6th (in Siem Reap, Cambodia)",0
-AUS,7,AUS-S07-12,Kate Twigley,38,F,Sisters,Australia,,AUS,"Eliminated 6th (in Siem Reap, Cambodia)",0
-AUS,7,AUS-S07-13,Jana Pittman,40,M,Mum & son,Australia,,AUS,"Eliminated 7th (in Siem Reap, Cambodia)",0
-AUS,7,AUS-S07-14,"Cornelis ""Cor"" Rawlinson",16,M,Mum & son,Australia,,AUS,"Eliminated 7th (in Siem Reap, Cambodia)",0
-AUS,7,AUS-S07-15,Harry Jowsey,26,M,Best mates,Australia,,AUS,"Eliminated 8th (in Siburan, Malaysia)",0
-AUS,7,AUS-S07-16,Teddy Briggs,29,M,Best mates,Australia,,AUS,"Eliminated 8th (in Siburan, Malaysia)",0
-AUS,7,AUS-S07-17,Alli Simpson,25,F,Daughter & mum,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
-AUS,7,AUS-S07-18,Angie Simpson,52,F,Daughter & mum,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
-AUS,7,AUS-S07-19,Emma Watkins,33,F,Sisters,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
-AUS,7,AUS-S07-20,Hayley Watkins,34,F,Sisters,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
-AUS,7,AUS-S07-21,Darren McMullen,41,M,Uncle & nephew,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
-AUS,7,AUS-S07-22,Tristan Dougan,26,M,Uncle & nephew,Australia,,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
-AUS,8,AUS-S08-01,Luke McGregor,41,M,Son & Mum,Australia,,AUS,"Eliminated 1st (in Buenos Aires, Argentina)",0
-AUS,8,AUS-S08-02,Julie McGregor,63,M,Son & Mum,Australia,,AUS,"Eliminated 1st (in Buenos Aires, Argentina)",0
-AUS,8,AUS-S08-03,"Natalie ""Nat"" Bassingthwaighte",48,F,Sisters,Australia,,AUS,"Eliminated 2nd (in La Caldera, Argentina)",0
-AUS,8,AUS-S08-04,Mel Sheldrick,50,F,Sisters,Australia,,AUS,"Eliminated 2nd (in La Caldera, Argentina)",0
-AUS,8,AUS-S08-05,Cyrell Paule,35,M,Engaged,Australia,,AUS,"Eliminated 3rd (in Tilcara, Argentina)",0
-AUS,8,AUS-S08-06,Eden Dally,31,M,Engaged,Australia,,AUS,"Eliminated 3rd (in Tilcara, Argentina)",0
-AUS,8,AUS-S08-07,Jett Kenny,30,M,Dating,Australia,,AUS,"Eliminated 4th (in Johannesburg, South Africa)",0
-AUS,8,AUS-S08-08,Lily Brown,26,M,Dating,Australia,,AUS,"Eliminated 4th (in Johannesburg, South Africa)",0
-AUS,8,AUS-S08-09,Havana Brown,39,M,Besties,Australia,,AUS,"Eliminated 5th (in Krugersdorp, South Africa)",0
-AUS,8,AUS-S08-10,Steph Dunstan-Wood,38,M,Besties,Australia,,AUS,"Eliminated 5th (in Krugersdorp, South Africa)",0
-AUS,8,AUS-S08-11,Chloe Logarzo,29,M,Matildas Teammates,Australia,,AUS,"Eliminated 6th (in Dorob National Park, Namibia)",0
-AUS,8,AUS-S08-12,Emily Gielnik,32,F,Matildas Teammates,Australia,,AUS,"Eliminated 6th (in Dorob National Park, Namibia)",0
-AUS,8,AUS-S08-13,"Ian ""Thorpie"" Thorpe",41,M,Mates,Australia,,AUS,"Eliminated 7th (in Usakos, Namibia)",0
-AUS,8,AUS-S08-14,Christian Miranda,38,M,Mates,Australia,,AUS,"Eliminated 7th (in Usakos, Namibia)",0
-AUS,8,AUS-S08-15,Pete Helliar,48,M,Married,Australia,,AUS,"Eliminated 8th (in Phuket, Thailand)",0
-AUS,8,AUS-S08-16,Bridget Helliar,44,M,Married,Australia,,AUS,"Eliminated 8th (in Phuket, Thailand)",0
-AUS,8,AUS-S08-17,Brooke McClymont,43,M,Married Country Singers,Australia,,AUS,Third place,0
-AUS,8,AUS-S08-18,Adam Eckersley,42,M,Married Country Singers,Australia,,AUS,Third place,0
-AUS,8,AUS-S08-19,Billy Brownless,57,M,Dad & Son,Australia,,AUS,Runners-up,0
-AUS,8,AUS-S08-20,Oscar Brownless,24,M,Dad & Son,Australia,,AUS,Runners-up,0
-AUS,8,AUS-S08-21,"Tai ""Bam Bam"" Tuivasa",31,M,Brothers,Australia,,AUS,Winners,0
-AUS,8,AUS-S08-22,Logan Tuivasa,35,M,Brothers,Australia,,AUS,Winners,0
+AUS,7,AUS-S07-01,Dane Simpson,40,M,Son & dad,"Wagga Wagga, New South Wales",NSW,AUS,"Eliminated 1st (in Delhi, India)",0
+AUS,7,AUS-S07-02,Bow Simpson,69,M,Son & dad,"Walgett, New South Wales",NSW,AUS,"Eliminated 1st (in Delhi, India)",0
+AUS,7,AUS-S07-03,Grant Denyer,45,M,Husband & wife,"Bathurst, New South Wales",NSW,AUS,"Eliminated 2nd (in Agra, India)",0
+AUS,7,AUS-S07-04,"Cheryl ""Chezzi"" Denyer",43,M,Husband & wife,"Bathurst, New South Wales",NSW,AUS,"Eliminated 2nd (in Agra, India)",0
+AUS,7,AUS-S07-05,Peter Rowsthorn,60,M,Dad & daughter,"Perth, Western Australia",WA,AUS,"Eliminated 3rd (in Langkawi, Malaysia)",0
+AUS,7,AUS-S07-06,Frankie Rowsthorn,20,M,Dad & daughter,"Perth, Western Australia",WA,AUS,"Eliminated 3rd (in Langkawi, Malaysia)",0
+AUS,7,AUS-S07-07,Ben Gillies,43,M,Husband & wife,"Newcastle, New South Wales",NSW,AUS,"Eliminated 4th (in George Town, Malaysia)",0
+AUS,7,AUS-S07-08,Jackie Gillies,42,M,Husband & wife,"Newcastle, New South Wales",NSW,AUS,"Eliminated 4th (in George Town, Malaysia)",0
+AUS,7,AUS-S07-09,George Mladenov,33,M,Siblings,"Bankstown, New South Wales",NSW,AUS,"Eliminated 5th (in George Town, Malaysia)",0
+AUS,7,AUS-S07-10,Pam Mladenov,24,M,Siblings,"Bankstown, New South Wales",NSW,AUS,"Eliminated 5th (in George Town, Malaysia)",0
+AUS,7,AUS-S07-11,"Rebecca ""Bec"" Judd",40,F,Sisters,"Melbourne, Victoria",VIC,AUS,"Eliminated 6th (in Siem Reap, Cambodia)",0
+AUS,7,AUS-S07-12,Kate Twigley,38,F,Sisters,"Perth, Western Australia",WA,AUS,"Eliminated 6th (in Siem Reap, Cambodia)",0
+AUS,7,AUS-S07-13,Jana Pittman,40,M,Mum & son,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Siem Reap, Cambodia)",0
+AUS,7,AUS-S07-14,"Cornelis ""Cor"" Rawlinson",16,M,Mum & son,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Siem Reap, Cambodia)",0
+AUS,7,AUS-S07-15,Harry Jowsey,26,M,Best mates,"Yeppoon, Queensland",QLD,AUS,"Eliminated 8th (in Siburan, Malaysia)",0
+AUS,7,AUS-S07-16,Teddy Briggs,29,M,Best mates,"Gold Coast, Queensland",QLD,AUS,"Eliminated 8th (in Siburan, Malaysia)",0
+AUS,7,AUS-S07-17,Alli Simpson,25,F,Daughter & mum,"Gold Coast, Queensland",QLD,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-18,Angie Simpson,52,F,Daughter & mum,"Gold Coast, Queensland",QLD,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-19,Emma Watkins,33,F,Sisters,"Sydney, New South Wales",NSW,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-20,Hayley Watkins,34,F,Sisters,"Sydney, New South Wales",NSW,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-21,Darren McMullen,41,M,Uncle & nephew,"Sydney, New South Wales",NSW,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,7,AUS-S07-22,Tristan Dougan,26,M,Uncle & nephew,"Sydney, New South Wales",NSW,AUS,"Winners (in Kuala Lumpur, Malaysia)",0
+AUS,8,AUS-S08-01,Luke McGregor,41,M,Son & Mum,"Hobart, Tasmania",TAS,AUS,"Eliminated 1st (in Buenos Aires, Argentina)",0
+AUS,8,AUS-S08-02,Julie McGregor,63,M,Son & Mum,"Hobart, Tasmania",TAS,AUS,"Eliminated 1st (in Buenos Aires, Argentina)",0
+AUS,8,AUS-S08-03,"Natalie ""Nat"" Bassingthwaighte",48,F,Sisters,"Wollongong, New South Wales",NSW,AUS,"Eliminated 2nd (in La Caldera, Argentina)",0
+AUS,8,AUS-S08-04,Mel Sheldrick,50,F,Sisters,"Wollongong, New South Wales",NSW,AUS,"Eliminated 2nd (in La Caldera, Argentina)",0
+AUS,8,AUS-S08-05,Cyrell Paule,35,M,Engaged,"Sydney, New South Wales",NSW,AUS,"Eliminated 3rd (in Tilcara, Argentina)",0
+AUS,8,AUS-S08-06,Eden Dally,31,M,Engaged,"Sydney, New South Wales",NSW,AUS,"Eliminated 3rd (in Tilcara, Argentina)",0
+AUS,8,AUS-S08-07,Jett Kenny,30,M,Dating,"Sunshine Coast, Queensland",QLD,AUS,"Eliminated 4th (in Johannesburg, South Africa)",0
+AUS,8,AUS-S08-08,Lily Brown,26,M,Dating,"Sunshine Coast, Queensland",QLD,AUS,"Eliminated 4th (in Johannesburg, South Africa)",0
+AUS,8,AUS-S08-09,Havana Brown,39,M,Besties,"Melbourne, Victoria",VIC,AUS,"Eliminated 5th (in Krugersdorp, South Africa)",0
+AUS,8,AUS-S08-10,Steph Dunstan-Wood,38,M,Besties,"Melbourne, Victoria",VIC,AUS,"Eliminated 5th (in Krugersdorp, South Africa)",0
+AUS,8,AUS-S08-11,Chloe Logarzo,29,M,Matildas Teammates,"Sydney, New South Wales",NSW,AUS,"Eliminated 6th (in Dorob National Park, Namibia)",0
+AUS,8,AUS-S08-12,Emily Gielnik,32,F,Matildas Teammates,"Brisbane, Queensland",QLD,AUS,"Eliminated 6th (in Dorob National Park, Namibia)",0
+AUS,8,AUS-S08-13,"Ian ""Thorpie"" Thorpe",41,M,Mates,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Usakos, Namibia)",0
+AUS,8,AUS-S08-14,Christian Miranda,38,M,Mates,"Sydney, New South Wales",NSW,AUS,"Eliminated 7th (in Usakos, Namibia)",0
+AUS,8,AUS-S08-15,Pete Helliar,48,M,Married,"Melbourne, Victoria",VIC,AUS,"Eliminated 8th (in Phuket, Thailand)",0
+AUS,8,AUS-S08-16,Bridget Helliar,44,M,Married,"Melbourne, Victoria",VIC,AUS,"Eliminated 8th (in Phuket, Thailand)",0
+AUS,8,AUS-S08-17,Brooke McClymont,43,M,Married Country Singers,"Grafton, New South Wales",NSW,AUS,Third place,0
+AUS,8,AUS-S08-18,Adam Eckersley,42,M,Married Country Singers,"Grafton, New South Wales",NSW,AUS,Third place,0
+AUS,8,AUS-S08-19,Billy Brownless,57,M,Dad & Son,"Geelong, Victoria",VIC,AUS,Runners-up,0
+AUS,8,AUS-S08-20,Oscar Brownless,24,M,Dad & Son,"Geelong, Victoria",VIC,AUS,Runners-up,0
+AUS,8,AUS-S08-21,"Tai ""Bam Bam"" Tuivasa",31,M,Brothers,"Western Sydney, New South Wales",NSW,AUS,Winners,0
+AUS,8,AUS-S08-22,Logan Tuivasa,35,M,Brothers,"Western Sydney, New South Wales",NSW,AUS,Winners,0
 CAN,1,CAN-S01-01,Treena Ley,36,F,Twin Sisters,"Hamilton, Ontario",ON,CAN,"Eliminated 1st (in Westbank, British Columbia)",0
 CAN,1,CAN-S01-02,Tennille Dorrington,36,F,Twin Sisters,"Hamilton, Ontario",ON,CAN,"Eliminated 1st (in Westbank, British Columbia)",0
 CAN,1,CAN-S01-03,Jamie Cumberland,47,M,Best Friends,"Airdrie, Alberta",AB,CAN,"Eliminated 2rd (in Vancouver, British Columbia)",0

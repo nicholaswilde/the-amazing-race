@@ -251,6 +251,66 @@ AUSTRALIAN_CITIES: dict[str, str] = {
     "Gold Coast": "QLD",
 }
 
+NEW_ZEALAND_REGIONS: dict[str, str] = {
+    "Auckland": "AUK",
+    "Canterbury": "CAN",
+    "Christchurch": "CAN",
+    "Wellington": "WGN",
+    "Waikato": "WKO",
+    "Hamilton": "WKO",
+    "Bay of Plenty": "BOP",
+    "Tauranga": "BOP",
+}
+
+KNOWN_CELEBRITY_HOMETOWNS: dict[str, tuple[str, str]] = {
+    # Australia Season 7 (Celebrity Edition)
+    "Dane Simpson": ("Wagga Wagga, New South Wales", "NSW"),
+    "Bow Simpson": ("Walgett, New South Wales", "NSW"),
+    "Grant Denyer": ("Bathurst, New South Wales", "NSW"),
+    'Cheryl "Chezzi" Denyer': ("Bathurst, New South Wales", "NSW"),
+    "Peter Rowsthorn": ("Perth, Western Australia", "WA"),
+    "Frankie Rowsthorn": ("Perth, Western Australia", "WA"),
+    "Ben Gillies": ("Newcastle, New South Wales", "NSW"),
+    "Jackie Gillies": ("Newcastle, New South Wales", "NSW"),
+    "George Mladenov": ("Bankstown, New South Wales", "NSW"),
+    "Pam Mladenov": ("Bankstown, New South Wales", "NSW"),
+    'Rebecca "Bec" Judd': ("Melbourne, Victoria", "VIC"),
+    "Kate Twigley": ("Perth, Western Australia", "WA"),
+    "Jana Pittman": ("Sydney, New South Wales", "NSW"),
+    'Cornelis "Cor" Rawlinson': ("Sydney, New South Wales", "NSW"),
+    "Harry Jowsey": ("Yeppoon, Queensland", "QLD"),
+    "Teddy Briggs": ("Gold Coast, Queensland", "QLD"),
+    "Alli Simpson": ("Gold Coast, Queensland", "QLD"),
+    "Angie Simpson": ("Gold Coast, Queensland", "QLD"),
+    "Emma Watkins": ("Sydney, New South Wales", "NSW"),
+    "Hayley Watkins": ("Sydney, New South Wales", "NSW"),
+    "Darren McMullen": ("Sydney, New South Wales", "NSW"),
+    "Tristan Dougan": ("Sydney, New South Wales", "NSW"),
+    # Australia Season 8 (Celebrity Edition)
+    "Luke McGregor": ("Hobart, Tasmania", "TAS"),
+    "Julie McGregor": ("Hobart, Tasmania", "TAS"),
+    'Natalie "Nat" Bassingthwaighte': ("Wollongong, New South Wales", "NSW"),
+    "Mel Sheldrick": ("Wollongong, New South Wales", "NSW"),
+    "Cyrell Paule": ("Sydney, New South Wales", "NSW"),
+    "Eden Dally": ("Sydney, New South Wales", "NSW"),
+    "Jett Kenny": ("Sunshine Coast, Queensland", "QLD"),
+    "Lily Brown": ("Sunshine Coast, Queensland", "QLD"),
+    "Havana Brown": ("Melbourne, Victoria", "VIC"),
+    "Steph Dunstan-Wood": ("Melbourne, Victoria", "VIC"),
+    "Chloe Logarzo": ("Sydney, New South Wales", "NSW"),
+    "Emily Gielnik": ("Brisbane, Queensland", "QLD"),
+    'Ian "Thorpie" Thorpe': ("Sydney, New South Wales", "NSW"),
+    "Christian Miranda": ("Sydney, New South Wales", "NSW"),
+    "Pete Helliar": ("Melbourne, Victoria", "VIC"),
+    "Bridget Helliar": ("Melbourne, Victoria", "VIC"),
+    "Brooke McClymont": ("Grafton, New South Wales", "NSW"),
+    "Adam Eckersley": ("Grafton, New South Wales", "NSW"),
+    "Billy Brownless": ("Geelong, Victoria", "VIC"),
+    "Oscar Brownless": ("Geelong, Victoria", "VIC"),
+    'Tai "Bam Bam" Tuivasa': ("Western Sydney, New South Wales", "NSW"),
+    "Logan Tuivasa": ("Western Sydney, New South Wales", "NSW"),
+}
+
 COUNTRY_INFO: dict[str, tuple[str, str]] = {
     "Argentina": ("ARG", "South America"),
     "Armenia": ("ARM", "Asia"),
@@ -510,6 +570,11 @@ def parse_hometown(
                 return AUSTRALIAN_CITIES[state_candidate], "AUS"
             if parts[0] in AUSTRALIAN_CITIES:
                 return AUSTRALIAN_CITIES[parts[0]], "AUS"
+            if state_candidate in ("New Zealand", "NZ"):
+                city = parts[0].strip()
+                if city in NEW_ZEALAND_REGIONS:
+                    return NEW_ZEALAND_REGIONS[city], "NZL"
+                return None, "NZL"
             iso, _ = resolve_country_and_continent(state_candidate)
             return None, iso or "AUS"
         else:
@@ -537,6 +602,8 @@ def parse_hometown(
                 return cand, "AUS"
             if cand in AUSTRALIAN_CITIES:
                 return AUSTRALIAN_CITIES[cand], "AUS"
+            if cand in NEW_ZEALAND_REGIONS:
+                return NEW_ZEALAND_REGIONS[cand], "NZL"
             iso, _ = resolve_country_and_continent(cand)
             return None, iso or "AUS"
         else:
@@ -973,7 +1040,7 @@ class DatasetBuilder:
             episodes_list = list(s.get("episodes", []))
 
             # If season has no episodes in raw scraped data, pull all matching episodes from master catalogue
-            if not episodes_list and season_num is not None:
+            if not episodes_list and season_num is not None and version == "US":
                 prefix = f"{season_num}_"
                 matching_master = [
                     v
@@ -983,7 +1050,7 @@ class DatasetBuilder:
                 matching_master.sort(key=lambda x: int(x.get("episode", 0)))
                 episodes_list = matching_master
 
-            for ep in episodes_list:
+            for ep_idx, ep in enumerate(episodes_list):
                 ep_num = ep.get("episode")
                 if ep_num is None or pd.isna(ep_num):
                     continue
@@ -992,8 +1059,55 @@ class DatasetBuilder:
                 air_date = ep.get("air_date")
                 viewers = ep.get("viewers_millions")
 
+                # Handle Australian episodes numbering, air dates, and viewership from raw_row
+                if version == "AUS" and ep.get("raw_row"):
+                    row = ep.get("raw_row", [])
+                    if season_num and season_num >= 4 and len(row) > 1:
+                        m_num = re.search(r"\d+", str(row[1]))
+                        if m_num:
+                            ep_num = int(m_num.group(0))
+                            title = f"Episode {ep_num}"
+                            if season_num == 4 and ep_idx == 12:
+                                title = "Grand Finale: Winner Announced"
+                    if not air_date or "-" not in str(air_date):
+                        for cell in row:
+                            m_dt = re.search(r"\d{1,2}\s+[A-Za-z]+\s+\d{4}", str(cell))
+                            if m_dt:
+                                try:
+                                    air_date = pd.to_datetime(m_dt.group(0)).strftime(
+                                        "%Y-%m-%d"
+                                    )
+                                    break
+                                except Exception as e:
+                                    logger.debug("Could not parse date %s: %s", cell, e)
+                    if viewers is None or pd.isna(viewers) or viewers > 50:
+                        if season_num == 1 and len(row) > 8:
+                            m_v = re.search(r"([\d,]+)", str(row[8]))
+                            if m_v:
+                                viewers = round(
+                                    int(m_v.group(1).replace(",", "")) / 1e6, 2
+                                )
+                        elif season_num == 2 and len(row) > 7:
+                            m_v = re.search(r"([\d,]+)", str(row[7]))
+                            if m_v:
+                                viewers = round(
+                                    int(m_v.group(1).replace(",", "")) / 1e6, 2
+                                )
+                        elif season_num == 3 and len(row) > 8:
+                            m_v = re.search(r"([\d,]+)", str(row[8]))
+                            if m_v:
+                                viewers = round(
+                                    int(m_v.group(1).replace(",", "")) / 1e6, 2
+                                )
+                        elif season_num in (4, 5, 6, 7, 8) and len(row) > 4:
+                            m_v = re.search(r"([\d,]+)", str(row[4]))
+                            if m_v:
+                                viewers = round(
+                                    int(m_v.group(1).replace(",", "")) / 1e6, 2
+                                )
+
                 # Fallback to master episode catalogue if air date is missing
-                if not air_date and season_num is not None:
+                if not air_date and season_num is not None and version == "US":
                     key = f"{season_num}_{ep_num}"
                     if key in master_episodes:
                         air_date = master_episodes[key].get("air_date")
@@ -1057,7 +1171,7 @@ class DatasetBuilder:
             version = s.get("version", "US")
             contestants = s.get("contestants", [])
             results = s.get("results", [])
-            group_size = 4 if season_num == 8 else 2
+            group_size = 4 if (version == "US" and season_num == 8) else 2
 
             for idx, c in enumerate(contestants, start=1):
                 name = c.get("name", "")
@@ -1107,11 +1221,14 @@ class DatasetBuilder:
 
                 # Celebrity editions without explicit hometown
                 if (
-                    (not hometown or pd.isna(hometown))
+                    (not hometown or pd.isna(hometown) or hometown == "Australia")
                     and version == "AUS"
                     and season_num in (7, 8)
                 ):
-                    hometown = "Australia"
+                    if name in KNOWN_CELEBRITY_HOMETOWNS:
+                        hometown, _ = KNOWN_CELEBRITY_HOMETOWNS[name]
+                    elif not hometown or pd.isna(hometown):
+                        hometown = "Australia"
 
                 gender = self.resolve_contestant_gender(
                     season_num, name, rel, c.get("gender")
@@ -1210,7 +1327,7 @@ class DatasetBuilder:
                 matched_genders: list[str] = []
 
                 # Season 8 (Family Edition): 4-member families
-                if season_num == 8:
+                if version == "US" and season_num == 8:
                     rel = "Family Team (4 members)"
                     fam_name = team_name.replace(" Family", "").strip()
                     for c in contestants:
@@ -1225,7 +1342,7 @@ class DatasetBuilder:
                                     c.get("gender"),
                                 )
                             )
-                elif season_num == 29:
+                elif version == "US" and season_num == 29:
                     rel = "Strangers (Paired at Starting Line)"
                     # Match hometown from contestants
                     parts = [
@@ -1260,22 +1377,47 @@ class DatasetBuilder:
                     ]
                     all_parts = [p for p in (parts + parts_clean) if p]
                     for p in parts:
+                        found_valid = False
                         for c in contestants:
                             c_name = c.get("name", "").replace('"', "").replace("'", "")
                             if any(
                                 part.lower() in c_name.lower() for part in all_parts
                             ):
-                                rel = c.get("relationship")
-                                hometown = c.get("hometown")
-                                matched_genders.append(
-                                    self.resolve_contestant_gender(
-                                        season_num,
-                                        c_name,
-                                        c.get("relationship"),
-                                        c.get("gender"),
+                                c_rel = c.get("relationship")
+                                c_home = c.get("hometown")
+                                if (
+                                    c_rel
+                                    and "returned to competition"
+                                    not in str(c_rel).lower()
+                                ):
+                                    rel = c_rel
+                                    found_valid = True
+                                if (
+                                    c_home
+                                    and "returned to competition"
+                                    not in str(c_home).lower()
+                                ):
+                                    hometown = c_home
+                                    found_valid = True
+                                elif (
+                                    version == "AUS"
+                                    and season_num in (7, 8)
+                                    and c.get("name") in KNOWN_CELEBRITY_HOMETOWNS
+                                ):
+                                    hometown = KNOWN_CELEBRITY_HOMETOWNS[c["name"]][0]
+                                    found_valid = True
+                                if found_valid:
+                                    matched_genders.append(
+                                        self.resolve_contestant_gender(
+                                            season_num,
+                                            c_name,
+                                            c.get("relationship"),
+                                            c.get("gender"),
+                                        )
                                     )
-                                )
-                                break
+                                    break
+                        if found_valid:
+                            break
 
                 if (
                     (not hometown or pd.isna(hometown))
