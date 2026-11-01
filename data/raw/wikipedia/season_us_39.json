@@ -3,15 +3,15 @@
   "season": 39,
   "wiki_title": "The_Amazing_Race_39",
   "wiki_url": "https://en.wikipedia.org/wiki/The_Amazing_Race_39",
-  "wiki_revid": 1381399916,
-  "wiki_timestamp": "2026-10-22T05:27:05Z",
+  "wiki_revid": 1383035219,
+  "wiki_timestamp": "2026-10-31T17:06:56Z",
   "infobox": {
     "n_teams": 13,
     "n_legs": 12,
     "distance_raw": "25,000 mi (40,000 km)",
     "distance_miles": 25000.0,
     "distance_km": 40000.0,
-    "n_episodes": 5,
+    "n_episodes": 6,
     "air_dates": "September 30, 2026 (2026-09-30) \u2013present",
     "filming_dates": "September 22 (2025-09-22) \u2013October 17, 2025 (2025-10-17)"
   },
@@ -255,8 +255,8 @@
         },
         {
           "leg_label": "6 +",
-          "raw_cell": "",
-          "placement": null,
+          "raw_cell": "1st \u025b",
+          "placement": 1,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -380,8 +380,8 @@
         },
         {
           "leg_label": "6 +",
-          "raw_cell": "",
-          "placement": null,
+          "raw_cell": "2nd",
+          "placement": 2,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -505,383 +505,8 @@
         },
         {
           "leg_label": "6 +",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Ann-Marie & Riley",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "7th",
-          "placement": 7,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "4th",
-          "placement": 4,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "1st \u025b",
-          "placement": 1,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "7th",
-          "placement": 7,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "4th",
-          "placement": 4,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6 +",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Ali & Joanna",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "10th",
-          "placement": 10,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "1st",
-          "placement": 1,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "3rd",
+          "raw_cell": "3rd \u025b",
           "placement": 3,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "8th",
-          "placement": 8,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "5th \u025b",
-          "placement": 5,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6 +",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "7",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "8",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "9",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "10",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "11",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "12",
-          "raw_cell": "",
-          "placement": null,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        }
-      ]
-    },
-    {
-      "team_name": "Doug & Dylan",
-      "placements": [
-        {
-          "leg_label": "1",
-          "raw_cell": "4th \u025b",
-          "placement": 4,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "2",
-          "raw_cell": "10th",
-          "placement": 10,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "3",
-          "raw_cell": "10th",
-          "placement": 10,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "4",
-          "raw_cell": "9th",
-          "placement": 9,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "5",
-          "raw_cell": "6th",
-          "placement": 6,
-          "is_non_elimination": false,
-          "fast_forward": false,
-          "uturn": false,
-          "yield": false,
-          "speed_bump": false
-        },
-        {
-          "leg_label": "6 +",
-          "raw_cell": "",
-          "placement": null,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -1005,8 +630,8 @@
         },
         {
           "leg_label": "6 +",
-          "raw_cell": "",
-          "placement": null,
+          "raw_cell": "4th",
+          "placement": 4,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -1130,8 +755,383 @@
         },
         {
           "leg_label": "6 +",
+          "raw_cell": "5th",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
           "raw_cell": "",
           "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Ann-Marie & Riley",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "1st \u025b",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "4th",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6 +",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Ali & Joanna",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "10th",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "1st",
+          "placement": 1,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "3rd",
+          "placement": 3,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "8th",
+          "placement": 8,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "5th \u025b",
+          "placement": 5,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6 +",
+          "raw_cell": "7th",
+          "placement": 7,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "7",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "8",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "9",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "10",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "11",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "12",
+          "raw_cell": "",
+          "placement": null,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        }
+      ]
+    },
+    {
+      "team_name": "Doug & Dylan",
+      "placements": [
+        {
+          "leg_label": "1",
+          "raw_cell": "4th \u025b",
+          "placement": 4,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "2",
+          "raw_cell": "10th",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "3",
+          "raw_cell": "10th",
+          "placement": 10,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "4",
+          "raw_cell": "9th",
+          "placement": 9,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "5",
+          "raw_cell": "6th",
+          "placement": 6,
+          "is_non_elimination": false,
+          "fast_forward": false,
+          "uturn": false,
+          "yield": false,
+          "speed_bump": false
+        },
+        {
+          "leg_label": "6 +",
+          "raw_cell": "8th \u2021",
+          "placement": 8,
           "is_non_elimination": false,
           "fast_forward": false,
           "uturn": false,
@@ -1828,129 +1828,143 @@
   ],
   "episodes": [
     {
-      "episode": 1,
+      "episode": 443,
       "title": "Sorry Guys, We Used Our Express Pass",
       "air_date": "2026-09-30",
       "viewers_millions": 2.83,
       "raw_row": [
+        "443",
         "1",
         "\"Sorry Guys, We Used Our Express Pass\"",
         "September 30, 2026 ( 2026-09-30 )",
-        "0.4/6",
         "2.83",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        ""
+        "0.4/6"
       ]
     },
     {
-      "episode": 2,
+      "episode": 444,
       "title": "Are Tomatoes Good for Skin Care?",
       "air_date": "2026-10-01",
       "viewers_millions": 2.11,
       "raw_row": [
+        "444",
         "2",
         "\"Are Tomatoes Good for Skin Care?\"",
         "October 1, 2026 ( 2026-10-01 )",
-        "0.3/4",
         "2.11",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        ""
+        "0.3/4"
       ]
     },
     {
-      "episode": 3,
+      "episode": 445,
       "title": "This Is Sick and Twisted",
       "air_date": "2026-10-07",
       "viewers_millions": 2.5,
       "raw_row": [
+        "445",
         "3",
         "\"This Is Sick and Twisted\"",
         "October 7, 2026 ( 2026-10-07 )",
-        "0.3/4",
         "2.50",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        ""
+        "0.3/4"
       ]
     },
     {
-      "episode": 4,
+      "episode": 446,
       "title": "Deception and Sleight of Hand",
       "air_date": "2026-10-14",
-      "viewers_millions": null,
+      "viewers_millions": 2.59,
       "raw_row": [
+        "446",
         "4",
         "\"Deception and Sleight of Hand\"",
         "October 14, 2026 ( 2026-10-14 )",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        ""
+        "2.59",
+        "0.4/6"
       ]
     },
     {
-      "episode": 5,
+      "episode": 447,
       "title": "That's Honestly on Them",
       "air_date": "2026-10-21",
-      "viewers_millions": null,
+      "viewers_millions": 2.65,
       "raw_row": [
+        "447",
         "5",
         "\"That's Honestly on Them\"",
         "October 21, 2026 ( 2026-10-21 )",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        ""
+        "2.65",
+        "0.4/6"
       ]
     },
     {
-      "episode": 6,
+      "episode": 448,
       "title": "A Fine Line Between Confidence and Stupidity",
       "air_date": "2026-10-28",
       "viewers_millions": null,
       "raw_row": [
+        "448",
         "6",
         "\"A Fine Line Between Confidence and Stupidity\"",
         "October 28, 2026 ( 2026-10-28 )",
         "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        "TBD",
-        ""
+        "TBA"
       ]
     },
     {
-      "episode": 7,
+      "episode": 449,
       "title": "The Amazing Nightmare",
       "air_date": "2026-11-04",
       "viewers_millions": null,
       "raw_row": [
+        "449",
         "7",
         "\"The Amazing Nightmare\"",
         "November 4, 2026 ( 2026-11-04 )",
         "TBD",
+        "TBA"
+      ]
+    },
+    {
+      "episode": 450,
+      "title": "Million Dollar Moves",
+      "air_date": "2026-11-11",
+      "viewers_millions": null,
+      "raw_row": [
+        "450",
+        "8",
+        "\"Million Dollar Moves\"",
+        "November 11, 2026 ( 2026-11-11 )",
         "TBD",
+        "TBA"
+      ]
+    },
+    {
+      "episode": 451,
+      "title": "A Double-Edged Sword with an Alliance",
+      "air_date": "2026-11-18",
+      "viewers_millions": null,
+      "raw_row": [
+        "451",
+        "9",
+        "\"A Double-Edged Sword with an Alliance\"",
+        "November 18, 2026 ( 2026-11-18 )",
         "TBD",
+        "TBA"
+      ]
+    },
+    {
+      "episode": 452,
+      "title": "We're Not Their Friends",
+      "air_date": "2026-11-25",
+      "viewers_millions": null,
+      "raw_row": [
+        "452",
+        "10",
+        "\"We're Not Their Friends\"",
+        "November 25, 2026 ( 2026-11-25 )",
         "TBD",
-        "TBD",
-        "TBD",
-        ""
+        "TBA"
       ]
     }
   ],
@@ -2080,15 +2094,15 @@
       "tasks": [
         {
           "task_type": "Roadblock",
-          "description": "In this leg's first Roadblock, one team member had to harvest grapes and grind them using a manual grape crusher to produce must, used to make raki, to receive their next clue. Ali & Joanna used their Express Pass to bypass this task. Teams encountered a Driver's Seat at the Roadblock, where the first team to arrive at the board determined how many pounds of must racers had to produce. Michelle & Matt took control of the Driver's Seat and publicly assigned 50 pounds to themselves, Ann-Marie & Riley, and Erin & Javi; 75 pounds to Conner & Garrett, Dafina & Saran, and Daisha & Dalton; and 100 pounds to Ali & Joanna, Anuar & Andrea, and Doug & Dylan."
+          "description": "In this leg's first Roadblock, one team member had to harvest grapes and grind them using a manual grape crusher to produce must, used to make raki, to receive their next clue. Teams encountered a Driver's Seat at the Roadblock, where the first team to arrive determined how many pounds of must racers had to produce. Michelle & Matt publicly assigned 50 pounds to themselves, Ann-Marie & Riley, and Erin & Javi; 75 pounds to Conner & Garrett, Dafina & Saran, and Daisha & Dalton; and 100 pounds to Ali & Joanna, Anuar & Andrea, and Doug & Dylan."
         },
         {
           "task_type": "Roadblock",
-          "description": "After the first Roadblock, teams had to drive to Instituti i Artit Kulinar Royal to find their next clue."
+          "description": "After the first Roadblock, teams had to drive to Instituti i Artit Kulinar Royal to find their next clue. Ali & Joanna used their Express Pass to bypass this task."
         },
         {
           "task_type": "Roadblock",
-          "description": "In this leg's second Roadblock, one team member had to roll out dough for byrek breakfast pastries to receive their next clue; teams could have the same person do both Roadblocks. Teams encountered a second Driver's Seat at the Roadblock, where the first team to arrive at the board determined how many pastries racers had to roll. Michelle & Matt took control of the Driver's Seat and publicly assigned eight pastries to themselves; twelve pastries to Ann-Marie & Riley, Dafina & Saran, and Doug & Dylan; and sixteen pastries to Ali & Joanna, Anuar & Andrea, Conner & Garrett, Daisha & Dalton, and Erin & Javi."
+          "description": "In this leg's second Roadblock, one team member had to roll out dough for byrek breakfast pastries to receive their next clue; teams could have the same person do both Roadblocks. Teams encountered a second Driver's Seat at the Roadblock, where the first team to arrive determined how many pastries racers had to roll. Michelle & Matt publicly assigned eight pastries to themselves; twelve pastries to Ann-Marie & Riley, Dafina & Saran, and Doug & Dylan; and sixteen pastries to Ali & Joanna, Anuar & Andrea, Conner & Garrett, Daisha & Dalton, and Erin & Javi."
         },
         {
           "task_type": "Roadblock",
@@ -2100,19 +2114,42 @@
       "leg_number": 6,
       "route_header": "Albania",
       "itinerary": [
-        "Tirana",
-        ""
+        "Tirana (Skanderbeg Square)",
+        "Tirana (Pyramid of Tirana)",
+        "Tirana (Jurgen Resort)",
+        "Tirana (St. Paul's Cathedral)",
+        "Tirana (Millennium Business Center \u2013 Albanian Night or Resurrection Cathedral)",
+        "Tirana (National Martyrs' Cemetery of Albania \u2013 Mother Albania)",
+        "This was a non-elimination leg."
       ],
-      "narrative": "",
-      "tasks": []
+      "narrative": "At the start of this leg, teams were instructed to travel on foot to the Pyramid of Tirana and climb to the top to receive their next clue. Teams then had to drive to Jurgen Resort to find their next clue. Teams encountered an Intersection, which required two teams to mutually join together to complete the following task. The teams were paired up thusly: Michelle & Matt and Daisha & Dalton; Conner & Garrett and Anuar & Andrea; Ann-Marie & Riley and Ali & Joanna; and Doug & Dylan and Erin & Javi.",
+      "tasks": [
+        {
+          "task_type": "Roadblock",
+          "description": "In this leg's Roadblock, one member from each of the newly-joined teams had to perform an Albanian wedding dance called Vallja e Tropoj\u00ebs to receive their next clue. Express Passes could not be used on this task unless both teams had one. After this task, teams were no longer joined."
+        },
+        {
+          "task_type": "Roadblock",
+          "description": "After the Roadblock, teams had to drive to St. Paul's Cathedral and find their next clue by a statue of Mother Teresa."
+        },
+        {
+          "task_type": "Detour",
+          "description": "This leg's Detour was a choice between Heads or Tales. In Heads, teams had to construct two qeleshe hats to receive their next clue. Michelle & Matt used their Express Pass to bypass this task. In Tales, teams had to memorize and recite a verse from Naim Frash\u00ebri's epic poem about Skanderbeg, Histori e Sk\u00ebnderbeut, in Albanian and English to receive their next clue. Conner & Garrett used their Express Pass to bypass this task."
+        },
+        {
+          "task_type": "Detour",
+          "description": "After the Detour, teams had to check in at the Pit Stop: the Mother Albania statue."
+        }
+      ]
     },
     {
       "leg_number": 7,
       "route_header": "Albania \u2192 Sri Lanka",
       "itinerary": [
-        "Colombo, Sri Lanka"
+        "Tirana (Tirana International Airport N\u00ebn\u00eb Tereza) \u2192 Colombo, Sri Lanka (Bandaranaike International Airport)",
+        "Negombo (Kuttiduwa Beach)"
       ],
-      "narrative": "",
+      "narrative": "During the Pit Stop, teams had to book a flight to Colombo, Sri Lanka, using a mobile app. Once there, teams had to travel by taxi to Kuttiduwa Beach, where Phil Keoghan surprised them with a Live Double U-Turn Vote. Teams encountered a Live Double U-Turn Vote. Each team voted for two teams, with the top two vote recipients penalized with a U-Turn. The teams' votes, as well as the voting order, were as follows:",
       "tasks": []
     },
     {
