@@ -222,12 +222,11 @@ __marimo__/
 # Pytest
 .pytest_cache/
 
-.codegraph
-
-# Serena
-.serena/cache/
-.serena/logs/
-.serena/project.local.yml
+# Agent tooling & caches
+.codegraph/
+.serena/
+.rtk/*
+!.rtk/filters.toml
 
 # Agent hygiene
 .agents/*

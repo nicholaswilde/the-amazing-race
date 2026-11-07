@@ -44,6 +44,7 @@ Agents can invoke the following skills located in `.agents/skills/`:
 - **GitHub CLI**: Prefix `gh` commands with `rtk` and always pipe to `cat` to bypass interactive prompts and terminal pagers (e.g., `rtk gh issue list | cat`, `rtk gh pr status | cat`).
 - **File & Directory Inspection**: Use `rtk ls`, `rtk tree`, `rtk find`, or `rtk read` when listing or reading files to get token-optimized output.
 - **Searching**: Use `rtk rg` (ripgrep) as the primary pattern and text search utility. Avoid raw `grep` or `find | xargs`. Leverage `-t py`, `-l`, and path scoping to conserve tokens.
+- **Ripwire**: Prefix `ripwire` commands with `rtk` (e.g., `rtk ripwire . --doctor`, `rtk ripwire . --report`, `rtk ripwire . --for="<task>"`).
 - **Build & Test Outputs**: Use `rtk err` or `rtk test` when running build/test commands to filter output to errors/failures only (e.g. `rtk test uv run pytest`).
 - **Exceptions**: Inside `ctx_execute` / `ctx_batch_execute` sandbox code, skip `rtk` (only printed output enters context). Drop `rtk` when exact raw bytes or patch required (`git diff` patch).
 <!-- rtk-end -->
@@ -128,6 +129,16 @@ Use Headroom (`headroom`) MCP tools to manage context window consumption on larg
 - `headroom_stats`: Monitor headroom cache usage.
 <!-- headroom-end -->
 
+<!-- ripwire-begin -->
+## Ripwire CLI Codebase Navigation & Analysis
+Use `ripwire` CLI binary (prefixed with `rtk ripwire`) for AST codebase mapping, call graphs, blast radius, and structural queries:
+- **Architecture summary**: `rtk ripwire . --report`
+- **Task bundle**: `rtk ripwire . --pack-task="<task>" --legend=compact`
+- **Blast radius**: `rtk ripwire . --impact=SYM --legend=compact`
+- **Callers / Callees**: `rtk ripwire . --callers=SYM --legend=compact` / `rtk ripwire . --callees=SYM --legend=compact`
+- **Symbol edit**: `rtk ripwire . --replace-symbol-body=SYM --edit-payload=FILE|-`
+<!-- ripwire-end -->
+
 <!-- ripgrep-guidelines-begin -->
 ## Ripgrep Guidelines
 - **Pattern Searching**: Always use `rg` (ripgrep) or `rtk rg` instead of standard `grep` to search text inside files quickly and save token output.
@@ -139,6 +150,13 @@ Use Headroom (`headroom`) MCP tools to manage context window consumption on larg
 - **Format**: Run `taplo fmt` to format TOML files in-place (`pyproject.toml`).
 - **Validation**: Run `taplo lint` to validate TOML syntax and schema.
 <!-- taplo-rules-end -->
+
+<!-- uv-rules-begin -->
+## Python Tooling & Execution with `uv`
+Always use `uv` to manage Python dependencies, run workflows, execute scripts, and invoke CLI tools:
+- Prefix all Python commands and scripts with `uv run` or `rtk uv run` (e.g., `rtk uv run pytest`, `rtk uv run tar-dataset <cmd>`). Never run bare `python`, `pip`, or bare `uv`.
+- Always keep `uv.lock` and `pyproject.toml` up-to-date and in sync whenever project dependencies or configurations change. Run `uv lock` or `uv sync` after modifying dependencies.
+<!-- uv-rules-end -->
 
 <!-- issue-management-begin -->
 ## GitHub Issue Management
